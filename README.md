@@ -58,8 +58,8 @@ using a flag.
   `flags/progress-pride.kdl` in the Vexyl repo. Some flags here build on that design, so the
   same terms may apply to them.
 - **Symbols of organized hatred:** flags of the Nazi party and its organizations, Germany's
-  state flags from 1933 to 1945, and neo-Nazi and similar groups, some of which are illegal to
-  display in some countries. This is a judgment call about what this collection publishes,
+  state flags from 1933 to 1945, neo-Nazi and similar groups, and the Confederate States of
+  America. Some are illegal to display in some countries. This is a judgment call about what this collection publishes,
   rather than a claim about their history. They were found by name, and by looking through
   the German and period flags. Other families weren't all viewed, so some could remain, and
   corrections are welcome.

@@ -19,7 +19,7 @@ charge svg {
   fly 347.6141
   hoist 230.2808
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 347.6141 230.2808"><ellipse cx="174.10286" rx="54.037315" cy="115.32968" ry="54.037308" stroke-dashoffset="3.29999995" fill-opacity="1" stroke-width="0.87774652" stroke-miterlimit="4" fill-rule="evenodd" stroke-linecap="square" stroke-opacity="1" stroke-dasharray="none" stroke="#f7d517" fill="#f7d517" transform="matrix(1 0 0 1 -0.592935 -0.592937)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 347.6141 230.2808"><ellipse ry="54.037308" cx="174.10286" rx="54.037315" cy="115.32968" stroke="#f7d517" fill-opacity="1" stroke-opacity="1" fill="#f7d517" stroke-dasharray="none" stroke-linecap="square" stroke-width="0.87774652" stroke-dashoffset="3.29999995" stroke-miterlimit="4" fill-rule="evenodd" transform="matrix(1 0 0 1 -0.592935 -0.592937)"/></svg>
 """#
 }
 

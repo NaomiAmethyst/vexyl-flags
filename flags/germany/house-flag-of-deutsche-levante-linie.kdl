@@ -25,10 +25,8 @@ pile white {
   depth 1200
 }
 
-charge path black {
-  d "M665.4545 800A534.5455 360 0 1 0 1734.5455 800A534.5455 360 0 1 0 665.4545 800Z"
-  box "130.909 440 2138.182 720"
-  fly 2138.182
+charge ellipse black {
+  fly 1069.091
   hoist 720
   at fly=1200 hoist=800
 }

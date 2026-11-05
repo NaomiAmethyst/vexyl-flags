@@ -19,37 +19,28 @@ bars red white blue white blue white green {
   ratio 60 20.8449 7.5 29.5109 7.5 24.7419 59.9023
 }
 
-charge path blue {
-  d "M103.4388 104.4344A40.5647 39.8416 0 1 0 184.5682 104.4344A40.5647 39.8416 0 1 0 103.4388 104.4344Z"
-  box "62.8741 64.5928 162.2588 79.6832"
-  fly 162.2588
+charge ellipse blue {
+  fly 81.1294
   hoist 79.6832
   at fly=144.0035 hoist=104.4344
 }
 
-charge path red {
-  d "M106.9459 103.8912A37.0411 35.8762 0 1 0 181.0282 103.8912A37.0411 35.8762 0 1 0 106.9459 103.8912Z"
-  box "69.9047 68.015 148.1646 71.7523"
-  fly 148.1646
+charge ellipse red {
+  fly 74.0823
   hoist 71.7523
   at fly=143.987 hoist=103.8912
 }
 
-charge path white {
-  d "M110.4312 98.4354A1.3189 1.3189 0 1 0 113.0691 98.4354A1.3189 1.3189 0 1 0 110.4312 98.4354Z"
-  box "109.1123 97.1164 5.2758 2.6379"
-  fly 5.2758
-  hoist 2.6379
+charge disc white {
+  radius 1.3189
   at fly=111.7502 hoist=98.4354
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(0.163041 0.091561 -0.106195 0.189099 98.748015 57.283525)"/></svg>
-"""#
+charge ellipse white {
+  fly 3.1816
+  hoist 4.6626
+  rotate 29.3179
+  at fly=113.9048 hoist=91.4668
 }
 
 charge path red {
@@ -60,13 +51,11 @@ charge path red {
   at fly=113.9026 hoist=91.4655
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(0.119833 -0.143548 0.16649 0.138985 89.501652 138.48488)"/></svg>
-"""#
+charge ellipse white {
+  fly 4.6626
+  hoist 3.1816
+  rotate 39.8551
+  at fly=125.8803 hoist=129.8349
 }
 
 charge path red {
@@ -77,13 +66,11 @@ charge path red {
   at fly=125.8786 hoist=129.8369
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(-0.001981 -0.186981 0.216865 -0.002298 121.94419 101.79107)"/></svg>
-"""#
+charge ellipse white {
+  fly 4.6626
+  hoist 3.1816
+  rotate -0.6071
+  at fly=144.0089 hoist=71.6021
 }
 
 charge path red {
@@ -94,13 +81,11 @@ charge path red {
   at fly=144.0038 hoist=71.6047
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(0.102571 -0.156349 0.181337 0.118964 126.3665 88.94917)"/></svg>
-"""#
+charge ellipse white {
+  fly 4.6626
+  hoist 3.1816
+  rotate 33.2663
+  at fly=161.5123 hoist=76.1821
 }
 
 charge path red {
@@ -111,13 +96,11 @@ charge path red {
   at fly=161.5109 hoist=76.1843
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(0.153765 -0.106406 0.123412 0.17834 135.30006 85.30556)"/></svg>
-"""#
+charge ellipse white {
+  fly 3.1816
+  hoist 4.6626
+  rotate -34.6833
+  at fly=172.6681 hoist=86.6669
 }
 
 charge path red {
@@ -128,10 +111,8 @@ charge path red {
   at fly=172.666 hoist=86.6684
 }
 
-charge path white {
-  d "M176.1648 101.7534A1.5908 2.3313 0 1 0 179.3463 101.7534A1.5908 2.3313 0 1 0 176.1648 101.7534Z"
-  box "174.574 99.4221 6.3631 4.6626"
-  fly 6.3631
+charge ellipse white {
+  fly 3.1816
   hoist 4.6626
   at fly=177.7555 hoist=101.7534
 }
@@ -144,13 +125,11 @@ charge path red {
   at fly=177.7529 hoist=101.7479
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(-0.144438 -0.118758 0.137738 -0.167523 181.59167 156.24276)"/></svg>
-"""#
+charge ellipse white {
+  fly 3.1816
+  hoist 4.6626
+  rotate 39.4272
+  at fly=172.6703 hoist=119.9298
 }
 
 charge path red {
@@ -161,13 +140,11 @@ charge path red {
   at fly=172.6723 hoist=119.9314
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(-0.008371 -0.186804 0.21666 -0.009709 123.56011 166.40451)"/></svg>
-"""#
+charge ellipse white {
+  fly 4.6626
+  hoist 3.1816
+  rotate -2.5658
+  at fly=144.5801 hoist=135.4791
 }
 
 charge path red {
@@ -178,13 +155,11 @@ charge path red {
   at fly=144.5761 hoist=135.4817
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(-0.083436 -0.167345 0.19409 -0.096771 154.69836 167.83835)"/></svg>
-"""#
+charge ellipse white {
+  fly 4.6626
+  hoist 3.1816
+  rotate -26.5002
+  at fly=161.3647 hoist=131.0445
 }
 
 charge path red {
@@ -195,10 +170,8 @@ charge path red {
   at fly=161.3659 hoist=131.0469
 }
 
-charge path white {
-  d "M109.3783 104.9174A1.5908 2.3313 0 1 0 112.5598 104.9174A1.5908 2.3313 0 1 0 109.3783 104.9174Z"
-  box "107.7875 102.5861 6.3631 4.6626"
-  fly 6.3631
+charge ellipse white {
+  fly 3.1816
   hoist 4.6626
   at fly=110.969 hoist=104.9174
 }
@@ -211,13 +184,11 @@ charge path red {
   at fly=110.9664 hoist=104.9119
 }
 
-charge svg {
-  at center
-  fly 297
-  hoist 210
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(0.126252 0.137936 -0.159981 0.14643 120.97117 40.686752)"/></svg>
-"""#
+charge ellipse white {
+  fly 4.6626
+  hoist 3.1816
+  rotate -42.4677
+  at fly=124.6837 hoist=77.8948
 }
 
 charge path red {
@@ -228,11 +199,41 @@ charge path red {
   at fly=124.682 hoist=77.8929
 }
 
+charge ellipse white {
+  fly 3.1816
+  hoist 4.6626
+  rotate -34.2647
+  at fly=115.568 hoist=120.0447
+}
+
+charge path red {
+  d "M114.0656 118.2819L114.2461 118.0985L114.4732 118.0042L117.0661 121.8103C117.0661 121.8103 116.9664 121.9221 116.906 121.9647C116.8309 122.0178 116.6585 122.088 116.6585 122.088Z"
+  box "114.0656 118.0042 3.0006 4.0838"
+  fly 3.0006
+  hoist 4.0838
+  at fly=115.5658 hoist=120.0461
+}
+
+charge disc white {
+  radius 1.3189
+  at fly=111.4542 hoist=113.0061
+  at fly=120.3423 hoist=125.9856
+  at fly=134.1683 hoist=134.0272
+  at fly=153.4964 hoist=134.4505
+  at fly=168.0278 hoist=126.1267
+  at fly=176.2105 hoist=111.031
+  at fly=176.0694 hoist=93.5369
+  at fly=167.8867 hoist=81.4039
+  at fly=119.2137 hoist=84.3666
+  at fly=153.6375 hoist=71.9515
+  at fly=133.0397 hoist=72.939
+}
+
 charge svg {
   at center
   fly 297
   hoist 210
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><ellipse cx="160.18599" rx="8.5072012" cy="103.20752" ry="10.749411" fill-opacity="1" stroke-width="0.264583" fill="#ffffff" transform="matrix(0.154539 -0.105279 0.122105 0.179237 78.210894 118.41033)"/><path d="m 158.85309,92.590012 1.3502,-0.230177 1.28769,0.230177 v 21.235028 c 0,0 -0.77756,0.16692 -1.1726,0.17263 -0.49176,0.007 -1.46529,-0.17263 -1.46529,-0.17263 z" fill-opacity="1" stroke-width="0.232055" fill="#ee3224" transform="matrix(0.154539 -0.105279 0.122105 0.179237 78.210894 118.41033)"/><ellipse cx="111.45422" rx="1.318946" cy="113.00611" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="120.34235" rx="1.318946" cy="125.9856" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="134.1683" rx="1.318946" cy="134.02722" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="153.49644" rx="1.318946" cy="134.45047" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="168.02783" rx="1.318946" cy="126.12669" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="176.21054" rx="1.318946" cy="111.03097" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="176.06944" rx="1.318946" cy="93.536896" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="167.88672" rx="1.318946" cy="81.403908" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="119.2137" rx="1.318946" cy="84.366608" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="153.63753" rx="1.318946" cy="71.951454" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="133.03966" rx="1.318946" cy="72.939026" ry="1.3189462" fill-opacity="1" stroke-width="0.112007" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m 137.83642,123.30505 8.04163,-6.50738 8.46488,7.49494 c 0,0 -1.74747,3.53777 -5.43163,4.72623 -3.94983,1.27416 -9.80515,-0.21162 -9.80515,-0.21162 z" stroke-linejoin="miter" stroke-width="0.264583px" stroke-linecap="butt" stroke-opacity="1" stroke="#ffffff" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m 133.32826,89.976081 c 4.99812,-3.907096 5.3009,7.758085 3.75228,13.863939 l 8.54637,13.32948" stroke-linejoin="miter" stroke-width="0.900238" stroke-miterlimit="4" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 124.98984,104.00126 4.65562,5.31987 9.3289,13.08149" stroke-linejoin="miter" stroke-width="0.900238" stroke-miterlimit="4" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 124.50341,100.37405 c 0,0 -2.92142,0.73368 -2.84895,4.35262 0.0549,2.73865 13.06352,-10.236761 13.06352,-10.236761" stroke-linejoin="miter" stroke-width="0.900238" stroke-miterlimit="4" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 133.32826,89.976081 c 0,0 -2.30071,-1.242618 -2.22825,2.376318 0.0549,2.738651 5.48944,0.483596 5.48944,0.483596" stroke-linejoin="miter" stroke-width="0.900238" stroke-miterlimit="4" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><rect width="1.4191265" y="-51.192749" height="6.2730942" x="160.80206" transform="matrix(0.653678 0.756773 -0.701111 0.713052 0 0)" ry="0.70393777" stroke-width="0.901734" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none"/><path d="m 253.66871,104.88306 c -0.29562,0.36806 -4.49469,-0.27977 -4.66563,-0.71981 -0.17094,-0.44005 2.48962,-3.75263 2.95619,-3.68065 0.46656,0.072 2.00506,4.03239 1.70944,4.40046 z" transform="matrix(0.697099 -0.38369 0.314746 0.849797 -65.024732 93.102145)" stroke-width="1.06602" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none"/><rect width="3.1936793" y="-58.772556" height="4.4958868" x="160.13605" transform="matrix(0.653678 0.756773 -0.701111 0.713052 0 0)" ry="0.70393777" stroke-width="0.901734" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none"/><path d="m 147.97118,81.695584 c 2.35471,3.744012 3.81127,3.048757 2.65205,16.058717 -0.52918,5.938889 1.01606,8.554149 3.1279,12.909899 1.86239,3.84129 3.8851,7.04114 4.51132,9.42674 0.62625,2.38559 -0.82178,3.88563 -0.82178,3.88563 8.09591,-10.04216 10.83486,-21.20898 7.97003,-30.720423 -2.86483,-9.511446 -8.08861,-12.559492 -11.36175,-13.911219 -2.74227,-1.132473 -8.1654,-0.06625 -8.1654,-0.06625" stroke-linejoin="miter" fill-opacity="1" stroke-width="0.900238" stroke-miterlimit="4" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m 129.28507,99.863434 c 3.63596,5.129606 3.63596,5.129606 3.63596,5.129606" stroke-linejoin="miter" stroke-width="0.900238" stroke-miterlimit="4" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 131.74181,107.95683 c -2.09635,1.3643 -2.09635,1.3643 -2.09635,1.3643" stroke-linejoin="miter" stroke-width="0.900238" stroke-miterlimit="4" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 133.55188,95.885333 c 2.35323,2.582645 2.35323,2.582645 2.35323,2.582645" stroke-linejoin="miter" stroke-width="0.900238" stroke-miterlimit="4" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><rect width="1.5790935" y="152.64818" height="5.2097259" x="26.216587" transform="matrix(0.794986 -0.606628 0.665247 0.746623 0 0)" ry="0.61766165" stroke-width="0.790803" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none"/><rect width="1.8949143" y="151.1232" height="6.3112431" x="25.727671" transform="matrix(0.805429 -0.592693 0.678621 0.734489 0 0)" ry="0.75633484" stroke-width="0.971675" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none"/><rect width="2.3260815" y="151.21677" height="5.5189791" x="34.612488" transform="matrix(0.792097 -0.610395 0.661596 0.749861 0 0)" ry="0.93151462" stroke-width="1.19152" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none"/><rect width="2.1188073" y="150.97316" height="7.09023" x="36.732021" transform="matrix(0.772916 -0.634508 0.637852 0.770159 0 0)" ry="1.0682647" stroke-width="1.35825" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210"><path d="m 137.83642,123.30505 8.04163,-6.50738 8.46488,7.49494 c 0,0 -1.74747,3.53777 -5.43163,4.72623 -3.94983,1.27416 -9.80515,-0.21162 -9.80515,-0.21162 z" stroke="#ffffff" stroke-opacity="1" fill="#ffffff" stroke-linecap="butt" stroke-width="0.264583px" stroke-linejoin="miter" transform="matrix(1 0 0 1 0 0)"/><path d="m 133.32826,89.976081 c 4.99812,-3.907096 5.3009,7.758085 3.75228,13.863939 l 8.54637,13.32948" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-linecap="butt" stroke-width="0.900238" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="m 124.98984,104.00126 4.65562,5.31987 9.3289,13.08149" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-linecap="butt" stroke-width="0.900238" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="m 124.50341,100.37405 c 0,0 -2.92142,0.73368 -2.84895,4.35262 0.0549,2.73865 13.06352,-10.236761 13.06352,-10.236761" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-linecap="butt" stroke-width="0.900238" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="m 133.32826,89.976081 c 0,0 -2.30071,-1.242618 -2.22825,2.376318 0.0549,2.738651 5.48944,0.483596 5.48944,0.483596" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-linecap="butt" stroke-width="0.900238" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><rect ry="0.70393777" width="1.4191265" height="6.2730942" transform="matrix(0.653678 0.756773 -0.701111 0.713052 0 0)" x="160.80206" y="-51.192749" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-width="0.901734" stroke-miterlimit="4"/><path d="m 253.66871,104.88306 c -0.29562,0.36806 -4.49469,-0.27977 -4.66563,-0.71981 -0.17094,-0.44005 2.48962,-3.75263 2.95619,-3.68065 0.46656,0.072 2.00506,4.03239 1.70944,4.40046 z" transform="matrix(0.697099 -0.38369 0.314746 0.849797 -65.024732 93.102145)" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-width="1.06602" stroke-miterlimit="4"/><rect ry="0.70393777" width="3.1936793" height="4.4958868" transform="matrix(0.653678 0.756773 -0.701111 0.713052 0 0)" x="160.13605" y="-58.772556" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-width="0.901734" stroke-miterlimit="4"/><path d="m 147.97118,81.695584 c 2.35471,3.744012 3.81127,3.048757 2.65205,16.058717 -0.52918,5.938889 1.01606,8.554149 3.1279,12.909899 1.86239,3.84129 3.8851,7.04114 4.51132,9.42674 0.62625,2.38559 -0.82178,3.88563 -0.82178,3.88563 8.09591,-10.04216 10.83486,-21.20898 7.97003,-30.720423 -2.86483,-9.511446 -8.08861,-12.559492 -11.36175,-13.911219 -2.74227,-1.132473 -8.1654,-0.06625 -8.1654,-0.06625" stroke="#ffffff" fill-opacity="1" stroke-opacity="1" fill="#ffffff" stroke-dasharray="none" stroke-linecap="butt" stroke-width="0.900238" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="m 129.28507,99.863434 c 3.63596,5.129606 3.63596,5.129606 3.63596,5.129606" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-linecap="butt" stroke-width="0.900238" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="m 131.74181,107.95683 c -2.09635,1.3643 -2.09635,1.3643 -2.09635,1.3643" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-linecap="butt" stroke-width="0.900238" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="m 133.55188,95.885333 c 2.35323,2.582645 2.35323,2.582645 2.35323,2.582645" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-linecap="butt" stroke-width="0.900238" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><rect ry="0.61766165" width="1.5790935" height="5.2097259" transform="matrix(0.794986 -0.606628 0.665247 0.746623 0 0)" x="26.216587" y="152.64818" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-width="0.790803" stroke-miterlimit="4"/><rect ry="0.75633484" width="1.8949143" height="6.3112431" transform="matrix(0.805429 -0.592693 0.678621 0.734489 0 0)" x="25.727671" y="151.1232" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-width="0.971675" stroke-miterlimit="4"/><rect ry="0.93151462" width="2.3260815" height="5.5189791" transform="matrix(0.792097 -0.610395 0.661596 0.749861 0 0)" x="34.612488" y="151.21677" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-width="1.19152" stroke-miterlimit="4"/><rect ry="1.0682647" width="2.1188073" height="7.09023" transform="matrix(0.772916 -0.634508 0.637852 0.770159 0 0)" x="36.732021" y="150.97316" stroke="#ffffff" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-width="1.35825" stroke-miterlimit="4"/></svg>
 """#
 }

@@ -20,18 +20,14 @@ charge disc red {
   at fly=105.833 hoist=70.398
 }
 
-charge path white {
-  d "M71.481 60.397A34.352 35.111 0 1 0 140.185 60.397A34.352 35.111 0 1 0 71.481 60.397Z"
-  box "37.129 25.286 137.408 70.222"
-  fly 137.408
+charge ellipse white {
+  fly 68.704
   hoist 70.222
   at fly=105.833 hoist=60.397
 }
 
-charge path red {
-  d "M83.261 52.654A22.573 22.538 0 1 0 128.407 52.654A22.573 22.538 0 1 0 83.261 52.654Z"
-  box "60.688 30.116 90.292 45.076"
-  fly 90.292
+charge ellipse red {
+  fly 45.146
   hoist 45.076
   at fly=105.834 hoist=52.654
 }

@@ -16,10 +16,8 @@ proportion hoist=600 fly=900
 
 field red
 
-charge path green {
-  d "M80 300A370 180 0 1 0 820 300A370 180 0 1 0 80 300Z"
-  box "-290 120 1480 360"
-  fly 1480
+charge ellipse green {
+  fly 740
   hoist 360
   at fly=450 hoist=300
 }

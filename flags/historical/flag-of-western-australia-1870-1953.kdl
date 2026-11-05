@@ -23,7 +23,7 @@ charge svg {
   fly 120
   hoist 60
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60"><defs><clipPath id="c2"><path d="M0,0V15H60V30H60zM0,30V30H30V0H60z"></path></clipPath><clipPath id="c1"><path d="M0,0H60V30H0z"></path></clipPath></defs><path d="M0,0 60,30M60,0 0,30" stroke-width="6" clip-path="url(#c1)" stroke="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M0,0 60,30M60,0 0,30" stroke-width="4" clip-path="url(#c2)" stroke="#e4002b" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60"><defs><clipPath id="c2"><path d="M0,0V15H60V30H60zM0,30V30H30V0H60z"></path></clipPath><clipPath id="c1"><path d="M0,0H60V30H0z"></path></clipPath></defs><path d="M0,0 60,30M60,0 0,30" stroke="#ffffff" stroke-width="6" clip-path="url(#c1)" transform="matrix(1 0 0 1 0 0)"/><path d="M0,0 60,30M60,0 0,30" stroke="#e4002b" stroke-width="4" clip-path="url(#c2)" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 

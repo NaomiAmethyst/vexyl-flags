@@ -22,10 +22,8 @@ chevrons blue {
   angle 72.4287
 }
 
-charge path yellow {
-  d "M36 300.0044A112.4996 90.0015 0 1 0 260.9993 300.0044A112.4996 90.0015 0 1 0 36 300.0044Z"
-  box "-76.4996 210.0029 449.9986 180.0029"
-  fly 449.9986
+charge ellipse yellow {
+  fly 224.9993
   hoist 180.0029
   at fly=148.4996 hoist=300.0044
 }

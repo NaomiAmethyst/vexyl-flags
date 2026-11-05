@@ -68,6 +68,6 @@ charge svg {
   fly 800
   hoist 400
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><path d="M 308.81335,89.027156 L 490.26543,89.027156 L 490.26543,253.93544 C 490.26543,253.93544 475.3461,325.47584 396.17917,323.01206 C 316.9739,320.5471 309.29339,251.01671 309.29339,251.01671 L 308.81335,89.027156 z" stroke-linejoin="miter" fill-opacity="0.75000000000000000" stroke-width="2.92084980000000010" stroke-miterlimit="4" fill-rule="evenodd" stroke-linecap="butt" stroke-opacity="1" stroke-dasharray="none" stroke="#ffff00" fill="none" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400"><path d="M 308.81335,89.027156 L 490.26543,89.027156 L 490.26543,253.93544 C 490.26543,253.93544 475.3461,325.47584 396.17917,323.01206 C 316.9739,320.5471 309.29339,251.01671 309.29339,251.01671 L 308.81335,89.027156 z" stroke="#ffff00" fill-opacity="0.75000000000000000" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke-linecap="butt" stroke-width="2.92084980000000010" stroke-linejoin="miter" stroke-miterlimit="4" fill-rule="evenodd" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }

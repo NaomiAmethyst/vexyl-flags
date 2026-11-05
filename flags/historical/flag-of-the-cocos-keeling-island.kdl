@@ -21,7 +21,7 @@ charge svg {
   fly 10080
   hoist 5040
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10080 5040"><defs><clipPath id="c2"><path d="M0,0V1.5H6V3H6zM6,0H3V3H0V3z"></path></clipPath><clipPath id="c1"><path d="M0,0H6V3H0z"></path></clipPath></defs><path d="M0,0 6,3M6,0 0,3" stroke-width="0.6" clip-path="url(#c1)" stroke="#ffffff" transform="matrix(840 0 0 840 0 0)"/><path d="M0,0 6,3M6,0 0,3" stroke-width="0.4" clip-path="url(#c2)" stroke="#e4002b" transform="matrix(840 0 0 840 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10080 5040"><defs><clipPath id="c2"><path d="M0,0V1.5H6V3H6zM6,0H3V3H0V3z"></path></clipPath><clipPath id="c1"><path d="M0,0H6V3H0z"></path></clipPath></defs><path d="M0,0 6,3M6,0 0,3" stroke="#ffffff" stroke-width="0.6" clip-path="url(#c1)" transform="matrix(840 0 0 840 0 0)"/><path d="M0,0 6,3M6,0 0,3" stroke="#e4002b" stroke-width="0.4" clip-path="url(#c2)" transform="matrix(840 0 0 840 0 0)"/></svg>
 """#
 }
 

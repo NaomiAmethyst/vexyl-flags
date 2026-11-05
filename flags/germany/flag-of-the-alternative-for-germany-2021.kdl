@@ -21,7 +21,7 @@ charge svg {
   fly 532.53
   hoist 319.52
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 532.53 319.52"><defs><linearGradient id="linearGradient2038" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-261.16 0 0 261.16 1121.4 484.56)" x2="1"><stop offset="0" stop-color="#f6c10b"/><stop offset=".0036813" stop-color="#f6c10b"/><stop offset=".1956" stop-color="#fbd500"/><stop offset=".39464" stop-color="#d7162f"/><stop offset=".69275" stop-color="#d7162f"/><stop offset=".89852"/><stop offset="1"/></linearGradient></defs><path d="m860.26 484.56h261.16v11.399h-261.16z" fill="url(#linearGradient2038)" transform="matrix(0 1.2235 4.6384 0 -2247.6 -1052.5)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 532.53 319.52"><defs><linearGradient id="linearGradient2038" gradientTransform="matrix(-261.16 0 0 261.16 1121.4 484.56)" gradientUnits="userSpaceOnUse" x2="1"><stop offset="0" stop-color="#f6c10b"/><stop offset=".0036813" stop-color="#f6c10b"/><stop offset=".1956" stop-color="#fbd500"/><stop offset=".39464" stop-color="#d7162f"/><stop offset=".69275" stop-color="#d7162f"/><stop offset=".89852"/><stop offset="1"/></linearGradient></defs><path d="m860.26 484.56h261.16v11.399h-261.16z" fill="url(#linearGradient2038)" transform="matrix(0 1.2235 4.6384 0 -2247.6 -1052.5)"/></svg>
 """#
 }
 

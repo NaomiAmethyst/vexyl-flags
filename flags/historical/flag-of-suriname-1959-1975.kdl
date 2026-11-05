@@ -19,12 +19,9 @@ proportion hoist=6666.0938 fly=10000
 
 field white
 
-charge path black {
-  d "M1928.6591 3605.4447A3071.357 1706.5128 0 1 0 8071.3732 3605.4447A3071.357 1706.5128 0 1 0 1928.6591 3605.4447Z"
-  box "-1142.6979 1898.9319 12285.4281 3413.0256"
-  fly 12285.4281
+charge ellipse black {
+  fly 6142.7141
   hoist 3413.0256
-  evenodd
   hollow 96.5737
   at fly=5000.0162 hoist=3605.4447
 }

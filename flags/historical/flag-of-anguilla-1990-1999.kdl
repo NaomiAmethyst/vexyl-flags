@@ -38,7 +38,7 @@ charge svg {
   fly 1200
   hoist 600
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><clipPath id="a"><path d="m0 0v150h700v150h-100zm600 0h-300v350h-300v-50z"></path></clipPath></defs><path d="m0 0 600 300m0-300-600 300" stroke-width="40" clip-path="url(#a)" stroke="#c8102e" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><clipPath id="a"><path d="m0 0v150h700v150h-100zm600 0h-300v350h-300v-50z"></path></clipPath></defs><path d="m0 0 600 300m0-300-600 300" stroke="#c8102e" stroke-width="40" clip-path="url(#a)" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
@@ -83,12 +83,13 @@ charge path white {
   at fly=900 hoist=300
 }
 
-charge path white {
-  d "M5.7481 -163.011A0 0 0 1 0 5.7481 -163.011A0 0 0 1 0 5.7481 -163.011Z"
-  box "5.7481 -163.011 0.001 0.001"
-  fly 0.001
-  hoist 0.001
-  at fly=5.7481 hoist=-163.011
+charge svg {
+  at center
+  fly 1200
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle r="0" cx="15.07813" cy="-30.97657" fill="#ffffff" transform="matrix(3.508454 0 0 3.344878 -47.152786 -59.398131)"/></svg>
+"""#
 }
 
 charge path orange {
@@ -99,10 +100,8 @@ charge path orange {
   at fly=949.6868 hoist=290.182
 }
 
-charge path white {
-  d "M937.0076 245.4134A2.8277 2.6959 0 1 0 942.663 245.4134A2.8277 2.6959 0 1 0 937.0076 245.4134Z"
-  box "934.1799 242.7175 11.3108 5.3917"
-  fly 11.3108
+charge ellipse white {
+  fly 5.6554
   hoist 5.3917
   at fly=939.8353 hoist=245.4134
 }
@@ -115,13 +114,11 @@ charge path orange {
   at fly=903.7062 hoist=231.6666
 }
 
-charge svg {
-  at center
-  fly 1200
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle cx="281.31705" r=".805969" cy="91.127861" fill="#ffffff" transform="matrix(-1.638999 -2.957437 3.102067 -1.562583 1034.545081 1220.516608)"/></svg>
-"""#
+charge ellipse white {
+  fly 5.6554
+  hoist 5.3917
+  rotate 0
+  at fly=856.1514 hoist=246.1443
 }
 
 charge path orange {
@@ -132,13 +129,11 @@ charge path orange {
   at fly=870.4489 hoist=290.3506
 }
 
-charge svg {
-  at center
-  fly 1200
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle cx="281.31705" r=".805969" cy="91.127861" fill="#ffffff" transform="matrix(-1.80698 2.867115 -3.007328 -1.722732 1682.509217 -336.808261)"/></svg>
-"""#
+charge ellipse white {
+  fly 5.6554
+  hoist 5.3917
+  rotate 0
+  at fly=900.1235 hoist=312.7713
 }
 
 charge path blue-2 {

@@ -122,6 +122,17 @@ historical/flag-of-south-georgia-and-the-south-sandwich-islands-1992-19	failed
 historical/flag-of-tanganyika-1923-1961	failed
 historical/flag-of-tegucigalpa	failed
 historical/flag-of-the-bahamas-1964-1973	failed
+historical/flag-of-the-confederate-states-1861-1863	excluded
+historical/flag-of-the-confederate-states-1863-1865	excluded
+historical/flag-of-the-confederate-states-1865	excluded
+historical/flag-of-the-confederate-states-july-november-1861	excluded
+historical/flag-of-the-confederate-states-march-may-1861	excluded
+historical/flag-of-the-confederate-states-may-july-1861	excluded
+historical/flag-of-the-confederate-states-of-america-1863-1865	excluded
+historical/flag-of-the-confederate-states-of-america-1865	excluded
+historical/flag-of-the-confederate-states-of-america-july-1861-november	excluded
+historical/flag-of-the-confederate-states-of-america-march-1861-may-186	excluded
+historical/flag-of-the-confederate-states-of-america-may-1861-july-1861	excluded
 historical/flag-of-the-cook-islands-federation	failed
 historical/flag-of-the-east-african-community-1967-1977	failed
 historical/flag-of-the-falkland-islands-1925-1948	failed
@@ -142,6 +153,8 @@ japan/flag-of-hiroshima-prefecture	unknown license
 japan/flag-of-the-captain-of-the-ground-self-defense-force-japan	failed
 japan/flag-of-the-omura-lords-of-omura-in-hizen-province-b	failed
 japan/flag-of-the-todo-lords-of-tsu-in-ise-province-c	failed
+japan/nsjap-flag	excluded
+japan/t-h-kai-flag	excluded
 mexico/erin-go-bragh-banner	failed
 mexico/flag-of-guanajuato	failed
 mexico/flag-of-mexico-1893-1916	failed

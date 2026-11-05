@@ -19,7 +19,7 @@ charge svg {
   fly 600
   hoist 600
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><path d="M0,0 600,600" stroke-width="850" stroke-dasharray="84,86" stroke="#ffff00" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><path d="M0,0 600,600" stroke="#ffff00" stroke-dasharray="84,86" stroke-width="850" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
