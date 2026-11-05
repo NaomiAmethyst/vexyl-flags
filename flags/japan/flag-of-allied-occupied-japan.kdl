@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Allied Occupied Japan"
@@ -11,19 +10,19 @@ palette {
   blue "#003184"
   red "#ce1021"
 }
-proportion hoist=420 fly=630
+proportion hoist=2 fly=3
 
 charge polygon blue {
-  point fly=630 hoist=0
+  point fly=3 hoist=0
   point fly=0 hoist=0
-  point fly=0 hoist=280
-  point fly=350 hoist=280
-  point fly=350 hoist=210
+  point fly=0 hoist=1.3333
+  point fly=1.6667 hoist=1.3333
+  point fly=1.6667 hoist=1
 }
 
 charge polygon red {
-  point fly=350 hoist=210
-  point fly=0 hoist=210
-  point fly=0 hoist=420
-  point fly=630 hoist=420
+  point fly=1.6667 hoist=1
+  point fly=0 hoist=1
+  point fly=0 hoist=2
+  point fly=3 hoist=2
 }

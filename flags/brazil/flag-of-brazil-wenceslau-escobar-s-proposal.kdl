@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Brazil (Wenceslau Escobar's proposal)"
@@ -13,110 +12,94 @@ palette {
   blue "#302681"
   white "#ffffff"
 }
-proportion hoist=2940 fly=4200
+proportion hoist=70 fly=100
 
 field green
 
 charge lozenge yellow {
-  fly 3486
-  hoist 2226
-  at fly=2100 hoist=1470
-  anchor center
+  fly 83
+  hoist 53
+  at center
 }
 
 charge disc blue {
-  radius 735
-  at fly=2100 hoist=1470
-  anchor center
+  radius 17.5
+  at center
 }
 
 charge star white {
-  radius 31.5
-  inner 11.97
-  at fly=1500 hoist=1338
-  at fly=1565 hoist=1647
-  at fly=2328 hoist=1242
-  at fly=2615 hoist=1728
+  radius 0.75
+  at fly=35.7 hoist=31.875
+  at fly=37.25 hoist=39.2
+  at fly=55.4375 hoist=29.5625
+  at fly=62.25 hoist=41.125
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2717 hoist=1735
+  radius 0.5
+  at fly=64.6875 hoist=41.3125
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=2645 hoist=1793
-  at fly=2468 hoist=1947
+  radius 0.625
+  at fly=62.9762 hoist=42.6875
+  at fly=58.75 hoist=46.375
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2467 hoist=2021
-  at fly=2541 hoist=1889
+  radius 0.5
+  at fly=58.75 hoist=48.125
+  at fly=60.5 hoist=44.9762
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=2600 hoist=1852
+  radius 0.625
+  at fly=61.9167 hoist=44.0833
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2465 hoist=1875
+  radius 0.5
+  at fly=58.6875 hoist=44.625
 }
 
 charge star white {
-  radius 31.5
-  inner 11.97
-  at fly=2100 hoist=1800
+  radius 0.75
+  at fly=50 hoist=42.875
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=2185 hoist=1654
-  at fly=2100 hoist=1588
+  radius 0.625
+  at fly=52.0238 hoist=39.375
+  at fly=50 hoist=37.8125
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2026 hoist=1654
+  radius 0.5
+  at fly=48.25 hoist=39.375
 }
 
 charge star white {
-  radius 15
-  inner 5.7
-  at fly=2063 hoist=1705
+  radius 0.375
+  at fly=49.125 hoist=40.5833
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=2320 hoist=1965
+  radius 0.625
+  at fly=55.25 hoist=46.8
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2383 hoist=1900
-  at fly=2262 hoist=1882
+  radius 0.5
+  at fly=56.75 hoist=45.25
+  at fly=53.875 hoist=44.8125
 }
 
 charge star white {
-  radius 31.5
-  inner 11.97
-  at fly=1805 hoist=1860
+  radius 0.75
+  at fly=42.9762 hoist=44.3
 }
 
 charge star white {
-  radius 10.5
-  inner 3.99
-  at fly=2100 hoist=2045
+  radius 0.25
+  at fly=50 hoist=48.6875
 }

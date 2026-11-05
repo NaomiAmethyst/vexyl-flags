@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Ewe people"
@@ -12,51 +11,51 @@ palette {
   red "#da251d"
   yellow "#fff500"
 }
-proportion hoist=683 fly=1024
+proportion hoist=1 fly=1.4993
 
 field green
 
 charge rect red {
-  fly 1024
-  hoist 226
-  at fly=512 hoist=342.5
+  fly 1.4993
+  hoist 0.3309
+  at fly=0.7496 hoist=0.5015
 }
 
 charge polygon yellow {
-  point fly=202.5 hoist=272.5
-  point fly=219.5 hoist=325.5
-  point fly=275.5 hoist=325.5
-  point fly=230.5 hoist=358.5
-  point fly=247.5 hoist=412.5
-  point fly=202.5 hoist=379.5
-  point fly=156.5 hoist=412.5
-  point fly=174.5 hoist=358.5
-  point fly=128.5 hoist=325.5
-  point fly=184.5 hoist=325.5
+  point fly=0.2965 hoist=0.399
+  point fly=0.3214 hoist=0.4766
+  point fly=0.4034 hoist=0.4766
+  point fly=0.3375 hoist=0.5249
+  point fly=0.3624 hoist=0.604
+  point fly=0.2965 hoist=0.5556
+  point fly=0.2291 hoist=0.604
+  point fly=0.2555 hoist=0.5249
+  point fly=0.1881 hoist=0.4766
+  point fly=0.2701 hoist=0.4766
 }
 
 charge polygon yellow {
-  point fly=512 hoist=272.5
-  point fly=529 hoist=325.5
-  point fly=585 hoist=325.5
-  point fly=540 hoist=358.5
-  point fly=557 hoist=412.5
-  point fly=512 hoist=379.5
-  point fly=467 hoist=412.5
-  point fly=484 hoist=358.5
-  point fly=439 hoist=325.5
-  point fly=495 hoist=325.5
+  point fly=0.7496 hoist=0.399
+  point fly=0.7745 hoist=0.4766
+  point fly=0.8565 hoist=0.4766
+  point fly=0.7906 hoist=0.5249
+  point fly=0.8155 hoist=0.604
+  point fly=0.7496 hoist=0.5556
+  point fly=0.6837 hoist=0.604
+  point fly=0.7086 hoist=0.5249
+  point fly=0.6428 hoist=0.4766
+  point fly=0.7247 hoist=0.4766
 }
 
 charge polygon yellow {
-  point fly=822.5 hoist=272.5
-  point fly=839.5 hoist=325.5
-  point fly=895.5 hoist=325.5
-  point fly=850.5 hoist=358.5
-  point fly=867.5 hoist=412.5
-  point fly=822.5 hoist=379.5
-  point fly=776.5 hoist=412.5
-  point fly=794.5 hoist=358.5
-  point fly=748.5 hoist=325.5
-  point fly=804.5 hoist=325.5
+  point fly=1.2042 hoist=0.399
+  point fly=1.2291 hoist=0.4766
+  point fly=1.3111 hoist=0.4766
+  point fly=1.2452 hoist=0.5249
+  point fly=1.2701 hoist=0.604
+  point fly=1.2042 hoist=0.5556
+  point fly=1.1369 hoist=0.604
+  point fly=1.1633 hoist=0.5249
+  point fly=1.0959 hoist=0.4766
+  point fly=1.1779 hoist=0.4766
 }

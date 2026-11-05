@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "CHE Schwyz SZ Flag"
@@ -10,24 +9,24 @@ palette {
   red "#f00000"
   white "#ffffff"
 }
-proportion hoist=360 fly=360
+proportion hoist=1 fly=1
 outline pennant {
-  tip 360.0183
+  tip 1
 }
 
 field red
 
 charge polygon white {
-  point fly=27.3131 hoist=82.701
-  point fly=82.8284 hoist=82.701
-  point fly=82.8284 hoist=27.5528
-  point fly=96.7072 hoist=27.5528
-  point fly=96.7072 hoist=82.701
-  point fly=152.2224 hoist=82.701
-  point fly=152.2224 hoist=96.488
-  point fly=96.7072 hoist=96.488
-  point fly=96.7072 hoist=151.6362
-  point fly=82.8284 hoist=151.6362
-  point fly=82.8284 hoist=96.488
-  point fly=27.3131 hoist=96.488
+  point fly=0.0759 hoist=0.2297
+  point fly=0.2301 hoist=0.2297
+  point fly=0.2301 hoist=0.0765
+  point fly=0.2686 hoist=0.0765
+  point fly=0.2686 hoist=0.2297
+  point fly=0.4228 hoist=0.2297
+  point fly=0.4228 hoist=0.268
+  point fly=0.2686 hoist=0.268
+  point fly=0.2686 hoist=0.4212
+  point fly=0.2301 hoist=0.4212
+  point fly=0.2301 hoist=0.268
+  point fly=0.0759 hoist=0.268
 }

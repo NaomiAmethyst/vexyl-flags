@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Australia (1903–1908)"
@@ -11,38 +10,38 @@ palette {
   blue "#012169"
   white "#ffffff"
 }
-proportion hoist=15119.998 fly=30240
+proportion hoist=2 fly=4
 
 field blue
 
 canton {
-  fly 15120
-  hoist 7559.9995
+  fly 2
+  hoist 1
   field blue
 }
 
 charge svg {
   at center
-  fly 30240
-  hoist 15119.998
+  fly 4
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30240 15119.998"><path d="M6300-.001h2520v2520.0003h6300v2519.9999H8820v2520.0003H6300V5039.9992H0V2519.9993h6300V-.001z" stroke="none" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M0-.001h1690.467L15120 6714.7656v845.2339h-1690.467L0 845.2332V-.001z" stroke="none" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M15120-.001h-1690.467L0 6714.7656v845.2339h1690.467L15120 845.2332V-.001z" stroke="none" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M6804-.001h1512v3024.0004h6804v1511.9999H8316v3024.0002H6804V4535.9993H0V3023.9994h6804V-.001z" stroke="none" fill-opacity="1" fill="#e4002b" transform="matrix(1 0 0 1 0 0)"/><path d="m0-.001 5040 2520.0003H3913.022L0 563.4882V-.001zm15120 0h-1126.978l-5040 2520.0003H10080L15120-.001z" stroke="none" fill-opacity="1" fill="#e4002b" transform="matrix(1 0 0 1 0 0)"/><path d="m15120 7559.9995-5040-2520.0003h1126.978L15120 6996.5103v563.4892zm-15120 0h1126.978l5040-2520.0003H5040L0 7559.9995z" stroke="none" fill-opacity="1" fill="#e4002b" transform="matrix(1 0 0 1 0 0)"/><path d="M0-37.163956h30314.326v15157.163H0z" stroke="none" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m7559.9946 13930.811 2243.7088-3886.216H5316.287l2243.7076 3886.216z" stroke="none" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m7559.9946 8749.187-2243.7075 3886.216h4487.4163L7559.9946 8749.187z" stroke="none" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30240 15119.998"><path d="M6300-.001h2520v2520.0003h6300v2519.9999H8820v2520.0003H6300V5039.9992H0V2519.9993h6300V-.001z" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="M0-.001h1690.467L15120 6714.7656v845.2339h-1690.467L0 845.2332V-.001z" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="M15120-.001h-1690.467L0 6714.7656v845.2339h1690.467L15120 845.2332V-.001z" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="M6804-.001h1512v3024.0004h6804v1511.9999H8316v3024.0002H6804V4535.9993H0V3023.9994h6804V-.001z" fill-opacity="1" fill="#e4002b" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m0-.001 5040 2520.0003H3913.022L0 563.4882V-.001zm15120 0h-1126.978l-5040 2520.0003H10080L15120-.001z" fill-opacity="1" fill="#e4002b" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m15120 7559.9995-5040-2520.0003h1126.978L15120 6996.5103v563.4892zm-15120 0h1126.978l5040-2520.0003H5040L0 7559.9995z" fill-opacity="1" fill="#e4002b" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="M0-37.163956h30314.326v15157.163H0z" fill="none" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m7559.9946 13930.811 2243.7088-3886.216H5316.287l2243.7076 3886.216z" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m7559.9946 8749.187-2243.7075 3886.216h4487.4163L7559.9946 8749.187z" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
 charge star white {
-  radius 1080.2852
-  inner 480.1268
+  radius 0.1429
+  inner 0.0635
   points 7
   rotate -0.0097
-  at fly=22680.002 hoist=12600.114
-  at fly=18900.002 hoist=6690.1142
-  at fly=22680.002 hoist=2520.114
-  at fly=26040.002 hoist=5670.1142
+  at fly=3 hoist=1.6667
+  at fly=2.5 hoist=0.8849
+  at fly=3 hoist=0.3333
+  at fly=3.4444 hoist=0.75
 }
 
 charge star white {
-  radius 630
-  inner 280
-  at fly=24191.168 hoist=8190.3174
+  radius 0.0833
+  inner 0.037
+  at fly=3.2 hoist=1.0833
 }

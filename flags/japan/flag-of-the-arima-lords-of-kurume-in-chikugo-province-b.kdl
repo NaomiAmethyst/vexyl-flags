@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Arima Lords of Kurume in Chikugo Province (B)"
@@ -9,14 +8,14 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#bc002d"
+  red "#bc002d"
   black "#000000"
 }
 proportion hoist=700 fly=900
 
 field white
 
-charge path pink {
+charge path red {
   d "M450.36 120.6C323.52 120.6 220.8 223.28 220.8 350.12A229.5 229.5 0 0 0 236.87 434.48A155.91 155.91 0 0 1 230.16 388.94C230.16 317.14 278.79 254.52 348.3 236.66L348.15 236.99C348.21 236.95 348.27 236.89 348.33 236.86L348.73 236.63L349.71 236.53A102.01 102.01 0 0 0 450.88 324.98C507.24 324.98 552.98 279.24 552.98 222.88C552.98 166.4 507.24 120.78 450.88 120.78L448.72 123.24Z"
   box "7.37 120.6 545.61 543.38"
   fly 545.61
@@ -33,7 +32,7 @@ charge path black {
   at fly=280.175 hoist=392.29
 }
 
-charge path pink {
+charge path red {
   d "M651.32 460C711.82 348.52 670.57 209.26 559.09 148.76A229.48 229.48 0 0 0 477.29 122.65A155.9 155.9 0 0 1 520.51 138.47A157.23 157.23 0 0 1 598.01 314.94L597.79 314.65L597.81 314.87L597.82 315.33L597.44 316.24A102 102 0 0 0 471.44 362.97C444.56 412.5 462.94 474.53 512.48 501.41C562.12 528.35 624.04 509.91 650.92 460.38L649.78 457.3Z"
   box "247.81 -106.83 507.43 635.18"
   fly 507.43
@@ -50,7 +49,7 @@ charge path black {
   at fly=501.525 hoist=210.76
 }
 
-charge path pink {
+charge path red {
   d "M252.22 466.54C316.75 575.74 457.42 611.93 566.61 547.4A229.5 229.5 0 0 0 631.06 490.65A155.88 155.88 0 0 1 595.27 519.59A157.23 157.23 0 0 1 404.07 495.36L404.42 495.32C404.36 495.29 404.28 495.27 404.22 495.23L403.82 495L403.24 494.2A102 102 0 0 0 427.91 362.11C399.24 313.59 336.59 297.48 288.07 326.15C239.45 354.89 223.44 417.48 252.11 466L255.34 466.6Z"
   box "223.44 260.11 637.12 460.04"
   fly 637.12

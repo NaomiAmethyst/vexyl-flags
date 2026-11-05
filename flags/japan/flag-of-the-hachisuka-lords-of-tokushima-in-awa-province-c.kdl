@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Hachisuka Lords of Tokushima in Awa Province (C)"
@@ -11,33 +10,33 @@ palette {
   orange "#a6693b"
   white "#ffffff"
 }
-proportion hoist=700 fly=900
+proportion hoist=672 fly=864
 
 field orange
 
 charge polygon white {
-  point fly=256.7226 hoist=156.7236
-  point fly=256.7226 hoist=263.8657
-  point fly=396.4229 hoist=263.8657
-  point fly=396.4229 hoist=296.4239
-  point fly=256.7226 hoist=296.4239
-  point fly=256.7226 hoist=543.2737
-  point fly=363.8647 hoist=543.2737
-  point fly=363.8647 hoist=403.5734
-  point fly=396.4229 hoist=403.5734
-  point fly=396.4229 hoist=543.2737
-  point fly=503.568 hoist=543.2737
-  point fly=503.568 hoist=403.5734
-  point fly=643.2682 hoist=403.5734
-  point fly=643.2682 hoist=156.7236
-  point fly=536.1261 hoist=156.7236
-  point fly=536.1261 hoist=296.4239
-  point fly=503.568 hoist=296.4239
-  point fly=503.568 hoist=156.7236
+  point fly=246.5 hoist=150.5
+  point fly=246.5 hoist=253.5
+  point fly=380.5 hoist=253.5
+  point fly=380.5 hoist=284.5
+  point fly=246.5 hoist=284.5
+  point fly=246.5 hoist=521.5
+  point fly=349.5 hoist=521.5
+  point fly=349.5 hoist=387.5
+  point fly=380.5 hoist=387.5
+  point fly=380.5 hoist=521.5
+  point fly=483.5 hoist=521.5
+  point fly=483.5 hoist=387.5
+  point fly=617.5 hoist=387.5
+  point fly=617.5 hoist=150.5
+  point fly=514.5 hoist=150.5
+  point fly=514.5 hoist=284.5
+  point fly=483.5 hoist=284.5
+  point fly=483.5 hoist=150.5
 }
 
 charge rect white {
-  fly 246.8498
-  hoist 107.1436
-  at fly=519.8458 hoist=489.7005
+  fly 237
+  hoist 103
+  at fly=499 hoist=470
 }

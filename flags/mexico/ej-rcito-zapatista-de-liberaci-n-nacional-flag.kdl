@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Ejército Zapatista de Liberación Nacional, Flag"
@@ -11,15 +10,15 @@ palette {
   black "#000000"
   red "#ce1126"
 }
-proportion hoist=300 fly=450
+proportion hoist=2 fly=3
 
 field black
 
 charge polygon red {
-  point fly=184.36 hoist=212.5
-  point fly=224.996 hoist=87.5
-  point fly=265.636 hoist=212.5
-  point fly=159.246 hoist=135.25
-  point fly=290.746 hoist=135.25
-  point fly=184.356 hoist=212.5
+  point fly=1.2291 hoist=1.4167
+  point fly=1.5 hoist=0.5833
+  point fly=1.7709 hoist=1.4167
+  point fly=1.0616 hoist=0.9017
+  point fly=1.9383 hoist=0.9017
+  point fly=1.229 hoist=1.4167
 }

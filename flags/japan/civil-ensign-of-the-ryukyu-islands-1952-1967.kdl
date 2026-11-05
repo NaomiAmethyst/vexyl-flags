@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Civil ensign of the Ryukyu Islands (1952–1967)"
@@ -11,20 +10,20 @@ palette {
   yellow "#ffff00"
   blue "#0000ff"
 }
-proportion hoist=433 fly=534
+proportion hoist=30 fly=37
 
 charge polygon yellow {
   point fly=0 hoist=0
-  point fly=534 hoist=0
-  point fly=370 hoist=216.5
-  point fly=534 hoist=433
-  point fly=0 hoist=433
+  point fly=37 hoist=0
+  point fly=25.6351 hoist=15
+  point fly=37 hoist=30
+  point fly=0 hoist=30
 }
 
 charge polygon blue {
-  point fly=0 hoist=86
-  point fly=470 hoist=86
-  point fly=371.5 hoist=216
-  point fly=468.3 hoist=346
-  point fly=0 hoist=346
+  point fly=0 hoist=5.95
+  point fly=32.5625 hoist=5.95
+  point fly=25.739 hoist=14.9654
+  point fly=32.4375 hoist=23.9723
+  point fly=0 hoist=23.9723
 }

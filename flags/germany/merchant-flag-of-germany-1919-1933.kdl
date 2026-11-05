@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Merchant flag of Germany (1919–1933)"
@@ -13,24 +12,24 @@ palette {
   red "#dd0000"
   yellow "#ffce00"
 }
-proportion hoist=90 fly=135
+proportion hoist=2 fly=3
 
 bars black white red
 
 charge rect red {
-  fly 30
-  hoist 12.8
-  at fly=15 hoist=12.8
+  fly 0.6667
+  hoist 0.2844
+  at fly=0.3333 hoist=0.2844
 }
 
 charge rect yellow {
-  fly 30
-  hoist 6.4
-  at fly=15 hoist=16
+  fly 0.6667
+  hoist 0.1422
+  at fly=0.3333 hoist=0.3556
 }
 
 charge rect white {
-  fly 1
-  hoist 19.2
-  at fly=29.5 hoist=9.6
+  fly 0.0222
+  hoist 0.4267
+  at fly=0.6556 hoist=0.2133
 }

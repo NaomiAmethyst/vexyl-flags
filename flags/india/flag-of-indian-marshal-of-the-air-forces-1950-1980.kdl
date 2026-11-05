@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Indian Marshal of the Air Forces 1950-1980"
@@ -27,7 +26,7 @@ charge rect green {
 charge rect green {
   fly 600
   hoist 74
-  at fly=300 hoist=200
+  at center
 }
 
 charge rect green {

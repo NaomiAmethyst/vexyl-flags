@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Confederacy of Independent Kingdoms of Fiji"
@@ -11,15 +10,15 @@ palette {
   blue "#0000cc"
   white "#ffffff"
 }
-proportion hoist=716.7248 fly=1110.5901
+proportion hoist=1 fly=1.5495
 
 field blue
 
 charge star white {
-  radius 268.852
-  inner 132.1742
+  radius 0.375
+  inner 0.1844
   points 8
   rotate 0.4109
-  at fly=560.9433 hoist=355.3714
+  at fly=0.7826 hoist=0.4958
   anchor center
 }

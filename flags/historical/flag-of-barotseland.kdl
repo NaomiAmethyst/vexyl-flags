@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Barotseland"
@@ -11,13 +10,13 @@ palette {
   red "#ff0000"
   white "#ffffff"
 }
-proportion hoist=6 fly=9
+proportion hoist=2 fly=3
 
 field red
 
 charge polygon white {
-  point fly=-1.0145 hoist=0.8575
-  point fly=8.9855 hoist=6.8575
-  point fly=10.0145 hoist=5.1425
-  point fly=0.0145 hoist=-0.8575
+  point fly=-0.3382 hoist=0.2858
+  point fly=2.9952 hoist=2.2858
+  point fly=3.3382 hoist=1.7142
+  point fly=0.0048 hoist=-0.2858
 }

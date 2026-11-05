@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Grand Kru County"
@@ -11,10 +10,10 @@ palette {
   green "#006633"
   yellow "#fad115"
   white "#ffffff"
-  pink "#bf0a30"
+  red "#bf0a30"
   blue "#002868"
 }
-proportion hoist=2400 fly=4000
+proportion hoist=3 fly=5
 
 bars green yellow white green yellow white green {
   along hoist
@@ -22,56 +21,55 @@ bars green yellow white green yellow white green {
 }
 
 canton {
-  fly 1000
-  hoist 600
-  field pink
+  fly 1.25
+  hoist 0.75
+  field red
   charge rect white {
-    fly 1000.1
-    hoist 54.5455
-    at fly=500.05 hoist=81.8182
-    repeat line count=4 hoist=109.0909
+    fly 1.25
+    hoist 0.0682
+    at fly=0.625 hoist=0.1023
+    repeat line count=4 hoist=0.1364
   }
   charge rect white {
-    fly 1000.1
-    hoist 54.5454
-    at fly=500.05 hoist=518.1818
+    fly 1.25
+    hoist 0.0682
+    at fly=0.625 hoist=0.6477
   }
 }
 
 canton {
-  fly 272.7273
-  hoist 272.7273
+  fly 0.3409
+  hoist 0.3409
   field blue
   charge star white {
-    radius 81.8182
-    inner 31.0909
-    at fly=136.3636 hoist=136.3636
+    radius 0.1023
+    at center
   }
 }
 
 charge rect yellow {
-  fly 200
-  hoist 2400
-  at fly=3700 hoist=1200
+  fly 0.25
+  hoist 3
+  at fly=4.625 hoist=1.5
 }
 
 charge rect green {
-  fly 201
-  hoist 2400
-  at fly=3299.5 hoist=1200
+  fly 0.2512
+  hoist 3
+  at fly=4.125 hoist=1.5
 }
 
 charge rect yellow {
-  fly 200
-  hoist 2400
-  at fly=3100 hoist=1200
+  fly 0.25
+  hoist 3
+  at fly=3.875 hoist=1.5
 }
 
 charge svg {
   at center
-  fly 4000
-  hoist 2400
+  fly 5
+  hoist 3
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4000 2400"><path d="m 1957.187,1922.8 -7,-1233.3 c 0,0 30.603,-196.374 126.598,-149.876 l 10.208,1383.176 z" stroke="none" fill="#996800" transform="matrix(1 0 0 1 0 0)"/><path d="m 1586.187,535.5 c 0,0 213,-162 396,76 l 36.403,-66.046 C 1871.591,316.454 1553.187,352.5 1586.187,535.5 z" stroke="none" fill-opacity="1" fill="#006633" transform="matrix(1 0 0 1 0 0)"/><path d="m 2071.169,537.157 6.233,85.331 c 161,-126 303.785,-88.988 412.785,6.012 -39.999,-245 -239.017,-191.343 -419.018,-91.343 z" stroke="none" fill-opacity="1" fill="#006633" transform="matrix(1 0 0 1 0 0)"/><path d="m 2062.188,844.5 c -10,-239 371.424,-253.59 406,62 -57,-92 -249,-187 -406,-62 z" stroke="none" fill-opacity="1" fill="#006633" transform="matrix(1 0 0 1 0 0)"/><path d="m 2052.188,1076.5 c 32,-190 415.316,-175.792 385,165 -102,-105 -188.668,-216.333 -385,-165 z" stroke="none" fill-opacity="1" fill="#006633" transform="matrix(1 0 0 1 0 0)"/><path d="M 1509.813,793.111 C 1566.81,665.617 1797.798,496.887 1973.29,628.5 v 58.859 c -207.981,-96.74 -308.985,80.253 -463.477,105.752 z" stroke="none" fill-opacity="1" fill="#006633" transform="matrix(1 0 0 1 0 0)"/><path d="m 1583.739,1055.598 c 8.57,-316.484 295.055,-340.193 398.55,-149.098 -137.992,-51.893 -241.487,-41.393 -398.55,149.098 z" stroke="none" fill-opacity="1" fill="#006633" transform="matrix(1 0 0 1 0 0)"/><path d="m 1593.809,1322.584 c 0,0 25.499,-124.493 110.994,-203.989 61.497,-103.495 262.292,-143.993 311.887,-49.498 -124.396,-1.5 -181.394,91.495 -181.394,91.495 -62.109,5.408 -241.487,161.992 -241.487,161.992 z" stroke="none" fill-opacity="1" fill="#006633" transform="matrix(1 0 0 1 0 0)"/><path d="m 1595.187,2019.5 c 0,0 -13.001,-95.026 397,-111 385,-15 435,111 435,111 h -832 z" stroke="none" fill-opacity="1" fill="#006633" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4000 2400"><path d="m 1957.187,1922.8 -7,-1233.3 c 0,0 30.603,-196.374 126.598,-149.876 l 10.208,1383.176 z" fill="#996800" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 1586.187,535.5 c 0,0 213,-162 396,76 l 36.403,-66.046 C 1871.591,316.454 1553.187,352.5 1586.187,535.5 z" fill-opacity="1" fill="#006633" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 2071.169,537.157 6.233,85.331 c 161,-126 303.785,-88.988 412.785,6.012 -39.999,-245 -239.017,-191.343 -419.018,-91.343 z" fill-opacity="1" fill="#006633" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 2062.188,844.5 c -10,-239 371.424,-253.59 406,62 -57,-92 -249,-187 -406,-62 z" fill-opacity="1" fill="#006633" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 2052.188,1076.5 c 32,-190 415.316,-175.792 385,165 -102,-105 -188.668,-216.333 -385,-165 z" fill-opacity="1" fill="#006633" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="M 1509.813,793.111 C 1566.81,665.617 1797.798,496.887 1973.29,628.5 v 58.859 c -207.981,-96.74 -308.985,80.253 -463.477,105.752 z" fill-opacity="1" fill="#006633" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 1583.739,1055.598 c 8.57,-316.484 295.055,-340.193 398.55,-149.098 -137.992,-51.893 -241.487,-41.393 -398.55,149.098 z" fill-opacity="1" fill="#006633" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 1593.809,1322.584 c 0,0 25.499,-124.493 110.994,-203.989 61.497,-103.495 262.292,-143.993 311.887,-49.498 -124.396,-1.5 -181.394,91.495 -181.394,91.495 -62.109,5.408 -241.487,161.992 -241.487,161.992 z" fill-opacity="1" fill="#006633" stroke="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 1595.187,2019.5 c 0,0 -13.001,-95.026 397,-111 385,-15 435,111 435,111 h -832 z" fill-opacity="1" fill="#006633" stroke="none" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }

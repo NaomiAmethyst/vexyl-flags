@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tochigi Prefecture"
@@ -11,29 +10,29 @@ palette {
   green "#76b138"
   white "#ffffff"
 }
-proportion hoist=630 fly=900
+proportion hoist=7 fly=10
 
 field green
 
 charge path white {
   d "M345 210L450 210L450 294L345 294ZM492 210L576 210L576 262.5A57.7882 57.7882 0 0 1 523.2112 317.9748L457.9125 323.6016A54.6 54.6 0 0 0 408 378L408 420L324 420L324 367.5A57.7882 57.7882 0 0 1 376.7888 312.0252L442.0879 306.3984A54.6 54.6 0 0 0 492 252ZM576 336L516.2461 344.2294A53.1678 53.1678 0 0 0 471 388.5L471 420L420.6 420L420.6 378A42 42 0 0 1 462.6 336Z"
   box "319.0006 197.4 261.9988 244.2678"
-  fly 261.9988
-  hoist 244.2678
-  at fly=450 hoist=319.5339
+  fly 2.9111
+  hoist 2.7141
+  at fly=5 hoist=3.55
   anchor center
 }
 
 charge path green {
   d "M334.5 259.0553L397.5 208.6553L460.5 259.0553M460.5 280.0553L397.5 229.6553L334.5 280.0553M334.5 301.0553L397.5 250.6553L460.5 301.0553M397.5 207.9L397.5 296.1"
   box "334.5 207.9 126 93.1553"
-  fly 126
-  hoist 93.1553
-  hollow 2.1
-  at fly=397.5 hoist=254.4777
+  fly 1.4
+  hoist 1.0351
+  hollow 0.0233
+  at fly=4.4167 hoist=2.8275
 }
 
 charge disc white {
-  radius 33.2039
-  at fly=523.5 hoist=388.5
+  radius 0.3689
+  at fly=5.8167 hoist=4.3167
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the National Liberation Front of South Vietnam, Flag of South Vietnam (1975–1976)"
@@ -11,12 +10,11 @@ palette {
   blue "#3399ff"
   yellow "#ffff00"
 }
-proportion hoist=12 fly=18
+proportion hoist=2 fly=3
 
 bars red blue
 
 charge star yellow {
-  radius 3.6017
-  at fly=9 hoist=5.9958
-  anchor center
+  radius 0.6
+  at center
 }

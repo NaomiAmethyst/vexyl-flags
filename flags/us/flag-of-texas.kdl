@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Texas"
@@ -9,20 +8,19 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#bf0a30"
+  red "#bf0a30"
   blue "#00205b"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
-bars white pink
+bars white red
 
 panel {
   side hoist
-  width 300
+  width 1
   field blue
   charge star white {
-    radius 112.5
-    inner 42.75
-    at fly=150 hoist=300
+    radius 0.375
+    at center
   }
 }

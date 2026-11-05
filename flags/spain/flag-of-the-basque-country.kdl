@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Basque Country"
@@ -12,15 +11,15 @@ palette {
   green "#009b48"
   white "#ffffff"
 }
-proportion hoist=28 fly=50
+proportion hoist=364 fly=650
 
 field red
 
 saltire green {
-  width 4.3
+  width 56
 }
 
 cross white {
-  fly 22.85 4.3 22.85
-  hoist 11.85 4.3 11.85
+  fly 297 56 297
+  hoist 154 56 154
 }

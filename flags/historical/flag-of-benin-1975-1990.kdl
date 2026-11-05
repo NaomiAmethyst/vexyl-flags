@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Benin (1975-1990)"
@@ -10,12 +9,11 @@ palette {
   green "#008751"
   red "#ef1029"
 }
-proportion hoist=1000 fly=1500
+proportion hoist=2 fly=3
 
 field green
 
 charge star red {
-  radius 100
-  inner 38
-  at fly=180 hoist=160
+  radius 0.2
+  at fly=0.36 hoist=0.32
 }

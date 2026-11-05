@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Mohéli (official)"
@@ -11,12 +10,12 @@ palette {
   yellow "#ffe01e"
   red "#ce1126"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 field yellow
 
 charge star red {
-  radius 110.5577
-  at fly=300.0005 hoist=204.1683
+  radius 0.5528
+  at fly=1.5 hoist=1.0208
   anchor center
 }

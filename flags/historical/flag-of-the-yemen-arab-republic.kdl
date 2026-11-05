@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Yemen Arab Republic"
@@ -13,12 +12,12 @@ palette {
   black "#000000"
   green "#007b3a"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars red white black
 
 charge star green {
-  radius 90.0004
-  at fly=450 hoist=308.5943
+  radius 0.3
+  at fly=1.5 hoist=1.0286
   anchor center
 }

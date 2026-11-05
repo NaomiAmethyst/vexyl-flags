@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Hachisuka Lords of Tokushima in Awa Province (B)"
@@ -11,53 +10,53 @@ palette {
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=700 fly=900
+proportion hoist=1400 fly=1800
 
 charge rect black {
-  fly 900
-  hoist 700
-  at fly=450 hoist=350
+  fly 1800
+  hoist 1400
+  at center
   opacity 0.961
 }
 
 charge rect white {
-  fly 900
-  hoist 235
-  at fly=450 hoist=350
+  fly 1800
+  hoist 470
+  at center
 }
 
 charge svg {
   at center
-  fly 900
-  hoist 700
+  fly 1800
+  hoist 1400
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700"><circle cx="450" cy="350" r="241.71" stroke-width="5" stroke="#000000" fill-rule="evenodd" fill-opacity=".961" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><circle cx="450" cy="350" r="184.4" stroke-width="5" stroke="#000000" fill-rule="evenodd" fill-opacity=".961" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700"><circle cy="350" r="241.71" cx="450" fill-rule="evenodd" stroke-width="5" fill-opacity=".961" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><circle cy="350" r="184.4" cx="450" fill-rule="evenodd" stroke-width="5" fill-opacity=".961" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
 charge polygon black {
-  point fly=319.21 hoist=219.21
-  point fly=319.21 hoist=291.716
-  point fly=413.749 hoist=291.716
-  point fly=413.749 hoist=313.749
-  point fly=319.21 hoist=313.749
-  point fly=319.21 hoist=480.799
-  point fly=391.716 hoist=480.799
-  point fly=391.716 hoist=386.26
-  point fly=413.749 hoist=386.26
-  point fly=413.749 hoist=480.799
-  point fly=486.257 hoist=480.799
-  point fly=486.257 hoist=386.26
-  point fly=580.796 hoist=386.26
-  point fly=580.796 hoist=219.21
-  point fly=508.29 hoist=219.21
-  point fly=508.29 hoist=313.749
-  point fly=486.257 hoist=313.749
-  point fly=486.257 hoist=219.21
+  point fly=638 hoist=438.5
+  point fly=638 hoist=583.5
+  point fly=827.5 hoist=583.5
+  point fly=827.5 hoist=627.5
+  point fly=638 hoist=627.5
+  point fly=638 hoist=962
+  point fly=783.5 hoist=962
+  point fly=783.5 hoist=772.5
+  point fly=827.5 hoist=772.5
+  point fly=827.5 hoist=962
+  point fly=972.5 hoist=962
+  point fly=972.5 hoist=772.5
+  point fly=1162 hoist=772.5
+  point fly=1162 hoist=438.5
+  point fly=1017 hoist=438.5
+  point fly=1017 hoist=627.5
+  point fly=972.5 hoist=627.5
+  point fly=972.5 hoist=438.5
 }
 
 charge rect black {
-  fly 167.05
-  hoist 72.507
-  at fly=497.273 hoist=444.5445
+  fly 334
+  hoist 145
+  at fly=994.5 hoist=889
 }

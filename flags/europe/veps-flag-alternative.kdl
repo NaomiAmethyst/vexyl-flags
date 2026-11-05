@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Veps Flag Alternative"
@@ -12,26 +11,26 @@ palette {
   yellow "#fbfe6d"
   blue "#458cd2"
 }
-proportion hoist=202 fly=360
+proportion hoist=1 fly=1.7822
 
 field green
 
 charge polygon yellow {
-  point fly=0 hoist=70
-  point fly=100 hoist=70
-  point fly=100 hoist=0
-  point fly=163 hoist=0
-  point fly=163 hoist=70
-  point fly=360 hoist=70
-  point fly=360 hoist=131
-  point fly=163 hoist=131
-  point fly=163 hoist=202
-  point fly=100 hoist=202
-  point fly=100 hoist=131
-  point fly=0 hoist=131
+  point fly=0 hoist=0.3465
+  point fly=0.495 hoist=0.3465
+  point fly=0.495 hoist=0
+  point fly=0.8069 hoist=0
+  point fly=0.8069 hoist=0.3465
+  point fly=1.7822 hoist=0.3465
+  point fly=1.7822 hoist=0.6485
+  point fly=0.8069 hoist=0.6485
+  point fly=0.8069 hoist=1
+  point fly=0.495 hoist=1
+  point fly=0.495 hoist=0.6485
+  point fly=0 hoist=0.6485
 }
 
 cross blue {
-  fly 113 38 209
-  hoist 83 36 83
+  fly 0.5594 0.1881 1.0347
+  hoist 0.4109 0.1782 0.4109
 }

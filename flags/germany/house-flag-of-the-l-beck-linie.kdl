@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "House flag of the Lübeck Linie"
@@ -11,24 +10,24 @@ palette {
   white "#ffffff"
   red "#cc1122"
 }
-proportion hoist=200 fly=300
+proportion hoist=2 fly=3
 
 field white
 
 charge polygon red {
-  point fly=50 hoist=5
-  point fly=50 hoist=50
-  point fly=300 hoist=50
-  point fly=300 hoist=100
-  point fly=0 hoist=100
-  point fly=0 hoist=5
+  point fly=0.5 hoist=0.05
+  point fly=0.5 hoist=0.5
+  point fly=3 hoist=0.5
+  point fly=3 hoist=1
+  point fly=0 hoist=1
+  point fly=0 hoist=0.05
 }
 
 charge polygon red {
-  point fly=50 hoist=105
-  point fly=50 hoist=150
-  point fly=300 hoist=150
-  point fly=300 hoist=200
-  point fly=0 hoist=200
-  point fly=0 hoist=105
+  point fly=0.5 hoist=1.05
+  point fly=0.5 hoist=1.5
+  point fly=3 hoist=1.5
+  point fly=3 hoist=2
+  point fly=0 hoist=2
+  point fly=0 hoist=1.05
 }

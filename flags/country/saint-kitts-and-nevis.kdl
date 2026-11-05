@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Saint Kitts and Nevis"
@@ -14,26 +13,26 @@ palette {
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=50 fly=75
+proportion hoist=10 fly=15
 
 pile green {
-  tip 0 75
+  tip 0 15
 }
 
 pile red {
   from fly
-  tip 50 75
+  tip 10 15
 }
 
 band black {
   along bend-sinister
-  width 15
-  fimbriate yellow 3
+  width 3
+  fimbriate yellow 0.6
 }
 
 charge star white {
-  radius 7
+  radius 1.4
   rotate -33.6896
-  at fly=23.448 hoist=35.1716
-  at fly=52.294 hoist=15.9406
+  at fly=4.6875 hoist=7.0343
+  at fly=10.4588 hoist=3.1875
 }

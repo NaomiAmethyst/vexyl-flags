@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Evenkia"
@@ -11,35 +10,34 @@ palette {
   white "#ffffff"
   red "#ff0000"
   blue "#0099ff"
-  blue-2 "#0000cc"
+  dark-blue "#0000cc"
 }
-proportion hoist=6820 fly=10230
+proportion hoist=300 fly=450
 
 field white
 
 charge disc red {
-  radius 198
-  at fly=5115 hoist=3410
-  anchor center
+  radius 8.75
+  at center
 }
 
 charge svg {
   at center
-  fly 10230
-  hoist 6820
+  fly 450
+  hoist 300
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10230 6820"><path d="M5115 3410l-114 -584 -113 -584 227 0 227 0 -113 584 -114 584z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5119 3410l-584 114 -584 113 0 -227 0 -227 584 113 584 114z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 3410l584 114 584 113 0 -227 0 -227 -584 113 -584 114z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 3410l-114 583 -113 584 227 0 227 0 -113 -584 -114 -583z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5116 3411l-494 -332 -493 -333 161 -160 161 -161 332 493 333 493z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5118 3409l-332 493 -333 493 -160 -161 -161 -160 493 -333 493 -332z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5116 3411l493 -332 493 -333 -161 -160 -160 -161 -333 493 -332 493z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 3411l333 493 332 493 161 -160 161 -161 -493 -333 -494 -332z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 4005c-328,0 -595,-267 -595,-595 0,-328 267,-595 595,-595 328,0 595,267 595,595 0,328 -267,595 -595,595zm0 -59c-295,0 -536,-241 -536,-536 0,-295 241,-536 536,-536 295,0 536,241 536,536 0,295 -241,536 -536,536z" stroke-width="24" stroke="#ff0000" fill-rule="evenodd" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 4653c-685,0 -1243,-558 -1243,-1243 0,-685 558,-1243 1243,-1243 685,0 1243,558 1243,1243 0,685 -558,1243 -1243,1243zm0 -100c-630,0 -1143,-513 -1143,-1143 0,-630 513,-1143 1143,-1143 630,0 1143,513 1143,1143 0,630 -513,1143 -1143,1143z" stroke-width="48" stroke="#ff0000" fill-rule="evenodd" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10230 6820"><path d="M5115 3410l-114 -584 -113 -584 227 0 227 0 -113 584 -114 584z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5119 3410l-584 114 -584 113 0 -227 0 -227 584 113 584 114z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 3410l584 114 584 113 0 -227 0 -227 -584 113 -584 114z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 3410l-114 583 -113 584 227 0 227 0 -113 -584 -114 -583z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5116 3411l-494 -332 -493 -333 161 -160 161 -161 332 493 333 493z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5118 3409l-332 493 -333 493 -160 -161 -161 -160 493 -333 493 -332z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5116 3411l493 -332 493 -333 -161 -160 -160 -161 -333 493 -332 493z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 3411l333 493 332 493 161 -160 161 -161 -493 -333 -494 -332z" fill-rule="evenodd" fill="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 4005c-328,0 -595,-267 -595,-595 0,-328 267,-595 595,-595 328,0 595,267 595,595 0,328 -267,595 -595,595zm0 -59c-295,0 -536,-241 -536,-536 0,-295 241,-536 536,-536 295,0 536,241 536,536 0,295 -241,536 -536,536z" fill-rule="evenodd" stroke-width="24" fill="#ffffff" stroke="#ff0000" transform="matrix(1 0 0 1 0 0)"/><path d="M5115 4653c-685,0 -1243,-558 -1243,-1243 0,-685 558,-1243 1243,-1243 685,0 1243,558 1243,1243 0,685 -558,1243 -1243,1243zm0 -100c-630,0 -1143,-513 -1143,-1143 0,-630 513,-1143 1143,-1143 630,0 1143,513 1143,1143 0,630 -513,1143 -1143,1143z" fill-rule="evenodd" stroke-width="48" fill="#ffffff" stroke="#ff0000" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
 panel {
   side top
-  width 2093
+  width 92
   field blue
 }
 
 panel {
   side bottom
-  width 2093
-  field blue-2
+  width 92
+  field dark-blue
 }

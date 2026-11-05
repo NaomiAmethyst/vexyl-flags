@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Hawaii (1816)"
@@ -12,141 +11,60 @@ palette {
   white "#ffffff"
   red "#c8102e"
 }
-proportion hoist=60 fly=120
+proportion hoist=54 fly=108
 
 field blue
 
-charge polygon white {
-  point fly=0 hoist=3.8132
-  point fly=53.1362 hoist=33.3333
-  point fly=60 hoist=33.3333
-  point fly=61.6188 hoist=30.4195
-  point fly=6.8638 hoist=0
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon white {
-  point fly=53.1362 hoist=0
-  point fly=0 hoist=29.5201
-  point fly=0 hoist=33.3333
-  point fly=0 hoist=33.3333
-  point fly=6.8638 hoist=33.3333
-  point fly=61.6188 hoist=2.9139
-  point fly=60 hoist=0
-}
-
-charge polygon red {
-  point fly=0 hoist=2.5421
-  point fly=25.4242 hoist=16.6667
-  point fly=30 hoist=16.6667
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon red {
-  point fly=60 hoist=33.3333
-  point fly=60 hoist=30.7912
-  point fly=34.5758 hoist=16.6667
-  point fly=30 hoist=16.6667
-}
-
-charge polygon red {
-  point fly=27.7121 hoist=17.9377
-  point fly=30 hoist=19.2088
-  point fly=30 hoist=16.6667
-}
-
-charge polygon red {
-  point fly=32.2879 hoist=15.3956
-  point fly=30 hoist=14.1245
-  point fly=30 hoist=16.6667
-}
-
-charge polygon red {
-  point fly=27.7121 hoist=15.3956
-  point fly=25.4242 hoist=16.6667
-  point fly=30 hoist=16.6667
-}
-
-charge polygon red {
-  point fly=32.2879 hoist=17.9377
-  point fly=34.5758 hoist=16.6667
-  point fly=30 hoist=16.6667
-}
-
-charge polygon red {
-  point fly=0 hoist=33.3333
-  point fly=4.5758 hoist=33.3333
-  point fly=30 hoist=19.2088
-  point fly=30 hoist=16.6667
-}
-
-charge polygon red {
-  point fly=55.4242 hoist=0
-  point fly=30 hoist=14.1245
-  point fly=30 hoist=16.6667
-  point fly=60 hoist=0
-  point fly=60 hoist=0
-}
-
-charge rect white {
-  fly 60
-  hoist 11.1111
-  at fly=30 hoist=16.6667
-}
-
-charge rect white {
-  fly 11.1111
-  hoist 33.3333
-  at fly=30 hoist=16.6667
+canton {
+  fly 54
+  hoist 30
+  saltire white {
+    width 6
+  }
+  saltire red {
+    width 2
+    counterchange
+  }
+  cross red {
+    fly 24 6 24
+    hoist 12 6 12
+    fimbriate white 2
+  }
 }
 
 charge rect red {
-  fly 60
-  hoist 6.6667
-  at fly=30 hoist=16.6667
-}
-
-charge rect red {
-  fly 6.6667
-  hoist 33.3333
-  at fly=30 hoist=16.6667
-}
-
-charge rect red {
-  fly 120
-  hoist 6.6667
-  at fly=60 hoist=43.3333
+  fly 108
+  hoist 6
+  at fly=54 hoist=39
 }
 
 charge rect white {
-  fly 120
-  hoist 6.6667
-  at fly=60 hoist=50
+  fly 108
+  hoist 6
+  at fly=54 hoist=45
 }
 
 charge rect red {
-  fly 60
-  hoist 6.6667
-  at fly=90 hoist=23.3333
+  fly 54
+  hoist 6
+  at fly=81 hoist=21
 }
 
 charge rect white {
-  fly 60
-  hoist 6.6667
-  at fly=90 hoist=30
+  fly 54
+  hoist 6
+  at fly=81 hoist=27
 }
 
 panel {
   corner upper-fly
-  fly 60
-  hoist 6.6667
+  fly 54
+  hoist 6
   field red
 }
 
 charge rect white {
-  fly 60
-  hoist 6.6667
-  at fly=90 hoist=10
+  fly 54
+  hoist 6
+  at fly=81 hoist=9
 }

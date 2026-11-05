@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Proposed flag of Germany (Robert Lehr)"
@@ -12,26 +11,25 @@ palette {
   black "#000000"
   yellow "#ffcc00"
 }
-proportion hoist=360 fly=600
+proportion hoist=6 fly=10
 
 field red
 
 canton {
-  fly 300
-  hoist 180
+  fly 5
+  hoist 3
   field black
   charge star yellow {
-    radius 30
-    inner 11.4
-    at fly=30 hoist=45
-    at fly=90 hoist=45
-    at fly=150 hoist=45
-    at fly=210 hoist=45
-    at fly=270 hoist=45
-    at fly=30 hoist=125
-    at fly=90 hoist=125
-    at fly=150 hoist=125
-    at fly=210 hoist=125
-    at fly=270 hoist=125
+    radius 0.5
+    at fly=0.5 hoist=0.75
+    at fly=1.5 hoist=0.75
+    at fly=2.5 hoist=0.75
+    at fly=3.5 hoist=0.75
+    at fly=4.5 hoist=0.75
+    at fly=0.5 hoist=2.0833
+    at fly=1.5 hoist=2.0833
+    at fly=2.5 hoist=2.0833
+    at fly=3.5 hoist=2.0833
+    at fly=4.5 hoist=2.0833
   }
 }

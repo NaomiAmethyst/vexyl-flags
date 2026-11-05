@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of North Korea"
@@ -11,18 +10,18 @@ palette {
   white "#ffffff"
   red "#ec1d25"
 }
-proportion hoist=36 fly=72
+proportion hoist=1 fly=2
 
 bars blue white red white blue {
   ratio 6 1 22 1 6
 }
 
 charge disc white {
-  radius 8
-  at fly=24 hoist=18
+  radius 0.2222
+  at fly=0.6667 hoist=0.5
 }
 
 charge star red {
-  radius 7.75
-  at fly=24 hoist=18
+  radius 0.2153
+  at fly=0.6667 hoist=0.5
 }

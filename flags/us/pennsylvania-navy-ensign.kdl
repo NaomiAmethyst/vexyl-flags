@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Pennsylvania Navy Ensign"
@@ -9,21 +8,21 @@ meta {
 }
 palette {
   blue "#00205b"
-  pink "#bf0a30"
+  red "#bf0a30"
   white "#ffffff"
 }
-proportion hoist=960 fly=1824
+proportion hoist=600 fly=1140
 
 field blue
 
 canton {
-  fly 732.567
-  hoist 518.6142
-  field pink
+  fly 458
+  hoist 324
+  field red
   charge rect white {
-    fly 732.567
-    hoist 39.9055
-    at fly=366.2835 hoist=59.8453
-    repeat line count=6 hoist=79.7852
+    fly 458
+    hoist 25
+    at fly=229 hoist=37.5
+    repeat line count=6 hoist=50
   }
 }

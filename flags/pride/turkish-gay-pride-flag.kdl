@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Turkish Gay Pride Flag"
@@ -16,20 +15,20 @@ palette {
   pink "#750787"
   white "#ffffff"
 }
-proportion hoist=800 fly=1200
+proportion hoist=2 fly=3
 
 bars red orange yellow green blue pink
 
 charge path white {
   d "M424.791 200A200 200 0 0 0 225 400A200 200 0 0 0 425 600A200 200 0 0 0 594.0059 506.9453A160 160 0 0 1 475 560A160 160 0 0 1 315 400A160 160 0 0 1 475 240A160 160 0 0 1 594.0039 293.0508A200 200 0 0 0 425 200A200 200 0 0 0 424.791 200Z"
   box "25 0 769.0059 800"
-  fly 769.0059
-  hoist 800
-  at fly=409.5029 hoist=400
+  fly 1.9225
+  hoist 2
+  at fly=1.0238 hoist=1
 }
 
 charge star white {
-  radius 100.0002
+  radius 0.25
   rotate -18
-  at fly=683.3332 hoist=400
+  at fly=1.7083 hoist=1
 }

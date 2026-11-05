@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Kingdom of Syria (1920-03-08 to 1920-07-24)"
@@ -13,18 +12,18 @@ palette {
   white "#ffffff"
   red "#ce1126"
 }
-proportion hoist=216 fly=432
+proportion hoist=1 fly=2
 
 bars black green white
 
 chevrons red {
-  depth 216
+  depth 1
 }
 
 charge star white {
-  radius 38.8215
-  inner 16.6073
+  radius 0.1797
+  inner 0.0769
   points 7
   rotate 0.1402
-  at fly=81.25 hoist=106.5
+  at fly=0.3762 hoist=0.4931
 }

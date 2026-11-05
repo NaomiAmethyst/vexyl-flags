@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Air Force Ensign of India (1950–2023)"
@@ -11,344 +10,344 @@ palette {
   green "#006934"
   white "#ffffff"
   orange "#f15b25"
-  blue-2 "#2c2c6f"
+  dark-blue "#2c2c6f"
 }
-proportion hoist=450 fly=900
+proportion hoist=6 fly=12
 
 field blue
 
 canton {
-  fly 450
-  hoist 225
+  fly 6
+  hoist 3
   field green
 }
 
 canton {
-  fly 450
-  hoist 150
+  fly 6
+  hoist 2
   field white
 }
 
 canton {
-  fly 450
-  hoist 75
+  fly 6
+  hoist 1
   field orange
 }
 
 charge disc orange {
-  radius 150
-  at fly=675 hoist=225
+  radius 2
+  at fly=9 hoist=3
 }
 
 charge disc white {
-  radius 95
-  at fly=675 hoist=225
+  radius 1.2667
+  at fly=9 hoist=3
 }
 
 charge disc green {
-  radius 40.9
-  at fly=675 hoist=225
+  radius 0.5453
+  at fly=9 hoist=3
 }
 
-charge disc blue-2 {
-  radius 34.6875
-  at fly=225 hoist=112.5
+charge disc dark-blue {
+  radius 0.4625
+  at fly=3 hoist=1.5
 }
 
 charge disc white {
-  radius 30
-  at fly=225 hoist=112.5
+  radius 0.4
+  at fly=3 hoist=1.5
 }
 
-charge disc blue-2 {
-  radius 6
-  at fly=225 hoist=112.5
+charge disc dark-blue {
+  radius 0.08
+  at fly=3 hoist=1.5
 }
 
-charge polygon blue-2 {
-  point fly=225 hoist=82.5
-  point fly=226.125 hoist=100.5528
-  point fly=225 hoist=109.4912
-  point fly=223.875 hoist=100.5528
+charge polygon dark-blue {
+  point fly=3 hoist=1.1
+  point fly=3.015 hoist=1.3407
+  point fly=3 hoist=1.4599
+  point fly=2.985 hoist=1.3407
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=228.9158 hoist=82.7567
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.0522 hoist=1.1034
 }
 
-charge polygon blue-2 {
-  point fly=225 hoist=142.5
-  point fly=223.875 hoist=124.4472
-  point fly=225 hoist=115.5088
-  point fly=226.125 hoist=124.4472
+charge polygon dark-blue {
+  point fly=3 hoist=1.9
+  point fly=2.985 hoist=1.6593
+  point fly=3 hoist=1.5401
+  point fly=3.015 hoist=1.6593
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=221.0842 hoist=142.2433
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.9478 hoist=1.8966
 }
 
-charge polygon blue-2 {
-  point fly=232.7646 hoist=83.5222
-  point fly=229.1788 hoist=101.2511
-  point fly=225.7787 hoist=109.5937
-  point fly=227.0055 hoist=100.6688
+charge polygon dark-blue {
+  point fly=3.1035 hoist=1.1136
+  point fly=3.0557 hoist=1.35
+  point fly=3.0104 hoist=1.4612
+  point fly=3.0267 hoist=1.3423
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=236.4805 hoist=84.7836
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.1531 hoist=1.1304
 }
 
-charge polygon blue-2 {
-  point fly=217.2354 hoist=141.4778
-  point fly=220.8212 hoist=123.7489
-  point fly=224.2213 hoist=115.4063
-  point fly=222.9945 hoist=124.3312
+charge polygon dark-blue {
+  point fly=2.8965 hoist=1.8864
+  point fly=2.9443 hoist=1.65
+  point fly=2.9896 hoist=1.5388
+  point fly=2.9733 hoist=1.6577
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=213.5195 hoist=140.2164
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.8469 hoist=1.8696
 }
 
-charge polygon blue-2 {
-  point fly=240 hoist=86.5192
-  point fly=231.9479 hoist=102.716
-  point fly=226.5044 hoist=109.8943
-  point fly=229.9993 hoist=101.591
+charge polygon dark-blue {
+  point fly=3.2 hoist=1.1536
+  point fly=3.0926 hoist=1.3695
+  point fly=3.0201 hoist=1.4653
+  point fly=3.0667 hoist=1.3545
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=243.2628 hoist=88.6994
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.2435 hoist=1.1827
 }
 
-charge polygon blue-2 {
-  point fly=210 hoist=138.4808
-  point fly=218.0521 hoist=122.284
-  point fly=223.4956 hoist=115.1057
-  point fly=220.0007 hoist=123.409
+charge polygon dark-blue {
+  point fly=2.8 hoist=1.8464
+  point fly=2.9074 hoist=1.6305
+  point fly=2.9799 hoist=1.5347
+  point fly=2.9333 hoist=1.6455
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=206.7372 hoist=136.3006
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.7565 hoist=1.8173
 }
 
-charge polygon blue-2 {
-  point fly=246.2132 hoist=91.2868
-  point fly=234.2434 hoist=104.8476
-  point fly=227.1276 hoist=110.3724
-  point fly=232.6524 hoist=103.2566
+charge polygon dark-blue {
+  point fly=3.2828 hoist=1.2172
+  point fly=3.125 hoist=1.398
+  point fly=3.0284 hoist=1.4716
+  point fly=3.102 hoist=1.375
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=248.8006 hoist=94.2372
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.3173 hoist=1.2565
 }
 
-charge polygon blue-2 {
-  point fly=203.7868 hoist=133.7132
-  point fly=215.7566 hoist=120.1524
-  point fly=222.8724 hoist=114.6276
-  point fly=217.3476 hoist=121.7434
+charge polygon dark-blue {
+  point fly=2.7172 hoist=1.7828
+  point fly=2.875 hoist=1.602
+  point fly=2.9716 hoist=1.5284
+  point fly=2.898 hoist=1.625
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=201.1994 hoist=130.7628
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.6827 hoist=1.7435
 }
 
-charge polygon blue-2 {
-  point fly=250.9808 hoist=97.5
-  point fly=235.909 hoist=107.5007
-  point fly=227.6057 hoist=110.9956
-  point fly=234.784 hoist=105.5521
+charge polygon dark-blue {
+  point fly=3.3464 hoist=1.3
+  point fly=3.1455 hoist=1.4333
+  point fly=3.0347 hoist=1.4799
+  point fly=3.1305 hoist=1.4074
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=252.7164 hoist=101.0195
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.3696 hoist=1.3469
 }
 
-charge polygon blue-2 {
-  point fly=199.0192 hoist=127.5
-  point fly=214.091 hoist=117.4993
-  point fly=222.3943 hoist=114.0044
-  point fly=215.216 hoist=119.4479
+charge polygon dark-blue {
+  point fly=2.6536 hoist=1.7
+  point fly=2.8545 hoist=1.5667
+  point fly=2.9653 hoist=1.5201
+  point fly=2.8695 hoist=1.5926
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=197.2836 hoist=123.9805
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.6304 hoist=1.6531
 }
 
-charge polygon blue-2 {
-  point fly=253.9778 hoist=104.7354
-  point fly=236.8312 hoist=110.4945
-  point fly=227.9063 hoist=111.7213
-  point fly=236.2489 hoist=108.3212
+charge polygon dark-blue {
+  point fly=3.3864 hoist=1.3965
+  point fly=3.1577 hoist=1.4733
+  point fly=3.0388 hoist=1.4896
+  point fly=3.15 hoist=1.4443
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=254.7433 hoist=108.5842
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.3966 hoist=1.4478
 }
 
-charge polygon blue-2 {
-  point fly=196.0222 hoist=120.2646
-  point fly=213.1688 hoist=114.5055
-  point fly=222.0937 hoist=113.2787
-  point fly=213.7511 hoist=116.6788
+charge polygon dark-blue {
+  point fly=2.6136 hoist=1.6035
+  point fly=2.8423 hoist=1.5267
+  point fly=2.9612 hoist=1.5104
+  point fly=2.85 hoist=1.5557
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=195.2567 hoist=116.4158
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.6034 hoist=1.5522
 }
 
-charge polygon blue-2 {
-  point fly=255 hoist=112.5
-  point fly=236.9472 hoist=113.625
-  point fly=228.0088 hoist=112.5
-  point fly=236.9472 hoist=111.375
+charge polygon dark-blue {
+  point fly=3.4 hoist=1.5
+  point fly=3.1593 hoist=1.515
+  point fly=3.0401 hoist=1.5
+  point fly=3.1593 hoist=1.485
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=254.7433 hoist=116.4158
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.3966 hoist=1.5522
 }
 
-charge polygon blue-2 {
-  point fly=195 hoist=112.5
-  point fly=213.0528 hoist=111.375
-  point fly=221.9912 hoist=112.5
-  point fly=213.0528 hoist=113.625
+charge polygon dark-blue {
+  point fly=2.6 hoist=1.5
+  point fly=2.8407 hoist=1.485
+  point fly=2.9599 hoist=1.5
+  point fly=2.8407 hoist=1.515
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=195.2567 hoist=108.5842
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.6034 hoist=1.4478
 }
 
-charge polygon blue-2 {
-  point fly=253.9778 hoist=120.2646
-  point fly=236.2489 hoist=116.6788
-  point fly=227.9063 hoist=113.2787
-  point fly=236.8312 hoist=114.5055
+charge polygon dark-blue {
+  point fly=3.3864 hoist=1.6035
+  point fly=3.15 hoist=1.5557
+  point fly=3.0388 hoist=1.5104
+  point fly=3.1577 hoist=1.5267
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=252.7164 hoist=123.9805
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.3696 hoist=1.6531
 }
 
-charge polygon blue-2 {
-  point fly=196.0222 hoist=104.7354
-  point fly=213.7511 hoist=108.3212
-  point fly=222.0937 hoist=111.7213
-  point fly=213.1688 hoist=110.4945
+charge polygon dark-blue {
+  point fly=2.6136 hoist=1.3965
+  point fly=2.85 hoist=1.4443
+  point fly=2.9612 hoist=1.4896
+  point fly=2.8423 hoist=1.4733
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=197.2836 hoist=101.0195
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.6304 hoist=1.3469
 }
 
-charge polygon blue-2 {
-  point fly=250.9808 hoist=127.5
-  point fly=234.784 hoist=119.4479
-  point fly=227.6057 hoist=114.0044
-  point fly=235.909 hoist=117.4993
+charge polygon dark-blue {
+  point fly=3.3464 hoist=1.7
+  point fly=3.1305 hoist=1.5926
+  point fly=3.0347 hoist=1.5201
+  point fly=3.1455 hoist=1.5667
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=248.8006 hoist=130.7628
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.3173 hoist=1.7435
 }
 
-charge polygon blue-2 {
-  point fly=199.0192 hoist=97.5
-  point fly=215.216 hoist=105.5521
-  point fly=222.3943 hoist=110.9956
-  point fly=214.091 hoist=107.5007
+charge polygon dark-blue {
+  point fly=2.6536 hoist=1.3
+  point fly=2.8695 hoist=1.4074
+  point fly=2.9653 hoist=1.4799
+  point fly=2.8545 hoist=1.4333
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=201.1994 hoist=94.2372
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.6827 hoist=1.2565
 }
 
-charge polygon blue-2 {
-  point fly=246.2132 hoist=133.7132
-  point fly=232.6524 hoist=121.7434
-  point fly=227.1276 hoist=114.6276
-  point fly=234.2434 hoist=120.1524
+charge polygon dark-blue {
+  point fly=3.2828 hoist=1.7828
+  point fly=3.102 hoist=1.625
+  point fly=3.0284 hoist=1.5284
+  point fly=3.125 hoist=1.602
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=243.2628 hoist=136.3006
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.2435 hoist=1.8173
 }
 
-charge polygon blue-2 {
-  point fly=203.7868 hoist=91.2868
-  point fly=217.3476 hoist=103.2566
-  point fly=222.8724 hoist=110.3724
-  point fly=215.7566 hoist=104.8476
+charge polygon dark-blue {
+  point fly=2.7172 hoist=1.2172
+  point fly=2.898 hoist=1.375
+  point fly=2.9716 hoist=1.4716
+  point fly=2.875 hoist=1.398
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=206.7372 hoist=88.6994
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.7565 hoist=1.1827
 }
 
-charge polygon blue-2 {
-  point fly=240 hoist=138.4808
-  point fly=229.9993 hoist=123.409
-  point fly=226.5044 hoist=115.1057
-  point fly=231.9479 hoist=122.284
+charge polygon dark-blue {
+  point fly=3.2 hoist=1.8464
+  point fly=3.0667 hoist=1.6455
+  point fly=3.0201 hoist=1.5347
+  point fly=3.0926 hoist=1.6305
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=236.4805 hoist=140.2164
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.1531 hoist=1.8696
 }
 
-charge polygon blue-2 {
-  point fly=210 hoist=86.5192
-  point fly=220.0007 hoist=101.591
-  point fly=223.4956 hoist=109.8943
-  point fly=218.0521 hoist=102.716
+charge polygon dark-blue {
+  point fly=2.8 hoist=1.1536
+  point fly=2.9333 hoist=1.3545
+  point fly=2.9799 hoist=1.4653
+  point fly=2.9074 hoist=1.3695
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=213.5195 hoist=84.7836
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.8469 hoist=1.1304
 }
 
-charge polygon blue-2 {
-  point fly=232.7646 hoist=141.4778
-  point fly=227.0055 hoist=124.3312
-  point fly=225.7787 hoist=115.4063
-  point fly=229.1788 hoist=123.7489
+charge polygon dark-blue {
+  point fly=3.1035 hoist=1.8864
+  point fly=3.0267 hoist=1.6577
+  point fly=3.0104 hoist=1.5388
+  point fly=3.0557 hoist=1.65
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=228.9158 hoist=142.2433
+charge disc dark-blue {
+  radius 0.0175
+  at fly=3.0522 hoist=1.8966
 }
 
-charge polygon blue-2 {
-  point fly=217.2354 hoist=83.5222
-  point fly=222.9945 hoist=100.6688
-  point fly=224.2213 hoist=109.5937
-  point fly=220.8212 hoist=101.2511
+charge polygon dark-blue {
+  point fly=2.8965 hoist=1.1136
+  point fly=2.9733 hoist=1.3423
+  point fly=2.9896 hoist=1.4612
+  point fly=2.9443 hoist=1.35
 }
 
-charge disc blue-2 {
-  radius 1.3125
-  at fly=221.0842 hoist=82.7567
+charge disc dark-blue {
+  radius 0.0175
+  at fly=2.9478 hoist=1.1034
 }

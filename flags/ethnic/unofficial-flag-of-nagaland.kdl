@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Unofficial flag of Nagaland"
@@ -14,45 +13,45 @@ palette {
   red "#da251c"
   white "#ffffff"
 }
-proportion hoist=378 fly=570
+proportion hoist=1 fly=1.5079
 
 field blue
 
 charge path green {
   d "M0 353.613L0 378.0001C170.371 234.8131 364.73 138.4841 570 67.0651L570 45.2909C364.73 116.7103 170.301 210.4259 0 353.6139Z"
   box "0 45.2909 570 332.7092"
-  fly 570
-  hoist 332.7092
-  at fly=285 hoist=211.6455
+  fly 1.5079
+  hoist 0.8802
+  at fly=0.754 hoist=0.5599
 }
 
 charge path yellow {
   d "M0 330.968L0 353.6132C170.371 210.4262 364.73 116.7102 570 45.2902L570 22.645C364.73 94.0818 170.301 187.78 0 330.968Z"
   box "0 22.645 570 330.9682"
-  fly 570
-  hoist 330.9682
-  at fly=285 hoist=188.1291
+  fly 1.5079
+  hoist 0.8756
+  at fly=0.754 hoist=0.4977
 }
 
 charge path red {
   d "M570 22.6452C364.73 94.0471 170.475 187.7802 0 330.9682L0 308.323C170.371 165.101 364.73 71.42 570 0Z"
   box "0 0 570 330.9682"
-  fly 570
-  hoist 330.9682
-  at fly=285 hoist=165.4841
+  fly 1.5079
+  hoist 0.8756
+  at fly=0.754 hoist=0.4375
 }
 
 charge polygon white {
-  point fly=141.961 hoist=110
-  point fly=104.9995 hoist=105.9808
-  point fly=89.9995 hoist=189.9998
-  point fly=74.9995 hoist=105.9808
-  point fly=38.038 hoist=110
-  point fly=59.9995 hoist=80
-  point fly=38.038 hoist=50
-  point fly=74.9995 hoist=54.0192
-  point fly=89.9995 hoist=20
-  point fly=104.9995 hoist=54.0192
-  point fly=141.961 hoist=50
-  point fly=119.9995 hoist=80
+  point fly=0.3756 hoist=0.291
+  point fly=0.2778 hoist=0.2804
+  point fly=0.2381 hoist=0.5026
+  point fly=0.1984 hoist=0.2804
+  point fly=0.1006 hoist=0.291
+  point fly=0.1587 hoist=0.2116
+  point fly=0.1006 hoist=0.1323
+  point fly=0.1984 hoist=0.1429
+  point fly=0.2381 hoist=0.0529
+  point fly=0.2778 hoist=0.1429
+  point fly=0.3756 hoist=0.1323
+  point fly=0.3175 hoist=0.2116
 }

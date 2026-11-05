@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of China"
@@ -11,35 +10,35 @@ palette {
   red "#ee1c25"
   yellow "#ffff00"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field red
 
 charge star yellow {
-  radius 90
-  at fly=150 hoist=150
+  radius 0.3
+  at fly=0.5 hoist=0.5
 }
 
 charge star yellow {
-  radius 30
+  radius 0.1
   rotate 23.036
-  at fly=299.9971 hoist=59.9986
+  at fly=1 hoist=0.2
 }
 
 charge star yellow {
-  radius 30
+  radius 0.1
   rotate -26.13
-  at fly=360.0008 hoist=120.001
+  at fly=1.2 hoist=0.4
 }
 
 charge star yellow {
-  radius 30
+  radius 0.1
   rotate -2.055
-  at fly=359.9992 hoist=209.9983
+  at fly=1.2 hoist=0.7
 }
 
 charge star yellow {
-  radius 30
+  radius 0.1
   rotate 20.66
-  at fly=300.0023 hoist=270.0032
+  at fly=1 hoist=0.9
 }

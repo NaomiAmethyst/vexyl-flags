@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tokelau"
@@ -12,46 +11,42 @@ palette {
   yellow "#ffd100"
   white "#ffffff"
 }
-proportion hoist=900 fly=1800
+proportion hoist=1 fly=2
 
 field blue
 
 charge path yellow {
   d "M329.3761 777.2654C311.4417 777.1156 497.9995 677.834 654.1452 550.6656C858.7889 383.9995 1299.541 117.1563 1429.1161 73.7954C1442.6594 69.2632 1401.34 96.8685 1395.9761 105.8108C1257.6346 269.5512 1368.0511 578.5346 1540.9487 733.8591C1592.9387 773.6223 1590.2761 775.7099 1686.6561 779.6054L1686.6561 788.6054L329.3761 777.2654Z"
   box "311.4417 69.2632 1375.2144 719.3421"
-  fly 1375.2144
-  hoist 719.3421
-  at fly=999.0489 hoist=428.9343
+  fly 1.528
+  hoist 0.7993
+  at fly=1.1101 hoist=0.4766
 }
 
 charge path yellow {
   d "M318.125 795.3246C318.125 795.3246 304.9616 804.7275 305.0001 811.7307C305.0431 819.5032 319.7656 829.7775 319.7656 829.7775L1658.5107 844.5431L1683.12 828.1369L1648.667 806.8089L318.125 795.3246Z"
   box "304.9616 795.3246 1378.1584 49.2185"
-  fly 1378.1584
-  hoist 49.2185
-  at fly=994.0408 hoist=819.9339
+  fly 1.5313
+  hoist 0.0547
+  at fly=1.1045 hoist=0.911
 }
 
 charge star white {
-  radius 47.3159
-  inner 17.98
-  at fly=342.9565 hoist=112.5812
+  radius 0.0526
+  at fly=0.3811 hoist=0.125
 }
 
 charge star white {
-  radius 39.4299
-  inner 14.9834
-  at fly=521.2046 hoist=267.53
+  radius 0.0438
+  at fly=0.5791 hoist=0.2973
 }
 
 charge star white {
-  radius 47.3159
-  inner 17.98
-  at fly=135 hoist=321.8075
+  radius 0.0526
+  at fly=0.15 hoist=0.3576
 }
 
 charge star white {
-  radius 55.2019
-  inner 20.9767
-  at fly=342.9565 hoist=652.5812
+  radius 0.0613
+  at fly=0.3811 hoist=0.7251
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Progress Straight Ally Flag"
@@ -18,97 +17,97 @@ palette {
   red "#e40303"
   brown "#613915"
   teal "#74d7ee"
-  pink-2 "#ffafc8"
+  light-pink "#ffafc8"
 }
-proportion hoist=432 fly=648
+proportion hoist=2 fly=3
 
 bars black white {
   count 6
 }
 
 charge polygon pink {
-  point fly=54 hoist=360
-  point fly=270 hoist=144
-  point fly=270 hoist=360
-  point fly=216 hoist=432
-  point fly=0 hoist=432
+  point fly=0.25 hoist=1.6667
+  point fly=1.25 hoist=0.6667
+  point fly=1.25 hoist=1.6667
+  point fly=1 hoist=2
+  point fly=0 hoist=2
 }
 
 charge polygon pink {
-  point fly=594 hoist=360
-  point fly=378 hoist=144
-  point fly=378 hoist=360
-  point fly=432 hoist=432
-  point fly=648 hoist=432
+  point fly=2.75 hoist=1.6667
+  point fly=1.75 hoist=0.6667
+  point fly=1.75 hoist=1.6667
+  point fly=2 hoist=2
+  point fly=3 hoist=2
 }
 
 charge polygon blue {
-  point fly=108 hoist=288
-  point fly=324 hoist=216
-  point fly=540 hoist=288
-  point fly=594 hoist=360
-  point fly=378 hoist=360
-  point fly=324 hoist=288
-  point fly=270 hoist=360
-  point fly=54 hoist=360
+  point fly=0.5 hoist=1.3333
+  point fly=1.5 hoist=1
+  point fly=2.5 hoist=1.3333
+  point fly=2.75 hoist=1.6667
+  point fly=1.75 hoist=1.6667
+  point fly=1.5 hoist=1.3333
+  point fly=1.25 hoist=1.6667
+  point fly=0.25 hoist=1.6667
 }
 
 charge polygon green {
-  point fly=162 hoist=216
-  point fly=324 hoist=144
-  point fly=486 hoist=216
-  point fly=540 hoist=288
-  point fly=108 hoist=288
+  point fly=0.75 hoist=1
+  point fly=1.5 hoist=0.6667
+  point fly=2.25 hoist=1
+  point fly=2.5 hoist=1.3333
+  point fly=0.5 hoist=1.3333
 }
 
 charge polygon yellow {
-  point fly=216 hoist=144
-  point fly=324 hoist=72
-  point fly=432 hoist=144
-  point fly=486 hoist=216
-  point fly=162 hoist=216
+  point fly=1 hoist=0.6667
+  point fly=1.5 hoist=0.3333
+  point fly=2 hoist=0.6667
+  point fly=2.25 hoist=1
+  point fly=0.75 hoist=1
 }
 
 charge polygon orange {
-  point fly=270 hoist=72
-  point fly=324 hoist=36
-  point fly=378 hoist=72
-  point fly=432 hoist=144
-  point fly=216 hoist=144
+  point fly=1.25 hoist=0.3333
+  point fly=1.5 hoist=0.1667
+  point fly=1.75 hoist=0.3333
+  point fly=2 hoist=0.6667
+  point fly=1 hoist=0.6667
 }
 
 charge polygon red {
-  point fly=270 hoist=72
-  point fly=324 hoist=0
-  point fly=378 hoist=72
+  point fly=1.25 hoist=0.3333
+  point fly=1.5 hoist=0
+  point fly=1.75 hoist=0.3333
 }
 
 pile black {
   from bottom
-  base 108 540
-  depth 288
+  base 0.5 2.5
+  depth 1.3333
 }
 
 pile brown {
   from bottom
-  base 135 513
-  depth 252
+  base 0.625 2.375
+  depth 1.1667
 }
 
 pile teal {
   from bottom
-  base 162 486
-  depth 216
+  base 0.75 2.25
+  depth 1
 }
 
-pile pink-2 {
+pile light-pink {
   from bottom
-  base 189 459
-  depth 180
+  base 0.875 2.125
+  depth 0.8333
 }
 
 pile white {
   from bottom
-  base 216 432
-  depth 144
+  base 1 2
+  depth 0.6667
 }

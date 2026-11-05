@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Europe"
@@ -11,12 +10,12 @@ palette {
   blue "#003399"
   yellow "#ffcc00"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field blue
 
 charge star yellow {
-  radius 37.5
-  at fly=450 hoist=300
-  repeat ring count=12 radius=200
+  radius 0.125
+  at fly=1.5 hoist=1
+  repeat ring count=12 radius=0.6667
 }

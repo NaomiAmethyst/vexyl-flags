@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tenerife"
@@ -10,25 +9,25 @@ palette {
   blue "#072357"
   white "#ffffff"
 }
-proportion hoist=500 fly=750
+proportion hoist=2 fly=3
 
 field blue
 
 charge polygon white {
-  point fly=0 hoist=73.3559
-  point fly=280.7487 hoist=250
-  point fly=0 hoist=426.6441
-  point fly=0 hoist=500
-  point fly=71.9105 hoist=500
-  point fly=375 hoist=309.2997
-  point fly=678.0895 hoist=500
-  point fly=750 hoist=500
-  point fly=750 hoist=426.6441
-  point fly=469.2513 hoist=250
-  point fly=750 hoist=73.3559
-  point fly=750 hoist=0
-  point fly=678.0895 hoist=0
-  point fly=375 hoist=190.7003
-  point fly=71.9105 hoist=0
+  point fly=0 hoist=0.2934
+  point fly=1.123 hoist=1
+  point fly=0 hoist=1.7066
+  point fly=0 hoist=2
+  point fly=0.2876 hoist=2
+  point fly=1.5 hoist=1.2372
+  point fly=2.7124 hoist=2
+  point fly=3 hoist=2
+  point fly=3 hoist=1.7066
+  point fly=1.877 hoist=1
+  point fly=3 hoist=0.2934
+  point fly=3 hoist=0
+  point fly=2.7124 hoist=0
+  point fly=1.5 hoist=0.7628
+  point fly=0.2876 hoist=0
   point fly=0 hoist=0
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Unconfirmed Kano Flag"
@@ -13,7 +12,7 @@ palette {
   blue "#003ea8"
   white "#ffffff"
 }
-proportion hoist=360 fly=600
+proportion hoist=3 fly=5
 
 bars red yellow blue {
   along hoist
@@ -21,7 +20,6 @@ bars red yellow blue {
 }
 
 charge star white {
-  radius 63.088
-  inner 23.9734
-  at fly=510.0018 hoist=93.096
+  radius 0.5257
+  at fly=4.25 hoist=0.7758
 }

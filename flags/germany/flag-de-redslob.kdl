@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag De Redslob"
@@ -13,11 +12,11 @@ palette {
   yellow "#ffce00"
   white "#ffffff"
 }
-proportion hoist=450 fly=750
+proportion hoist=9 fly=15
 
 bars black red yellow
 
 band white {
   along bend
-  width 100
+  width 2
 }

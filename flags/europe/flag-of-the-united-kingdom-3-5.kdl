@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the United Kingdom (3-5)"
@@ -12,46 +11,46 @@ palette {
   white "#ffffff"
   red "#c8102e"
 }
-proportion hoist=30 fly=50
+proportion hoist=15 fly=25
 
 field blue
 
 saltire white {
-  width 6
+  width 3
 }
 
 saltire red {
-  width 2
+  width 1
   counterchange
 }
 
 charge polygon red {
-  point fly=-1 hoist=11
-  point fly=21 hoist=11
-  point fly=21 hoist=-1
-  point fly=29 hoist=-1
-  point fly=29 hoist=11
-  point fly=51 hoist=11
-  point fly=51 hoist=19
-  point fly=29 hoist=19
-  point fly=29 hoist=31
-  point fly=21 hoist=31
-  point fly=21 hoist=19
-  point fly=-1 hoist=19
+  point fly=-0.5 hoist=5.5
+  point fly=10.5 hoist=5.5
+  point fly=10.5 hoist=-0.5
+  point fly=14.5 hoist=-0.5
+  point fly=14.5 hoist=5.5
+  point fly=25.5 hoist=5.5
+  point fly=25.5 hoist=9.5
+  point fly=14.5 hoist=9.5
+  point fly=14.5 hoist=15.5
+  point fly=10.5 hoist=15.5
+  point fly=10.5 hoist=9.5
+  point fly=-0.5 hoist=9.5
 }
 
 charge polygon white {
-  point fly=-1 hoist=11
-  point fly=21 hoist=11
-  point fly=21 hoist=-1
-  point fly=29 hoist=-1
-  point fly=29 hoist=11
-  point fly=51 hoist=11
-  point fly=51 hoist=19
-  point fly=29 hoist=19
-  point fly=29 hoist=31
-  point fly=21 hoist=31
-  point fly=21 hoist=19
-  point fly=-1 hoist=19
-  hollow 2
+  point fly=-0.5 hoist=5.5
+  point fly=10.5 hoist=5.5
+  point fly=10.5 hoist=-0.5
+  point fly=14.5 hoist=-0.5
+  point fly=14.5 hoist=5.5
+  point fly=25.5 hoist=5.5
+  point fly=25.5 hoist=9.5
+  point fly=14.5 hoist=9.5
+  point fly=14.5 hoist=15.5
+  point fly=10.5 hoist=15.5
+  point fly=10.5 hoist=9.5
+  point fly=-0.5 hoist=9.5
+  hollow 1
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the United Arab Republic (1958–1971), Flag of Syria (1980–2024)"
@@ -12,12 +11,12 @@ palette {
   black "#000000"
   green "#007a3d"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars red white black
 
 charge star green {
-  radius 82.9181
-  at fly=300.0032 hoist=307.918
-  at fly=599.9992 hoist=307.918
+  radius 0.2764
+  at fly=1 hoist=1.0264
+  at fly=2 hoist=1.0264
 }

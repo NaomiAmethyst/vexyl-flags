@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Stellaland"
@@ -10,12 +9,12 @@ palette {
   green "#007a4d"
   white "#ffffff"
 }
-proportion hoist=800 fly=1200
+proportion hoist=2 fly=3
 
 field green
 
 charge star white {
-  radius 279.8755
+  radius 0.7
   rotate 0.1506
-  at fly=600.4 hoist=426.6
+  at fly=1.501 hoist=1.0665
 }

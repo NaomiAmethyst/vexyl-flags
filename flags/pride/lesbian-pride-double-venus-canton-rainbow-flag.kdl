@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Lesbian Pride double-Venus canton rainbow flag"
@@ -14,33 +13,33 @@ palette {
   green "#008026"
   blue "#2f93da"
   pink "#750787"
-  blue-2 "#291c6c"
+  dark-blue "#291c6c"
   white "#ffffff"
 }
-proportion hoist=360 fly=600
+proportion hoist=720 fly=1200
 
 bars red orange yellow green blue pink
 
 canton {
-  fly 240
-  hoist 180
-  field blue-2
+  fly 480
+  hoist 360
+  field dark-blue
   charge ring white {
-    radius 45.25
-    inner 34.75
-    at fly=91 hoist=71
-    at fly=149 hoist=71
+    radius 90.5
+    inner 69.5
+    at fly=182 hoist=142
+    at fly=298 hoist=142
   }
   charge rect white {
-    fly 10.5
-    hoist 48
-    at fly=91 hoist=135
-    at fly=149 hoist=135
+    fly 21
+    hoist 96
+    at fly=182 hoist=270
+    at fly=298 hoist=270
   }
   charge rect white {
-    fly 43
-    hoist 10.5
-    at fly=91 hoist=137.5
-    at fly=149 hoist=137.5
+    fly 86
+    hoist 21
+    at fly=182 hoist=275
+    at fly=298 hoist=275
   }
 }

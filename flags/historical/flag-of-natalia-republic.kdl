@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Natalia Republic"
@@ -13,18 +12,18 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=400 fly=600
+proportion hoist=360 fly=540
 
 bars red blue
 
 pile white {
   from fly
-  depth 600
+  depth 540
 }
 
 charge rect black {
   fly 1
-  hoist 400
-  at fly=599.5 hoist=200
+  hoist 360
+  at fly=539.5 hoist=180
   opacity 0.5
 }

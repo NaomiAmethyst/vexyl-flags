@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Demisexual Pride Flag"
@@ -13,12 +12,12 @@ palette {
   grey "#d2d2d2"
   black "#000000"
 }
-proportion hoist=480 fly=800
+proportion hoist=3 fly=5
 
 bars white pink grey {
   ratio 5 2 5
 }
 
 chevrons black {
-  depth 306
+  depth 1.9125
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Syria French mandate"
@@ -13,24 +12,24 @@ palette {
   red "#cd1226"
   blue "#002654"
 }
-proportion hoist=9 fly=13.5
+proportion hoist=128 fly=192
 
 bars green white green
 
 charge rect red {
-  fly 4.5
-  hoist 4.5
-  at fly=4.5 hoist=2.25
+  fly 64
+  hoist 64
+  at fly=64 hoist=32
 }
 
 canton {
-  fly 4.5
-  hoist 4.5
+  fly 64
+  hoist 64
   field blue
 }
 
 charge rect white {
-  fly 2.25
-  hoist 4.71
-  at fly=3.375 hoist=2.355
+  fly 32
+  hoist 67
+  at fly=48 hoist=33.5
 }

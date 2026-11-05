@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Belarus (1995-2012)"
@@ -12,7 +11,7 @@ palette {
   green "#009900"
   white "#ffffff"
 }
-proportion hoist=612 fly=1224
+proportion hoist=1 fly=2
 
 bars red green {
   ratio 2 1
@@ -20,29 +19,29 @@ bars red green {
 
 panel {
   side hoist
-  width 136
+  width 0.2222
   field white
 }
 
 charge svg {
   at center
-  fly 1224
-  hoist 612
+  fly 2
+  hoist 1
   markup #"""
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1224 612"><path d="M0,8h2v12h-2zM0,66h2v12h-2zM0,118h2v12h-2zM0,168h2v8h-2zM1,218l1,-1v-6h-2v6z" fill="#cc0000" transform="matrix(3 0 0 1.410138 17 0)"/><path d="M8,0v10h-2v10h-2v10h-2v10h-2v10h2v10h2v10h2v10h2v10h2v-10h2v-10h2v-10h2v-10h3v-10h-3v-10h-2v-10h-2v-10h-2v-10zM10,20v10h2v10h2v10h-2v10h-2v10h-2v-10h-2v-10h-2v-10h2v-10h2v-10zM8,40v10h2v-10z" fill="#cc0000" transform="matrix(3 0 0 1.410138 17 0)"/><path d="M0,94h1v-6h1v-6h3v6h1v6h1v8h-1v6h-1v6h-3v-6h-1v-6h-1zM3,92v4h-1v4h1v4h1v-4h1v-4h-1v-4z" fill="#cc0000" transform="matrix(3 0 0 1.410138 17 0)"/><path d="M11,94h1v-6h1v-6h3v6h2v20h-2v6h-3v-6h-1v-6h-1zM14,92v4h-1v4h1v4h1v-4h1v-4h-1v-4z" fill="#cc0000" transform="matrix(3 0 0 1.410138 17 0)"/><path d="M0,180h2v6h2v6h2v10h2v-10h2v-6h2v-8h3v-10h-1v-16h-2v-8h-2v12h2v10h-2v10h-2v10h-2v-10h-2v-10h-2v-10h-2v-10h2v-10h2v-10h2v-10h2v-10h2v10h2v10h2v10h2v10h2v38h-2v4.5h-1v9.5h-3v8h-2v7h-2v8h-2v-8h-2v-7h-2v-8h-2z" fill="#cc0000" transform="matrix(3 0 0 1.410138 17 0)"/><path d="M13,204h2v4h1v3h2v10h-3v-8h-1v-3h-1zM12,218l1,-1v-6h-2v6z" fill="#cc0000" transform="matrix(3 0 0 1.410138 17 0)"/><path d="M0,8h2v12h-2zM0,66h2v12h-2zM0,118h2v12h-2zM0,168h2v8h-2zM1,218l1,-1v-6h-2v6z" fill="#cc0000" transform="matrix(-3 0 0 1.410138 119 0)"/><path d="M8,0v10h-2v10h-2v10h-2v10h-2v10h2v10h2v10h2v10h2v10h2v-10h2v-10h2v-10h2v-10h3v-10h-3v-10h-2v-10h-2v-10h-2v-10zM10,20v10h2v10h2v10h-2v10h-2v10h-2v-10h-2v-10h-2v-10h2v-10h2v-10zM8,40v10h2v-10z" fill="#cc0000" transform="matrix(-3 0 0 1.410138 119 0)"/><path d="M0,94h1v-6h1v-6h3v6h1v6h1v8h-1v6h-1v6h-3v-6h-1v-6h-1zM3,92v4h-1v4h1v4h1v-4h1v-4h-1v-4z" fill="#cc0000" transform="matrix(-3 0 0 1.410138 119 0)"/><path d="M11,94h1v-6h1v-6h3v6h2v20h-2v6h-3v-6h-1v-6h-1zM14,92v4h-1v4h1v4h1v-4h1v-4h-1v-4z" fill="#cc0000" transform="matrix(-3 0 0 1.410138 119 0)"/><path d="M0,180h2v6h2v6h2v10h2v-10h2v-6h2v-8h3v-10h-1v-16h-2v-8h-2v12h2v10h-2v10h-2v10h-2v-10h-2v-10h-2v-10h-2v-10h2v-10h2v-10h2v-10h2v-10h2v10h2v10h2v10h2v10h2v38h-2v4.5h-1v9.5h-3v8h-2v7h-2v8h-2v-8h-2v-7h-2v-8h-2z" fill="#cc0000" transform="matrix(-3 0 0 1.410138 119 0)"/><path d="M13,204h2v4h1v3h2v10h-3v-8h-1v-3h-1zM12,218l1,-1v-6h-2v6z" fill="#cc0000" transform="matrix(-3 0 0 1.410138 119 0)"/><path d="M16,8h2v12h-2zM16,66h2v12h-2zM16,118h2v12h-2zM16,196h2v10h-2z" fill="#cc0000" transform="matrix(3 0 0 1.410138 17 0)"/><path d="M0,8h2v12h-2zM0,66h2v12h-2zM0,118h2v12h-2zM0,168h2v8h-2zM1,218l1,-1v-6h-2v6z" fill="#cc0000" transform="matrix(3 0 0 -1.410138 17 612)"/><path d="M8,0v10h-2v10h-2v10h-2v10h-2v10h2v10h2v10h2v10h2v10h2v-10h2v-10h2v-10h2v-10h3v-10h-3v-10h-2v-10h-2v-10h-2v-10zM10,20v10h2v10h2v10h-2v10h-2v10h-2v-10h-2v-10h-2v-10h2v-10h2v-10zM8,40v10h2v-10z" fill="#cc0000" transform="matrix(3 0 0 -1.410138 17 612)"/><path d="M0,94h1v-6h1v-6h3v6h1v6h1v8h-1v6h-1v6h-3v-6h-1v-6h-1zM3,92v4h-1v4h1v4h1v-4h1v-4h-1v-4z" fill="#cc0000" transform="matrix(3 0 0 -1.410138 17 612)"/><path d="M11,94h1v-6h1v-6h3v6h2v20h-2v6h-3v-6h-1v-6h-1zM14,92v4h-1v4h1v4h1v-4h1v-4h-1v-4z" fill="#cc0000" transform="matrix(3 0 0 -1.410138 17 612)"/><path d="M0,180h2v6h2v6h2v10h2v-10h2v-6h2v-8h3v-10h-1v-16h-2v-8h-2v12h2v10h-2v10h-2v10h-2v-10h-2v-10h-2v-10h-2v-10h2v-10h2v-10h2v-10h2v-10h2v10h2v10h2v10h2v10h2v38h-2v4.5h-1v9.5h-3v8h-2v7h-2v8h-2v-8h-2v-7h-2v-8h-2z" fill="#cc0000" transform="matrix(3 0 0 -1.410138 17 612)"/><path d="M13,204h2v4h1v3h2v10h-3v-8h-1v-3h-1zM12,218l1,-1v-6h-2v6z" fill="#cc0000" transform="matrix(3 0 0 -1.410138 17 612)"/><path d="M0,8h2v12h-2zM0,66h2v12h-2zM0,118h2v12h-2zM0,168h2v8h-2zM1,218l1,-1v-6h-2v6z" fill="#cc0000" transform="matrix(-3 -0 0 -1.410138 119 612)"/><path d="M8,0v10h-2v10h-2v10h-2v10h-2v10h2v10h2v10h2v10h2v10h2v-10h2v-10h2v-10h2v-10h3v-10h-3v-10h-2v-10h-2v-10h-2v-10zM10,20v10h2v10h2v10h-2v10h-2v10h-2v-10h-2v-10h-2v-10h2v-10h2v-10zM8,40v10h2v-10z" fill="#cc0000" transform="matrix(-3 -0 0 -1.410138 119 612)"/><path d="M0,94h1v-6h1v-6h3v6h1v6h1v8h-1v6h-1v6h-3v-6h-1v-6h-1zM3,92v4h-1v4h1v4h1v-4h1v-4h-1v-4z" fill="#cc0000" transform="matrix(-3 -0 0 -1.410138 119 612)"/><path d="M11,94h1v-6h1v-6h3v6h2v20h-2v6h-3v-6h-1v-6h-1zM14,92v4h-1v4h1v4h1v-4h1v-4h-1v-4z" fill="#cc0000" transform="matrix(-3 -0 0 -1.410138 119 612)"/><path d="M0,180h2v6h2v6h2v10h2v-10h2v-6h2v-8h3v-10h-1v-16h-2v-8h-2v12h2v10h-2v10h-2v10h-2v-10h-2v-10h-2v-10h-2v-10h2v-10h2v-10h2v-10h2v-10h2v10h2v10h2v10h2v10h2v38h-2v4.5h-1v9.5h-3v8h-2v7h-2v8h-2v-8h-2v-7h-2v-8h-2z" fill="#cc0000" transform="matrix(-3 -0 0 -1.410138 119 612)"/><path d="M13,204h2v4h1v3h2v10h-3v-8h-1v-3h-1zM12,218l1,-1v-6h-2v6z" fill="#cc0000" transform="matrix(-3 -0 0 -1.410138 119 612)"/></svg>
 """#
 }
 
 charge rect red {
-  fly 6
-  hoist 16.9217
-  at fly=68 hoist=592.2581
-  at fly=68 hoist=510.47
-  at fly=68 hoist=437.1429
+  fly 0.0098
+  hoist 0.0276
+  at fly=0.1111 hoist=0.9677
+  at fly=0.1111 hoist=0.8341
+  at fly=0.1111 hoist=0.7143
 }
 
 charge rect red {
-  fly 6
-  hoist 14.1014
-  at fly=68 hoist=328.5622
+  fly 0.0098
+  hoist 0.023
+  at fly=0.1111 hoist=0.5369
 }

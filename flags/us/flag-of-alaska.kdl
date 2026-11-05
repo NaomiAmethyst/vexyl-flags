@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Alaska"
@@ -11,24 +10,22 @@ palette {
   blue "#0f204b"
   orange "#ffb612"
 }
-proportion hoist=1000 fly=1416
+proportion hoist=1 fly=1.416
 
 field blue
 
 charge star orange {
-  radius 57.492
-  inner 21.847
-  at fly=1157.996 hoist=187.49
+  radius 0.0575
+  at fly=1.158 hoist=0.1875
 }
 
 charge star orange {
-  radius 34.2741
-  inner 13.0241
-  at fly=228.995 hoist=399.273
-  at fly=395.995 hoist=461.273
-  at fly=478.995 hoist=550.273
-  at fly=562.995 hoist=643.273
-  at fly=812.995 hoist=732.273
-  at fly=551.995 hoist=774.273
-  at fly=739.995 hoist=836.273
+  radius 0.0343
+  at fly=0.229 hoist=0.3993
+  at fly=0.396 hoist=0.4613
+  at fly=0.479 hoist=0.55
+  at fly=0.563 hoist=0.6433
+  at fly=0.813 hoist=0.7323
+  at fly=0.552 hoist=0.7743
+  at fly=0.74 hoist=0.8363
 }

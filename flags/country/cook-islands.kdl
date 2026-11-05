@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Cook Islands"
@@ -11,192 +10,117 @@ palette {
   white "#ffffff"
   red "#c8102e"
 }
-proportion hoist=4800 fly=9600
+proportion hoist=60 fly=120
 
 field blue
 
-charge polygon white {
-  point fly=-107.3313 hoist=214.6625
-  point fly=4692.6687 hoist=2614.6625
-  point fly=4907.3313 hoist=2185.3375
-  point fly=107.3313 hoist=-214.6625
-}
-
-charge polygon white {
-  point fly=107.3313 hoist=2614.6625
-  point fly=4907.3313 hoist=214.6625
-  point fly=4692.6687 hoist=-214.6625
-  point fly=-107.3313 hoist=2185.3375
-}
-
-charge polygon red {
-  point fly=0 hoist=178.8854
-  point fly=2042.2291 hoist=1200
-  point fly=2400 hoist=1200
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon red {
-  point fly=4800 hoist=2400
-  point fly=4871.5542 hoist=2256.8916
-  point fly=2757.7709 hoist=1200
-  point fly=2400 hoist=1200
-}
-
-charge polygon red {
-  point fly=2578.8854 hoist=1110.5573
-  point fly=2400 hoist=1021.1146
-  point fly=2400 hoist=1200
-}
-
-charge polygon red {
-  point fly=2221.1146 hoist=1289.4427
-  point fly=2400 hoist=1378.8854
-  point fly=2400 hoist=1200
-}
-
-charge polygon red {
-  point fly=2221.1146 hoist=1110.5573
-  point fly=2042.2291 hoist=1200
-  point fly=2400 hoist=1200
-}
-
-charge polygon red {
-  point fly=2578.8854 hoist=1289.4427
-  point fly=2757.7709 hoist=1200
-  point fly=2400 hoist=1200
-}
-
-charge polygon red {
-  point fly=4800 hoist=0
-  point fly=4800 hoist=0
-  point fly=4442.2291 hoist=0
-  point fly=2400 hoist=1021.1146
-  point fly=2400 hoist=1200
-}
-
-charge polygon red {
-  point fly=71.5542 hoist=2543.1084
-  point fly=2400 hoist=1378.8854
-  point fly=2400 hoist=1200
-  point fly=0 hoist=2400
-}
-
-charge rect white {
-  fly 800
-  hoist 3200
-  at fly=2400 hoist=1600
-}
-
-charge rect white {
-  fly 5600
-  hoist 800
-  at fly=2800 hoist=1200
-}
-
-charge rect red {
-  fly 480
-  hoist 3200
-  at fly=2400 hoist=1600
-}
-
-charge rect red {
-  fly 5600
-  hoist 480
-  at fly=2800 hoist=1200
+canton {
+  fly 60
+  hoist 30
+  saltire white {
+    width 6
+  }
+  saltire red {
+    width 2
+    counterchange
+  }
+  cross red {
+    fly 27 6 27
+    hoist 12 6 12
+    fimbriate white 2
+  }
 }
 
 charge polygon blue {
-  point fly=0 hoist=2400
-  point fly=4800 hoist=2400
-  point fly=4800 hoist=0
-  point fly=9600 hoist=0
-  point fly=9600 hoist=4800
-  point fly=0 hoist=4800
+  point fly=0 hoist=30
+  point fly=60 hoist=30
+  point fly=60 hoist=0
+  point fly=120 hoist=0
+  point fly=120 hoist=60
+  point fly=0 hoist=60
 }
 
 charge star white {
-  radius 359.8388
-  at fly=7200 hoist=768
+  radius 4.5
+  at fly=90 hoist=9.5833
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate 24
-  at fly=7863.7942 hoist=909.0938
+  at fly=98.3125 hoist=11.375
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate -24
-  at fly=8412.8124 hoist=1307.9789
+  at fly=105.1667 hoist=16.3333
 }
 
 charge star white {
-  radius 359.8388
-  at fly=8752.1242 hoist=1895.6843
+  radius 4.5
+  at fly=109.4167 hoist=23.6875
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate 24
-  at fly=8823.0597 hoist=2570.5905
+  at fly=110.3 hoist=32.125
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate -24
-  at fly=8613.3535 hoist=3216
+  at fly=107.6667 hoist=40.1875
 }
 
 charge star white {
-  radius 359.8388
-  at fly=8159.2655 hoist=3720.3157
+  radius 4.5
+  at fly=102 hoist=46.5
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate 24
-  at fly=7539.3119 hoist=3996.3369
+  at fly=94.25 hoist=49.9375
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate -24
-  at fly=6860.6881 hoist=3996.3369
+  at fly=85.75 hoist=49.9375
 }
 
 charge star white {
-  radius 359.8388
-  at fly=6240.7345 hoist=3720.3157
+  radius 4.5
+  at fly=78 hoist=46.5
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate 24
-  at fly=5786.6465 hoist=3216
+  at fly=72.3333 hoist=40.1875
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate -24
-  at fly=5576.9403 hoist=2570.5905
+  at fly=69.7 hoist=32.125
 }
 
 charge star white {
-  radius 359.8388
-  at fly=5647.8758 hoist=1895.6843
+  radius 4.5
+  at fly=70.5833 hoist=23.6875
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate 24
-  at fly=5987.1876 hoist=1307.9789
+  at fly=74.8333 hoist=16.3333
 }
 
 charge star white {
-  radius 359.8388
+  radius 4.5
   rotate -24
-  at fly=6536.2058 hoist=909.0938
+  at fly=81.6875 hoist=11.375
 }

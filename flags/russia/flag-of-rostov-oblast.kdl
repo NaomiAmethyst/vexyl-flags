@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Rostov Oblast"
@@ -13,12 +12,12 @@ palette {
   red "#ff2400"
   white "#ffffff"
 }
-proportion hoist=6 fly=9
+proportion hoist=10 fly=15
 
 bars blue yellow red
 
 panel {
   side hoist
-  width 1.2
+  width 2
   field white
 }

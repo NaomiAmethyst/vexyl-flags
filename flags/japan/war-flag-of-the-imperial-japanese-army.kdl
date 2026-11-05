@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "War flag of the Imperial Japanese Army"
@@ -9,125 +8,125 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#be0026"
+  red "#be0026"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field white
 
-charge disc pink {
-  radius 153
-  at fly=442 hoist=300
+charge disc red {
+  radius 0.51
+  at fly=1.4733 hoist=1
   anchor center
 }
 
-charge polygon pink {
+charge polygon red {
   point fly=0 hoist=0
-  point fly=130 hoist=0
-  point fly=348 hoist=185
-  point fly=327.8 hoist=206.1
+  point fly=0.4333 hoist=0
+  point fly=1.16 hoist=0.6167
+  point fly=1.0927 hoist=0.6875
 }
 
-charge polygon pink {
-  point fly=230 hoist=0
-  point fly=305 hoist=0
-  point fly=399.1 hoist=156
-  point fly=372.1 hoist=167.6
+charge polygon red {
+  point fly=0.7667 hoist=0
+  point fly=1.0167 hoist=0
+  point fly=1.3303 hoist=0.52
+  point fly=1.2403 hoist=0.5587
 }
 
-charge polygon pink {
-  point fly=405 hoist=0
-  point fly=475 hoist=0
-  point fly=456.4 hoist=151
-  point fly=427.2 hoist=150.9648
+charge polygon red {
+  point fly=1.35 hoist=0
+  point fly=1.5833 hoist=0
+  point fly=1.5213 hoist=0.5033
+  point fly=1.424 hoist=0.5032
 }
 
-charge polygon pink {
-  point fly=575 hoist=0
-  point fly=650 hoist=0
-  point fly=512 hoist=168
-  point fly=484.9 hoist=156.6
+charge polygon red {
+  point fly=1.9167 hoist=0
+  point fly=2.1667 hoist=0
+  point fly=1.7067 hoist=0.56
+  point fly=1.6163 hoist=0.522
 }
 
-charge polygon pink {
-  point fly=750 hoist=0
-  point fly=880 hoist=0
-  point fly=556 hoist=206
-  point fly=535.7 hoist=185
+charge polygon red {
+  point fly=2.5 hoist=0
+  point fly=2.9333 hoist=0
+  point fly=1.8533 hoist=0.6867
+  point fly=1.7857 hoist=0.6167
 }
 
-charge polygon pink {
-  point fly=405 hoist=600
-  point fly=475 hoist=600
-  point fly=456.4 hoist=449
-  point fly=427.3 hoist=448.918
+charge polygon red {
+  point fly=1.35 hoist=2
+  point fly=1.5833 hoist=2
+  point fly=1.5213 hoist=1.4967
+  point fly=1.4243 hoist=1.4964
 }
 
-charge polygon pink {
-  point fly=230 hoist=600
-  point fly=304.9 hoist=600
-  point fly=399 hoist=444
-  point fly=372 hoist=432.5
+charge polygon red {
+  point fly=0.7667 hoist=2
+  point fly=1.0163 hoist=2
+  point fly=1.33 hoist=1.48
+  point fly=1.24 hoist=1.4417
 }
 
-charge polygon pink {
-  point fly=0 hoist=600
-  point fly=130 hoist=600
-  point fly=348 hoist=415
-  point fly=326.8 hoist=394.6
+charge polygon red {
+  point fly=0 hoist=2
+  point fly=0.4333 hoist=2
+  point fly=1.16 hoist=1.3833
+  point fly=1.0893 hoist=1.3153
 }
 
-charge polygon pink {
-  point fly=575 hoist=600
-  point fly=650 hoist=600
-  point fly=511 hoist=432
-  point fly=484.2 hoist=443.6
+charge polygon red {
+  point fly=1.9167 hoist=2
+  point fly=2.1667 hoist=2
+  point fly=1.7033 hoist=1.44
+  point fly=1.614 hoist=1.4787
 }
 
-charge polygon pink {
-  point fly=750 hoist=600
-  point fly=880 hoist=600
-  point fly=556 hoist=394
-  point fly=535.9 hoist=415.2
+charge polygon red {
+  point fly=2.5 hoist=2
+  point fly=2.9333 hoist=2
+  point fly=1.8533 hoist=1.3133
+  point fly=1.7863 hoist=1.384
 }
 
-charge polygon pink {
-  point fly=900 hoist=95
-  point fly=900 hoist=170
-  point fly=584 hoist=256.9
-  point fly=573.1 hoist=229.5
+charge polygon red {
+  point fly=3 hoist=0.3167
+  point fly=3 hoist=0.5667
+  point fly=1.9467 hoist=0.8563
+  point fly=1.9103 hoist=0.765
 }
 
-pile pink {
+pile red {
   from fly
-  base 265 335
-  depth 310
-  flat 29.5
+  base 0.8833 1.1167
+  depth 1.0333
+  flat 0.0983
 }
 
-charge polygon pink {
-  point fly=900 hoist=430
-  point fly=900 hoist=505
-  point fly=573 hoist=370
-  point fly=584.4 hoist=342.9
+charge polygon red {
+  point fly=3 hoist=1.4333
+  point fly=3 hoist=1.6833
+  point fly=1.91 hoist=1.2333
+  point fly=1.948 hoist=1.143
 }
 
-charge polygon pink {
-  point fly=0 hoist=95
-  point fly=0 hoist=170
-  point fly=300 hoist=257.1
-  point fly=311.4 hoist=230
+charge polygon red {
+  point fly=0 hoist=0.3167
+  point fly=0 hoist=0.5667
+  point fly=1 hoist=0.857
+  point fly=1.038 hoist=0.7667
 }
 
-pile pink {
-  base 265 335
-  depth 294
-  flat 29.4
+pile red {
+  base 0.8833 1.1167
+  depth 0.98
+  flat 0.098
 }
 
-charge polygon pink {
-  point fly=0 hoist=430
-  point fly=0 hoist=505
-  point fly=311 hoist=370
-  point fly=299.6 hoist=342.9
+charge polygon red {
+  point fly=0 hoist=1.4333
+  point fly=0 hoist=1.6833
+  point fly=1.0367 hoist=1.2333
+  point fly=0.9987 hoist=1.143
 }

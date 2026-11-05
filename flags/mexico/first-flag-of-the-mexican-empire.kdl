@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "First flag of the Mexican Empire"
@@ -12,68 +11,66 @@ palette {
   white "#ffffff"
   green "#006847"
   yellow "#d4aa00"
-  yellow-2 "#ffe680"
+  light-yellow "#ffe680"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 pile red {
   from fly
-  tip 600 900
+  tip 2 3
 }
 
 pile white {
-  tip 0 900
+  tip 0 3
 }
 
 charge polygon green {
-  point fly=0 hoist=600
-  point fly=322.5 hoist=600
-  point fly=900 hoist=187.5
-  point fly=900 hoist=0
-  point fly=577.5 hoist=0
-  point fly=0 hoist=412.5
+  point fly=0 hoist=2
+  point fly=1.075 hoist=2
+  point fly=3 hoist=0.625
+  point fly=3 hoist=0
+  point fly=1.925 hoist=0
+  point fly=0 hoist=1.375
 }
 
 charge star yellow {
-  radius 61.5
-  inner 23.493
+  radius 0.205
+  inner 0.0783
   points 8
-  at fly=450 hoist=300
-  anchor center
+  at center
 }
 
-charge star yellow-2 {
-  radius 52.9947
-  inner 20.244
+charge star light-yellow {
+  radius 0.1766
+  inner 0.0675
   points 8
-  at fly=450 hoist=300
-  anchor center
-}
-
-charge star yellow {
-  radius 61.5
-  inner 23.493
-  points 8
-  at fly=808.5 hoist=523.5
-}
-
-charge star yellow-2 {
-  radius 52.9947
-  inner 20.244
-  points 8
-  at fly=808.5 hoist=523.5
+  at center
 }
 
 charge star yellow {
-  radius 61.5
-  inner 23.493
+  radius 0.205
+  inner 0.0783
   points 8
-  at fly=91.5 hoist=76.5
+  at fly=2.695 hoist=1.745
 }
 
-charge star yellow-2 {
-  radius 52.9947
-  inner 20.244
+charge star light-yellow {
+  radius 0.1766
+  inner 0.0675
   points 8
-  at fly=91.5 hoist=76.5
+  at fly=2.695 hoist=1.745
+}
+
+charge star yellow {
+  radius 0.205
+  inner 0.0783
+  points 8
+  at fly=0.305 hoist=0.255
+}
+
+charge star light-yellow {
+  radius 0.1766
+  inner 0.0675
+  points 8
+  at fly=0.305 hoist=0.255
 }

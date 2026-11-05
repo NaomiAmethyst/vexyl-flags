@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Seychelles (1976–1977)"
@@ -11,29 +10,29 @@ palette {
   red "#ce1029"
   blue "#00297b"
 }
-proportion hoist=60 fly=120
+proportion hoist=1 fly=2
 
 field white
 
 chevrons red {
-  depth 53
+  depth 0.8833
   angle 26.131
 }
 
 pile red {
   from fly
-  base 4 56
-  depth 53
+  base 0.0667 0.9333
+  depth 0.8833
 }
 
 pile blue {
   from top
-  base 4 116
-  depth 27
+  base 0.0667 1.9333
+  depth 0.45
 }
 
 pile blue {
   from bottom
-  base 4 116
-  depth 27
+  base 0.0667 1.9333
+  depth 0.45
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of French Sudan (1958-1959)"
@@ -13,40 +12,40 @@ palette {
   red "#ce1126"
   black "#000000"
 }
-proportion hoist=300 fly=450
+proportion hoist=2 fly=3
 
 bars blue white red {
   along hoist
 }
 
 charge disc black {
-  radius 20
-  at fly=225 hoist=85
+  radius 0.1333
+  at fly=1.5 hoist=0.5667
 }
 
 charge polygon black {
-  point fly=175 hoist=240
-  point fly=185 hoist=240
-  point fly=185 hoist=210
-  point fly=265 hoist=210
-  point fly=265 hoist=240
-  point fly=275 hoist=240
-  point fly=275 hoist=200
-  point fly=230 hoist=200
-  point fly=230 hoist=130
-  point fly=275 hoist=130
-  point fly=275 hoist=90
-  point fly=265 hoist=90
-  point fly=265 hoist=120
-  point fly=230 hoist=120
-  point fly=230 hoist=90
-  point fly=220 hoist=90
-  point fly=220 hoist=120
-  point fly=185 hoist=120
-  point fly=185 hoist=90
-  point fly=175 hoist=90
-  point fly=175 hoist=130
-  point fly=220 hoist=130
-  point fly=220 hoist=200
-  point fly=175 hoist=200
+  point fly=1.1667 hoist=1.6
+  point fly=1.2333 hoist=1.6
+  point fly=1.2333 hoist=1.4
+  point fly=1.7667 hoist=1.4
+  point fly=1.7667 hoist=1.6
+  point fly=1.8333 hoist=1.6
+  point fly=1.8333 hoist=1.3333
+  point fly=1.5333 hoist=1.3333
+  point fly=1.5333 hoist=0.8667
+  point fly=1.8333 hoist=0.8667
+  point fly=1.8333 hoist=0.6
+  point fly=1.7667 hoist=0.6
+  point fly=1.7667 hoist=0.8
+  point fly=1.5333 hoist=0.8
+  point fly=1.5333 hoist=0.6
+  point fly=1.4667 hoist=0.6
+  point fly=1.4667 hoist=0.8
+  point fly=1.2333 hoist=0.8
+  point fly=1.2333 hoist=0.6
+  point fly=1.1667 hoist=0.6
+  point fly=1.1667 hoist=0.8667
+  point fly=1.4667 hoist=0.8667
+  point fly=1.4667 hoist=1.3333
+  point fly=1.1667 hoist=1.3333
 }

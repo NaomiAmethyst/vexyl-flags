@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tyumen Oblast"
@@ -12,19 +11,19 @@ palette {
   green "#00923f"
   red "#d81e05"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars white blue green
 
 charge svg {
   at center
-  fly 900
-  hoist 600
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-linecap="round" stroke-width="12" stroke="#ffd700" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-linecap="round" stroke-width="12" stroke="#ffd700" fill="none" transform="matrix(1 0 0 1 140 0)"/><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-linecap="round" stroke-width="12" stroke="#ffd700" fill="none" transform="matrix(1 0 0 1 280 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-width="12" fill="none" stroke="#ffd700" stroke-linecap="round" transform="matrix(1 0 0 1 0 0)"/><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-width="12" fill="none" stroke="#ffd700" stroke-linecap="round" transform="matrix(1 0 0 1 140 0)"/><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-width="12" fill="none" stroke="#ffd700" stroke-linecap="round" transform="matrix(1 0 0 1 280 0)"/></svg>
 """#
 }
 
 chevrons red {
-  depth 225
+  depth 0.75
 }

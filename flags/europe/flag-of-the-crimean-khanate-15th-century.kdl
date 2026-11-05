@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Crimean Khanate (15th century)"
@@ -11,21 +10,21 @@ palette {
   blue "#2a8dbc"
   orange "#e3d8ba"
 }
-proportion hoist=16 fly=24
+proportion hoist=2 fly=3
 
 charge path blue {
   d "M0 0L0 16L8 16C11 16 14 16 16 15S21 10 24 8C21 6 18 2 16 1S11 0 8 0"
   box "0 0 24 16"
-  fly 24
-  hoist 16
-  at fly=12 hoist=8
+  fly 3
+  hoist 2
+  at center
 }
 
 charge path orange {
   d "M4.5 6L7.5 6M6 2L6 6M1.5 5L3 5L3 2L9 2L9 5L10.5 5"
   box "1.5 2 9 4"
-  fly 9
-  hoist 4
-  hollow 1
-  at fly=6 hoist=4
+  fly 1.125
+  hoist 0.5
+  hollow 0.125
+  at fly=0.75 hoist=0.5
 }

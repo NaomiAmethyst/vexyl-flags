@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Democratic Republic of the Congo (2003-2006)"
@@ -10,49 +9,43 @@ palette {
   blue "#005daa"
   yellow "#f7d618"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field blue
 
 charge star yellow {
-  radius 124.4786
-  inner 46.6626
+  radius 0.4149
   rotate -0.1192
-  at fly=450.0801 hoist=311.8105
+  at fly=1.5 hoist=1.0394
 }
 
 charge star yellow {
-  radius 41.4932
-  inner 15.5542
+  radius 0.1383
   rotate -0.1191
-  at fly=86.9671 hoist=69.212
+  at fly=0.2899 hoist=0.2307
 }
 
 charge star yellow {
-  radius 41.4931
-  inner 15.5543
+  radius 0.1383
   rotate -0.1196
-  at fly=86.9671 hoist=163.1026
+  at fly=0.2899 hoist=0.5437
 }
 
 charge star yellow {
-  radius 41.4929
-  inner 15.5542
+  radius 0.1383
   rotate -0.1206
-  at fly=86.9671 hoist=256.9938
+  at fly=0.2899 hoist=0.8566
 }
 
 charge star yellow {
-  radius 41.4931
-  inner 15.5543
+  radius 0.1383
   rotate -0.1196
-  at fly=86.9671 hoist=350.8836
-  at fly=86.9671 hoist=444.7736
+  at fly=0.2899 hoist=1.1696
+  at fly=0.2899 hoist=1.4826
 }
 
 charge star yellow {
-  radius 41.4932
-  inner 15.5543
+  radius 0.1383
   rotate -0.1191
-  at fly=86.9671 hoist=538.6639
+  at fly=0.2899 hoist=1.7955
 }

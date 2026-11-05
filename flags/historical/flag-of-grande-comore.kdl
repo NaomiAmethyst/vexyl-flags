@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Grande Comore"
@@ -11,30 +10,30 @@ palette {
   blue "#00237e"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field blue
 
 charge path white {
   d "M173.596 300C173.596 202.6785 252.4897 123.785 349.811 123.785C370.2761 123.785 389.9196 127.2856 408.1923 133.7002C377.1309 113.4973 340.064 101.7504 300.2493 101.7504C190.7593 101.7504 101.9993 190.5092 101.9993 300.0004C101.9993 409.4904 190.7581 498.2504 300.2493 498.2504C340.0655 498.2504 377.1328 486.5031 408.1943 466.3002C389.9216 472.7149 370.2763 476.2158 349.8112 476.2158C252.4897 476.2149 173.5962 397.3221 173.5962 300.0008Z"
   box "101.9993 101.7504 306.195 396.5"
-  fly 306.195
-  hoist 396.5
-  at fly=255.0968 hoist=300.0004
+  fly 1.0207
+  hoist 1.3217
+  at fly=0.85 hoist=1
 }
 
 charge star white {
-  radius 37.8528
-  at fly=396.1923 hoist=424.3302
+  radius 0.1262
+  at fly=1.3206 hoist=1.4144
 }
 
 charge star white {
-  radius 37.8529
-  at fly=396.1923 hoist=343.8534
-  at fly=396.1923 hoist=263.3764
+  radius 0.1262
+  at fly=1.3206 hoist=1.1462
+  at fly=1.3206 hoist=0.8779
 }
 
 charge star white {
-  radius 37.8526
-  at fly=396.1927 hoist=182.8988
+  radius 0.1262
+  at fly=1.3206 hoist=0.6097
 }

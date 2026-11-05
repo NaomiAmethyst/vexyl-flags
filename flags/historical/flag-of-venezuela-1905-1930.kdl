@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Venezuela (1905-1930)"
@@ -12,63 +11,56 @@ palette {
   white "#ffffff"
   red "#cf142b"
 }
-proportion hoist=300 fly=450
+proportion hoist=6 fly=9
 
 bars yellow blue {
   ratio 1 2
 }
 
 charge star white {
-  radius 13.0475
-  inner 5.0363
+  radius 0.261
   rotate -24.4623
-  at fly=250.2528 hoist=131.202
+  at fly=5.0051 hoist=2.625
 }
 
 charge star white {
-  radius 13.0475
-  inner 5.0363
+  radius 0.261
   rotate 26.9657
-  at fly=258.2394 hoist=157.6626
+  at fly=5.1648 hoist=3.1533
 }
 
 charge star white {
-  radius 13.0475
-  inner 5.0363
+  radius 0.261
   rotate 10.2514
-  at fly=241.5937 hoist=178.9718
+  at fly=4.8333 hoist=3.5794
 }
 
 panel {
   side bottom
-  width 100
+  width 2
   field red
 }
 
 charge star white {
-  radius 13.0475
-  inner 5.0363
+  radius 0.261
   rotate -0.0067
-  at fly=225.0005 hoist=121.6174
+  at fly=4.5 hoist=2.4323
 }
 
 charge star white {
-  radius 13.0475
-  inner 5.0363
+  radius 0.261
   rotate 24.4623
-  at fly=199.7472 hoist=131.202
+  at fly=3.9949 hoist=2.625
 }
 
 charge star white {
-  radius 13.0475
-  inner 5.0363
+  radius 0.261
   rotate -26.9657
-  at fly=191.7606 hoist=157.6626
+  at fly=3.8352 hoist=3.1533
 }
 
 charge star white {
-  radius 13.0475
-  inner 5.0363
+  radius 0.261
   rotate -10.2514
-  at fly=208.4063 hoist=178.9718
+  at fly=4.1667 hoist=3.5794
 }

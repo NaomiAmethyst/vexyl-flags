@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Shiga Prefecture"
@@ -11,14 +10,14 @@ palette {
   blue "#3e88c0"
   white "#ffffff"
 }
-proportion hoist=660 fly=990
+proportion hoist=2 fly=3
 
 field blue
 
 charge path white {
   d "M819 161L789.8427 238.181L671.9443 277.4805A188 188 0 0 0 639.5643 220.8119ZM786.1981 247.8286L757.0408 334.9903L682.7959 349.758A188 188 0 0 0 674.4864 285.0659ZM171 161L444.1514 252.0505A54 54 0 0 0 414.5016 269A108 108 0 0 0 393.9851 302.7903L200.1573 238.181ZM203.8019 247.8286L391.4338 310.3726A108 108 0 0 0 393.7602 378.61L232.9592 325.0097ZM397.982 388.45A108 108 0 0 0 491 448.9259L491 520.9556A180 180 0 0 1 316.1333 361.1671ZM364.4697 217.0571A180 180 0 0 1 441.934 169A90 90 0 0 0 495 125A90 90 0 0 0 548.066 169A180 180 0 0 1 499 520.9556L499 448.9259A108 108 0 0 0 575.4984 269A54 54 0 0 0 495 269A54 54 0 0 0 472.1055 252.9358Z"
   box "136.1333 -11 726.3531 711.9556"
-  fly 726.3531
-  hoist 711.9556
-  at fly=499.3099 hoist=344.9778
+  fly 2.2011
+  hoist 2.1574
+  at fly=1.5131 hoist=1.0454
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Weimar Republic (merchant+cross)"
@@ -13,47 +12,47 @@ palette {
   red "#dd0000"
   yellow "#ffd700"
 }
-proportion hoist=90 fly=135
+proportion hoist=2 fly=3
 
 bars black white red
 
 canton {
-  fly 30
-  hoist 19.2
+  fly 0.6667
+  hoist 0.4267
   field white
 }
 
 canton {
-  fly 29
-  hoist 19.2
+  fly 0.6444
+  hoist 0.4267
   field yellow
 }
 
 canton {
-  fly 29
-  hoist 12.8
+  fly 0.6444
+  hoist 0.2844
   field red
 }
 
 canton {
-  fly 29
-  hoist 6.4
+  fly 0.6444
+  hoist 0.1422
   field black
 }
 
 charge path black {
   d "M11.2744 3.2C12.2728 4.672 12.9256 6.3872 13.1432 8.2432C11.2872 8.0256 9.572 7.3728 8.1 6.3744L8.1 12.8256C9.572 11.8272 11.2872 11.1744 13.1432 10.9568C12.9256 12.8128 12.2728 14.528 11.2744 16L17.7256 16C16.7272 14.528 16.0744 12.8128 15.8568 10.9568C17.7128 11.1744 19.428 11.8272 20.9 12.8256L20.9 6.3744C19.428 7.3728 17.7128 8.0256 15.8568 8.2432C16.0744 6.3872 16.7272 4.672 17.7256 3.2Z"
   box "8.1 3.2 12.8 12.8"
-  fly 12.8
-  hoist 12.8
-  at fly=14.5 hoist=9.6
+  fly 0.2844
+  hoist 0.2844
+  at fly=0.3222 hoist=0.2133
 }
 
 charge path white {
   d "M11.876 3.52C12.772 5.0176 13.348 6.7456 13.5016 8.6016C11.6456 8.448 9.9176 7.872 8.42 6.976L8.42 12.224C9.9176 11.328 11.6456 10.752 13.5016 10.5984C13.348 12.4544 12.772 14.1824 11.876 15.68L17.124 15.68C16.228 14.1824 15.652 12.4544 15.4984 10.5984C17.3544 10.752 19.0824 11.328 20.58 12.224L20.58 6.976C19.0824 7.872 17.3544 8.448 15.4984 8.6016C15.652 6.7456 16.228 5.0176 17.124 3.52Z"
   box "8.42 3.52 12.16 12.16"
-  fly 12.16
-  hoist 12.16
-  hollow 0.4224
-  at fly=14.5 hoist=9.6
+  fly 0.2702
+  hoist 0.2702
+  hollow 0.0094
+  at fly=0.3222 hoist=0.2133
 }

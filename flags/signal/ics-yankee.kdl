@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "ICS Yankee"
@@ -11,49 +10,49 @@ palette {
   yellow "#ffff00"
   black "#000000"
 }
-proportion hoist=600 fly=600
+proportion hoist=1 fly=1
 
 field red
 
 charge polygon yellow {
-  point fly=0 hoist=118.7939
-  point fly=118.7939 hoist=0
+  point fly=0 hoist=0.198
+  point fly=0.198 hoist=0
   point fly=0 hoist=0
   point fly=0 hoist=0
 }
 
 charge polygon yellow {
-  point fly=0 hoist=359.2102
-  point fly=359.2102 hoist=0
-  point fly=240.4163 hoist=0
-  point fly=0 hoist=240.4163
+  point fly=0 hoist=0.5987
+  point fly=0.5987 hoist=0
+  point fly=0.4007 hoist=0
+  point fly=0 hoist=0.4007
 }
 
 charge polygon yellow {
-  point fly=0 hoist=599.6266
-  point fly=599.6266 hoist=0
-  point fly=480.8326 hoist=0
-  point fly=0 hoist=480.8326
+  point fly=0 hoist=0.9994
+  point fly=0.9994 hoist=0
+  point fly=0.8014 hoist=0
+  point fly=0 hoist=0.8014
 }
 
 charge polygon yellow {
-  point fly=240.0429 hoist=600
-  point fly=600 hoist=240.0429
-  point fly=600 hoist=121.2489
-  point fly=121.2489 hoist=600
+  point fly=0.4 hoist=1
+  point fly=1 hoist=0.4
+  point fly=1 hoist=0.2021
+  point fly=0.2021 hoist=1
 }
 
 charge polygon yellow {
-  point fly=480.4592 hoist=600
-  point fly=600 hoist=480.4592
-  point fly=600 hoist=361.6652
-  point fly=361.6652 hoist=600
+  point fly=0.8008 hoist=1
+  point fly=1 hoist=0.8008
+  point fly=1 hoist=0.6028
+  point fly=0.6028 hoist=1
 }
 
 charge polygon black {
   point fly=0 hoist=0
-  point fly=600 hoist=0
-  point fly=600 hoist=600
-  point fly=0 hoist=600
-  hollow 2.5
+  point fly=1 hoist=0
+  point fly=1 hoist=1
+  point fly=0 hoist=1
+  hollow 0.0042
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Poland"
@@ -8,8 +7,8 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#dc143c"
+  red "#dc143c"
 }
-proportion hoist=10 fly=16
+proportion hoist=5 fly=8
 
-bars white pink
+bars white red

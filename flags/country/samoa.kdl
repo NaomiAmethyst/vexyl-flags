@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Samoa"
@@ -11,29 +10,29 @@ palette {
   blue "#002b7f"
   white "#ffffff"
 }
-proportion hoist=144 fly=288
+proportion hoist=2 fly=4
 
 field red
 
 canton {
-  fly 144
-  hoist 72
+  fly 2
+  hoist 1
   field blue
   charge star white {
-    radius 10.5146
-    at fly=72 hoist=60.4935
+    radius 0.146
+    at fly=1 hoist=0.8402
   }
   charge star white {
-    radius 8.4117
-    at fly=50 hoist=29.4117
-    at fly=72 hoist=11.4117
+    radius 0.1168
+    at fly=0.6944 hoist=0.4085
+    at fly=1 hoist=0.1585
   }
   charge star white {
-    radius 7.886
-    at fly=94.5 hoist=25.886
+    radius 0.1095
+    at fly=1.3125 hoist=0.3595
   }
   charge star white {
-    radius 5.2573
-    at fly=83 hoist=41.7467
+    radius 0.073
+    at fly=1.1528 hoist=0.5798
   }
 }

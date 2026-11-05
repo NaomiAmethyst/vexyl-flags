@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Mississippi (1996–2020)"
@@ -8,87 +7,87 @@ meta {
   source "https://commons.wikimedia.org/wiki/File:Flag_of_Mississippi_(1996%E2%80%932020).svg"
 }
 palette {
-  pink "#bf0a30"
+  red "#bf0a30"
   white "#ffffff"
   blue "#00205b"
 }
-proportion hoist=738 fly=1107
+proportion hoist=6 fly=9
 
-field pink
+field red
 
 charge polygon white {
-  point fly=0 hoist=67.8823
-  point fly=416.1177 hoist=484
-  point fly=476 hoist=484
-  point fly=484 hoist=476
-  point fly=484 hoist=416.1177
-  point fly=67.8823 hoist=0
+  point fly=0 hoist=0.5519
+  point fly=3.3831 hoist=3.935
+  point fly=3.8699 hoist=3.935
+  point fly=3.935 hoist=3.8699
+  point fly=3.935 hoist=3.3831
+  point fly=0.5519 hoist=0
   point fly=0 hoist=0
   point fly=0 hoist=0
 }
 
 charge polygon white {
-  point fly=63.8823 hoist=484
-  point fly=484 hoist=63.8823
-  point fly=484 hoist=4
-  point fly=480 hoist=0
-  point fly=412.1177 hoist=0
-  point fly=0 hoist=412.1177
-  point fly=0 hoist=480
-  point fly=4 hoist=484
+  point fly=0.5194 hoist=3.935
+  point fly=3.935 hoist=0.5194
+  point fly=3.935 hoist=0.0325
+  point fly=3.9024 hoist=0
+  point fly=3.35 hoist=0
+  point fly=0 hoist=3.35
+  point fly=0 hoist=3.9024
+  point fly=0.0325 hoist=3.935
 }
 
 charge polygon blue {
-  point fly=0 hoist=50.9117
-  point fly=433.0883 hoist=484
-  point fly=476 hoist=484
-  point fly=484 hoist=476
-  point fly=484 hoist=433.0883
-  point fly=50.9117 hoist=0
+  point fly=0 hoist=0.4139
+  point fly=3.521 hoist=3.935
+  point fly=3.8699 hoist=3.935
+  point fly=3.935 hoist=3.8699
+  point fly=3.935 hoist=3.521
+  point fly=0.4139 hoist=0
   point fly=0 hoist=0
   point fly=0 hoist=0
 }
 
 charge polygon blue {
-  point fly=46.9117 hoist=484
-  point fly=484 hoist=46.9117
-  point fly=484 hoist=4
-  point fly=480 hoist=0
-  point fly=429.0883 hoist=0
-  point fly=0 hoist=429.0883
-  point fly=0 hoist=480
-  point fly=4 hoist=484
+  point fly=0.3814 hoist=3.935
+  point fly=3.935 hoist=0.3814
+  point fly=3.935 hoist=0.0325
+  point fly=3.9024 hoist=0
+  point fly=3.4885 hoist=0
+  point fly=0 hoist=3.4885
+  point fly=0 hoist=3.9024
+  point fly=0.0325 hoist=3.935
 }
 
 charge star white {
-  radius 28.0001
-  at fly=48 hoist=48
-  at fly=112 hoist=112
-  at fly=176 hoist=176
-  at fly=304 hoist=304
-  at fly=368 hoist=368
-  at fly=432 hoist=432
-  at fly=432 hoist=48
-  at fly=368 hoist=112
-  at fly=304 hoist=176
-  at fly=176 hoist=304
-  at fly=112 hoist=368
-  at fly=48 hoist=432
-  at fly=240 hoist=240
+  radius 0.2276
+  at fly=0.3902 hoist=0.3902
+  at fly=0.9106 hoist=0.9106
+  at fly=1.4309 hoist=1.4309
+  at fly=2.4715 hoist=2.4715
+  at fly=2.9919 hoist=2.9919
+  at fly=3.5122 hoist=3.5122
+  at fly=3.5122 hoist=0.3902
+  at fly=2.9919 hoist=0.9106
+  at fly=2.4715 hoist=1.4309
+  at fly=1.4309 hoist=2.4715
+  at fly=0.9106 hoist=2.9919
+  at fly=0.3902 hoist=3.5122
+  at fly=1.95 hoist=1.95
 }
 
 charge polygon white {
-  point fly=480 hoist=0
-  point fly=1107 hoist=0
-  point fly=1107 hoist=492
-  point fly=0 hoist=492
-  point fly=0 hoist=480
-  point fly=480 hoist=480
+  point fly=3.9024 hoist=0
+  point fly=9 hoist=0
+  point fly=9 hoist=4
+  point fly=0 hoist=4
+  point fly=0 hoist=3.9024
+  point fly=3.9024 hoist=3.9024
 }
 
 panel {
   corner upper-fly
-  fly 615
-  hoist 246
+  fly 5
+  hoist 2
   field blue
 }

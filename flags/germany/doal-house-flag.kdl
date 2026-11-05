@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "DOAL house flag"
@@ -20,19 +19,17 @@ field yellow
 charge lozenge black {
   fly 420
   hoist 270
-  at fly=225 hoist=150
+  at center
 }
 
 charge lozenge white {
   fly 309
   hoist 199
-  at fly=225 hoist=150
-  anchor center
+  at center
 }
 
 charge lozenge red {
   fly 198
   hoist 128
-  at fly=225 hoist=150
-  anchor center
+  at center
 }

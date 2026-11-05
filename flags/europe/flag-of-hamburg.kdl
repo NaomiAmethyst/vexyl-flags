@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Hamburg"
@@ -12,259 +11,259 @@ palette {
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 field red
 
 charge svg {
   at center
-  fly 600
-  hoist 400
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><path d="m309.3 75.37s0.5078-8.848-7.287-10.24v-9.525h6.27v-4.067h-6.27v-5.204h-3.886v5.204h-6.27v4.067h6.27v9.525c-7.795 1.391-7.287 10.24-7.287 10.24" stroke-width="1.2" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m277.9 94.91h44.14c1e-7 -11.98-11.11-21.58-22.07-21.58s-22.07 9.6-22.07 21.58z" stroke-width="1.2" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m322.9 105.5 2.5-0.853v-9.747h-50.73v9.747l2.5 0.853z" stroke-width="1.2" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m322.4 200.6v-95.11h-44.85v95.11" stroke-width="1.2" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m207.9 276.7c7.371-33.4 4.699-66.48 4.699-66.48h174.8s-2.672 33.08 4.699 66.48c7.999 36.26 15.17 48.8 15.17 48.8v14.59h-214.5l-0.019-14.59s7.148-12.54 15.15-48.8z" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m233.9 82.39h8.365v11.13h5.4v-11.13h8.688v11.13h5.717v-11.13h8.319v21.92l-2.792 1.205h-45.46l-3.361-1.205v-21.92h8.745v11.13h6.383z" stroke-width="1.2" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m222.1 105.5h45.4v96.43h-45.4z" stroke-width="1.2" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m232.6 69.3 4.12-7.13-4.12-7.13h8.24l4.12-7.13 4.12 7.13h8.24l-4.12 7.13 4.12 7.13h-8.24l-4.12 7.14-4.12-7.14z" stroke-width="1.2" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m301 185.4h-8.031v13.06h-13.05v-13.06h-14.34v13.06h-11.96v-13.06h-13.88v13.06h-11.87v-13.06h-16.17v24.74l3.852 0.9395h85.45" stroke-width="1.2" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><path d="m309.3 75.37s0.5078-8.848-7.287-10.24v-9.525h6.27v-4.067h-6.27v-5.204h-3.886v5.204h-6.27v4.067h6.27v9.525c-7.795 1.391-7.287 10.24-7.287 10.24" stroke-width="1.2" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m277.9 94.91h44.14c1e-7 -11.98-11.11-21.58-22.07-21.58s-22.07 9.6-22.07 21.58z" stroke-width="1.2" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m322.9 105.5 2.5-0.853v-9.747h-50.73v9.747l2.5 0.853z" stroke-width="1.2" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m322.4 200.6v-95.11h-44.85v95.11" stroke-width="1.2" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m207.9 276.7c7.371-33.4 4.699-66.48 4.699-66.48h174.8s-2.672 33.08 4.699 66.48c7.999 36.26 15.17 48.8 15.17 48.8v14.59h-214.5l-0.019-14.59s7.148-12.54 15.15-48.8z" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m233.9 82.39h8.365v11.13h5.4v-11.13h8.688v11.13h5.717v-11.13h8.319v21.92l-2.792 1.205h-45.46l-3.361-1.205v-21.92h8.745v11.13h6.383z" stroke-width="1.2" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m222.1 105.5h45.4v96.43h-45.4z" stroke-width="1.2" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m232.6 69.3 4.12-7.13-4.12-7.13h8.24l4.12-7.13 4.12 7.13h8.24l-4.12 7.13 4.12 7.13h-8.24l-4.12 7.14-4.12-7.14z" stroke-width="1.2" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m301 185.4h-8.031v13.06h-13.05v-13.06h-14.34v13.06h-11.96v-13.06h-13.88v13.06h-11.87v-13.06h-16.17v24.74l3.852 0.9395h85.45" stroke-width="1.2" fill="#ffffff" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
 charge rect black {
-  fly 45.36
-  hoist 2
-  at fly=244.78 hoist=106
+  fly 0.2268
+  hoist 0.01
+  at fly=1.2239 hoist=0.53
 }
 
 charge path black {
   d "M266.4 340.1L266.4 266.32C266.4 259.633 275.445 235.51 300 235.51"
   box "266.4 235.51 33.6 104.59"
-  fly 33.6
-  hoist 104.59
-  hollow 2.5
-  at fly=283.2 hoist=287.805
+  fly 0.168
+  hoist 0.523
+  hollow 0.0125
+  at fly=1.416 hoist=1.439
 }
 
 charge path black {
   d "M277 340.1L277 270.26C277 258.87 286.074 245.83 300 245.83"
   box "277 245.83 23 94.27"
-  fly 23
-  hoist 94.27
-  hollow 1
-  at fly=288.5 hoist=292.965
+  fly 0.115
+  hoist 0.4713
+  hollow 0.005
+  at fly=1.4425 hoist=1.4648
 }
 
 charge path black {
   d "M283.9 321.3C283.9 318.14 285.08 318.14 286 318.14C286.93 318.14 285.89 319.41 285.89 321.14S286.89 324.44 286 324.44S283.9 324.16 283.9 321.28ZM277 321.2L283.451 321.2"
   box "277 318.14 9.93 6.3"
-  fly 9.93
-  hoist 6.3
-  at fly=281.965 hoist=321.29
+  fly 0.05
+  hoist 0.0315
+  at fly=1.4098 hoist=1.6065
 }
 
 charge path black {
   d "M283.9 321.3C283.9 318.14 285.08 318.14 286 318.14C286.93 318.14 285.89 319.41 285.89 321.14S286.89 324.44 286 324.44S283.9 324.16 283.9 321.28ZM277 321.2L283.451 321.2"
   box "277 318.14 9.93 6.3"
-  fly 9.93
-  hoist 6.3
-  hollow 1
-  at fly=281.965 hoist=321.29
+  fly 0.05
+  hoist 0.0315
+  hollow 0.005
+  at fly=1.4098 hoist=1.6065
 }
 
 charge rect black {
-  fly 73
-  hoist 2
-  at fly=229.5 hoist=325.5
+  fly 0.365
+  hoist 0.01
+  at fly=1.1475 hoist=1.6275
 }
 
 charge path black {
   d "M283.9 271.3C283.9 268.14 285.08 268.14 286 268.14C286.93 268.14 285.89 269.41 285.89 271.14S286.89 274.44 286 274.44S283.9 274.16 283.9 271.28ZM277 271.2L283.451 271.2"
   box "277 268.14 9.93 6.3"
-  fly 9.93
-  hoist 6.3
-  at fly=281.965 hoist=271.29
+  fly 0.05
+  hoist 0.0315
+  at fly=1.4098 hoist=1.3565
 }
 
 charge path black {
   d "M283.9 271.3C283.9 268.14 285.08 268.14 286 268.14C286.93 268.14 285.89 269.41 285.89 271.14S286.89 274.44 286 274.44S283.9 274.16 283.9 271.28ZM277 271.2L283.451 271.2"
   box "277 268.14 9.93 6.3"
-  fly 9.93
-  hoist 6.3
-  hollow 1
-  at fly=281.965 hoist=271.29
+  fly 0.05
+  hoist 0.0315
+  hollow 0.005
+  at fly=1.4098 hoist=1.3565
 }
 
 charge polygon white {
-  point fly=366.1 hoist=82.39
-  point fly=357.735 hoist=82.39
-  point fly=357.735 hoist=93.52
-  point fly=352.335 hoist=93.52
-  point fly=352.335 hoist=82.39
-  point fly=343.647 hoist=82.39
-  point fly=343.647 hoist=93.52
-  point fly=337.93 hoist=93.52
-  point fly=337.93 hoist=82.39
-  point fly=329.611 hoist=82.39
-  point fly=329.611 hoist=104.31
-  point fly=332.403 hoist=105.515
-  point fly=377.863 hoist=105.515
-  point fly=381.224 hoist=104.31
-  point fly=381.224 hoist=82.39
-  point fly=372.479 hoist=82.39
-  point fly=372.479 hoist=93.52
-  point fly=366.096 hoist=93.52
+  point fly=1.8305 hoist=0.4119
+  point fly=1.7887 hoist=0.4119
+  point fly=1.7887 hoist=0.4676
+  point fly=1.7617 hoist=0.4676
+  point fly=1.7617 hoist=0.4119
+  point fly=1.7182 hoist=0.4119
+  point fly=1.7182 hoist=0.4676
+  point fly=1.6897 hoist=0.4676
+  point fly=1.6897 hoist=0.4119
+  point fly=1.6481 hoist=0.4119
+  point fly=1.6481 hoist=0.5215
+  point fly=1.662 hoist=0.5276
+  point fly=1.8893 hoist=0.5276
+  point fly=1.9061 hoist=0.5215
+  point fly=1.9061 hoist=0.4119
+  point fly=1.8624 hoist=0.4119
+  point fly=1.8624 hoist=0.4676
+  point fly=1.8305 hoist=0.4676
 }
 
 charge polygon black {
-  point fly=366.1 hoist=82.39
-  point fly=357.735 hoist=82.39
-  point fly=357.735 hoist=93.52
-  point fly=352.335 hoist=93.52
-  point fly=352.335 hoist=82.39
-  point fly=343.647 hoist=82.39
-  point fly=343.647 hoist=93.52
-  point fly=337.93 hoist=93.52
-  point fly=337.93 hoist=82.39
-  point fly=329.611 hoist=82.39
-  point fly=329.611 hoist=104.31
-  point fly=332.403 hoist=105.515
-  point fly=377.863 hoist=105.515
-  point fly=381.224 hoist=104.31
-  point fly=381.224 hoist=82.39
-  point fly=372.479 hoist=82.39
-  point fly=372.479 hoist=93.52
-  point fly=366.096 hoist=93.52
-  hollow 1.2
+  point fly=1.8305 hoist=0.4119
+  point fly=1.7887 hoist=0.4119
+  point fly=1.7887 hoist=0.4676
+  point fly=1.7617 hoist=0.4676
+  point fly=1.7617 hoist=0.4119
+  point fly=1.7182 hoist=0.4119
+  point fly=1.7182 hoist=0.4676
+  point fly=1.6897 hoist=0.4676
+  point fly=1.6897 hoist=0.4119
+  point fly=1.6481 hoist=0.4119
+  point fly=1.6481 hoist=0.5215
+  point fly=1.662 hoist=0.5276
+  point fly=1.8893 hoist=0.5276
+  point fly=1.9061 hoist=0.5215
+  point fly=1.9061 hoist=0.4119
+  point fly=1.8624 hoist=0.4119
+  point fly=1.8624 hoist=0.4676
+  point fly=1.8305 hoist=0.4676
+  hollow 0.006
 }
 
 charge rect white {
-  fly 45.4
-  hoist 96.43
-  at fly=355.2 hoist=153.715
+  fly 0.227
+  hoist 0.4822
+  at fly=1.776 hoist=0.7686
 }
 
 charge polygon black {
-  point fly=377.9 hoist=105.5
-  point fly=332.5 hoist=105.5
-  point fly=332.5 hoist=201.93
-  point fly=377.9 hoist=201.93
-  hollow 1.2
+  point fly=1.8895 hoist=0.5275
+  point fly=1.6625 hoist=0.5275
+  point fly=1.6625 hoist=1.0096
+  point fly=1.8895 hoist=1.0096
+  hollow 0.006
 }
 
 charge star white {
-  radius 14.2677
-  inner 8.2365
+  radius 0.0713
+  inner 0.0412
   points 6
   rotate -0.0239
-  at fly=355.04 hoist=62.1708
+  at fly=1.7752 hoist=0.3109
 }
 
 charge polygon black {
-  point fly=367.4 hoist=69.3
-  point fly=363.28 hoist=62.17
-  point fly=367.4 hoist=55.04
-  point fly=359.16 hoist=55.04
-  point fly=355.04 hoist=47.91
-  point fly=350.92 hoist=55.04
-  point fly=342.68 hoist=55.04
-  point fly=346.8 hoist=62.17
-  point fly=342.68 hoist=69.3
-  point fly=350.92 hoist=69.3
-  point fly=355.04 hoist=76.44
-  point fly=359.16 hoist=69.3
-  hollow 1.2
+  point fly=1.837 hoist=0.3465
+  point fly=1.8164 hoist=0.3109
+  point fly=1.837 hoist=0.2752
+  point fly=1.7958 hoist=0.2752
+  point fly=1.7752 hoist=0.2395
+  point fly=1.7546 hoist=0.2752
+  point fly=1.7134 hoist=0.2752
+  point fly=1.734 hoist=0.3109
+  point fly=1.7134 hoist=0.3465
+  point fly=1.7546 hoist=0.3465
+  point fly=1.7752 hoist=0.3822
+  point fly=1.7958 hoist=0.3465
+  hollow 0.006
 }
 
 charge path white {
   d "M299 185.4L307.031 185.4L307.031 198.46L320.081 198.46L320.081 185.4L334.421 185.4L334.421 198.46L346.381 198.46L346.381 185.4L360.261 185.4L360.261 198.46L372.131 198.46L372.131 185.4L388.301 185.4L388.301 210.14L384.449 211.0795L298.999 211.0795"
   box "298.999 185.4 89.302 25.6795"
-  fly 89.302
-  hoist 25.6795
-  at fly=343.65 hoist=198.2398
+  fly 0.4465
+  hoist 0.1284
+  at fly=1.7182 hoist=0.9912
 }
 
 charge path black {
   d "M299 185.4L307.031 185.4L307.031 198.46L320.081 198.46L320.081 185.4L334.421 185.4L334.421 198.46L346.381 198.46L346.381 185.4L360.261 185.4L360.261 198.46L372.131 198.46L372.131 185.4L388.301 185.4L388.301 210.14L384.449 211.0795L298.999 211.0795"
   box "298.999 185.4 89.302 25.6795"
-  fly 89.302
-  hoist 25.6795
-  hollow 1.2
-  at fly=343.65 hoist=198.2398
+  fly 0.4465
+  hoist 0.1284
+  hollow 0.006
+  at fly=1.7182 hoist=0.9912
 }
 
 charge rect black {
-  fly 45.36
-  hoist 2
-  at fly=355.22 hoist=106
+  fly 0.2268
+  hoist 0.01
+  at fly=1.7761 hoist=0.53
 }
 
 charge path black {
   d "M333.6 340.1L333.6 266.32C333.6 259.633 324.555 235.51 300 235.51"
   box "300 235.51 33.6 104.59"
-  fly 33.6
-  hoist 104.59
-  hollow 2.5
-  at fly=316.8 hoist=287.805
+  fly 0.168
+  hoist 0.523
+  hollow 0.0125
+  at fly=1.584 hoist=1.439
 }
 
 charge path black {
   d "M323 340.1L323 270.26C323 258.87 313.926 245.83 300 245.83"
   box "300 245.83 23 94.27"
-  fly 23
-  hoist 94.27
-  hollow 1
-  at fly=311.5 hoist=292.965
+  fly 0.115
+  hoist 0.4713
+  hollow 0.005
+  at fly=1.5575 hoist=1.4648
 }
 
 charge path black {
   d "M316.1 321.3C316.1 318.14 314.92 318.14 314 318.14C313.07 318.14 314.11 319.41 314.11 321.14S313.11 324.44 314 324.44S316.1 324.16 316.1 321.28ZM323 321.2L316.549 321.2"
   box "313.07 318.14 9.93 6.3"
-  fly 9.93
-  hoist 6.3
-  at fly=318.035 hoist=321.29
+  fly 0.05
+  hoist 0.0315
+  at fly=1.5902 hoist=1.6065
 }
 
 charge path black {
   d "M316.1 321.3C316.1 318.14 314.92 318.14 314 318.14C313.07 318.14 314.11 319.41 314.11 321.14S313.11 324.44 314 324.44S316.1 324.16 316.1 321.28ZM323 321.2L316.549 321.2"
   box "313.07 318.14 9.93 6.3"
-  fly 9.93
-  hoist 6.3
-  hollow 1
-  at fly=318.035 hoist=321.29
+  fly 0.05
+  hoist 0.0315
+  hollow 0.005
+  at fly=1.5902 hoist=1.6065
 }
 
 charge rect black {
-  fly 73
-  hoist 2
-  at fly=370.5 hoist=325.5
+  fly 0.365
+  hoist 0.01
+  at fly=1.8525 hoist=1.6275
 }
 
 charge path black {
   d "M316.1 271.3C316.1 268.14 314.92 268.14 314 268.14C313.07 268.14 314.11 269.41 314.11 271.14S313.11 274.44 314 274.44S316.1 274.16 316.1 271.28ZM323 271.2L316.549 271.2"
   box "313.07 268.14 9.93 6.3"
-  fly 9.93
-  hoist 6.3
-  at fly=318.035 hoist=271.29
+  fly 0.05
+  hoist 0.0315
+  at fly=1.5902 hoist=1.3565
 }
 
 charge path black {
   d "M316.1 271.3C316.1 268.14 314.92 268.14 314 268.14C313.07 268.14 314.11 269.41 314.11 271.14S313.11 274.44 314 274.44S316.1 274.16 316.1 271.28ZM323 271.2L316.549 271.2"
   box "313.07 268.14 9.93 6.3"
-  fly 9.93
-  hoist 6.3
-  hollow 1
-  at fly=318.035 hoist=271.29
+  fly 0.05
+  hoist 0.0315
+  hollow 0.005
+  at fly=1.5902 hoist=1.3565
 }
 
 charge rect black {
-  fly 175.6
-  hoist 2
-  at fly=300 hoist=210.2
+  fly 0.878
+  hoist 0.01
+  at fly=1.5 hoist=1.051
 }
 
 charge rect black {
-  fly 44.16
-  hoist 2
-  at fly=299.88 hoist=106
+  fly 0.2208
+  hoist 0.01
+  at fly=1.5 hoist=0.53
 }
 
 charge rect black {
-  fly 1
-  hoist 94.27
-  at fly=300 hoist=292.935
+  fly 0.005
+  hoist 0.4713
+  at fly=1.5 hoist=1.4647
 }

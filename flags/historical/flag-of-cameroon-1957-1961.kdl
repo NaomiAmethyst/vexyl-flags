@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Cameroon (1957-1961)"
@@ -12,7 +11,7 @@ palette {
   red "#ce1126"
   yellow "#fcd116"
 }
-proportion hoist=60 fly=90
+proportion hoist=2 fly=3
 
 bars teal red yellow {
   along hoist

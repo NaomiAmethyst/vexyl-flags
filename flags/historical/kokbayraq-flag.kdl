@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Kokbayraq flag"
@@ -11,19 +10,19 @@ palette {
   blue "#559ee2"
   white "#ffffff"
 }
-proportion hoist=60000 fly=90000
+proportion hoist=2 fly=3
 
 field blue
 
 charge crescent white {
-  radius 15000
-  inner 12000
-  offset 3749.8685
-  at fly=29999.687 hoist=30000
+  radius 0.5
+  inner 0.4
+  offset 0.125
+  at fly=1 hoist=1
 }
 
 charge star white {
-  radius 7500.104
+  radius 0.25
   rotate -18
-  at fly=49250 hoist=30000
+  at fly=1.6417 hoist=1
 }

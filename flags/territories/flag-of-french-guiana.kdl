@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of French Guiana"
@@ -12,19 +11,18 @@ palette {
   yellow "#fcdd09"
   red "#da121a"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 pile green {
   from fly
-  tip 0 900
+  tip 0 3
 }
 
 pile yellow {
-  tip 600 900
+  tip 2 3
 }
 
 charge star red {
-  radius 100
-  at fly=450 hoist=300
-  anchor center
+  radius 0.3333
+  at center
 }

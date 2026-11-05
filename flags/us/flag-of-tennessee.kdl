@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tennessee"
@@ -12,7 +11,7 @@ palette {
   white "#ffffff"
   blue "#002d65"
 }
-proportion hoist=144 fly=240
+proportion hoist=3 fly=5
 
 bars red white blue {
   along hoist
@@ -20,32 +19,29 @@ bars red white blue {
 }
 
 charge disc white {
-  radius 39
-  at fly=111 hoist=72
+  radius 0.8125
+  at fly=2.3125 hoist=1.5
 }
 
 charge disc blue {
-  radius 36
-  at fly=111 hoist=72
+  radius 0.75
+  at fly=2.3125 hoist=1.5
 }
 
 charge star white {
-  radius 17
-  inner 6.46
+  radius 0.3542
   rotate 18
-  at fly=105.2832 hoist=89.5945
+  at fly=2.1934 hoist=1.8666
 }
 
 charge star white {
-  radius 17
-  inner 6.46
+  radius 0.3542
   rotate -6
-  at fly=98.6211 hoist=58.2518
+  at fly=2.0546 hoist=1.2136
 }
 
 charge star white {
-  radius 17
-  inner 6.46
+  radius 0.3542
   rotate -30
-  at fly=129.0957 hoist=68.1536
+  at fly=2.6895 hoist=1.4199
 }

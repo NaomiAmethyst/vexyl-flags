@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Chukotka"
@@ -13,40 +12,40 @@ palette {
   red "#d52b1e"
   yellow "#ffd700"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field blue
 
 chevrons white {
-  depth 200
+  depth 0.6667
 }
 
 charge polygon white {
   point fly=0 hoist=0
-  point fly=519.6152 hoist=300
-  point fly=159.8076 hoist=323.2051
+  point fly=1.7321 hoist=1
+  point fly=0.5327 hoist=1.0774
 }
 
 charge polygon white {
-  point fly=519.6152 hoist=300
-  point fly=0 hoist=600
-  point fly=159.8076 hoist=276.7949
+  point fly=1.7321 hoist=1
+  point fly=0 hoist=2
+  point fly=0.5327 hoist=0.9226
 }
 
 charge rect red {
-  fly 170
-  hoist 80
-  at fly=175 hoist=340
+  fly 0.5667
+  hoist 0.2667
+  at fly=0.5833 hoist=1.1333
 }
 
 charge rect blue {
-  fly 170
-  hoist 49.4872
-  at fly=175 hoist=300
+  fly 0.5667
+  hoist 0.165
+  at fly=0.5833 hoist=1
 }
 
 charge ring yellow {
-  radius 123.7179
-  inner 74.2307
-  at fly=173.2051 hoist=300
+  radius 0.4124
+  inner 0.2474
+  at fly=0.5774 hoist=1
 }

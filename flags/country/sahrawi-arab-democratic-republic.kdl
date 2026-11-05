@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Sahrawi Arab Democratic Republic"
@@ -13,35 +12,34 @@ palette {
   green "#007a3d"
   red "#c4111b"
 }
-proportion hoist=300 fly=600
+proportion hoist=1 fly=2
 
 bars black white green
 
 chevrons red {
-  depth 200
+  depth 0.6667
 }
 
 charge disc red {
-  radius 40
-  at fly=300 hoist=150
-  anchor center
+  radius 0.1333
+  at center
 }
 
 charge disc white {
-  radius 40
-  at fly=315 hoist=150
+  radius 0.1333
+  at fly=1.05 hoist=0.5
 }
 
 charge polygon red {
-  point fly=289.2629 hoist=174.2204
-  point fly=306.3193 hoist=162.0277
-  point fly=323.2422 hoist=174.4048
-  point fly=316.917 hoist=154.4155
-  point fly=333.9178 hoist=142.1455
-  point fly=312.9522 hoist=141.9842
-  point fly=306.5363 hoist=122.0238
-  point fly=299.9042 hoist=141.9134
-  point fly=278.9381 hoist=141.8473
-  point fly=295.8048 hoist=154.301
-  point fly=289.2629 hoist=174.2205
+  point fly=0.9642 hoist=0.5807
+  point fly=1.0211 hoist=0.5401
+  point fly=1.0775 hoist=0.5813
+  point fly=1.0564 hoist=0.5147
+  point fly=1.1131 hoist=0.4738
+  point fly=1.0432 hoist=0.4733
+  point fly=1.0218 hoist=0.4067
+  point fly=0.9997 hoist=0.473
+  point fly=0.9298 hoist=0.4728
+  point fly=0.986 hoist=0.5143
+  point fly=0.9642 hoist=0.5807
 }

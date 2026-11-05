@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Kuban People's Republic"
@@ -9,11 +8,11 @@ meta {
 }
 palette {
   blue "#0066cc"
-  pink "#ff0066"
+  red "#ff0066"
   green "#009966"
 }
-proportion hoist=4 fly=6
+proportion hoist=2 fly=3
 
-bars blue pink green {
+bars blue red green {
   ratio 1 2 1
 }

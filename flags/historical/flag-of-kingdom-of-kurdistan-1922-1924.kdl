@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Kingdom of Kurdistan (1922-1924)"
@@ -12,23 +11,22 @@ palette {
   red "#ed2024"
   white "#ffffff"
 }
-proportion hoist=598.3469 fly=899.1735
+proportion hoist=1 fly=1.5028
 
 field green
 
 charge disc red {
-  radius 219.3938
-  at fly=449.5867 hoist=299.1734
-  anchor center
+  radius 0.3667
+  at center
 }
 
 charge disc white {
-  radius 151.5812
-  at fly=457.5647 hoist=299.1734
+  radius 0.2533
+  at fly=0.7647 hoist=0.5
   anchor center
 }
 
 charge disc red {
-  radius 131.6363
-  at fly=501.4434 hoist=299.1734
+  radius 0.22
+  at fly=0.838 hoist=0.5
 }

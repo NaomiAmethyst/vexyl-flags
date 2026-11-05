@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Osaka, Osaka"
@@ -22,17 +21,17 @@ charge rect yellow {
 }
 
 charge polygon yellow {
-  point fly=307.0208 hoist=432.0208
-  point fly=585.5208 hoist=153.5208
-  point fly=561.4792 hoist=129.4792
-  point fly=282.9792 hoist=407.9792
+  point fly=307 hoist=432
+  point fly=585.5 hoist=153.5
+  point fly=561.5 hoist=129.5
+  point fly=283 hoist=408
 }
 
 charge polygon yellow {
-  point fly=314.4792 hoist=153.5208
-  point fly=592.9792 hoist=432.0208
-  point fly=617.0208 hoist=407.9792
-  point fly=338.5208 hoist=129.4792
+  point fly=314.5 hoist=153.5
+  point fly=593 hoist=432
+  point fly=617 hoist=408
+  point fly=338.5 hoist=129.5
 }
 
 charge polygon yellow {

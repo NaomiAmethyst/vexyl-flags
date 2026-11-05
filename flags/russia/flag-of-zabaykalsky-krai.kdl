@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Zabaykalsky Krai"
@@ -11,10 +10,10 @@ palette {
   red "#d81e05"
   yellow "#ffd700"
 }
-proportion hoist=4 fly=6
+proportion hoist=2 fly=3
 
 bars green red
 
 chevrons yellow {
-  depth 3
+  depth 1.5
 }

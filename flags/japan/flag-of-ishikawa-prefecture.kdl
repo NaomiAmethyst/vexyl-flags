@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Ishikawa Prefecture"
@@ -11,28 +10,28 @@ palette {
   blue "#0088bb"
   white "#ffffff"
 }
-proportion hoist=310 fly=440
+proportion hoist=31 fly=44
 
 field blue
 
 charge path white {
   d "M58 249L166.9173 71.0324C174.0069 58.7385 187.041 49 202.9488 49L337.9611 49L300.8698 108.1671C293.3795 121.156 281.1125 128.8942 260.2117 128.8942L230.9262 128.8942L215.6837 152.7037L254.6647 152.7037C268.0427 152.7037 273.1458 159.1296 267.1697 169.4925L218.6582 249L183.7785 249L225.8196 180.2169L176.455 180.2169C170.4746 180.2169 168.3406 176.0575 172.0041 169.7047L210.3671 109.0159C213.0135 104.4267 218.8559 100.8518 225.8394 100.8518L266.9578 100.8518C270.6501 100.8518 274.9844 97.6729 277.1314 93.9498L286.2238 78.6296L213.5463 78.6296C203.9861 78.6296 193.5391 84.4593 189.657 91.1912L92.8798 249L58 249Z"
   box "58 49 279.9611 200"
-  fly 279.9611
-  hoist 200
-  at fly=197.9805 hoist=149
+  fly 28
+  hoist 20
+  at fly=19.8 hoist=14.9
 }
 
 charge polygon white {
-  point fly=357.1202 hoist=153.7619
-  point fly=300.0443 hoist=249
-  point fly=334.9241 hoist=249
-  point fly=392 hoist=153.7619
+  point fly=35.712 hoist=15.375
+  point fly=30 hoist=24.9
+  point fly=33.5 hoist=24.9
+  point fly=39.2 hoist=15.375
 }
 
 charge polygon white {
-  point fly=298.9873 hoist=153.7619
-  point fly=241.9114 hoist=249
-  point fly=276.7911 hoist=249
-  point fly=333.8671 hoist=153.7619
+  point fly=29.9 hoist=15.375
+  point fly=24.1875 hoist=24.9
+  point fly=27.6875 hoist=24.9
+  point fly=33.3867 hoist=15.375
 }

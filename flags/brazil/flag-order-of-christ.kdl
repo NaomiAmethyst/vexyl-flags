@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag Order of Christ"
@@ -11,43 +10,41 @@ palette {
   white "#ffffff"
   red "#d62c26"
 }
-proportion hoist=503 fly=753
+proportion hoist=1 fly=1.497
 
 field white
 
 charge polygon red {
-  point fly=267 hoist=33
-  point fly=321 hoist=87
-  point fly=321 hoist=196
-  point fly=212 hoist=196
-  point fly=158 hoist=142
-  point fly=158 hoist=361
-  point fly=212 hoist=307
-  point fly=321 hoist=307
-  point fly=321 hoist=416
-  point fly=267 hoist=470
-  point fly=486 hoist=470
-  point fly=432 hoist=416
-  point fly=432 hoist=307
-  point fly=541 hoist=307
-  point fly=595 hoist=361
-  point fly=595 hoist=142
-  point fly=541 hoist=196
-  point fly=432 hoist=196
-  point fly=432 hoist=87
-  point fly=486 hoist=33
+  point fly=0.5308 hoist=0.0656
+  point fly=0.6382 hoist=0.173
+  point fly=0.6382 hoist=0.3897
+  point fly=0.4215 hoist=0.3897
+  point fly=0.3141 hoist=0.2823
+  point fly=0.3141 hoist=0.7177
+  point fly=0.4215 hoist=0.6103
+  point fly=0.6382 hoist=0.6103
+  point fly=0.6382 hoist=0.827
+  point fly=0.5308 hoist=0.9344
+  point fly=0.9662 hoist=0.9344
+  point fly=0.8588 hoist=0.827
+  point fly=0.8588 hoist=0.6103
+  point fly=1.0755 hoist=0.6103
+  point fly=1.1829 hoist=0.7177
+  point fly=1.1829 hoist=0.2823
+  point fly=1.0755 hoist=0.3897
+  point fly=0.8588 hoist=0.3897
+  point fly=0.8588 hoist=0.173
+  point fly=0.9662 hoist=0.0656
 }
 
 charge rect white {
-  fly 37
-  hoist 330
-  at fly=376.5 hoist=251.5
-  anchor center
+  fly 0.0736
+  hoist 0.6561
+  at center
 }
 
 charge rect white {
-  fly 330
-  hoist 37
-  at fly=376.5 hoist=251.5
-  anchor center
+  fly 0.6561
+  hoist 0.0736
+  at center
 }

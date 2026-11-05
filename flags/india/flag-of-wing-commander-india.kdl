@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Wing Commander (India)"
@@ -13,32 +12,32 @@ palette {
   white "#ffffff"
   green "#006934"
 }
-proportion hoist=255.9616 fly=384.5856
+proportion hoist=1 fly=1.5025
 
 chevrons blue {
-  depth 384.5856
+  depth 1.5025
 }
 
 charge path orange {
   d "M14.0077 125.417C14.0077 88.2387 44.1466 58.0997 81.325 58.0997C118.5033 58.0997 148.6423 88.2387 148.6423 125.417C148.6423 162.5953 118.5033 192.7343 81.325 192.7343C44.1467 192.7343 14.0077 162.5953 14.0077 125.417Z"
   box "14.0077 58.0997 134.6346 134.6346"
-  fly 134.6346
-  hoist 134.6346
-  at fly=81.325 hoist=125.417
+  fly 0.526
+  hoist 0.526
+  at fly=0.3177 hoist=0.49
 }
 
 charge path white {
   d "M36.4468 125.417C36.4468 100.6315 56.5394 80.5388 81.325 80.5388C106.1105 80.5388 126.2032 100.6315 126.2032 125.417C126.2032 150.2026 106.1105 170.2952 81.325 170.2952C56.5394 170.2952 36.4468 150.2026 36.4468 125.417Z"
   box "36.4468 80.5388 89.7564 89.7564"
-  fly 89.7564
-  hoist 89.7564
-  at fly=81.325 hoist=125.417
+  fly 0.3507
+  hoist 0.3507
+  at fly=0.3177 hoist=0.49
 }
 
 charge path green {
   d "M58.8859 125.417C58.8859 113.0242 68.9322 102.9779 81.325 102.9779C93.7177 102.9779 103.7641 113.0243 103.7641 125.417C103.7641 137.8098 93.7177 147.8561 81.325 147.8561C68.9322 147.8561 58.8859 137.8098 58.8859 125.417Z"
   box "58.8859 102.9779 44.8782 44.8782"
-  fly 44.8782
-  hoist 44.8782
-  at fly=81.325 hoist=125.417
+  fly 0.1753
+  hoist 0.1753
+  at fly=0.3177 hoist=0.49
 }

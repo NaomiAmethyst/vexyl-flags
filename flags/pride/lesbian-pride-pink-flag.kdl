@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Lesbian Pride pink flag"
@@ -9,13 +8,13 @@ meta {
 }
 palette {
   pink "#a40061"
-  pink-2 "#b75592"
-  pink-3 "#d063a6"
+  light-pink "#b75592"
+  light-pink-2 "#d063a6"
   white "#ededeb"
-  pink-4 "#e4accf"
+  light-pink-3 "#e4accf"
   red "#c54e54"
-  red-2 "#8a1e04"
+  dark-red "#8a1e04"
 }
-proportion hoist=945 fly=1575
+proportion hoist=3 fly=5
 
-bars pink pink-2 pink-3 white pink-4 red red-2
+bars pink light-pink light-pink-2 white light-pink-3 red dark-red

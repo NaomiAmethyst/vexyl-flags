@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Karachay-Cherkessia"
@@ -12,36 +11,34 @@ palette {
   red "#e02010"
   orange "#ffb000"
 }
-proportion hoist=300 fly=600
+proportion hoist=1 fly=2
 
 bars blue green red
 
 charge disc orange {
-  radius 20
-  at fly=300 hoist=150
-  anchor center
+  radius 0.0667
+  at center
 }
 
 charge svg {
   at center
-  fly 600
-  hoist 300
+  fly 2
+  hoist 1
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300"><defs><clipPath id="mid"><circle cx="300" cy="150" r="49"></circle></clipPath></defs><path d="M 300,145 C 285,130 222,185 222,185 L 391,189 C 391,189 323,127 301,145 Z" clip-path="url(#mid)" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M 301,162 C 281,144 263,178 241,166 C 252,216 366,221 356,164 C 338,166 321,139 301,162 Z" clip-path="url(#mid)" fill="#007030" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300"><defs><clipPath id="mid"><circle cy="150" r="49" cx="300"></circle></clipPath></defs><path d="M 300,145 C 285,130 222,185 222,185 L 391,189 C 391,189 323,127 301,145 Z" fill="#ffffff" clip-path="url(#mid)" transform="matrix(1 0 0 1 0 0)"/><path d="M 301,162 C 281,144 263,178 241,166 C 252,216 366,221 356,164 C 338,166 321,139 301,162 Z" fill="#007030" clip-path="url(#mid)" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
 charge ring orange {
-  radius 50
-  inner 46
-  at fly=300 hoist=150
-  anchor center
+  radius 0.1667
+  inner 0.1533
+  at center
 }
 
 charge svg {
   at center
-  fly 600
-  hoist 300
+  fly 2
+  hoist 1
   markup #"""
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300"><path d="M 0,-23 C 1,-33 1.5,-37 0,-37 C -1.5,-37 -1,-33 0,-23 Z" fill="#ffb000" transform="matrix(0.258819 -0.965926 0.965926 0.258819 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.438371 -0.898794 0.898794 0.438371 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.559193 -0.829038 0.829038 0.559193 300 150)"/><path d="M 0,-23 C 1,-33 1.5,-37 0,-37 C -1.5,-37 -1,-33 0,-23 Z" fill="#ffb000" transform="matrix(0.707107 -0.707107 0.707107 0.707107 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.829038 -0.559193 0.559193 0.829038 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.898794 -0.438371 0.438371 0.898794 300 150)"/><path d="M 0,-23 C 1,-33 1.5,-37 0,-37 C -1.5,-37 -1,-33 0,-23 Z" fill="#ffb000" transform="matrix(0.965926 -0.258819 0.258819 0.965926 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.997564 -0.069756 0.069756 0.997564 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.997564 0.069756 -0.069756 0.997564 300 150)"/><path d="M 0,-23 C 1,-33 1.5,-37 0,-37 C -1.5,-37 -1,-33 0,-23 Z" fill="#ffb000" transform="matrix(0.965926 0.258819 -0.258819 0.965926 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.898794 0.438371 -0.438371 0.898794 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.829038 0.559193 -0.559193 0.829038 300 150)"/><path d="M 0,-23 C 1,-33 1.5,-37 0,-37 C -1.5,-37 -1,-33 0,-23 Z" fill="#ffb000" transform="matrix(0.707107 0.707107 -0.707107 0.707107 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.559193 0.829038 -0.829038 0.559193 300 150)"/><path d="M 0,-23 C 2,-37 3,-44 0,-44 C -3,-44 -2,-37 0,-23 Z" fill="#ffb000" transform="matrix(0.438371 0.898794 -0.898794 0.438371 300 150)"/><path d="M 0,-23 C 1,-33 1.5,-37 0,-37 C -1.5,-37 -1,-33 0,-23 Z" fill="#ffb000" transform="matrix(0.258819 0.965926 -0.965926 0.258819 300 150)"/></svg>
 """#

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the United States"
@@ -8,27 +7,27 @@ meta {
   source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg"
 }
 palette {
-  pink "#b31942"
+  red "#b31942"
   white "#ffffff"
   blue "#0a3161"
 }
-proportion hoist=3900 fly=7410
+proportion hoist=600 fly=1140
 
-field pink
+field red
 
 charge rect white {
-  fly 7410
-  hoist 300
-  at fly=3705 hoist=450
-  repeat line count=6 hoist=600
+  fly 1140
+  hoist 46
+  at fly=570 hoist=69.25
+  repeat line count=6 hoist=92.25
 }
 
 canton {
-  fly 2964
-  hoist 2100
+  fly 456
+  hoist 323
   field blue
   charge star white {
-    radius 120
+    radius 18.5
     repeat grid rows=9 columns=11 stagger=#true
   }
 }

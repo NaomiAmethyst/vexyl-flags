@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Philadelphia Pride Flag"
@@ -17,6 +16,6 @@ palette {
   blue "#004dff"
   pink "#750787"
 }
-proportion hoist=480 fly=777
+proportion hoist=1 fly=1.6187
 
 bars black brown red orange yellow green blue pink

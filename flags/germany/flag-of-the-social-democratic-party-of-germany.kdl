@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Social Democratic Party of Germany"
@@ -11,33 +10,33 @@ palette {
   red "#e30013"
   white "#ffffff"
 }
-proportion hoist=319.517 fly=532.525
+proportion hoist=3 fly=5
 
 field red
 
 charge path white {
   d "M171.195 124.939L189.5877 96.6417C87.7167 40.0471 39.6157 163.1408 131.5785 178.7041C176.8538 185.7785 137.2379 223.9795 94.7915 187.1933L76.3987 218.32C181.0997 287.6485 249.0177 148.9915 141.4829 139.0871C118.8445 137.6722 117.4298 102.3 171.195 124.9384Z"
   box "39.6157 40.0471 209.402 247.6014"
-  fly 209.402
-  hoist 247.6014
-  at fly=144.3167 hoist=163.8478
+  fly 1.9661
+  hoist 2.3248
+  at fly=1.355 hoist=1.5384
 }
 
 charge path white {
   d "M203.74 83.9096L203.74 232.4696L246.186 232.4696L246.186 182.9486L278.7274 182.9486C331.0778 182.9486 332.4926 82.4936 278.7274 83.9081L203.7386 83.9081ZM246.186 116.451L263.164 116.451C281.5569 116.451 281.5569 151.8233 263.164 151.8233L246.186 151.8233Z"
   box "203.7386 82.4936 128.754 149.976"
-  fly 128.754
-  hoist 149.976
+  fly 1.2089
+  hoist 1.4082
   evenodd
-  at fly=268.1156 hoist=157.4816
+  at fly=2.5174 hoist=1.4786
   anchor center
 }
 
 charge path white {
   d "M328.255 83.9096L328.255 232.4696L393.3395 232.4696C476.8166 233.8844 476.8166 83.9096 394.7543 83.9096L328.2553 83.9096ZM369.2862 119.2819L376.3607 119.2819C428.7111 119.2819 428.7111 198.5149 376.3607 198.5149L369.2862 198.5149Z"
   box "328.255 83.9096 148.5616 149.9748"
-  fly 148.5616
-  hoist 149.9748
+  fly 1.3949
+  hoist 1.4081
   evenodd
-  at fly=402.5358 hoist=158.897
+  at fly=3.7795 hoist=1.4919
 }

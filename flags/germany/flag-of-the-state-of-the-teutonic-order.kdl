@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the State of the Teutonic Order"
@@ -11,7 +10,7 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=400 fly=640
+proportion hoist=200 fly=320
 
 bars white black white {
   along hoist
@@ -19,7 +18,7 @@ bars white black white {
 }
 
 charge rect black {
-  fly 640
-  hoist 82
-  at fly=320 hoist=200
+  fly 320
+  hoist 41
+  at center
 }

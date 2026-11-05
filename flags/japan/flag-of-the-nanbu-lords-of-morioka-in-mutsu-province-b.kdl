@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Nanbu Lords of Morioka in Mutsu Province (B)"
@@ -11,27 +10,26 @@ palette {
   blue "#005eb8"
   white "#ffffff"
 }
-proportion hoist=700 fly=900
+proportion hoist=1008 fly=1296
 
 field blue
 
 charge lozenge white {
-  fly 491.12
-  hoist 359.59
-  at fly=449.995 hoist=349.995
-  anchor center
+  fly 707
+  hoist 518
+  at center
 }
 
 charge polygon blue {
-  point fly=313.9556 hoist=268.9073
-  point fly=568.2956 hoist=455.2773
-  point fly=586.0244 hoist=431.0827
-  point fly=331.6844 hoist=244.7127
+  point fly=452 hoist=387
+  point fly=818.5 hoist=655.5
+  point fly=844 hoist=621
+  point fly=477.5 hoist=352.5
 }
 
 charge polygon blue {
-  point fly=568.2956 hoist=244.7127
-  point fly=313.9556 hoist=431.0827
-  point fly=331.6844 hoist=455.2773
-  point fly=586.0244 hoist=268.9073
+  point fly=818.5 hoist=352.5
+  point fly=452 hoist=621
+  point fly=477.5 hoist=655.5
+  point fly=844 hoist=387
 }

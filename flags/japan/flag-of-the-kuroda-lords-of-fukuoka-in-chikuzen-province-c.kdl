@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Kuroda Lords of Fukuoka in Chikuzen Province (C)"
@@ -11,21 +10,19 @@ palette {
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=700 fly=900
+proportion hoist=7 fly=9
 
 bars black white black {
   ratio 260 180 260
 }
 
 charge disc white {
-  radius 225.23
-  at fly=450 hoist=350
-  anchor center
+  radius 2.2523
+  at center
 }
 
 charge ring black {
-  radius 230.23
-  inner 220.23
-  at fly=450 hoist=350
-  anchor center
+  radius 2.3023
+  inner 2.2023
+  at center
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Catalonia"
@@ -11,13 +10,13 @@ palette {
   yellow "#fcdd09"
   red "#da121a"
 }
-proportion hoist=540 fly=810
+proportion hoist=18 fly=27
 
 field yellow
 
 charge rect red {
-  fly 810
-  hoist 60
-  at fly=405 hoist=90
-  repeat line count=4 hoist=120
+  fly 27
+  hoist 2
+  at fly=13.5 hoist=3
+  repeat line count=4 hoist=4
 }

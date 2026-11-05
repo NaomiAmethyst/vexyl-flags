@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Principality of Regensburg"
@@ -11,13 +10,13 @@ palette {
   red "#e34234"
   white "#ffffff"
 }
-proportion hoist=400 fly=600
+proportion hoist=10 fly=15
 
 field red
 
 charge rect white {
-  fly 600
-  hoist 80
-  at fly=300 hoist=120
-  at fly=300 hoist=280
+  fly 15
+  hoist 2
+  at fly=7.5 hoist=3
+  at fly=7.5 hoist=7
 }

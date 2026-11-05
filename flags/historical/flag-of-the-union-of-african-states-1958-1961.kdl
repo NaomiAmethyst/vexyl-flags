@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Union of African States (1958-1961)"
@@ -13,32 +12,32 @@ palette {
   green "#006b3f"
   black "#000000"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars red yellow green
 
 charge polygon black {
-  point fly=330 hoist=200
-  point fly=305 hoist=276
-  point fly=225 hoist=276
-  point fly=290 hoist=324
-  point fly=265 hoist=400
-  point fly=330 hoist=353
-  point fly=395 hoist=400
-  point fly=370 hoist=324
-  point fly=435 hoist=276
-  point fly=355 hoist=276
+  point fly=1.1 hoist=0.6667
+  point fly=1.0167 hoist=0.92
+  point fly=0.75 hoist=0.92
+  point fly=0.9667 hoist=1.08
+  point fly=0.8833 hoist=1.3333
+  point fly=1.1 hoist=1.1767
+  point fly=1.3167 hoist=1.3333
+  point fly=1.2333 hoist=1.08
+  point fly=1.45 hoist=0.92
+  point fly=1.1833 hoist=0.92
 }
 
 charge polygon black {
-  point fly=570 hoist=200
-  point fly=545 hoist=276
-  point fly=465 hoist=276
-  point fly=530 hoist=324
-  point fly=505 hoist=400
-  point fly=570 hoist=353
-  point fly=635 hoist=400
-  point fly=610 hoist=324
-  point fly=675 hoist=276
-  point fly=595 hoist=276
+  point fly=1.9 hoist=0.6667
+  point fly=1.8167 hoist=0.92
+  point fly=1.55 hoist=0.92
+  point fly=1.7667 hoist=1.08
+  point fly=1.6833 hoist=1.3333
+  point fly=1.9 hoist=1.1767
+  point fly=2.1167 hoist=1.3333
+  point fly=2.0333 hoist=1.08
+  point fly=2.25 hoist=0.92
+  point fly=1.9833 hoist=0.92
 }

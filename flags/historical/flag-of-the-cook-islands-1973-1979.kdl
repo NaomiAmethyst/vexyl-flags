@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Cook Islands (1973-1979)"
@@ -10,106 +9,91 @@ palette {
   green "#005a00"
   yellow "#ffd700"
 }
-proportion hoist=600 fly=1200
+proportion hoist=1 fly=2
 
 field green
 
 charge star yellow {
-  radius 40
-  inner 15.2
-  at fly=900 hoist=80
+  radius 0.0667
+  at fly=1.5 hoist=0.1333
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate 24
-  at fly=989.4821 hoist=99.02
+  at fly=1.6491 hoist=0.165
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate -24
-  at fly=1063.4919 hoist=152.7913
+  at fly=1.7725 hoist=0.2547
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
-  at fly=1109.2324 hoist=232.0163
+  radius 0.0667
+  at fly=1.8487 hoist=0.3867
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate 24
-  at fly=1118.7948 hoist=322.9963
+  at fly=1.8647 hoist=0.5383
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate -24
-  at fly=1090.5256 hoist=410
+  at fly=1.8175 hoist=0.6833
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
-  at fly=1029.3128 hoist=477.9837
+  radius 0.0667
+  at fly=1.7155 hoist=0.7966
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate 24
-  at fly=945.7406 hoist=515.1925
+  at fly=1.5762 hoist=0.8587
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate -24
-  at fly=854.2594 hoist=515.1925
+  at fly=1.4238 hoist=0.8587
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
-  at fly=770.6872 hoist=477.9837
+  radius 0.0667
+  at fly=1.2845 hoist=0.7966
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate 24
-  at fly=709.4744 hoist=410
+  at fly=1.1825 hoist=0.6833
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate -24
-  at fly=681.2052 hoist=322.9963
+  at fly=1.1353 hoist=0.5383
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
-  at fly=690.7676 hoist=232.0163
+  radius 0.0667
+  at fly=1.1513 hoist=0.3867
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate 24
-  at fly=736.5081 hoist=152.7913
+  at fly=1.2275 hoist=0.2547
 }
 
 charge star yellow {
-  radius 40
-  inner 15.2
+  radius 0.0667
   rotate -24
-  at fly=810.5179 hoist=99.02
+  at fly=1.3509 hoist=0.165
 }

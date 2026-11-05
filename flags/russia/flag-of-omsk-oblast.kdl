@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Omsk Oblast"
@@ -11,7 +10,7 @@ palette {
   white "#ffffff"
   blue "#0000ff"
 }
-proportion hoist=300 fly=450
+proportion hoist=2 fly=3
 
 bars red white red {
   along hoist
@@ -20,7 +19,7 @@ bars red white red {
 charge path blue {
   d "M200 0L198 6L196 12L196 18C196 28 204 41 204 51C204 61 196 74 196 84C196 94 204 107 204 117C204 127 196 140 196 150C196 160 204 173 204 183C204 193 196 206 196 216C196 226 204 239 204 249C204 259 196 272 196 282C196 286 198 294 200 300L250 300C248 294 246 286 246 282C246 272 254 259 254 249C254 239 246 226 246 216C246 206 254 193 254 183C254 173 246 160 246 150C246 140 254 127 254 117C254 107 246 94 246 84C246 74 254 61 254 51C254 41 246 28 246 18C246 12 248 6 250 0Z"
   box "196 0 58 300"
-  fly 58
-  hoist 300
-  at fly=225 hoist=150
+  fly 0.3867
+  hoist 2
+  at center
 }

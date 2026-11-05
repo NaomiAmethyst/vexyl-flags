@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Iraq (1959–1963)"
@@ -14,31 +13,29 @@ palette {
   red "#ce1126"
   yellow "#ffe800"
 }
-proportion hoist=450 fly=900
+proportion hoist=1 fly=2
 
 bars black white green {
   along hoist
 }
 
 charge polygon red {
-  point fly=450 hoist=350.0363
-  point fly=538.414 hoist=136.586
-  point fly=324.9637 hoist=225
-  point fly=538.414 hoist=313.414
-  point fly=450 hoist=99.9637
-  point fly=361.586 hoist=313.414
-  point fly=575.0363 hoist=225
-  point fly=361.586 hoist=136.586
+  point fly=1 hoist=0.7779
+  point fly=1.1965 hoist=0.3035
+  point fly=0.7221 hoist=0.5
+  point fly=1.1965 hoist=0.6965
+  point fly=1 hoist=0.2221
+  point fly=0.8035 hoist=0.6965
+  point fly=1.2779 hoist=0.5
+  point fly=0.8035 hoist=0.3035
 }
 
 charge disc white {
-  radius 57.5
-  at fly=450 hoist=225
-  anchor center
+  radius 0.1278
+  at center
 }
 
 charge disc yellow {
-  radius 47.5
-  at fly=450 hoist=225
-  anchor center
+  radius 0.1056
+  at center
 }

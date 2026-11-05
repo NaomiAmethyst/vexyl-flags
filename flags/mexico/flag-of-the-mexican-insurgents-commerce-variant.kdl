@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Mexican Insurgents (commerce variant)"
@@ -11,15 +10,15 @@ palette {
   white "#ffffff"
   blue "#75c5f0"
 }
-proportion hoist=300 fly=450
+proportion hoist=4 fly=6
 
 field white
 
 charge rect blue {
-  fly 150
-  hoist 75
-  at fly=125 hoist=87.5
-  at fly=325 hoist=87.5
-  at fly=125 hoist=212.5
-  at fly=325 hoist=212.5
+  fly 2
+  hoist 1
+  at fly=1.6667 hoist=1.1667
+  at fly=4.3333 hoist=1.1667
+  at fly=1.6667 hoist=2.8333
+  at fly=4.3333 hoist=2.8333
 }

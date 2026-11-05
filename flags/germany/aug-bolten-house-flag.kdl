@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Aug. Bolten house flag"
@@ -12,49 +11,46 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=300 fly=500
+proportion hoist=15 fly=25
 
 field red
 
 charge rect white {
-  fly 440
-  hoist 240
-  at fly=250 hoist=150
-  anchor center
+  fly 22
+  hoist 12
+  at center
 }
 
 charge polygon red {
-  point fly=0.8172 hoist=31.1684
-  point fly=484.8172 hoist=295.1684
-  point fly=499.1828 hoist=268.8316
-  point fly=15.1828 hoist=4.8316
+  point fly=0.0409 hoist=1.5625
+  point fly=24.2409 hoist=14.7584
+  point fly=24.9591 hoist=13.4375
+  point fly=0.7591 hoist=0.2416
 }
 
 charge polygon red {
-  point fly=15.1828 hoist=295.1684
-  point fly=499.1828 hoist=31.1684
-  point fly=484.8172 hoist=4.8316
-  point fly=0.8172 hoist=268.8316
+  point fly=0.7591 hoist=14.7584
+  point fly=24.9591 hoist=1.5625
+  point fly=24.2409 hoist=0.2416
+  point fly=0.0409 hoist=13.4375
 }
 
 charge disc white {
-  radius 87.5
-  at fly=250 hoist=150
-  anchor center
+  radius 4.375
+  at center
 }
 
 charge ring black {
-  radius 95
-  inner 80
-  at fly=250 hoist=150
-  anchor center
+  radius 4.75
+  inner 4
+  at center
 }
 
 charge path black {
   d "M280.3 146C289.6 140.9 294.9 133.7 294.9 123.3C294.9 103.6 281.1 97 260.6 97L210 97L210 203L262.1 203C281.5 203 300 193.8 300 172.3C300 159.1 293.4 149.1 280.3 146ZM233.6 115.1L255.7 115.1C264.1 115.1 272 117.2 272 127.3C272 136.2 265.8 139.9 257.6 139.9L233.7 139.9L233.7 115.1ZM258.9 184.9L233.6 184.9L233.6 155.8L259.3 155.8C269.4 155.8 276.3 160.1 276.3 170.9C276.4 181.9 268.2 184.9 258.9 184.9Z"
   box "210 97 90 106"
-  fly 90
-  hoist 106
-  at fly=255 hoist=150
+  fly 4.5
+  hoist 5.3
+  at fly=12.75 hoist=7.5
   anchor center
 }

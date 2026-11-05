@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Yugoslavia (1946-1992)"
@@ -13,26 +12,25 @@ palette {
   red "#de0000"
   yellow "#fcd115"
 }
-proportion hoist=500 fly=1000
+proportion hoist=1 fly=2
 
 bars blue white red
 
 charge star red {
-  radius 152.285
-  at fly=499.9996 hoist=250.0009
-  anchor center
+  radius 0.3046
+  at center
 }
 
 charge polygon yellow {
-  point fly=500 hoist=97.716
-  point fly=534.193 hoist=202.938
-  point fly=644.831 hoist=202.943
-  point fly=555.325 hoist=267.978
-  point fly=589.51 hoist=373.203
-  point fly=500 hoist=308.173
-  point fly=410.489 hoist=373.202
-  point fly=444.674 hoist=267.977
-  point fly=355.168 hoist=202.942
-  point fly=465.806 hoist=202.937
-  hollow 8.89
+  point fly=1 hoist=0.1954
+  point fly=1.0684 hoist=0.4059
+  point fly=1.2897 hoist=0.4059
+  point fly=1.1107 hoist=0.536
+  point fly=1.179 hoist=0.7464
+  point fly=1 hoist=0.6163
+  point fly=0.821 hoist=0.7464
+  point fly=0.8893 hoist=0.536
+  point fly=0.7103 hoist=0.4059
+  point fly=0.9316 hoist=0.4059
+  hollow 0.0178
 }

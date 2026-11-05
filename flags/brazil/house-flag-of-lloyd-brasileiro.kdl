@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "House Flag of Lloyd Brasileiro"
@@ -13,73 +12,71 @@ palette {
   red "#d62c26"
   black "#000000"
 }
-proportion hoist=1600 fly=2133.3333
+proportion hoist=432 fly=576
 
 field blue
 
 charge star white {
-  radius 89.8202
-  inner 34.1317
-  at fly=1066.6667 hoist=804.7574
+  radius 24.25
+  at fly=288 hoist=217.25
   anchor center
 }
 
 charge star white {
-  radius 40
-  inner 15.2
-  at fly=906.6667 hoist=800
-  at fly=1226.6667 hoist=800
-  at fly=746.6667 hoist=800
-  at fly=1386.6667 hoist=800
-  at fly=586.6667 hoist=800
-  at fly=1546.6667 hoist=800
-  at fly=426.6667 hoist=800
-  at fly=1706.6667 hoist=800
-  at fly=266.6667 hoist=800
-  at fly=1866.6667 hoist=800
-  at fly=106.6667 hoist=800
-  at fly=2026.6667 hoist=800
-  at fly=1066.6667 hoist=640
-  at fly=1066.6667 hoist=960
-  at fly=1066.6667 hoist=480
-  at fly=1066.6667 hoist=1120
-  at fly=1066.6667 hoist=320
-  at fly=1066.6667 hoist=1280
-  at fly=1066.6667 hoist=160
-  at fly=1066.6667 hoist=1440
+  radius 10.75
+  at fly=244.75 hoist=216
+  at fly=331.25 hoist=216
+  at fly=201.5 hoist=216
+  at fly=374.5 hoist=216
+  at fly=158.5 hoist=216
+  at fly=417.5 hoist=216
+  at fly=115.25 hoist=216
+  at fly=460.75 hoist=216
+  at fly=72 hoist=216
+  at fly=504 hoist=216
+  at fly=28.75 hoist=216
+  at fly=547.25 hoist=216
+  at fly=288 hoist=172.75
+  at fly=288 hoist=259.25
+  at fly=288 hoist=129.5
+  at fly=288 hoist=302.5
+  at fly=288 hoist=86.5
+  at fly=288 hoist=345.5
+  at fly=288 hoist=43.25
+  at fly=288 hoist=388.75
 }
 
 canton {
-  fly 784.7089
-  hoist 588.5317
+  fly 212
+  hoist 159
   field red
 }
 
 chevrons white {
-  depth 392.356
+  depth 106
   angle 36.8698
-  apex 294.266
+  apex 79.5
 }
 
 charge polygon white {
-  point fly=392.353 hoist=294.266
-  point fly=784.709 hoist=588.531
-  point fly=784.709 hoist=0
+  point fly=106 hoist=79.5
+  point fly=212 hoist=159
+  point fly=212 hoist=0
 }
 
 charge polygon black {
-  point fly=54.3364 hoist=390.515
-  point fly=54.3364 hoist=198.0167
-  point fly=93.5245 hoist=198.0167
-  point fly=93.5245 hoist=357.8141
-  point fly=190.9651 hoist=357.8141
-  point fly=190.9651 hoist=390.515
+  point fly=14.75 hoist=105.5
+  point fly=14.75 hoist=53.5
+  point fly=25.25 hoist=53.5
+  point fly=25.25 hoist=96.5
+  point fly=51.5 hoist=96.5
+  point fly=51.5 hoist=105.5
 }
 
 charge path black {
   d "M583.8166 197.2224L661.3984 197.2224Q684.4346 197.2224 695.7542 199.1424A50.51 50.51 0 0 1 716.0102 207.1524A49.8218 49.8218 0 0 1 730.9043 223.3704A43.942 43.942 0 0 1 736.8619 246.0757A46.0091 46.0091 0 0 1 709.5891 288.1764Q727.3291 293.3397 736.8619 305.7846T746.3942 335.0432A57.6833 57.6833 0 0 1 740.2379 360.7932A51.87 51.87 0 0 1 723.4241 380.7844Q712.7656 388.2656 697.1441 389.9857Q687.3449 391.0469 649.8801 391.3096L583.8166 391.3096ZM623.0046 229.5261L623.0046 274.407L648.6887 274.407Q671.5916 274.407 677.153 273.7451Q687.213 272.5535 692.9739 266.7945Q698.733 261.0354 698.733 251.6356Q698.733 242.6339 693.7683 237.0062Q688.8036 231.3806 679.0065 230.188Q673.1791 229.5271 645.5113 229.5261ZM623.0046 306.7107L623.0046 358.6085L659.28 358.6085Q680.4606 358.6085 686.1556 357.4169A24.2877 24.2877 0 0 0 700.3878 349.672Q705.8799 343.5157 705.8821 333.1892A25.3269 25.3269 0 0 0 701.6455 318.3612A23.9591 23.9591 0 0 0 689.3992 309.4912Q681.3874 306.7112 654.6463 306.7112Z"
   box "583.8166 156.6424 214.1046 276.012"
-  fly 214.1046
-  hoist 276.012
-  at fly=690.8689 hoist=294.6484
+  fly 57.75
+  hoist 74.5
+  at fly=186.5 hoist=79.5
 }

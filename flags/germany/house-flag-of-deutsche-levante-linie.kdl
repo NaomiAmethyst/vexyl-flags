@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "House flag of Deutsche Levante-Linie"
@@ -12,48 +11,47 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=1600 fly=2400
+proportion hoist=600 fly=900
 
 field red
 
 chevrons white {
-  depth 1200
+  depth 450
 }
 
 pile white {
   from fly
-  depth 1200
+  depth 450
 }
 
 charge ellipse black {
-  fly 1069.091
-  hoist 720
-  at fly=1200 hoist=800
-  anchor center
+  fly 401
+  hoist 270
+  at center
 }
 
 charge path white {
   d "M1314.3555 621.2891Q1314.3555 667.7752 1299.2188 700.1953Q1284.0811 732.6189 1255.5664 749.3164Q1227.0473 766.0156 1187.0117 766.0156L1085.6445 766.0156L1085.6445 479.6875L1190.332 479.6875Q1229.1958 479.6875 1256.9336 495.8984Q1284.6645 512.1128 1299.5117 543.8477Q1314.3521 575.5894 1314.3555 621.2891ZM1275.0977 620.5078Q1275.0977 565.0408 1252.3438 539.3555Q1229.5888 513.6755 1185.4492 513.6719L1123.5352 513.6719L1123.5352 732.0313L1184.082 732.0313Q1230.1749 732.0313 1252.6367 704.9805Q1275.0943 677.9315 1275.0977 620.5078Z"
   box "1085.6445 479.6875 228.711 286.3281"
-  fly 228.711
-  hoist 286.3281
-  at fly=1200 hoist=622.8515
+  fly 85.75
+  hoist 107.5
+  at fly=450 hoist=233.5
 }
 
 charge polygon white {
-  point fly=923.1251 hoist=1018.3594
-  point fly=1064.336 hoist=1018.3594
-  point fly=1064.336 hoist=1052.3438
-  point fly=885.2344 hoist=1052.3438
-  point fly=885.2344 hoist=766.0156
-  point fly=923.1251 hoist=766.0156
+  point fly=346 hoist=382
+  point fly=399 hoist=382
+  point fly=399 hoist=394.5
+  point fly=332 hoist=394.5
+  point fly=332 hoist=287.25
+  point fly=346 hoist=287.25
 }
 
 charge polygon white {
-  point fly=1373.5547 hoist=1018.3594
-  point fly=1514.7656 hoist=1018.3594
-  point fly=1514.7656 hoist=1052.3438
-  point fly=1335.664 hoist=1052.3438
-  point fly=1335.664 hoist=766.0156
-  point fly=1373.5547 hoist=766.0156
+  point fly=515 hoist=382
+  point fly=568 hoist=382
+  point fly=568 hoist=394.5
+  point fly=501 hoist=394.5
+  point fly=501 hoist=287.25
+  point fly=515 hoist=287.25
 }

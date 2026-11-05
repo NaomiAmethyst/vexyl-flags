@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of WVRI"
@@ -10,50 +9,50 @@ meta {
 palette {
   blue "#3399ff"
   white "#ffffff"
-  pink "#d21034"
+  red "#d21034"
   green "#289728"
   black "#000000"
   yellow "#ffce00"
-  blue-2 "#003082"
+  dark-blue "#003082"
 }
-proportion hoist=1600 fly=2400
+proportion hoist=2 fly=3
 
 field blue
 
 charge path white {
   d "M815 227C1131.459 227 1388 483.541 1388 800C1388 1116.459 1131.459 1373 815 1373C498.541 1373 242 1116.459 242 800C242 483.541 498.541 227 815 227Z"
   box "242 227 1146 1146"
-  fly 1146
-  hoist 1146
-  at fly=815 hoist=800
+  fly 1.4325
+  hoist 1.4325
+  at fly=1.0188 hoist=1
 }
 
-charge polygon pink {
-  point fly=815.008 hoist=1294.009
-  point fly=384.069 hoist=554.003
-  point fly=1245.947 hoist=554.003
+charge polygon red {
+  point fly=1.0188 hoist=1.6175
+  point fly=0.4801 hoist=0.6925
+  point fly=1.5574 hoist=0.6925
 }
 
 charge polygon green {
-  point fly=815.008 hoist=1146.008
-  point fly=384.069 hoist=554.002
-  point fly=1245.947 hoist=554.002
+  point fly=1.0188 hoist=1.4325
+  point fly=0.4801 hoist=0.6925
+  point fly=1.5574 hoist=0.6925
 }
 
 charge polygon black {
-  point fly=815.008 hoist=998.006
-  point fly=384.069 hoist=554.002
-  point fly=1245.947 hoist=554.002
+  point fly=1.0188 hoist=1.2475
+  point fly=0.4801 hoist=0.6925
+  point fly=1.5574 hoist=0.6925
 }
 
 charge polygon yellow {
-  point fly=815.008 hoist=850.004
-  point fly=384.069 hoist=554.001
-  point fly=1245.947 hoist=554.001
+  point fly=1.0188 hoist=1.0625
+  point fly=0.4801 hoist=0.6925
+  point fly=1.5574 hoist=0.6925
 }
 
-charge polygon blue-2 {
-  point fly=815.008 hoist=702.002
-  point fly=384.006 hoist=554.001
-  point fly=1246.01 hoist=554.001
+charge polygon dark-blue {
+  point fly=1.0188 hoist=0.8775
+  point fly=0.48 hoist=0.6925
+  point fly=1.5575 hoist=0.6925
 }

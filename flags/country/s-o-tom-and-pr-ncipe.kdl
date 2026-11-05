@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of São Tomé and Príncipe"
@@ -12,18 +11,18 @@ palette {
   red "#ef3340"
   black "#000000"
 }
-proportion hoist=84 fly=168
+proportion hoist=1 fly=2
 
 bars green yellow green {
   ratio 2 3 2
 }
 
 chevrons red {
-  depth 42
+  depth 0.5
 }
 
 charge star black {
-  radius 14.3725
-  at fly=84 hoist=43.3724
-  at fly=126 hoist=43.3724
+  radius 0.1711
+  at fly=1 hoist=0.5163
+  at fly=1.5 hoist=0.5163
 }

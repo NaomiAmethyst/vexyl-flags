@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Yamagata Prefecture"
@@ -11,25 +10,25 @@ palette {
   blue "#006bbd"
   white "#ffffff"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 field blue
 
 charge polygon white {
-  point fly=102 hoist=263.8
-  point fly=170.868 hoist=130.6
-  point fly=235.626 hoist=254.8
-  point fly=300 hoist=130.6
-  point fly=364.374 hoist=254.8
-  point fly=429.132 hoist=130.6
-  point fly=498 hoist=263.8
-  point fly=426 hoist=263.8
-  point fly=401.964 hoist=217.45
-  point fly=378 hoist=263.8
-  point fly=297 hoist=263.8
-  point fly=272.964 hoist=217.45
-  point fly=249 hoist=263.8
-  point fly=168 hoist=263.8
-  point fly=143.964 hoist=217.45
-  point fly=120 hoist=263.8
+  point fly=0.51 hoist=1.319
+  point fly=0.8543 hoist=0.653
+  point fly=1.1781 hoist=1.274
+  point fly=1.5 hoist=0.653
+  point fly=1.8219 hoist=1.274
+  point fly=2.1457 hoist=0.653
+  point fly=2.49 hoist=1.319
+  point fly=2.13 hoist=1.319
+  point fly=2.0098 hoist=1.0873
+  point fly=1.89 hoist=1.319
+  point fly=1.485 hoist=1.319
+  point fly=1.3648 hoist=1.0873
+  point fly=1.245 hoist=1.319
+  point fly=0.84 hoist=1.319
+  point fly=0.7198 hoist=1.0873
+  point fly=0.6 hoist=1.319
 }

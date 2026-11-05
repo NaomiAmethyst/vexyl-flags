@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Argo Reederei house flag"
@@ -11,16 +10,16 @@ palette {
   green "#67a53d"
   yellow "#fdeb34"
 }
-proportion hoist=283.465 fly=425.197
+proportion hoist=2 fly=3
 
 canton {
-  fly 424.296
-  hoist 282.697
+  fly 2.9936
+  hoist 1.9946
   field green
   charge star yellow {
-    radius 93.5586
-    inner 51.9771
+    radius 0.6601
+    inner 0.3667
     points 8
-    at fly=211.6977 hoist=140.9649
+    at fly=1.4936 hoist=0.9946
   }
 }

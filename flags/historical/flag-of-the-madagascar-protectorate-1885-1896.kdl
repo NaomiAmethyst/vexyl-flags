@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Madagascar Protectorate (1885-1896)"
@@ -12,14 +11,14 @@ palette {
   white "#ffffff"
   red "#ce1126"
 }
-proportion hoist=217.5 fly=325
+proportion hoist=1 fly=1.4943
 
 bars blue white red
 
 charge path red {
   d "M73.7366 79.6557C58.0557 79.6557 45.3616 92.3497 45.3616 108.0307C45.3616 123.7116 58.0557 136.4369 73.7366 136.4369C74.8123 136.4369 75.8795 136.3659 76.9241 136.2494C66.6959 134.6577 58.7366 122.6283 58.7366 108.0307C58.7366 93.433 66.6959 81.4037 76.9241 79.8119C75.8795 79.6954 74.8123 79.6557 73.7366 79.6557Z"
   box "45.3616 79.6557 31.5625 56.7812"
-  fly 31.5625
-  hoist 56.7812
-  at fly=61.1429 hoist=108.0463
+  fly 0.1451
+  hoist 0.2611
+  at fly=0.2811 hoist=0.4968
 }

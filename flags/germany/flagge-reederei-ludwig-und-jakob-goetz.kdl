@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flagge Reederei Ludwig und Jakob Goetz"
@@ -12,39 +11,38 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=300 fly=500
+proportion hoist=150 fly=250
 
 charge rect red {
-  fly 500
-  hoist 200
-  at fly=250 hoist=150
+  fly 250
+  hoist 100
+  at center
 }
 
 charge lozenge white {
-  fly 286
-  hoist 184
-  at fly=250 hoist=150
-  anchor center
+  fly 143
+  hoist 92
+  at center
 }
 
 charge path black {
   d "M289.576 118.251L305.213 107.752C293.59 94.09 268.486 71.928 230.816 82.22C203.036 89.81 179.848 117.954 179.817 150.127C179.783 185.699 206.741 216.594 241.626 219.974C297.296 225.367 319.225 181.173 320.183 147.007L255.574 147.007L255.574 166.67L297.71 166.67C293.367 185.205 272.283 201.605 251.327 201.594C221.494 201.578 198.397 176.735 199.381 152.134C200.471 124.896 215.696 103.852 241.349 99.404C257.738 96.564 275.349 102.989 289.576 118.252Z"
   box "179.783 71.928 140.4 153.439"
-  fly 140.4
-  hoist 153.439
+  fly 70.1875
+  hoist 76.75
   evenodd
-  at fly=249.983 hoist=148.6475
+  at fly=125 hoist=74.3125
   anchor center
 }
 
 panel {
   side top
-  width 50
+  width 25
   field white
 }
 
 panel {
   side bottom
-  width 50
+  width 25
   field white
 }

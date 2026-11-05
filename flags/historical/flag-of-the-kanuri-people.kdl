@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Kanuri people"
@@ -12,46 +11,46 @@ palette {
   yellow "#ffc800"
   blue "#0000ff"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 charge polygon green {
-  point fly=0 hoist=333.333
-  point fly=0 hoist=400
-  point fly=300 hoist=400
-  point fly=600 hoist=400
-  point fly=600 hoist=333.333
-  point fly=600 hoist=266.667
-  point fly=300 hoist=266.667
-  point fly=0 hoist=266.667
+  point fly=0 hoist=1.6667
+  point fly=0 hoist=2
+  point fly=1.5 hoist=2
+  point fly=3 hoist=2
+  point fly=3 hoist=1.6667
+  point fly=3 hoist=1.3333
+  point fly=1.5 hoist=1.3333
+  point fly=0 hoist=1.3333
 }
 
 charge polygon yellow {
-  point fly=0 hoist=200
-  point fly=0 hoist=266.667
-  point fly=300 hoist=266.667
-  point fly=600 hoist=266.667
-  point fly=600 hoist=200
-  point fly=600 hoist=133.333
-  point fly=300 hoist=133.333
-  point fly=0 hoist=133.333
+  point fly=0 hoist=1
+  point fly=0 hoist=1.3333
+  point fly=1.5 hoist=1.3333
+  point fly=3 hoist=1.3333
+  point fly=3 hoist=1
+  point fly=3 hoist=0.6667
+  point fly=1.5 hoist=0.6667
+  point fly=0 hoist=0.6667
 }
 
 charge polygon blue {
-  point fly=0 hoist=66.667
-  point fly=0 hoist=133.334
-  point fly=300 hoist=133.334
-  point fly=600 hoist=133.334
-  point fly=600 hoist=66.667
-  point fly=600 hoist=0
-  point fly=300 hoist=0
+  point fly=0 hoist=0.3333
+  point fly=0 hoist=0.6667
+  point fly=1.5 hoist=0.6667
+  point fly=3 hoist=0.6667
+  point fly=3 hoist=0.3333
+  point fly=3 hoist=0
+  point fly=1.5 hoist=0
   point fly=0 hoist=0
 }
 
 charge polygon yellow {
-  point fly=503.778 hoist=382.444
-  point fly=533.333 hoist=285.554
-  point fly=562.889 hoist=382.444
-  point fly=483.113 hoist=322.221
-  point fly=583.556 hoist=322.221
-  point fly=503.778 hoist=382.444
+  point fly=2.5189 hoist=1.9122
+  point fly=2.6667 hoist=1.4278
+  point fly=2.8144 hoist=1.9122
+  point fly=2.4156 hoist=1.6111
+  point fly=2.9178 hoist=1.6111
+  point fly=2.5189 hoist=1.9122
 }

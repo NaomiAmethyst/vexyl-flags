@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Niue"
@@ -17,98 +16,21 @@ proportion hoist=60 fly=120
 
 field blue
 
-charge polygon white {
-  point fly=-1.3416 hoist=2.6833
-  point fly=58.6584 hoist=32.6833
-  point fly=61.3416 hoist=27.3167
-  point fly=1.3416 hoist=-2.6833
-}
-
-charge polygon white {
-  point fly=58.6584 hoist=-2.6833
-  point fly=-1.3416 hoist=27.3167
-  point fly=1.3416 hoist=32.6833
-  point fly=61.3416 hoist=2.6833
-}
-
-charge polygon red {
-  point fly=0 hoist=2.2361
-  point fly=25.5279 hoist=15
-  point fly=30 hoist=15
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon red {
-  point fly=60 hoist=30
-  point fly=60 hoist=30
-  point fly=60.8944 hoist=28.2111
-  point fly=34.4721 hoist=15
-  point fly=30 hoist=15
-}
-
-charge polygon red {
-  point fly=27.7639 hoist=16.118
-  point fly=30 hoist=17.2361
-  point fly=30 hoist=15
-}
-
-charge polygon red {
-  point fly=32.2361 hoist=13.882
-  point fly=30 hoist=12.7639
-  point fly=30 hoist=15
-}
-
-charge polygon red {
-  point fly=27.7639 hoist=13.882
-  point fly=25.5279 hoist=15
-  point fly=30 hoist=15
-}
-
-charge polygon red {
-  point fly=32.2361 hoist=16.118
-  point fly=34.4721 hoist=15
-  point fly=30 hoist=15
-}
-
-charge polygon red {
-  point fly=0 hoist=30
-  point fly=0 hoist=30
-  point fly=0.8944 hoist=31.7889
-  point fly=30 hoist=17.2361
-  point fly=30 hoist=15
-}
-
-charge polygon red {
-  point fly=55.5279 hoist=0
-  point fly=30 hoist=12.7639
-  point fly=30 hoist=15
-  point fly=60 hoist=0
-  point fly=60 hoist=0
-}
-
-charge rect white {
-  fly 10
-  hoist 40
-  at fly=30 hoist=20
-}
-
-charge rect white {
-  fly 70
-  hoist 10
-  at fly=35 hoist=15
-}
-
-charge rect red {
-  fly 6
-  hoist 40
-  at fly=30 hoist=20
-}
-
-charge rect red {
-  fly 70
-  hoist 6
-  at fly=35 hoist=15
+canton {
+  fly 60
+  hoist 30
+  saltire white {
+    width 6
+  }
+  saltire red {
+    width 2
+    counterchange
+  }
+  cross red {
+    fly 27 6 27
+    hoist 12 6 12
+    fimbriate white 2
+  }
 }
 
 charge polygon yellow {
@@ -121,19 +43,19 @@ charge polygon yellow {
 }
 
 charge disc blue {
-  radius 5.1039
+  radius 5.1
   at fly=30 hoist=15
 }
 
 charge star yellow {
-  radius 5.1039
+  radius 5.1
   at fly=30 hoist=15
 }
 
 charge star yellow {
   radius 3
-  at fly=12.5 hoist=15.29
-  at fly=47.5 hoist=15.29
-  at fly=30 hoist=25.29
-  at fly=30 hoist=5.29
+  at fly=12.5 hoist=15.3
+  at fly=47.5 hoist=15.3
+  at fly=30 hoist=25.3
+  at fly=30 hoist=5.3
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Ação Integralista Brasileira"
@@ -12,24 +11,24 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=700 fly=1000
+proportion hoist=7 fly=10
 
 field blue
 
 charge path white {
   d "M250 350A250 250 0 0 1 500 100A250 250 0 0 1 750 350A250 250 0 0 1 500 600A250 250 0 0 1 250 350Z"
   box "0 -150 1000 1000"
-  fly 1000
-  hoist 1000
+  fly 10
+  hoist 10
   evenodd
-  at fly=500 hoist=350
+  at center
 }
 
 charge path black {
   d "M390 210L600 210L600 265L595 265A45 45 0 0 0 550 220L430 220L530 340L430 460L565 460A40 40 0 0 0 605 420L610 420L600 490L390 490L390 485L502.5 350L390 215L390 210Z"
   box "390 175 255 315"
-  fly 255
-  hoist 315
+  fly 2.55
+  hoist 3.15
   evenodd
-  at fly=517.5 hoist=332.5
+  at fly=5.175 hoist=3.325
 }

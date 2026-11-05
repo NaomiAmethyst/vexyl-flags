@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Federal Supreme Court of Brazil"
@@ -11,43 +10,43 @@ palette {
   yellow "#ffcb00"
   blue "#302681"
 }
-proportion hoist=200 fly=300
+proportion hoist=2 fly=3
 
 field yellow
 
 charge star blue {
-  radius 7.886
-  inner 3.1544
-  at fly=225 hoist=100
+  radius 0.0789
+  inner 0.0315
+  at fly=2.25 hoist=1
 }
 
 charge star blue {
-  radius 27.6393
-  inner 11.0558
-  at fly=149.9999 hoist=102.6393
+  radius 0.2764
+  inner 0.1106
+  at fly=1.5 hoist=1.0264
   anchor center
 }
 
 charge star blue {
-  radius 7.886
-  inner 3.1544
-  at fly=221.3292 hoist=123.1763
-  at fly=210.6762 hoist=144.0838
-  at fly=194.0838 hoist=160.6763
-  at fly=173.1762 hoist=171.3292
-  at fly=150 hoist=175
-  at fly=126.8237 hoist=171.3292
-  at fly=105.9161 hoist=160.6763
-  at fly=89.3237 hoist=144.0838
-  at fly=78.6708 hoist=123.1763
-  at fly=75 hoist=100
-  at fly=78.6708 hoist=76.8237
-  at fly=89.3237 hoist=55.9161
-  at fly=105.9161 hoist=39.3237
-  at fly=126.8237 hoist=28.6708
-  at fly=150 hoist=25
-  at fly=173.1763 hoist=28.6708
-  at fly=194.0839 hoist=39.3237
-  at fly=210.6763 hoist=55.9161
-  at fly=221.3292 hoist=76.8237
+  radius 0.0789
+  inner 0.0315
+  at fly=2.2133 hoist=1.2318
+  at fly=2.1068 hoist=1.4408
+  at fly=1.9408 hoist=1.6068
+  at fly=1.7318 hoist=1.7133
+  at fly=1.5 hoist=1.75
+  at fly=1.2682 hoist=1.7133
+  at fly=1.0592 hoist=1.6068
+  at fly=0.8932 hoist=1.4408
+  at fly=0.7867 hoist=1.2318
+  at fly=0.75 hoist=1
+  at fly=0.7867 hoist=0.7682
+  at fly=0.8932 hoist=0.5592
+  at fly=1.0592 hoist=0.3932
+  at fly=1.2682 hoist=0.2867
+  at fly=1.5 hoist=0.25
+  at fly=1.7318 hoist=0.2867
+  at fly=1.9408 hoist=0.3932
+  at fly=2.1068 hoist=0.5592
+  at fly=2.2133 hoist=0.7682
 }

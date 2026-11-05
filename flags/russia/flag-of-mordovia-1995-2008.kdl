@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Mordovia (1995-2008)"
@@ -11,33 +10,33 @@ palette {
   white "#ffffff"
   blue "#0000ff"
 }
-proportion hoist=200 fly=400
+proportion hoist=1 fly=2
 
 bars red white blue {
   ratio 1 2 1
 }
 
 charge polygon red {
-  point fly=188 hoist=64
-  point fly=236 hoist=112
-  point fly=164 hoist=112
-  point fly=212 hoist=64
-  point fly=212 hoist=136
-  point fly=164 hoist=88
-  point fly=236 hoist=88
-  point fly=188 hoist=136
+  point fly=0.94 hoist=0.32
+  point fly=1.18 hoist=0.56
+  point fly=0.82 hoist=0.56
+  point fly=1.06 hoist=0.32
+  point fly=1.06 hoist=0.68
+  point fly=0.82 hoist=0.44
+  point fly=1.18 hoist=0.44
+  point fly=0.94 hoist=0.68
 }
 
 charge polygon white {
-  point fly=183.9393 hoist=86.0607
-  point fly=213.9393 hoist=116.0607
-  point fly=216.0607 hoist=113.9393
-  point fly=186.0607 hoist=83.9393
+  point fly=0.9197 hoist=0.4303
+  point fly=1.0697 hoist=0.5803
+  point fly=1.0803 hoist=0.5697
+  point fly=0.9303 hoist=0.4197
 }
 
 charge polygon white {
-  point fly=186.0607 hoist=116.0607
-  point fly=216.0607 hoist=86.0607
-  point fly=213.9393 hoist=83.9393
-  point fly=183.9393 hoist=113.9393
+  point fly=0.9303 hoist=0.5803
+  point fly=1.0803 hoist=0.4303
+  point fly=1.0697 hoist=0.4197
+  point fly=0.9197 hoist=0.5697
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Louisiana (February 1861)"
@@ -10,60 +9,59 @@ meta {
 palette {
   white "#ffffff"
   blue "#002868"
-  pink "#bf0a30"
+  red "#bf0a30"
   yellow "#ffd90f"
 }
-proportion hoist=1381.8898 fly=2161.4175
+proportion hoist=39 fly=61
 
 field white
 
 charge rect blue {
-  fly 1523.6221
-  hoist 106.2992
-  at fly=1399.6063 hoist=478.3465
+  fly 43
+  hoist 3
+  at fly=39.5 hoist=13.5
 }
 
 panel {
   corner upper-fly
-  fly 1523.6221
-  hoist 106.2992
+  fly 43
+  hoist 3
   field blue
 }
 
 canton {
-  fly 744.0945
-  hoist 744.0945
-  field pink
+  fly 21
+  hoist 21
+  field red
 }
 
-charge rect pink {
-  fly 1488.189
-  hoist 106.2992
-  at fly=1417.3228 hoist=690.9449
-  at fly=1417.3228 hoist=265.748
+charge rect red {
+  fly 42
+  hoist 3
+  at fly=40 hoist=19.5
+  at fly=40 hoist=7.5
 }
 
-charge rect pink {
-  fly 2161.4172
-  hoist 106.2992
-  at fly=1080.7086 hoist=1116.1418
+charge rect red {
+  fly 61
+  hoist 3
+  at fly=30.5 hoist=31.5
 }
 
 panel {
   side bottom
-  width 106.2992
+  width 3
   field blue
 }
 
 charge rect blue {
-  fly 2161.4172
-  hoist 106.2992
-  at fly=1080.7087 hoist=903.5433
+  fly 61
+  hoist 3
+  at fly=30.5 hoist=25.5
 }
 
 charge star yellow {
-  radius 274.0773
-  inner 102.779
+  radius 7.7351
   rotate -0.0899
-  at fly=371.0947 hoist=390.3767
+  at fly=10.4731 hoist=11.0173
 }

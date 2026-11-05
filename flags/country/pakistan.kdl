@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Pakistan"
@@ -11,7 +10,7 @@ palette {
   white "#ffffff"
   green "#01411c"
 }
-proportion hoist=80 fly=120
+proportion hoist=2 fly=3
 
 bars white green {
   along hoist
@@ -19,17 +18,17 @@ bars white green {
 }
 
 charge disc white {
-  radius 24
-  at fly=75 hoist=40
+  radius 0.6
+  at fly=1.875 hoist=1
 }
 
 charge disc green {
-  radius 22
-  at fly=81.1347 hoist=34.5469
+  radius 0.55
+  at fly=2.0284 hoist=0.8637
 }
 
 charge star white {
-  radius 8
+  radius 0.2
   rotate -23.6335
-  at fly=86.9585 hoist=29.3702
+  at fly=2.174 hoist=0.7343
 }

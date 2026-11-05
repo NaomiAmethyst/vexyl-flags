@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Leather, Latex, and BDSM pride - Light"
@@ -11,7 +10,7 @@ palette {
   black "#000000"
   blue "#2a2a7f"
   white "#ffffff"
-  pink "#e70039"
+  red "#e70039"
 }
 proportion hoist=18 fly=27
 
@@ -26,7 +25,7 @@ charge rect blue {
 charge rect blue {
   fly 27
   hoist 6
-  at fly=13.5 hoist=9
+  at center
 }
 
 charge rect blue {
@@ -38,14 +37,14 @@ charge rect blue {
 charge rect white {
   fly 27
   hoist 2
-  at fly=13.5 hoist=9
+  at center
 }
 
-charge path pink {
+charge path red {
   d "M5.0998 2.8092C4.3714 2.523 3.5584 2.5594 2.9315 3.0492C2.0433 3.7431 1.9036 4.9642 2.609 5.8671C3.9784 7.6198 5.1263 7.1506 8.7929 7.5361C9.3059 3.8852 10.0388 2.8849 8.6694 1.1322C7.964 0.2293 6.7454 0.0695 5.8572 0.7634C5.2303 1.2532 4.9983 2.0332 5.0998 2.8092Z"
   box "1.9036 0.0695 8.1352 7.5503"
   fly 8.1352
-  hoist 7.5503
+  hoist 7.55
   at fly=5.9712 hoist=3.8446
 }
 
@@ -53,7 +52,7 @@ charge path black {
   d "M5.0998 2.8092C4.3714 2.523 3.5584 2.5594 2.9315 3.0492C2.0433 3.7431 1.9036 4.9642 2.609 5.8671C3.9784 7.6198 5.1263 7.1506 8.7929 7.5361C9.3059 3.8852 10.0388 2.8849 8.6694 1.1322C7.964 0.2293 6.7454 0.0695 5.8572 0.7634C5.2303 1.2532 4.9983 2.0332 5.0998 2.8092Z"
   box "1.9036 0.0695 8.1352 7.5503"
   fly 8.1352
-  hoist 7.5503
+  hoist 7.55
   hollow 0.0167
   at fly=5.9712 hoist=3.8446
 }

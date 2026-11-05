@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Naval Ensign of Sweden"
@@ -11,27 +10,27 @@ palette {
   blue "#005293"
   yellow "#fecb00"
 }
-proportion hoist=300 fly=600
+proportion hoist=5 fly=10
 
 charge polygon blue {
   point fly=0 hoist=0
-  point fly=600 hoist=0
-  point fly=360 hoist=120
-  point fly=360 hoist=180
-  point fly=600 hoist=300
-  point fly=0 hoist=300
+  point fly=10 hoist=0
+  point fly=6 hoist=2
+  point fly=6 hoist=3
+  point fly=10 hoist=5
+  point fly=0 hoist=5
 }
 
 charge rect yellow {
-  fly 60
-  hoist 300
-  at fly=180 hoist=150
+  fly 1
+  hoist 5
+  at fly=3 hoist=2.5
 }
 
 charge polygon yellow {
-  point fly=0 hoist=120
-  point fly=360 hoist=120
-  point fly=600 hoist=150
-  point fly=360 hoist=180
-  point fly=0 hoist=180
+  point fly=0 hoist=2
+  point fly=6 hoist=2
+  point fly=10 hoist=2.5
+  point fly=6 hoist=3
+  point fly=0 hoist=3
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Jewish Autonomous Oblast"
@@ -14,11 +13,11 @@ palette {
   yellow "#ffcc00"
   green "#66cc33"
   blue "#3399ff"
-  blue-2 "#0000cc"
+  dark-blue "#0000cc"
   purple "#660099"
 }
-proportion hoist=240 fly=360
+proportion hoist=2 fly=3
 
-bars white red white orange white yellow white green white blue white blue-2 white purple white {
+bars white red white orange white yellow white green white blue white dark-blue white purple white {
   ratio 93 6 2 6 2 6 2 6 2 6 2 6 2 6 93
 }

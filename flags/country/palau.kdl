@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Palau"
@@ -11,11 +10,11 @@ palette {
   blue "#0099ff"
   yellow "#ffff00"
 }
-proportion hoist=500 fly=800
+proportion hoist=5 fly=8
 
 field blue
 
 charge disc yellow {
-  radius 150
-  at fly=350 hoist=250
+  radius 1.5
+  at fly=3.5 hoist=2.5
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Orange Free State"
@@ -13,31 +12,31 @@ palette {
   blue "#0038a8"
   orange "#ff8400"
 }
-proportion hoist=280 fly=420
+proportion hoist=28 fly=42
 
 field white
 
 canton {
-  fly 180
-  hoist 40
+  fly 18
+  hoist 4
   field red
 }
 
 charge rect blue {
-  fly 180
-  hoist 50
-  at fly=90 hoist=105
+  fly 18
+  hoist 5
+  at fly=9 hoist=10.5
 }
 
 charge rect orange {
-  fly 240
-  hoist 40
-  at fly=300 hoist=60
+  fly 24
+  hoist 4
+  at fly=30 hoist=6
 }
 
 charge rect orange {
-  fly 420
-  hoist 40
-  at fly=210 hoist=140
-  at fly=210 hoist=220
+  fly 42
+  hoist 4
+  at fly=21 hoist=14
+  at fly=21 hoist=22
 }

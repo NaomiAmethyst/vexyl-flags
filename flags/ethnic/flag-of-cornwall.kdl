@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Cornwall"
@@ -11,11 +10,11 @@ palette {
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=300 fly=500
+proportion hoist=15 fly=25
 
 field black
 
 cross white {
-  fly 220 60 220
-  hoist 120 60 120
+  fly 11 3 11
+  hoist 6 3 6
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Maratha Empire"
@@ -10,9 +9,9 @@ meta {
 palette {
   orange "#ff9700"
 }
-proportion hoist=280 fly=600
+proportion hoist=7 fly=15
 outline swallowtail {
-  depth 240
+  depth 6
 }
 
 field orange

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Rainbow Flag with white triangle"
@@ -16,10 +15,10 @@ palette {
   purple "#9f10bf"
   white "#ffffff"
 }
-proportion hoist=960 fly=1600
+proportion hoist=3 fly=5
 
 bars red orange yellow green blue purple
 
 chevrons white {
-  depth 610
+  depth 1.9062
 }

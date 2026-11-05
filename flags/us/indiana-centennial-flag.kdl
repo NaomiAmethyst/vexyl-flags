@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Indiana Centennial Flag"
@@ -12,7 +11,7 @@ palette {
   blue "#000f5d"
   orange "#ffb900"
 }
-proportion hoist=288 fly=432
+proportion hoist=2 fly=3
 
 bars green blue green {
   along hoist
@@ -20,96 +19,96 @@ bars green blue green {
 }
 
 charge star orange {
-  radius 12.5008
+  radius 0.0868
   rotate -0.0468
-  at fly=216.0038 hoist=78.2387
+  at fly=1.5 hoist=0.5433
 }
 
 charge star orange {
-  radius 12.4878
+  radius 0.0867
   rotate 28.0925
-  at fly=246.5753 hoist=85.7342
+  at fly=1.7123 hoist=0.5954
 }
 
 charge star orange {
-  radius 12.4805
+  radius 0.0867
   rotate -28.1445
-  at fly=185.439 hoist=85.7342
+  at fly=1.2878 hoist=0.5954
 }
 
 charge star orange {
-  radius 12.4796
+  radius 0.0867
   rotate -15.7578
-  at fly=270.0588 hoist=106.7745
+  at fly=1.875 hoist=0.7415
 }
 
 charge star orange {
-  radius 12.4796
+  radius 0.0867
   rotate 15.7578
-  at fly=161.9422 hoist=106.7745
+  at fly=1.125 hoist=0.7415
 }
 
 charge star orange {
-  radius 12.4989
+  radius 0.0868
   rotate 12.4343
-  at fly=281.3503 hoist=136.0063
+  at fly=1.9538 hoist=0.9445
 }
 
 charge star orange {
-  radius 12.4989
+  radius 0.0868
   rotate -12.4342
-  at fly=150.6497 hoist=136.0063
+  at fly=1.0462 hoist=0.9445
 }
 
 charge star orange {
-  radius 12.4945
+  radius 0.0868
   rotate -31.1981
-  at fly=277.4801 hoist=167.5418
+  at fly=1.9269 hoist=1.1635
 }
 
 charge star orange {
-  radius 12.4945
+  radius 0.0868
   rotate 31.1981
-  at fly=154.5213 hoist=167.5418
+  at fly=1.0731 hoist=1.1635
 }
 
 charge star orange {
-  radius 12.4843
+  radius 0.0867
   rotate -3.0415
-  at fly=259.5443 hoist=193.3418
+  at fly=1.8024 hoist=1.3427
 }
 
 charge star orange {
-  radius 12.4843
+  radius 0.0867
   rotate 3.0416
-  at fly=172.4571 hoist=193.3418
+  at fly=1.1976 hoist=1.3427
 }
 
 charge star orange {
-  radius 12.475
+  radius 0.0866
   rotate 25.1842
-  at fly=231.6453 hoist=207.7846
+  at fly=1.6086 hoist=1.4429
 }
 
 charge star orange {
-  radius 12.475
+  radius 0.0866
   rotate -25.1842
-  at fly=200.3539 hoist=207.7846
+  at fly=1.3913 hoist=1.4429
 }
 
 charge star orange {
-  radius 12.5008
+  radius 0.0868
   rotate -0.0468
-  at fly=131.9067 hoist=20.4828
-  at fly=300.0956 hoist=20.4828
-  at fly=131.9067 hoist=269.9001
-  at fly=300.0956 hoist=269.9001
-  at fly=216 hoist=269.9001
+  at fly=0.916 hoist=0.1422
+  at fly=2.084 hoist=0.1422
+  at fly=0.916 hoist=1.8743
+  at fly=2.084 hoist=1.8743
+  at fly=1.5 hoist=1.8743
 }
 
 charge star orange {
-  radius 22.0745
+  radius 0.1533
   rotate 0.0032
-  at fly=216 hoist=146.1081
+  at fly=1.5 hoist=1.0146
   anchor center
 }

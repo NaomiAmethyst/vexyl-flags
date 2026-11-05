@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Lithuania"
@@ -12,6 +11,6 @@ palette {
   green "#006a44"
   red "#c1272d"
 }
-proportion hoist=600 fly=1000
+proportion hoist=3 fly=5
 
 bars orange green red

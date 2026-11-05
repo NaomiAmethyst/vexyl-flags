@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Yamauchi Lords of Kouchi in Tosa Province (B)"
@@ -12,40 +11,40 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=700 fly=900
+proportion hoist=7 fly=9
 
 field orange
 
 charge path white {
   d "M245.3 214.3C268.2 226.5 305.7 230 329 229.8C407.2 229.3 489.3 233.6 572.5 222.9A90.8 90.8 0 0 0 608.2 208.3L612.2 205.2L615.4 207.4C661.5 235.4 686.1 309.2 615.5 310.4C609.1 310.4 604.6 309.4 591.3 304.9C564.3 293.9 429.7 296.6 315.2 306.3C274.2 309.7 223.2 279.9 245.2 214.3Z"
   box "223.2 117.5 475.8 192.9"
-  fly 475.8
-  hoist 192.9
-  at fly=461.1 hoist=213.95
+  fly 4.758
+  hoist 1.929
+  at fly=4.611 hoist=2.1395
 }
 
 charge path black {
   d "M245.3 214.3C268.2 226.5 305.7 230 329 229.8C407.2 229.3 489.3 233.6 572.5 222.9A90.8 90.8 0 0 0 608.2 208.3L612.2 205.2L615.4 207.4C661.5 235.4 686.1 309.2 615.5 310.4C609.1 310.4 604.6 309.4 591.3 304.9C564.3 293.9 429.7 296.6 315.2 306.3C274.2 309.7 223.2 279.9 245.2 214.3Z"
   box "223.2 117.5 475.8 192.9"
-  fly 475.8
-  hoist 192.9
-  hollow 6
-  at fly=461.1 hoist=213.95
+  fly 4.758
+  hoist 1.929
+  hollow 0.06
+  at fly=4.611 hoist=2.1395
 }
 
 charge path black {
   d "M242.1 391.5C265.1 403.7 302.6 407.2 325.8 407C404.1 406.5 486.1 410.8 569.4 400.1A90.8 90.8 0 0 0 605.1 385.5L609.1 382.4L612.3 384.6C658.4 412.6 683 486.4 612.3 487.6C606 487.6 601.5 486.6 588.2 482.2C561.1 471.2 426.6 473.8 312 483.5C271 486.9 220 457.1 242.1 391.5Z"
   box "220 294.7 475.9 192.9"
-  fly 475.9
-  hoist 192.9
-  at fly=457.95 hoist=391.15
+  fly 4.759
+  hoist 1.929
+  at fly=4.5795 hoist=3.9115
 }
 
 charge path black {
   d "M242.1 391.5C265.1 403.7 302.6 407.2 325.8 407C404.1 406.5 486.1 410.8 569.4 400.1A90.8 90.8 0 0 0 605.1 385.5L609.1 382.4L612.3 384.6C658.4 412.6 683 486.4 612.3 487.6C606 487.6 601.5 486.6 588.2 482.2C561.1 471.2 426.6 473.8 312 483.5C271 486.9 220 457.1 242.1 391.5Z"
   box "220 294.7 475.9 192.9"
-  fly 475.9
-  hoist 192.9
-  hollow 6
-  at fly=457.95 hoist=391.15
+  fly 4.759
+  hoist 1.929
+  hollow 0.06
+  at fly=4.5795 hoist=3.9115
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Kobe"
@@ -11,24 +10,24 @@ palette {
   green "#157a00"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field green
 
 charge path white {
   d "M425.2513 424.7487A140 140 -45 0 1 623.2412 226.7588"
   box "425.2513 86.7588 337.9899 337.9899"
-  fly 337.9899
-  hoist 337.9899
-  hollow 70
-  at fly=594.2462 hoist=255.7538
+  fly 1.1266
+  hoist 1.1266
+  hollow 0.2333
+  at fly=1.9808 hoist=0.8525
 }
 
 charge path white {
   d "M276.7588 226.7588A140 140 -135 0 1 474.7487 424.7487"
   box "276.7588 226.7588 337.9899 337.9899"
-  fly 337.9899
-  hoist 337.9899
-  hollow 70
-  at fly=445.7538 hoist=395.7538
+  fly 1.1266
+  hoist 1.1266
+  hollow 0.2333
+  at fly=1.4858 hoist=1.3192
 }

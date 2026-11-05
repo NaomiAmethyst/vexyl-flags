@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Adygea (1992–2007)"
@@ -11,113 +10,113 @@ palette {
   green "#296912"
   yellow "#fdfc02"
 }
-proportion hoist=132.2917 fly=264.5833
+proportion hoist=1 fly=2
 
 field green
 
 charge polygon yellow {
-  point fly=132.2917 hoist=51.0208
-  point fly=134.4449 hoist=62.8012
-  point fly=133.0319 hoist=64.0957
-  point fly=133.0319 hoist=108.5635
-  point fly=134.5122 hoist=110.0522
-  point fly=134.5122 hoist=121.1206
-  point fly=132.2917 hoist=118.9846
-  point fly=130.0711 hoist=121.1206
-  point fly=130.0711 hoist=110.0522
-  point fly=131.5515 hoist=108.5635
-  point fly=131.5515 hoist=64.0957
-  point fly=130.1384 hoist=62.8012
+  point fly=1 hoist=0.3857
+  point fly=1.0163 hoist=0.4747
+  point fly=1.0056 hoist=0.4845
+  point fly=1.0056 hoist=0.8206
+  point fly=1.0168 hoist=0.8319
+  point fly=1.0168 hoist=0.9156
+  point fly=1 hoist=0.8994
+  point fly=0.9832 hoist=0.9156
+  point fly=0.9832 hoist=0.8319
+  point fly=0.9944 hoist=0.8206
+  point fly=0.9944 hoist=0.4845
+  point fly=0.9837 hoist=0.4747
 }
 
 charge star yellow {
-  radius 6.8814
-  at fly=132.2917 hoist=44.4303
-  at fly=132.2917 hoist=18.0527
-  at fly=103.9055 hoist=44.8928
+  radius 0.052
+  at fly=1 hoist=0.3359
+  at fly=1 hoist=0.1365
+  at fly=0.7854 hoist=0.3393
 }
 
 charge star yellow {
-  radius 6.8814
+  radius 0.052
   rotate -8.3616
-  at fly=103.6875 hoist=19.9515
+  at fly=0.7838 hoist=0.1508
 }
 
 charge polygon yellow {
-  point fly=108.0455 hoist=61.6299
-  point fly=114.1877 hoist=70.9125
-  point fly=116.1732 hoist=70.9868
-  point fly=145.8152 hoist=101.3663
-  point fly=145.6316 hoist=103.232
-  point fly=153.0097 hoist=110.7937
-  point fly=153.3499 hoist=108.0615
-  point fly=156.5378 hoist=108.2478
-  point fly=149.1597 hoist=100.6861
-  point fly=146.9912 hoist=100.5177
-  point fly=117.3492 hoist=70.1382
-  point fly=117.6089 hoist=68.4437
+  point fly=0.8167 hoist=0.4659
+  point fly=0.8632 hoist=0.536
+  point fly=0.8782 hoist=0.5366
+  point fly=1.1022 hoist=0.7662
+  point fly=1.1008 hoist=0.7803
+  point fly=1.1566 hoist=0.8375
+  point fly=1.1592 hoist=0.8168
+  point fly=1.1833 hoist=0.8183
+  point fly=1.1275 hoist=0.7611
+  point fly=1.1111 hoist=0.7598
+  point fly=0.887 hoist=0.5302
+  point fly=0.889 hoist=0.5174
 }
 
 charge star yellow {
-  radius 6.8814
+  radius 0.052
   rotate -16.5696
-  at fly=78.4436 hoist=26.0079
+  at fly=0.593 hoist=0.1966
 }
 
 charge star yellow {
-  radius 6.8814
+  radius 0.052
   rotate -29.9959
-  at fly=52.4944 hoist=36.4399
+  at fly=0.3968 hoist=0.2755
 }
 
 charge star yellow {
-  radius 6.8814
+  radius 0.052
   rotate 26.6376
-  at fly=30.3488 hoist=52.4217
+  at fly=0.2294 hoist=0.3963
 }
 
 charge star yellow {
-  radius 6.8814
-  at fly=132.2917 hoist=44.4303
-  at fly=132.2917 hoist=18.0527
-  at fly=160.6778 hoist=44.8928
+  radius 0.052
+  at fly=1 hoist=0.3359
+  at fly=1 hoist=0.1365
+  at fly=1.2146 hoist=0.3393
 }
 
 charge star yellow {
-  radius 6.8814
+  radius 0.052
   rotate 8.3616
-  at fly=160.8958 hoist=19.9515
+  at fly=1.2162 hoist=0.1508
 }
 
 charge polygon yellow {
-  point fly=156.5378 hoist=61.6299
-  point fly=150.3956 hoist=70.9125
-  point fly=148.4101 hoist=70.9868
-  point fly=118.7681 hoist=101.3663
-  point fly=118.9518 hoist=103.232
-  point fly=111.5736 hoist=110.7937
-  point fly=111.2334 hoist=108.0615
-  point fly=108.0455 hoist=108.2478
-  point fly=115.4237 hoist=100.6861
-  point fly=117.5921 hoist=100.5177
-  point fly=147.2341 hoist=70.1382
-  point fly=146.9745 hoist=68.4437
+  point fly=1.1833 hoist=0.4659
+  point fly=1.1368 hoist=0.536
+  point fly=1.1218 hoist=0.5366
+  point fly=0.8978 hoist=0.7662
+  point fly=0.8992 hoist=0.7803
+  point fly=0.8434 hoist=0.8375
+  point fly=0.8408 hoist=0.8168
+  point fly=0.8167 hoist=0.8183
+  point fly=0.8725 hoist=0.7611
+  point fly=0.8889 hoist=0.7598
+  point fly=1.113 hoist=0.5302
+  point fly=1.111 hoist=0.5174
 }
 
 charge star yellow {
-  radius 6.8814
+  radius 0.052
   rotate 16.5696
-  at fly=186.1397 hoist=26.0079
+  at fly=1.407 hoist=0.1966
 }
 
 charge star yellow {
-  radius 6.8814
+  radius 0.052
   rotate 29.9959
-  at fly=212.089 hoist=36.4399
+  at fly=1.6032 hoist=0.2755
 }
 
 charge star yellow {
-  radius 6.8814
+  radius 0.052
   rotate -26.6376
-  at fly=234.2346 hoist=52.4217
+  at fly=1.7706 hoist=0.3963
 }

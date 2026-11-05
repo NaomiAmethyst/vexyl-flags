@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "First Flag of the Kingdom of Murcia"
@@ -11,7 +10,7 @@ palette {
   yellow "#ffcc03"
   red "#e52320"
 }
-proportion hoist=1600 fly=2400
+proportion hoist=2 fly=3
 
 bars yellow red yellow red yellow {
   ratio 312.0455 330 315.909 330 312.0455

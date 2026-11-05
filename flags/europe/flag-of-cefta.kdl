@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of CEFTA"
@@ -11,65 +10,65 @@ palette {
   blue "#003399"
   yellow "#ffcc00"
 }
-proportion hoist=223 fly=326
+proportion hoist=1 fly=1.4619
 
 field blue
 
 charge ring yellow {
-  radius 22.5
-  inner 8.5
-  at fly=163 hoist=116.5
+  radius 0.1009
+  inner 0.0381
+  at fly=0.7309 hoist=0.5224
 }
 
 charge ring yellow {
-  radius 52
-  inner 38
-  at fly=163 hoist=116.5
+  radius 0.2332
+  inner 0.1704
+  at fly=0.7309 hoist=0.5224
 }
 
 charge lozenge blue {
-  fly 86.2666
-  hoist 86.2666
-  at fly=206.1328 hoist=116.5
+  fly 0.3868
+  hoist 0.3868
+  at fly=0.9244 hoist=0.5224
 }
 
 charge rect yellow {
-  fly 30.167
-  hoist 14
-  at fly=104.5835 hoist=116.5
+  fly 0.1353
+  hoist 0.0625
+  at fly=0.469 hoist=0.5224
 }
 
 charge rect yellow {
-  fly 45
-  hoist 14
-  at fly=244 hoist=116.5
+  fly 0.2018
+  hoist 0.0625
+  at fly=1.0942 hoist=0.5224
 }
 
 charge polygon yellow {
-  point fly=184.9198 hoist=84.7091
-  point fly=204.6454 hoist=64.9825
-  point fly=214.546 hoist=74.8827
-  point fly=194.8204 hoist=94.6092
+  point fly=0.8292 hoist=0.3799
+  point fly=0.9177 hoist=0.2914
+  point fly=0.9621 hoist=0.3358
+  point fly=0.8736 hoist=0.4243
 }
 
 charge rect yellow {
-  fly 14
-  hoist 54.5576
-  at fly=163 hoist=41.2788
+  fly 0.0625
+  hoist 0.2447
+  at fly=0.7309 hoist=0.1851
 }
 
 charge disc yellow {
-  radius 7
-  at fly=114.667 hoist=70.5586
-  at fly=73.5 hoist=116.501
-  at fly=163 hoist=183.501
-  at fly=163 hoist=206.001
-  at fly=208 hoist=116.5
+  radius 0.0314
+  at fly=0.5142 hoist=0.3164
+  at fly=0.3296 hoist=0.5224
+  at fly=0.7309 hoist=0.8229
+  at fly=0.7309 hoist=0.9238
+  at fly=0.9327 hoist=0.5224
 }
 
 charge lozenge yellow {
-  fly 19.7988
-  hoist 19.7988
-  at fly=116.0005 hoist=163.2246
-  at fly=220.334 hoist=173.8906
+  fly 0.0888
+  hoist 0.0888
+  at fly=0.5202 hoist=0.7319
+  at fly=0.988 hoist=0.7798
 }

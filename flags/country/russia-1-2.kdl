@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Russia (1-2)"
@@ -12,6 +11,6 @@ palette {
   blue "#0039a6"
   red "#d52b1e"
 }
-proportion hoist=6 fly=12
+proportion hoist=1 fly=2
 
 bars white blue red

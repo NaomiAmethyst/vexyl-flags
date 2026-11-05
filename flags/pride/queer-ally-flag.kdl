@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Queer Ally Flag"
@@ -18,77 +17,77 @@ palette {
   black "#000000"
   brown "#613915"
   teal "#74d7ee"
-  pink-2 "#ffafc8"
-  yellow-2 "#ffd800"
+  light-pink "#ffafc8"
+  dark-yellow "#ffd800"
   purple "#7902aa"
 }
-proportion hoist=96 fly=144
+proportion hoist=2 fly=3
 
 bars red orange yellow green blue pink
 
 pile white {
   from bottom
-  depth 96
+  depth 2
 }
 
 charge polygon black {
-  point fly=60 hoist=16
-  point fly=72 hoist=0
-  point fly=84 hoist=16
+  point fly=1.25 hoist=0.3333
+  point fly=1.5 hoist=0
+  point fly=1.75 hoist=0.3333
 }
 
 charge polygon black {
-  point fly=36 hoist=48
-  point fly=48 hoist=32
-  point fly=96 hoist=32
-  point fly=108 hoist=48
+  point fly=0.75 hoist=1
+  point fly=1 hoist=0.6667
+  point fly=2 hoist=0.6667
+  point fly=2.25 hoist=1
 }
 
 charge polygon black {
-  point fly=12 hoist=80
-  point fly=24 hoist=64
-  point fly=120 hoist=64
-  point fly=132 hoist=80
+  point fly=0.25 hoist=1.6667
+  point fly=0.5 hoist=1.3333
+  point fly=2.5 hoist=1.3333
+  point fly=2.75 hoist=1.6667
 }
 
 pile black {
   from bottom
-  base 24 120
-  depth 64
+  base 0.5 2.5
+  depth 1.3333
 }
 
 pile brown {
   from bottom
-  base 30 114
-  depth 56
+  base 0.625 2.375
+  depth 1.1667
 }
 
 pile teal {
   from bottom
-  base 36 108
-  depth 48
+  base 0.75 2.25
+  depth 1
 }
 
-pile pink-2 {
+pile light-pink {
   from bottom
-  base 42 102
-  depth 40
+  base 0.875 2.125
+  depth 0.8333
 }
 
 pile white {
   from bottom
-  base 48 96
-  depth 32
+  base 1 2
+  depth 0.6667
 }
 
-pile yellow-2 {
+pile dark-yellow {
   from bottom
-  base 54 90
-  depth 24
+  base 1.125 1.875
+  depth 0.5
 }
 
 charge ring purple {
-  radius 6.5
-  inner 5.5
-  at fly=72 hoist=88
+  radius 0.1354
+  inner 0.1146
+  at fly=1.5 hoist=1.8333
 }

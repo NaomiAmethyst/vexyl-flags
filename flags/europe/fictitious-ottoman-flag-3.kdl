@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Fictitious Ottoman flag 3"
@@ -12,44 +11,43 @@ palette {
   green "#009530"
   yellow "#fcdd09"
 }
-proportion hoist=600 fly=900
+proportion hoist=30 fly=45
 
 field red
 
 charge ellipse green {
-  fly 740
-  hoist 360
-  at fly=450 hoist=300
+  fly 37
+  hoist 18
+  at center
+}
+
+charge disc yellow {
+  radius 5
+  at fly=13.4 hoist=15
+}
+
+charge disc green {
+  radius 4
+  at fly=14.7 hoist=15
+}
+
+charge disc yellow {
+  radius 5
+  at fly=22.9 hoist=15
   anchor center
 }
 
-charge disc yellow {
-  radius 100
-  at fly=268 hoist=300
-}
-
 charge disc green {
-  radius 80
-  at fly=294 hoist=300
+  radius 4
+  at fly=24.2 hoist=15
 }
 
 charge disc yellow {
-  radius 100
-  at fly=458 hoist=300
-  anchor center
+  radius 5
+  at fly=32.4 hoist=15
 }
 
 charge disc green {
-  radius 80
-  at fly=484 hoist=300
-}
-
-charge disc yellow {
-  radius 100
-  at fly=648 hoist=300
-}
-
-charge disc green {
-  radius 80
-  at fly=674 hoist=300
+  radius 4
+  at fly=33.7 hoist=15
 }

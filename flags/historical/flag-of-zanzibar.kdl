@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Zanzibar"
@@ -12,41 +11,41 @@ palette {
   blue "#00a3dd"
   yellow "#fcd116"
   black "#000000"
-  blue-2 "#0093cd"
+  dark-blue "#0093cd"
 }
-proportion hoist=18 fly=27
+proportion hoist=6 fly=9
 
 field green
 
 charge polygon blue {
-  point fly=0 hoist=6
-  point fly=9 hoist=6
-  point fly=9 hoist=0
+  point fly=0 hoist=2
+  point fly=3 hoist=2
+  point fly=3 hoist=0
 }
 
 charge polygon yellow {
-  point fly=0.6587 hoist=6.9881
-  point fly=9.6587 hoist=0.9881
-  point fly=8.3413 hoist=-0.9881
-  point fly=-0.6587 hoist=5.0119
+  point fly=0.2196 hoist=2.3294
+  point fly=3.2196 hoist=0.3294
+  point fly=2.7804 hoist=-0.3294
+  point fly=-0.2196 hoist=1.6706
 }
 
 charge polygon black {
-  point fly=0.4507 hoist=6.676
-  point fly=9.4507 hoist=0.676
-  point fly=8.5493 hoist=-0.676
-  point fly=-0.4507 hoist=5.324
+  point fly=0.15 hoist=2.2253
+  point fly=3.15 hoist=0.2253
+  point fly=2.85 hoist=-0.2253
+  point fly=-0.15 hoist=1.7747
 }
 
 panel {
   corner upper-fly
-  fly 18
-  hoist 6
-  field blue-2
+  fly 6
+  hoist 2
+  field dark-blue
 }
 
 charge rect black {
-  fly 27
-  hoist 6
-  at fly=13.5 hoist=9
+  fly 9
+  hoist 2
+  at center
 }

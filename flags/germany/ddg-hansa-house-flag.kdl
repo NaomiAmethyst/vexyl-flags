@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "DDG „Hansa“ house flag"
@@ -12,31 +11,31 @@ palette {
   red "#c11f23"
   black "#000000"
 }
-proportion hoist=283.465 fly=425.197
+proportion hoist=2 fly=3
 
 canton {
-  fly 424.296
-  hoist 282.697
+  fly 2.9936
+  hoist 1.9946
   field white
 }
 
 canton {
-  fly 424.296
-  hoist 48.839
+  fly 2.9936
+  hoist 0.3446
   field red
 }
 
 charge rect red {
-  fly 424.296
-  hoist 49.606
-  at fly=212.148 hoist=257.894
+  fly 2.9936
+  hoist 0.35
+  at fly=1.4968 hoist=1.8196
 }
 
 charge path black {
   d "M219.94 132.721C222.11 108.459 233.787 85.898 252.617 70.099L170.777 70.099C189.607 85.899 201.283 108.46 203.453 132.721C179.191 130.552 156.63 118.875 140.831 100.046L140.831 181.886C156.631 163.057 179.191 151.38 203.453 149.21C201.284 173.473 189.607 196.032 170.777 211.831L252.617 211.831C233.787 196.031 222.11 173.473 219.94 149.21C244.203 151.38 266.762 163.057 282.563 181.886L282.563 100.046C266.765 118.875 244.203 130.552 219.94 132.721Z"
   box "140.831 70.099 141.732 141.732"
-  fly 141.732
-  hoist 141.732
-  at fly=211.697 hoist=140.965
+  fly 1
+  hoist 1
+  at fly=1.4936 hoist=0.9946
   anchor center
 }

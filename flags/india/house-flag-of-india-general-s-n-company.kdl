@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "House flag of India General S N Company"
@@ -11,40 +10,40 @@ palette {
   red "#d60a15"
   blue "#023264"
 }
-proportion hoist=135.48 fly=200
+proportion hoist=630 fly=930
 
 field white
 
 panel {
   corner lower-hoist
-  fly 87.96
-  hoist 55.7
+  fly 409
+  hoist 259
   field red
 }
 
 canton {
-  fly 87.96
-  hoist 55.71
+  fly 409
+  hoist 259
   field blue
 }
 
 panel {
   corner upper-fly
-  fly 87.96
-  hoist 55.71
+  fly 409
+  hoist 259
   field red
 }
 
 panel {
   corner lower-fly
-  fly 87.96
-  hoist 55.7
+  fly 409
+  hoist 259
   field blue
 }
 
 charge star red {
-  radius 15.2387
+  radius 71
   rotate -0.0113
-  at fly=100.003 hoist=69.195
+  at fly=465 hoist=321.75
   anchor center
 }

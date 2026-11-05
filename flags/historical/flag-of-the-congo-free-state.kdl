@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Congo Free State"
@@ -10,11 +9,11 @@ palette {
   blue "#0039a5"
   yellow "#f7d618"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field blue
 
 charge star yellow {
-  radius 165.8363
-  at fly=449.9998 hoist=315.836
+  radius 0.5528
+  at fly=1.5 hoist=1.0528
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Rwanda (1961–2001)"
@@ -13,7 +12,7 @@ palette {
   black "#000000"
   green "#319000"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars red yellow {
   along hoist
@@ -23,14 +22,13 @@ bars red yellow {
 charge path black {
   d "M552.0131 469.998L507.0899 469.998L439.7051 322.8652L391.0383 322.8652L391.0383 469.998L347.9869 469.998L347.9869 130.002L441.5769 130.002C471.5256 130.0023 495.8589 137.9554 514.5771 153.8613C533.2949 168.4424 542.6539 192.9645 542.6541 227.4277C542.6539 253.9384 536.4146 274.4839 523.9361 289.0645C511.4573 303.6454 497.1068 312.924 480.8847 316.9004L552.0131 469.998M499.6027 227.4277C499.6025 208.8707 493.9871 194.29 482.7565 183.6856C472.7734 173.0817 455.9272 167.7796 432.2179 167.7793L391.0383 167.7793L391.0383 285.0879L443.4487 285.0879C458.423 285.0881 471.5256 281.1115 482.7565 273.1582C493.9871 263.8798 499.6025 248.6363 499.6027 227.4277"
   box "347.9869 130.002 204.0262 339.9961"
-  fly 204.0262
-  hoist 339.9961
-  at fly=450 hoist=300
-  anchor center
+  fly 0.6801
+  hoist 1.1333
+  at center
 }
 
 panel {
   side fly
-  width 300
+  width 1
   field green
 }

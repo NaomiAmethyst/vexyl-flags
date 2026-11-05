@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Arima Lords of Kurume in Chikugo Province (C)"
@@ -11,38 +10,36 @@ palette {
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=700 fly=900
+proportion hoist=448 fly=576
 
 bars black white black {
   ratio 7 6 7
 }
 
 charge lozenge white {
-  fly 507.8158
-  hoist 507.8158
-  at fly=450.0037 hoist=349.9919
-  anchor center
+  fly 325
+  hoist 325
+  at center
 }
 
 charge polygon black {
-  point fly=450.0037 hoist=96.084
-  point fly=703.9116 hoist=349.9919
-  point fly=450.0037 hoist=603.8998
-  point fly=196.0958 hoist=349.9919
-  hollow 8
+  point fly=288 hoist=61.5
+  point fly=450.5 hoist=224
+  point fly=288 hoist=386.5
+  point fly=125.5 hoist=224
+  hollow 5
 }
 
 charge lozenge white {
-  fly 109.347
-  hoist 109.347
-  at fly=450.0037 hoist=349.9919
-  anchor center
+  fly 70
+  hoist 70
+  at center
 }
 
 charge polygon black {
-  point fly=450.0037 hoist=295.3184
-  point fly=504.6772 hoist=349.9919
-  point fly=450.0037 hoist=404.6654
-  point fly=395.3302 hoist=349.9919
-  hollow 8
+  point fly=288 hoist=189
+  point fly=323 hoist=224
+  point fly=288 hoist=259
+  point fly=253 hoist=224
+  hollow 5
 }

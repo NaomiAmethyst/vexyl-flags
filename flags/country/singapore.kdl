@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Singapore"
@@ -11,22 +10,22 @@ palette {
   red "#ed2939"
   white "#ffffff"
 }
-proportion hoist=36 fly=54
+proportion hoist=2 fly=3
 
 bars red white
 
 charge disc white {
-  radius 6.625
-  at fly=11.405 hoist=9
+  radius 0.3681
+  at fly=0.6336 hoist=0.5
 }
 
 charge disc red {
-  radius 7.25
-  at fly=15.03 hoist=9
+  radius 0.4028
+  at fly=0.835 hoist=0.5
 }
 
 charge star white {
-  radius 1.725
-  at fly=15.03 hoist=9
-  repeat ring count=5 radius=3.8
+  radius 0.0958
+  at fly=0.835 hoist=0.5
+  repeat ring count=5 radius=0.2111
 }

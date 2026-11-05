@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Liberia (1827–1847)"
@@ -12,26 +11,26 @@ palette {
   white "#ffffff"
   blue "#002868"
 }
-proportion hoist=330 fly=540
+proportion hoist=308 fly=504
 
 charge path red {
   d "M0.0019 0L539.9723 0L539.9723 25.523C359.9841 25.523 179.9972 25.523 0.009 25.523L0 0ZM0.0019 0"
   box "0 0 539.9723 25.523"
-  fly 539.9723
-  hoist 25.523
-  at fly=269.9862 hoist=12.7615
+  fly 504
+  hoist 23.75
+  at fly=252 hoist=12
 }
 
 pile white {
-  base 25.5843 50.162
-  depth 539.9704
-  flat 24.5777
+  base 23.875 46.75
+  depth 504
+  flat 23
 }
 
 charge svg {
   at center
-  fly 540
-  hoist 330
+  fly 504
+  hoist 308
   markup #"""
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 330"><path d="M 0,50.161977 H 539.97041 V 76.63029 c -179.98967,0 -359.97791,0 -539.96614925,0 z m 0,0" stroke-width="1.15898" fill="#bf0a22" transform="matrix(1 0 0 1 0 0)"/><path d="M 0.0028505,76.63029 H 539.969 v 25.52303 c -179.99109,0 -359.97934,0 -539.969,0 L 0.00100018,76.63029 Z m 0,0" stroke-width="1.15898" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m 0,102.15332 h 539.969 v 26.4683 c -179.99109,0 -359.97934,0 -539.969,0 z m 0,0" stroke-width="1.15898" fill="#bf0a22" transform="matrix(1 0 0 1 0 0)"/><path d="m 0,128.62162 h 539.969 v 24.57772 c -179.98967,0 -359.97791,0 -539.9661495,0 z m 0,0" stroke-width="1.15898" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m 0,153.19934 h 539.96615 v 25.52301 c -179.98967,-9.4e-4 -359.97649,0.002 -539.96472975,-9.4e-4 z m 0,0" stroke-width="1.15898" fill="#bf0a22" transform="matrix(1 0 0 1 0 0)"/><path d="m 0,203.3144 h 540.00019 v 24.5808 c -180.00102,0 -360.00013,0 -540.00019,0 z m 0,0" stroke-width="0.946392" fill="#bf0a22" transform="matrix(1 0 0 1 0 0)"/><path d="m 0,241 h 570 v 27 c -190.001,0 -380,0 -570,0 z m 0,0" fill="#ffffff" transform="matrix(0.947369 0 0 0.945416 0 0.050007)"/><path d="m 0,253.42144 h 540.00019 v 26.47164 c -180.00102,0 -360.00013,0 -540.00019,0 z m 0,0" stroke-width="0.946392" fill="#bf0a22" transform="matrix(1 0 0 1 0 0)"/><path d="m 0,279.89308 h 540.00019 v 25.52623 c -180.00102,0 -360.00013,0 -540.00019,0 z m 0,0" stroke-width="0.946392" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
@@ -39,30 +38,30 @@ charge svg {
 
 panel {
   side bottom
-  width 24.5807
+  width 23
   field red
 }
 
 charge path blue {
   d "M0 0L179.2453 0L179.2501 25.6071L179.2453 50.2657L179.2482 76.8212L179.2472 102.4283L179.2472 128.9838L179.2491 153.6424L179.2501 179.2485C119.5004 179.2523 59.7516 179.2476 0.0009 179.2495L0.0009 0ZM0 0"
   box "0 0 179.2501 179.2523"
-  fly 179.2501
-  hoist 179.2523
-  at fly=89.625 hoist=89.6262
+  fly 167.25
+  hoist 167.25
+  at fly=83.625 hoist=83.625
 }
 
 charge path white {
   d "M67.065 13.3022L111.3907 13.3032L111.4058 67.3369L164.1892 67.3502L164.1977 111.9122C146.5982 111.8923 129.0006 111.9226 111.4029 111.9255L111.3784 164.9871L67.0508 164.9956L67.0376 111.9245L13.3013 111.898L13.3022 67.3379L67.0489 67.3227L67.064 13.3013ZM67.065 13.3022"
   box "13.3013 13.3013 150.8965 151.6944"
-  fly 150.8965
-  hoist 151.6944
-  at fly=88.7495 hoist=89.1484
+  fly 140.75
+  hoist 141.5
+  at fly=82.75 hoist=83.25
 }
 
 charge path white {
   d "M0 178.7335L179.9991 178.7326L540.0002 178.7335L540.0002 203.3143C359.9992 203.3143 180.0001 203.3143 0 203.3143ZM0 178.7335"
   box "0 178.7326 540.0002 24.5817"
-  fly 540.0002
-  hoist 24.5817
-  at fly=270.0001 hoist=191.0234
+  fly 504
+  hoist 23
+  at fly=252 hoist=178.25
 }

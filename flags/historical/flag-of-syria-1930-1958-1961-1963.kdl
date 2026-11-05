@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Syria (1930–1958, 1961–1963)"
@@ -12,33 +11,33 @@ palette {
   black "#000000"
   red "#ce1126"
 }
-proportion hoist=600 fly=1200
+proportion hoist=1 fly=2
 
 bars green white black
 
 charge polygon red {
-  point fly=600.01 hoist=228
-  point fly=646.687 hoist=372
-  point fly=524.48 hoist=283.004
-  point fly=675.52 hoist=283.004
-  point fly=553.313 hoist=372
-  point fly=599.991 hoist=228
+  point fly=1 hoist=0.38
+  point fly=1.0778 hoist=0.62
+  point fly=0.8741 hoist=0.4717
+  point fly=1.1259 hoist=0.4717
+  point fly=0.9222 hoist=0.62
+  point fly=1 hoist=0.38
 }
 
 charge polygon red {
-  point fly=300.01 hoist=228
-  point fly=346.687 hoist=372
-  point fly=224.48 hoist=283.004
-  point fly=375.52 hoist=283.004
-  point fly=253.313 hoist=372
-  point fly=299.991 hoist=228
+  point fly=0.5 hoist=0.38
+  point fly=0.5778 hoist=0.62
+  point fly=0.3741 hoist=0.4717
+  point fly=0.6259 hoist=0.4717
+  point fly=0.4222 hoist=0.62
+  point fly=0.5 hoist=0.38
 }
 
 charge polygon red {
-  point fly=900.01 hoist=228
-  point fly=946.687 hoist=372
-  point fly=824.48 hoist=283.004
-  point fly=975.52 hoist=283.004
-  point fly=853.313 hoist=372
-  point fly=899.991 hoist=228
+  point fly=1.5 hoist=0.38
+  point fly=1.5778 hoist=0.62
+  point fly=1.3741 hoist=0.4717
+  point fly=1.6259 hoist=0.4717
+  point fly=1.4222 hoist=0.62
+  point fly=1.5 hoist=0.38
 }

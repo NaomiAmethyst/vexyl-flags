@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Mauritania"
@@ -11,7 +10,7 @@ palette {
   green "#00a95c"
   yellow "#ffd700"
 }
-proportion hoist=2000 fly=3000
+proportion hoist=2 fly=3
 
 bars red green red {
   ratio 1 3 1
@@ -20,7 +19,7 @@ bars red green red {
 charge path yellow {
   d "M1299 744L1452 744L1500 600L1548 744L1701 744L1575 836L1626 982L1500 892L1374 982L1425 836ZM750 670A760.0928 628 0 0 0 2250 670A750 730 0 0 1 750 670Z"
   box "0 -60 3010.0928 1460"
-  fly 3010.0928
-  hoist 1460
-  at fly=1505.0464 hoist=670
+  fly 3.0101
+  hoist 1.46
+  at fly=1.505 hoist=0.67
 }

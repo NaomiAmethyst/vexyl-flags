@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tokushima Prefecture"
@@ -11,44 +10,42 @@ palette {
   blue "#234794"
   yellow "#fcd400"
 }
-proportion hoist=630 fly=900
+proportion hoist=336 fly=480
 
 field blue
 
 charge disc yellow {
-  radius 189
-  at fly=450 hoist=315
-  anchor center
+  radius 100.75
+  at center
 }
 
 charge polygon yellow {
-  point fly=240 hoist=126
-  point fly=366 hoist=126
-  point fly=660 hoist=504
-  point fly=534 hoist=504
+  point fly=128 hoist=67.25
+  point fly=195.25 hoist=67.25
+  point fly=352 hoist=268.75
+  point fly=284.75 hoist=268.75
 }
 
 charge polygon yellow {
-  point fly=450 hoist=504
-  point fly=450 hoist=126
-  point fly=684.4256 hoist=126
+  point fly=240 hoist=268.75
+  point fly=240 hoist=67.25
+  point fly=365 hoist=67.25
 }
 
 charge disc blue {
-  radius 84
-  at fly=450 hoist=315
-  anchor center
+  radius 44.75
+  at center
 }
 
 charge rect blue {
-  fly 210
-  hoist 16.8
-  at fly=555 hoist=239.4
+  fly 112
+  hoist 9
+  at fly=296 hoist=127.75
 }
 
 charge polygon blue {
-  point fly=445.8 hoist=390.6
-  point fly=534 hoist=504
-  point fly=512.7167 hoist=504
-  point fly=424.5167 hoist=390.6
+  point fly=237.75 hoist=208.25
+  point fly=284.75 hoist=268.75
+  point fly=273.5 hoist=268.75
+  point fly=226.5 hoist=208.25
 }

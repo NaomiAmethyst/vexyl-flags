@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Japanese Naval Masthead Pennant"
@@ -9,67 +8,67 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#bc002d"
+  red "#bc002d"
 }
-proportion hoist=300 fly=12000
+proportion hoist=1 fly=40
 
 charge polygon white {
   point fly=0 hoist=0
-  point fly=0 hoist=300
-  point fly=670 hoist=300
-  point fly=12000 hoist=153
-  point fly=12000 hoist=145
-  point fly=670 hoist=0
+  point fly=0 hoist=1
+  point fly=2.2333 hoist=1
+  point fly=40 hoist=0.51
+  point fly=40 hoist=0.4833
+  point fly=2.2333 hoist=0
 }
 
-pile pink {
+pile red {
   from top
-  base 36.1955 109.2035
-  tip 226.99 149.91
+  base 0.1207 0.364
+  tip 0.7566 0.4997
 }
 
-pile pink {
+pile red {
   from bottom
-  base 36.1958 109.2034
-  tip 226.99 149.91
+  base 0.1207 0.364
+  tip 0.7566 0.4997
 }
 
-pile pink {
+pile red {
   from bottom
-  base 340.7898 413.797
-  tip 223.003 149.91
+  base 1.136 1.3793
+  tip 0.7433 0.4997
 }
 
-pile pink {
+pile red {
   from top
-  base 340.7897 413.7973
-  tip 223.003 149.91
+  base 1.136 1.3793
+  tip 0.7433 0.4997
 }
 
-charge disc pink {
-  radius 75
-  at fly=225 hoist=150
+charge disc red {
+  radius 0.25
+  at fly=0.75 hoist=0.5
 }
 
-pile pink {
+pile red {
   from bottom
-  base 207 243
-  depth 150
+  base 0.69 0.81
+  depth 0.5
 }
 
-chevrons pink {
-  depth 225
+chevrons red {
+  depth 0.75
   angle 7.219
 }
 
-charge polygon pink {
-  point fly=450 hoist=178.5
-  point fly=450 hoist=121.5
-  point fly=225 hoist=150
+charge polygon red {
+  point fly=1.5 hoist=0.595
+  point fly=1.5 hoist=0.405
+  point fly=0.75 hoist=0.5
 }
 
-pile pink {
+pile red {
   from top
-  base 207 243
-  depth 150
+  base 0.69 0.81
+  depth 0.5
 }

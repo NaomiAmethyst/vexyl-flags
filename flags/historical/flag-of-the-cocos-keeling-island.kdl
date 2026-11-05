@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Cocos (Keeling) Island"
@@ -10,133 +9,48 @@ meta {
 palette {
   blue "#012169"
   white "#ffffff"
-  pink "#e4002b"
+  red "#e4002b"
 }
-proportion hoist=5040 fly=10080
+proportion hoist=60 fly=120
 
 field blue
 
-charge polygon white {
-  point fly=0 hoist=281.7446
-  point fly=4476.5109 hoist=2520
-  point fly=5040 hoist=2520
-  point fly=5040 hoist=2520
-  point fly=5040 hoist=2238.2554
-  point fly=563.4891 hoist=0
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon white {
-  point fly=4476.5109 hoist=0
-  point fly=0 hoist=2238.2554
-  point fly=0 hoist=2520
-  point fly=0 hoist=2520
-  point fly=563.4891 hoist=2520
-  point fly=5040 hoist=281.7446
-  point fly=5040 hoist=0
-  point fly=5040 hoist=0
-}
-
-charge polygon pink {
-  point fly=0 hoist=187.8297
-  point fly=2144.3406 hoist=1260
-  point fly=2520 hoist=1260
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon pink {
-  point fly=5040 hoist=2520
-  point fly=5040 hoist=2520
-  point fly=5040 hoist=2332.1703
-  point fly=2895.6594 hoist=1260
-  point fly=2520 hoist=1260
-}
-
-charge polygon pink {
-  point fly=2707.8297 hoist=1166.0851
-  point fly=2520 hoist=1072.1703
-  point fly=2520 hoist=1260
-}
-
-charge polygon pink {
-  point fly=2332.1703 hoist=1353.9149
-  point fly=2520 hoist=1447.8297
-  point fly=2520 hoist=1260
-}
-
-charge polygon pink {
-  point fly=2332.1703 hoist=1166.0851
-  point fly=2144.3406 hoist=1260
-  point fly=2520 hoist=1260
-}
-
-charge polygon pink {
-  point fly=2707.8297 hoist=1353.9149
-  point fly=2895.6594 hoist=1260
-  point fly=2520 hoist=1260
-}
-
-charge polygon pink {
-  point fly=4664.3406 hoist=0
-  point fly=2520 hoist=1072.1703
-  point fly=2520 hoist=1260
-  point fly=5040 hoist=0
-  point fly=5040 hoist=0
-}
-
-charge polygon pink {
-  point fly=0 hoist=2520
-  point fly=0 hoist=2520
-  point fly=375.6594 hoist=2520
-  point fly=2520 hoist=1447.8297
-  point fly=2520 hoist=1260
-}
-
-charge rect white {
-  fly 840
-  hoist 2520
-  at fly=2520 hoist=1260
-}
-
-charge rect white {
-  fly 5040
-  hoist 840
-  at fly=2520 hoist=1260
-}
-
-charge rect pink {
-  fly 504
-  hoist 2520
-  at fly=2520 hoist=1260
-}
-
-charge rect pink {
-  fly 5040
-  hoist 504
-  at fly=2520 hoist=1260
+canton {
+  fly 60
+  hoist 30
+  saltire white {
+    width 6
+  }
+  saltire red {
+    width 2
+    counterchange
+  }
+  cross red {
+    fly 27 6 27
+    hoist 12 6 12
+    fimbriate white 2
+  }
 }
 
 charge star white {
-  radius 756
-  inner 336
+  radius 9
+  inner 4
   points 7
-  at fly=2520 hoist=3780
+  at fly=30 hoist=45
 }
 
 charge star white {
-  radius 360
-  inner 160
+  radius 4.3
+  inner 1.9167
   points 7
-  at fly=7560 hoist=4200
-  at fly=6300 hoist=2205
-  at fly=7560 hoist=840
-  at fly=8680 hoist=1869
+  at fly=90 hoist=50
+  at fly=75 hoist=26.25
+  at fly=90 hoist=10
+  at fly=103.3333 hoist=22.25
 }
 
 charge star white {
-  radius 210
-  inner 93.3333
-  at fly=8064 hoist=2730
+  radius 2.5
+  inner 1.125
+  at fly=96 hoist=32.5
 }

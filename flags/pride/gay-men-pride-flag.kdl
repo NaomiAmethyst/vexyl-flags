@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Gay Men Pride Flag"
@@ -9,13 +8,13 @@ meta {
 }
 palette {
   teal "#078d70"
-  teal-2 "#26ceaa"
+  light-teal "#26ceaa"
   green "#99e8c2"
   white "#ffffff"
   blue "#7bade3"
-  blue-2 "#5049cb"
+  dark-blue "#5049cb"
   purple "#3e1a78"
 }
-proportion hoist=21 fly=35
+proportion hoist=3 fly=5
 
-bars teal teal-2 green white blue blue-2 purple
+bars teal light-teal green white blue dark-blue purple

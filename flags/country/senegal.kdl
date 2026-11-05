@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Senegal"
@@ -12,7 +11,7 @@ palette {
   red "#e31b23"
   green "#00853f"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars yellow red {
   along hoist
@@ -21,13 +20,13 @@ bars yellow red {
 
 panel {
   side hoist
-  width 300
+  width 1
   field green
 }
 
 charge star green {
-  radius 100.0559
+  radius 0.3333
   rotate 0.0694
-  at fly=450 hoist=301
+  at fly=1.5 hoist=1.0033
   anchor center
 }

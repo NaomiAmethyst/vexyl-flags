@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of South Sudan (2011–2023, tilted star)"
@@ -15,36 +14,36 @@ palette {
   blue "#0f47af"
   yellow "#fcdd09"
 }
-proportion hoist=57 fly=114
+proportion hoist=1 fly=2
 
 field white
 
 charge polygon black {
   point fly=0 hoist=0
-  point fly=114 hoist=0
-  point fly=114 hoist=17
-  point fly=9 hoist=17
+  point fly=2 hoist=0
+  point fly=2 hoist=0.2982
+  point fly=0.1579 hoist=0.2982
 }
 
 charge rect red {
-  fly 105
-  hoist 17
-  at fly=61.5 hoist=28.5
+  fly 1.8421
+  hoist 0.2982
+  at fly=1.0789 hoist=0.5
 }
 
 charge polygon green {
-  point fly=9 hoist=40
-  point fly=114 hoist=40
-  point fly=114 hoist=57
-  point fly=0 hoist=57
+  point fly=0.1579 hoist=0.7018
+  point fly=2 hoist=0.7018
+  point fly=2 hoist=1
+  point fly=0 hoist=1
 }
 
 chevrons blue {
-  depth 49.363
+  depth 0.866
 }
 
 charge star yellow {
-  radius 9.5
+  radius 0.1667
   rotate -18
-  at fly=16.4544 hoist=28.5
+  at fly=0.2887 hoist=0.5
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Demiboy Flag"
@@ -9,10 +8,10 @@ meta {
 }
 palette {
   grey "#7f7f7f"
-  grey-2 "#c4c4c4"
+  light-grey "#c4c4c4"
   teal "#9ad9eb"
   white "#ffffff"
 }
-proportion hoist=560 fly=800
+proportion hoist=7 fly=10
 
-bars grey grey-2 teal white teal grey-2 grey
+bars grey light-grey teal white teal light-grey grey

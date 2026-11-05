@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Washington, D.C"
@@ -11,20 +10,19 @@ palette {
   white "#ffffff"
   red "#e81b39"
 }
-proportion hoist=1000 fly=2000
+proportion hoist=5 fly=10
 
 field white
 
 charge rect red {
-  fly 2000
-  hoist 200
-  at fly=1000 hoist=400
-  at fly=1000 hoist=700
+  fly 10
+  hoist 1
+  at fly=5 hoist=2
+  at fly=5 hoist=3.5
 }
 
 charge star red {
-  radius 105.1464
-  inner 39.9556
-  at fly=450 hoist=160.04
-  repeat line count=3 fly=550
+  radius 0.5257
+  at fly=2.25 hoist=0.8
+  repeat line count=3 fly=2.75
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "CHE Ticino Flag"
@@ -11,6 +10,6 @@ palette {
   red "#f00000"
   blue "#1c63b7"
 }
-proportion hoist=470 fly=470
+proportion hoist=1 fly=1
 
 bars red blue

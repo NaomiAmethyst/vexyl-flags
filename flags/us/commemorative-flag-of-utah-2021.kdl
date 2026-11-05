@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Commemorative Flag of Utah (2021)"
@@ -13,94 +12,90 @@ palette {
   red "#af1f24"
   orange "#fbb217"
 }
-proportion hoist=600 fly=1000
+proportion hoist=3 fly=5
 
 quarters blue white red white {
   diagonal
 }
 
 charge disc orange {
-  radius 240
-  at fly=500 hoist=300
-  anchor center
+  radius 1.2
+  at center
 }
 
 charge disc blue {
-  radius 232.5
-  at fly=500 hoist=300
-  anchor center
+  radius 1.1625
+  at center
 }
 
 charge disc orange {
-  radius 220
-  at fly=500 hoist=300
-  anchor center
+  radius 1.1
+  at center
 }
 
 charge disc blue {
-  radius 212.5
-  at fly=500 hoist=300
-  anchor center
+  radius 1.0625
+  at center
 }
 
 charge path orange {
   d "M390.625 209.3853C392 194.8853 394.908 185.3906 404.125 185.3853C595.8478 185.2748 404.125 185.3853 595.875 185.3853C605.092 185.3853 608 194.8853 609.375 209.3853L610.25 219.0103L389.75 219.0103Z"
   box "389.75 185.2748 220.5 33.7355"
-  fly 220.5
-  hoist 33.7355
-  at fly=500 hoist=202.1425
+  fly 1.1025
+  hoist 0.1687
+  at fly=2.5 hoist=1.0107
 }
 
 charge path orange {
   d "M344.99 341.2888C346.9387 326.7888 351.0848 317.2888 364.1227 317.2888C635.8772 317.2888 365.7933 317.8251 635.8772 317.2888C648.7213 317.2633 653.0611 326.7888 655.0098 341.2888L656.2499 350.9138L343.7499 350.9138Z"
   box "343.7499 317.2633 312.5 33.6505"
-  fly 312.5
-  hoist 33.6505
-  at fly=499.9999 hoist=334.0885
+  fly 1.5625
+  hoist 0.1683
+  at fly=2.5 hoist=1.6704
 }
 
 charge path orange {
   d "M582.5 175L417.5 175S454.4365 135 500 135C545.5635 135 582.5 175 582.5 175Z"
   box "417.5 135 165 40"
-  fly 165
-  hoist 40
+  fly 0.825
+  hoist 0.2
   evenodd
-  at fly=500 hoist=155
+  at fly=2.5 hoist=0.775
 }
 
 charge path orange {
   d "M371.0317 253.3664C372.6531 238.8664 376.0935 229.3664 386.9501 229.3664C613.0499 229.3664 387.1668 229.3216 613.0499 229.3664C623.8167 229.3664 627.3469 238.8664 628.9683 253.3664L630 262.9914L370 262.9914Z"
   box "370 229.3216 260 33.6697"
-  fly 260
-  hoist 33.6697
-  at fly=500 hoist=246.1565
+  fly 1.3
+  hoist 0.1683
+  at fly=2.5 hoist=1.2308
 }
 
 charge path orange {
   d "M357.3909 297.3275C359.1837 282.8275 362.994 273.3275 374.9929 273.3275L625.0071 273.3275C636.8601 273.3275 640.8163 282.8275 642.6091 297.3275L643.75 306.9525L356.25 306.9525Z"
   box "356.25 273.3275 287.5 33.625"
-  fly 287.5
-  hoist 33.625
-  at fly=500 hoist=290.14
+  fly 1.4375
+  hoist 0.1681
+  at fly=2.5 hoist=1.45
 }
 
 charge path orange {
   d "M355.4258 361.25C341.5535 361.25 337.1437 370.75 335.0703 385.25L333.75 394.875L482.125 394.875A17.875 17.875 0 0 1 500 377A17.875 17.875 0 0 1 517.875 394.875L666.25 394.875L664.9297 385.25C662.8563 370.75 658.2403 361.2245 644.5742 361.25C357.2053 361.7863 644.5724 361.25 355.4258 361.25Z"
   box "333.75 359.125 332.5 53.625"
-  fly 332.5
-  hoist 53.625
-  at fly=500 hoist=385.9375
+  fly 1.6625
+  hoist 0.2681
+  at fly=2.5 hoist=1.9297
 }
 
 charge polygon white {
-  point fly=500 hoist=415
-  point fly=507.6923 hoist=438.5897
-  point fly=530.7692 hoist=438.5897
-  point fly=511.7949 hoist=451.9231
-  point fly=519.4872 hoist=475
-  point fly=500 hoist=460.641
-  point fly=480.5128 hoist=475
-  point fly=488.2051 hoist=451.9231
-  point fly=469.2308 hoist=438.5897
-  point fly=492.3077 hoist=438.5897
+  point fly=2.5 hoist=2.075
+  point fly=2.5385 hoist=2.1929
+  point fly=2.6538 hoist=2.1929
+  point fly=2.559 hoist=2.2596
+  point fly=2.5974 hoist=2.375
+  point fly=2.5 hoist=2.3032
+  point fly=2.4026 hoist=2.375
+  point fly=2.441 hoist=2.2596
+  point fly=2.3462 hoist=2.1929
+  point fly=2.4615 hoist=2.1929
 }

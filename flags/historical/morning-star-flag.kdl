@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Morning Star flag"
@@ -12,26 +11,26 @@ palette {
   white "#ffffff"
   red "#dd0000"
 }
-proportion hoist=52 fly=78
+proportion hoist=300 fly=450
 
 field blue
 
 charge rect white {
-  fly 78
-  hoist 4
-  at fly=39 hoist=6
-  repeat line count=6 hoist=8
+  fly 450
+  hoist 23
+  at fly=225 hoist=34.625
+  repeat line count=6 hoist=46.125
 }
 
 panel {
   side hoist
-  width 20.8
+  width 120
   field red
   charge polygon white {
-    point fly=5.1 hoist=33.4
-    point fly=10.4 hoist=16.9
-    point fly=15.7 hoist=33.4
-    point fly=1.7 hoist=23.2
-    point fly=19.1 hoist=23.2
+    point fly=29.5 hoist=192.75
+    point fly=60 hoist=97.5
+    point fly=90.5 hoist=192.75
+    point fly=9.75 hoist=133.875
+    point fly=110.25 hoist=133.875
   }
 }

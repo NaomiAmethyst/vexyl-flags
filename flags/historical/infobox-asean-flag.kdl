@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Infobox ASEAN flag"
@@ -13,27 +12,25 @@ palette {
   red "#ec2938"
   yellow "#f6d91a"
 }
-proportion hoist=56.3563 fly=84.6667
+proportion hoist=1 fly=1.5023
 
 field blue
 
 charge disc white {
-  radius 16.9328
-  at fly=42.3429 hoist=28.2139
-  anchor center
+  radius 0.3005
+  at center
 }
 
 charge disc red {
-  radius 15.9495
-  at fly=42.3405 hoist=28.1782
-  anchor center
+  radius 0.283
+  at center
 }
 
 charge polygon yellow {
-  point fly=33.7437 hoist=36.5275
-  point fly=37.8354 hoist=28.1781
-  point fly=33.7437 hoist=19.8287
-  point fly=50.923 hoist=19.8287
-  point fly=46.8312 hoist=28.1781
-  point fly=50.923 hoist=36.5275
+  point fly=0.5988 hoist=0.6482
+  point fly=0.6714 hoist=0.5
+  point fly=0.5988 hoist=0.3518
+  point fly=0.9036 hoist=0.3518
+  point fly=0.831 hoist=0.5
+  point fly=0.9036 hoist=0.6482
 }

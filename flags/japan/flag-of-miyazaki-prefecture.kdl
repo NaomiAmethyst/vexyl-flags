@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Miyazaki Prefecture"
@@ -11,21 +10,21 @@ palette {
   green "#159939"
   yellow "#ffff01"
 }
-proportion hoist=1000 fly=1400
+proportion hoist=5 fly=7
 
 field green
 
 charge polygon yellow {
-  point fly=312.1094 hoist=215
-  point fly=703.8 hoist=215
-  point fly=574.6 hoist=405
-  point fly=954.6 hoist=405
-  point fly=825.4 hoist=595
-  point fly=1227.4219 hoist=595
-  point fly=1098.9062 hoist=770
-  point fly=695.4 hoist=770
-  point fly=824.6 hoist=580
-  point fly=444.6 hoist=580
-  point fly=573.8 hoist=390
-  point fly=183.5938 hoist=390
+  point fly=1.5605 hoist=1.075
+  point fly=3.519 hoist=1.075
+  point fly=2.873 hoist=2.025
+  point fly=4.773 hoist=2.025
+  point fly=4.127 hoist=2.975
+  point fly=6.1371 hoist=2.975
+  point fly=5.4945 hoist=3.85
+  point fly=3.477 hoist=3.85
+  point fly=4.123 hoist=2.9
+  point fly=2.223 hoist=2.9
+  point fly=2.869 hoist=1.95
+  point fly=0.9167 hoist=1.95
 }

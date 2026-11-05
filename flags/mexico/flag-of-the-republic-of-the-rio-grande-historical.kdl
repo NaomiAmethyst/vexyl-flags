@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Republic of the Rio Grande (historical)"
@@ -9,52 +8,52 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#c60c30"
+  red "#c60c30"
   black "#000000"
   blue "#002664"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
-bars white pink black
+bars white red black
 
 panel {
   side hoist
-  width 300
+  width 1
   field blue
   charge polygon white {
-    point fly=150 hoist=229.8
-    point fly=168.72 hoist=282.84
-    point fly=224.88 hoist=282.84
-    point fly=181.2 hoist=317.16
-    point fly=196.8 hoist=370.2
-    point fly=150 hoist=339
-    point fly=103.2 hoist=370.2
-    point fly=118.8 hoist=317.16
-    point fly=75.12 hoist=282.84
-    point fly=131.28 hoist=282.84
+    point fly=0.5 hoist=0.766
+    point fly=0.5625 hoist=0.9428
+    point fly=0.75 hoist=0.9428
+    point fly=0.604 hoist=1.0572
+    point fly=0.656 hoist=1.234
+    point fly=0.5 hoist=1.13
+    point fly=0.344 hoist=1.234
+    point fly=0.396 hoist=1.0572
+    point fly=0.25 hoist=0.9428
+    point fly=0.4375 hoist=0.9428
   }
   charge polygon white {
-    point fly=150 hoist=52.8
-    point fly=168.72 hoist=105.84
-    point fly=224.88 hoist=105.84
-    point fly=181.2 hoist=140.16
-    point fly=196.8 hoist=193.2
-    point fly=150 hoist=162
-    point fly=103.2 hoist=193.2
-    point fly=118.8 hoist=140.16
-    point fly=75.12 hoist=105.84
-    point fly=131.28 hoist=105.84
+    point fly=0.5 hoist=0.176
+    point fly=0.5625 hoist=0.3528
+    point fly=0.75 hoist=0.3528
+    point fly=0.604 hoist=0.4672
+    point fly=0.656 hoist=0.644
+    point fly=0.5 hoist=0.54
+    point fly=0.344 hoist=0.644
+    point fly=0.396 hoist=0.4672
+    point fly=0.25 hoist=0.3528
+    point fly=0.4375 hoist=0.3528
   }
   charge polygon white {
-    point fly=150 hoist=406.8
-    point fly=168.72 hoist=459.84
-    point fly=224.88 hoist=459.84
-    point fly=181.2 hoist=494.16
-    point fly=196.8 hoist=547.2
-    point fly=150 hoist=516
-    point fly=103.2 hoist=547.2
-    point fly=118.8 hoist=494.16
-    point fly=75.12 hoist=459.84
-    point fly=131.28 hoist=459.84
+    point fly=0.5 hoist=1.356
+    point fly=0.5625 hoist=1.5328
+    point fly=0.75 hoist=1.5328
+    point fly=0.604 hoist=1.6472
+    point fly=0.656 hoist=1.824
+    point fly=0.5 hoist=1.72
+    point fly=0.344 hoist=1.824
+    point fly=0.396 hoist=1.6472
+    point fly=0.25 hoist=1.5328
+    point fly=0.4375 hoist=1.5328
   }
 }

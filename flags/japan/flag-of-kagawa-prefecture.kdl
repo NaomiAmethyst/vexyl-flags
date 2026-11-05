@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Kagawa Prefecture"
@@ -10,15 +9,15 @@ meta {
 palette {
   green "#005933"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field green
 
 charge svg {
   at center
-  fly 900
-  hoist 600
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><defs><clipPath id="a"><path d="M0 0h400v360H0z"></path></clipPath></defs><g clip-path="url(#a)" stroke-width="80" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 250 108)"><circle cx="-100" cy="400" r="340" stroke-width="80" stroke="#ffffff" fill="none"></circle><path d="M360 400A460 460 0 0 0 176 32m48 0A460 460 0 0 0 40 400" stroke-width="80" stroke="#ffffff" fill="none"></path></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><defs><clipPath id="a"><path d="M0 0h400v360H0z"></path></clipPath></defs><g stroke-width="80" fill="none" stroke="#ffffff" clip-path="url(#a)" transform="matrix(1 0 0 1 250 108)"><circle cy="400" r="340" cx="-100" stroke-width="80" fill="none" stroke="#ffffff"></circle><path d="M360 400A460 460 0 0 0 176 32m48 0A460 460 0 0 0 40 400" stroke-width="80" fill="none" stroke="#ffffff"></path></g></svg>
 """#
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tokyo Metropolis (symbol)"
@@ -11,14 +10,14 @@ palette {
   white "#ffffff"
   green "#199332"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field white
 
 charge path green {
   d "M450 130.9012C350.64 130.9012 270 211.5444 270 310.9084C270 310.931 270 310.9533 270 310.9759C366.8306 313.8392 444.5522 393.3127 444.6 490.8256C446.3971 490.8787 448.1901 490.9156 450 490.9156C451.8099 490.9156 453.6028 490.8787 455.4 490.8256C455.4478 393.3127 533.1694 313.8392 630 310.9759C630 310.9533 630 310.931 630 310.9084C630 211.5444 549.36 130.9012 450 130.9012Z"
   box "270 130.9012 360 360.0144"
-  fly 360
-  hoist 360.0144
-  at fly=450 hoist=310.9084
+  fly 1.2
+  hoist 1.2
+  at fly=1.5 hoist=1.0364
 }

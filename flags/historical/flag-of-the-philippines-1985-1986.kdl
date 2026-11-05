@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Philippines (1985–1986)"
@@ -9,204 +8,204 @@ meta {
 }
 palette {
   blue "#005c88"
-  pink "#bb133e"
+  red "#bb133e"
   white "#ffffff"
   yellow "#fcd116"
 }
-proportion hoist=90 fly=180
+proportion hoist=1 fly=2
 
 charge polygon blue {
   point fly=0 hoist=0
-  point fly=180 hoist=0
-  point fly=180 hoist=45
-  point fly=28 hoist=89
+  point fly=2 hoist=0
+  point fly=2 hoist=0.5
+  point fly=0.3111 hoist=0.9889
 }
 
-charge polygon pink {
-  point fly=28 hoist=45
-  point fly=180 hoist=45
-  point fly=180 hoist=90
-  point fly=0 hoist=90
+charge polygon red {
+  point fly=0.3111 hoist=0.5
+  point fly=2 hoist=0.5
+  point fly=2 hoist=1
+  point fly=0 hoist=1
 }
 
 chevrons white {
-  depth 77.942
+  depth 0.866
 }
 
 charge disc yellow {
-  radius 9
-  at fly=28 hoist=45
+  radius 0.1
+  at fly=0.3111 hoist=0.5
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=24.836 hoist=29.091
-  point fly=25.781 hoist=28.145
+  point fly=0.3111 hoist=0.5
+  point fly=0.276 hoist=0.3232
+  point fly=0.2865 hoist=0.3125
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=26.831 hoist=27.169
-  point fly=28 hoist=26
-  point fly=29.169 hoist=27.169
+  point fly=0.3111 hoist=0.5
+  point fly=0.2981 hoist=0.3019
+  point fly=0.3111 hoist=0.2889
+  point fly=0.3241 hoist=0.3019
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=30.219 hoist=28.145
-  point fly=31.164 hoist=29.091
+  point fly=0.3111 hoist=0.5
+  point fly=0.3358 hoist=0.3125
+  point fly=0.3463 hoist=0.3232
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=31.164 hoist=60.909
-  point fly=30.219 hoist=61.855
+  point fly=0.3111 hoist=0.5
+  point fly=0.3463 hoist=0.6768
+  point fly=0.3358 hoist=0.6875
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=29.169 hoist=62.831
-  point fly=28 hoist=64
-  point fly=26.831 hoist=62.831
+  point fly=0.3111 hoist=0.5
+  point fly=0.3241 hoist=0.6981
+  point fly=0.3111 hoist=0.7111
+  point fly=0.2981 hoist=0.6981
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=25.781 hoist=61.855
-  point fly=24.836 hoist=60.909
+  point fly=0.3111 hoist=0.5
+  point fly=0.2865 hoist=0.6875
+  point fly=0.276 hoist=0.6768
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=43.909 hoist=41.836
-  point fly=44.855 hoist=42.781
+  point fly=0.3111 hoist=0.5
+  point fly=0.4879 hoist=0.4648
+  point fly=0.4984 hoist=0.4753
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=45.831 hoist=43.831
-  point fly=47 hoist=45
-  point fly=45.831 hoist=46.169
+  point fly=0.3111 hoist=0.5
+  point fly=0.5092 hoist=0.487
+  point fly=0.5222 hoist=0.5
+  point fly=0.5092 hoist=0.513
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=44.855 hoist=47.219
-  point fly=43.909 hoist=48.164
+  point fly=0.3111 hoist=0.5
+  point fly=0.4984 hoist=0.5247
+  point fly=0.4879 hoist=0.5352
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=12.091 hoist=48.164
-  point fly=11.145 hoist=47.219
+  point fly=0.3111 hoist=0.5
+  point fly=0.1343 hoist=0.5352
+  point fly=0.1238 hoist=0.5247
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=10.169 hoist=46.169
-  point fly=9 hoist=45
-  point fly=10.169 hoist=43.831
+  point fly=0.3111 hoist=0.5
+  point fly=0.113 hoist=0.513
+  point fly=0.1 hoist=0.5
+  point fly=0.113 hoist=0.487
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=11.145 hoist=42.781
-  point fly=12.091 hoist=41.836
+  point fly=0.3111 hoist=0.5
+  point fly=0.1238 hoist=0.4753
+  point fly=0.1343 hoist=0.4648
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=37.0121 hoist=31.5134
-  point fly=38.3492 hoist=31.5126
+  point fly=0.3111 hoist=0.5
+  point fly=0.4112 hoist=0.35
+  point fly=0.4261 hoist=0.35
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=39.7818 hoist=31.565
-  point fly=41.435 hoist=31.565
-  point fly=41.435 hoist=33.2182
+  point fly=0.3111 hoist=0.5
+  point fly=0.442 hoist=0.3507
+  point fly=0.4604 hoist=0.3507
+  point fly=0.4604 hoist=0.3691
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=41.4874 hoist=34.6508
-  point fly=41.4866 hoist=35.9879
+  point fly=0.3111 hoist=0.5
+  point fly=0.461 hoist=0.385
+  point fly=0.461 hoist=0.4
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=18.9879 hoist=58.4866
-  point fly=17.6508 hoist=58.4874
+  point fly=0.3111 hoist=0.5
+  point fly=0.211 hoist=0.65
+  point fly=0.1961 hoist=0.65
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=16.2182 hoist=58.435
-  point fly=14.565 hoist=58.435
-  point fly=14.565 hoist=56.7818
+  point fly=0.3111 hoist=0.5
+  point fly=0.1802 hoist=0.6493
+  point fly=0.1618 hoist=0.6493
+  point fly=0.1618 hoist=0.6309
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=14.5126 hoist=55.3492
-  point fly=14.5134 hoist=54.0121
+  point fly=0.3111 hoist=0.5
+  point fly=0.1613 hoist=0.615
+  point fly=0.1613 hoist=0.6
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=41.4866 hoist=54.0121
-  point fly=41.4874 hoist=55.3492
+  point fly=0.3111 hoist=0.5
+  point fly=0.461 hoist=0.6
+  point fly=0.461 hoist=0.615
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=41.435 hoist=56.7818
-  point fly=41.435 hoist=58.435
-  point fly=39.7818 hoist=58.435
+  point fly=0.3111 hoist=0.5
+  point fly=0.4604 hoist=0.6309
+  point fly=0.4604 hoist=0.6493
+  point fly=0.442 hoist=0.6493
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=38.3492 hoist=58.4874
-  point fly=37.0121 hoist=58.4866
+  point fly=0.3111 hoist=0.5
+  point fly=0.4261 hoist=0.65
+  point fly=0.4112 hoist=0.65
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=14.5134 hoist=35.9879
-  point fly=14.5126 hoist=34.6508
+  point fly=0.3111 hoist=0.5
+  point fly=0.1613 hoist=0.4
+  point fly=0.1613 hoist=0.385
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=14.565 hoist=33.2182
-  point fly=14.565 hoist=31.565
-  point fly=16.2182 hoist=31.565
+  point fly=0.3111 hoist=0.5
+  point fly=0.1618 hoist=0.3691
+  point fly=0.1618 hoist=0.3507
+  point fly=0.1802 hoist=0.3507
 }
 
 charge polygon yellow {
-  point fly=28 hoist=45
-  point fly=17.6508 hoist=31.5126
-  point fly=18.9879 hoist=31.5134
+  point fly=0.3111 hoist=0.5
+  point fly=0.1961 hoist=0.35
+  point fly=0.211 hoist=0.35
 }
 
 charge star yellow {
-  radius 4.9999
-  inner 2
+  radius 0.0556
+  inner 0.0222
   rotate 18
-  at fly=63.942 hoist=45
+  at fly=0.7105 hoist=0.5
 }
 
 charge star yellow {
-  radius 4.9999
-  inner 2
+  radius 0.0556
+  inner 0.0222
   rotate -6
-  at fly=7.0005 hoist=77.8752
+  at fly=0.0778 hoist=0.8653
 }
 
 charge star yellow {
-  radius 4.9999
-  inner 2
+  radius 0.0556
+  inner 0.0222
   rotate -30
-  at fly=7.0005 hoist=12.1248
+  at fly=0.0778 hoist=0.1347
 }

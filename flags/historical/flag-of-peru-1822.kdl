@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Peru (1822)"
@@ -11,172 +10,172 @@ palette {
   white "#ffffff"
   yellow "#d4af37"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars red white red
 
 charge svg {
   at center
-  fly 900
-  hoist 600
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.542728 0.110419 -0.110419 0.542728 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.542728 0.110419 -0.110419 0.542728 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.553846 0 0 -0.553846 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.553846 0 0 -0.553846 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.542728 -0.110419 0.110419 -0.542728 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.542728 -0.110419 0.110419 -0.542728 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0 0.553846 -0.553846 0 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0 0.553846 -0.553846 0 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.110419 0.542728 -0.542728 -0.110419 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.110419 0.542728 -0.542728 -0.110419 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0 -0.553846 0.553846 0 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0 -0.553846 0.553846 0 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.110419 -0.542728 0.542728 0.110419 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.110419 -0.542728 0.542728 0.110419 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.391628 0.391628 -0.391628 0.391628 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.391628 0.391628 -0.391628 0.391628 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.305688 0.461844 -0.461844 0.305688 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.305688 0.461844 -0.461844 0.305688 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.391628 -0.391628 0.391628 -0.391628 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.391628 -0.391628 0.391628 -0.391628 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.305688 -0.461844 0.461844 -0.305688 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.305688 -0.461844 0.461844 -0.305688 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.391628 0.391628 -0.391628 -0.391628 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.391628 0.391628 -0.391628 -0.391628 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.461844 0.305688 -0.305688 -0.461844 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.461844 0.305688 -0.305688 -0.461844 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.391628 -0.391628 0.391628 0.391628 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.391628 -0.391628 0.391628 0.391628 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.461844 -0.305688 0.305688 0.461844 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.461844 -0.305688 0.305688 0.461844 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.511687 0.211948 -0.211948 0.511687 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.511687 0.211948 -0.211948 0.511687 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.459159 0.309707 -0.309707 0.459159 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.459159 0.309707 -0.309707 0.459159 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.511687 -0.211948 0.211948 -0.511687 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.511687 -0.211948 0.211948 -0.511687 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.459159 -0.309707 0.309707 -0.459159 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.459159 -0.309707 0.309707 -0.459159 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.211948 0.511687 -0.511687 -0.211948 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.211948 0.511687 -0.511687 -0.211948 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.309707 0.459159 -0.459159 -0.309707 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.309707 0.459159 -0.459159 -0.309707 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.211948 -0.511687 0.511687 0.211948 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.211948 -0.511687 0.511687 0.211948 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.309707 -0.459159 0.459159 0.309707 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.309707 -0.459159 0.459159 0.309707 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.211948 0.511687 -0.511687 0.211948 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.211948 0.511687 -0.511687 0.211948 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.105679 0.54367 -0.54367 0.105679 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.105679 0.54367 -0.54367 0.105679 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.211948 -0.511687 0.511687 -0.211948 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.211948 -0.511687 0.511687 -0.211948 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.105679 -0.54367 0.54367 -0.105679 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.105679 -0.54367 0.54367 -0.105679 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.511687 0.211948 -0.211948 -0.511687 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.511687 0.211948 -0.211948 -0.511687 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(-0.54367 0.105679 -0.105679 -0.54367 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(-0.54367 0.105679 -0.105679 -0.54367 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.511687 -0.211948 0.211948 0.511687 450 300)"/><path d="M -4,0 0,109.5 4,0" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.511687 -0.211948 0.211948 0.511687 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.54367 -0.105679 0.105679 0.54367 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.54367 -0.105679 0.105679 0.54367 450 300)"/><circle cx="0" cy="0" r="65" stroke-width="1.80555558" stroke="#d4af37" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke-opacity="1" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="M 41,-14 C 29.5,-24 15,-25.5 7,-18 A 140,50 10 0 0 8.5,8.5 C 8,8.5 7,9 6.5,9.5 A 80,50 10 0 1 4,-19 c 11,-9 26,-10 37,5" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="m 23,-17 c -6.5,0 -8,1.5 -11,4 -3,2.5 -4.5,2 -5,2.5 -0.5,0.5 0,2 1,1.5 1,-0.5 3,-1.5 6,-4 3,-2.5 6,-2.5 9,-2.5 9,0 14,7.5 15,7 C 39,-9 33,-17 23,-17" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="M 34.5,-8.5 C 28,-15.5 16,-16 11,-8 h 2 c 5,-8 17,-4.5 18,-1 v 1" stroke="none" fill-opacity="1" fill="#d4af37" transform="matrix(0.553846 0 0 0.553846 450 300)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.542728 0.110419 -0.110419 0.542728 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.542728 0.110419 -0.110419 0.542728 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.553846 0 0 -0.553846 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.553846 0 0 -0.553846 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.542728 -0.110419 0.110419 -0.542728 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.542728 -0.110419 0.110419 -0.542728 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0 0.553846 -0.553846 0 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0 0.553846 -0.553846 0 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.110419 0.542728 -0.542728 -0.110419 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.110419 0.542728 -0.542728 -0.110419 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0 -0.553846 0.553846 0 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0 -0.553846 0.553846 0 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.110419 -0.542728 0.542728 0.110419 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.110419 -0.542728 0.542728 0.110419 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.391628 0.391628 -0.391628 0.391628 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.391628 0.391628 -0.391628 0.391628 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.305688 0.461844 -0.461844 0.305688 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.305688 0.461844 -0.461844 0.305688 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.391628 -0.391628 0.391628 -0.391628 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.391628 -0.391628 0.391628 -0.391628 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.305688 -0.461844 0.461844 -0.305688 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.305688 -0.461844 0.461844 -0.305688 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.391628 0.391628 -0.391628 -0.391628 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.391628 0.391628 -0.391628 -0.391628 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.461844 0.305688 -0.305688 -0.461844 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.461844 0.305688 -0.305688 -0.461844 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.391628 -0.391628 0.391628 0.391628 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.391628 -0.391628 0.391628 0.391628 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.461844 -0.305688 0.305688 0.461844 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.461844 -0.305688 0.305688 0.461844 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.511687 0.211948 -0.211948 0.511687 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.511687 0.211948 -0.211948 0.511687 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.459159 0.309707 -0.309707 0.459159 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.459159 0.309707 -0.309707 0.459159 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.511687 -0.211948 0.211948 -0.511687 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.511687 -0.211948 0.211948 -0.511687 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.459159 -0.309707 0.309707 -0.459159 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.459159 -0.309707 0.309707 -0.459159 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.211948 0.511687 -0.511687 -0.211948 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.211948 0.511687 -0.511687 -0.211948 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.309707 0.459159 -0.459159 -0.309707 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.309707 0.459159 -0.459159 -0.309707 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.211948 -0.511687 0.511687 0.211948 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.211948 -0.511687 0.511687 0.211948 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.309707 -0.459159 0.459159 0.309707 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.309707 -0.459159 0.459159 0.309707 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.211948 0.511687 -0.511687 0.211948 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.211948 0.511687 -0.511687 0.211948 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.105679 0.54367 -0.54367 0.105679 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.105679 0.54367 -0.54367 0.105679 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.211948 -0.511687 0.511687 -0.211948 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.211948 -0.511687 0.511687 -0.211948 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.105679 -0.54367 0.54367 -0.105679 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.105679 -0.54367 0.54367 -0.105679 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.511687 0.211948 -0.211948 -0.511687 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.511687 0.211948 -0.211948 -0.511687 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(-0.54367 0.105679 -0.105679 -0.54367 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(-0.54367 0.105679 -0.105679 -0.54367 450 300)"/><path d="m -8,0 6,159.5 c 0,0 0,3 2,3 2,0 2,-3 2,-3 L 8,0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.511687 -0.211948 0.211948 0.511687 450 300)"/><path d="M -4,0 0,109.5 4,0" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.511687 -0.211948 0.211948 0.511687 450 300)"/><path d="m -4.5,53.5 c -5,21.5 6,36 0.5,55 -5.5,19 3,32 4,40 1,8 -5,11.5 -3,13 C -1,163 5,158 5.5,147 6,136 -1.5,131.25 5,108 11.5,84.75 1,77 8,56" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.54367 -0.105679 0.105679 0.54367 450 300)"/><path d="M -1,58 C -4,79 6,90.5 0,109 8,95 -2,81 3,59" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.54367 -0.105679 0.105679 0.54367 450 300)"/><circle cy="0" r="65" cx="0" stroke-opacity="1" stroke-width="1.80555558" fill-opacity="1" stroke-dasharray="none" fill="#d91023" stroke="#d4af37" stroke-miterlimit="4" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="M 41,-14 C 29.5,-24 15,-25.5 7,-18 A 140,50 10 0 0 8.5,8.5 C 8,8.5 7,9 6.5,9.5 A 80,50 10 0 1 4,-19 c 11,-9 26,-10 37,5" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="m 23,-17 c -6.5,0 -8,1.5 -11,4 -3,2.5 -4.5,2 -5,2.5 -0.5,0.5 0,2 1,1.5 1,-0.5 3,-1.5 6,-4 3,-2.5 6,-2.5 9,-2.5 9,0 14,7.5 15,7 C 39,-9 33,-17 23,-17" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.553846 0 0 0.553846 450 300)"/><path d="M 34.5,-8.5 C 28,-15.5 16,-16 11,-8 h 2 c 5,-8 17,-4.5 18,-1 v 1" fill-opacity="1" fill="#d4af37" stroke="none" transform="matrix(0.553846 0 0 0.553846 450 300)"/></svg>
 """#
 }
 
 charge disc yellow {
-  radius 2.4923
-  at fly=462.1846 hoist=295.0154
+  radius 0.0083
+  at fly=1.5406 hoist=0.9834
   anchor center
 }
 
 charge path yellow {
   d "M456.0923 295.5692C458.8615 298.0615 464.9538 298.3385 469.1077 295.2923L467.1692 295.0154C464.4 298.0615 459.9692 297.7846 457.2 295.5692L457.2 295.0154"
   box "456.0923 295.0154 13.0154 3.3231"
-  fly 13.0154
-  hoist 3.3231
-  at fly=462.6 hoist=296.6769
+  fly 0.0434
+  hoist 0.0111
+  at fly=1.542 hoist=0.9889
   anchor center
 }
 
 charge path yellow {
   d "M469.3846 296.6769C464.6769 300.2769 459.9692 300 457.2 298.3385C454.4308 296.6769 454.4308 296.1231 454.9846 296.1231C455.5385 296.1231 456.0923 296.6769 458.3077 297.7846C460.5231 298.8923 463.8462 298.8923 469.3846 296.6769"
   box "454.4308 296.1231 14.9538 4.1538"
-  fly 14.9538
-  hoist 4.1538
-  at fly=461.9077 hoist=298.2
+  fly 0.05
+  hoist 0.0138
+  at fly=1.5397 hoist=0.994
   anchor center
 }
 
 charge path yellow {
   d "M455.8154 304.9846A1.6615 1.6615 0 1 1 453.6 306.6462C453.3231 307.2 452.2154 308.8615 450 308.8615L449.4462 308.8615L450 309.6923C450.5538 309.6923 452.2154 309.6923 453.3231 308.8615A2.4923 2.4923 0 1 0 455.8154 304.9846"
   box "449.4462 302.4923 8.8615 7.2"
-  fly 8.8615
-  hoist 7.2
-  at fly=453.8769 hoist=306.0923
+  fly 0.0295
+  hoist 0.024
+  at fly=1.5129 hoist=1.0203
   anchor center
 }
 
 charge path yellow {
   d "M459.1385 316.6154C456.6462 314.9538 455.5385 312.4615 452.7692 312.4615C452.2154 312.4615 451.1077 312.7385 450 313.2923L449.4462 313.2923L450 314.1231C451.1077 314.1231 452.7692 312.7385 454.7077 313.8462C456.6462 314.9538 457.7538 316.0615 459.1385 316.6154"
   box "449.4462 312.4615 9.6923 4.1538"
-  fly 9.6923
-  hoist 4.1538
-  at fly=454.2923 hoist=314.5385
+  fly 0.0323
+  hoist 0.0138
+  at fly=1.5143 hoist=1.0485
 }
 
 charge path yellow {
   d "M458.3077 316.6154C452.7692 314.9538 451.6615 316.0615 450 316.0615L449.4462 316.0615L450 317.1692C452.2154 317.1692 453.3231 315.5077 458.3077 316.6154"
   box "449.4462 314.9538 8.8615 2.2154"
-  fly 8.8615
-  hoist 2.2154
-  at fly=453.8769 hoist=316.0615
+  fly 0.0295
+  hoist 0.0074
+  at fly=1.5129 hoist=1.0535
 }
 
 charge path yellow {
   d "M459.1385 316.6154C453.0462 316.0615 454.9846 319.6615 450 319.6615L449.4462 319.6615L450 320.4923C456.0923 320.4923 453.3231 317.1692 459.1385 316.6154"
   box "449.4462 316.0615 9.6923 4.4308"
-  fly 9.6923
-  hoist 4.4308
-  at fly=454.2923 hoist=318.2769
+  fly 0.0323
+  hoist 0.0148
+  at fly=1.5143 hoist=1.0609
 }
 
 charge crescent yellow {
-  radius 4.9846
-  inner 5.1231
-  offset 1.183
+  radius 0.0166
+  inner 0.0171
+  offset 0.0039
   rotate 90
-  at fly=450 hoist=325.4769
+  at fly=1.5 hoist=1.0849
 }
 
 charge path yellow {
   d "M427.2923 292.2462C433.6615 286.7077 441.6923 285.8769 446.1231 290.0308A77.5385 27.6923 170 0 1 445.2923 304.7077C445.5692 304.7077 446.1231 304.9846 446.4 305.2615A44.3077 27.6923 170 0 0 447.7846 289.4769C441.6923 284.4923 433.3846 283.9385 427.2923 292.2462"
   box "367.7538 261.7846 155.0769 70.6154"
-  fly 155.0769
-  hoist 70.6154
-  at fly=445.2923 hoist=297.0923
+  fly 0.5169
+  hoist 0.2354
+  at fly=1.4843 hoist=0.9903
   anchor center
 }
 
 charge path yellow {
   d "M437.2615 290.5846C440.8615 290.5846 441.6923 291.4154 443.3538 292.8C445.0154 294.1846 445.8462 293.9077 446.1231 294.1846C446.4 294.4615 446.1231 295.2923 445.5692 295.0154C445.0154 294.7385 443.9077 294.1846 442.2462 292.8C440.5846 291.4154 438.9231 291.4154 437.2615 291.4154C432.2769 291.4154 429.5077 295.5692 428.9538 295.2923C428.4 295.0154 431.7231 290.5846 437.2615 290.5846"
   box "428.4 290.5846 18 4.9846"
-  fly 18
-  hoist 4.9846
-  at fly=437.4 hoist=293.0769
+  fly 0.06
+  hoist 0.0166
+  at fly=1.458 hoist=0.9769
   anchor center
 }
 
 charge path yellow {
   d "M430.8923 295.2923C434.4923 291.4154 441.1385 291.1385 443.9077 295.5692L442.8 295.5692C440.0308 291.1385 433.3846 293.0769 432.8308 295.0154L432.8308 295.5692"
   box "430.8923 291.1385 13.0154 4.4308"
-  fly 13.0154
-  hoist 4.4308
-  at fly=437.4 hoist=293.3538
+  fly 0.0434
+  hoist 0.0148
+  at fly=1.458 hoist=0.9778
   anchor center
 }
 
 charge disc yellow {
-  radius 2.4923
-  at fly=437.8154 hoist=295.0154
+  radius 0.0083
+  at fly=1.4594 hoist=0.9834
   anchor center
 }
 
 charge path yellow {
   d "M443.9077 295.5692C441.1385 298.0615 435.0462 298.3385 430.8923 295.2923L432.8308 295.0154C435.6 298.0615 440.0308 297.7846 442.8 295.5692L442.8 295.0154"
   box "430.8923 295.0154 13.0154 3.3231"
-  fly 13.0154
-  hoist 3.3231
-  at fly=437.4 hoist=296.6769
+  fly 0.0434
+  hoist 0.0111
+  at fly=1.458 hoist=0.9889
   anchor center
 }
 
 charge path yellow {
   d "M430.6154 296.6769C435.3231 300.2769 440.0308 300 442.8 298.3385C445.5692 296.6769 445.5692 296.1231 445.0154 296.1231C444.4615 296.1231 443.9077 296.6769 441.6923 297.7846C439.4769 298.8923 436.1538 298.8923 430.6154 296.6769"
   box "430.6154 296.1231 14.9538 4.1538"
-  fly 14.9538
-  hoist 4.1538
-  at fly=438.0923 hoist=298.2
+  fly 0.05
+  hoist 0.0138
+  at fly=1.4603 hoist=0.994
   anchor center
 }
 
 charge path yellow {
   d "M444.1846 304.9846A1.6615 1.6615 180 1 0 446.4 306.6462C446.6769 307.2 447.7846 308.8615 450 308.8615L450.5538 308.8615L450 309.6923C449.4462 309.6923 447.7846 309.6923 446.6769 308.8615A2.4923 2.4923 180 1 1 444.1846 304.9846"
   box "441.6923 302.4923 8.8615 7.2"
-  fly 8.8615
-  hoist 7.2
-  at fly=446.1231 hoist=306.0923
+  fly 0.0295
+  hoist 0.024
+  at fly=1.4871 hoist=1.0203
   anchor center
 }
 
 charge path yellow {
   d "M440.8615 316.6154C443.3538 314.9538 444.4615 312.4615 447.2308 312.4615C447.7846 312.4615 448.8923 312.7385 450 313.2923L450.5538 313.2923L450 314.1231C448.8923 314.1231 447.2308 312.7385 445.2923 313.8462C443.3538 314.9538 442.2462 316.0615 440.8615 316.6154"
   box "440.8615 312.4615 9.6923 4.1538"
-  fly 9.6923
-  hoist 4.1538
-  at fly=445.7077 hoist=314.5385
+  fly 0.0323
+  hoist 0.0138
+  at fly=1.4857 hoist=1.0485
 }
 
 charge path yellow {
   d "M441.6923 316.6154C447.2308 314.9538 448.3385 316.0615 450 316.0615L450.5538 316.0615L450 317.1692C447.7846 317.1692 446.6769 315.5077 441.6923 316.6154"
   box "441.6923 314.9538 8.8615 2.2154"
-  fly 8.8615
-  hoist 2.2154
-  at fly=446.1231 hoist=316.0615
+  fly 0.0295
+  hoist 0.0074
+  at fly=1.4871 hoist=1.0535
 }
 
 charge path yellow {
   d "M440.8615 316.6154C446.9538 316.0615 445.0154 319.6615 450 319.6615L450.5538 319.6615L450 320.4923C443.9077 320.4923 446.6769 317.1692 440.8615 316.6154"
   box "440.8615 316.0615 9.6923 4.4308"
-  fly 9.6923
-  hoist 4.4308
-  at fly=445.7077 hoist=318.2769
+  fly 0.0323
+  hoist 0.0148
+  at fly=1.4857 hoist=1.0609
 }
 
 charge crescent yellow {
-  radius 4.9846
-  inner 5.1231
-  offset 1.183
+  radius 0.0166
+  inner 0.0171
+  offset 0.0039
   rotate 90
-  at fly=450 hoist=325.4769
+  at fly=1.5 hoist=1.0849
 }

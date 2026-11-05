@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Shimazu Lords of Kagoshima in Satsuma Province (A)"
@@ -11,15 +10,15 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=700 fly=900
+proportion hoist=7 fly=9
 
 field white
 
 charge path black {
   d "M450 100.28C312.58 100.28 200.28 212.58 200.28 350C200.28 487.42 312.58 599.72 450 599.72C587.42 599.72 699.72 487.42 699.72 350C699.72 212.58 587.42 100.28 450 100.28ZM407.5 190.76L407.5 307.5L290.76 307.5A163.84 163.84 0 0 1 407.5 190.76ZM492.5 190.76A163.84 163.84 0 0 1 609.24 307.5L492.5 307.5L492.5 190.76ZM290.76 392.5L407.5 392.5L407.5 509.24A163.84 163.84 0 0 1 290.76 392.5ZM492.5 392.5L609.24 392.5A163.84 163.84 0 0 1 492.5 509.24L492.5 392.5Z"
   box "126.92 26.92 646.16 646.16"
-  fly 646.16
-  hoist 646.16
+  fly 6.4616
+  hoist 6.4616
   evenodd
-  at fly=450 hoist=350
+  at center
 }

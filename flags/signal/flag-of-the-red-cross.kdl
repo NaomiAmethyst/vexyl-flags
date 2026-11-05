@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Red Cross"
@@ -18,13 +17,11 @@ field white
 charge rect red {
   fly 66
   hoist 20
-  at fly=75 hoist=50
-  anchor center
+  at center
 }
 
 charge rect red {
   fly 20
   hoist 66
-  at fly=75 hoist=50
-  anchor center
+  at center
 }

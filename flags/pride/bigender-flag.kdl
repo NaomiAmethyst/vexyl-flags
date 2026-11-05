@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Bigender Flag"
@@ -9,12 +8,12 @@ meta {
 }
 palette {
   pink "#c479a2"
-  pink-2 "#eda5cd"
+  light-pink "#eda5cd"
   purple "#d5c7e8"
   white "#ffffff"
   blue "#9ac7e8"
-  blue-2 "#6d82d1"
+  dark-blue "#6d82d1"
 }
-proportion hoist=308 fly=512
+proportion hoist=1 fly=1.6623
 
-bars pink pink-2 purple white purple blue blue-2
+bars pink light-pink purple white purple blue dark-blue

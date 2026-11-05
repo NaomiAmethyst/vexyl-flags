@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Libya"
@@ -13,26 +12,25 @@ palette {
   green "#239e46"
   white "#ffffff"
 }
-proportion hoist=480 fly=960
+proportion hoist=1 fly=2
 
 bars red black green {
   ratio 1 2 1
 }
 
 charge disc white {
-  radius 60
-  at fly=480 hoist=240
-  anchor center
+  radius 0.125
+  at center
 }
 
 charge disc black {
-  radius 52.132
-  at fly=492.132 hoist=240
+  radius 0.1086
+  at fly=1.0253 hoist=0.5
   anchor center
 }
 
 charge star white {
-  radius 44.6098
+  radius 0.0929
   rotate -18
-  at fly=553.7852 hoist=240
+  at fly=1.1537 hoist=0.5
 }

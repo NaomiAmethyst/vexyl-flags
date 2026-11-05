@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Ghana (1964-1966)"
@@ -12,11 +11,11 @@ palette {
   green "#006b3f"
   black "#000000"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars red white green
 
 charge star black {
-  radius 110.5582
-  at fly=450 hoist=310.556
+  radius 0.3685
+  at fly=1.5 hoist=1.0352
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Proposed flag of Germany (Paul Wentzcke)"
@@ -12,7 +11,7 @@ palette {
   red "#cc0000"
   yellow "#ffcc00"
 }
-proportion hoist=439 fly=714
+proportion hoist=1 fly=1.6264
 
 bars black red yellow {
   along hoist

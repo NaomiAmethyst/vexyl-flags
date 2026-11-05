@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Saba"
@@ -12,19 +11,17 @@ palette {
   white "#ffffff"
   yellow "#f9d90f"
 }
-proportion hoist=1000 fly=1500
+proportion hoist=2 fly=3
 
 bars red blue
 
 charge lozenge white {
-  fly 1500
-  hoist 1000
-  at fly=750 hoist=500
+  fly 3
+  hoist 2
+  at center
 }
 
 charge star yellow {
-  radius 283
-  inner 107.54
-  at fly=750 hoist=500
-  anchor center
+  radius 0.566
+  at center
 }

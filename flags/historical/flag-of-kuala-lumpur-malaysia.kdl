@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Kuala Lumpur, Malaysia"
@@ -13,31 +12,31 @@ palette {
   red "#dc241f"
   yellow "#ffd100"
 }
-proportion hoist=2688 fly=5376
+proportion hoist=21 fly=42
 
 bars white blue white
 
 charge rect red {
-  fly 5376
-  hoist 128
-  at fly=2688 hoist=192
-  at fly=2688 hoist=448
-  at fly=2688 hoist=704
-  at fly=2688 hoist=1984
-  at fly=2688 hoist=2240
-  at fly=2688 hoist=2496
+  fly 42
+  hoist 1
+  at fly=21 hoist=1.5
+  at fly=21 hoist=3.5
+  at fly=21 hoist=5.5
+  at fly=21 hoist=15.5
+  at fly=21 hoist=17.5
+  at fly=21 hoist=19.5
 }
 
 charge crescent yellow {
-  radius 336
-  inner 298.6667
-  offset 74.7437
-  at fly=1008 hoist=1344
+  radius 2.625
+  inner 2.3333
+  offset 0.5833
+  at fly=7.875 hoist=10.5
 }
 
 charge star yellow {
-  radius 279.9872
-  inner 111.9436
+  radius 2.1875
+  inner 0.875
   points 14
-  at fly=1343.8751 hoist=1344
+  at fly=10.5 hoist=10.5
 }

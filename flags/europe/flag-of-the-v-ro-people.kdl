@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Võro People"
@@ -11,89 +10,87 @@ palette {
   green "#1e4c0c"
   white "#ffffff"
 }
-proportion hoist=400 fly=600
+proportion hoist=200 fly=300
 
 field green
 
 charge rect white {
-  fly 100
-  hoist 300
-  at fly=300 hoist=200
-  anchor center
+  fly 50
+  hoist 150
+  at center
 }
 
 charge rect white {
-  fly 300
-  hoist 100
-  at fly=300 hoist=200
-  anchor center
+  fly 150
+  hoist 50
+  at center
 }
 
 cross green {
-  fly 294 12 294
-  hoist 194 12 194
+  fly 147 6 147
+  hoist 97 6 97
 }
 
 charge polygon green {
-  point fly=442 hoist=50
-  point fly=458 hoist=50
-  point fly=158 hoist=350
-  point fly=142 hoist=350
+  point fly=221 hoist=25
+  point fly=229 hoist=25
+  point fly=79 hoist=175
+  point fly=71 hoist=175
 }
 
 charge polygon green {
-  point fly=158 hoist=50
-  point fly=142 hoist=50
-  point fly=442 hoist=350
-  point fly=458 hoist=350
+  point fly=79 hoist=25
+  point fly=71 hoist=25
+  point fly=221 hoist=175
+  point fly=229 hoist=175
 }
 
 charge polygon green {
-  point fly=250 hoist=50
-  point fly=350 hoist=50
-  point fly=300 hoist=100
+  point fly=125 hoist=25
+  point fly=175 hoist=25
+  point fly=150 hoist=50
+}
+
+charge polygon green {
+  point fly=75 hoist=75
+  point fly=75 hoist=125
+  point fly=100 hoist=100
+}
+
+charge polygon green {
+  point fly=225 hoist=75
+  point fly=225 hoist=125
+  point fly=200 hoist=100
 }
 
 charge polygon green {
   point fly=150 hoist=150
-  point fly=150 hoist=250
-  point fly=200 hoist=200
+  point fly=125 hoist=175
+  point fly=125 hoist=186.375
+  point fly=175 hoist=186.375
+  point fly=175 hoist=175
 }
 
 charge polygon green {
-  point fly=450 hoist=150
-  point fly=450 hoist=250
-  point fly=400 hoist=200
+  point fly=150 hoist=50
+  point fly=125 hoist=25
+  point fly=125 hoist=13.625
+  point fly=175 hoist=13.625
+  point fly=175 hoist=25
 }
 
 charge polygon green {
-  point fly=300 hoist=300
-  point fly=250 hoist=350
-  point fly=250 hoist=372.8
-  point fly=350 hoist=372.8
-  point fly=350 hoist=350
+  point fly=200 hoist=100
+  point fly=225 hoist=125
+  point fly=236.375 hoist=125
+  point fly=236.375 hoist=75
+  point fly=225 hoist=75
 }
 
 charge polygon green {
-  point fly=300 hoist=100
-  point fly=250 hoist=50
-  point fly=250 hoist=27.2
-  point fly=350 hoist=27.2
-  point fly=350 hoist=50
-}
-
-charge polygon green {
-  point fly=400 hoist=200
-  point fly=450 hoist=250
-  point fly=472.8 hoist=250
-  point fly=472.8 hoist=150
-  point fly=450 hoist=150
-}
-
-charge polygon green {
-  point fly=200 hoist=200
-  point fly=150 hoist=250
-  point fly=127.2 hoist=250
-  point fly=127.2 hoist=150
-  point fly=150 hoist=150
+  point fly=100 hoist=100
+  point fly=75 hoist=125
+  point fly=63.625 hoist=125
+  point fly=63.625 hoist=75
+  point fly=75 hoist=75
 }

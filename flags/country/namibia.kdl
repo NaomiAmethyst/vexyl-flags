@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Namibia"
@@ -14,32 +13,32 @@ palette {
   red "#c8102e"
   yellow "#ffcd00"
 }
-proportion hoist=60 fly=90
+proportion hoist=4 fly=6
 
 pile blue {
-  tip 0 90
+  tip 0 6
 }
 
 pile green {
   from fly
-  tip 60 90
+  tip 4 6
 }
 
 band red {
   along bend-sinister
-  width 15
-  fimbriate white 2.5
+  width 1
+  fimbriate white 0.1667
 }
 
 charge star yellow {
-  radius 10
-  inner 6.0001
+  radius 0.6667
+  inner 0.4
   points 12
-  at fly=18 hoist=16.3413
+  at fly=1.2 hoist=1.0894
 }
 
 charge ring blue {
-  radius 6
-  inner 5
-  at fly=18 hoist=16.341
+  radius 0.4
+  inner 0.3333
+  at fly=1.2 hoist=1.0894
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Bavaria (striped)"
@@ -11,6 +10,6 @@ palette {
   white "#ffffff"
   blue "#0098d4"
 }
-proportion hoist=6 fly=10
+proportion hoist=3 fly=5
 
 bars white blue

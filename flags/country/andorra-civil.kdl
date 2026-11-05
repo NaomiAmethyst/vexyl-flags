@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Andorra (civil)"
@@ -10,11 +9,11 @@ meta {
 palette {
   blue "#0018a8"
   yellow "#fedf00"
-  pink "#d0103a"
+  red "#d0103a"
 }
-proportion hoist=700 fly=1000
+proportion hoist=7 fly=10
 
-bars blue yellow pink {
+bars blue yellow red {
   along hoist
   ratio 8 9 8
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Naval ensign of the Empire of Japan"
@@ -11,103 +10,103 @@ palette {
   red "#b0313f"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field red
 
 pile white {
   from top
-  base 115.8948 199.2616
-  tip 354.9761 291.3213
+  base 0.3863 0.6642
+  tip 1.1833 0.9711
 }
 
 pile white {
   from top
-  base 266.6047 326.2834
-  tip 354.9761 291.3213
+  base 0.8887 1.0876
+  tip 1.1833 0.9711
 }
 
 pile white {
   from top
-  base 383.6687 443.3475
-  tip 354.9761 291.3213
+  base 1.2789 1.4778
+  tip 1.1833 0.9711
 }
 
 pile white {
   from top
-  base 510.6906 594.0573
-  tip 354.9761 291.3213
+  base 1.7023 1.9802
+  tip 1.1833 0.9711
 }
 
 pile white {
   from top
-  base 709.9522 900
-  tip 354.9761 291.3213
+  base 2.3665 3
+  tip 1.1833 0.9711
 }
 
 pile white {
   from fly
-  base 129.7435 244.7207
-  tip 300 561.2605
+  base 0.4325 0.8157
+  tip 1 1.8709
 }
 
 pile white {
-  base 189.1113 263.9964
-  tip 300 365.5511
+  base 0.6304 0.88
+  tip 1 1.2185
 }
 
 pile white {
-  base 0 104.6089
-  tip 300 365.5511
-}
-
-pile white {
-  from bottom
-  base 115.8948 199.2616
-  tip 354.9761 291.3213
+  base 0 0.3487
+  tip 1 1.2185
 }
 
 pile white {
   from bottom
-  base 266.6047 326.2834
-  tip 354.9761 291.3213
+  base 0.3863 0.6642
+  tip 1.1833 0.9711
 }
 
 pile white {
   from bottom
-  base 383.6687 443.3475
-  tip 354.9761 291.3213
+  base 0.8887 1.0876
+  tip 1.1833 0.9711
 }
 
 pile white {
   from bottom
-  base 510.6906 594.0573
-  tip 354.9761 291.3213
+  base 1.2789 1.4778
+  tip 1.1833 0.9711
 }
 
 pile white {
   from bottom
-  base 709.9522 900
-  tip 354.9761 291.3213
+  base 1.7023 1.9802
+  tip 1.1833 0.9711
+}
+
+pile white {
+  from bottom
+  base 2.3665 3
+  tip 1.1833 0.9711
 }
 
 pile white {
   from fly
-  base 355.2793 470.2565
-  tip 300 561.2605
+  base 1.1843 1.5675
+  tip 1 1.8709
 }
 
 pile white {
-  base 336.0036 410.8887
-  tip 300 365.5511
+  base 1.12 1.3696
+  tip 1 1.2185
 }
 
 pile white {
-  base 495.3911 600
-  tip 300 365.5511
+  base 1.6513 2
+  tip 1 1.2185
 }
 
 charge disc red {
-  radius 150
-  at fly=350 hoist=300
+  radius 0.5
+  at fly=1.1667 hoist=1
 }

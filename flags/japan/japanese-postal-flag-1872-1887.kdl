@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Japanese postal flag, 1872-1887"
@@ -11,21 +10,19 @@ palette {
   white "#ffffff"
   red "#b0313f"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars white red white {
   ratio 13 4 13
 }
 
 charge disc red {
-  radius 88
-  at fly=450 hoist=300
-  anchor center
+  radius 0.2933
+  at center
 }
 
 charge ring white {
-  radius 89.75
-  inner 86.25
-  at fly=450 hoist=300
-  anchor center
+  radius 0.2992
+  inner 0.2875
+  at center
 }

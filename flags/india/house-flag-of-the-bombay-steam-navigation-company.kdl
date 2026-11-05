@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "House Flag of the Bombay Steam Navigation Company"
@@ -12,23 +11,23 @@ palette {
   black "#000000"
   red "#bd1c18"
 }
-proportion hoist=1200 fly=2399.9983
+proportion hoist=1 fly=2
 
 chevrons white {
-  depth 2403.091
+  depth 2.0026
   angle 14.0363
 }
 
 charge path black {
   d "M0 0L2399.998 600L0 1200L0 0M-1.5 -1.9211L-1.5 1201.9212L0.3638 1201.4553L2400.3622 601.4553L2406.1829 600L2400.3621 598.5447L0.3637 -1.4553L-1.5 -1.9211Z"
   box "-1.5 -1.9211 2407.6829 1203.8423"
-  fly 2407.6829
-  hoist 1203.8423
-  at fly=1202.3414 hoist=600
+  fly 2.0064
+  hoist 1.0032
+  at center
 }
 
 charge star red {
-  radius 207.4936
-  inner 82.9973
-  at fly=594.4543 hoist=619.8141
+  radius 0.1729
+  inner 0.0692
+  at fly=0.4954 hoist=0.5165
 }

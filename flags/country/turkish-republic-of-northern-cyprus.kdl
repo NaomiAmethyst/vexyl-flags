@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Turkish Republic of Northern Cyprus"
@@ -10,29 +9,29 @@ palette {
   white "#ffffff"
   red "#e30a17"
 }
-proportion hoist=600 fly=900
+proportion hoist=10 fly=15
 
 field white
 
 charge disc red {
-  radius 150
-  at fly=300 hoist=300
+  radius 2.5
+  at fly=5 hoist=5
 }
 
 charge disc white {
-  radius 120
-  at fly=337.5 hoist=300
+  radius 2
+  at fly=5.625 hoist=5
 }
 
 charge rect red {
-  fly 900
-  hoist 60
-  at fly=450 hoist=90
-  at fly=450 hoist=510
+  fly 15
+  hoist 1
+  at fly=7.5 hoist=1.5
+  at fly=7.5 hoist=8.5
 }
 
 charge star red {
-  radius 75
+  radius 1.25
   rotate -18
-  at fly=492.5 hoist=300
+  at fly=8.2083 hoist=5
 }

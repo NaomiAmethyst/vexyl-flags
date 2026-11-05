@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "ICS Answer"
@@ -12,30 +11,30 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=300 fly=540
+proportion hoist=5 fly=9
 
 charge polygon red {
-  point fly=1.25 hoist=1.25
-  point fly=538.75 hoist=76.25
-  point fly=538.75 hoist=223.75
-  point fly=1.25 hoist=298.75
+  point fly=0.0208 hoist=0.0208
+  point fly=8.9792 hoist=1.2708
+  point fly=8.9792 hoist=3.7292
+  point fly=0.0208 hoist=4.9792
 }
 
 charge polygon white {
-  point fly=108 hoist=16
-  point fly=108 hoist=284
-  point fly=216 hoist=269
-  point fly=216 hoist=31
-  point fly=324 hoist=46
-  point fly=324 hoist=254
-  point fly=432 hoist=239
-  point fly=432 hoist=61
+  point fly=1.8 hoist=0.2667
+  point fly=1.8 hoist=4.7333
+  point fly=3.6 hoist=4.4833
+  point fly=3.6 hoist=0.5167
+  point fly=5.4 hoist=0.7667
+  point fly=5.4 hoist=4.2333
+  point fly=7.2 hoist=3.9833
+  point fly=7.2 hoist=1.0167
 }
 
 charge polygon black {
-  point fly=1.25 hoist=1.25
-  point fly=538.75 hoist=76.25
-  point fly=538.75 hoist=223.75
-  point fly=1.25 hoist=298.75
-  hollow 2.5
+  point fly=0.0208 hoist=0.0208
+  point fly=8.9792 hoist=1.2708
+  point fly=8.9792 hoist=3.7292
+  point fly=0.0208 hoist=4.9792
+  hollow 0.0417
 }

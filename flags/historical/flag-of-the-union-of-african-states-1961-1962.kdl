@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Union of African States (1961-1962)"
@@ -13,45 +12,45 @@ palette {
   green "#006b3f"
   black "#000000"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars red yellow green
 
 charge polygon black {
-  point fly=210 hoist=200
-  point fly=185 hoist=276
-  point fly=105 hoist=276
-  point fly=170 hoist=324
-  point fly=145 hoist=400
-  point fly=210 hoist=353
-  point fly=275 hoist=400
-  point fly=250 hoist=324
-  point fly=315 hoist=276
-  point fly=235 hoist=276
+  point fly=0.7 hoist=0.6667
+  point fly=0.6167 hoist=0.92
+  point fly=0.35 hoist=0.92
+  point fly=0.5667 hoist=1.08
+  point fly=0.4833 hoist=1.3333
+  point fly=0.7 hoist=1.1767
+  point fly=0.9167 hoist=1.3333
+  point fly=0.8333 hoist=1.08
+  point fly=1.05 hoist=0.92
+  point fly=0.7833 hoist=0.92
 }
 
 charge polygon black {
-  point fly=450 hoist=200
-  point fly=425 hoist=276
-  point fly=345 hoist=276
-  point fly=410 hoist=324
-  point fly=385 hoist=400
-  point fly=450 hoist=353
-  point fly=515 hoist=400
-  point fly=490 hoist=324
-  point fly=555 hoist=276
-  point fly=475 hoist=276
+  point fly=1.5 hoist=0.6667
+  point fly=1.4167 hoist=0.92
+  point fly=1.15 hoist=0.92
+  point fly=1.3667 hoist=1.08
+  point fly=1.2833 hoist=1.3333
+  point fly=1.5 hoist=1.1767
+  point fly=1.7167 hoist=1.3333
+  point fly=1.6333 hoist=1.08
+  point fly=1.85 hoist=0.92
+  point fly=1.5833 hoist=0.92
 }
 
 charge polygon black {
-  point fly=690 hoist=200
-  point fly=665 hoist=276
-  point fly=585 hoist=276
-  point fly=650 hoist=324
-  point fly=625 hoist=400
-  point fly=690 hoist=353
-  point fly=755 hoist=400
-  point fly=730 hoist=324
-  point fly=795 hoist=276
-  point fly=715 hoist=276
+  point fly=2.3 hoist=0.6667
+  point fly=2.2167 hoist=0.92
+  point fly=1.95 hoist=0.92
+  point fly=2.1667 hoist=1.08
+  point fly=2.0833 hoist=1.3333
+  point fly=2.3 hoist=1.1767
+  point fly=2.5167 hoist=1.3333
+  point fly=2.4333 hoist=1.08
+  point fly=2.65 hoist=0.92
+  point fly=2.3833 hoist=0.92
 }

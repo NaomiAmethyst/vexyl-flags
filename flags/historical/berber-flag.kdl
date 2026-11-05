@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Berber flag"
@@ -11,31 +10,31 @@ palette {
   blue "#0090da"
   green "#78be20"
   yellow "#fedd00"
-  pink "#cc0033"
+  red "#cc0033"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars blue green yellow
 
-charge polygon pink {
-  point fly=429.675 hoist=477.64
-  point fly=458.13 hoist=507.721
-  point fly=466.26 hoist=97.9695
-  point fly=450 hoist=80.8966
+charge polygon red {
+  point fly=1.4323 hoist=1.5921
+  point fly=1.5271 hoist=1.6924
+  point fly=1.5542 hoist=0.3266
+  point fly=1.5 hoist=0.2697
 }
 
-charge path pink {
+charge path red {
   d "M657.315 515.851L711.7861 492.2741C606.9091 388.2101 546.7471 349.9991 447.5611 347.5601C321.5461 356.5032 239.4331 406.909 204.4741 506.9081L228.8639 502.0302C328.863 378.4543 385.7729 392.2752 449.1869 384.9582C516.666 387.3973 585.7709 431.2991 657.3149 515.8512L657.3149 515.8509Z"
   box "204.4741 347.5601 507.312 168.2911"
-  fly 507.312
-  hoist 168.2911
-  at fly=458.1301 hoist=431.7057
+  fly 1.691
+  hoist 0.561
+  at fly=1.5271 hoist=1.439
 }
 
-charge path pink {
+charge path red {
   d "M289.839 93.0917L237.807 106.9126C288.2128 196.3424 360.57 250.8136 453.252 254.8786C576.015 255.6915 646.746 172.7657 695.526 97.9696L654.0629 110.1647C575.202 221.5457 489.8369 225.6107 451.6259 219.9197C387.3988 215.0419 334.5539 162.1966 289.8389 93.0917Z"
   box "237.807 93.0917 457.719 162.5998"
-  fly 457.719
-  hoist 162.5998
-  at fly=466.6665 hoist=174.3916
+  fly 1.5257
+  hoist 0.542
+  at fly=1.5556 hoist=0.5813
 }

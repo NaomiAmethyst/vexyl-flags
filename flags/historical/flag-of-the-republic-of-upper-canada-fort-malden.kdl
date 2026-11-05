@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Republic of Upper Canada (Fort Malden)"
@@ -12,7 +11,7 @@ palette {
   white "#ffffff"
   red "#cc152a"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars blue white red {
   along hoist
@@ -21,15 +20,14 @@ bars blue white red {
 charge path white {
   d "M93.75 450.9A56.25 56.25 0 0 0 37.5 507.15A56.25 56.25 0 0 0 93.75 563.4A56.25 56.25 0 0 0 135 545.3934A42.1875 42.1875 0 0 1 117.1875 549.3375A42.1875 42.1875 0 0 1 75 507.15A42.1875 42.1875 0 0 1 117.1875 464.9625A42.1875 42.1875 0 0 1 135 468.9075A56.25 56.25 0 0 0 93.75 450.9Z"
   box "-18.75 394.65 210 225"
-  fly 210
-  hoist 225
-  at fly=86.25 hoist=507.15
+  fly 0.7
+  hoist 0.75
+  at fly=0.2875 hoist=1.6905
 }
 
 charge star white {
-  radius 56.25
-  inner 21.375
+  radius 0.1875
   rotate -18
-  at fly=93.75 hoist=93.75
-  at fly=93.75 hoist=300
+  at fly=0.3125 hoist=0.3125
+  at fly=0.3125 hoist=1
 }

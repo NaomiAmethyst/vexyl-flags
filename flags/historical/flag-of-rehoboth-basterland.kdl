@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Rehoboth-Basterland"
@@ -19,13 +18,11 @@ field black
 charge rect red {
   fly 7
   hoist 4
-  at fly=4.5 hoist=3
-  anchor center
+  at center
 }
 
 charge rect white {
   fly 5
   hoist 2
-  at fly=4.5 hoist=3
-  anchor center
+  at center
 }

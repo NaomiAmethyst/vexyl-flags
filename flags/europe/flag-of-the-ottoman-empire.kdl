@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Ottoman Empire"
@@ -11,23 +10,23 @@ palette {
   red "#e30a17"
   white "#ffffff"
 }
-proportion hoist=800 fly=1200
+proportion hoist=2 fly=3
 
 field red
 
 charge disc white {
-  radius 225
-  at fly=425 hoist=400
+  radius 0.5625
+  at fly=1.0625 hoist=1
 }
 
 charge disc red {
-  radius 180
-  at fly=500 hoist=400
+  radius 0.45
+  at fly=1.25 hoist=1
 }
 
 charge star white {
-  radius 109.5094
-  inner 45.9939
+  radius 0.2738
+  inner 0.115
   rotate -18
-  at fly=698.569 hoist=400.5279
+  at fly=1.7464 hoist=1.0013
 }

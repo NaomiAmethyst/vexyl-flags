@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Belarusian Pride Flag (White-Red-White)"
@@ -17,54 +16,54 @@ palette {
   brown "#784f17"
   black "#000000"
 }
-proportion hoist=600 fly=1200
+proportion hoist=42 fly=84
 
 field white
 
 charge rect pink {
-  fly 642.8571
-  hoist 200
-  at fly=621.4286 hoist=300
+  fly 45
+  hoist 14
+  at fly=43.5 hoist=21
 }
 
 charge rect blue {
-  fly 514.2858
-  hoist 200
-  at fly=557.1429 hoist=300
+  fly 36
+  hoist 14
+  at fly=39 hoist=21
 }
 
 charge rect green {
-  fly 385.7143
-  hoist 200
-  at fly=492.8572 hoist=300
+  fly 27
+  hoist 14
+  at fly=34.5 hoist=21
 }
 
 charge rect yellow {
-  fly 257.1428
-  hoist 200
-  at fly=428.5714 hoist=300
+  fly 18
+  hoist 14
+  at fly=30 hoist=21
 }
 
 charge rect orange {
-  fly 128.5714
-  hoist 200
-  at fly=364.2857 hoist=300
+  fly 9
+  hoist 14
+  at fly=25.5 hoist=21
 }
 
 charge rect red {
-  fly 300
-  hoist 200
-  at fly=150 hoist=300
+  fly 21
+  hoist 14
+  at fly=10.5 hoist=21
 }
 
 charge rect brown {
-  fly 257.1428
-  hoist 200
-  at fly=1071.4286 hoist=300
+  fly 18
+  hoist 14
+  at fly=75 hoist=21
 }
 
 charge rect black {
-  fly 128.5714
-  hoist 200
-  at fly=1007.1429 hoist=300
+  fly 9
+  hoist 14
+  at fly=70.5 hoist=21
 }

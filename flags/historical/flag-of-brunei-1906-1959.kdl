@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Brunei 1906-1959"
@@ -12,20 +11,20 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=72 fly=144
+proportion hoist=1 fly=2
 
 field yellow
 
 charge polygon white {
   point fly=0 hoist=0
-  point fly=144 hoist=34.8387
-  point fly=144 hoist=56.0206
-  point fly=0 hoist=21.182
+  point fly=2 hoist=0.4839
+  point fly=2 hoist=0.7781
+  point fly=0 hoist=0.2942
 }
 
 charge polygon black {
-  point fly=0 hoist=19.7419
-  point fly=144 hoist=54.5806
-  point fly=144 hoist=72
-  point fly=0 hoist=37.1613
+  point fly=0 hoist=0.2742
+  point fly=2 hoist=0.7581
+  point fly=2 hoist=1
+  point fly=0 hoist=0.5161
 }

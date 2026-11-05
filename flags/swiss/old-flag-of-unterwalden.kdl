@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Old flag of Unterwalden"
@@ -10,6 +9,6 @@ palette {
   red "#d2232c"
   white "#ffffff"
 }
-proportion hoist=220 fly=220
+proportion hoist=1 fly=1
 
 bars red white

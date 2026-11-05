@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Andean Community of Nations"
@@ -11,15 +10,15 @@ palette {
   white "#ffffff"
   yellow "#ffdd00"
 }
-proportion hoist=216 fly=336
+proportion hoist=9 fly=14
 
 field white
 
 charge path yellow {
   d "M168 71.5C128.0557 71.5 95.5 103.0489 95.5 142L95.5 145.5L165.5 145.5L165.5 100.5L149.5 100.5L149.5 109.5L140.5 109.5L140.5 118.5L131.5 118.5L131.5 127.5L117.7188 127.5C119.9314 107.0927 141.2356 90.5 168 90.5S216.0686 107.0927 218.2812 127.5L204.5 127.5L204.5 118.5L195.5 118.5L195.5 109.5L186.5 109.5L186.5 100.5L170.5 100.5L170.5 145.5L240.5 145.5L240.5 142C240.5 103.0489 207.9443 71.5 168 71.5ZM168 78.5C203.0484 78.5 231.4388 105.081 233.3184 138.5L177.5 138.5L177.5 107.5L179.5 107.5L179.5 116.5L188.5 116.5L188.5 125.5L197.5 125.5L197.5 134.5L225.5 134.5L225.5 131C225.5 104.3781 199.3646 83.5 168 83.5S110.5 104.3781 110.5 131L110.5 134.5L138.5 134.5L138.5 125.5L147.5 125.5L147.5 116.5L156.5 116.5L156.5 107.5L158.5 107.5L158.5 138.5L102.6816 138.5C104.5612 105.081 132.9516 78.5 168 78.5Z"
   box "95.5 71.5 145 74"
-  fly 145
-  hoist 74
-  at fly=168 hoist=108.5
+  fly 6.0417
+  hoist 3.0833
+  at fly=7 hoist=4.5208
   anchor center
 }

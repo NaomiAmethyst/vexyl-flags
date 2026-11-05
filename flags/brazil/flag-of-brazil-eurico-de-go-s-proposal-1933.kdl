@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Brazil (Eurico de Goís' proposal, 1933)"
@@ -14,246 +13,219 @@ palette {
   white "#ffffff"
   blue "#302681"
 }
-proportion hoist=2940 fly=4200
+proportion hoist=7 fly=10
 
 field green
 
 charge lozenge yellow {
-  fly 4200
-  hoist 2940
-  at fly=2100 hoist=1470
+  fly 10
+  hoist 7
+  at center
 }
 
 charge polygon red {
-  point fly=1915.7317 hoist=611.6636
-  point fly=1915.7317 hoist=1285.7221
-  point fly=1241.6732 hoist=1285.7221
-  point fly=1071.0033 hoist=1052.944
-  point fly=1071.0033 hoist=1887.0555
-  point fly=1241.6732 hoist=1654.2834
-  point fly=1915.7317 hoist=1654.2834
-  point fly=1915.7317 hoist=2328.3299
-  point fly=1682.9476 hoist=2498.9997
-  point fly=2517.0531 hoist=2498.9997
-  point fly=2288.345 hoist=2328.3299
-  point fly=2288.345 hoist=1654.2834
-  point fly=2958.3395 hoist=1654.2834
-  point fly=3128.9973 hoist=1887.0555
-  point fly=3128.9973 hoist=1052.944
-  point fly=2958.3395 hoist=1285.7221
-  point fly=2288.345 hoist=1285.7221
-  point fly=2288.345 hoist=611.6636
-  point fly=2517.0531 hoist=440.9997
-  point fly=1682.9476 hoist=440.9997
+  point fly=4.5625 hoist=1.4563
+  point fly=4.5625 hoist=3.0625
+  point fly=2.9564 hoist=3.0625
+  point fly=2.55 hoist=2.507
+  point fly=2.55 hoist=4.493
+  point fly=2.9564 hoist=3.9375
+  point fly=4.5625 hoist=3.9375
+  point fly=4.5625 hoist=5.5436
+  point fly=4.007 hoist=5.95
+  point fly=5.993 hoist=5.95
+  point fly=5.45 hoist=5.5436
+  point fly=5.45 hoist=3.9375
+  point fly=7.0437 hoist=3.9375
+  point fly=7.45 hoist=4.493
+  point fly=7.45 hoist=2.507
+  point fly=7.0437 hoist=3.0625
+  point fly=5.45 hoist=3.0625
+  point fly=5.45 hoist=1.4563
+  point fly=5.993 hoist=1.05
+  point fly=4.007 hoist=1.05
 }
 
 charge svg {
   at center
-  fly 4200
-  hoist 2940
+  fly 10
+  hoist 7
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4200 2940"><polygon points="10190.51,17079.99 10190.51,18201.21 9069.29,18201.21 8785.4,17814.01 8785.4,19201.46 9069.29,18814.27 10190.51,18814.27 10190.51,19935.47 9803.3,20219.36 11190.74,20219.36 10810.31,19935.47 10810.31,18814.27 11924.77,18814.27 12208.64,19201.46 12208.64,17814.01 11924.77,18201.21 10810.31,18201.21 10810.31,17079.99 11190.74,16796.11 9803.3,16796.11 " stroke-width="21.17" stroke="none" fill-rule="evenodd" stroke-miterlimit="22.9256" clip-rule="evenodd" fill="none" transform="matrix(0.601183 0 0 0.601183 -4210.630585 -9656.537583)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4200 2940"><polygon points="10190.51,17079.99 10190.51,18201.21 9069.29,18201.21 8785.4,17814.01 8785.4,19201.46 9069.29,18814.27 10190.51,18814.27 10190.51,19935.47 9803.3,20219.36 11190.74,20219.36 10810.31,19935.47 10810.31,18814.27 11924.77,18814.27 12208.64,19201.46 12208.64,17814.01 11924.77,18201.21 10810.31,18201.21 10810.31,17079.99 11190.74,16796.11 9803.3,16796.11 " fill-rule="evenodd" stroke-width="21.17" clip-rule="evenodd" fill="none" stroke="none" stroke-miterlimit="22.9256" transform="matrix(0.601183 0 0 0.601183 -4210.630585 -9656.537583)"/></svg>
 """#
 }
 
 charge polygon white {
-  point fly=1241.6732 hoist=1373.2303
-  point fly=1241.6732 hoist=1566.7632
-  point fly=2003.2399 hoist=1566.7632
-  point fly=2003.2399 hoist=2328.3299
-  point fly=2196.7547 hoist=2328.3299
-  point fly=2196.7547 hoist=1566.7632
-  point fly=2958.3395 hoist=1566.7632
-  point fly=2958.3395 hoist=1373.2303
-  point fly=2196.7547 hoist=1373.2303
-  point fly=2196.7547 hoist=611.6636
-  point fly=2003.2399 hoist=611.6636
-  point fly=2003.2399 hoist=1373.2303
+  point fly=2.9564 hoist=3.2696
+  point fly=2.9564 hoist=3.7304
+  point fly=4.7696 hoist=3.7304
+  point fly=4.7696 hoist=5.5436
+  point fly=5.2304 hoist=5.5436
+  point fly=5.2304 hoist=3.7304
+  point fly=7.0437 hoist=3.7304
+  point fly=7.0437 hoist=3.2696
+  point fly=5.2304 hoist=3.2696
+  point fly=5.2304 hoist=1.4563
+  point fly=4.7696 hoist=1.4563
+  point fly=4.7696 hoist=3.2696
 }
 
 charge disc blue {
-  radius 735
-  at fly=2099.9995 hoist=1472.5989
-  anchor center
+  radius 1.75
+  at center
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
-  at fly=2099.5791 hoist=855.2185
+  radius 0.1935
+  at fly=5 hoist=2.0362
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -17.1429
-  at fly=1918.3877 hoist=882.6556
+  at fly=4.5676 hoist=2.1
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -34.2857
-  at fly=1753.3335 hoist=962.2808
+  at fly=4.1746 hoist=2.2911
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 20.5714
-  at fly=1619.082 hoist=1087.0191
+  at fly=3.855 hoist=2.5881
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 3.4286
-  at fly=1527.5623 hoist=1245.7869
+  at fly=3.6371 hoist=2.9662
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -13.7143
-  at fly=1486.9061 hoist=1424.4771
+  at fly=3.5403 hoist=3.3916
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -30.8571
-  at fly=1500.726 hoist=1607.2121
+  at fly=3.5732 hoist=3.8267
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 24
-  at fly=1567.7941 hoist=1777.7553
+  at fly=3.7328 hoist=4.2328
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 6.8572
-  at fly=1682.1509 hoist=1920.953
+  at fly=4.0051 hoist=4.5737
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -10.2857
-  at fly=1833.6356 hoist=2024.0816
+  at fly=4.3658 hoist=4.8192
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -27.4286
-  at fly=2008.7878 hoist=2077.9776
+  at fly=4.7828 hoist=4.9476
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 27.4286
-  at fly=2192.0447 hoist=2077.8522
+  at fly=5.2192 hoist=4.9473
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 10.2857
-  at fly=2367.1229 hoist=2023.7164
+  at fly=5.636 hoist=4.8184
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -6.8571
-  at fly=2518.4662 hoist=1920.3804
+  at fly=5.9963 hoist=4.5723
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -24
-  at fly=2632.6269 hoist=1777.0262
+  at fly=6.2682 hoist=4.231
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 30.8572
-  at fly=2699.4613 hoist=1606.3914
+  at fly=6.4273 hoist=3.8247
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 13.7143
-  at fly=2713.031 hoist=1423.6376
+  at fly=6.4596 hoist=3.3896
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -3.4286
-  at fly=2672.1302 hoist=1245.0033
+  at fly=6.3622 hoist=2.9643
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate -20.5714
-  at fly=2580.3931 hoist=1086.3609
+  at fly=6.1438 hoist=2.5866
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 34.2857
-  at fly=2445.971 hoist=961.8066
+  at fly=5.8237 hoist=2.29
 }
 
 charge star white {
-  radius 81.2596
-  inner 30.8787
+  radius 0.1935
   rotate 17.1429
-  at fly=2280.8078 hoist=882.4074
+  at fly=5.4305 hoist=2.1
 }
 
 charge star white {
-  radius 92.8681
-  inner 35.2899
+  radius 0.2211
   rotate -17.7547
-  at fly=1813.3917 hoist=1553.776
+  at fly=4.3176 hoist=3.7
 }
 
 charge star white {
-  radius 114.1146
-  inner 43.3635
+  radius 0.2717
   rotate -16.9472
-  at fly=2032.3958 hoist=1155.1367
+  at fly=4.839 hoist=2.75
 }
 
 charge star white {
-  radius 92.8681
-  inner 35.2899
+  radius 0.2211
   rotate -32.4062
-  at fly=2218.1082 hoist=1795.4738
+  at fly=5.2812 hoist=4.2749
 }
 
 charge star white {
-  radius 102.0418
-  inner 38.7759
+  radius 0.243
   rotate -17.2486
-  at fly=2398.9337 hoist=1373.1089
+  at fly=5.7117 hoist=3.2693
 }
 
 charge star white {
-  radius 68.6125
-  inner 26.0727
+  radius 0.1634
   rotate -16.7555
-  at fly=2172.8015 hoist=1486.9329
+  at fly=5.1733 hoist=3.5403
 }

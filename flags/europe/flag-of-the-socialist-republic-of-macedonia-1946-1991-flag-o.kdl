@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Socialist Republic of Macedonia (1946–1991); Flag of North Macedonia (1991-1992)"
@@ -8,29 +7,29 @@ meta {
 }
 palette {
   red "#dd0000"
-  red-2 "#de0000"
+  light-red "#de0000"
   yellow "#fcd115"
 }
-proportion hoist=500 fly=1000
+proportion hoist=1 fly=2
 
 field red
 
-charge star red-2 {
-  radius 75.4567
+charge star light-red {
+  radius 0.1509
   rotate 0.0014
-  at fly=249.9962 hoist=124.8564
+  at fly=0.5 hoist=0.25
 }
 
 charge polygon yellow {
-  point fly=249.998 hoist=49.4
-  point fly=266.94 hoist=101.537
-  point fly=321.76 hoist=101.539
-  point fly=277.41 hoist=133.764
-  point fly=294.348 hoist=185.902
-  point fly=249.996 hoist=153.68
-  point fly=205.644 hoist=185.902
-  point fly=222.582 hoist=133.764
-  point fly=178.232 hoist=101.539
-  point fly=233.052 hoist=101.537
-  hollow 4.405
+  point fly=0.5 hoist=0.0988
+  point fly=0.5339 hoist=0.2031
+  point fly=0.6435 hoist=0.2031
+  point fly=0.5548 hoist=0.2675
+  point fly=0.5887 hoist=0.3718
+  point fly=0.5 hoist=0.3074
+  point fly=0.4113 hoist=0.3718
+  point fly=0.4452 hoist=0.2675
+  point fly=0.3565 hoist=0.2031
+  point fly=0.4661 hoist=0.2031
+  hollow 0.0088
 }

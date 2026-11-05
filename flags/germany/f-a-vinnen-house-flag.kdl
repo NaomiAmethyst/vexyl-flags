@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "F. A. Vinnen house flag"
@@ -11,7 +10,7 @@ palette {
   white "#ffffff"
   blue "#355a9b"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 quarters white blue white blue {
   diagonal

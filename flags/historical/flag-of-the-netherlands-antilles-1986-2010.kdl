@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Netherlands Antilles (1986–2010)"
@@ -11,7 +10,7 @@ palette {
   red "#dc171d"
   blue "#012a87"
 }
-proportion hoist=36 fly=54
+proportion hoist=6 fly=9
 
 bars white red white {
   along hoist
@@ -19,17 +18,16 @@ bars white red white {
 }
 
 charge rect blue {
-  fly 54
-  hoist 12
-  at fly=27 hoist=18
+  fly 9
+  hoist 2
+  at center
 }
 
 charge star white {
-  radius 1.5
-  inner 0.57
-  at fly=27 hoist=14
-  at fly=35 hoist=17.3137
-  at fly=30.3137 hoist=22
-  at fly=19 hoist=17.3137
-  at fly=23.6863 hoist=22
+  radius 0.25
+  at fly=4.5 hoist=2.3333
+  at fly=5.8333 hoist=2.8856
+  at fly=5.0523 hoist=3.6667
+  at fly=3.1667 hoist=2.8856
+  at fly=3.9477 hoist=3.6667
 }

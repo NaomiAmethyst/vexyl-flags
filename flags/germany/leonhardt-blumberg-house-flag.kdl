@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Leonhardt & Blumberg house flag"
@@ -12,49 +11,49 @@ palette {
   red "#c01d22"
   black "#000000"
 }
-proportion hoist=281.1316 fly=423.1981
+proportion hoist=1 fly=1.5053
 
 field white
 
 charge polygon red {
-  point fly=424.0473 hoist=-0.7661
-  point fly=424.0473 hoist=-0.7671
-  point fly=397.0359 hoist=-0.7671
-  point fly=211.6969 hoist=122.7932
-  point fly=26.3579 hoist=-0.7671
-  point fly=-0.6525 hoist=-0.7671
-  point fly=-0.6525 hoist=17.2408
-  point fly=184.6865 hoist=140.7992
-  point fly=-0.6525 hoist=264.3575
-  point fly=-0.6525 hoist=282.3664
-  point fly=26.3549 hoist=282.3664
-  point fly=211.6969 hoist=158.8061
-  point fly=397.0379 hoist=282.3664
-  point fly=424.0453 hoist=282.3664
-  point fly=424.0473 hoist=282.3644
-  point fly=424.0473 hoist=264.3585
-  point fly=238.7083 hoist=140.7982
-  point fly=424.0473 hoist=17.2398
+  point fly=1.5084 hoist=-0.0027
+  point fly=1.5084 hoist=-0.0027
+  point fly=1.4123 hoist=-0.0027
+  point fly=0.753 hoist=0.4368
+  point fly=0.0938 hoist=-0.0027
+  point fly=-0.0023 hoist=-0.0027
+  point fly=-0.0023 hoist=0.0613
+  point fly=0.6569 hoist=0.5008
+  point fly=-0.0023 hoist=0.9403
+  point fly=-0.0023 hoist=1.0044
+  point fly=0.0937 hoist=1.0044
+  point fly=0.753 hoist=0.5649
+  point fly=1.4123 hoist=1.0044
+  point fly=1.5084 hoist=1.0044
+  point fly=1.5084 hoist=1.0044
+  point fly=1.5084 hoist=0.9403
+  point fly=0.8491 hoist=0.5008
+  point fly=1.5084 hoist=0.0613
 }
 
 charge polygon black {
-  point fly=424.0483 hoist=156.5487
-  point fly=424.0463 hoist=126.5838
-  point fly=227.5813 hoist=126.5838
-  point fly=227.5813 hoist=-0.7671
-  point fly=197.6144 hoist=-0.7671
-  point fly=197.6144 hoist=126.5838
-  point fly=-0.6535 hoist=126.5838
-  point fly=-0.6535 hoist=156.5487
-  point fly=197.6144 hoist=156.5487
-  point fly=197.6144 hoist=282.3664
-  point fly=227.5813 hoist=282.3664
-  point fly=227.5813 hoist=156.5487
+  point fly=1.5084 hoist=0.5569
+  point fly=1.5084 hoist=0.45
+  point fly=0.8095 hoist=0.45
+  point fly=0.8095 hoist=-0.0027
+  point fly=0.7029 hoist=-0.0027
+  point fly=0.7029 hoist=0.45
+  point fly=-0.0023 hoist=0.45
+  point fly=-0.0023 hoist=0.5569
+  point fly=0.7029 hoist=0.5569
+  point fly=0.7029 hoist=1.0044
+  point fly=0.8095 hoist=1.0044
+  point fly=0.8095 hoist=0.5569
 }
 
 charge rect white {
-  fly 29.9659
-  hoist 29.9649
-  at fly=213.4983 hoist=142.3334
+  fly 0.1066
+  hoist 0.1066
+  at fly=0.7594 hoist=0.5063
   anchor center
 }

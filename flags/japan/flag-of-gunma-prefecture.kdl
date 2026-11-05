@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Gunma Prefecture"
@@ -11,53 +10,53 @@ palette {
   purple "#4c0f7b"
   white "#ffffff"
 }
-proportion hoist=200 fly=300
+proportion hoist=2 fly=3
 
 field purple
 
 charge disc white {
-  radius 25.5
-  at fly=150 hoist=64
+  radius 0.255
+  at fly=1.5 hoist=0.64
 }
 
 charge disc purple {
-  radius 25.5
-  at fly=150 hoist=31
+  radius 0.255
+  at fly=1.5 hoist=0.31
 }
 
 charge disc white {
-  radius 25.5
-  at fly=181.1769 hoist=118
+  radius 0.255
+  at fly=1.8118 hoist=1.18
 }
 
 charge disc purple {
-  radius 25.5
-  at fly=209.7558 hoist=134.5
+  radius 0.255
+  at fly=2.0976 hoist=1.345
 }
 
 charge disc white {
-  radius 25.5
-  at fly=118.8231 hoist=118
+  radius 0.255
+  at fly=1.1882 hoist=1.18
 }
 
 charge disc purple {
-  radius 25.5
-  at fly=90.2442 hoist=134.5
+  radius 0.255
+  at fly=0.9024 hoist=1.345
 }
 
 charge path white {
   d "M144.3628 93.1486A1.0623 1.0623 0 0 1 144.7099 92.7188A9 9 0 0 1 155.2901 92.7188A1.0623 1.0623 0 0 1 155.2901 94.4377A9 9 0 0 1 144.7099 94.4377A1.0623 1.0623 0 0 1 144.3628 94.008L145.6038 94.008A8.1406 8.1406 0 0 0 154.7849 93.7424A0.2029 0.2029 0 0 0 154.7849 93.4141A8.1406 8.1406 0 0 0 145.6038 93.1486ZM147.4217 93.1486L152.5783 93.1486L152.5783 94.008L147.4217 94.008Z"
   box "135.7099 83.7188 28.5801 19.7188"
-  fly 28.5801
-  hoist 19.7188
-  at fly=150 hoist=93.5783
+  fly 0.2858
+  hoist 0.1972
+  at fly=1.5 hoist=0.9358
 }
 
 charge svg {
   at center
-  fly 300
-  hoist 200
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200"><defs><clipPath id="c"><circle r="80"></circle></clipPath></defs><g clip-path="url(#c)" fill="#ffffff" transform="matrix(0.1125 0 0 0.1125 150 100)"><circle cx="-47.02282" cy="-64.72136" r="45.623059" stroke-width="7.63932" stroke="#ffffff" fill="none"></circle><g transform="matrix(-1 0 0 1 0 0)"><circle cx="-47.02282" cy="-64.72136" r="45.623059" stroke-width="7.63932" stroke="#ffffff" fill="none"></circle></g><path d="M30.422187-18.14882a30.557281 30.557281 0 1 1-60.844375 0zM-22.416249-10.5095a22.917961 22.917961 0 0 0 44.832498 0zM-37.8977-10.5095a38.196601 38.196601 0 0 0 75.795399 0h7.689437a45.835921 45.835921 0 0 1-91.174272 0z" fill="#ffffff"></path><path d="M-81 19.09830h57m48 0h57M-75 38.196601H75M-65 57.294902H65M0 25V85" stroke-width="7.63932" stroke="#ffffff" fill="#ffffff"></path></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200"><defs><clipPath id="c"><circle r="80"></circle></clipPath></defs><g fill="#ffffff" clip-path="url(#c)" transform="matrix(0.1125 0 0 0.1125 150 100)"><circle cy="-64.72136" r="45.623059" cx="-47.02282" stroke-width="7.63932" fill="none" stroke="#ffffff"></circle><g transform="matrix(-1 0 0 1 0 0)"><circle cy="-64.72136" r="45.623059" cx="-47.02282" stroke-width="7.63932" fill="none" stroke="#ffffff"></circle></g><path d="M30.422187-18.14882a30.557281 30.557281 0 1 1-60.844375 0zM-22.416249-10.5095a22.917961 22.917961 0 0 0 44.832498 0zM-37.8977-10.5095a38.196601 38.196601 0 0 0 75.795399 0h7.689437a45.835921 45.835921 0 0 1-91.174272 0z" fill="#ffffff"></path><path d="M-81 19.09830h57m48 0h57M-75 38.196601H75M-65 57.294902H65M0 25V85" stroke-width="7.63932" fill="#ffffff" stroke="#ffffff"></path></g></svg>
 """#
 }

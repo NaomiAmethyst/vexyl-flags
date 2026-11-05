@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Anguilla"
@@ -12,180 +11,103 @@ palette {
   white "#ffffff"
   red "#c8102e"
   orange "#ff9900"
-  blue-2 "#99ccff"
+  light-blue "#99ccff"
 }
-proportion hoist=600 fly=1200
+proportion hoist=1 fly=2
 
 field blue
 
-charge polygon white {
-  point fly=-13.4164 hoist=26.8328
-  point fly=586.5836 hoist=326.8328
-  point fly=613.4164 hoist=273.1672
-  point fly=13.4164 hoist=-26.8328
-}
-
-charge polygon white {
-  point fly=586.5836 hoist=-26.8328
-  point fly=-13.4164 hoist=273.1672
-  point fly=13.4164 hoist=326.8328
-  point fly=613.4164 hoist=26.8328
-}
-
-charge polygon red {
-  point fly=0 hoist=22.3607
-  point fly=255.2786 hoist=150
-  point fly=300 hoist=150
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon red {
-  point fly=600 hoist=300
-  point fly=600 hoist=300
-  point fly=608.9443 hoist=282.1115
-  point fly=344.7214 hoist=150
-  point fly=300 hoist=150
-}
-
-charge polygon red {
-  point fly=322.3607 hoist=138.8197
-  point fly=300 hoist=127.6393
-  point fly=300 hoist=150
-}
-
-charge polygon red {
-  point fly=277.6393 hoist=161.1803
-  point fly=300 hoist=172.3607
-  point fly=300 hoist=150
-}
-
-charge polygon red {
-  point fly=277.6393 hoist=138.8197
-  point fly=255.2786 hoist=150
-  point fly=300 hoist=150
-}
-
-charge polygon red {
-  point fly=322.3607 hoist=161.1803
-  point fly=344.7214 hoist=150
-  point fly=300 hoist=150
-}
-
-charge polygon red {
-  point fly=555.2786 hoist=0
-  point fly=300 hoist=127.6393
-  point fly=300 hoist=150
-  point fly=600 hoist=0
-  point fly=600 hoist=0
-}
-
-charge polygon red {
-  point fly=0 hoist=300
-  point fly=0 hoist=300
-  point fly=8.9443 hoist=317.8885
-  point fly=300 hoist=172.3607
-  point fly=300 hoist=150
-}
-
-charge rect white {
-  fly 100
-  hoist 350
-  at fly=300 hoist=175
-}
-
-charge rect white {
-  fly 700
-  hoist 100
-  at fly=350 hoist=150
-}
-
-charge rect red {
-  fly 60
-  hoist 350
-  at fly=300 hoist=175
-}
-
-charge rect red {
-  fly 700
-  hoist 60
-  at fly=350 hoist=150
+canton {
+  fly 1
+  hoist 0.5
+  saltire white {
+    width 0.1
+  }
+  saltire red {
+    width 0.0333
+    counterchange
+  }
+  cross red {
+    fly 0.45 0.1 0.45
+    hoist 0.2 0.1 0.2
+    fimbriate white 0.0333
+  }
 }
 
 charge polygon blue {
-  point fly=0 hoist=300
-  point fly=600 hoist=300
-  point fly=600 hoist=0
-  point fly=800 hoist=0
-  point fly=800 hoist=400
-  point fly=0 hoist=400
+  point fly=0 hoist=0.5
+  point fly=1 hoist=0.5
+  point fly=1 hoist=0
+  point fly=1.3333 hoist=0
+  point fly=1.3333 hoist=0.6667
+  point fly=0 hoist=0.6667
 }
 
 charge path white {
   d "M784.8 156C784.8 307.0113 802.3107 359.0451 837.3645 394.0991C858.2711 414.8536 867.5387 422.6633 900 444C932.4613 422.6633 941.7289 414.8536 962.6355 394.0991C997.6893 359.0451 1015.2 307.0113 1015.2 156C989.7034 166.9165 975.1739 172.209 954.1485 171.8851C935.3402 171.5958 915.4118 162.8605 900 156C884.5882 162.8605 864.6599 171.5954 845.8515 171.8851C824.8261 172.209 810.2966 166.9165 784.8 156Z"
   box "784.8 156 230.4 288"
-  fly 230.4
-  hoist 288
-  at fly=900 hoist=300
+  fly 0.384
+  hoist 0.48
+  at fly=1.5 hoist=0.5
 }
 
 charge svg {
   at center
-  fly 1200
-  hoist 600
+  fly 2
+  hoist 1
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle cx="15.07813" cy="-30.97657" r="0" fill="#ffffff" transform="matrix(3.508454 0 0 3.344878 -47.152786 -59.398131)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle cy="-30.97657" r="0" cx="15.07813" fill="#ffffff" transform="matrix(3.508454 0 0 3.344878 -47.152786 -59.398131)"/></svg>
 """#
 }
 
 charge path orange {
   d "M903.6384 231.6062C909.0519 243.7458 926.4082 257.151 931.1797 263.7207C925.1066 270.2901 923.8927 269.5746 924.6891 281.7794C935.2495 271.2454 935.439 270.1472 942.2314 271.7447C957.1107 285.9003 944.8943 316.3019 932.5971 322.9113C920.3035 329.9623 922.5349 322.6672 904.1085 331.5043C912.5569 338.3914 922.3454 330.4942 930.3447 332.6048C934.6917 337.5218 928.2782 346.4827 931.6569 354.9218C938.7264 354.2729 937.8774 340.6659 939.5228 335.7323C944.6873 317.6565 975.7371 305.0497 977.3159 288.4691C983.8627 285.539 990.406 287.5526 998.3666 291.814C994.4021 276.2804 981.2875 276.4476 977.772 271.5962C969.4043 259.4055 961.9875 245.4982 944.1154 241.8904C930.5482 239.1516 931.5622 242.7142 922.8682 237.0604C917.4547 233.0418 901.007 225.4423 903.6384 231.6062Z"
   box "901.007 225.4423 97.3596 129.4795"
-  fly 97.3596
-  hoist 129.4795
-  at fly=949.6868 hoist=290.182
+  fly 0.1623
+  hoist 0.2158
+  at fly=1.5828 hoist=0.4836
 }
 
 charge ellipse white {
-  fly 5.6554
-  hoist 5.3917
-  at fly=939.8353 hoist=245.4134
+  fly 0.0094
+  hoist 0.009
+  at fly=1.5664 hoist=0.409
 }
 
 charge path orange {
   d "M860.2561 283.1064C868.9855 272.872 873.3095 251.9792 877.1733 244.888C886.1028 246.9385 886.0064 248.296 896.9531 241.9231C882.2504 237.9422 881.1435 238.2955 879.452 231.8236C885.6289 212.6683 919.5306 208.7638 931.405 216.0419C943.6872 223.1109 935.8792 224.6379 952.6828 236.042C955.1233 225.7032 943.2265 221.1412 941.447 213.4122C943.9763 207.451 955.2828 208.671 961.531 201.8806C957.6266 196.2245 945.404 203.2968 940.0598 204.2146C920.8836 208.3054 894.6868 188.0215 878.5723 194.4363C872.7965 190.2866 871.6072 183.8303 871.8404 175.1291C859.2864 185.7277 865.5681 196.7045 862.7112 201.9342C855.3144 214.6827 845.8815 227.4316 850.8846 244.1822C854.6827 256.898 857.513 254.379 856.331 264.3488C855.1332 270.7894 855.7689 288.204 860.2561 283.1064Z"
   box "845.8815 175.1291 115.6495 113.0749"
-  fly 115.6495
-  hoist 113.0749
-  at fly=903.7062 hoist=231.6666
+  fly 0.1927
+  hoist 0.1885
+  at fly=1.5062 hoist=0.3861
 }
 
 charge ellipse white {
-  fly 5.6554
-  hoist 5.3917
+  fly 0.0094
+  hoist 0.009
   rotate 0
-  at fly=856.1514 hoist=246.1443
+  at fly=1.4269 hoist=0.4102
 }
 
 charge path orange {
   d "M931.18 290.3023C917.4774 288.4739 896.4858 295.7534 888.1216 296.269C885.3431 287.9226 886.6116 287.2991 875.2282 281.664C879.2602 295.7194 880.1499 296.4398 875.2153 301.1678C854.8249 306.0366 833.7832 280.3954 834.1742 266.942C834.1664 253.2641 839.5761 258.8449 841.121 239.2354C830.5777 242.5923 832.6366 254.6589 826.619 260.1089C819.9594 261.1288 815.2059 251.2725 805.8783 249.6871C802.8207 255.7985 815.4918 262.1128 819.0801 265.9985C832.6718 279.5285 828.0147 311.3955 842.1089 321.2253C841.3715 328.0844 836.191 332.3945 828.2597 336.7052C844.2676 341.4657 850.8717 330.6623 857.0441 330.2881C872.3143 329.7287 888.6381 330.8304 901.0866 318.0835C910.5366 308.4069 906.8112 307.4006 916.3722 303.2079C922.7734 300.8536 938.0772 291.3266 931.18 290.3023Z"
   box "802.8207 239.2354 135.2565 102.2304"
-  fly 135.2565
-  hoist 102.2304
-  at fly=870.4489 hoist=290.3506
+  fly 0.2254
+  hoist 0.1704
+  at fly=1.4507 hoist=0.4839
 }
 
 charge ellipse white {
-  fly 5.6554
-  hoist 5.3917
+  fly 0.0094
+  hoist 0.009
   rotate 0
-  at fly=900.1235 hoist=312.7713
+  at fly=1.5 hoist=0.5213
 }
 
-charge path blue-2 {
+charge path light-blue {
   d "M813.6984 362.0555C820.4177 374.8099 828.3005 385.034 837.3656 394.0992C858.2722 414.8537 867.5387 422.6633 900 444C932.4613 422.6633 941.7301 414.8537 962.6367 394.0992C971.7017 385.0342 979.5824 374.8096 986.3016 362.0555Z"
   box "813.6984 362.0555 172.6031 81.9445"
-  fly 172.6031
-  hoist 81.9445
-  at fly=900 hoist=403.0278
+  fly 0.2877
+  hoist 0.1366
+  at fly=1.5 hoist=0.6717
 }

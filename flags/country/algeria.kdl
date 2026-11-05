@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Algeria"
@@ -10,24 +9,23 @@ meta {
 palette {
   green "#006633"
   white "#ffffff"
-  pink "#d21034"
+  red "#d21034"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars green white {
   along hoist
 }
 
-charge crescent pink {
-  radius 150
-  inner 120
-  offset 36.2288
-  at fly=450 hoist=300
-  anchor center
+charge crescent red {
+  radius 0.5
+  inner 0.4
+  offset 0.1208
+  at center
 }
 
-charge star pink {
-  radius 75
+charge star red {
+  radius 0.25
   rotate 18
-  at fly=510.6763 hoist=300
+  at fly=1.7023 hoist=1
 }

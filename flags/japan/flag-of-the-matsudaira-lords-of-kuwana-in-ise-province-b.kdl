@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Matsudaira Lords of Kuwana in Ise Province (B)"
@@ -9,18 +8,17 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#bc002d"
+  red "#bc002d"
 }
-proportion hoist=700 fly=900
+proportion hoist=7 fly=9
 
 field white
 
-charge path pink {
+charge path red {
   d "M450 101.41C313.07 101.41 201.41 213.06 201.41 350S313.06 598.59 450 598.59S698.59 486.94 698.59 350S586.94 101.41 450 101.41ZM450 161.41C554.51 161.41 638.59 245.49 638.59 350S554.51 538.59 450 538.59S261.41 454.51 261.41 350S345.49 161.41 450 161.41Z"
   box "201.41 101.41 497.18 497.18"
-  fly 497.18
-  hoist 497.18
+  fly 4.9718
+  hoist 4.9718
   evenodd
-  at fly=450 hoist=350
-  anchor center
+  at center
 }

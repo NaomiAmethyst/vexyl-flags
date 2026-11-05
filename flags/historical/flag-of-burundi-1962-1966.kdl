@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Burundi (1962–1966)"
@@ -12,53 +11,52 @@ palette {
   red "#ce1126"
   green "#1eb53a"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 charge path white {
   d "M0 554.5056C124.1208 467.0688 378.0432 304.716 379.6632 299.1756L0 45.8364L0 0.0012L68.7672 0.0012C196.2504 83.0748 320.724 170.85 449.1 252.552L831.762 -0.0024L900 -0.0024L900 45.84C775.296 133.3344 643.1688 210.612 520.434 300.9324L900 554.1636L900 599.9988L831.2328 599.9988C702.7272 518.322 580.356 426.6336 450 347.862L68.7672 599.9988L0 599.9988Z"
   box "0 -0.0024 900 600.0012"
-  fly 900
-  hoist 600.0012
-  at fly=450 hoist=299.9982
+  fly 3
+  hoist 2
+  at center
 }
 
 pile red {
   from top
-  depth 300
+  depth 1
 }
 
 pile red {
   from bottom
-  depth 300
+  depth 1
 }
 
 chevrons green {
-  depth 450
+  depth 1.5
 }
 
 pile green {
   from fly
-  depth 450
+  depth 1.5
 }
 
 charge path white {
   d "M0 554.506C124.121 467.07 378.044 304.717 379.663 299.176L0 45.835L0 0L68.769 0C196.25 83.074 320.72 170.85 449.098 252.554L831.758 0L900 0L900 45.841C775.293 133.333 643.167 210.611 520.435 300.933L900 554.165L900 600L831.231 600C702.727 518.322 580.361 426.632 450 347.86L68.769 600L0 600Z"
   box "0 0 900 600"
-  fly 900
-  hoist 600
-  at fly=450 hoist=300
+  fly 3
+  hoist 2
+  at center
 }
 
 charge disc white {
-  radius 169.9998
-  at fly=450 hoist=300
-  anchor center
+  radius 0.5667
+  at center
 }
 
 charge svg {
   at center
-  fly 900
-  hoist 600
+  fly 3
+  hoist 2
   markup #"""
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="M-11.111-32.292H11.11l-.694 6.945-3.473 6.944.695 8.334H-7.64l.695-8.334-3.473-6.944z" fill="#e37909" transform="matrix(3.6 0 0 3.6 450 300)"/><path d="M-1.042-12.5L-.976-.477l-.89 28.96.89.12H.977l.89-.12-.89-28.96.065-12.023z" fill="#1eb53a" transform="matrix(3.6 0 0 3.6 450 300)"/><path d="M-.796 19.32l.76 9.271c-5.142 7.31-8.824 3.154-11.73 2.538 7.51-.71 10.944-3.685 10.97-11.81z" fill="#1eb53a" transform="matrix(3.6 0 0 3.6 450 300)"/><path d="M-.771 25.595l.507-8.892c-9.938-13.436-19.903-1.225-22.134.254C-14.69 12.654-1.51 9.97-.771 25.595z" fill="#1eb53a" transform="matrix(3.6 0 0 3.6 450 300)"/><path d="M-.517 14.465l.507-8.891c-11.207-13.563-26.374-1.86-28.859 1.65C-20.779 1.27-1.256-1.16-.517 14.464zM.796 19.32l-.76 9.271c5.142 7.31 8.824 3.154 11.73 2.538-7.51-.71-10.944-3.685-10.97-11.81z" fill="#1eb53a" transform="matrix(3.6 0 0 3.6 450 300)"/><path d="M.771 25.595l-.507-8.892c9.938-13.436 19.903-1.225 22.134.254C14.69 12.654 1.51 9.97.771 25.595z" fill="#1eb53a" transform="matrix(3.6 0 0 3.6 450 300)"/><path d="M.517 14.465L.01 5.574c11.207-13.563 26.374-1.86 28.859 1.65C20.779 1.27 1.256-1.16.517 14.464z" fill="#1eb53a" transform="matrix(3.6 0 0 3.6 450 300)"/><path d="M0-25.694c-.512.858-1.701 1.249-1.736 3.168-.81-.565-.75-.273-1.65-.39.004 1.98-.157 3.028.532 3.895-.81-.408-1.848-.602-2.658-.565 2.606 2.892 1.648 7.064 3.081 7.78l1.39.695h2.083l1.389-.695c1.433-.716.475-4.888 3.081-7.78-.81-.037-1.848.157-2.658.565.69-.867.528-1.916.531-3.896-.898.118-.84-.174-1.649.391-.035-1.92-1.224-2.31-1.736-3.168z" fill="#ce1126" transform="matrix(3.6 0 0 3.6 450 300)"/></svg>
 """#

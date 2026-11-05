@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Yokohama, Kanagawa"
@@ -11,38 +10,38 @@ palette {
   white "#ffffff"
   red "#d60021"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 field white
 
 charge polygon red {
-  point fly=269.844 hoist=102.6835
-  point fly=295.8621 hoist=121.4089
-  point fly=221.4456 hoist=175.2673
-  point fly=168.8724 hoist=175.2673
+  point fly=1.3492 hoist=0.5134
+  point fly=1.4793 hoist=0.607
+  point fly=1.1072 hoist=0.8763
+  point fly=0.8444 hoist=0.8763
 }
 
 charge polygon red {
-  point fly=434.0368 hoist=175.2673
-  point fly=385.686 hoist=175.2673
-  point fly=276.4973 hoist=97.825
-  point fly=301.2642 hoist=80
+  point fly=2.1702 hoist=0.8763
+  point fly=1.9284 hoist=0.8763
+  point fly=1.3825 hoist=0.4891
+  point fly=1.5063 hoist=0.4
 }
 
 charge polygon red {
-  point fly=301.2642 hoist=320
-  point fly=163.12 hoist=220.9664
-  point fly=214.1532 hoist=220.9664
-  point fly=328.1968 hoist=300.6172
+  point fly=1.5063 hoist=1.6
+  point fly=0.8156 hoist=1.1048
+  point fly=1.0708 hoist=1.1048
+  point fly=1.641 hoist=1.5031
 }
 
 charge polygon red {
-  point fly=468 hoist=199.9983
-  point fly=444.015 hoist=182.9951
-  point fly=159.1934 hoist=182.2521
-  point fly=134.5284 hoist=199.9983
-  point fly=154.3182 hoist=214.2384
-  point fly=397.6768 hoist=213.9131
-  point fly=309.5663 hoist=277.1085
-  point fly=335.8292 hoist=295.7312
+  point fly=2.34 hoist=1
+  point fly=2.2201 hoist=0.915
+  point fly=0.796 hoist=0.9113
+  point fly=0.6726 hoist=1
+  point fly=0.7716 hoist=1.0712
+  point fly=1.9884 hoist=1.0696
+  point fly=1.5478 hoist=1.3855
+  point fly=1.6791 hoist=1.4787
 }

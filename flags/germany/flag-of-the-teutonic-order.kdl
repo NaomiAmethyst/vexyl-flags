@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Teutonic Order"
@@ -11,43 +10,43 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=180 fly=240
+proportion hoist=3 fly=4
 
 charge polygon white {
-  point fly=240 hoist=-0.0024
-  point fly=235 hoist=49.9976
-  point fly=115 hoist=69.9976
-  point fly=115 hoist=109.9976
-  point fly=235 hoist=129.9976
-  point fly=240 hoist=179.9976
-  point fly=0 hoist=179.9976
-  point fly=0 hoist=-0.0024
+  point fly=4 hoist=0
+  point fly=3.9167 hoist=0.8333
+  point fly=1.9167 hoist=1.1667
+  point fly=1.9167 hoist=1.8333
+  point fly=3.9167 hoist=2.1667
+  point fly=4 hoist=3
+  point fly=0 hoist=3
+  point fly=0 hoist=0
 }
 
 charge path black {
   d "M240 69.9985C240 107.7763 240 72.2207 240 109.9985L0 109.9985L0 69.9985Z"
   box "0 69.9985 240 40"
-  fly 240
-  hoist 40
-  at fly=120 hoist=89.9985
+  fly 4
+  hoist 0.6667
+  at center
 }
 
 charge path black {
   d "M75 -0.0024C112.7778 -0.0024 77.2222 -0.0024 115 -0.0025L115 179.9975L75 179.9975Z"
   box "75 -0.0025 40 180"
-  fly 40
-  hoist 180
-  at fly=95 hoist=89.9975
+  fly 0.6667
+  hoist 3
+  at fly=1.5833 hoist=1.5
 }
 
 charge polygon black {
-  point fly=239.5 hoist=0.5
-  point fly=234.5209 hoist=50.2222
-  point fly=115.0208 hoist=70.1111
-  point fly=115.0208 hoist=109.8889
-  point fly=234.5209 hoist=129.7778
-  point fly=239.5 hoist=179.5
-  point fly=0.5 hoist=179.5
-  point fly=0.5 hoist=0.5
-  hollow 1
+  point fly=3.9917 hoist=0.0083
+  point fly=3.9087 hoist=0.837
+  point fly=1.9167 hoist=1.1685
+  point fly=1.9167 hoist=1.8315
+  point fly=3.9087 hoist=2.163
+  point fly=3.9917 hoist=2.9917
+  point fly=0.0083 hoist=2.9917
+  point fly=0.0083 hoist=0.0083
+  hollow 0.0167
 }

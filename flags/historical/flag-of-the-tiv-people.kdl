@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Tiv People"
@@ -12,7 +11,7 @@ palette {
   black "#1d1d1b"
   white "#ffffff"
 }
-proportion hoist=1545 fly=2400
+proportion hoist=1 fly=1.5534
 
 bars green black white black white black white black white black white black white black green {
   ratio 557.5 33.0769 33.0769 33.077 33.0769 33.0769 33.0769 33.077 33.0769 33.0769 33.0769 33.077 33.0769 33.0769 557.5

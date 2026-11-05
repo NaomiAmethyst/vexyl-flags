@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Baraya"
@@ -11,13 +10,13 @@ palette {
   yellow "#fcef3c"
   red "#e20909"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 field yellow
 
 charge rect red {
-  fly 599.6775
-  hoist 79.9154
-  at fly=300.1147 hoist=120.1192
-  at fly=300.1147 hoist=279.95
+  fly 2.9984
+  hoist 0.4
+  at fly=1.5 hoist=0.6
+  at fly=1.5 hoist=1.4
 }

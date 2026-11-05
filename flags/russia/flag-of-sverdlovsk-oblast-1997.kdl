@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Sverdlovsk Oblast (1997)"
@@ -12,7 +11,7 @@ palette {
   teal "#00a3d2"
   green "#00923f"
 }
-proportion hoist=20 fly=30
+proportion hoist=2 fly=3
 
 bars white teal white green {
   ratio 7 9 1 3

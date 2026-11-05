@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Pascua Yaqui Tribe of Arizona"
@@ -13,101 +12,101 @@ palette {
   red "#ce2633"
   yellow "#f0df0d"
 }
-proportion hoist=540 fly=900
+proportion hoist=216 fly=360
 
 field white
 
 charge polygon black {
-  point fly=435.75 hoist=145.5
-  point fly=435.75 hoist=204.375
-  point fly=372.375 hoist=204.375
-  point fly=372.375 hoist=232.5
-  point fly=435.75 hoist=232.5
-  point fly=435.75 hoist=358.88
-  point fly=463.875 hoist=358.88
-  point fly=463.875 hoist=232.5
-  point fly=527.25 hoist=232.5
-  point fly=527.25 hoist=204.375
-  point fly=463.875 hoist=204.375
-  point fly=463.875 hoist=145.5
+  point fly=174.25 hoist=58.25
+  point fly=174.25 hoist=81.75
+  point fly=149 hoist=81.75
+  point fly=149 hoist=93
+  point fly=174.25 hoist=93
+  point fly=174.25 hoist=143.5
+  point fly=185.5 hoist=143.5
+  point fly=185.5 hoist=93
+  point fly=210.875 hoist=93
+  point fly=210.875 hoist=81.75
+  point fly=185.5 hoist=81.75
+  point fly=185.5 hoist=58.25
 }
 
 panel {
   side hoist
-  width 257.5
+  width 103
   field blue
 }
 
 panel {
   side fly
-  width 257.5
+  width 103
   field red
 }
 
 charge path yellow {
   d "M449.81 385.88C447.6354 385.88 445.8725 387.6429 445.8725 389.8175L445.8725 410.8255C436.3089 411.688 427.6035 415.5145 420.6795 421.3845L405.8475 406.5525C404.3096 405.0146 401.817 405.0146 400.2791 406.5525C398.7416 408.09 398.7416 410.583 400.2791 412.1209L415.1311 426.9729C409.3229 433.9407 405.5737 442.6779 404.7891 452.2559L383.8101 452.2559C381.6355 452.2559 379.8726 454.0188 379.8726 456.1934S381.6355 460.1309 383.8101 460.1309L404.8181 460.1309C405.6806 469.6945 409.5071 478.3999 415.3771 485.3239L400.5451 500.1559C399.0072 501.6938 399.0072 504.1864 400.5451 505.7243C402.0826 507.2618 404.5756 507.2618 406.1135 505.7243L420.9655 490.8723C427.8425 496.6048 436.4425 500.3342 445.8735 501.1843L445.8735 522.1923C445.8735 524.3669 447.6364 526.1298 449.811 526.1298S453.7485 524.3669 453.7485 522.1923L453.7485 501.2133C463.3265 500.4289 472.0635 496.6797 479.0315 490.8713L493.8835 505.7233C495.4214 507.2608 497.9143 507.2608 499.4519 505.7233C500.9898 504.1854 500.9898 501.6928 499.4519 500.1549L484.6199 485.3229C490.4895 478.3986 494.316 469.6929 495.1789 460.1299L516.1869 460.1299C518.3615 460.1299 520.1244 458.367 520.1244 456.1924S518.3615 452.2549 516.1869 452.2549L495.2079 452.2549C494.4235 442.6769 490.6743 433.9399 484.8659 426.9719L499.7179 412.1199C501.2554 410.582 501.2554 408.0891 499.7179 406.5515C498.18 405.0136 495.6874 405.0136 494.1495 406.5515L479.3175 421.3835C472.303 415.4375 463.4595 411.5908 453.7495 410.7955L453.7495 389.8165C453.7495 387.6419 451.9866 385.879 449.812 385.879Z"
   box "379.8726 385.879 140.2518 140.2508"
-  fly 140.2518
-  hoist 140.2508
-  at fly=449.9985 hoist=456.0044
+  fly 56.125
+  hoist 56.125
+  at fly=180 hoist=182.375
 }
 
 charge path yellow {
   d "M533.34 155.91C538.2101 145.715 540.9394 134.301 540.9394 122.25C540.9394 79.068 505.9334 44.062 462.7514 44.062C449.5784 44.062 437.1684 47.3249 426.2784 53.0789C439.8564 38.2069 459.4014 28.8749 481.1264 28.8749C522.1334 28.8749 555.3764 62.1179 555.3764 103.1249C555.3764 123.7739 546.9445 142.4519 533.3394 155.9099Z"
   box "426.2784 28.8749 129.098 127.0351"
-  fly 129.098
-  hoist 127.0351
-  at fly=490.8274 hoist=92.3924
+  fly 51.625
+  hoist 50.75
+  at fly=196.375 hoist=37
 }
 
 charge polygon yellow {
-  point fly=128.75 hoist=30.9383
-  point fly=142.101 hoist=71.7002
-  point fly=185.562 hoist=71.6178
-  point fly=150.352 hoist=96.7278
-  point fly=163.862 hoist=137.4387
-  point fly=128.75 hoist=112.1958
-  point fly=93.638 hoist=137.4387
-  point fly=107.148 hoist=96.7278
-  point fly=71.938 hoist=71.6178
-  point fly=115.399 hoist=71.7002
+  point fly=51.5 hoist=12.375
+  point fly=56.875 hoist=28.625
+  point fly=74.25 hoist=28.625
+  point fly=60.125 hoist=38.75
+  point fly=65.5 hoist=55
+  point fly=51.5 hoist=44.875
+  point fly=37.5 hoist=55
+  point fly=42.875 hoist=38.75
+  point fly=28.75 hoist=28.625
+  point fly=46.125 hoist=28.625
 }
 
 charge polygon yellow {
-  point fly=128.75 hoist=402.5583
-  point fly=142.101 hoist=443.3203
-  point fly=185.562 hoist=443.2378
-  point fly=150.352 hoist=468.3478
-  point fly=163.862 hoist=509.0588
-  point fly=128.75 hoist=483.8158
-  point fly=93.638 hoist=509.0588
-  point fly=107.148 hoist=468.3478
-  point fly=71.938 hoist=443.2378
-  point fly=115.399 hoist=443.3203
+  point fly=51.5 hoist=161
+  point fly=56.875 hoist=177.375
+  point fly=74.25 hoist=177.25
+  point fly=60.125 hoist=187.375
+  point fly=65.5 hoist=203.625
+  point fly=51.5 hoist=193.5
+  point fly=37.5 hoist=203.625
+  point fly=42.875 hoist=187.375
+  point fly=28.75 hoist=177.25
+  point fly=46.125 hoist=177.375
 }
 
 charge polygon yellow {
-  point fly=771.25 hoist=30.9383
-  point fly=784.601 hoist=71.7002
-  point fly=828.062 hoist=71.6178
-  point fly=792.852 hoist=96.7278
-  point fly=806.362 hoist=137.4387
-  point fly=771.25 hoist=112.1958
-  point fly=736.138 hoist=137.4387
-  point fly=749.648 hoist=96.7278
-  point fly=714.438 hoist=71.6178
-  point fly=757.899 hoist=71.7002
+  point fly=308.5 hoist=12.375
+  point fly=313.875 hoist=28.625
+  point fly=331.25 hoist=28.625
+  point fly=317.125 hoist=38.75
+  point fly=322.5 hoist=55
+  point fly=308.5 hoist=44.875
+  point fly=294.5 hoist=55
+  point fly=299.875 hoist=38.75
+  point fly=285.75 hoist=28.625
+  point fly=303.125 hoist=28.625
 }
 
 charge polygon yellow {
-  point fly=771.25 hoist=402.5583
-  point fly=784.601 hoist=443.3203
-  point fly=828.062 hoist=443.2378
-  point fly=792.852 hoist=468.3478
-  point fly=806.362 hoist=509.0588
-  point fly=771.25 hoist=483.8158
-  point fly=736.138 hoist=509.0588
-  point fly=749.648 hoist=468.3478
-  point fly=714.438 hoist=443.2378
-  point fly=757.899 hoist=443.3203
+  point fly=308.5 hoist=161
+  point fly=313.875 hoist=177.375
+  point fly=331.25 hoist=177.25
+  point fly=317.125 hoist=187.375
+  point fly=322.5 hoist=203.625
+  point fly=308.5 hoist=193.5
+  point fly=294.5 hoist=203.625
+  point fly=299.875 hoist=187.375
+  point fly=285.75 hoist=177.25
+  point fly=303.125 hoist=177.375
 }

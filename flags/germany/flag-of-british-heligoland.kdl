@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of British Heligoland"
@@ -11,108 +10,31 @@ palette {
   red "#da121a"
   white "#ffffff"
   blue "#012169"
-  red-2 "#c8102e"
+  dark-red "#c8102e"
 }
-proportion hoist=600 fly=1200
+proportion hoist=60 fly=120
 
 bars green red white
 
 canton {
-  fly 600
-  hoist 300
+  fly 60
+  hoist 30
   field blue
 }
 
-charge polygon white {
-  point fly=-13.4164 hoist=26.8328
-  point fly=586.5836 hoist=326.8328
-  point fly=613.4164 hoist=273.1672
-  point fly=13.4164 hoist=-26.8328
-}
-
-charge polygon white {
-  point fly=586.5836 hoist=-26.8328
-  point fly=-13.4164 hoist=273.1672
-  point fly=13.4164 hoist=326.8328
-  point fly=613.4164 hoist=26.8328
-}
-
-charge polygon red-2 {
-  point fly=600 hoist=300
-  point fly=600 hoist=300
-  point fly=600 hoist=277.6393
-  point fly=344.7214 hoist=150
-  point fly=300 hoist=150
-}
-
-charge polygon red-2 {
-  point fly=277.6393 hoist=161.1803
-  point fly=300 hoist=172.3607
-  point fly=300 hoist=150
-}
-
-charge polygon red-2 {
-  point fly=0 hoist=22.3607
-  point fly=255.2786 hoist=150
-  point fly=300 hoist=150
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon red-2 {
-  point fly=322.3607 hoist=138.8197
-  point fly=300 hoist=127.6393
-  point fly=300 hoist=150
-}
-
-charge polygon red-2 {
-  point fly=322.3607 hoist=161.1803
-  point fly=344.7214 hoist=150
-  point fly=300 hoist=150
-}
-
-charge polygon red-2 {
-  point fly=0 hoist=300
-  point fly=0 hoist=300
-  point fly=44.7214 hoist=300
-  point fly=300 hoist=172.3607
-  point fly=300 hoist=150
-}
-
-charge polygon red-2 {
-  point fly=277.6393 hoist=138.8197
-  point fly=255.2786 hoist=150
-  point fly=300 hoist=150
-}
-
-charge polygon red-2 {
-  point fly=555.2786 hoist=0
-  point fly=300 hoist=127.6393
-  point fly=300 hoist=150
-  point fly=600 hoist=0
-  point fly=600 hoist=0
-}
-
-charge rect white {
-  fly 100
-  hoist 300
-  at fly=300 hoist=150
-}
-
-charge rect white {
-  fly 600
-  hoist 100
-  at fly=300 hoist=150
-}
-
-charge rect red-2 {
+canton {
   fly 60
-  hoist 300
-  at fly=300 hoist=150
-}
-
-charge rect red-2 {
-  fly 600
-  hoist 60
-  at fly=300 hoist=150
+  hoist 30
+  saltire white {
+    width 6
+  }
+  saltire dark-red {
+    width 2
+    counterchange
+  }
+  cross dark-red {
+    fly 27 6 27
+    hoist 12 6 12
+    fimbriate white 2
+  }
 }

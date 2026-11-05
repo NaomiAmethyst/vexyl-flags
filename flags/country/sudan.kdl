@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Sudan"
@@ -7,15 +6,15 @@ meta {
   source "https://commons.wikimedia.org/wiki/File:Flag_of_Sudan.svg"
 }
 palette {
-  pink "#d21034"
+  red "#d21034"
   white "#ffffff"
   black "#000000"
   green "#007229"
 }
-proportion hoist=600 fly=1200
+proportion hoist=1 fly=2
 
-bars pink white black
+bars red white black
 
 chevrons green {
-  depth 400
+  depth 0.6667
 }

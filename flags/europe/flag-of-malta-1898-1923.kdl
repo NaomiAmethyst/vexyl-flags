@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Malta (1898–1923)"
@@ -13,126 +12,126 @@ palette {
   red "#c8102e"
   yellow "#ffce00"
 }
-proportion hoist=600 fly=1200
+proportion hoist=30 fly=60
 
 field blue
 
 charge polygon white {
-  point fly=0 hoist=33.541
-  point fly=532.918 hoist=300
-  point fly=600 hoist=300
-  point fly=600 hoist=300
-  point fly=600 hoist=266.459
-  point fly=67.082 hoist=0
+  point fly=0 hoist=1.677
+  point fly=26.65 hoist=15
+  point fly=30 hoist=15
+  point fly=30 hoist=15
+  point fly=30 hoist=13.323
+  point fly=3.35 hoist=0
   point fly=0 hoist=0
   point fly=0 hoist=0
 }
 
 charge polygon white {
-  point fly=67.082 hoist=300
-  point fly=600 hoist=33.541
-  point fly=600 hoist=0
-  point fly=600 hoist=0
-  point fly=532.918 hoist=0
-  point fly=0 hoist=266.459
-  point fly=0 hoist=300
-  point fly=0 hoist=300
+  point fly=3.35 hoist=15
+  point fly=30 hoist=1.677
+  point fly=30 hoist=0
+  point fly=30 hoist=0
+  point fly=26.65 hoist=0
+  point fly=0 hoist=13.323
+  point fly=0 hoist=15
+  point fly=0 hoist=15
 }
 
 charge polygon red {
-  point fly=0 hoist=22.3607
-  point fly=555.2786 hoist=300
-  point fly=600 hoist=300
-  point fly=600 hoist=300
-  point fly=600 hoist=277.6393
-  point fly=44.7214 hoist=0
+  point fly=0 hoist=1.125
+  point fly=27.7639 hoist=15
+  point fly=30 hoist=15
+  point fly=30 hoist=15
+  point fly=30 hoist=13.875
+  point fly=2.2361 hoist=0
   point fly=0 hoist=0
   point fly=0 hoist=0
 }
 
 charge polygon red {
-  point fly=44.7214 hoist=300
-  point fly=600 hoist=22.3607
-  point fly=600 hoist=0
-  point fly=600 hoist=0
-  point fly=555.2786 hoist=0
-  point fly=0 hoist=277.6393
-  point fly=0 hoist=300
-  point fly=0 hoist=300
+  point fly=2.2361 hoist=15
+  point fly=30 hoist=1.125
+  point fly=30 hoist=0
+  point fly=30 hoist=0
+  point fly=27.7639 hoist=0
+  point fly=0 hoist=13.875
+  point fly=0 hoist=15
+  point fly=0 hoist=15
 }
 
 charge polygon white {
   point fly=0 hoist=0
-  point fly=50 hoist=0
-  point fly=350 hoist=150
-  point fly=600 hoist=25
-  point fly=600 hoist=0
-  point fly=600 hoist=0
-  point fly=300 hoist=150
+  point fly=2.5 hoist=0
+  point fly=17.5 hoist=7.5
+  point fly=30 hoist=1.25
+  point fly=30 hoist=0
+  point fly=30 hoist=0
+  point fly=15 hoist=7.5
 }
 
 charge polygon white {
-  point fly=0 hoist=275
-  point fly=250 hoist=150
-  point fly=550 hoist=300
-  point fly=600 hoist=300
-  point fly=300 hoist=150
-  point fly=0 hoist=300
-  point fly=0 hoist=300
+  point fly=0 hoist=13.75
+  point fly=12.5 hoist=7.5
+  point fly=27.5 hoist=15
+  point fly=30 hoist=15
+  point fly=15 hoist=7.5
+  point fly=0 hoist=15
+  point fly=0 hoist=15
 }
 
 charge rect white {
-  fly 600
-  hoist 100
-  at fly=300 hoist=150
+  fly 30
+  hoist 5
+  at fly=15 hoist=7.5
 }
 
 charge rect white {
-  fly 100
-  hoist 300
-  at fly=300 hoist=150
+  fly 5
+  hoist 15
+  at fly=15 hoist=7.5
 }
 
 charge rect red {
-  fly 600
-  hoist 60
-  at fly=300 hoist=150
+  fly 30
+  hoist 3
+  at fly=15 hoist=7.5
 }
 
 charge rect red {
-  fly 60
-  hoist 300
-  at fly=300 hoist=150
+  fly 3
+  hoist 15
+  at fly=15 hoist=7.5
 }
 
 charge disc white {
-  radius 150
-  at fly=900 hoist=300
+  radius 7.5
+  at fly=45 hoist=15
 }
 
 charge polygon white {
-  point fly=807 hoist=233
-  point fly=860 hoist=215
-  point fly=904 hoist=188
-  point fly=905 hoist=417
-  point fly=845 hoist=378
-  point fly=813 hoist=310
+  point fly=40.35 hoist=11.65
+  point fly=43 hoist=10.75
+  point fly=45.2 hoist=9.4
+  point fly=45.25 hoist=20.85
+  point fly=42.25 hoist=18.9
+  point fly=40.65 hoist=15.5
 }
 
 charge polygon red {
-  point fly=900 hoist=183
-  point fly=947 hoist=218
-  point fly=998 hoist=239
-  point fly=976 hoist=347
-  point fly=938 hoist=391
-  point fly=900 hoist=416
+  point fly=45 hoist=9.15
+  point fly=47.35 hoist=10.9
+  point fly=49.9 hoist=11.95
+  point fly=48.8 hoist=17.35
+  point fly=46.9 hoist=19.55
+  point fly=45 hoist=20.8
 }
 
 charge path yellow {
   d "M900 184C926 210 957 226 994 231C1001 313 970 375 900 416C830 376 799 313 806 231C843 226 874 210 900 184Z"
   box "799 184 202 232"
-  fly 202
-  hoist 232
-  hollow 10
-  at fly=900 hoist=300
+  fly 10.1
+  hoist 11.6
+  hollow 0.5
+  at fly=45 hoist=15
 }

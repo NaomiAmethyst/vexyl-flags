@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Hatay"
@@ -11,30 +10,28 @@ palette {
   red "#e30a17"
   white "#ffffff"
 }
-proportion hoist=80 fly=120
+proportion hoist=2 fly=3
 
 field red
 
 charge disc white {
-  radius 20
-  at fly=40 hoist=40
+  radius 0.5
+  at fly=1 hoist=1
 }
 
 charge disc red {
-  radius 16
-  at fly=45 hoist=40
+  radius 0.4
+  at fly=1.125 hoist=1
 }
 
 charge star white {
-  radius 10
-  inner 3.8
+  radius 0.25
   rotate -18
-  at fly=66.9 hoist=40
+  at fly=1.6725 hoist=1
 }
 
 charge star red {
-  radius 7
-  inner 2.66
+  radius 0.175
   rotate -18
-  at fly=66.9 hoist=40
+  at fly=1.6725 hoist=1
 }

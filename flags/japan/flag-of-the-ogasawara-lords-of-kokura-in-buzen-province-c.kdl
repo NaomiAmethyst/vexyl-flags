@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Ogasawara Lords of Kokura in Buzen Province (C)"
@@ -9,68 +8,67 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#bc002d"
+  red "#bc002d"
   black "#000000"
 }
-proportion hoist=700 fly=900
+proportion hoist=630 fly=810
 
 field white
 
-charge path pink {
+charge path red {
   d "M642.63 350C642.63 456.39 556.38 542.63 450 542.63S257.37 456.38 257.37 350S343.62 157.37 450 157.37S642.63 243.62 642.63 350Z"
   box "257.37 157.37 385.26 385.26"
-  fly 385.26
-  hoist 385.26
+  fly 346.75
+  hoist 346.75
   evenodd
-  at fly=450 hoist=350
-  anchor center
+  at center
 }
 
 charge path black {
   d "M440.17 185.57L389.2 234.43C418.03 255.55 418.85 301.29 420.2 347.18C422.11 411.99 413.24 448.96 390.14 452.41C385.98 453.03 383.42 454.42 383.56 457.81C385 491.84 404.21 508.25 433.59 514.42C455.08 507.24 468.99 491.48 480.57 473.08C478.47 405.6 482.5 342.6 498.9 258.85C503.14 237.19 478.82 203.97 440.17 185.56Z"
   box "383.42 185.56 119.72 328.86"
-  fly 119.72
-  hoist 328.86
-  at fly=443.28 hoist=349.99
+  fly 107.75
+  hoist 296
+  at fly=399 hoist=315
   anchor center
 }
 
 charge path black {
   d "M339.4 296.21C339.23 335.35 324.73 368.12 287.96 390.99C316.36 413.48 366.56 410.29 388.85 358.34C402.27 327.07 375.75 307.84 339.4 296.21Z"
   box "287.96 296.21 114.31 117.27"
-  fly 114.31
-  hoist 117.27
-  at fly=345.115 hoist=354.845
+  fly 103
+  hoist 105.5
+  at fly=310.5 hoist=319.5
 }
 
 charge path black {
   d "M508.34 316.42C528.46 335.52 547.66 355.18 547.71 388.17C547.71 393.85 550.09 401.46 555.84 405.12C570.27 414.29 605.57 423.79 611.15 393.49C619.46 348.39 568.76 307.66 508.33 316.42Z"
   box "508.33 307.66 111.13 116.13"
-  fly 111.13
-  hoist 116.13
-  at fly=563.895 hoist=365.725
+  fly 100
+  hoist 104.5
+  at fly=507.5 hoist=329
 }
 
 charge rect black {
-  fly 900
-  hoist 100
-  at fly=450 hoist=51.38
+  fly 810
+  hoist 90
+  at fly=405 hoist=46.25
 }
 
 charge rect black {
-  fly 900
-  hoist 30
-  at fly=450 hoist=142.37
+  fly 810
+  hoist 27
+  at fly=405 hoist=128
 }
 
 charge rect black {
-  fly 900
-  hoist 75.5
-  at fly=450 hoist=580.38
+  fly 810
+  hoist 68
+  at fly=405 hoist=522.5
 }
 
 charge rect black {
-  fly 900
-  hoist 30
-  at fly=450 hoist=656.94
+  fly 810
+  hoist 27
+  at fly=405 hoist=591.25
 }

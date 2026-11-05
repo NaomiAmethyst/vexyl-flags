@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the East African Community (no logo)"
@@ -15,7 +14,7 @@ palette {
   yellow "#ffff00"
   red "#ff0000"
 }
-proportion hoist=330 fly=600
+proportion hoist=11 fly=20
 
 bars blue white black green yellow green red white blue {
   ratio 90.75 14.85 24.75 11.55 46.2 11.55 24.75 14.85 90.75

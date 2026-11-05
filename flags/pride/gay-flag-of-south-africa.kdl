@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Gay Flag of South Africa"
@@ -17,33 +16,33 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=480 fly=720
+proportion hoist=2 fly=3
 
 bars red orange yellow green blue pink
 
 charge polygon white {
-  point fly=144.222 hoist=0
-  point fly=384.222 hoist=160
-  point fly=720 hoist=160
-  point fly=720 hoist=192
-  point fly=374.533 hoist=192
-  point fly=86.533 hoist=0
+  point fly=0.6009 hoist=0
+  point fly=1.6009 hoist=0.6667
+  point fly=3 hoist=0.6667
+  point fly=3 hoist=0.8
+  point fly=1.5606 hoist=0.8
+  point fly=0.3606 hoist=0
 }
 
 charge polygon white {
-  point fly=144.222 hoist=480
-  point fly=384.222 hoist=320
-  point fly=720 hoist=320
-  point fly=720 hoist=288
-  point fly=374.533 hoist=288
-  point fly=86.533 hoist=480
+  point fly=0.6009 hoist=2
+  point fly=1.6009 hoist=1.3333
+  point fly=3 hoist=1.3333
+  point fly=3 hoist=1.2
+  point fly=1.5606 hoist=1.2
+  point fly=0.3606 hoist=2
 }
 
 charge polygon black {
-  point fly=0 hoist=57.689
-  point fly=273.467 hoist=240
-  point fly=0 hoist=422.311
-  point fly=0 hoist=383.852
-  point fly=215.778 hoist=240
-  point fly=0 hoist=96.148
+  point fly=0 hoist=0.2404
+  point fly=1.1394 hoist=1
+  point fly=0 hoist=1.7596
+  point fly=0 hoist=1.5994
+  point fly=0.8991 hoist=1
+  point fly=0 hoist=0.4006
 }

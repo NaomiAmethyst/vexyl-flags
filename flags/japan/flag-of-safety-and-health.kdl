@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of safety and health"
@@ -11,7 +10,7 @@ palette {
   green "#007524"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=30 fly=45
 
 bars green white green {
   along hoist
@@ -19,22 +18,19 @@ bars green white green {
 }
 
 charge rect white {
-  fly 600
-  hoist 200
-  at fly=450 hoist=300
-  anchor center
+  fly 30
+  hoist 10
+  at center
 }
 
 charge rect green {
-  fly 120
-  hoist 360
-  at fly=450 hoist=300
-  anchor center
+  fly 6
+  hoist 18
+  at center
 }
 
 charge rect green {
-  fly 360
-  hoist 120
-  at fly=450 hoist=300
-  anchor center
+  fly 18
+  hoist 6
+  at center
 }

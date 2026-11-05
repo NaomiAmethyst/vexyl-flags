@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Banner of Baden (3^2)"
@@ -11,14 +10,14 @@ palette {
   yellow "#ffdd00"
   red "#ff0000"
 }
-proportion hoist=600 fly=900
+proportion hoist=30 fly=45
 
 charge disc yellow {
-  radius 1080
+  radius 54
   at fly=0 hoist=0
 }
 
 band red {
   along bend
-  width 160
+  width 8
 }

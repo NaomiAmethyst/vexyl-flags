@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tunisia"
@@ -11,29 +10,27 @@ palette {
   red "#e70013"
   white "#ffffff"
 }
-proportion hoist=80 fly=120
+proportion hoist=2 fly=3
 
 field red
 
 charge disc white {
-  radius 20
-  at fly=60 hoist=40
-  anchor center
+  radius 0.5
+  at center
 }
 
 charge disc red {
-  radius 15
-  at fly=60 hoist=40
-  anchor center
+  radius 0.375
+  at center
 }
 
 charge disc white {
-  radius 12
-  at fly=64 hoist=40
+  radius 0.3
+  at fly=1.6 hoist=1
 }
 
 charge star red {
-  radius 8.9998
+  radius 0.225
   rotate -18
-  at fly=64.0002 hoist=40
+  at fly=1.6 hoist=1
 }

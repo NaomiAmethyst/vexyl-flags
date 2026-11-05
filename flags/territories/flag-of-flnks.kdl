@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of FLNKS"
@@ -14,95 +13,95 @@ palette {
   yellow "#fae600"
   black "#000000"
 }
-proportion hoist=450 fly=900
+proportion hoist=1 fly=2
 
 bars blue red green
 
 charge disc yellow {
-  radius 147.48
-  at fly=300 hoist=225
+  radius 0.3277
+  at fly=0.6667 hoist=0.5
 }
 
 charge ring black {
-  radius 149.98
-  inner 144.98
-  at fly=300 hoist=225
+  radius 0.3333
+  inner 0.3222
+  at fly=0.6667 hoist=0.5
 }
 
 charge rect black {
-  fly 50
-  hoist 6
-  at fly=300 hoist=247
-  at fly=300 hoist=210
+  fly 0.1111
+  hoist 0.0133
+  at fly=0.6667 hoist=0.5489
+  at fly=0.6667 hoist=0.4667
 }
 
 charge rect black {
-  fly 6
-  hoist 252
-  at fly=300 hoist=204
+  fly 0.0133
+  hoist 0.56
+  at fly=0.6667 hoist=0.4533
 }
 
 charge path black {
   d "M240.62 360.419C300.811 384.999 357.228 361.929 357.228 361.929C357.228 361.929 335.931 338.881 325.014 329.882C314.361 321.104 283.023 321.451 272.329 329.882C263.405 336.92 237.809 362.852 240.62 360.419Z"
   box "237.809 321.104 119.419 63.895"
-  fly 119.419
-  hoist 63.895
-  at fly=297.5185 hoist=353.0515
+  fly 0.2654
+  hoist 0.142
+  at fly=0.6612 hoist=0.7846
 }
 
 charge ellipse black {
-  fly 33
-  hoist 48
-  at fly=300 hoist=293
+  fly 0.0733
+  hoist 0.1067
+  at fly=0.6667 hoist=0.6511
 }
 
 charge ellipse black {
-  fly 40
-  hoist 25.32
-  at fly=300 hoist=228.5
+  fly 0.0889
+  hoist 0.0563
+  at fly=0.6667 hoist=0.5078
 }
 
 charge disc black {
-  radius 20
-  at fly=300 hoist=170
+  radius 0.0444
+  at fly=0.6667 hoist=0.3778
 }
 
 charge path black {
   d "M324 95.5C323.994 95.4866 325.733 98.3708 322.087 104.936C304.661 136.319 287.174 136.997 283.855 139.7C280.197 142.678 278.653 142.474 278.653 142.474C278.914 139.786 279.157 128.795 279.348 127.736C281.993 113.073 304.144 113.275 321.48 98.2605C324.188 95.915 323.994 95.4866 323.994 95.4866Z"
   box "278.653 95.4866 47.08 47.1914"
-  fly 47.08
-  hoist 47.1914
-  at fly=302.193 hoist=119.0823
+  fly 0.1046
+  hoist 0.1049
+  at fly=0.6715 hoist=0.2646
 }
 
 charge path black {
   d "M265.5 163C265.5 163 269.4144 174.2297 270 185.5C270.9352 203.4966 288.1803 204 300 204L300 194C291.1415 194 283.4473 192.6834 277 179.5C273.8195 172.9966 265.5 163 265.5 163Z"
   box "265.5 163 34.5 41"
-  fly 34.5
-  hoist 41
-  at fly=282.75 hoist=183.5
+  fly 0.0767
+  hoist 0.0911
+  at fly=0.6283 hoist=0.4078
 }
 
 charge path black {
   d "M265 308C265 308 271.2964 300.2346 278.6619 282.0254C282.5048 272.5249 291.6115 267 300 267L300 253C280.9724 253 271.8497 260.0552 270.8872 270.3633C268.9097 291.5409 265 308 265 308Z"
   box "265 253 35 55"
-  fly 35
-  hoist 55
-  at fly=282.5 hoist=280.5
+  fly 0.0778
+  hoist 0.1222
+  at fly=0.6278 hoist=0.6233
 }
 
 charge path black {
   d "M334.5 163C334.5 163 330.5856 174.2297 330 185.5C329.0648 203.4966 311.8197 204 300 204L300 194C308.8585 194 316.5527 192.6834 323 179.5C326.1805 172.9966 334.5 163 334.5 163Z"
   box "300 163 34.5 41"
-  fly 34.5
-  hoist 41
-  at fly=317.25 hoist=183.5
+  fly 0.0767
+  hoist 0.0911
+  at fly=0.705 hoist=0.4078
 }
 
 charge path black {
   d "M335 308C335 308 328.7036 300.2346 321.3381 282.0254C317.4952 272.5249 308.3885 267 300 267L300 253C319.0276 253 328.1503 260.0552 329.1128 270.3633C331.0903 291.5409 335 308 335 308Z"
   box "300 253 35 55"
-  fly 35
-  hoist 55
-  at fly=317.5 hoist=280.5
+  fly 0.0778
+  hoist 0.1222
+  at fly=0.7056 hoist=0.6233
 }

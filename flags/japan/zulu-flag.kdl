@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Zulu flag"
@@ -12,23 +11,23 @@ palette {
   blue "#003399"
   red "#ff0000"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 pile yellow {
   from top
-  depth 300
+  depth 1
 }
 
 chevrons black {
-  depth 450
+  depth 1.5
 }
 
 pile blue {
   from fly
-  depth 450
+  depth 1.5
 }
 
 pile red {
   from bottom
-  depth 300
+  depth 1
 }

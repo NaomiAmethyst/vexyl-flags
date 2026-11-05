@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Blumenthal Ships Flag"
@@ -12,7 +11,7 @@ palette {
   red "#e20a17"
   black "#000000"
 }
-proportion hoist=300 fly=450
+proportion hoist=2 fly=3
 
 bars white red white red white {
   ratio 3 3 13 3 3
@@ -21,8 +20,7 @@ bars white red white red white {
 charge path black {
   d "M165 82.5L176.5 97.5L176.5 202.5L165 217.5L244.3 217.5C266.8 217.5 285 199.3 285 176.7C285 165.5 280.4 154.8 272.2 147.1C277.2 140.2 280 131.8 280 123.2C280 100.7 261.8 82.5 239.3 82.5L165 82.5ZM204.5 110.5L239.3 110.5C246.3 110.5 252.1 116.2 252.1 123.2S246.4 136 239.3 136L204.5 136L204.5 110.5ZM204.5 164L244.3 164C251.3 164 257 169.7 257 176.8C257 183.8 251.3 189.6 244.3 189.6L204.5 189.6L204.5 164Z"
   box "165 82.5 120 135"
-  fly 120
-  hoist 135
-  at fly=225 hoist=150
-  anchor center
+  fly 0.8
+  hoist 0.9
+  at center
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Osaka Prefecture"
@@ -11,40 +10,39 @@ palette {
   blue "#33419a"
   white "#ffffff"
 }
-proportion hoist=20 fly=30
+proportion hoist=2 fly=3
 
 field blue
 
 charge ring white {
-  radius 3
-  inner 1
-  at fly=21 hoist=10
-  at fly=15 hoist=13.4641
-  at fly=9 hoist=10
-  at fly=15 hoist=6.5359
+  radius 0.3
+  inner 0.1
+  at fly=2.1 hoist=1
+  at fly=1.5 hoist=1.3464
+  at fly=0.9 hoist=1
+  at fly=1.5 hoist=0.6536
 }
 
 charge path white {
   d "M19.5 12.5981A1 1 60 0 0 18 13.4641L16.5 10.866A1 1 60 0 0 18 10Z"
   box "16.5 9 3 5.4641"
-  fly 3
-  hoist 5.4641
-  at fly=18 hoist=11.7321
+  fly 0.3
+  hoist 0.5464
+  at fly=1.8 hoist=1.1732
 }
 
 charge path white {
   d "M13.5 10.866A1 1 180 0 0 13.5 9.134L16.5 9.134A1 1 180 0 0 16.5 10.866Z"
   box "12.5 8.134 5 3.7321"
-  fly 5
-  hoist 3.7321
-  at fly=15 hoist=10
-  anchor center
+  fly 0.5
+  hoist 0.3732
+  at center
 }
 
 charge path white {
   d "M10.5 12.5981A1 1 120 0 1 12 13.4641L13.5 10.866A1 1 120 0 1 12 10Z"
   box "10.5 9 3 5.4641"
-  fly 3
-  hoist 5.4641
-  at fly=12 hoist=11.7321
+  fly 0.3
+  hoist 0.5464
+  at fly=1.2 hoist=1.1732
 }

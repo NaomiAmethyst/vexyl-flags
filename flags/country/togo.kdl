@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Togo"
@@ -9,28 +8,28 @@ meta {
 palette {
   green "#006a4e"
   yellow "#ffce00"
-  pink "#d21034"
+  red "#d21034"
   white "#ffffff"
 }
-proportion hoist=500 fly=809.016
+proportion hoist=55 fly=89
 
 bars green yellow green {
   ratio 1 1 3
 }
 
 canton {
-  fly 300
-  hoist 300
-  field pink
+  fly 33
+  hoist 33
+  field red
 }
 
 charge rect yellow {
-  fly 809.016
-  hoist 100
-  at fly=404.508 hoist=350
+  fly 89
+  hoist 11
+  at fly=44.5 hoist=38.5
 }
 
 charge star white {
-  radius 95.0001
-  at fly=150 hoist=150.0001
+  radius 10.4375
+  at fly=16.5 hoist=16.5
 }

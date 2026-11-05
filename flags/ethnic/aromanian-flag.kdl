@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Aromanian flag"
@@ -11,57 +10,55 @@ palette {
   white "#ffffff"
   blue "#325aa6"
 }
-proportion hoist=50 fly=100
+proportion hoist=200 fly=400
 
 field white
 
 charge ring blue {
-  radius 14.75
-  inner 13.25
-  at fly=50 hoist=25
-  anchor center
+  radius 59
+  inner 53
+  at center
 }
 
 charge rect blue {
-  fly 100
-  hoist 1.5
-  at fly=50 hoist=5
+  fly 400
+  hoist 6
+  at fly=200 hoist=20
 }
 
 cross blue {
-  fly 4.25 1.5 94.25
-  hoist 44.25 1.5 4.25
+  fly 17 6 377
+  hoist 177 6 17
 }
 
 charge rect blue {
-  fly 1.5
-  hoist 50
-  at fly=95 hoist=25
+  fly 6
+  hoist 200
+  at fly=380 hoist=100
 }
 
 charge rect blue {
-  fly 90
-  hoist 1.5
-  at fly=50 hoist=25
+  fly 360
+  hoist 6
+  at center
 }
 
 charge rect blue {
-  fly 1.5
-  hoist 40
-  at fly=50 hoist=25
-  anchor center
+  fly 6
+  hoist 160
+  at center
 }
 
 charge polygon blue {
-  point fly=4.6954 hoist=5.6854
-  point fly=94.6954 hoist=45.6854
-  point fly=95.3046 hoist=44.3146
-  point fly=5.3046 hoist=4.3146
+  point fly=18.75 hoist=22.75
+  point fly=378.75 hoist=182.75
+  point fly=381.25 hoist=177.25
+  point fly=21.25 hoist=17.25
 }
 
 charge polygon blue {
-  point fly=5.3046 hoist=45.6854
-  point fly=95.3046 hoist=5.6854
-  point fly=94.6954 hoist=4.3146
-  point fly=4.6954 hoist=44.3146
+  point fly=21.25 hoist=182.75
+  point fly=381.25 hoist=22.75
+  point fly=378.75 hoist=17.25
+  point fly=18.75 hoist=177.25
 }

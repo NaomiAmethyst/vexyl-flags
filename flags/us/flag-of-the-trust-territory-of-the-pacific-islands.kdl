@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Trust Territory of the Pacific Islands"
@@ -10,47 +9,41 @@ palette {
   blue "#6b86bd"
   white "#ffffff"
 }
-proportion hoist=20 fly=38
+proportion hoist=10 fly=19
 
 field blue
 
 charge star white {
-  radius 2
-  inner 0.76
-  at fly=19 hoist=4
+  radius 1
+  at fly=9.5 hoist=2
 }
 
 charge star white {
-  radius 2
-  inner 0.76
+  radius 1
   rotate -12
-  at fly=24.1962 hoist=7
+  at fly=12.1 hoist=3.5
 }
 
 charge star white {
-  radius 2
-  inner 0.76
+  radius 1
   rotate 12
-  at fly=13.8038 hoist=7
+  at fly=6.9 hoist=3.5
 }
 
 charge star white {
-  radius 2
-  inner 0.76
+  radius 1
   rotate -24
-  at fly=24.1962 hoist=13
+  at fly=12.1 hoist=6.5
 }
 
 charge star white {
-  radius 2
-  inner 0.76
+  radius 1
   rotate 24
-  at fly=13.8038 hoist=13
+  at fly=6.9 hoist=6.5
 }
 
 charge star white {
-  radius 2
-  inner 0.76
+  radius 1
   rotate 36
-  at fly=19 hoist=16
+  at fly=9.5 hoist=8
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Mozambique (1974-1975)"
@@ -12,14 +11,14 @@ palette {
   white "#ffffff"
   black "#000000"
   yellow "#fce100"
-  pink "#d21034"
+  red "#d21034"
 }
-proportion hoist=500 fly=800
+proportion hoist=5 fly=8
 
 bars teal white black white yellow {
   ratio 10 1 10 1 10
 }
 
-chevrons pink {
-  depth 350
+chevrons red {
+  depth 3.5
 }

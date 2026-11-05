@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Azerbaijan"
@@ -13,24 +12,24 @@ palette {
   green "#509e2f"
   white "#ffffff"
 }
-proportion hoist=600 fly=1200
+proportion hoist=1 fly=2
 
 bars teal red green
 
 charge disc white {
-  radius 90
-  at fly=570 hoist=300
+  radius 0.15
+  at fly=0.95 hoist=0.5
 }
 
 charge disc red {
-  radius 75
-  at fly=590 hoist=300
+  radius 0.125
+  at fly=0.9833 hoist=0.5
   anchor center
 }
 
 charge star white {
-  radius 49.9998
-  inner 25
+  radius 0.0833
+  inner 0.0417
   points 8
-  at fly=670 hoist=300
+  at fly=1.1167 hoist=0.5
 }

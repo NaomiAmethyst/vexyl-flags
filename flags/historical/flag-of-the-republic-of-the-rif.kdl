@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Republic of the Rif"
@@ -12,36 +11,35 @@ palette {
   white "#ffffff"
   green "#006233"
 }
-proportion hoist=400 fly=600
+proportion hoist=6 fly=9
 
 field red
 
 charge lozenge white {
-  fly 333.3333
-  hoist 333.3333
-  at fly=300 hoist=200
-  anchor center
+  fly 5
+  hoist 5
+  at center
 }
 
 charge polygon green {
-  point fly=347.6191 hoist=165.7143
-  point fly=357.1429 hoist=182.8571
-  point fly=377.1429 hoist=182.8571
-  point fly=366.6667 hoist=200.9524
-  point fly=377.1429 hoist=218.0952
-  point fly=357.1429 hoist=218.0952
-  point fly=347.6191 hoist=235.2381
-  point fly=337.1429 hoist=218.0952
-  point fly=317.1429 hoist=218.0952
-  point fly=327.6191 hoist=200.9524
-  point fly=317.1429 hoist=182.8571
-  point fly=337.1429 hoist=182.8571
+  point fly=5.2143 hoist=2.4857
+  point fly=5.3571 hoist=2.7429
+  point fly=5.6571 hoist=2.7429
+  point fly=5.5 hoist=3.0143
+  point fly=5.6571 hoist=3.2714
+  point fly=5.3571 hoist=3.2714
+  point fly=5.2143 hoist=3.5286
+  point fly=5.0571 hoist=3.2714
+  point fly=4.7571 hoist=3.2714
+  point fly=4.9143 hoist=3.0143
+  point fly=4.7571 hoist=2.7429
+  point fly=5.0571 hoist=2.7429
 }
 
 charge path green {
   d "M325.7143 260C317.1429 263.8095 307.6191 265.7143 298.0952 265.7143C260.9524 265.7143 230.4762 235.2381 230.4762 197.1428C230.4762 160 260.9524 129.5238 298.0952 129.5238C307.6191 129.5238 317.1429 131.4286 325.7143 135.2381L323.8095 135.2381C289.5238 135.2381 260.9524 162.8571 260.9524 197.1428C260.9524 231.4286 289.5238 260 323.8095 260L325.7143 260Z"
   box "230.4762 129.5238 95.2381 136.1905"
-  fly 95.2381
-  hoist 136.1905
-  at fly=278.0952 hoist=197.619
+  fly 1.4286
+  hoist 2.0429
+  at fly=4.1714 hoist=2.9643
 }

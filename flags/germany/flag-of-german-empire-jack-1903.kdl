@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of German Empire (jack 1903)"
@@ -12,25 +11,23 @@ palette {
   white "#ffffff"
   red "#dd0000"
 }
-proportion hoist=90 fly=150
+proportion hoist=3 fly=5
 
 bars black white red
 
 charge path black {
   d "M59.88 15C64.56 21.9 67.62 29.94 68.64 38.64C59.94 37.62 51.9 34.56 45 29.88L45 60.12C51.9 55.44 59.94 52.38 68.64 51.36C67.62 60.06 64.56 68.1 59.88 75L90.12 75C85.44 68.1 82.38 60.06 81.36 51.36C90.06 52.38 98.1 55.44 105 60.12L105 29.88C98.1 34.56 90.06 37.62 81.36 38.64C82.38 29.94 85.44 21.9 90.12 15Z"
   box "45 15 60 60"
-  fly 60
-  hoist 60
-  at fly=75 hoist=45
-  anchor center
+  fly 2
+  hoist 2
+  at center
 }
 
 charge path white {
   d "M62.7 16.5C66.9 23.52 69.6 31.62 70.32 40.32C61.62 39.6 53.52 36.9 46.5 32.7L46.5 57.3C53.52 53.1 61.62 50.4 70.32 49.68C69.6 58.38 66.9 66.48 62.7 73.5L87.3 73.5C83.1 66.48 80.4 58.38 79.68 49.68C88.38 50.4 96.48 53.1 103.5 57.3L103.5 32.7C96.48 36.9 88.38 39.6 79.68 40.32C80.4 31.62 83.1 23.52 87.3 16.5Z"
   box "46.5 16.5 57 57"
-  fly 57
-  hoist 57
-  hollow 1.98
-  at fly=75 hoist=45
-  anchor center
+  fly 1.9
+  hoist 1.9
+  hollow 0.066
+  at center
 }

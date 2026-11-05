@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of The Gambia"
@@ -13,7 +12,7 @@ palette {
   blue "#0c1c8c"
   green "#3a7728"
 }
-proportion hoist=18 fly=27
+proportion hoist=2 fly=3
 
 bars red white blue white green {
   ratio 6 1 4 1 6

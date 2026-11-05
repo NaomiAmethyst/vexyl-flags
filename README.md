@@ -25,7 +25,10 @@ poor, or copied from the Vexyl repo's own checked flags. They replace their impo
 Most were converted mechanically from SVG files on
 [Wikimedia Commons](https://commons.wikimedia.org/) by the importer in the Vexyl repo's
 `tools/`, which recognizes flag vocabulary and keeps long runs of detail, such as seals, as
-inline SVG. Each result was rasterized with resvg and compared with its source.
+inline SVG. It then restates each flag as a specification would, on the smallest grid that
+keeps its structure in whole numbers and with simple sizes, keeping its exact values if that
+changes how it looks. Each result was rasterized with resvg and compared with its source.
+That makes them read like specifications, but they still only describe their sources.
 [`report.tsv`](report.tsv) lists every flag's result.
 
 The `vocabulary` column there says what each flag needed:

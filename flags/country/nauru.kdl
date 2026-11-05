@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Nauru"
@@ -12,15 +11,15 @@ palette {
   orange "#ffc72c"
   white "#ffffff"
 }
-proportion hoist=300 fly=600
+proportion hoist=1 fly=2
 
 bars blue orange blue {
   ratio 11 2 11
 }
 
 charge star white {
-  radius 50
-  inner 25
+  radius 0.1667
+  inner 0.0833
   points 12
-  at fly=150 hoist=212.5
+  at fly=0.5 hoist=0.7083
 }

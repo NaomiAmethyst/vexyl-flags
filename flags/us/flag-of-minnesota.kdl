@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Minnesota"
@@ -12,21 +11,21 @@ palette {
   blue "#002d5d"
   white "#ffffff"
 }
-proportion hoist=600 fly=1000
+proportion hoist=3 fly=5
 
 field teal
 
 charge polygon blue {
   point fly=0 hoist=0
-  point fly=560 hoist=0
-  point fly=390 hoist=300
-  point fly=560 hoist=600
-  point fly=0 hoist=600
+  point fly=2.8 hoist=0
+  point fly=1.95 hoist=1.5
+  point fly=2.8 hoist=3
+  point fly=0 hoist=3
 }
 
 charge star white {
-  radius 110
-  inner 59.4
+  radius 0.55
+  inner 0.297
   points 8
-  at fly=210 hoist=300
+  at fly=1.05 hoist=1.5
 }

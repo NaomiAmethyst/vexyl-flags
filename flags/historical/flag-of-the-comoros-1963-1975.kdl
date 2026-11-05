@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Comoros (1963-1975)"
@@ -11,24 +10,23 @@ palette {
   green "#3d8e33"
   white "#ffffff"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 field green
 
 charge disc white {
-  radius 112.5
-  at fly=132 hoist=132
+  radius 0.5625
+  at fly=0.66 hoist=0.66
 }
 
 charge disc green {
-  radius 112.5
-  at fly=180 hoist=132
+  radius 0.5625
+  at fly=0.9 hoist=0.66
 }
 
 charge star white {
-  radius 48
-  inner 18.24
+  radius 0.24
   rotate -34
-  at fly=120 hoist=320
-  repeat line count=4 fly=120 hoist=-80
+  at fly=0.6 hoist=1.6
+  repeat line count=4 fly=0.6 hoist=-0.4
 }

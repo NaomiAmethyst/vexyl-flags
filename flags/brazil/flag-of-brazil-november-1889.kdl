@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Brazil (November 1889)"
@@ -13,56 +12,55 @@ palette {
   blue "#302681"
   white "#ffffff"
 }
-proportion hoist=390 fly=585
+proportion hoist=26 fly=39
 
 field yellow
 
 panel {
   side top
-  width 30
+  width 2
   field green
 }
 
 charge rect green {
-  fly 585
-  hoist 30
-  at fly=292.5 hoist=75
-  repeat line count=5 hoist=60
+  fly 39
+  hoist 2
+  at fly=19.5 hoist=5
+  repeat line count=5 hoist=4
 }
 
 panel {
   side bottom
-  width 30
+  width 2
   field green
 }
 
 canton {
-  fly 195
-  hoist 150
+  fly 13
+  hoist 10
   field blue
   charge star white {
-    radius 12
-    inner 4.56
-    at fly=48.75 hoist=25
-    at fly=81.25 hoist=25
-    at fly=113.75 hoist=25
-    at fly=146.75 hoist=25
-    at fly=48.75 hoist=50
-    at fly=81.25 hoist=50
-    at fly=113.75 hoist=50
-    at fly=146.75 hoist=50
-    at fly=48.75 hoist=75
-    at fly=81.25 hoist=75
-    at fly=113.75 hoist=75
-    at fly=146.75 hoist=75
-    at fly=48.75 hoist=100
-    at fly=81.25 hoist=100
-    at fly=113.75 hoist=100
-    at fly=146.75 hoist=100
-    at fly=65 hoist=125
-    at fly=97.5 hoist=125
-    at fly=130 hoist=125
-    at fly=163 hoist=125
-    at fly=32.5 hoist=125
+    radius 0.8
+    at fly=3.25 hoist=1.6667
+    at fly=5.4167 hoist=1.6667
+    at fly=7.5833 hoist=1.6667
+    at fly=9.7833 hoist=1.6667
+    at fly=3.25 hoist=3.3333
+    at fly=5.4167 hoist=3.3333
+    at fly=7.5833 hoist=3.3333
+    at fly=9.7833 hoist=3.3333
+    at fly=3.25 hoist=5
+    at fly=5.4167 hoist=5
+    at fly=7.5833 hoist=5
+    at fly=9.7833 hoist=5
+    at fly=3.25 hoist=6.6667
+    at fly=5.4167 hoist=6.6667
+    at fly=7.5833 hoist=6.6667
+    at fly=9.7833 hoist=6.6667
+    at fly=4.3333 hoist=8.3333
+    at fly=6.5 hoist=8.3333
+    at fly=8.6667 hoist=8.3333
+    at fly=10.8667 hoist=8.3333
+    at fly=2.1667 hoist=8.3333
   }
 }

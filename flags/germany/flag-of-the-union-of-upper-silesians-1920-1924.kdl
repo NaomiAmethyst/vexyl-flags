@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Union of Upper Silesians (1920-1924)"
@@ -11,14 +10,14 @@ palette {
   white "#ffffff"
   black "#000000"
   yellow "#facf0b"
-  black-2 "#0c0d0d"
+  light-black "#0c0d0d"
 }
 proportion hoist=5669.29 fly=8504.79
 
 charge rect white {
   fly 8503.94
   hoist 1889.76
-  at fly=4252.39 hoist=2834.64
+  at center
 }
 
 charge polygon black {
@@ -38,5 +37,5 @@ panel {
 panel {
   side top
   width 1889.76
-  field black-2
+  field light-black
 }

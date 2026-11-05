@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Republic of Maryland"
@@ -13,28 +12,28 @@ palette {
   blue "#002868"
   white "#ffffff"
 }
-proportion hoist=650 fly=1055
+proportion hoist=1 fly=1.6231
 
 bars black yellow {
   count 13
 }
 
 canton {
-  fly 350
-  hoist 350
+  fly 0.5385
+  hoist 0.5385
   field blue
   charge polygon white {
-    point fly=132.5 hoist=30
-    point fly=132.5 hoist=132.5
-    point fly=30 hoist=132.5
-    point fly=30 hoist=217.5
-    point fly=132.5 hoist=217.5
-    point fly=132.5 hoist=320
-    point fly=217.5 hoist=320
-    point fly=217.5 hoist=217.5
-    point fly=320 hoist=217.5
-    point fly=320 hoist=132.5
-    point fly=217.5 hoist=132.5
-    point fly=217.5 hoist=30
+    point fly=0.2038 hoist=0.0462
+    point fly=0.2038 hoist=0.2038
+    point fly=0.0462 hoist=0.2038
+    point fly=0.0462 hoist=0.3346
+    point fly=0.2038 hoist=0.3346
+    point fly=0.2038 hoist=0.4923
+    point fly=0.3346 hoist=0.4923
+    point fly=0.3346 hoist=0.3346
+    point fly=0.4923 hoist=0.3346
+    point fly=0.4923 hoist=0.2038
+    point fly=0.3346 hoist=0.2038
+    point fly=0.3346 hoist=0.0462
   }
 }

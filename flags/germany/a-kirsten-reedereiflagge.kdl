@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "A. Kirsten Reedereiflagge"
@@ -11,14 +10,14 @@ palette {
   red "#ee0000"
   white "#ffffff"
 }
-proportion hoist=504 fly=750
+proportion hoist=1 fly=1.4881
 outline pennant
 
 field red
 
 charge rect white {
-  fly 76
-  hoist 502
-  at fly=114 hoist=252
-  repeat line count=4 fly=152
+  fly 0.1508
+  hoist 0.996
+  at fly=0.2262 hoist=0.5
+  repeat line count=4 fly=0.3016
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Mali (1959-1961)"
@@ -13,40 +12,40 @@ palette {
   red "#ce1126"
   black "#000000"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 bars green yellow red {
   along hoist
 }
 
 charge disc black {
-  radius 40
-  at fly=450 hoist=170
+  radius 0.1333
+  at fly=1.5 hoist=0.5667
 }
 
 charge polygon black {
-  point fly=350 hoist=520
-  point fly=370 hoist=520
-  point fly=370 hoist=460
-  point fly=530 hoist=460
-  point fly=530 hoist=520
-  point fly=550 hoist=520
-  point fly=550 hoist=440
-  point fly=460 hoist=440
-  point fly=460 hoist=260
-  point fly=550 hoist=260
-  point fly=550 hoist=180
-  point fly=530 hoist=180
-  point fly=530 hoist=240
-  point fly=460 hoist=240
-  point fly=460 hoist=180
-  point fly=440 hoist=180
-  point fly=440 hoist=240
-  point fly=370 hoist=240
-  point fly=370 hoist=180
-  point fly=350 hoist=180
-  point fly=350 hoist=260
-  point fly=440 hoist=260
-  point fly=440 hoist=440
-  point fly=350 hoist=440
+  point fly=1.1667 hoist=1.7333
+  point fly=1.2333 hoist=1.7333
+  point fly=1.2333 hoist=1.5333
+  point fly=1.7667 hoist=1.5333
+  point fly=1.7667 hoist=1.7333
+  point fly=1.8333 hoist=1.7333
+  point fly=1.8333 hoist=1.4667
+  point fly=1.5333 hoist=1.4667
+  point fly=1.5333 hoist=0.8667
+  point fly=1.8333 hoist=0.8667
+  point fly=1.8333 hoist=0.6
+  point fly=1.7667 hoist=0.6
+  point fly=1.7667 hoist=0.8
+  point fly=1.5333 hoist=0.8
+  point fly=1.5333 hoist=0.6
+  point fly=1.4667 hoist=0.6
+  point fly=1.4667 hoist=0.8
+  point fly=1.2333 hoist=0.8
+  point fly=1.2333 hoist=0.6
+  point fly=1.1667 hoist=0.6
+  point fly=1.1667 hoist=0.8667
+  point fly=1.4667 hoist=0.8667
+  point fly=1.4667 hoist=1.4667
+  point fly=1.1667 hoist=1.4667
 }

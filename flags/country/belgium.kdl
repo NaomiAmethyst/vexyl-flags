@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Belgium"
@@ -12,7 +11,7 @@ palette {
   yellow "#fdda25"
   red "#ef3340"
 }
-proportion hoist=780 fly=900
+proportion hoist=13 fly=15
 
 bars black yellow red {
   along hoist

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the People's Republic of Kampuchea"
@@ -10,42 +9,42 @@ palette {
   red "#da121a"
   yellow "#fcdd09"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field red
 
 charge polygon yellow {
-  point fly=450 hoist=150
-  point fly=431.25 hoist=168.75
-  point fly=431.25 hoist=240
-  point fly=412.5 hoist=240
-  point fly=412.5 hoist=198.75
-  point fly=393.75 hoist=180
-  point fly=375 hoist=198.75
-  point fly=375 hoist=300
-  point fly=356.25 hoist=300
-  point fly=356.25 hoist=258.75
-  point fly=337.5 hoist=240
-  point fly=318.75 hoist=258.75
-  point fly=318.75 hoist=330
-  point fly=280 hoist=330
-  point fly=280 hoist=360
-  point fly=240 hoist=360
-  point fly=240 hoist=390
-  point fly=660 hoist=390
-  point fly=660 hoist=360
-  point fly=620 hoist=360
-  point fly=620 hoist=330
-  point fly=581.25 hoist=330
-  point fly=581.25 hoist=258.75
-  point fly=562.5 hoist=240
-  point fly=543.75 hoist=258.75
-  point fly=543.75 hoist=300
-  point fly=525 hoist=300
-  point fly=525 hoist=198.75
-  point fly=506.25 hoist=180
-  point fly=487.5 hoist=198.75
-  point fly=487.5 hoist=240
-  point fly=468.75 hoist=240
-  point fly=468.75 hoist=168.75
+  point fly=1.5 hoist=0.5
+  point fly=1.4375 hoist=0.5625
+  point fly=1.4375 hoist=0.8
+  point fly=1.375 hoist=0.8
+  point fly=1.375 hoist=0.6625
+  point fly=1.3125 hoist=0.6
+  point fly=1.25 hoist=0.6625
+  point fly=1.25 hoist=1
+  point fly=1.1875 hoist=1
+  point fly=1.1875 hoist=0.8625
+  point fly=1.125 hoist=0.8
+  point fly=1.0625 hoist=0.8625
+  point fly=1.0625 hoist=1.1
+  point fly=0.9333 hoist=1.1
+  point fly=0.9333 hoist=1.2
+  point fly=0.8 hoist=1.2
+  point fly=0.8 hoist=1.3
+  point fly=2.2 hoist=1.3
+  point fly=2.2 hoist=1.2
+  point fly=2.0667 hoist=1.2
+  point fly=2.0667 hoist=1.1
+  point fly=1.9375 hoist=1.1
+  point fly=1.9375 hoist=0.8625
+  point fly=1.875 hoist=0.8
+  point fly=1.8125 hoist=0.8625
+  point fly=1.8125 hoist=1
+  point fly=1.75 hoist=1
+  point fly=1.75 hoist=0.6625
+  point fly=1.6875 hoist=0.6
+  point fly=1.625 hoist=0.6625
+  point fly=1.625 hoist=0.8
+  point fly=1.5625 hoist=0.8
+  point fly=1.5625 hoist=0.5625
 }

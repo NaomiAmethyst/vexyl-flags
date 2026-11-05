@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Udmurtia"
@@ -12,19 +11,19 @@ palette {
   white "#ffffff"
   red "#dd2211"
 }
-proportion hoist=270 fly=540
+proportion hoist=1 fly=2
 
 bars black white red {
   along hoist
 }
 
 charge polygon red {
-  point fly=245 hoist=60
-  point fly=345 hoist=160
-  point fly=195 hoist=160
-  point fly=295 hoist=60
-  point fly=295 hoist=210
-  point fly=195 hoist=110
-  point fly=345 hoist=110
-  point fly=245 hoist=210
+  point fly=0.9074 hoist=0.2222
+  point fly=1.2778 hoist=0.5926
+  point fly=0.7222 hoist=0.5926
+  point fly=1.0926 hoist=0.2222
+  point fly=1.0926 hoist=0.7778
+  point fly=0.7222 hoist=0.4074
+  point fly=1.2778 hoist=0.4074
+  point fly=0.9074 hoist=0.7778
 }

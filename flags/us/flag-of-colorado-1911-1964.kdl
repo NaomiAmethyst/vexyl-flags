@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Colorado (1911–1964)"
@@ -10,22 +9,22 @@ meta {
 palette {
   blue "#00205b"
   white "#ffffff"
-  pink "#bf0a30"
+  red "#bf0a30"
   yellow "#ffd700"
 }
-proportion hoist=1200 fly=1800
+proportion hoist=2 fly=3
 
 bars blue white blue
 
-charge path pink {
+charge path red {
   d "M589 656A150 150 0 1 1 589 544L444 600"
   box "439 394 300 300"
-  fly 300
-  hoist 300
-  at fly=589 hoist=544
+  fly 0.5
+  hoist 0.5
+  at fly=0.9817 hoist=0.9067
 }
 
 charge disc yellow {
-  radius 75
-  at fly=450 hoist=600
+  radius 0.125
+  at fly=0.75 hoist=1
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Bashkortostan (1992–2003)"
@@ -12,106 +11,104 @@ palette {
   green "#007000"
   yellow "#ffd700"
 }
-proportion hoist=300 fly=600
+proportion hoist=144 fly=288
 
 bars blue white green
 
 charge ring yellow {
-  radius 40
-  inner 35
-  at fly=300 hoist=150
-  anchor center
+  radius 19.1875
+  inner 16.8125
+  at center
 }
 
 charge disc yellow {
-  radius 8
-  at fly=300 hoist=150
-  anchor center
+  radius 3.875
+  at center
 }
 
 charge rect yellow {
-  fly 25
-  hoist 2
-  at fly=312.5 hoist=150
+  fly 12
+  hoist 1
+  at fly=150 hoist=72
 }
 
 charge disc yellow {
-  radius 5
-  at fly=325 hoist=150
+  radius 2.375
+  at fly=156 hoist=72
 }
 
 charge polygon yellow {
-  point fly=300.5 hoist=150.866
-  point fly=322.1506 hoist=138.366
-  point fly=321.1506 hoist=136.634
-  point fly=299.5 hoist=149.134
+  point fly=144.25 hoist=72.375
+  point fly=154.625 hoist=66.375
+  point fly=154.125 hoist=65.625
+  point fly=143.75 hoist=71.625
 }
 
 charge disc yellow {
-  radius 5
-  at fly=321.6506 hoist=137.5
+  radius 2.375
+  at fly=154.375 hoist=66
 }
 
 charge polygon yellow {
-  point fly=300.866 hoist=150.5
-  point fly=313.366 hoist=128.8494
-  point fly=311.634 hoist=127.8494
-  point fly=299.134 hoist=149.5
+  point fly=144.375 hoist=72.25
+  point fly=150.375 hoist=61.875
+  point fly=149.625 hoist=61.375
+  point fly=143.625 hoist=71.75
 }
 
 charge disc yellow {
-  radius 5
-  at fly=312.5 hoist=128.3494
+  radius 2.375
+  at fly=150 hoist=61.625
 }
 
 charge rect yellow {
-  fly 2
-  hoist 25
-  at fly=300 hoist=137.5
+  fly 1
+  hoist 12
+  at fly=144 hoist=66
 }
 
 charge disc yellow {
-  radius 5
-  at fly=300 hoist=125
+  radius 2.375
+  at fly=144 hoist=60
 }
 
 charge polygon yellow {
-  point fly=300.866 hoist=149.5
-  point fly=288.366 hoist=127.8494
-  point fly=286.634 hoist=128.8494
-  point fly=299.134 hoist=150.5
+  point fly=144.375 hoist=71.75
+  point fly=138.375 hoist=61.375
+  point fly=137.625 hoist=61.875
+  point fly=143.625 hoist=72.25
 }
 
 charge disc yellow {
-  radius 5
-  at fly=287.5 hoist=128.3494
+  radius 2.375
+  at fly=138 hoist=61.625
 }
 
 charge polygon yellow {
-  point fly=300.5 hoist=149.134
-  point fly=278.8494 hoist=136.634
-  point fly=277.8494 hoist=138.366
-  point fly=299.5 hoist=150.866
+  point fly=144.25 hoist=71.625
+  point fly=133.875 hoist=65.625
+  point fly=133.375 hoist=66.375
+  point fly=143.75 hoist=72.375
 }
 
 charge disc yellow {
-  radius 5
-  at fly=278.3494 hoist=137.5
+  radius 2.375
+  at fly=133.625 hoist=66
 }
 
 charge rect yellow {
-  fly 25
-  hoist 2
-  at fly=287.5 hoist=150
+  fly 12
+  hoist 1
+  at fly=138 hoist=72
 }
 
 charge disc yellow {
-  radius 5
-  at fly=275 hoist=150
+  radius 2.375
+  at fly=132 hoist=72
 }
 
 charge rect yellow {
-  fly 2
-  hoist 25
-  at fly=300 hoist=162.5
+  fly 1
+  hoist 12
+  at fly=144 hoist=78
 }

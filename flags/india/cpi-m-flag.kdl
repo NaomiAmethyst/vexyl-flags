@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "CPI-M-flag"
@@ -10,15 +9,14 @@ palette {
   red "#de0000"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field red
 
 charge path white {
   d "M475.576 120C537.345 186.24 563.404 213.12 571.126 288.96C573.056 313.92 560.509 341.76 539.276 363.84L403.19 234.24L450.482 192.96L381.957 173.76L301.85 252.48L344.317 294.72L378.097 259.2L506.462 387.84C463.03 410.88 404.156 412.8 353.004 362.88L352.039 361.92L270 439.68L307.641 476.16C318.258 461.76 377.132 405.12 377.132 406.08L376.167 405.12C374.237 402.24 372.306 400.32 370.376 398.4L376.167 405.12C429.25 461.76 499.706 464.64 549.894 431.04L598.15 480L630 450.24L580.777 403.2C601.045 377.28 614.557 343.68 614.557 303.36C610.696 241.92 565.334 180.48 475.576 120Z"
   box "270 120 360 360"
-  fly 360
-  hoist 360
-  at fly=450 hoist=300
-  anchor center
+  fly 1.2
+  hoist 1.2
+  at center
 }

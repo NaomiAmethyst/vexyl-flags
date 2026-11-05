@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Gabon (1959–1960)"
@@ -13,9 +12,9 @@ palette {
   green "#009e60"
   red "#ce1126"
   white "#ffffff"
-  blue-2 "#002654"
+  dark-blue "#002654"
 }
-proportion hoist=9 fly=12
+proportion hoist=36 fly=48
 
 bars yellow blue {
   ratio 5.244 3.756
@@ -23,27 +22,27 @@ bars yellow blue {
 
 charge polygon green {
   point fly=0 hoist=0
-  point fly=12 hoist=0
-  point fly=12 hoist=3.75
-  point fly=6 hoist=3.75
+  point fly=48 hoist=0
+  point fly=48 hoist=15
+  point fly=24 hoist=15
 }
 
 charge polygon red {
   point fly=0 hoist=0
-  point fly=6 hoist=0
-  point fly=6 hoist=3.75
-  point fly=4 hoist=3.75
+  point fly=24 hoist=0
+  point fly=24 hoist=15
+  point fly=16 hoist=15
 }
 
 charge polygon white {
   point fly=0 hoist=0
-  point fly=4 hoist=0
-  point fly=4 hoist=3.75
-  point fly=2 hoist=3.75
+  point fly=16 hoist=0
+  point fly=16 hoist=15
+  point fly=8 hoist=15
 }
 
 canton {
-  fly 2
-  hoist 3.75
-  field blue-2
+  fly 8
+  hoist 15
+  field dark-blue
 }

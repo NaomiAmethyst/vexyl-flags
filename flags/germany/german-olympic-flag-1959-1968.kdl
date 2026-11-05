@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "German Olympic flag (1959-1968)"
@@ -13,26 +12,26 @@ palette {
   yellow "#ffce00"
   white "#ffffff"
 }
-proportion hoist=600 fly=1000
+proportion hoist=3 fly=5
 
 bars black red yellow
 
 charge ring white {
-  radius 61.2296
-  inner 50.4577
-  at fly=367.3358 hoist=271.3224
-  at fly=500 hoist=271.3224
-  at fly=632.6641 hoist=271.3224
-  at fly=433.6679 hoist=328.0165
-  at fly=566.332 hoist=328.0165
+  radius 0.3061
+  inner 0.2523
+  at fly=1.8367 hoist=1.3566
+  at fly=2.5 hoist=1.3566
+  at fly=3.1633 hoist=1.3566
+  at fly=2.1683 hoist=1.6401
+  at fly=2.8317 hoist=1.6401
 }
 
 charge path white {
   d "M412.0107 237.8162A55.8437 55.8437 0 0 1 412.0107 304.8286M544.6749 237.8162A55.8437 55.8437 0 0 1 544.6749 304.8286M500 327.1661A55.8437 55.8437 0 0 1 466.4937 315.9974M632.6641 327.1661A55.8437 55.8437 0 0 1 599.1579 315.9974"
   box "356.167 237.8162 298.8346 134.0249"
-  fly 298.8346
-  hoist 134.0249
-  hollow 10.7719
-  at fly=505.5843 hoist=304.8286
+  fly 1.4942
+  hoist 0.6701
+  hollow 0.0539
+  at fly=2.5279 hoist=1.5241
   anchor center
 }

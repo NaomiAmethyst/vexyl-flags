@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Arizona"
@@ -7,54 +6,54 @@ meta {
   source "https://commons.wikimedia.org/wiki/File:Flag_of_Arizona.svg"
 }
 palette {
-  pink "#bf0a30"
+  red "#bf0a30"
   blue "#00205b"
   yellow "#fed700"
   orange "#ce5c17"
 }
-proportion hoist=384 fly=576
+proportion hoist=2 fly=3
 
-bars pink blue
+bars red blue
 
 pile yellow {
   from fly
-  base 45 125
-  tip 192 288
+  base 0.2344 0.651
+  tip 1 1.5
 }
 
 pile yellow {
   from top
-  base 427 510
-  tip 288 192
+  base 2.224 2.6562
+  tip 1.5 1
 }
 
 pile yellow {
   from top
-  base 315 363
-  tip 288 192
+  base 1.6406 1.8906
+  tip 1.5 1
 }
 
 pile yellow {
-  base 45 125
-  tip 192 288
-}
-
-pile yellow {
-  from top
-  base 66 149
-  tip 288 192
+  base 0.2344 0.651
+  tip 1 1.5
 }
 
 pile yellow {
   from top
-  base 213 261
-  tip 288 192
+  base 0.3438 0.776
+  tip 1.5 1
+}
+
+pile yellow {
+  from top
+  base 1.1094 1.3594
+  tip 1.5 1
 }
 
 charge polygon orange {
-  point fly=288 hoist=96
-  point fly=350.385 hoist=288
-  point fly=187.315 hoist=168.58
-  point fly=388.695 hoist=168.58
-  point fly=225.625 hoist=288
+  point fly=1.5 hoist=0.5
+  point fly=1.8249 hoist=1.5
+  point fly=0.9756 hoist=0.878
+  point fly=2.0245 hoist=0.878
+  point fly=1.1751 hoist=1.5
 }

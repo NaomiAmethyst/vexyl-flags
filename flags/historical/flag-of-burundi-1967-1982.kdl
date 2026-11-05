@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Burundi (1967–1982)"
@@ -11,96 +10,95 @@ palette {
   green "#43b02a"
   white "#ffffff"
 }
-proportion hoist=60 fly=90
+proportion hoist=2 fly=3
 
 field red
 
 charge polygon green {
-  point fly=-4.5 hoist=-3
-  point fly=-4.5 hoist=63
-  point fly=94.5 hoist=-3
-  point fly=94.5 hoist=63
+  point fly=-0.15 hoist=-0.1
+  point fly=-0.15 hoist=2.1
+  point fly=3.15 hoist=-0.1
+  point fly=3.15 hoist=2.1
 }
 
 charge polygon white {
-  point fly=-4.5 hoist=-3
-  point fly=-4.5 hoist=63
-  point fly=94.5 hoist=-3
-  point fly=94.5 hoist=63
-  hollow 8
+  point fly=-0.15 hoist=-0.1
+  point fly=-0.15 hoist=2.1
+  point fly=3.15 hoist=-0.1
+  point fly=3.15 hoist=2.1
+  hollow 0.2667
 }
 
 charge disc white {
-  radius 17
-  at fly=45 hoist=30
-  anchor center
+  radius 0.5667
+  at center
 }
 
 charge star red {
-  radius 3.6398
-  inner 2.1018
+  radius 0.1213
+  inner 0.0701
   points 6
-  at fly=45 hoist=21.2
+  at fly=1.5 hoist=0.7067
 }
 
 charge polygon green {
-  point fly=45 hoist=17.56
-  point fly=46.051 hoist=19.38
-  point fly=48.152 hoist=19.38
-  point fly=47.102 hoist=21.2
-  point fly=48.152 hoist=23.02
-  point fly=46.051 hoist=23.02
-  point fly=45 hoist=24.84
-  point fly=43.949 hoist=23.02
-  point fly=41.848 hoist=23.02
-  point fly=42.898 hoist=21.2
-  point fly=41.848 hoist=19.38
-  point fly=43.949 hoist=19.38
-  hollow 0.36
+  point fly=1.5 hoist=0.5853
+  point fly=1.535 hoist=0.646
+  point fly=1.6051 hoist=0.646
+  point fly=1.5701 hoist=0.7067
+  point fly=1.6051 hoist=0.7673
+  point fly=1.535 hoist=0.7673
+  point fly=1.5 hoist=0.828
+  point fly=1.465 hoist=0.7673
+  point fly=1.3949 hoist=0.7673
+  point fly=1.4299 hoist=0.7067
+  point fly=1.3949 hoist=0.646
+  point fly=1.465 hoist=0.646
+  hollow 0.012
 }
 
 charge star red {
-  radius 3.6398
-  inner 2.1018
+  radius 0.1213
+  inner 0.0701
   points 6
-  at fly=52.621 hoist=34.4
+  at fly=1.754 hoist=1.1467
 }
 
 charge polygon green {
-  point fly=55.7734 hoist=36.22
-  point fly=53.6717 hoist=36.2202
-  point fly=52.6212 hoist=38.0397
-  point fly=51.57 hoist=36.2204
-  point fly=49.4689 hoist=36.2197
-  point fly=50.5194 hoist=34.4002
-  point fly=49.4687 hoist=32.58
-  point fly=51.5704 hoist=32.5798
-  point fly=52.6209 hoist=30.7603
-  point fly=53.672 hoist=32.5796
-  point fly=55.7732 hoist=32.5803
-  point fly=54.7227 hoist=34.3998
-  hollow 0.36
+  point fly=1.8591 hoist=1.2073
+  point fly=1.7891 hoist=1.2073
+  point fly=1.754 hoist=1.268
+  point fly=1.719 hoist=1.2073
+  point fly=1.649 hoist=1.2073
+  point fly=1.684 hoist=1.1467
+  point fly=1.649 hoist=1.086
+  point fly=1.719 hoist=1.086
+  point fly=1.754 hoist=1.0253
+  point fly=1.7891 hoist=1.086
+  point fly=1.8591 hoist=1.086
+  point fly=1.8241 hoist=1.1467
+  hollow 0.012
 }
 
 charge star red {
-  radius 3.6398
-  inner 2.1018
+  radius 0.1213
+  inner 0.0701
   points 6
-  at fly=37.379 hoist=34.4
+  at fly=1.246 hoist=1.1467
 }
 
 charge polygon green {
-  point fly=34.2266 hoist=36.22
-  point fly=35.2773 hoist=34.3998
-  point fly=34.2268 hoist=32.5803
-  point fly=36.328 hoist=32.5796
-  point fly=37.3791 hoist=30.7603
-  point fly=38.4296 hoist=32.5798
-  point fly=40.5313 hoist=32.58
-  point fly=39.4806 hoist=34.4002
-  point fly=40.5311 hoist=36.2197
-  point fly=38.43 hoist=36.2204
-  point fly=37.3788 hoist=38.0397
-  point fly=36.3283 hoist=36.2202
-  hollow 0.36
+  point fly=1.1409 hoist=1.2073
+  point fly=1.1759 hoist=1.1467
+  point fly=1.1409 hoist=1.086
+  point fly=1.2109 hoist=1.086
+  point fly=1.246 hoist=1.0253
+  point fly=1.281 hoist=1.086
+  point fly=1.351 hoist=1.086
+  point fly=1.316 hoist=1.1467
+  point fly=1.351 hoist=1.2073
+  point fly=1.281 hoist=1.2073
+  point fly=1.246 hoist=1.268
+  point fly=1.2109 hoist=1.2073
+  hollow 0.012
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Anjouan (official)"
@@ -11,22 +10,22 @@ palette {
   red "#ce1126"
   white "#ffffff"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 field red
 
 charge disc white {
-  radius 125
-  at fly=320 hoist=200
+  radius 0.625
+  at fly=1.6 hoist=1
 }
 
 charge disc red {
-  radius 112.5
-  at fly=362.5 hoist=200
+  radius 0.5625
+  at fly=1.8125 hoist=1
 }
 
 charge star white {
-  radius 22.7151
-  at fly=362.5 hoist=127.0201
-  repeat line count=4 hoist=50
+  radius 0.1136
+  at fly=1.8125 hoist=0.6351
+  repeat line count=4 hoist=0.25
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Mutawakkilite Kingdom of Yemen"
@@ -11,23 +10,23 @@ palette {
   red "#ce1126"
   white "#ffffff"
 }
-proportion hoist=300 fly=600
+proportion hoist=1 fly=2
 
 field red
 
 charge star white {
-  radius 21.0001
-  at fly=40 hoist=41
-  at fly=560 hoist=41
-  at fly=300 hoist=70.5
-  at fly=40 hoist=263
-  at fly=560 hoist=263
+  radius 0.07
+  at fly=0.1333 hoist=0.1367
+  at fly=1.8667 hoist=0.1367
+  at fly=1 hoist=0.235
+  at fly=0.1333 hoist=0.8767
+  at fly=1.8667 hoist=0.8767
 }
 
 charge path white {
   d "M191.2188 111.3878C178.0558 111.8315 173.9504 118.7665 172.75 127.5128L143.875 119.7003C135.5284 117.3466 123.921 117.0687 118.8125 118.3566C99.4982 123.2259 101.3227 136.002 107.3438 144.4816C112.375 151.5671 130.6714 152.9603 127.4688 131.5441C139.4586 133.0128 150.3178 134.3987 165.7188 139.7316L172.3438 141.5441C172.5289 151.9179 172.4985 161.6059 163.9062 164.3253C182.6539 168.4696 184.8803 157.963 185.2812 145.1066L288.6562 173.4503C371.3034 194.1571 397.7678 193.3858 433.4062 187.1066C468.603 180.9052 492.9591 159.9048 500.8125 143.8566C429.9041 207.4806 295.4687 160.7003 295.4688 160.7003L185.6562 131.0128C186.2909 122.4608 188.4205 114.7897 196.2188 111.5128C194.4181 111.3791 192.7609 111.3358 191.2188 111.3878Z"
   box "99.4982 111.3358 401.3143 96.1448"
-  fly 401.3143
-  hoist 96.1448
-  at fly=300.1554 hoist=159.4082
+  fly 1.3377
+  hoist 0.3205
+  at fly=1.0005 hoist=0.5314
 }

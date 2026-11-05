@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Merina people"
@@ -13,76 +12,76 @@ palette {
   orange "#ec9a4c"
   black "#000000"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field red
 
 chevrons white {
-  depth 900.0007
+  depth 3
 }
 
 charge disc orange {
-  radius 102.5551
-  at fly=191.441 hoist=299.2145
+  radius 0.3419
+  at fly=0.6381 hoist=0.9974
 }
 
 charge ring black {
-  radius 103.944
-  inner 101.1662
-  at fly=191.441 hoist=299.2145
+  radius 0.3465
+  inner 0.3372
+  at fly=0.6381 hoist=0.9974
 }
 
 charge rect red {
-  fly 86.0156
-  hoist 66.5927
-  at fly=191.4409 hoist=333.9102
+  fly 0.2867
+  hoist 0.222
+  at fly=0.6381 hoist=1.113
 }
 
 charge polygon black {
-  point fly=148.4331 hoist=300.6138
-  point fly=234.4487 hoist=300.6138
-  point fly=234.4487 hoist=367.2065
-  point fly=148.4331 hoist=367.2065
-  hollow 2.7747
+  point fly=0.4948 hoist=1.002
+  point fly=0.7815 hoist=1.002
+  point fly=0.7815 hoist=1.224
+  point fly=0.4948 hoist=1.224
+  hollow 0.0092
 }
 
 charge polygon black {
-  point fly=131.1607 hoist=315.3197
-  point fly=208.1579 hoist=212.6568
-  point fly=205.9382 hoist=210.992
-  point fly=128.9409 hoist=313.6549
+  point fly=0.4375 hoist=1.0511
+  point fly=0.6939 hoist=0.7089
+  point fly=0.6865 hoist=0.7033
+  point fly=0.4298 hoist=1.0455
 }
 
 charge polygon black {
-  point fly=253.941 hoist=313.6549
-  point fly=176.9437 hoist=210.992
-  point fly=174.724 hoist=212.6568
-  point fly=251.7212 hoist=315.3197
+  point fly=0.8465 hoist=1.0455
+  point fly=0.5898 hoist=0.7033
+  point fly=0.5824 hoist=0.7089
+  point fly=0.8391 hoist=1.0511
 }
 
 charge polygon red {
-  point fly=137.3344 hoist=304.7759
-  point fly=191.4409 hoist=232.6338
-  point fly=245.5475 hoist=304.7753
+  point fly=0.4578 hoist=1.0159
+  point fly=0.6381 hoist=0.7754
+  point fly=0.8185 hoist=1.0159
 }
 
 charge polygon black {
-  point fly=137.3344 hoist=304.7759
-  point fly=191.4409 hoist=232.6338
-  point fly=245.5475 hoist=304.7753
-  hollow 2.7747
+  point fly=0.4578 hoist=1.0159
+  point fly=0.6381 hoist=0.7754
+  point fly=0.8185 hoist=1.0159
+  hollow 0.0092
 }
 
 charge rect red {
-  fly 102.6638
-  hoist 8.3241
-  at fly=191.4409 hoist=367.2065
+  fly 0.3422
+  hoist 0.0277
+  at fly=0.6381 hoist=1.224
 }
 
 charge polygon black {
-  point fly=140.1091 hoist=363.0445
-  point fly=242.7728 hoist=363.0445
-  point fly=242.7728 hoist=371.3686
-  point fly=140.1091 hoist=371.3686
-  hollow 2.7747
+  point fly=0.467 hoist=1.2101
+  point fly=0.8092 hoist=1.2101
+  point fly=0.8092 hoist=1.2379
+  point fly=0.467 hoist=1.2379
+  hollow 0.0092
 }

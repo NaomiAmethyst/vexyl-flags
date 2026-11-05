@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "South African Burgers Flag"
@@ -12,11 +11,11 @@ palette {
   white "#ffffff"
   red "#de3831"
 }
-proportion hoist=400 fly=600
+proportion hoist=10 fly=15
 
 field blue
 
 saltire red {
-  width 80
-  fimbriate white 13.3333
+  width 2
+  fimbriate white 0.3333
 }

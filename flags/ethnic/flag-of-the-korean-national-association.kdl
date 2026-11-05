@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Korean National Association"
@@ -12,23 +11,23 @@ palette {
   yellow "#f7d619"
   purple "#29166f"
 }
-proportion hoist=333 fly=500
+proportion hoist=1 fly=1.5015
 
 field red
 
 canton {
-  fly 248.819
-  hoist 165.879
+  fly 0.7472
+  hoist 0.4981
   field yellow
   charge disc red {
-    radius 41.47
-    at fly=124.41 hoist=82.94
+    radius 0.1245
+    at center
   }
   charge path purple {
     d "M89.904 59.936C83.551 69.464 86.127 82.338 95.655 88.69C105.183 95.042 118.057 92.468 124.409 82.94C130.761 73.412 143.635 70.837 153.163 77.189C162.692 83.542 165.266 96.416 158.914 105.944C146.209 125 120.462 130.15 101.405 117.445C82.35 104.74 77.2 78.993 89.904 59.936Z"
     box "77.2 59.936 88.066 70.214"
-    fly 88.066
-    hoist 70.214
-    at fly=121.233 hoist=95.043
+    fly 0.2645
+    hoist 0.2109
+    at fly=0.3641 hoist=0.2854
   }
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Suriname"
@@ -9,16 +8,16 @@ meta {
 palette {
   green "#377e3f"
   white "#ffffff"
-  pink "#b40a2d"
+  red "#b40a2d"
   yellow "#ecc81d"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
-bars green white pink white green {
+bars green white red white green {
   ratio 2 1 4 1 2
 }
 
 charge star yellow {
-  radius 120
-  at fly=450 hoist=311.459
+  radius 0.4
+  at fly=1.5 hoist=1.0382
 }

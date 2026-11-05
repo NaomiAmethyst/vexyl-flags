@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Switzerland"
@@ -11,21 +10,21 @@ palette {
   red "#ff0000"
   white "#ffffff"
 }
-proportion hoist=32 fly=32
+proportion hoist=1 fly=1
 
 field red
 
 charge polygon white {
-  point fly=13 hoist=6
-  point fly=19 hoist=6
-  point fly=19 hoist=13
-  point fly=26 hoist=13
-  point fly=26 hoist=19
-  point fly=19 hoist=19
-  point fly=19 hoist=26
-  point fly=13 hoist=26
-  point fly=13 hoist=19
-  point fly=6 hoist=19
-  point fly=6 hoist=13
-  point fly=13 hoist=13
+  point fly=0.4062 hoist=0.1875
+  point fly=0.5938 hoist=0.1875
+  point fly=0.5938 hoist=0.4062
+  point fly=0.8125 hoist=0.4062
+  point fly=0.8125 hoist=0.5938
+  point fly=0.5938 hoist=0.5938
+  point fly=0.5938 hoist=0.8125
+  point fly=0.4062 hoist=0.8125
+  point fly=0.4062 hoist=0.5938
+  point fly=0.1875 hoist=0.5938
+  point fly=0.1875 hoist=0.4062
+  point fly=0.4062 hoist=0.4062
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Shimazu Lords of Kagoshima in Satsuma Province (C)"
@@ -11,31 +10,31 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=700 fly=900
+proportion hoist=7 fly=9
 
 field white
 
 charge path black {
   d "M450 100.28C312.58 100.28 200.28 212.59 200.28 350S312.59 599.72 450 599.72S699.72 487.41 699.72 350S587.41 100.28 450 100.28ZM407.5 190.76L407.5 307.5L290.76 307.5A163.84 163.84 0 0 1 407.5 190.76ZM492.5 190.76A163.84 163.84 0 0 1 609.24 307.5L492.5 307.5L492.5 190.76ZM290.76 392.5L407.5 392.5L407.5 509.24A163.84 163.84 0 0 1 290.76 392.5ZM492.5 392.5L609.24 392.5A163.84 163.84 0 0 1 492.5 509.24L492.5 392.5Z"
   box "126.92 26.92 646.16 646.16"
-  fly 646.16
-  hoist 646.16
+  fly 6.4616
+  hoist 6.4616
   evenodd
-  at fly=450 hoist=350
+  at center
 }
 
 charge path black {
   d "M0 248.74L0 333.74L192.61 333.74A255.49 255.49 0 0 1 212.86 248.74ZM687.14 248.74A255.5 255.5 0 0 1 707.39 333.74L900 333.74L900 248.74Z"
   box "-42.63 -6.75 1005.52 595.99"
-  fly 1005.52
-  hoist 595.99
-  at fly=460.13 hoist=291.245
+  fly 10.0552
+  hoist 5.9599
+  at fly=4.6 hoist=2.9125
 }
 
 charge path black {
   d "M0 366.26L0 451.26L212.86 451.26A255.5 255.5 0 0 1 192.61 366.26ZM707.39 366.26A255.49 255.49 0 0 1 687.14 451.26L900 451.26L900 366.26Z"
   box "-62.89 110.76 1005.52 595.99"
-  fly 1005.52
-  hoist 595.99
-  at fly=439.87 hoist=408.755
+  fly 10.0552
+  hoist 5.9599
+  at fly=4.4 hoist=4.0876
 }

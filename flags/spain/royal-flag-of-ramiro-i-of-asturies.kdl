@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Royal flag of Ramiro I of Asturies"
@@ -11,36 +10,36 @@ palette {
   white "#ffffff"
   red "#ff0000"
 }
-proportion hoist=498.3113 fly=730
+proportion hoist=1 fly=1.4649
 
 charge polygon white {
-  point fly=3.846 hoist=1.7592
-  point fly=726.4529 hoist=1.7592
-  point fly=478.1225 hoist=240.7158
-  point fly=726.4529 hoist=494.3893
-  point fly=3.846 hoist=494.3893
+  point fly=0.0077 hoist=0.0035
+  point fly=1.4578 hoist=0.0035
+  point fly=0.9595 hoist=0.4831
+  point fly=1.4578 hoist=0.9921
+  point fly=0.0077 hoist=0.9921
 }
 
 charge polygon red {
-  point fly=3.846 hoist=1.7592
-  point fly=726.4529 hoist=1.7592
-  point fly=478.1225 hoist=240.7158
-  point fly=726.4529 hoist=494.3893
-  point fly=3.846 hoist=494.3893
-  point fly=3.846 hoist=1.7592
-  hollow 10
+  point fly=0.0077 hoist=0.0035
+  point fly=1.4578 hoist=0.0035
+  point fly=0.9595 hoist=0.4831
+  point fly=1.4578 hoist=0.9921
+  point fly=0.0077 hoist=0.9921
+  point fly=0.0077 hoist=0.0035
+  hollow 0.0201
 }
 
 charge polygon red {
-  point fly=3.8438 hoist=201.25
-  point fly=3.8438 hoist=283.4062
-  point fly=519.9062 hoist=283.4062
-  point fly=478.125 hoist=240.7188
-  point fly=519.125 hoist=201.25
+  point fly=0.0077 hoist=0.4039
+  point fly=0.0077 hoist=0.5687
+  point fly=1.0433 hoist=0.5687
+  point fly=0.9595 hoist=0.4831
+  point fly=1.0418 hoist=0.4039
 }
 
 charge rect red {
-  fly 82.1544
-  hoist 489.1921
-  at fly=240.8618 hoist=247.9354
+  fly 0.1649
+  hoist 0.9817
+  at fly=0.4834 hoist=0.4976
 }

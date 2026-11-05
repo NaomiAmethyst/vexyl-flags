@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Germany (1946-1949)"
@@ -12,25 +11,25 @@ palette {
   white "#ffffff"
   red "#ff0000"
 }
-proportion hoist=1000 fly=1500
+proportion hoist=2 fly=3
 outline swallowtail {
-  depth 500
+  depth 1
 }
 
 field blue
 
 charge polygon white {
-  point fly=0 hoist=200
-  point fly=1300 hoist=200
-  point fly=1000 hoist=500
-  point fly=1300 hoist=800
-  point fly=0 hoist=800
+  point fly=0 hoist=0.4
+  point fly=2.6 hoist=0.4
+  point fly=2 hoist=1
+  point fly=2.6 hoist=1.6
+  point fly=0 hoist=1.6
 }
 
 charge polygon red {
-  point fly=0 hoist=400
-  point fly=1100 hoist=400
-  point fly=1000 hoist=500
-  point fly=1100 hoist=600
-  point fly=0 hoist=600
+  point fly=0 hoist=0.8
+  point fly=2.2 hoist=0.8
+  point fly=2 hoist=1
+  point fly=2.2 hoist=1.2
+  point fly=0 hoist=1.2
 }

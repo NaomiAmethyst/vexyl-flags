@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Artsakh"
@@ -12,60 +11,60 @@ palette {
   blue "#0033a0"
   white "#ffffff"
 }
-proportion hoist=18 fly=36
+proportion hoist=1 fly=2
 
 bars red orange
 
 charge polygon blue {
-  point fly=0 hoist=6
-  point fly=21 hoist=6
-  point fly=23.2 hoist=8.2
-  point fly=27.7 hoist=3.7
-  point fly=30 hoist=6
-  point fly=36 hoist=6
-  point fly=36 hoist=12
-  point fly=30 hoist=12
-  point fly=27.7 hoist=14.3
-  point fly=23.2 hoist=9.8
-  point fly=21 hoist=12
-  point fly=0 hoist=12
+  point fly=0 hoist=0.3333
+  point fly=1.1667 hoist=0.3333
+  point fly=1.2889 hoist=0.4556
+  point fly=1.5389 hoist=0.2056
+  point fly=1.6667 hoist=0.3333
+  point fly=2 hoist=0.3333
+  point fly=2 hoist=0.6667
+  point fly=1.6667 hoist=0.6667
+  point fly=1.5389 hoist=0.7944
+  point fly=1.2889 hoist=0.5444
+  point fly=1.1667 hoist=0.6667
+  point fly=0 hoist=0.6667
 }
 
 charge polygon white {
-  point fly=36 hoist=0
-  point fly=30 hoist=0
-  point fly=30 hoist=2
-  point fly=27 hoist=2
-  point fly=27 hoist=4
-  point fly=24 hoist=4
-  point fly=24 hoist=6
-  point fly=21 hoist=6
-  point fly=21 hoist=8
-  point fly=18 hoist=8
-  point fly=18 hoist=10
-  point fly=21 hoist=10
-  point fly=21 hoist=12
-  point fly=24 hoist=12
-  point fly=24 hoist=14
-  point fly=27 hoist=14
-  point fly=27 hoist=16
-  point fly=30 hoist=16
-  point fly=30 hoist=18
-  point fly=36 hoist=18
-  point fly=36 hoist=16
-  point fly=33 hoist=16
-  point fly=33 hoist=14
-  point fly=30 hoist=14
-  point fly=30 hoist=12
-  point fly=27 hoist=12
-  point fly=27 hoist=10
-  point fly=24 hoist=10
-  point fly=24 hoist=8
-  point fly=27 hoist=8
-  point fly=27 hoist=6
-  point fly=30 hoist=6
-  point fly=30 hoist=4
-  point fly=33 hoist=4
-  point fly=33 hoist=2
-  point fly=36 hoist=2
+  point fly=2 hoist=0
+  point fly=1.6667 hoist=0
+  point fly=1.6667 hoist=0.1111
+  point fly=1.5 hoist=0.1111
+  point fly=1.5 hoist=0.2222
+  point fly=1.3333 hoist=0.2222
+  point fly=1.3333 hoist=0.3333
+  point fly=1.1667 hoist=0.3333
+  point fly=1.1667 hoist=0.4444
+  point fly=1 hoist=0.4444
+  point fly=1 hoist=0.5556
+  point fly=1.1667 hoist=0.5556
+  point fly=1.1667 hoist=0.6667
+  point fly=1.3333 hoist=0.6667
+  point fly=1.3333 hoist=0.7778
+  point fly=1.5 hoist=0.7778
+  point fly=1.5 hoist=0.8889
+  point fly=1.6667 hoist=0.8889
+  point fly=1.6667 hoist=1
+  point fly=2 hoist=1
+  point fly=2 hoist=0.8889
+  point fly=1.8333 hoist=0.8889
+  point fly=1.8333 hoist=0.7778
+  point fly=1.6667 hoist=0.7778
+  point fly=1.6667 hoist=0.6667
+  point fly=1.5 hoist=0.6667
+  point fly=1.5 hoist=0.5556
+  point fly=1.3333 hoist=0.5556
+  point fly=1.3333 hoist=0.4444
+  point fly=1.5 hoist=0.4444
+  point fly=1.5 hoist=0.3333
+  point fly=1.6667 hoist=0.3333
+  point fly=1.6667 hoist=0.2222
+  point fly=1.8333 hoist=0.2222
+  point fly=1.8333 hoist=0.1111
+  point fly=2 hoist=0.1111
 }

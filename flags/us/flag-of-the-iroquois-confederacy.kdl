@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Iroquois Confederacy"
@@ -11,201 +10,201 @@ palette {
   purple "#593eb6"
   white "#ffffff"
 }
-proportion hoist=216 fly=360
+proportion hoist=3 fly=5
 
 field purple
 
 charge rect white {
-  fly 105.488
-  hoist 10
-  at fly=52.744 hoist=108
+  fly 1.4651
+  hoist 0.1389
+  at fly=0.7326 hoist=1.5
 }
 
 charge rect purple {
-  fly 40
-  hoist 45
-  at fly=44 hoist=107.5
+  fly 0.5556
+  hoist 0.625
+  at fly=0.6111 hoist=1.4931
 }
 
 charge polygon white {
-  point fly=24 hoist=85
-  point fly=64 hoist=85
-  point fly=64 hoist=130
-  point fly=24 hoist=130
-  hollow 10
+  point fly=0.3333 hoist=1.1806
+  point fly=0.8889 hoist=1.1806
+  point fly=0.8889 hoist=1.8056
+  point fly=0.3333 hoist=1.8056
+  hollow 0.1389
 }
 
 charge rect white {
-  fly 105.488
-  hoist 10
-  at fly=307.256 hoist=108
+  fly 1.4651
+  hoist 0.1389
+  at fly=4.2674 hoist=1.5
 }
 
 charge rect purple {
-  fly 40
-  hoist 45
-  at fly=316 hoist=107.5
+  fly 0.5556
+  hoist 0.625
+  at fly=4.3889 hoist=1.4931
 }
 
 charge polygon white {
-  point fly=296 hoist=85
-  point fly=336 hoist=85
-  point fly=336 hoist=130
-  point fly=296 hoist=130
-  hollow 10
+  point fly=4.1111 hoist=1.1806
+  point fly=4.6667 hoist=1.1806
+  point fly=4.6667 hoist=1.8056
+  point fly=4.1111 hoist=1.8056
+  hollow 0.1389
 }
 
 charge rect purple {
-  fly 40
-  hoist 56
-  at fly=121 hoist=108
+  fly 0.5556
+  hoist 0.7778
+  at fly=1.6806 hoist=1.5
 }
 
 charge polygon white {
-  point fly=101 hoist=80
-  point fly=141 hoist=80
-  point fly=141 hoist=136
-  point fly=101 hoist=136
-  hollow 10
+  point fly=1.4028 hoist=1.1111
+  point fly=1.9583 hoist=1.1111
+  point fly=1.9583 hoist=1.8889
+  point fly=1.4028 hoist=1.8889
+  hollow 0.1389
 }
 
 charge rect purple {
-  fly 40
-  hoist 56
-  at fly=240 hoist=108
+  fly 0.5556
+  hoist 0.7778
+  at fly=3.3333 hoist=1.5
 }
 
 charge polygon white {
-  point fly=220 hoist=80
-  point fly=260 hoist=80
-  point fly=260 hoist=136
-  point fly=220 hoist=136
-  hollow 10
+  point fly=3.0556 hoist=1.1111
+  point fly=3.6111 hoist=1.1111
+  point fly=3.6111 hoist=1.8889
+  point fly=3.0556 hoist=1.8889
+  hollow 0.1389
 }
 
 charge rect white {
-  fly 83.788
-  hoist 10
-  at fly=179.694 hoist=126
+  fly 1.1637
+  hoist 0.1389
+  at fly=2.4957 hoist=1.75
 }
 
 charge polygon white {
-  point fly=179.2169 hoist=67.519
-  point fly=179.0947 hoist=72.1162
-  point fly=176.8157 hoist=72.1162
-  point fly=176.8157 hoist=77.784
-  point fly=174.8489 hoist=77.784
-  point fly=174.9738 hoist=83.2157
-  point fly=172.6948 hoist=83.2157
-  point fly=172.6948 hoist=88.6137
-  point fly=170.6656 hoist=88.6811
-  point fly=170.8841 hoist=94.0454
-  point fly=168.6051 hoist=94.0454
-  point fly=168.6051 hoist=99.0047
-  point fly=166.6695 hoist=98.971
-  point fly=166.5446 hoist=104.875
-  point fly=164.5466 hoist=104.875
-  point fly=164.5154 hoist=109.8007
-  point fly=163.1418 hoist=109.8007
-  point fly=163.1418 hoist=115.4685
-  point fly=160.613 hoist=115.4685
-  point fly=160.9252 hoist=137.229
-  point fly=163.1418 hoist=137.1615
-  point fly=163.173 hoist=142.7957
-  point fly=164.5154 hoist=142.7957
-  point fly=164.5466 hoist=148.2274
-  point fly=166.5446 hoist=148.2274
-  point fly=166.5446 hoist=154.0639
-  point fly=176.5972 hoist=154.0639
-  point fly=177.5026 hoist=173.5978
-  point fly=183.1844 hoist=173.5978
-  point fly=183.6215 hoist=154.0639
-  point fly=193.6429 hoist=154.0639
-  point fly=193.6429 hoist=148.2274
-  point fly=195.6409 hoist=148.2274
-  point fly=195.7033 hoist=142.7957
-  point fly=197.0145 hoist=142.7957
-  point fly=197.0457 hoist=137.1615
-  point fly=199.2623 hoist=137.229
-  point fly=199.5745 hoist=115.4685
-  point fly=197.0457 hoist=115.4685
-  point fly=197.0457 hoist=109.8007
-  point fly=195.7033 hoist=109.8007
-  point fly=195.6721 hoist=104.875
-  point fly=193.6429 hoist=104.875
-  point fly=193.518 hoist=98.971
-  point fly=191.5824 hoist=99.0047
-  point fly=191.5824 hoist=94.0454
-  point fly=189.3034 hoist=94.0454
-  point fly=189.5531 hoist=88.6811
-  point fly=187.4927 hoist=88.6137
-  point fly=187.4927 hoist=83.2157
-  point fly=185.2137 hoist=83.2157
-  point fly=185.3386 hoist=77.784
-  point fly=183.3718 hoist=77.784
-  point fly=183.3718 hoist=72.1162
-  point fly=181.0928 hoist=72.1162
-  point fly=181.0928 hoist=67.5954
-  point fly=181.0615 hoist=67.5954
+  point fly=2.4891 hoist=0.9375
+  point fly=2.4874 hoist=1.0016
+  point fly=2.4558 hoist=1.0016
+  point fly=2.4558 hoist=1.0803
+  point fly=2.4285 hoist=1.0803
+  point fly=2.4302 hoist=1.1558
+  point fly=2.3985 hoist=1.1558
+  point fly=2.3985 hoist=1.2307
+  point fly=2.3704 hoist=1.2317
+  point fly=2.3734 hoist=1.3062
+  point fly=2.3417 hoist=1.3062
+  point fly=2.3417 hoist=1.375
+  point fly=2.3149 hoist=1.375
+  point fly=2.3125 hoist=1.4566
+  point fly=2.2854 hoist=1.4566
+  point fly=2.2849 hoist=1.525
+  point fly=2.2659 hoist=1.525
+  point fly=2.2659 hoist=1.6037
+  point fly=2.2307 hoist=1.6037
+  point fly=2.2351 hoist=1.906
+  point fly=2.2659 hoist=1.905
+  point fly=2.2663 hoist=1.9833
+  point fly=2.2849 hoist=1.9833
+  point fly=2.2854 hoist=2.0587
+  point fly=2.3125 hoist=2.0587
+  point fly=2.3125 hoist=2.1398
+  point fly=2.4527 hoist=2.1398
+  point fly=2.4653 hoist=2.4111
+  point fly=2.5442 hoist=2.4111
+  point fly=2.55 hoist=2.1398
+  point fly=2.6895 hoist=2.1398
+  point fly=2.6895 hoist=2.0587
+  point fly=2.7172 hoist=2.0587
+  point fly=2.7181 hoist=1.9833
+  point fly=2.7363 hoist=1.9833
+  point fly=2.7367 hoist=1.905
+  point fly=2.7675 hoist=1.906
+  point fly=2.7719 hoist=1.6037
+  point fly=2.7367 hoist=1.6037
+  point fly=2.7367 hoist=1.525
+  point fly=2.7181 hoist=1.525
+  point fly=2.7177 hoist=1.4566
+  point fly=2.6895 hoist=1.4566
+  point fly=2.6875 hoist=1.375
+  point fly=2.6609 hoist=1.375
+  point fly=2.6609 hoist=1.3062
+  point fly=2.6292 hoist=1.3062
+  point fly=2.6327 hoist=1.2317
+  point fly=2.6041 hoist=1.2307
+  point fly=2.6041 hoist=1.1558
+  point fly=2.5724 hoist=1.1558
+  point fly=2.5741 hoist=1.0803
+  point fly=2.5468 hoist=1.0803
+  point fly=2.5468 hoist=1.0016
+  point fly=2.5152 hoist=1.0016
+  point fly=2.5152 hoist=0.9388
+  point fly=2.5147 hoist=0.9388
 }
 
 charge polygon white {
-  point fly=179.2169 hoist=67.519
-  point fly=179.0947 hoist=72.1162
-  point fly=176.8157 hoist=72.1162
-  point fly=176.8157 hoist=77.784
-  point fly=174.8489 hoist=77.784
-  point fly=174.9738 hoist=83.2157
-  point fly=172.6948 hoist=83.2157
-  point fly=172.6948 hoist=88.6137
-  point fly=170.6656 hoist=88.6811
-  point fly=170.8841 hoist=94.0454
-  point fly=168.6051 hoist=94.0454
-  point fly=168.6051 hoist=99.0047
-  point fly=166.6695 hoist=98.971
-  point fly=166.5446 hoist=104.875
-  point fly=164.5466 hoist=104.875
-  point fly=164.5154 hoist=109.8007
-  point fly=163.1418 hoist=109.8007
-  point fly=163.1418 hoist=115.4685
-  point fly=160.613 hoist=115.4685
-  point fly=160.9252 hoist=137.229
-  point fly=163.1418 hoist=137.1615
-  point fly=163.173 hoist=142.7957
-  point fly=164.5154 hoist=142.7957
-  point fly=164.5466 hoist=148.2274
-  point fly=166.5446 hoist=148.2274
-  point fly=166.5446 hoist=154.0639
-  point fly=176.5972 hoist=154.0639
-  point fly=177.5026 hoist=173.5978
-  point fly=183.1844 hoist=173.5978
-  point fly=183.6215 hoist=154.0639
-  point fly=193.6429 hoist=154.0639
-  point fly=193.6429 hoist=148.2274
-  point fly=195.6409 hoist=148.2274
-  point fly=195.7033 hoist=142.7957
-  point fly=197.0145 hoist=142.7957
-  point fly=197.0457 hoist=137.1615
-  point fly=199.2623 hoist=137.229
-  point fly=199.5745 hoist=115.4685
-  point fly=197.0457 hoist=115.4685
-  point fly=197.0457 hoist=109.8007
-  point fly=195.7033 hoist=109.8007
-  point fly=195.6721 hoist=104.875
-  point fly=193.6429 hoist=104.875
-  point fly=193.518 hoist=98.971
-  point fly=191.5824 hoist=99.0047
-  point fly=191.5824 hoist=94.0454
-  point fly=189.3034 hoist=94.0454
-  point fly=189.5531 hoist=88.6811
-  point fly=187.4927 hoist=88.6137
-  point fly=187.4927 hoist=83.2157
-  point fly=185.2137 hoist=83.2157
-  point fly=185.3386 hoist=77.784
-  point fly=183.3718 hoist=77.784
-  point fly=183.3718 hoist=72.1162
-  point fly=181.0928 hoist=72.1162
-  point fly=181.0928 hoist=67.5954
-  point fly=181.0615 hoist=67.5954
-  hollow 1
+  point fly=2.4891 hoist=0.9375
+  point fly=2.4874 hoist=1.0016
+  point fly=2.4558 hoist=1.0016
+  point fly=2.4558 hoist=1.0803
+  point fly=2.4285 hoist=1.0803
+  point fly=2.4302 hoist=1.1558
+  point fly=2.3985 hoist=1.1558
+  point fly=2.3985 hoist=1.2307
+  point fly=2.3704 hoist=1.2317
+  point fly=2.3734 hoist=1.3062
+  point fly=2.3417 hoist=1.3062
+  point fly=2.3417 hoist=1.375
+  point fly=2.3149 hoist=1.375
+  point fly=2.3125 hoist=1.4566
+  point fly=2.2854 hoist=1.4566
+  point fly=2.2849 hoist=1.525
+  point fly=2.2659 hoist=1.525
+  point fly=2.2659 hoist=1.6037
+  point fly=2.2307 hoist=1.6037
+  point fly=2.2351 hoist=1.906
+  point fly=2.2659 hoist=1.905
+  point fly=2.2663 hoist=1.9833
+  point fly=2.2849 hoist=1.9833
+  point fly=2.2854 hoist=2.0587
+  point fly=2.3125 hoist=2.0587
+  point fly=2.3125 hoist=2.1398
+  point fly=2.4527 hoist=2.1398
+  point fly=2.4653 hoist=2.4111
+  point fly=2.5442 hoist=2.4111
+  point fly=2.55 hoist=2.1398
+  point fly=2.6895 hoist=2.1398
+  point fly=2.6895 hoist=2.0587
+  point fly=2.7172 hoist=2.0587
+  point fly=2.7181 hoist=1.9833
+  point fly=2.7363 hoist=1.9833
+  point fly=2.7367 hoist=1.905
+  point fly=2.7675 hoist=1.906
+  point fly=2.7719 hoist=1.6037
+  point fly=2.7367 hoist=1.6037
+  point fly=2.7367 hoist=1.525
+  point fly=2.7181 hoist=1.525
+  point fly=2.7177 hoist=1.4566
+  point fly=2.6895 hoist=1.4566
+  point fly=2.6875 hoist=1.375
+  point fly=2.6609 hoist=1.375
+  point fly=2.6609 hoist=1.3062
+  point fly=2.6292 hoist=1.3062
+  point fly=2.6327 hoist=1.2317
+  point fly=2.6041 hoist=1.2307
+  point fly=2.6041 hoist=1.1558
+  point fly=2.5724 hoist=1.1558
+  point fly=2.5741 hoist=1.0803
+  point fly=2.5468 hoist=1.0803
+  point fly=2.5468 hoist=1.0016
+  point fly=2.5152 hoist=1.0016
+  point fly=2.5152 hoist=0.9388
+  point fly=2.5147 hoist=0.9388
+  hollow 0.0139
 }

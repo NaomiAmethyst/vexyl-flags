@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Iwate Prefecture"
@@ -10,29 +9,28 @@ palette {
   teal "#145e70"
   white "#ffffff"
 }
-proportion hoist=110 fly=165
+proportion hoist=2 fly=3
 
 field teal
 
 charge path white {
   d "M56.5192 40L63.4474 40L68.6436 49L75.5718 49L72.1077 43L82.5 25L92.8923 43L89.4282 49L96.3564 49L101.5526 40L108.4808 40L99.8205 55L65.1795 55ZM82.5 49L85.9641 43L82.5 37L79.0359 43Z"
   box "56.5192 25 51.9615 30"
-  fly 51.9615
-  hoist 30
-  at fly=82.5 hoist=40
+  fly 0.9448
+  hoist 0.5455
+  at fly=1.5 hoist=0.7273
 }
 
 charge path white {
   d "M56.5192 70L63.4474 70L68.6436 61L75.5718 61L72.1077 67L82.5 85L92.8923 67L89.4282 61L96.3564 61L101.5526 70L108.4808 70L99.8205 55L65.1795 55ZM82.5 61L85.9641 67L82.5 73L79.0359 67Z"
   box "56.5192 55 51.9615 30"
-  fly 51.9615
-  hoist 30
-  at fly=82.5 hoist=70
+  fly 0.9448
+  hoist 0.5455
+  at fly=1.5 hoist=1.2727
 }
 
 charge rect teal {
-  fly 51.9615
-  hoist 0.6928
-  at fly=82.5 hoist=55
-  anchor center
+  fly 0.9448
+  hoist 0.0126
+  at center
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the French Southern and Antarctic Lands"
@@ -33,8 +32,8 @@ canton {
 }
 
 charge polygon white {
-  point fly=313.4609 hoist=160
-  point fly=316.9238 hoist=169
+  point fly=313.5 hoist=160
+  point fly=317 hoist=169
   point fly=333 hoist=169
   point fly=333 hoist=222
   point fly=328 hoist=229
@@ -42,77 +41,77 @@ charge polygon white {
   point fly=347 hoist=229
   point fly=342 hoist=222
   point fly=342 hoist=185
-  point fly=351.9238 hoist=185
-  point fly=355.3848 hoist=176
+  point fly=352 hoist=185
+  point fly=355.375 hoist=176
   point fly=342 hoist=176
   point fly=342 hoist=169
-  point fly=358.0762 hoist=169
-  point fly=361.5391 hoist=160
+  point fly=358 hoist=169
+  point fly=361.5 hoist=160
 }
 
 charge polygon white {
-  point fly=289.8895 hoist=180
-  point fly=294.9306 hoist=183.7422
-  point fly=293.0457 hoist=189.679
-  point fly=298 hoist=186.0427
-  point fly=302.9352 hoist=189.679
-  point fly=301.0525 hoist=183.7422
-  point fly=306.0925 hoist=180
-  point fly=299.8827 hoist=180
-  point fly=298 hoist=174.0081
-  point fly=296.0983 hoist=180
+  point fly=289.875 hoist=180
+  point fly=295 hoist=183.75
+  point fly=293 hoist=189.75
+  point fly=298 hoist=186
+  point fly=303 hoist=189.75
+  point fly=301 hoist=183.75
+  point fly=306.125 hoist=180
+  point fly=299.875 hoist=180
+  point fly=298 hoist=174
+  point fly=296.125 hoist=180
 }
 
 charge polygon white {
-  point fly=368.9075 hoist=180
-  point fly=373.9475 hoist=183.7422
-  point fly=372.0648 hoist=189.679
-  point fly=377 hoist=186.0427
-  point fly=381.9532 hoist=189.679
-  point fly=380.0694 hoist=183.7422
-  point fly=385.0925 hoist=180
-  point fly=378.9017 hoist=180
-  point fly=377 hoist=174.0081
-  point fly=375.1162 hoist=180
+  point fly=368.875 hoist=180
+  point fly=374 hoist=183.75
+  point fly=372 hoist=189.75
+  point fly=377 hoist=186
+  point fly=382 hoist=189.75
+  point fly=380 hoist=183.75
+  point fly=385.125 hoist=180
+  point fly=378.875 hoist=180
+  point fly=377 hoist=174
+  point fly=375.125 hoist=180
 }
 
 charge polygon white {
-  point fly=313.9475 hoist=249.7242
-  point fly=312.0457 hoist=255.6631
-  point fly=317 hoist=252.0257
-  point fly=321.9522 hoist=255.6631
-  point fly=320.0515 hoist=249.7242
-  point fly=325.0925 hoist=246
-  point fly=318.8827 hoist=246
-  point fly=317 hoist=240.0102
-  point fly=315.1152 hoist=246
-  point fly=308.9054 hoist=246
+  point fly=314 hoist=249.75
+  point fly=312 hoist=255.75
+  point fly=317 hoist=252
+  point fly=322 hoist=255.75
+  point fly=320 hoist=249.75
+  point fly=325.125 hoist=246
+  point fly=318.875 hoist=246
+  point fly=317 hoist=240
+  point fly=315.125 hoist=246
+  point fly=308.875 hoist=246
 }
 
 charge polygon white {
-  point fly=354.9475 hoist=249.7242
-  point fly=353.0648 hoist=255.6631
-  point fly=358 hoist=252.0257
-  point fly=362.9532 hoist=255.6631
-  point fly=361.0694 hoist=249.7242
-  point fly=366.0925 hoist=246
-  point fly=359.9017 hoist=246
-  point fly=358 hoist=240.0102
-  point fly=356.1162 hoist=246
-  point fly=349.9075 hoist=246
+  point fly=355 hoist=249.75
+  point fly=353 hoist=255.75
+  point fly=358 hoist=252
+  point fly=363 hoist=255.75
+  point fly=361 hoist=249.75
+  point fly=366.125 hoist=246
+  point fly=359.875 hoist=246
+  point fly=358 hoist=240
+  point fly=356.125 hoist=246
+  point fly=349.875 hoist=246
 }
 
 charge polygon white {
-  point fly=334.4475 hoist=270.7411
-  point fly=332.5637 hoist=276.679
-  point fly=337.4989 hoist=273.0426
-  point fly=342.4532 hoist=276.679
-  point fly=340.5694 hoist=270.7411
-  point fly=345.5925 hoist=267
-  point fly=339.4007 hoist=267
-  point fly=337.4989 hoist=261.0092
-  point fly=335.6162 hoist=267
-  point fly=329.4065 hoist=267
+  point fly=334.5 hoist=270.75
+  point fly=332.5 hoist=276.75
+  point fly=337.5 hoist=273
+  point fly=342.5 hoist=276.75
+  point fly=340.5 hoist=270.75
+  point fly=345.625 hoist=267
+  point fly=339.375 hoist=267
+  point fly=337.5 hoist=261
+  point fly=335.625 hoist=267
+  point fly=329.375 hoist=267
 }
 
 charge path white {

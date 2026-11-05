@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Puerto Rico"
@@ -12,26 +11,26 @@ palette {
   white "#ffffff"
   blue "#0044ff"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field red
 
 charge polygon white {
-  point fly=0 hoist=120
-  point fly=900 hoist=120
-  point fly=900 hoist=240
-  point fly=0 hoist=240
-  point fly=0 hoist=360
-  point fly=900 hoist=360
-  point fly=900 hoist=480
-  point fly=0 hoist=480
+  point fly=0 hoist=0.4
+  point fly=3 hoist=0.4
+  point fly=3 hoist=0.8
+  point fly=0 hoist=0.8
+  point fly=0 hoist=1.2
+  point fly=3 hoist=1.2
+  point fly=3 hoist=1.6
+  point fly=0 hoist=1.6
 }
 
 chevrons blue {
-  depth 519.6
+  depth 1.732
 }
 
 charge star white {
-  radius 100.0021
-  at fly=173.2 hoist=300
+  radius 0.3333
+  at fly=0.5773 hoist=1
 }

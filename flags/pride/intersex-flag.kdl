@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Intersex flag"
@@ -11,13 +10,12 @@ palette {
   yellow "#ffd800"
   purple "#7902aa"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field yellow
 
 charge ring purple {
-  radius 173.8125
-  inner 120.1875
-  at fly=450 hoist=300
-  anchor center
+  radius 0.5794
+  inner 0.4006
+  at center
 }

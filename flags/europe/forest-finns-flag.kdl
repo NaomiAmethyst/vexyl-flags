@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Forest Finns flag"
@@ -13,7 +12,7 @@ palette {
   yellow "#fdda3b"
   black "#000000"
 }
-proportion hoist=2000 fly=3200
+proportion hoist=200 fly=320
 
 bars green red green {
   along hoist
@@ -21,37 +20,37 @@ bars green red green {
 }
 
 charge rect red {
-  fly 3200
-  hoist 400
-  at fly=1600 hoist=1000
+  fly 320
+  hoist 40
+  at center
 }
 
 charge lozenge red {
-  fly 1600
-  hoist 2000
-  at fly=1200 hoist=1000
+  fly 160
+  hoist 200
+  at fly=120 hoist=100
 }
 
 charge rect yellow {
-  fly 200
-  hoist 2000
-  at fly=1200 hoist=1000
+  fly 20
+  hoist 200
+  at fly=120 hoist=100
 }
 
 charge lozenge yellow {
-  fly 1320
-  hoist 1650
-  at fly=1200 hoist=1000
+  fly 132
+  hoist 165
+  at fly=120 hoist=100
 }
 
 charge rect yellow {
-  fly 3200
-  hoist 200
-  at fly=1600 hoist=1000
+  fly 320
+  hoist 20
+  at center
 }
 
 charge lozenge black {
-  fly 800
-  hoist 1000
-  at fly=1200 hoist=1000
+  fly 80
+  hoist 100
+  at fly=120 hoist=100
 }

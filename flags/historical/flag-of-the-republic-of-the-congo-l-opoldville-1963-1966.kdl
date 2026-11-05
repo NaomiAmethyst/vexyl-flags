@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Republic of the Congo (Léopoldville) (1963–1966)"
@@ -11,30 +10,29 @@ palette {
   yellow "#f7d618"
   red "#ce1021"
 }
-proportion hoist=800 fly=1200
+proportion hoist=2 fly=3
 
 field blue
 
 charge star yellow {
-  radius 173.3333
-  inner 66.4036
-  at fly=248.5331 hoist=248.5333
+  radius 0.4333
+  at fly=0.6213 hoist=0.6213
 }
 
 charge polygon yellow {
-  point fly=1075.008 hoist=0
-  point fly=0 hoist=716.672
-  point fly=0 hoist=800
-  point fly=124.992 hoist=800
-  point fly=1200 hoist=83.328
-  point fly=1200 hoist=0
+  point fly=2.6875 hoist=0
+  point fly=0 hoist=1.7917
+  point fly=0 hoist=2
+  point fly=0.3125 hoist=2
+  point fly=3 hoist=0.2083
+  point fly=3 hoist=0
 }
 
 charge polygon red {
-  point fly=1123.083 hoist=0
-  point fly=0 hoist=748.726
-  point fly=0 hoist=800
-  point fly=76.917 hoist=800
-  point fly=1200 hoist=51.28
-  point fly=1200 hoist=0
+  point fly=2.8077 hoist=0
+  point fly=0 hoist=1.8718
+  point fly=0 hoist=2
+  point fly=0.1923 hoist=2
+  point fly=3 hoist=0.1282
+  point fly=3 hoist=0
 }

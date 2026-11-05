@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Hamburg Atlantic house flag"
@@ -11,27 +10,27 @@ palette {
   red "#f63a00"
   white "#ffffff"
 }
-proportion hoist=300 fly=450
+proportion hoist=2 fly=3
 
 field red
 
 charge polygon white {
-  point fly=225 hoist=150
-  point fly=287.5 hoist=258.253
-  point fly=225 hoist=233
-  point fly=162.5 hoist=258.253
+  point fly=1.5 hoist=1
+  point fly=1.9167 hoist=1.7217
+  point fly=1.5 hoist=1.5533
+  point fly=1.0833 hoist=1.7217
 }
 
 charge polygon white {
-  point fly=225 hoist=150
-  point fly=100.0002 hoist=150.0001
-  point fly=153.1199 hoist=108.5
-  point fly=162.5002 hoist=41.7469
+  point fly=1.5 hoist=1
+  point fly=0.6667 hoist=1
+  point fly=1.0208 hoist=0.7233
+  point fly=1.0833 hoist=0.2783
 }
 
 charge polygon white {
-  point fly=225 hoist=150
-  point fly=287.4998 hoist=41.7469
-  point fly=296.8801 hoist=108.5
-  point fly=349.9998 hoist=150.0001
+  point fly=1.5 hoist=1
+  point fly=1.9167 hoist=0.2783
+  point fly=1.9792 hoist=0.7233
+  point fly=2.3333 hoist=1
 }

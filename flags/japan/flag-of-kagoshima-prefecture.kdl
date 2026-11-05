@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Kagoshima Prefecture"
@@ -10,21 +9,21 @@ meta {
 palette {
   white "#ffffff"
   black "#000000"
-  pink "#bd0227"
+  red "#bd0227"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field white
 
 charge path black {
   d "M396 471.7091A180 180 0 1 1 609.5903 383.2522A18 18 0 0 0 589.86 413.3101A180 180 0 0 1 504 471.7091L541.2173 383.4761A99 99 0 1 0 358.7827 383.4761Z"
   box "259.7827 203.2522 529.8076 448.4569"
-  fly 529.8076
-  hoist 448.4569
-  at fly=524.6865 hoist=427.4806
+  fly 1.766
+  hoist 1.4949
+  at fly=1.749 hoist=1.4249
 }
 
-charge disc pink {
-  radius 72
-  at fly=450 hoist=345
+charge disc red {
+  radius 0.24
+  at fly=1.5 hoist=1.15
 }

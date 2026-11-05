@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Malaysia"
@@ -13,47 +12,47 @@ palette {
   blue "#000066"
   yellow "#ffcc00"
 }
-proportion hoist=6720 fly=13440
+proportion hoist=28 fly=56
 
 field white
 
 panel {
   corner upper-fly
-  fly 12960
-  hoist 480
+  fly 54
+  hoist 2
   field red
 }
 
 charge rect red {
-  fly 12960
-  hoist 480
-  at fly=6960 hoist=1200
-  repeat line count=3 hoist=960
+  fly 54
+  hoist 2
+  at fly=29 hoist=5
+  repeat line count=3 hoist=4
 }
 
 canton {
-  fly 6720
-  hoist 4080
+  fly 28
+  hoist 17
   field blue
 }
 
 charge rect red {
-  fly 13440
-  hoist 480
-  at fly=6720 hoist=4080
-  repeat line count=3 hoist=960
+  fly 56
+  hoist 2
+  at fly=28 hoist=17
+  repeat line count=3 hoist=4
 }
 
 charge crescent yellow {
-  radius 1440
-  inner 1280
-  offset 320.3302
-  at fly=2760.5359 hoist=1920
+  radius 6
+  inner 5.3333
+  offset 1.3333
+  at fly=11.5 hoist=8
 }
 
 charge star yellow {
-  radius 1199.9451
-  inner 479.7579
+  radius 5
+  inner 2
   points 14
-  at fly=4200 hoist=1920
+  at fly=17.5 hoist=8
 }

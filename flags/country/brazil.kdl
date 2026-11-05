@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Brazil"
@@ -12,160 +11,137 @@ palette {
   blue "#302681"
   white "#ffffff"
 }
-proportion hoist=2940 fly=4200
+proportion hoist=70 fly=100
 
 field green
 
 charge lozenge yellow {
-  fly 3486
-  hoist 2226
-  at fly=2100 hoist=1470
-  anchor center
+  fly 83
+  hoist 53
+  at center
 }
 
 charge disc blue {
-  radius 735
-  at fly=2100 hoist=1470
-  anchor center
+  radius 17.5
+  at center
 }
 
 charge svg {
   at center
-  fly 4200
-  hoist 2940
+  fly 100
+  hoist 70
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4200 2940"><defs><clipPath id="B"><circle r="735"></circle></clipPath></defs><path d="m-2205 1470a1785 1785 0 0 1 3570 0h-105a1680 1680 0 1 0-3360 0z" clip-path="url(#B)" fill="#ffffff" transform="matrix(1 0 0 1 2100 1470)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill-rule="evenodd" fill="#009440" transform="matrix(0.992546 -0.121869 0.121869 0.992546 1473.12679 1255.152908)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill-rule="evenodd" fill="#009440" transform="matrix(0.997564 -0.069756 0.069756 0.997564 1561.588386 1246.635025)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.997564 -0.069756 0.069756 0.997564 1561.588386 1246.635025)"/><path d="m-31.5 0h33a30 30 0 0 0 30-30v-10a30 30 0 0 0-30-30h-33zm13-13h19a19 19 0 0 0 19-19v-6a19 19 0 0 0-19-19h-19z" fill-rule="evenodd" fill="#009440" transform="matrix(0.999848 -0.017452 0.017452 0.999848 1650.37454 1242.758537)"/><path d="m0 0h63v-13h-51v-18h40v-12h-40v-14h48v-13h-60z" transform="matrix(0.999391 0.034899 -0.034899 0.999391 1707.761085 1242.434737)" fill="#009440"/><path d="m-31.5 0h12v-48l14 48h11l14-48v48h12v-70h-17.5l-14 48-14-48h-17.5z" fill="#009440" transform="matrix(0.996195 0.087156 -0.087156 0.996195 1827.946873 1248.9595)"/><path d="m-26.25 0h52.5v-12h-40.5v-16h33v-12h-33v-11h39.25v-12h-51.25z" fill="#009440" transform="matrix(0.985556 0.16935 -0.16935 0.985556 1967.470783 1267.01859)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill-rule="evenodd" fill="#009440" transform="matrix(0.968148 0.25038 -0.25038 0.968148 2105.020057 1296.56938)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill-rule="evenodd" fill="#009440" transform="matrix(0.953717 0.300706 -0.300706 0.953717 2190.448095 1321.065476)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.953717 0.300706 -0.300706 0.953717 2190.448095 1321.065476)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill-rule="evenodd" fill="#009440" transform="matrix(0.936672 0.350207 -0.350207 0.936672 2274.47703 1349.998959)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill-rule="evenodd" fill="#009440" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="M5-35H31.5V-25H5z" fill="#009440" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="m21.5-35h10v35h-10z" fill="#009440" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill-rule="evenodd" fill="#009440" transform="matrix(0.894934 0.446198 -0.446198 0.894934 2437.420788 1420.848921)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.894934 0.446198 -0.446198 0.894934 2437.420788 1420.848921)"/><path d="m0 0h63v-13h-51v-18h40v-12h-40v-14h48v-13h-60z" transform="matrix(0.870356 0.492424 -0.492424 0.870356 2488.472789 1447.059864)" fill="#009440"/><path d="m-15.75-22c0 7 6.75 10.5 16.75 10.5s14.74-3.25 14.75-7.75c0-14.25-46.75-5.25-46.5-30.25 0.25-21.5 24.75-20.5 33.75-20.5s26 4 25.75 21.25h-15.25c0-7.5-7-10.25-15-10.25-7.75 0-13.25 1.25-13.25 8.5-0.25 11.75 46.25 4 46.25 28.75 0 18.25-18 21.75-31.5 21.75-11.5 0-31.55-4.5-31.5-22z" fill="#009440" transform="matrix(0.843391 0.5373 -0.5373 0.843391 2592.066085 1508.343021)"/><path d="m-15.75-22c0 7 6.75 10.5 16.75 10.5s14.74-3.25 14.75-7.75c0-14.25-46.75-5.25-46.5-30.25 0.25-21.5 24.75-20.5 33.75-20.5s26 4 25.75 21.25h-15.25c0-7.5-7-10.25-15-10.25-7.75 0-13.25 1.25-13.25 8.5-0.25 11.75 46.25 4 46.25 28.75 0 18.25-18 21.75-31.5 21.75-11.5 0-31.55-4.5-31.5-22z" fill="#009440" transform="matrix(0.814116 0.580703 -0.580703 0.814116 2665.743267 1558.038908)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill-rule="evenodd" fill="#009440" transform="matrix(0.782608 0.622515 -0.622515 0.782608 2736.718596 1611.522654)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4200 2940"><defs><clipPath id="B"><circle r="735"></circle></clipPath></defs><path d="m-2205 1470a1785 1785 0 0 1 3570 0h-105a1680 1680 0 1 0-3360 0z" fill="#ffffff" clip-path="url(#B)" transform="matrix(1 0 0 1 2100 1470)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill-rule="evenodd" fill="#009440" transform="matrix(0.992546 -0.121869 0.121869 0.992546 1473.12679 1255.152908)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill-rule="evenodd" fill="#009440" transform="matrix(0.997564 -0.069756 0.069756 0.997564 1561.588386 1246.635025)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.997564 -0.069756 0.069756 0.997564 1561.588386 1246.635025)"/><path d="m-31.5 0h33a30 30 0 0 0 30-30v-10a30 30 0 0 0-30-30h-33zm13-13h19a19 19 0 0 0 19-19v-6a19 19 0 0 0-19-19h-19z" fill-rule="evenodd" fill="#009440" transform="matrix(0.999848 -0.017452 0.017452 0.999848 1650.37454 1242.758537)"/><path transform="matrix(0.999391 0.034899 -0.034899 0.999391 1707.761085 1242.434737)" d="m0 0h63v-13h-51v-18h40v-12h-40v-14h48v-13h-60z" fill="#009440"/><path d="m-31.5 0h12v-48l14 48h11l14-48v48h12v-70h-17.5l-14 48-14-48h-17.5z" fill="#009440" transform="matrix(0.996195 0.087156 -0.087156 0.996195 1827.946873 1248.9595)"/><path d="m-26.25 0h52.5v-12h-40.5v-16h33v-12h-33v-11h39.25v-12h-51.25z" fill="#009440" transform="matrix(0.985556 0.16935 -0.16935 0.985556 1967.470783 1267.01859)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill-rule="evenodd" fill="#009440" transform="matrix(0.968148 0.25038 -0.25038 0.968148 2105.020057 1296.56938)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill-rule="evenodd" fill="#009440" transform="matrix(0.953717 0.300706 -0.300706 0.953717 2190.448095 1321.065476)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.953717 0.300706 -0.300706 0.953717 2190.448095 1321.065476)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill-rule="evenodd" fill="#009440" transform="matrix(0.936672 0.350207 -0.350207 0.936672 2274.47703 1349.998959)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill-rule="evenodd" fill="#009440" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="M5-35H31.5V-25H5z" fill="#009440" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="m21.5-35h10v35h-10z" fill="#009440" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill-rule="evenodd" fill="#009440" transform="matrix(0.894934 0.446198 -0.446198 0.894934 2437.420788 1420.848921)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.894934 0.446198 -0.446198 0.894934 2437.420788 1420.848921)"/><path transform="matrix(0.870356 0.492424 -0.492424 0.870356 2488.472789 1447.059864)" d="m0 0h63v-13h-51v-18h40v-12h-40v-14h48v-13h-60z" fill="#009440"/><path d="m-15.75-22c0 7 6.75 10.5 16.75 10.5s14.74-3.25 14.75-7.75c0-14.25-46.75-5.25-46.5-30.25 0.25-21.5 24.75-20.5 33.75-20.5s26 4 25.75 21.25h-15.25c0-7.5-7-10.25-15-10.25-7.75 0-13.25 1.25-13.25 8.5-0.25 11.75 46.25 4 46.25 28.75 0 18.25-18 21.75-31.5 21.75-11.5 0-31.55-4.5-31.5-22z" fill="#009440" transform="matrix(0.843391 0.5373 -0.5373 0.843391 2592.066085 1508.343021)"/><path d="m-15.75-22c0 7 6.75 10.5 16.75 10.5s14.74-3.25 14.75-7.75c0-14.25-46.75-5.25-46.5-30.25 0.25-21.5 24.75-20.5 33.75-20.5s26 4 25.75 21.25h-15.25c0-7.5-7-10.25-15-10.25-7.75 0-13.25 1.25-13.25 8.5-0.25 11.75 46.25 4 46.25 28.75 0 18.25-18 21.75-31.5 21.75-11.5 0-31.55-4.5-31.5-22z" fill="#009440" transform="matrix(0.814116 0.580703 -0.580703 0.814116 2665.743267 1558.038908)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill-rule="evenodd" fill="#009440" transform="matrix(0.782608 0.622515 -0.622515 0.782608 2736.718596 1611.522654)"/></svg>
 """#
 }
 
 charge star white {
-  radius 31.5
-  inner 11.97
-  at fly=1500 hoist=1338
-  at fly=1565 hoist=1647
+  radius 0.75
+  at fly=35.7 hoist=31.875
+  at fly=37.25 hoist=39.2
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=1475 hoist=1713
+  radius 0.625
+  at fly=35.125 hoist=40.8
 }
 
 charge star white {
-  radius 15
-  inner 5.7
-  at fly=1637 hoist=1602
+  radius 0.375
+  at fly=38.9762 hoist=38.125
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=1718 hoist=1720
+  radius 0.625
+  at fly=40.9167 hoist=40.9375
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=1696 hoist=1793
+  radius 0.5
+  at fly=40.375 hoist=42.6875
 }
 
 charge star white {
-  radius 31.5
-  inner 11.97
-  at fly=2328 hoist=1242
-  at fly=2615 hoist=1728
+  radius 0.75
+  at fly=55.4375 hoist=29.5625
+  at fly=62.25 hoist=41.125
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2717 hoist=1735
+  radius 0.5
+  at fly=64.6875 hoist=41.3125
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=2645 hoist=1793
-  at fly=2468 hoist=1947
+  radius 0.625
+  at fly=62.9762 hoist=42.6875
+  at fly=58.75 hoist=46.375
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2467 hoist=2021
-  at fly=2541 hoist=1889
+  radius 0.5
+  at fly=58.75 hoist=48.125
+  at fly=60.5 hoist=44.9762
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=2600 hoist=1852
+  radius 0.625
+  at fly=61.9167 hoist=44.0833
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2465 hoist=1875
+  radius 0.5
+  at fly=58.6875 hoist=44.625
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=1820 hoist=1500
+  radius 0.625
+  at fly=43.3125 hoist=35.7
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2300 hoist=1433
+  radius 0.5
+  at fly=54.75 hoist=34.125
 }
 
 charge star white {
-  radius 31.5
-  inner 11.97
-  at fly=2100 hoist=1800
+  radius 0.75
+  at fly=50 hoist=42.875
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=2185 hoist=1654
-  at fly=2100 hoist=1588
+  radius 0.625
+  at fly=52.0238 hoist=39.375
+  at fly=50 hoist=37.8125
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2026 hoist=1654
+  radius 0.5
+  at fly=48.25 hoist=39.375
 }
 
 charge star white {
-  radius 15
-  inner 5.7
-  at fly=2063 hoist=1705
+  radius 0.375
+  at fly=49.125 hoist=40.5833
 }
 
 charge star white {
-  radius 26.25
-  inner 9.975
-  at fly=2320 hoist=1965
+  radius 0.625
+  at fly=55.25 hoist=46.8
 }
 
 charge star white {
-  radius 21
-  inner 7.98
-  at fly=2383 hoist=1900
-  at fly=2262 hoist=1882
+  radius 0.5
+  at fly=56.75 hoist=45.25
+  at fly=53.875 hoist=44.8125
 }
 
 charge star white {
-  radius 31.5
-  inner 11.97
-  at fly=1805 hoist=1860
+  radius 0.75
+  at fly=42.9762 hoist=44.3
 }
 
 charge star white {
-  radius 10.5
-  inner 3.99
-  at fly=2100 hoist=2045
+  radius 0.25
+  at fly=50 hoist=48.6875
 }

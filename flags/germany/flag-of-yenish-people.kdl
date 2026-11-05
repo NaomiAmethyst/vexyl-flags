@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Yenish people"
@@ -11,17 +10,17 @@ palette {
   teal "#00ffff"
   blue "#0000fe"
 }
-proportion hoist=12 fly=18
+proportion hoist=2 fly=3
 
 field teal
 
 chevrons blue {
-  depth 9
+  depth 1.5
 }
 
 charge polygon blue {
-  point fly=18 hoist=0
-  point fly=18 hoist=12
-  point fly=9 hoist=5.9973
-  point fly=18 hoist=0
+  point fly=3 hoist=0
+  point fly=3 hoist=2
+  point fly=1.5 hoist=1
+  point fly=3 hoist=0
 }

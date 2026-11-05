@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Oita Prefecture"
@@ -9,56 +8,55 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#be0428"
+  red "#be0428"
 }
-proportion hoist=630 fly=900
+proportion hoist=448 fly=640
 
 field white
 
-charge ring pink {
-  radius 140
-  inner 105
-  at fly=450 hoist=315
-  anchor center
+charge ring red {
+  radius 99.5
+  inner 74.75
+  at center
 }
 
 charge rect white {
-  fly 7
-  hoist 80
-  at fly=450 hoist=195
+  fly 5
+  hoist 57
+  at fly=320 hoist=138.75
 }
 
-charge polygon pink {
-  point fly=450 hoist=343
-  point fly=565.2684 hoist=490.5369
-  point fly=450 hoist=455
-  point fly=334.7316 hoist=490.5369
-}
-
-charge polygon white {
-  point fly=590.3141 hoist=391.9689
-  point fly=586.8141 hoist=398.0311
-  point fly=517.532 hoist=358.0311
-  point fly=521.032 hoist=351.9689
-}
-
-charge polygon pink {
-  point fly=425.7513 hoist=301
-  point fly=240.3464 hoist=327.057
-  point fly=328.7564 hoist=245
-  point fly=355.6148 hoist=127.4062
+charge polygon red {
+  point fly=320 hoist=244
+  point fly=402 hoist=348.75
+  point fly=320 hoist=323.5
+  point fly=238 hoist=348.75
 }
 
 charge polygon white {
-  point fly=313.1859 hoist=398.0311
-  point fly=309.6859 hoist=391.9689
-  point fly=378.968 hoist=351.9689
-  point fly=382.468 hoist=358.0311
+  point fly=419.75 hoist=278.75
+  point fly=417.25 hoist=283
+  point fly=368 hoist=254.5
+  point fly=370.5 hoist=250.25
 }
 
-charge polygon pink {
-  point fly=474.2487 hoist=301
-  point fly=544.3852 hoist=127.4062
-  point fly=571.2436 hoist=245
-  point fly=659.6536 hoist=327.057
+charge polygon red {
+  point fly=302.75 hoist=214
+  point fly=171 hoist=232.5
+  point fly=233.75 hoist=174.25
+  point fly=253 hoist=90.5
+}
+
+charge polygon white {
+  point fly=222.75 hoist=283
+  point fly=220.25 hoist=278.75
+  point fly=269.5 hoist=250.25
+  point fly=272 hoist=254.5
+}
+
+charge polygon red {
+  point fly=337.25 hoist=214
+  point fly=387 hoist=90.5
+  point fly=406.25 hoist=174.25
+  point fly=469 hoist=232.5
 }

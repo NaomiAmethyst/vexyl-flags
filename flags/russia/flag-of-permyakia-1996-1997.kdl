@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Permyakia (1996–1997)"
@@ -12,16 +11,16 @@ palette {
   white "#ffffff"
   blue "#0051ba"
 }
-proportion hoist=30 fly=45
+proportion hoist=2 fly=3
 
 bars red white blue
 
 charge path red {
   d "M26.0355 11.4645L19.6716 17.8284L16.136 14.2929M28.864 14.2929L25.3284 17.8284L18.9645 11.4645"
   box "16.136 11.4645 12.7279 6.364"
-  fly 12.7279
-  hoist 6.364
-  hollow 2
-  at fly=22.5 hoist=14.6464
+  fly 0.8485
+  hoist 0.4243
+  hollow 0.1333
+  at fly=1.5 hoist=0.9764
   anchor center
 }

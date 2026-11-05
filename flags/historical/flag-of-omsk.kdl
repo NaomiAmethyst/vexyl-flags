@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Omsk"
@@ -11,51 +10,51 @@ palette {
   white "#ffffff"
   red "#da251d"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field white
 
 charge polygon red {
-  point fly=0 hoist=200
-  point fly=30 hoist=250
-  point fly=60 hoist=200
-  point fly=140 hoist=200
-  point fly=170 hoist=250
-  point fly=200 hoist=200
-  point fly=280 hoist=200
-  point fly=310 hoist=250
-  point fly=340 hoist=200
-  point fly=420 hoist=200
-  point fly=450 hoist=250
-  point fly=480 hoist=200
-  point fly=560 hoist=200
-  point fly=590 hoist=250
-  point fly=620 hoist=200
-  point fly=700 hoist=200
-  point fly=730 hoist=250
-  point fly=760 hoist=200
-  point fly=840 hoist=200
-  point fly=870 hoist=250
-  point fly=900 hoist=200
-  point fly=900 hoist=350
-  point fly=870 hoist=400
-  point fly=840 hoist=350
-  point fly=760 hoist=350
-  point fly=730 hoist=400
-  point fly=700 hoist=350
-  point fly=620 hoist=350
-  point fly=590 hoist=400
-  point fly=560 hoist=350
-  point fly=480 hoist=350
-  point fly=450 hoist=400
-  point fly=420 hoist=350
-  point fly=340 hoist=350
-  point fly=310 hoist=400
-  point fly=280 hoist=350
-  point fly=200 hoist=350
-  point fly=170 hoist=400
-  point fly=140 hoist=350
-  point fly=60 hoist=350
-  point fly=30 hoist=400
-  point fly=0 hoist=350
+  point fly=0 hoist=0.6667
+  point fly=0.1 hoist=0.8333
+  point fly=0.2 hoist=0.6667
+  point fly=0.4667 hoist=0.6667
+  point fly=0.5667 hoist=0.8333
+  point fly=0.6667 hoist=0.6667
+  point fly=0.9333 hoist=0.6667
+  point fly=1.0333 hoist=0.8333
+  point fly=1.1333 hoist=0.6667
+  point fly=1.4 hoist=0.6667
+  point fly=1.5 hoist=0.8333
+  point fly=1.6 hoist=0.6667
+  point fly=1.8667 hoist=0.6667
+  point fly=1.9667 hoist=0.8333
+  point fly=2.0667 hoist=0.6667
+  point fly=2.3333 hoist=0.6667
+  point fly=2.4333 hoist=0.8333
+  point fly=2.5333 hoist=0.6667
+  point fly=2.8 hoist=0.6667
+  point fly=2.9 hoist=0.8333
+  point fly=3 hoist=0.6667
+  point fly=3 hoist=1.1667
+  point fly=2.9 hoist=1.3333
+  point fly=2.8 hoist=1.1667
+  point fly=2.5333 hoist=1.1667
+  point fly=2.4333 hoist=1.3333
+  point fly=2.3333 hoist=1.1667
+  point fly=2.0667 hoist=1.1667
+  point fly=1.9667 hoist=1.3333
+  point fly=1.8667 hoist=1.1667
+  point fly=1.6 hoist=1.1667
+  point fly=1.5 hoist=1.3333
+  point fly=1.4 hoist=1.1667
+  point fly=1.1333 hoist=1.1667
+  point fly=1.0333 hoist=1.3333
+  point fly=0.9333 hoist=1.1667
+  point fly=0.6667 hoist=1.1667
+  point fly=0.5667 hoist=1.3333
+  point fly=0.4667 hoist=1.1667
+  point fly=0.2 hoist=1.1667
+  point fly=0.1 hoist=1.3333
+  point fly=0 hoist=1.1667
 }

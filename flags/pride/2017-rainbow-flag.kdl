@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "2017 rainbow flag"
@@ -15,9 +14,9 @@ palette {
   yellow "#ffff01"
   green "#009a00"
   teal "#0099cb"
-  purple-2 "#340099"
-  pink-2 "#990099"
+  dark-purple "#340099"
+  dark-pink "#990099"
 }
-proportion hoist=27 fly=45
+proportion hoist=3 fly=5
 
-bars purple pink red orange yellow green teal purple-2 pink-2
+bars purple pink red orange yellow green teal dark-purple dark-pink

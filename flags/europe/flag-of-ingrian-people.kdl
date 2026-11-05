@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Ingrian people"
@@ -12,19 +11,19 @@ palette {
   red "#ee3224"
   blue "#005daa"
 }
-proportion hoist=550 fly=900
+proportion hoist=22 fly=36
 
 bars orange red orange {
   ratio 4 3 4
 }
 
 charge rect red {
-  fly 150
-  hoist 550
-  at fly=325 hoist=275
+  fly 6
+  hoist 22
+  at fly=13 hoist=11
 }
 
 cross blue {
-  fly 275 100 525
-  hoist 225 100 225
+  fly 11 4 21
+  hoist 9 4 9
 }

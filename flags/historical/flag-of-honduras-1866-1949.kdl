@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Honduras (1866-1949)"
@@ -11,27 +10,27 @@ palette {
   white "#ffffff"
   blue "#0d3b99"
 }
-proportion hoist=36 fly=72
+proportion hoist=3 fly=6
 
 field white
 
 panel {
   side top
-  width 12
+  width 1
   field blue
 }
 
 panel {
   side bottom
-  width 12
+  width 1
   field blue
 }
 
 charge star blue {
-  radius 2.1
-  at fly=30.66 hoist=15.33
-  at fly=30.66 hoist=20.73
-  at fly=36.01 hoist=18.03
-  at fly=41.36 hoist=15.33
-  at fly=41.36 hoist=20.73
+  radius 0.175
+  at fly=2.555 hoist=1.2775
+  at fly=2.555 hoist=1.7275
+  at fly=3 hoist=1.5025
+  at fly=3.4467 hoist=1.2775
+  at fly=3.4467 hoist=1.7275
 }

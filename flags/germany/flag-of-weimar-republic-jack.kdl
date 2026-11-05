@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Weimar Republic (jack)"
@@ -13,37 +12,35 @@ palette {
   red "#dd0000"
   yellow "#ffd700"
 }
-proportion hoist=90 fly=135
+proportion hoist=18 fly=27
 
 bars black white red
 
 charge rect red {
-  fly 45
-  hoist 10
-  at fly=22.5 hoist=15
+  fly 9
+  hoist 2
+  at fly=4.5 hoist=3
 }
 
 charge rect yellow {
-  fly 45
-  hoist 10
-  at fly=22.5 hoist=25
+  fly 9
+  hoist 2
+  at fly=4.5 hoist=5
 }
 
 charge path black {
   d "M52.38 15C57.06 21.9 60.12 29.94 61.14 38.64C52.44 37.62 44.4 34.56 37.5 29.88L37.5 60.12C44.4 55.44 52.44 52.38 61.14 51.36C60.12 60.06 57.06 68.1 52.38 75L82.62 75C77.94 68.1 74.88 60.06 73.86 51.36C82.56 52.38 90.6 55.44 97.5 60.12L97.5 29.88C90.6 34.56 82.56 37.62 73.86 38.64C74.88 29.94 77.94 21.9 82.62 15Z"
   box "37.5 15 60 60"
-  fly 60
-  hoist 60
-  at fly=67.5 hoist=45
-  anchor center
+  fly 12
+  hoist 12
+  at center
 }
 
 charge path white {
   d "M55.2 16.5C59.4 23.52 62.1 31.62 62.82 40.32C54.12 39.6 46.02 36.9 39 32.7L39 57.3C46.02 53.1 54.12 50.4 62.82 49.68C62.1 58.38 59.4 66.48 55.2 73.5L79.8 73.5C75.6 66.48 72.9 58.38 72.18 49.68C80.88 50.4 88.98 53.1 96 57.3L96 32.7C88.98 36.9 80.88 39.6 72.18 40.32C72.9 31.62 75.6 23.52 79.8 16.5Z"
   box "39 16.5 57 57"
-  fly 57
-  hoist 57
-  hollow 1.98
-  at fly=67.5 hoist=45
-  anchor center
+  fly 11.4
+  hoist 11.4
+  hollow 0.4
+  at center
 }

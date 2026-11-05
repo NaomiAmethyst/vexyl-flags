@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Wajir County Flag"
@@ -13,37 +12,37 @@ palette {
   red "#955a4c"
   teal "#308371"
 }
-proportion hoist=360 fly=600
+proportion hoist=144 fly=240
 
 field white
 
 charge polygon yellow {
   point fly=0 hoist=0
-  point fly=600 hoist=0
-  point fly=600 hoist=80
-  point fly=0 hoist=80
-  point fly=0 hoist=360
-  point fly=600 hoist=360
-  point fly=600 hoist=280
-  point fly=0 hoist=280
+  point fly=240 hoist=0
+  point fly=240 hoist=32
+  point fly=0 hoist=32
+  point fly=0 hoist=144
+  point fly=240 hoist=144
+  point fly=240 hoist=112
+  point fly=0 hoist=112
 }
 
 panel {
   side top
-  width 72.5
+  width 29
   field red
 }
 
 panel {
   side bottom
-  width 72.5
+  width 29
   field teal
 }
 
 charge crescent yellow {
-  radius 75.31
-  inner 71.86
-  offset 19.6804
+  radius 30.125
+  inner 28.75
+  offset 7.875
   rotate -17.4254
-  at fly=321.8038 hoist=187.3097
+  at fly=128.75 hoist=74.9375
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Ceuta without coa"
@@ -11,20 +10,20 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=4 fly=6
+proportion hoist=2 fly=3
 
 field white
 
 charge polygon black {
   point fly=0 hoist=0
-  point fly=3 hoist=0
-  point fly=3 hoist=4
-  point fly=6 hoist=4
+  point fly=1.5 hoist=0
+  point fly=1.5 hoist=2
+  point fly=3 hoist=2
 }
 
 charge polygon black {
-  point fly=6 hoist=0
-  point fly=6 hoist=2
+  point fly=3 hoist=0
+  point fly=3 hoist=1
+  point fly=0 hoist=1
   point fly=0 hoist=2
-  point fly=0 hoist=4
 }

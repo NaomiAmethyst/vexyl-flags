@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Hawaii"
@@ -12,127 +11,127 @@ palette {
   white "#ffffff"
   red "#c8102e"
 }
-proportion hoist=24 fly=48
+proportion hoist=48 fly=96
 
 field blue
 
 charge polygon white {
-  point fly=0 hoist=1.3821
-  point fly=22.0813 hoist=14
-  point fly=24 hoist=14
-  point fly=24 hoist=12.3322
-  point fly=2.4187 hoist=0
+  point fly=0 hoist=2.75
+  point fly=44.1667 hoist=28
+  point fly=48 hoist=28
+  point fly=48 hoist=24.6667
+  point fly=4.8333 hoist=0
   point fly=0 hoist=0
   point fly=0 hoist=0
 }
 
 charge polygon white {
-  point fly=18.5813 hoist=0
-  point fly=0 hoist=10.6179
-  point fly=0 hoist=12
-  point fly=0.5954 hoist=13.0419
-  point fly=21.5954 hoist=1.0419
-  point fly=21 hoist=0
+  point fly=37.1667 hoist=0
+  point fly=0 hoist=21.25
+  point fly=0 hoist=24
+  point fly=1.1875 hoist=26.0833
+  point fly=43.1875 hoist=2.0833
+  point fly=42 hoist=0
 }
 
 charge polygon red {
-  point fly=0 hoist=0.9214
-  point fly=8.8875 hoist=6
-  point fly=10.5 hoist=6
-  point fly=0 hoist=0
-  point fly=0 hoist=0
-}
-
-charge polygon red {
+  point fly=0 hoist=1.8333
+  point fly=17.775 hoist=12
   point fly=21 hoist=12
-  point fly=22 hoist=12
-  point fly=22 hoist=11.65
-  point fly=12.1125 hoist=6
-  point fly=10.5 hoist=6
+  point fly=0 hoist=0
+  point fly=0 hoist=0
 }
 
 charge polygon red {
-  point fly=11.3062 hoist=5.5393
-  point fly=10.5 hoist=5.0786
-  point fly=10.5 hoist=6
+  point fly=42 hoist=24
+  point fly=44 hoist=24
+  point fly=44 hoist=23.3125
+  point fly=24.225 hoist=12
+  point fly=21 hoist=12
 }
 
 charge polygon red {
-  point fly=9.6938 hoist=6.4607
-  point fly=10.5 hoist=6.9214
-  point fly=10.5 hoist=6
+  point fly=22.625 hoist=11.0833
+  point fly=21 hoist=10.1667
+  point fly=21 hoist=12
 }
 
 charge polygon red {
-  point fly=9.6938 hoist=5.5393
-  point fly=8.8875 hoist=6
-  point fly=10.5 hoist=6
+  point fly=19.375 hoist=12.9167
+  point fly=21 hoist=13.8333
+  point fly=21 hoist=12
 }
 
 charge polygon red {
-  point fly=11.3062 hoist=6.4607
-  point fly=12.1125 hoist=6
-  point fly=10.5 hoist=6
+  point fly=19.375 hoist=11.0833
+  point fly=17.775 hoist=12
+  point fly=21 hoist=12
 }
 
 charge polygon red {
-  point fly=19.3875 hoist=0
-  point fly=10.5 hoist=5.0786
-  point fly=10.5 hoist=6
-  point fly=21 hoist=0
-  point fly=21 hoist=0
+  point fly=22.625 hoist=12.9167
+  point fly=24.225 hoist=12
+  point fly=21 hoist=12
 }
 
 charge polygon red {
-  point fly=0 hoist=12
-  point fly=0 hoist=12
-  point fly=0.3969 hoist=12.6946
-  point fly=10.5 hoist=6.9214
-  point fly=10.5 hoist=6
+  point fly=38.775 hoist=0
+  point fly=21 hoist=10.1667
+  point fly=21 hoist=12
+  point fly=42 hoist=0
+  point fly=42 hoist=0
+}
+
+charge polygon red {
+  point fly=0 hoist=24
+  point fly=0 hoist=24
+  point fly=0.8 hoist=25.375
+  point fly=21 hoist=13.8333
+  point fly=21 hoist=12
 }
 
 charge rect white {
-  fly 4
-  hoist 14
-  at fly=10.5 hoist=7
+  fly 8
+  hoist 28
+  at fly=21 hoist=14
 }
 
 charge rect white {
-  fly 24
-  hoist 4
-  at fly=12 hoist=6
+  fly 48
+  hoist 8
+  at fly=24 hoist=12
 }
 
 charge polygon white {
-  point fly=48 hoist=0
-  point fly=48 hoist=4
-  point fly=22 hoist=4
-  point fly=21 hoist=3
-  point fly=21 hoist=0
+  point fly=96 hoist=0
+  point fly=96 hoist=8
+  point fly=44 hoist=8
+  point fly=42 hoist=6
+  point fly=42 hoist=0
 }
 
 charge rect white {
-  fly 27
-  hoist 4
-  at fly=34.5 hoist=11
+  fly 54
+  hoist 8
+  at fly=69 hoist=22
 }
 
 panel {
   side bottom
-  width 6
+  width 12
   field white
 }
 
 charge path red {
   d "M48 3L48 7.2L0 7.2L0 4.8L21 4.8L21 3ZM48 12L48 15L0 15L0 12ZM48 21L48 24L0 24L0 21ZM9.3 0L11.7 0L11.7 13L9.3 13Z"
   box "0 0 48 24"
-  fly 48
-  hoist 24
-  at fly=24 hoist=12
+  fly 96
+  hoist 48
+  at center
 }
 
 charge rect blue {
-  fly 27
-  hoist 2.5
-  at fly=34.5 hoist=7.25
+  fly 54
+  hoist 5
+  at fly=69 hoist=14.5
 }

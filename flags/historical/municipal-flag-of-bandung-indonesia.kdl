@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Municipal Flag of Bandung, Indonesia"
@@ -12,7 +11,7 @@ palette {
   yellow "#faeb1f"
   blue "#00abeb"
 }
-proportion hoist=1000 fly=1400
+proportion hoist=5 fly=7
 
 bars green yellow blue {
   ratio 2 1 2

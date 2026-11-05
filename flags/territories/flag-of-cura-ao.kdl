@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Curaçao"
@@ -12,25 +11,25 @@ palette {
   yellow "#f9e814"
   white "#ffffff"
 }
-proportion hoist=36 fly=54
+proportion hoist=2 fly=3
 
 bars blue yellow blue {
   ratio 5 1 2
 }
 
 charge polygon white {
-  point fly=4.2 hoist=8.4
-  point fly=4.3 hoist=8.3
-  point fly=6 hoist=3
-  point fly=7.8 hoist=8.4
-  point fly=3.2 hoist=5.1
-  point fly=8.9 hoist=5.1
+  point fly=0.2333 hoist=0.4667
+  point fly=0.2389 hoist=0.4611
+  point fly=0.3333 hoist=0.1667
+  point fly=0.4333 hoist=0.4667
+  point fly=0.1778 hoist=0.2833
+  point fly=0.4944 hoist=0.2833
 }
 
 charge polygon white {
-  point fly=9.6 hoist=15.2
-  point fly=12 hoist=8
-  point fly=14.4 hoist=15.2
-  point fly=8.2 hoist=10.8
-  point fly=15.8 hoist=10.8
+  point fly=0.5333 hoist=0.8444
+  point fly=0.6667 hoist=0.4444
+  point fly=0.8 hoist=0.8444
+  point fly=0.4556 hoist=0.6
+  point fly=0.8778 hoist=0.6
 }

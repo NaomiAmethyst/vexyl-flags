@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Saint Lucia"
@@ -13,25 +12,25 @@ palette {
   black "#000000"
   yellow "#fcd116"
 }
-proportion hoist=6 fly=12
+proportion hoist=1 fly=2
 
 field blue
 
 charge polygon white {
-  point fly=6 hoist=0.5279
-  point fly=8 hoist=5.4721
-  point fly=6 hoist=5
-  point fly=4 hoist=5.4721
+  point fly=1 hoist=0.088
+  point fly=1.3333 hoist=0.912
+  point fly=1 hoist=0.8333
+  point fly=0.6667 hoist=0.912
 }
 
 charge polygon black {
-  point fly=6 hoist=1.1946
-  point fly=7.5394 hoist=5
-  point fly=4.4606 hoist=5
+  point fly=1 hoist=0.1991
+  point fly=1.2566 hoist=0.8333
+  point fly=0.7434 hoist=0.8333
 }
 
 charge polygon yellow {
-  point fly=6 hoist=3
-  point fly=8 hoist=5.4721
-  point fly=4 hoist=5.4721
+  point fly=1 hoist=0.5
+  point fly=1.3333 hoist=0.912
+  point fly=0.6667 hoist=0.912
 }

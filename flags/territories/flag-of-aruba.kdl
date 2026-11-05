@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Aruba"
@@ -13,31 +12,31 @@ palette {
   white "#ffffff"
   red "#ef3340"
 }
-proportion hoist=18 fly=27
+proportion hoist=2 fly=3
 
 field blue
 
 charge polygon yellow {
-  point fly=0 hoist=12
-  point fly=27 hoist=12
-  point fly=27 hoist=13
-  point fly=0 hoist=13
-  point fly=0 hoist=14
-  point fly=27 hoist=14
-  point fly=27 hoist=15
-  point fly=0 hoist=15
+  point fly=0 hoist=1.3333
+  point fly=3 hoist=1.3333
+  point fly=3 hoist=1.4444
+  point fly=0 hoist=1.4444
+  point fly=0 hoist=1.5556
+  point fly=3 hoist=1.5556
+  point fly=3 hoist=1.6667
+  point fly=0 hoist=1.6667
 }
 
 charge star white {
-  radius 3
-  inner 1.0004
+  radius 0.3333
+  inner 0.1112
   points 4
-  at fly=4 hoist=4
+  at fly=0.4444 hoist=0.4444
 }
 
 charge star red {
-  radius 2.3203
-  inner 0.7735
+  radius 0.2578
+  inner 0.0859
   points 4
-  at fly=4 hoist=4
+  at fly=0.4444 hoist=0.4444
 }

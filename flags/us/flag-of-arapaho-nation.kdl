@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Arapaho Nation"
@@ -12,38 +11,38 @@ palette {
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=1300 fly=2166.66
+proportion hoist=198 fly=330
 
 bars red white black white black white red {
   ratio 2 2 2 1 2 2 2
 }
 
 charge lozenge white {
-  fly 1785.8876
-  hoist 1785.8876
-  at fly=-272.6094 hoist=650.0111
+  fly 272
+  hoist 272
+  at fly=-41.5 hoist=99
 }
 
 charge polygon black {
-  point fly=-275.6843 hoist=-242.9327
-  point fly=620.3344 hoist=646.9361
-  point fly=-269.5344 hoist=1542.9549
-  point fly=-1165.5532 hoist=653.0861
-  hollow 39.6165
+  point fly=-42 hoist=-37
+  point fly=94.5 hoist=98.5
+  point fly=-41 hoist=235
+  point fly=-177.5 hoist=99.5
+  hollow 6
 }
 
 charge path black {
   d "M358.552 657.793A115.517 115.517 0 0 1 127.519 658.415"
   box "12.002 542.898 346.55 231.034"
-  fly 346.55
-  hoist 231.034
-  at fly=185.277 hoist=658.415
+  fly 52.75
+  hoist 35.1875
+  at fly=28.25 hoist=100.25
 }
 
 charge path red {
   d "M357.257 636.857A115.517 115.517 0 0 0 126.224 636.235"
   box "10.707 520.718 346.55 231.034"
-  fly 346.55
-  hoist 231.034
-  at fly=183.982 hoist=636.235
+  fly 52.75
+  hoist 35.1875
+  at fly=28 hoist=96.875
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "House Flag of Hugo Stinnes"
@@ -12,48 +11,48 @@ palette {
   white "#ffffff"
   red "#cc0000"
 }
-proportion hoist=267 fly=400
+proportion hoist=1 fly=1.4981
 
 bars black white black {
   ratio 53 161 53
 }
 
 charge polygon red {
-  point fly=160.979 hoist=101.9322
-  point fly=199.8698 hoist=63.0413
-  point fly=218.2546 hoist=81.4261
-  point fly=179.3637 hoist=120.3169
+  point fly=0.6029 hoist=0.3818
+  point fly=0.7486 hoist=0.2361
+  point fly=0.8174 hoist=0.305
+  point fly=0.6718 hoist=0.4506
 }
 
 charge polygon black {
-  point fly=158.8579 hoist=104.0533
-  point fly=197.7487 hoist=142.9441
-  point fly=179.364 hoist=161.3289
-  point fly=140.4731 hoist=122.438
+  point fly=0.595 hoist=0.3897
+  point fly=0.7406 hoist=0.5354
+  point fly=0.6718 hoist=0.6042
+  point fly=0.5261 hoist=0.4586
 }
 
 charge lozenge black {
-  fly 36.7696
-  hoist 36.7696
-  at fly=199.8457 hoist=122.4141
+  fly 0.1377
+  hoist 0.1377
+  at fly=0.7485 hoist=0.4585
 }
 
 charge polygon black {
-  point fly=220.4869 hoist=83.3881
-  point fly=259.3778 hoist=122.2789
-  point fly=240.993 hoist=140.6637
-  point fly=202.1022 hoist=101.7728
+  point fly=0.8258 hoist=0.3125
+  point fly=0.9715 hoist=0.458
+  point fly=0.9026 hoist=0.5268
+  point fly=0.7569 hoist=0.3812
 }
 
 charge polygon red {
-  point fly=160.9791 hoist=183.9562
-  point fly=220.3758 hoist=124.5595
-  point fly=238.7606 hoist=142.9443
-  point fly=179.3638 hoist=202.341
+  point fly=0.6029 hoist=0.689
+  point fly=0.8254 hoist=0.4665
+  point fly=0.8942 hoist=0.5354
+  point fly=0.6718 hoist=0.7578
 }
 
 charge lozenge black {
-  fly 36.7696
-  hoist 36.7696
-  at fly=220.376 hoist=183.9562
+  fly 0.1377
+  hoist 0.1377
+  at fly=0.8254 hoist=0.689
 }

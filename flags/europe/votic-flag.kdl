@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Votic Flag"
@@ -12,22 +11,22 @@ palette {
   blue "#0099ff"
   red "#ff0000"
 }
-proportion hoist=345 fly=605
+proportion hoist=1 fly=1.7536
 
 field white
 
 charge polygon blue {
-  point fly=302.5 hoist=345
-  point fly=605 hoist=0
-  point fly=605 hoist=345
-  point fly=0 hoist=345
+  point fly=0.8768 hoist=1
+  point fly=1.7536 hoist=0
+  point fly=1.7536 hoist=1
+  point fly=0 hoist=1
   point fly=0 hoist=0
 }
 
 charge path red {
   d "M302.5 41.1371L336.4411 75.0783L330.9257 80.5937A11.3 11.3 45 0 0 346.9063 96.5743L352.4217 91.0589L386.3629 125L352.4217 158.9411L346.9063 153.4257A11.3 11.3 45 0 0 330.9257 169.4063L336.4411 174.9217L302.5 208.8629L268.5589 174.9217L274.0743 169.4063A11.3 11.3 45 0 0 258.0937 153.4257L252.5783 158.9411L218.6371 125L252.5783 91.0589L258.0937 96.5743A11.3 11.3 45 0 0 274.0743 80.5937L268.5589 75.0783Z"
   box "218.6371 41.1371 167.7257 167.7257"
-  fly 167.7257
-  hoist 167.7257
-  at fly=302.5 hoist=125
+  fly 0.4862
+  hoist 0.4862
+  at fly=0.8768 hoist=0.3623
 }

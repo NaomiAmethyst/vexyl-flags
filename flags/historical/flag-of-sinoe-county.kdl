@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Sinoe County"
@@ -9,38 +8,37 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#bf0a30"
+  red "#bf0a30"
   blue "#002868"
   green "#006633"
 }
-proportion hoist=2400 fly=4000
+proportion hoist=3 fly=5
 
 field white
 
 canton {
-  fly 1000
-  hoist 600
-  field pink
+  fly 1.25
+  hoist 0.75
+  field red
   charge rect white {
-    fly 1000
-    hoist 54.5455
-    at fly=500 hoist=81.8182
-    repeat line count=5 hoist=109.0909
+    fly 1.25
+    hoist 0.0682
+    at fly=0.625 hoist=0.1023
+    repeat line count=5 hoist=0.1364
   }
 }
 
 canton {
-  fly 272.7273
-  hoist 272.7273
+  fly 0.3409
+  hoist 0.3409
   field blue
   charge star white {
-    radius 81.8182
-    inner 31.0909
-    at fly=136.3636 hoist=136.3636
+    radius 0.1023
+    at center
   }
 }
 
 cross green {
-  fly 1850 300 1850
-  hoist 1050 300 1050
+  fly 2.3125 0.375 2.3125
+  hoist 1.3125 0.375 1.3125
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "House flag of Deutsche Dampfschiffahrtsgesellschaft Kosmos"
@@ -12,50 +11,49 @@ palette {
   white "#ffffff"
   blue "#35398e"
 }
-proportion hoist=1600 fly=2400
+proportion hoist=2 fly=3
 
 bars red white {
   along hoist
 }
 
 charge disc blue {
-  radius 529.3463
-  at fly=1200 hoist=800
-  anchor center
+  radius 0.6617
+  at center
 }
 
 charge star blue {
-  radius 110.9925
-  inner 44.3971
-  at fly=572.4528 hoist=316.5293
+  radius 0.1387
+  inner 0.0555
+  at fly=0.7156 hoist=0.3957
 }
 
 charge star blue {
-  radius 110.9925
-  inner 44.397
-  at fly=572.4528 hoist=1304.6686
+  radius 0.1387
+  inner 0.0555
+  at fly=0.7156 hoist=1.6308
 }
 
 charge star blue {
-  radius 110.9927
-  inner 44.397
-  at fly=402.651 hoist=810.5988
+  radius 0.1387
+  inner 0.0555
+  at fly=0.5033 hoist=1.0132
 }
 
 charge star blue {
-  radius 110.9925
-  inner 44.3971
-  at fly=1827.5472 hoist=316.5293
+  radius 0.1387
+  inner 0.0555
+  at fly=2.2844 hoist=0.3957
 }
 
 charge star blue {
-  radius 110.9925
-  inner 44.397
-  at fly=1827.5472 hoist=1304.6686
+  radius 0.1387
+  inner 0.0555
+  at fly=2.2844 hoist=1.6308
 }
 
 charge star blue {
-  radius 110.9927
-  inner 44.397
-  at fly=1997.349 hoist=810.5988
+  radius 0.1387
+  inner 0.0555
+  at fly=2.4967 hoist=1.0132
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Grand Bassa County"
@@ -9,46 +8,45 @@ meta {
 }
 palette {
   blue "#002868"
-  pink "#bf0a30"
+  red "#bf0a30"
   white "#ffffff"
 }
-proportion hoist=110 fly=183.3333
+proportion hoist=3 fly=5
 
 field blue
 
 canton {
-  fly 45.8333
-  hoist 27.5
-  field pink
+  fly 1.25
+  hoist 0.75
+  field red
   charge rect white {
-    fly 45.8333
-    hoist 2.5
-    at fly=22.9167 hoist=3.75
-    repeat line count=5 hoist=5
+    fly 1.25
+    hoist 0.0682
+    at fly=0.625 hoist=0.1023
+    repeat line count=5 hoist=0.1364
   }
 }
 
 canton {
-  fly 12.5
-  hoist 12.5
+  fly 0.3409
+  hoist 0.3409
   field blue
   charge star white {
-    radius 3.75
-    inner 1.425
-    at fly=6.25 hoist=6.25
+    radius 0.1023
+    at center
   }
 }
 
 charge rect white {
-  fly 91.6667
-  hoist 9.1667
-  at fly=137.5 hoist=68.75
-  at fly=137.5 hoist=87.0833
+  fly 2.5
+  hoist 0.25
+  at fly=3.75 hoist=1.875
+  at fly=3.75 hoist=2.375
 }
 
-charge rect pink {
-  fly 91.6667
-  hoist 9.1667
-  at fly=137.5 hoist=77.9167
-  at fly=137.5 hoist=59.5833
+charge rect red {
+  fly 2.5
+  hoist 0.25
+  at fly=3.75 hoist=2.125
+  at fly=3.75 hoist=1.625
 }

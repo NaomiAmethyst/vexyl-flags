@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Civil flag of Oldenburg"
@@ -11,11 +10,11 @@ palette {
   blue "#212178"
   red "#e12a2a"
 }
-proportion hoist=216 fly=360
+proportion hoist=108 fly=180
 
 field blue
 
 cross red {
-  fly 154 52 154
-  hoist 82 52 82
+  fly 77 26 77
+  hoist 41 26 41
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tuva"
@@ -12,36 +11,36 @@ palette {
   white "#ffffff"
   yellow "#fecb00"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field blue
 
 charge path white {
   d "M370 300L35 -35L35 635L370 300L900 300"
   box "35 -35 865 670"
-  fly 865
-  hoist 670
-  at fly=467.5 hoist=300
+  fly 2.8833
+  hoist 2.2333
+  at fly=1.5583 hoist=1
 }
 
 charge path white {
   d "M370 300L35 -35L35 635L370 300L900 300"
   box "35 -35 865 670"
-  fly 865
-  hoist 670
-  hollow 100
-  at fly=467.5 hoist=300
+  fly 2.8833
+  hoist 2.2333
+  hollow 0.3333
+  at fly=1.5583 hoist=1
 }
 
 charge path blue {
   d "M35 -35L370 300M35 635L370 300L900 300"
   box "35 -35 865 670"
-  fly 865
-  hoist 670
-  hollow 33.3
-  at fly=467.5 hoist=300
+  fly 2.8833
+  hoist 2.2333
+  hollow 0.111
+  at fly=1.5583 hoist=1
 }
 
 chevrons yellow {
-  depth 300
+  depth 1
 }

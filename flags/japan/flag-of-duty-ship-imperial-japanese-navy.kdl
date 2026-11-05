@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Duty Ship (Imperial Japanese Navy)"
@@ -8,43 +7,43 @@ meta {
   source "https://commons.wikimedia.org/wiki/File:Flag_of_Duty_Ship_(Imperial_Japanese_Navy).svg"
 }
 palette {
-  pink "#bc002d"
+  red "#bc002d"
   white "#ffffff"
 }
-proportion hoist=60 fly=90
+proportion hoist=2 fly=3
 
-field pink
+field red
 
 charge polygon white {
-  point fly=0 hoist=30
-  point fly=0 hoist=27
-  point fly=15 hoist=20
-  point fly=30 hoist=27
-  point fly=45 hoist=20
-  point fly=60 hoist=27
-  point fly=75 hoist=20
-  point fly=90 hoist=27
-  point fly=90 hoist=30
-  point fly=75 hoist=23
-  point fly=60 hoist=30
-  point fly=45 hoist=23
-  point fly=30 hoist=30
-  point fly=15 hoist=23
+  point fly=0 hoist=1
+  point fly=0 hoist=0.9
+  point fly=0.5 hoist=0.6667
+  point fly=1 hoist=0.9
+  point fly=1.5 hoist=0.6667
+  point fly=2 hoist=0.9
+  point fly=2.5 hoist=0.6667
+  point fly=3 hoist=0.9
+  point fly=3 hoist=1
+  point fly=2.5 hoist=0.7667
+  point fly=2 hoist=1
+  point fly=1.5 hoist=0.7667
+  point fly=1 hoist=1
+  point fly=0.5 hoist=0.7667
 }
 
 charge polygon white {
-  point fly=0 hoist=40
-  point fly=0 hoist=37
-  point fly=15 hoist=30
-  point fly=30 hoist=37
-  point fly=45 hoist=30
-  point fly=60 hoist=37
-  point fly=75 hoist=30
-  point fly=90 hoist=37
-  point fly=90 hoist=40
-  point fly=75 hoist=33
-  point fly=60 hoist=40
-  point fly=45 hoist=33
-  point fly=30 hoist=40
-  point fly=15 hoist=33
+  point fly=0 hoist=1.3333
+  point fly=0 hoist=1.2333
+  point fly=0.5 hoist=1
+  point fly=1 hoist=1.2333
+  point fly=1.5 hoist=1
+  point fly=2 hoist=1.2333
+  point fly=2.5 hoist=1
+  point fly=3 hoist=1.2333
+  point fly=3 hoist=1.3333
+  point fly=2.5 hoist=1.1
+  point fly=2 hoist=1.3333
+  point fly=1.5 hoist=1.1
+  point fly=1 hoist=1.3333
+  point fly=0.5 hoist=1.1
 }

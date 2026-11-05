@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Olympic flag"
@@ -15,64 +14,64 @@ palette {
   orange "#fcb131"
   green "#00a651"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field white
 
 charge ring blue {
-  radius 100.45
-  inner 82.75
-  at fly=232.3 hoist=253.5
+  radius 0.3348
+  inner 0.2758
+  at fly=0.7743 hoist=0.845
 }
 
 charge ring black {
-  radius 100.45
-  inner 82.75
-  at fly=450 hoist=253.5
+  radius 0.3348
+  inner 0.2758
+  at fly=1.5 hoist=0.845
 }
 
 charge ring red {
-  radius 100.45
-  inner 82.75
-  at fly=667.7 hoist=253.5
+  radius 0.3348
+  inner 0.2758
+  at fly=2.2257 hoist=0.845
 }
 
 charge ring orange {
-  radius 100.45
-  inner 82.75
-  at fly=341.2 hoist=346.5
+  radius 0.3348
+  inner 0.2758
+  at fly=1.1373 hoist=1.155
 }
 
 charge ring green {
-  radius 100.45
-  inner 82.75
-  at fly=558.8 hoist=346.5
+  radius 0.3348
+  inner 0.2758
+  at fly=1.8627 hoist=1.155
 }
 
 charge path blue {
   d "M305.6 198.5A91.6 91.6 0 0 1 305.6 308.4"
   box "214 198.5 183.2 201.5"
-  fly 183.2
-  hoist 201.5
-  hollow 17.7
-  at fly=305.6 hoist=299.25
+  fly 0.6107
+  hoist 0.6717
+  hollow 0.059
+  at fly=1.0187 hoist=0.9975
 }
 
 charge path black {
   d "M523.3 198.5A91.6 91.6 0 0 1 523.3 308.4M450 345A91.6 91.6 0 0 1 395 326.7"
   box "303.4 198.5 311.5 219.8"
-  fly 311.5
-  hoist 219.8
-  hollow 17.7
-  at fly=459.15 hoist=308.4
+  fly 1.0383
+  hoist 0.7327
+  hollow 0.059
+  at fly=1.5305 hoist=1.028
   anchor center
 }
 
 charge path red {
   d "M667.7 345A91.6 91.6 0 0 1 612.7 326.7"
   box "521.1 235.1 183.2 183.2"
-  fly 183.2
-  hoist 183.2
-  hollow 17.7
-  at fly=612.7 hoist=326.7
+  fly 0.6107
+  hoist 0.6107
+  hollow 0.059
+  at fly=2.0423 hoist=1.089
 }

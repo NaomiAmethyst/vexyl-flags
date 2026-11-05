@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Macau"
@@ -10,115 +9,110 @@ palette {
   teal "#0f7562"
   yellow "#ffde23"
 }
-proportion hoist=1920 fly=2880
+proportion hoist=2 fly=3
 
 field teal
 
 charge svg {
   at center
-  fly 2880
-  hoist 1920
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="b"><path d="M-224 0h448v400h-448z"></path></clipPath></defs><g clip-path="url(#b)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><circle cx="-209" cy="-7" r="324.5" fill="#ffffff"></circle><circle cx="209" cy="-7" r="324.5" fill="#ffffff"></circle></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="b"><path d="M-224 0h448v400h-448z"></path></clipPath></defs><g fill="#ffffff" clip-path="url(#b)" transform="matrix(1 0 0 1 1440 960)"><circle cy="-7" r="324.5" cx="-209" fill="#ffffff"></circle><circle cy="-7" r="324.5" cx="209" fill="#ffffff"></circle></g></svg>
 """#
 }
 
 charge disc teal {
-  radius 324.5
-  at fly=1664 hoist=921
-  at fly=1216 hoist=921
+  radius 0.338
+  at fly=1.7333 hoist=0.9594
+  at fly=1.2667 hoist=0.9594
 }
 
 charge svg {
   at center
-  fly 2880
-  hoist 1920
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o3"><circle cx="-199" cy="-118" r="324.5"></circle></clipPath><clipPath id="o4"><circle cx="-158" cy="-149" r="324.5"></circle></clipPath><clipPath id="o1"><circle cy="-38" r="576"></circle></clipPath></defs><g clip-path="url(#o1)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><path d="M-500 285.5h291v32h-291zm0 65H500v16H-500zm0 49H500v25H-500zm0 50H500v32H-500zm0 48H500v50H-500zm1000-212H209v32h291z" fill="#ffffff"></path></g><circle cx="158" cy="-149" r="324.5" clip-path="url(#o4)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="199" cy="-118" r="324.5" clip-path="url(#o3)" fill="#0f7562" transform="matrix(1 0 0 1 1440 960)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o3"><circle cy="-118" r="324.5" cx="-199"></circle></clipPath><clipPath id="o4"><circle cy="-149" r="324.5" cx="-158"></circle></clipPath><clipPath id="o1"><circle cy="-38" r="576"></circle></clipPath></defs><g fill="#ffffff" clip-path="url(#o1)" transform="matrix(1 0 0 1 1440 960)"><path d="M-500 285.5h291v32h-291zm0 65H500v16H-500zm0 49H500v25H-500zm0 50H500v32H-500zm0 48H500v50H-500zm1000-212H209v32h291z" fill="#ffffff"></path></g><circle cy="-149" r="324.5" cx="158" fill="#ffffff" clip-path="url(#o4)" transform="matrix(1 0 0 1 1440 960)"/><circle cy="-118" r="324.5" cx="199" fill="#0f7562" clip-path="url(#o3)" transform="matrix(1 0 0 1 1440 960)"/></svg>
 """#
 }
 
 charge disc teal {
-  radius 130
-  at fly=1440 hoist=614
+  radius 0.1354
+  at fly=1.5 hoist=0.6396
 }
 
 charge svg {
   at center
-  fly 2880
-  hoist 1920
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cx="-213" cy="-91" r="324.5"></circle></clipPath><clipPath id="o8"><circle cx="-234" cy="-64" r="324.5"></circle></clipPath><clipPath id="o2"><circle cx="-212" cy="-100" r="324.5"></circle></clipPath></defs><circle cx="212" cy="-100" r="324.5" clip-path="url(#o2)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="-379" cy="307" r="381.5" clip-path="url(#o8)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="-370" cy="343" r="381.5" clip-path="url(#o7)" fill="#0f7562" transform="matrix(1 0 0 1 1440 960)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cy="-91" r="324.5" cx="-213"></circle></clipPath><clipPath id="o8"><circle cy="-64" r="324.5" cx="-234"></circle></clipPath><clipPath id="o2"><circle cy="-100" r="324.5" cx="-212"></circle></clipPath></defs><circle cy="-100" r="324.5" cx="212" fill="#ffffff" clip-path="url(#o2)" transform="matrix(1 0 0 1 1440 960)"/><circle cy="307" r="381.5" cx="-379" fill="#ffffff" clip-path="url(#o8)" transform="matrix(1 0 0 1 1440 960)"/><circle cy="343" r="381.5" cx="-370" fill="#0f7562" clip-path="url(#o7)" transform="matrix(1 0 0 1 1440 960)"/></svg>
 """#
 }
 
 charge disc teal {
-  radius 130
-  at fly=955 hoist=981
+  radius 0.1354
+  at fly=0.9948 hoist=1.0219
 }
 
 charge svg {
   at center
-  fly 2880
-  hoist 1920
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cx="-182" cy="-96" r="324.5"></circle></clipPath><clipPath id="o8"><circle cx="-234" cy="-64" r="324.5"></circle></clipPath></defs><g clip-path="url(#o8)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><circle cx="-339" cy="372" r="381.5" clip-path="url(#o6)" fill="#ffffff"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cy="-96" r="324.5" cx="-182"></circle></clipPath><clipPath id="o8"><circle cy="-64" r="324.5" cx="-234"></circle></clipPath></defs><g fill="#ffffff" clip-path="url(#o8)" transform="matrix(1 0 0 1 1440 960)"><circle cy="372" r="381.5" cx="-339" fill="#ffffff" clip-path="url(#o6)"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g></svg>
 """#
 }
 
 charge star yellow {
-  radius 73
-  inner 27.74
+  radius 0.076
   rotate -35
-  at fly=1179.3095 hoist=549.6954
+  at fly=1.2284 hoist=0.5726
 }
 
 charge star yellow {
-  radius 73
-  inner 27.74
+  radius 0.076
   rotate 7
-  at fly=1028.0831 hoist=729.92
+  at fly=1.0709 hoist=0.7603
 }
 
 charge svg {
   at center
-  fly 2880
-  hoist 1920
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cx="-213" cy="-91" r="324.5"></circle></clipPath><clipPath id="o8"><circle cx="-234" cy="-64" r="324.5"></circle></clipPath></defs><circle cx="-379" cy="307" r="381.5" clip-path="url(#o8)" fill="#ffffff" transform="matrix(-1 0 0 1 1440 960)"/><circle cx="-370" cy="343" r="381.5" clip-path="url(#o7)" fill="#0f7562" transform="matrix(-1 0 0 1 1440 960)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cy="-91" r="324.5" cx="-213"></circle></clipPath><clipPath id="o8"><circle cy="-64" r="324.5" cx="-234"></circle></clipPath></defs><circle cy="307" r="381.5" cx="-379" fill="#ffffff" clip-path="url(#o8)" transform="matrix(-1 0 0 1 1440 960)"/><circle cy="343" r="381.5" cx="-370" fill="#0f7562" clip-path="url(#o7)" transform="matrix(-1 0 0 1 1440 960)"/></svg>
 """#
 }
 
 charge disc teal {
-  radius 130
-  at fly=1925 hoist=981
+  radius 0.1354
+  at fly=2.0052 hoist=1.0219
 }
 
 charge svg {
   at center
-  fly 2880
-  hoist 1920
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cx="-182" cy="-96" r="324.5"></circle></clipPath><clipPath id="o8"><circle cx="-234" cy="-64" r="324.5"></circle></clipPath></defs><g clip-path="url(#o8)" fill="#ffffff" transform="matrix(-1 0 0 1 1440 960)"><circle cx="-339" cy="372" r="381.5" clip-path="url(#o6)" fill="#ffffff"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cy="-96" r="324.5" cx="-182"></circle></clipPath><clipPath id="o8"><circle cy="-64" r="324.5" cx="-234"></circle></clipPath></defs><g fill="#ffffff" clip-path="url(#o8)" transform="matrix(-1 0 0 1 1440 960)"><circle cy="372" r="381.5" cx="-339" fill="#ffffff" clip-path="url(#o6)"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g></svg>
 """#
 }
 
 charge star yellow {
-  radius 73
-  inner 27.74
+  radius 0.076
   rotate 35
-  at fly=1700.6905 hoist=549.6954
+  at fly=1.7716 hoist=0.5726
 }
 
 charge star yellow {
-  radius 73
-  inner 27.74
+  radius 0.076
   rotate -7
-  at fly=1851.9169 hoist=729.92
+  at fly=1.9291 hoist=0.7603
 }
 
 charge star yellow {
-  radius 105.5
-  inner 40.09
-  at fly=1440 hoist=467.5
+  radius 0.1099
+  at fly=1.5 hoist=0.487
 }

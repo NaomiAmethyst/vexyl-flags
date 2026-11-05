@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Abu Dhabi"
@@ -11,12 +10,12 @@ palette {
   red "#bf0000"
   white "#ffffff"
 }
-proportion hoist=300 fly=600
+proportion hoist=3 fly=6
 
 field red
 
 canton {
-  fly 200
-  hoist 100
+  fly 2
+  hoist 1
   field white
 }

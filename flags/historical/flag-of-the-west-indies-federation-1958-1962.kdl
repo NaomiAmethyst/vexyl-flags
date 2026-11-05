@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the West Indies Federation (1958–1962)"
@@ -12,44 +11,43 @@ palette {
   white "#ffffff"
   orange "#ffa100"
 }
-proportion hoist=316 fly=632
+proportion hoist=1 fly=2
 
 field blue
 
 charge path white {
   d "M632 33C618 25 609 22 581.5 22C534 22 540.5 43 493 43S452 22 404.5 22S363.5 43 316 43S275 22 227.5 22S186.5 43 139 43S98 22 50.5 22C22.5 22 13.5 25 0 33L0 56C13 48 22 46 50.5 46C98 46 91.5 66 139 66S180 46 227.5 46S268.5 66 316 66S357 46 404.5 46S445.5 66 493 66S534 46 581.5 46C609.5 46 618.5 48 632 56Z"
   box "0 22 632 44"
-  fly 632
-  hoist 44
-  at fly=316 hoist=44
+  fly 2
+  hoist 0.1392
+  at fly=1 hoist=0.1392
 }
 
 charge path white {
   d "M632 106C618 98 609 95 581.5 95C534 95 540.5 116 493 116S452 95 404.5 95S363.5 116 316 116S275 95 227.5 95S186.5 116 139 116S98 95 50.5 95C22.5 95 13.5 98 0 106L0 129C13 121 22 119 50.5 119C98 119 91.5 139 139 139S180 119 227.5 119S268.5 139 316 139S357 119 404.5 119S445.5 139 493 139S534 119 581.5 119C609.5 119 618.5 121 632 129Z"
   box "0 95 632 44"
-  fly 632
-  hoist 44
-  at fly=316 hoist=117
+  fly 2
+  hoist 0.1392
+  at fly=1 hoist=0.3703
 }
 
 charge path white {
   d "M632 283C618 291 609 294 581.5 294C534 294 540.5 273 493 273S452 294 404.5 294S363.5 273 316 273S275 294 227.5 294S186.5 273 139 273S98 294 50.5 294C22.5 294 13.5 291 0 283L0 259C13 268 22 270 50.5 270C98 270 91.5 249 139 249S180 270 227.5 270S268.5 249 316 249S357 270 404.5 270S445.5 249 493 249S534 270 581.5 270C609.5 270 618.5 268 632 259Z"
   box "0 249 632 45"
-  fly 632
-  hoist 45
-  at fly=316 hoist=271.5
+  fly 2
+  hoist 0.1424
+  at fly=1 hoist=0.8592
 }
 
 charge path white {
   d "M632 210C618 218 609 221 581.5 221C534 221 540.5 200 493 200S452 221 404.5 221S363.5 200 316 200S275 221 227.5 221S186.5 200 139 200S98 221 50.5 221C22.5 221 13.5 218 0 210L0 186C13 195 22 197 50.5 197C98 197 91.5 176 139 176S180 197 227.5 197S268.5 176 316 176S357 197 404.5 197S445.5 176 493 176S534 197 581.5 197C609.5 197 618.5 195 632 186Z"
   box "0 176 632 45"
-  fly 632
-  hoist 45
-  at fly=316 hoist=198.5
+  fly 2
+  hoist 0.1424
+  at fly=1 hoist=0.6282
 }
 
 charge disc orange {
-  radius 79
-  at fly=316 hoist=158
-  anchor center
+  radius 0.25
+  at center
 }

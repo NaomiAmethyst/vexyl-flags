@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Sovereign Military Order of Malta"
@@ -11,11 +10,11 @@ palette {
   red "#da121a"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=12 fly=18
 
 field red
 
 cross white {
-  fly 400 100 400
-  hoist 250 100 250
+  fly 8 2 8
+  hoist 5 2 5
 }

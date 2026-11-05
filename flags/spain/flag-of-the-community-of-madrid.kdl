@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Community of Madrid"
@@ -10,18 +9,17 @@ palette {
   red "#c60b1e"
   white "#ffffff"
 }
-proportion hoist=56 fly=88
+proportion hoist=7 fly=11
 
 field red
 
 charge star white {
-  radius 7
-  inner 2.66
-  at fly=20 hoist=23
-  at fly=36 hoist=23
-  at fly=52 hoist=23
-  at fly=68 hoist=23
-  at fly=28 hoist=34.3369
-  at fly=44 hoist=34.3369
-  at fly=60 hoist=34.3369
+  radius 0.875
+  at fly=2.5 hoist=2.875
+  at fly=4.5 hoist=2.875
+  at fly=6.5 hoist=2.875
+  at fly=8.5 hoist=2.875
+  at fly=3.5 hoist=4.2921
+  at fly=5.5 hoist=4.2921
+  at fly=7.5 hoist=4.2921
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Intersex-inclusive pride flag"
@@ -19,45 +18,45 @@ palette {
   teal "#7bcce5"
   pink "#f4aec8"
   white "#ffffff"
-  yellow-2 "#fdd817"
-  purple-2 "#66338b"
+  dark-yellow "#fdd817"
+  light-purple "#66338b"
 }
-proportion hoist=762 fly=1200
+proportion hoist=1 fly=1.5748
 
 bars red orange yellow green blue purple
 
 chevrons black {
-  depth 668
+  depth 0.8766
   angle 47.1846
 }
 
 chevrons brown {
-  depth 594
+  depth 0.7795
   angle 47.1846
 }
 
 chevrons teal {
-  depth 521
+  depth 0.6837
   angle 47.1846
 }
 
 chevrons pink {
-  depth 448
+  depth 0.5879
   angle 47.1846
 }
 
 chevrons white {
-  depth 374
+  depth 0.4908
   angle 47.2656
 }
 
-chevrons yellow-2 {
-  depth 301
+chevrons dark-yellow {
+  depth 0.395
   angle 47.2833
 }
 
-charge ring purple-2 {
-  radius 89.5
-  inner 70.5
-  at fly=111 hoist=381
+charge ring light-purple {
+  radius 0.1175
+  inner 0.0925
+  at fly=0.1457 hoist=0.5
 }

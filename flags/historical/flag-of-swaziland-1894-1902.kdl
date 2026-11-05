@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Swaziland (1894–1902)"
@@ -9,128 +8,128 @@ meta {
 }
 palette {
   blue "#6699cc"
-  blue-2 "#203794"
+  dark-blue "#203794"
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=500 fly=800
+proportion hoist=1500 fly=2400
 
 field blue
 
-charge polygon blue-2 {
-  point fly=0 hoist=250
+charge polygon dark-blue {
+  point fly=0 hoist=750
   point fly=0 hoist=0
-  point fly=36.3636 hoist=0
-  point fly=72.7273 hoist=0
-  point fly=72.7273 hoist=250
-  point fly=72.7273 hoist=500
-  point fly=36.3636 hoist=500
-  point fly=0 hoist=500
+  point fly=109 hoist=0
+  point fly=218 hoist=0
+  point fly=218 hoist=750
+  point fly=218 hoist=1500
+  point fly=109 hoist=1500
+  point fly=0 hoist=1500
 }
 
-charge polygon blue-2 {
-  point fly=145.4546 hoist=250
-  point fly=145.4546 hoist=0
-  point fly=181.8182 hoist=0
-  point fly=218.1818 hoist=0
-  point fly=218.1818 hoist=250
-  point fly=218.1818 hoist=500
-  point fly=181.8182 hoist=500
-  point fly=145.4546 hoist=500
+charge polygon dark-blue {
+  point fly=436 hoist=750
+  point fly=436 hoist=0
+  point fly=545.5 hoist=0
+  point fly=654.5 hoist=0
+  point fly=654.5 hoist=750
+  point fly=654.5 hoist=1500
+  point fly=545.5 hoist=1500
+  point fly=436 hoist=1500
 }
 
-charge polygon blue-2 {
-  point fly=290.9091 hoist=250
-  point fly=290.9091 hoist=0
-  point fly=327.2727 hoist=0
-  point fly=363.6364 hoist=0
-  point fly=363.6364 hoist=250
-  point fly=363.6364 hoist=500
-  point fly=327.2727 hoist=500
-  point fly=290.9091 hoist=500
+charge polygon dark-blue {
+  point fly=873 hoist=750
+  point fly=873 hoist=0
+  point fly=982 hoist=0
+  point fly=1091 hoist=0
+  point fly=1091 hoist=750
+  point fly=1091 hoist=1500
+  point fly=982 hoist=1500
+  point fly=873 hoist=1500
 }
 
-charge polygon blue-2 {
-  point fly=436.3636 hoist=250
-  point fly=436.3636 hoist=0
-  point fly=472.7273 hoist=0
-  point fly=509.0909 hoist=0
-  point fly=509.0909 hoist=250
-  point fly=509.0909 hoist=500
-  point fly=472.7273 hoist=500
-  point fly=436.3636 hoist=500
+charge polygon dark-blue {
+  point fly=1309 hoist=750
+  point fly=1309 hoist=0
+  point fly=1418 hoist=0
+  point fly=1527 hoist=0
+  point fly=1527 hoist=750
+  point fly=1527 hoist=1500
+  point fly=1418 hoist=1500
+  point fly=1309 hoist=1500
 }
 
-charge polygon blue-2 {
-  point fly=581.8182 hoist=250
-  point fly=581.8182 hoist=0
-  point fly=618.1818 hoist=0
-  point fly=654.5455 hoist=0
-  point fly=654.5455 hoist=250
-  point fly=654.5455 hoist=500
-  point fly=618.1818 hoist=500
-  point fly=581.8182 hoist=500
+charge polygon dark-blue {
+  point fly=1745.5 hoist=750
+  point fly=1745.5 hoist=0
+  point fly=1854.5 hoist=0
+  point fly=1964 hoist=0
+  point fly=1964 hoist=750
+  point fly=1964 hoist=1500
+  point fly=1854.5 hoist=1500
+  point fly=1745.5 hoist=1500
 }
 
-charge polygon blue-2 {
-  point fly=727.2727 hoist=250
-  point fly=727.2727 hoist=0
-  point fly=763.6364 hoist=0
-  point fly=800 hoist=0
-  point fly=800 hoist=250
-  point fly=800 hoist=500
-  point fly=763.6364 hoist=500
-  point fly=727.2727 hoist=500
+charge polygon dark-blue {
+  point fly=2182 hoist=750
+  point fly=2182 hoist=0
+  point fly=2291 hoist=0
+  point fly=2400 hoist=0
+  point fly=2400 hoist=750
+  point fly=2400 hoist=1500
+  point fly=2291 hoist=1500
+  point fly=2182 hoist=1500
 }
 
 charge svg {
   at center
-  fly 800
-  hoist 500
+  fly 2400
+  hoist 1500
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><path d="M 637.795,230.315 C 584.646,289.37 513.779,407.48 372.047,407.48 C 248.031,407.48 159.449,289.37 106.299,230.315 C 159.449,171.26 248.031,53.1496 372.047,53.1496 C 513.779,53.1496 584.646,171.26 637.795,230.315 z " transform="matrix(0 -0.666667 0.6 0 261.81112 498.03146)" stroke-width="1.97642004" stroke="#000000" fill-rule="evenodd" stroke-dasharray="none" fill="#ffffff" stroke-opacity="1"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><path transform="matrix(0 -0.666667 0.6 0 261.81112 498.03146)" d="M 637.795,230.315 C 584.646,289.37 513.779,407.48 372.047,407.48 C 248.031,407.48 159.449,289.37 106.299,230.315 C 159.449,171.26 248.031,53.1496 372.047,53.1496 C 513.779,53.1496 584.646,171.26 637.795,230.315 z " stroke-opacity="1" fill-rule="evenodd" stroke-width="1.97642004" stroke-dasharray="none" fill="#ffffff" stroke="#000000"/></svg>
 """#
 }
 
 charge path black {
   d "M330.6771 262.3661C341.2797 252.9394 345.5541 260.8108 346.2501 250.8328C347.0229 240.3101 357.4533 246.2748 357.8157 237.4234C358.0857 231.2354 382.8069 238.0414 390.9639 232.0841C399.4683 226.0161 393.4557 220.9341 399.5997 220.8274C405.9537 220.7221 405.3129 237.3428 424.8873 237.6341C436.1673 238.1214 436.8897 251.6601 444.1479 252.3061C450.9747 253.1094 454.8075 225.6341 460.9191 226.0001C467.0121 226.3768 466.0581 255.6674 473.0067 256.9428C479.2479 257.5968 484.3635 216.7034 502.4145 213.4154C504.4101 219.5174 506.2887 236.8781 506.2989 250.0001C506.3643 332.6728 435.4329 391.7322 399.9999 427.1655C364.5669 391.7322 293.7007 332.6775 293.7007 250.0001C293.7007 250.0001 316.1249 274.5421 330.6771 262.3661Z"
   box "293.7007 213.4154 212.6636 213.7501"
-  fly 212.6636
-  hoist 213.7501
+  fly 638
+  hoist 641
   evenodd
-  at fly=400.0325 hoist=320.2905
+  at fly=1200 hoist=961
 }
 
 charge rect white {
-  fly 28.3464
-  hoist 8.5898
-  at fly=376.378 hoist=356.7287
-  at fly=423.622 hoist=356.7287
-  at fly=376.378 hoist=339.549
-  at fly=423.6221 hoist=339.549
-  at fly=376.3779 hoist=322.3694
-  at fly=423.622 hoist=322.3694
-  at fly=376.378 hoist=305.1897
-  at fly=423.622 hoist=305.1897
-  at fly=376.3779 hoist=288.01
-  at fly=423.622 hoist=288.01
-  at fly=376.378 hoist=270.8303
-  at fly=423.622 hoist=270.8303
+  fly 85
+  hoist 26
+  at fly=1129 hoist=1070
+  at fly=1271 hoist=1070
+  at fly=1129 hoist=1019
+  at fly=1271 hoist=1019
+  at fly=1129 hoist=967
+  at fly=1271 hoist=967
+  at fly=1129 hoist=916
+  at fly=1271 hoist=916
+  at fly=1129 hoist=864
+  at fly=1271 hoist=864
+  at fly=1129 hoist=812.5
+  at fly=1271 hoist=812.5
 }
 
 charge rect black {
-  fly 28.3464
-  hoist 8.5898
-  at fly=376.378 hoist=226.8074
-  at fly=423.622 hoist=226.8074
-  at fly=376.378 hoist=209.6277
-  at fly=423.6221 hoist=209.6277
-  at fly=376.3779 hoist=192.4481
-  at fly=423.622 hoist=192.4481
-  at fly=376.378 hoist=175.2684
-  at fly=423.622 hoist=175.2684
-  at fly=376.3779 hoist=158.0887
-  at fly=423.622 hoist=158.0887
-  at fly=376.378 hoist=140.909
-  at fly=423.622 hoist=140.909
+  fly 85
+  hoist 26
+  at fly=1129 hoist=680
+  at fly=1271 hoist=680
+  at fly=1129 hoist=629
+  at fly=1271 hoist=629
+  at fly=1129 hoist=577
+  at fly=1271 hoist=577
+  at fly=1129 hoist=526
+  at fly=1271 hoist=526
+  at fly=1129 hoist=474
+  at fly=1271 hoist=474
+  at fly=1129 hoist=423
+  at fly=1271 hoist=423
 }

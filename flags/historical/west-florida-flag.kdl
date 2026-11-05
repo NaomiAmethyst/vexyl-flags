@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "West Florida Flag"
@@ -11,13 +10,13 @@ palette {
   blue "#5685b7"
   white "#ffffff"
 }
-proportion hoist=680 fly=948.8
+proportion hoist=43 fly=60
 
 field blue
 
 charge star white {
-  radius 194.2938
+  radius 12.2862
   rotate 0.0178
-  at fly=474.35 hoist=346.06
+  at fly=30 hoist=21.875
   anchor center
 }

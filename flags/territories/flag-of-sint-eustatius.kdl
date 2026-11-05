@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Sint Eustatius"
@@ -10,72 +9,71 @@ meta {
 palette {
   red "#dc171d"
   white "#ffffff"
-  red-2 "#dc171f"
+  light-red "#dc171f"
   blue "#012a87"
   yellow "#f9d90f"
   green "#008830"
 }
-proportion hoist=600 fly=900
+proportion hoist=32 fly=48
 
 field red
 
 charge lozenge white {
-  fly 468.618
-  hoist 262.426
-  at fly=450 hoist=300
-  anchor center
+  fly 25
+  hoist 14
+  at center
 }
 
-charge polygon red-2 {
-  point fly=281.4772 hoist=336.8521
-  point fly=281.4772 hoist=376
-  point fly=351.4382 hoist=376
-  point fly=642.1649 hoist=323.6007
-  point fly=642.1649 hoist=376
-  point fly=548.4965 hoist=376
-}
-
-charge polygon blue {
-  point fly=188 hoist=288
-  point fly=20 hoist=288
-  point fly=20 hoist=20
-  point fly=438 hoist=20
-  point fly=438 hoist=148
+charge polygon light-red {
+  point fly=15.0121 hoist=17.9654
+  point fly=15.0121 hoist=20.0625
+  point fly=18.75 hoist=20.0625
+  point fly=34.25 hoist=17.25
+  point fly=34.25 hoist=20.0625
+  point fly=29.25 hoist=20.0625
 }
 
 charge polygon blue {
-  point fly=712 hoist=288
-  point fly=880 hoist=288
-  point fly=880 hoist=20
-  point fly=462 hoist=20
-  point fly=462 hoist=148
+  point fly=10.0267 hoist=15.36
+  point fly=1.0625 hoist=15.36
+  point fly=1.0625 hoist=1.0625
+  point fly=23.36 hoist=1.0625
+  point fly=23.36 hoist=7.9
 }
 
 charge polygon blue {
-  point fly=188 hoist=312
-  point fly=20 hoist=312
-  point fly=20 hoist=580
-  point fly=438 hoist=580
-  point fly=438 hoist=452
+  point fly=37.9733 hoist=15.36
+  point fly=46.9375 hoist=15.36
+  point fly=46.9375 hoist=1.0625
+  point fly=24.64 hoist=1.0625
+  point fly=24.64 hoist=7.9
 }
 
 charge polygon blue {
-  point fly=712 hoist=312
-  point fly=880 hoist=312
-  point fly=880 hoist=580
-  point fly=462 hoist=580
-  point fly=462 hoist=452
+  point fly=10.0267 hoist=16.64
+  point fly=1.0625 hoist=16.64
+  point fly=1.0625 hoist=30.9375
+  point fly=23.36 hoist=30.9375
+  point fly=23.36 hoist=24.1
+}
+
+charge polygon blue {
+  point fly=37.9733 hoist=16.64
+  point fly=46.9375 hoist=16.64
+  point fly=46.9375 hoist=30.9375
+  point fly=24.64 hoist=30.9375
+  point fly=24.64 hoist=24.1
 }
 
 charge star yellow {
-  radius 35.9311
-  at fly=450 hoist=235.4311
+  radius 1.9167
+  at fly=24 hoist=12.5625
 }
 
 charge path green {
   d "M281.4772 336.8521C284.1886 328.0039 290.0914 324.0828 298.0714 325.8571C303.0102 307.1264 325.8095 303.7861 334.8571 313L357.1297 335.3703C361.9674 337.621 369.3372 338.465 374.4563 338.465C380.7853 338.5645 380.0775 341.4704 385.3659 341.5714C399.4623 341.8408 436.5087 342.0291 443.223 341.5714C445.9721 341.384 507.3571 273.7143 507.3571 273.7143C512.4762 267.4048 525.8095 265.3809 533.0714 270.5C539.8572 276.9286 547 277.6429 552 273.3571C556.4048 266.8095 566.3921 266.048 572.7143 269.7857L642.1649 323.6007L548.4965 376L351.4382 376L281.4772 336.8521Z"
   box "281.4772 265.3809 360.6877 110.6191"
-  fly 360.6877
-  hoist 110.6191
-  at fly=461.8211 hoist=320.6905
+  fly 19.2367
+  hoist 5.9
+  at fly=24.625 hoist=17.1
 }

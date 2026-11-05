@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Republic of Yucatan"
@@ -12,21 +11,20 @@ palette {
   white "#ffffff"
   green "#006847"
 }
-proportion hoist=300 fly=600
+proportion hoist=3 fly=6
 
 bars red white red
 
 panel {
   side hoist
-  width 200
+  width 2
   field green
   charge star white {
-    radius 27.5
-    inner 10.45
-    at fly=100 hoist=150
-    at fly=40 hoist=50
-    at fly=160 hoist=50
-    at fly=40 hoist=250
-    at fly=160 hoist=250
+    radius 0.275
+    at fly=1 hoist=1.5
+    at fly=0.4 hoist=0.5
+    at fly=1.6 hoist=0.5
+    at fly=0.4 hoist=2.5
+    at fly=1.6 hoist=2.5
   }
 }

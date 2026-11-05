@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Democratic Republic of the Congo (1966-1971)"
@@ -11,34 +10,34 @@ palette {
   yellow "#f7d618"
   red "#ce1021"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field blue
 
 charge polygon yellow {
-  point fly=199.057 hoist=233.862
-  point fly=135.903 hoist=185.502
-  point fly=72.614 hoist=233.669
-  point fly=96.8 hoist=155.51
-  point fly=33.722 hoist=107.045
-  point fly=111.822 hoist=107.102
-  point fly=136.125 hoist=28.985
-  point fly=160.21 hoist=107.175
-  point fly=238.31 hoist=107.362
-  point fly=175.095 hoist=155.63
-  point fly=199.061 hoist=233.862
+  point fly=0.6635 hoist=0.7795
+  point fly=0.453 hoist=0.6183
+  point fly=0.242 hoist=0.7789
+  point fly=0.3227 hoist=0.5184
+  point fly=0.1124 hoist=0.3568
+  point fly=0.3727 hoist=0.357
+  point fly=0.4537 hoist=0.0966
+  point fly=0.534 hoist=0.3573
+  point fly=0.7944 hoist=0.3579
+  point fly=0.5833 hoist=0.5188
+  point fly=0.6635 hoist=0.7795
 }
 
 charge polygon yellow {
-  point fly=0 hoist=446
-  point fly=900 hoist=0
-  point fly=900 hoist=154
-  point fly=0 hoist=600
+  point fly=0 hoist=1.4867
+  point fly=3 hoist=0
+  point fly=3 hoist=0.5133
+  point fly=0 hoist=2
 }
 
 charge polygon red {
-  point fly=0 hoist=470
-  point fly=900 hoist=20
-  point fly=900 hoist=130
-  point fly=0 hoist=580
+  point fly=0 hoist=1.5667
+  point fly=3 hoist=0.0667
+  point fly=3 hoist=0.4333
+  point fly=0 hoist=1.9333
 }

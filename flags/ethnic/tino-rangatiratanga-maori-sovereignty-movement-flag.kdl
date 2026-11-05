@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Tino Rangatiratanga Maori sovereignty movement flag"
@@ -12,22 +11,22 @@ palette {
   black "#000000"
   red "#d40000"
 }
-proportion hoist=600 fly=1080
+proportion hoist=5 fly=9
 
 field white
 
 charge path black {
   d "M0 80L300 80A135 135 0 0 1 300 350L1080 350L1080 0L0 0"
   box "0 0 1080 485"
-  fly 1080
-  hoist 485
-  at fly=540 hoist=242.5
+  fly 9
+  hoist 4.0417
+  at fly=4.5 hoist=2.0208
 }
 
 charge path red {
   d "M0 190L300 190A80 80 0 0 1 300 350A55 55 0 0 0 300 240A110 110 0 0 0 300 460L1080 460L1080 600L0 600"
   box "0 185 1080 415"
-  fly 1080
-  hoist 415
-  at fly=540 hoist=392.5
+  fly 9
+  hoist 3.4583
+  at fly=4.5 hoist=3.2708
 }

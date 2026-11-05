@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Nagano Prefecture"
@@ -11,20 +10,20 @@ palette {
   red "#f66637"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field red
 
 charge disc white {
-  radius 250
-  at fly=300 hoist=300
+  radius 0.8333
+  at fly=1 hoist=1
 }
 
 charge path red {
   d "M10 300L610 300M150 25A275 275 0 0 1 150 575"
   box "-125 25 735 825"
-  fly 735
-  hoist 825
-  hollow 50
-  at fly=242.5 hoist=437.5
+  fly 2.45
+  hoist 2.75
+  hollow 0.1667
+  at fly=0.8083 hoist=1.4583
 }

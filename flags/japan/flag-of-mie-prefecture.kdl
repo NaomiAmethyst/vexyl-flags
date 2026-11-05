@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Mie Prefecture"
@@ -11,20 +10,20 @@ palette {
   green "#009900"
   white "#ffffff"
 }
-proportion hoist=515 fly=728
+proportion hoist=1 fly=1.4136
 
 field green
 
 charge path white {
   d "M567.1074 107.8516L630.9286 93.1173L402.7585 413L329.2585 413A129.8768 129.8768 0 0 0 372.0599 381.2981ZM544.6969 113.0255L425.4727 280.1717L488 343.8L441.6599 408.7664L380.9371 346.9744L371.432 226.9936L379.6869 215.4205A131.5 131.5 0 0 0 307.925 167.6886Z"
   box "176.425 36.1886 454.5037 474.9863"
-  fly 454.5037
-  hoist 474.9863
-  at fly=403.6768 hoist=273.6817
+  fly 0.8825
+  hoist 0.9223
+  at fly=0.7838 hoist=0.5314
 }
 
 charge ring white {
-  radius 118
-  inner 39
-  at fly=275 hoist=295
+  radius 0.2291
+  inner 0.0757
+  at fly=0.534 hoist=0.5728
 }

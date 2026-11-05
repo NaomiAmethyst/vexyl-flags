@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Japanese Resident General of Korea (1905–1910)"
@@ -12,16 +11,16 @@ palette {
   white "#ffffff"
   red "#b0313f"
 }
-proportion hoist=532 fly=798
+proportion hoist=4 fly=6
 
 field blue
 
 canton {
-  fly 399
-  hoist 266
+  fly 3
+  hoist 2
   field white
   charge disc red {
-    radius 79.8
-    at fly=199.5 hoist=133
+    radius 0.6
+    at center
   }
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of East Timor (3-2)"
@@ -13,21 +12,20 @@ palette {
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=12 fly=18
+proportion hoist=2 fly=3
 
 field red
 
 chevrons orange {
-  depth 9
+  depth 1.5
 }
 
 chevrons black {
-  depth 6
+  depth 1
 }
 
 charge star white {
-  radius 1.5751
-  inner 0.5986
+  radius 0.2625
   rotate -26.532
-  at fly=2.25 hoist=6
+  at fly=0.375 hoist=1
 }

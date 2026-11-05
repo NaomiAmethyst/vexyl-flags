@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "ICS Sierra"
@@ -27,6 +26,6 @@ canton {
   charge rect blue {
     fly 1
     hoist 1
-    at fly=1.5 hoist=1.5
+    at center
   }
 }

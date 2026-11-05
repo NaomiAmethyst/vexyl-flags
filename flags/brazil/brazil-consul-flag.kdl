@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Brazil Consul Flag"
@@ -11,13 +10,13 @@ palette {
   yellow "#ffcb00"
   blue "#302681"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 field yellow
 
 charge star blue {
-  radius 15.7719
-  inner 6.3088
-  at fly=300 hoist=101.5061
-  at fly=300 hoist=301.5061
+  radius 0.0789
+  inner 0.0315
+  at fly=1.5 hoist=0.5075
+  at fly=1.5 hoist=1.5075
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Sakha"
@@ -13,13 +12,13 @@ palette {
   red "#ff2200"
   green "#009900"
 }
-proportion hoist=64 fly=128
+proportion hoist=1 fly=2
 
 bars blue white red green {
   ratio 12 1 1 2
 }
 
 charge disc white {
-  radius 13
-  at fly=64 hoist=24
+  radius 0.2031
+  at fly=1 hoist=0.375
 }

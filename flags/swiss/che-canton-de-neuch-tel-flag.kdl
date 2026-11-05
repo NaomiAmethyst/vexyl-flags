@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "CHE Canton de Neuchâtel Flag"
@@ -11,20 +10,20 @@ palette {
   white "#ffffff"
   red "#f00000"
 }
-proportion hoist=540 fly=540
+proportion hoist=54 fly=54
 
 bars green white red {
   along hoist
 }
 
 charge rect white {
-  fly 20
-  hoist 140
-  at fly=450 hoist=90
+  fly 2
+  hoist 14
+  at fly=45 hoist=9
 }
 
 charge rect white {
-  fly 140
-  hoist 20
-  at fly=450 hoist=90
+  fly 14
+  hoist 2
+  at fly=45 hoist=9
 }

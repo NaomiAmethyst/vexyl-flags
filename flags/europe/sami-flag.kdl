@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Sami flag"
@@ -13,7 +12,7 @@ palette {
   yellow "#ffce00"
   blue "#0035ad"
 }
-proportion hoist=600 fly=808
+proportion hoist=1 fly=1.3467
 
 bars red green yellow blue {
   along hoist
@@ -23,16 +22,16 @@ bars red green yellow blue {
 charge path blue {
   d "M314 108A192 192 0 0 0 314 492L330 476L314 460A160 160 0 0 1 314 140L330 124L314 108Z"
   box "122 -20 384 704"
-  fly 384
-  hoist 704
-  at fly=314 hoist=332
+  fly 0.64
+  hoist 1.1733
+  at fly=0.5233 hoist=0.5533
 }
 
 charge path red {
   d "M314 124A176 176 0 0 1 314 476"
   box "138 124 352 528"
-  fly 352
-  hoist 528
-  hollow 32
-  at fly=314 hoist=388
+  fly 0.5867
+  hoist 0.88
+  hollow 0.0533
+  at fly=0.5233 hoist=0.6467
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of El Salvador (1875–1912)"
@@ -12,84 +11,83 @@ palette {
   white "#ffffff"
   red "#e60000"
 }
-proportion hoist=637.7953 fly=1116.1417
+proportion hoist=1440 fly=2520
 
 panel {
   corner upper-fly
-  fly 846.9757
-  hoist 70.8661
+  fly 1912
+  hoist 160
   field blue
 }
 
 charge rect white {
-  fly 1115.2958
-  hoist 70.8661
-  at fly=557.6479 hoist=106.6606
+  fly 2518
+  hoist 160
+  at fly=1259 hoist=241
 }
 
 charge rect blue {
-  fly 858.9386
-  hoist 70.8661
-  at fly=686.6724 hoist=177.1654
+  fly 1939
+  hoist 160
+  at fly=1550 hoist=400
 }
 
 charge rect white {
-  fly 1116.1417
-  hoist 70.8661
-  at fly=558.0709 hoist=248.0315
+  fly 2520
+  hoist 160
+  at fly=1260 hoist=560
 }
 
 charge rect blue {
-  fly 1116.1417
-  hoist 70.8661
-  at fly=558.0708 hoist=318.8977
+  fly 2520
+  hoist 160
+  at center
 }
 
 charge rect white {
-  fly 1116.1417
-  hoist 70.8661
-  at fly=558.0708 hoist=389.7638
+  fly 2520
+  hoist 160
+  at fly=1260 hoist=880
 }
 
 charge rect blue {
-  fly 1116.1417
-  hoist 70.8661
-  at fly=558.0709 hoist=460.6299
+  fly 2520
+  hoist 160
+  at fly=1260 hoist=1040
 }
 
 charge rect white {
-  fly 1116.1417
-  hoist 70.8661
-  at fly=558.0709 hoist=531.496
+  fly 2520
+  hoist 160
+  at fly=1260 hoist=1200
 }
 
 panel {
   side bottom
-  width 70.8661
+  width 160
   field blue
 }
 
 canton {
-  fly 283.4646
-  hoist 283.4646
+  fly 640
+  hoist 640
   field red
   charge star white {
-    radius 24.0378
-    inner 9.0142
+    radius 54
     rotate 0.272
-    at fly=55.7282 hoist=143.0954
-    at fly=112.404 hoist=143.6331
-    at fly=169.0797 hoist=143.2102
-    at fly=225.7555 hoist=142.7872
-    at fly=37.0665 hoist=212.4804
-    at fly=88.3589 hoist=213.0181
-    at fly=191.6901 hoist=213.1932
-    at fly=242.3844 hoist=213.9666
-    at fly=139.6513 hoist=212.5951
-    at fly=40.6554 hoist=71.3178
-    at fly=91.9478 hoist=71.8555
-    at fly=195.2789 hoist=72.0306
-    at fly=245.9732 hoist=72.804
-    at fly=143.2401 hoist=71.4325
+    at fly=126 hoist=323
+    at fly=254 hoist=324
+    at fly=382 hoist=323
+    at fly=510 hoist=322
+    at fly=84 hoist=480
+    at fly=199.5 hoist=481
+    at fly=433 hoist=481
+    at fly=547 hoist=483
+    at fly=315 hoist=480
+    at fly=92 hoist=161
+    at fly=208 hoist=162
+    at fly=441 hoist=163
+    at fly=555 hoist=164
+    at fly=323 hoist=161
   }
 }

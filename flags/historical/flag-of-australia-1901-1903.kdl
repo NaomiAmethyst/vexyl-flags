@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Australia (1901–1903)"
@@ -10,144 +9,144 @@ meta {
 palette {
   blue "#012169"
   white "#ffffff"
-  pink "#e4002b"
+  red "#e4002b"
 }
-proportion hoist=15119.999 fly=30240.001
+proportion hoist=2 fly=4
 
 field blue
 
 canton {
-  fly 15120
-  hoist 7559.9996
+  fly 2
+  hoist 1
   field blue
   charge polygon white {
-    point fly=6300 hoist=-0.0015
-    point fly=8820 hoist=-0.0015
-    point fly=8820 hoist=2519.9993
-    point fly=15120 hoist=2519.9993
-    point fly=15120 hoist=5039.9995
-    point fly=8820 hoist=5039.9995
-    point fly=8820 hoist=7559.9996
-    point fly=6300 hoist=7559.9996
-    point fly=6300 hoist=5039.9995
-    point fly=0 hoist=5039.9995
-    point fly=0 hoist=2519.9993
-    point fly=6300 hoist=2519.9993
+    point fly=0.8333 hoist=0
+    point fly=1.1667 hoist=0
+    point fly=1.1667 hoist=0.3333
+    point fly=2 hoist=0.3333
+    point fly=2 hoist=0.6667
+    point fly=1.1667 hoist=0.6667
+    point fly=1.1667 hoist=1
+    point fly=0.8333 hoist=1
+    point fly=0.8333 hoist=0.6667
+    point fly=0 hoist=0.6667
+    point fly=0 hoist=0.3333
+    point fly=0.8333 hoist=0.3333
   }
   charge polygon white {
-    point fly=0 hoist=-0.0015
-    point fly=1690.467 hoist=-0.0015
-    point fly=15120 hoist=6714.7658
-    point fly=15120 hoist=7559.9997
-    point fly=13429.533 hoist=7559.9997
-    point fly=0 hoist=845.2325
+    point fly=0 hoist=0
+    point fly=0.2236 hoist=0
+    point fly=2 hoist=0.8882
+    point fly=2 hoist=1
+    point fly=1.7764 hoist=1
+    point fly=0 hoist=0.1118
   }
   charge polygon white {
-    point fly=15120 hoist=-0.0015
-    point fly=13429.533 hoist=-0.0015
-    point fly=0 hoist=6714.7658
-    point fly=0 hoist=7559.9997
-    point fly=1690.467 hoist=7559.9997
-    point fly=15120 hoist=845.2325
+    point fly=2 hoist=0
+    point fly=1.7764 hoist=0
+    point fly=0 hoist=0.8882
+    point fly=0 hoist=1
+    point fly=0.2236 hoist=1
+    point fly=2 hoist=0.1118
   }
-  charge polygon pink {
-    point fly=6804 hoist=-0.0015
-    point fly=8316 hoist=-0.0015
-    point fly=8316 hoist=3023.9994
-    point fly=15120 hoist=3023.9994
-    point fly=15120 hoist=4535.9996
-    point fly=8316 hoist=4535.9996
-    point fly=8316 hoist=7559.9996
-    point fly=6804 hoist=7559.9996
-    point fly=6804 hoist=4535.9995
-    point fly=0 hoist=4535.9995
-    point fly=0 hoist=3023.9996
-    point fly=6804 hoist=3023.9996
+  charge polygon red {
+    point fly=0.9 hoist=0
+    point fly=1.1 hoist=0
+    point fly=1.1 hoist=0.4
+    point fly=2 hoist=0.4
+    point fly=2 hoist=0.6
+    point fly=1.1 hoist=0.6
+    point fly=1.1 hoist=1
+    point fly=0.9 hoist=1
+    point fly=0.9 hoist=0.6
+    point fly=0 hoist=0.6
+    point fly=0 hoist=0.4
+    point fly=0.9 hoist=0.4
   }
-  charge polygon pink {
-    point fly=0 hoist=-0.0015
-    point fly=5040 hoist=2519.9993
-    point fly=3913.022 hoist=2519.9993
-    point fly=0 hoist=563.4875
+  charge polygon red {
+    point fly=0 hoist=0
+    point fly=0.6667 hoist=0.3333
+    point fly=0.5176 hoist=0.3333
+    point fly=0 hoist=0.0745
   }
-  charge polygon pink {
-    point fly=15120 hoist=-0.0015
-    point fly=13993.022 hoist=-0.0015
-    point fly=8953.022 hoist=2519.9993
-    point fly=10080 hoist=2519.9993
+  charge polygon red {
+    point fly=2 hoist=0
+    point fly=1.8509 hoist=0
+    point fly=1.1843 hoist=0.3333
+    point fly=1.3333 hoist=0.3333
   }
-  charge polygon pink {
-    point fly=15120 hoist=7559.9997
-    point fly=10080 hoist=5039.9995
-    point fly=11206.978 hoist=5039.9995
-    point fly=15120 hoist=6996.5104
-    point fly=15120 hoist=7559.9996
+  charge polygon red {
+    point fly=2 hoist=1
+    point fly=1.3333 hoist=0.6667
+    point fly=1.4824 hoist=0.6667
+    point fly=2 hoist=0.9255
+    point fly=2 hoist=1
   }
-  charge polygon pink {
-    point fly=0 hoist=7559.9997
-    point fly=1126.978 hoist=7559.9997
-    point fly=6166.978 hoist=5039.9995
-    point fly=5040 hoist=5039.9995
+  charge polygon red {
+    point fly=0 hoist=1
+    point fly=0.1491 hoist=1
+    point fly=0.8157 hoist=0.6667
+    point fly=0.6667 hoist=0.6667
   }
 }
 
 charge star white {
-  radius 629.9998
-  inner 280.0001
-  at fly=24192.013 hoist=8250.1611
+  radius 0.0833
+  inner 0.037
+  at fly=3.2 hoist=1.0913
 }
 
 charge star white {
-  radius 1079.9996
-  inner 479.9998
+  radius 0.1429
+  inner 0.0635
   points 7
-  at fly=22680.0031 hoist=2573.4681
+  at fly=3 hoist=0.3404
 }
 
 charge svg {
   at center
-  fly 30240.001
-  hoist 15119.999
+  fly 4
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30240.001 15119.999"><path d="M-.00108984-37.163353h30314.326v15157.163h-30314.326z" stroke="none" fill="none" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30240.001 15119.999"><path d="M-.00108984-37.163353h30314.326v15157.163h-30314.326z" fill="none" stroke="none" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
 charge polygon white {
-  point fly=7559.995 hoist=13930.812
-  point fly=9803.703 hoist=10044.595
-  point fly=5316.287 hoist=10044.595
+  point fly=1 hoist=1.8427
+  point fly=1.2968 hoist=1.3287
+  point fly=0.7032 hoist=1.3287
 }
 
 charge polygon white {
-  point fly=7559.995 hoist=8749.1866
-  point fly=5316.287 hoist=12635.404
-  point fly=9803.703 hoist=12635.404
+  point fly=1 hoist=1.1573
+  point fly=0.7032 hoist=1.6713
+  point fly=1.2968 hoist=1.6713
 }
 
 charge polygon white {
-  point fly=26040.012 hoist=6533.3997
-  point fly=26842.286 hoist=5143.8208
-  point fly=25237.738 hoist=5143.8208
+  point fly=3.4444 hoist=0.8642
+  point fly=3.55 hoist=0.6804
+  point fly=3.3383 hoist=0.6804
 }
 
 charge polygon white {
-  point fly=26040.012 hoist=4680.6268
-  point fly=25237.738 hoist=6070.2057
-  point fly=26842.286 hoist=6070.2057
+  point fly=3.4444 hoist=0.6191
+  point fly=3.3383 hoist=0.8029
+  point fly=3.55 hoist=0.8029
 }
 
 charge path white {
   d "M17728.579 6615.0045C17728.579 6621.7874 18358.102 6832.1235 18360.697 6838.3905C18363.291 6844.6565 18066.884 7438.5256 18071.68 7443.3225C18076.476 7448.1185 18670.346 7151.7095 18676.611 7154.3055C18682.877 7156.9015 18893.214 7786.4226 18899.996 7786.4226C18906.78 7786.4226 19117.117 7156.9006 19123.383 7154.3055C19129.648 7151.7096 19723.519 7448.1185 19728.314 7443.3225C19733.11 7438.5256 19436.701 6844.6565 19439.297 6838.3905C19441.893 6832.1236 20071.415 6621.7875 20071.415 6615.0045C20071.415 6608.2215 19441.893 6397.8855 19439.297 6391.6185C19436.701 6385.3525 19733.11 5791.4824 19728.314 5786.6864C19723.519 5781.8904 19129.648 6078.2994 19123.383 6075.7034C19117.117 6073.1084 18906.78 5443.5864 18899.996 5443.5864C18893.214 5443.5864 18682.877 6073.1084 18676.611 6075.7034C18670.346 6078.2993 18076.476 5781.8904 18071.68 5786.6864C18066.884 5791.4824 18363.293 6385.3524 18360.697 6391.6185C18358.099 6397.8855 17728.579 6608.2215 17728.579 6615.0045Z"
   box "17728.579 5443.5864 2342.836 2342.8362"
-  fly 2342.836
-  hoist 2342.8362
-  at fly=18899.997 hoist=6615.0045
+  fly 0.3099
+  hoist 0.3099
+  at fly=2.5 hoist=0.875
 }
 
 charge star white {
-  radius 1162.0492
-  inner 542.9182
+  radius 0.1537
+  inner 0.0718
   points 9
-  at fly=22680.0007 hoist=12635.0547
+  at fly=3 hoist=1.6713
 }

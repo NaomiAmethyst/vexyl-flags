@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the State of Georgia (1879–1902)"
@@ -9,18 +8,18 @@ meta {
 }
 palette {
   blue "#00205b"
-  pink "#bf0a30"
+  red "#bf0a30"
   white "#ffffff"
 }
-proportion hoist=450 fly=750
+proportion hoist=9 fly=15
 
-bars blue pink {
+bars blue red {
   along hoist
   ratio 1 2
 }
 
 charge rect white {
-  fly 500
-  hoist 150
-  at fly=500 hoist=225
+  fly 10
+  hoist 3
+  at fly=10 hoist=4.5
 }

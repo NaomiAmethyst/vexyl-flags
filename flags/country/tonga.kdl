@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tonga"
@@ -11,22 +10,22 @@ palette {
   red "#c10000"
   white "#ffffff"
 }
-proportion hoist=48 fly=96
+proportion hoist=24 fly=48
 
 field red
 
 canton {
-  fly 40
-  hoist 24
+  fly 20
+  hoist 12
   field white
   charge rect red {
-    fly 6
-    hoist 18
-    at fly=20 hoist=12
+    fly 3
+    hoist 9
+    at center
   }
   charge rect red {
-    fly 18
-    hoist 6
-    at fly=20 hoist=12
+    fly 9
+    hoist 3
+    at center
   }
 }

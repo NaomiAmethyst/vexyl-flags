@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Setomaa"
@@ -9,3681 +8,3681 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#e3173e"
+  red "#e3173e"
   blue "#15397f"
   teal "#008064"
 }
-proportion hoist=1000 fly=1800
+proportion hoist=1800 fly=3240
 
 field white
 
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=359.4722 hoist=406.9138
-  at fly=312.8067 hoist=406.9138
-  at fly=407.471 hoist=384.2477
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=336.6395 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.471 hoist=406.9138
-  at fly=230.1421 hoist=489.5784
-  at fly=407.471 hoist=360.2483
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=407.471 hoist=313.7495
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.471 hoist=336.2489
-  at fly=288.8073 hoist=406.9138
-  at fly=266.1412 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=219.3091 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=242.1418 hoist=406.9138
-}
-
-charge polygon pink {
-  point fly=225.3089 hoist=449.0794
-  point fly=236.9753 hoist=449.0794
-  point fly=236.9753 hoist=460.7458
-  point fly=248.6417 hoist=460.7458
-  point fly=248.6417 hoist=472.4122
-  point fly=260.6414 hoist=472.4122
-  point fly=260.6414 hoist=484.4119
-  point fly=272.3077 hoist=484.4119
-  point fly=272.3077 hoist=472.4122
-  point fly=283.9741 hoist=472.4122
-  point fly=283.9741 hoist=460.7458
-  point fly=272.3077 hoist=460.7458
-  point fly=272.3077 hoist=449.0794
-  point fly=260.6414 hoist=449.0794
-  point fly=260.6414 hoist=437.413
-  point fly=248.6417 hoist=437.413
-  point fly=248.6417 hoist=425.4133
-  point fly=213.3092 hoist=425.4133
-  point fly=213.3092 hoist=437.413
-  point fly=225.3089 hoist=437.413
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=300.6404 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.471 hoist=265.584
-}
-
-charge polygon pink {
-  point fly=294.6405 hoist=449.0794
-  point fly=306.6402 hoist=449.0794
-  point fly=306.6402 hoist=437.413
-  point fly=318.3066 hoist=437.413
-  point fly=318.3066 hoist=425.4133
-  point fly=282.9741 hoist=425.4133
-  point fly=282.9741 hoist=437.413
-  point fly=294.6405 hoist=437.413
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=300.6404 hoist=489.5784
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.471 hoist=289.5834
-}
-
-charge polygon pink {
-  point fly=435.9703 hoist=307.7496
-  point fly=447.6367 hoist=307.7496
-  point fly=447.6367 hoist=296.0832
-  point fly=435.9703 hoist=296.0832
-  point fly=435.9703 hoist=284.4169
-  point fly=424.3039 hoist=284.4169
-  point fly=424.3039 hoist=319.7493
-  point fly=435.9703 hoist=319.7493
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.471 hoist=242.9179
-}
-
-charge polygon pink {
-  point fly=435.9703 hoist=259.7508
-  point fly=447.6367 hoist=259.7508
-  point fly=447.6367 hoist=271.4172
-  point fly=459.6364 hoist=271.4172
-  point fly=459.6364 hoist=283.4169
-  point fly=471.3028 hoist=283.4169
-  point fly=471.3028 hoist=271.4172
-  point fly=482.9691 hoist=271.4172
-  point fly=482.9691 hoist=259.7508
-  point fly=471.3028 hoist=259.7508
-  point fly=471.3028 hoist=248.0844
-  point fly=459.6364 hoist=248.0844
-  point fly=459.6364 hoist=236.4181
-  point fly=447.6367 hoist=236.4181
-  point fly=447.6367 hoist=224.4183
-  point fly=435.9703 hoist=224.4183
-  point fly=435.9703 hoist=212.752
-  point fly=424.3039 hoist=212.752
-  point fly=424.3039 hoist=248.0844
-  point fly=435.9703 hoist=248.0844
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.471 hoist=6.9238
-}
-
-charge polygon pink {
-  point fly=435.9703 hoist=378.4145
-  point fly=447.6367 hoist=378.4145
-  point fly=447.6367 hoist=366.7481
-  point fly=459.6364 hoist=366.7481
-  point fly=459.6364 hoist=355.0818
-  point fly=471.3028 hoist=355.0818
-  point fly=471.3028 hoist=343.0821
-  point fly=482.9691 hoist=343.0821
-  point fly=482.9691 hoist=331.4157
-  point fly=471.3028 hoist=331.4157
-  point fly=471.3028 hoist=319.7493
-  point fly=459.6364 hoist=319.7493
-  point fly=459.6364 hoist=331.4157
-  point fly=447.6367 hoist=331.4157
-  point fly=447.6367 hoist=343.0821
-  point fly=435.9703 hoist=343.0821
-  point fly=435.9703 hoist=355.0818
-  point fly=424.3039 hoist=355.0818
-  point fly=424.3039 hoist=390.0809
-  point fly=435.9703 hoist=390.0809
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=512.8017 hoist=631.0749
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 10.9341
-  at fly=407.1377 hoist=994.533
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=512.8017 hoist=701.5731
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=407.471 hoist=31.0899
-  at fly=407.471 hoist=195.0858
-  at fly=407.471 hoist=148.4203
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=512.8017 hoist=372.248
-  at fly=407.471 hoist=54.9226
-  at fly=407.471 hoist=218.9185
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=407.471 hoist=77.7553
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.471 hoist=101.5881
-  at fly=407.471 hoist=125.5875
-  at fly=407.471 hoist=172.253
-}
-
-charge polygon pink {
-  point fly=283.9741 hoist=530.4107
-  point fly=272.3077 hoist=530.4107
-  point fly=272.3077 hoist=518.7443
-  point fly=260.6414 hoist=518.7443
-  point fly=260.6414 hoist=530.4107
-  point fly=248.6417 hoist=530.4107
-  point fly=248.6417 hoist=542.0771
-  point fly=236.9753 hoist=542.0771
-  point fly=236.9753 hoist=554.0768
-  point fly=225.3089 hoist=554.0768
-  point fly=225.3089 hoist=565.7432
-  point fly=213.3092 hoist=565.7432
-  point fly=213.3092 hoist=577.4095
-  point fly=248.6417 hoist=577.4095
-  point fly=248.6417 hoist=565.7432
-  point fly=260.6414 hoist=565.7432
-  point fly=260.6414 hoist=554.0768
-  point fly=272.3077 hoist=554.0768
-  point fly=272.3077 hoist=542.0771
-  point fly=283.9741 hoist=542.0771
-}
-
-charge polygon pink {
-  point fly=306.6402 hoist=554.4101
-  point fly=294.6405 hoist=554.4101
-  point fly=294.6405 hoist=566.0765
-  point fly=282.9741 hoist=566.0765
-  point fly=282.9741 hoist=577.7429
-  point fly=318.3066 hoist=577.7429
-  point fly=318.3066 hoist=566.0765
-  point fly=306.6402 hoist=566.0765
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=265.8079 hoist=595.0758
-  at fly=312.4734 hoist=595.0758
-  at fly=289.8073 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=195.143 hoist=407.2471
-}
-
-charge polygon pink {
-  point fly=189.3098 hoist=437.0797
-  point fly=177.3101 hoist=437.0797
-  point fly=177.3101 hoist=448.7461
-  point fly=165.6437 hoist=448.7461
-  point fly=165.6437 hoist=460.4125
-  point fly=153.9774 hoist=460.4125
-  point fly=153.9774 hoist=472.0788
-  point fly=142.311 hoist=472.0788
-  point fly=142.311 hoist=484.0785
-  point fly=130.3113 hoist=484.0785
-  point fly=130.3113 hoist=472.0788
-  point fly=118.6449 hoist=472.0788
-  point fly=118.6449 hoist=460.4125
-  point fly=130.3113 hoist=460.4125
-  point fly=130.3113 hoist=448.7461
-  point fly=142.311 hoist=448.7461
-  point fly=142.311 hoist=437.0797
-  point fly=153.9774 hoist=437.0797
-  point fly=153.9774 hoist=425.08
-  point fly=118.6449 hoist=425.08
-  point fly=118.6449 hoist=437.0797
-  point fly=106.9785 hoist=437.0797
-  point fly=106.9785 hoist=448.7461
-  point fly=94.9788 hoist=448.7461
-  point fly=94.9788 hoist=437.0797
-  point fly=83.3125 hoist=437.0797
-  point fly=83.3125 hoist=425.08
-  point fly=47.98 hoist=425.08
-  point fly=47.98 hoist=437.0797
-  point fly=59.9797 hoist=437.0797
-  point fly=59.9797 hoist=448.7461
-  point fly=71.6461 hoist=448.7461
-  point fly=71.6461 hoist=460.4125
-  point fly=83.3125 hoist=460.4125
-  point fly=83.3125 hoist=472.0788
-  point fly=71.6461 hoist=472.0788
-  point fly=71.6461 hoist=484.0785
-  point fly=59.9797 hoist=484.0785
-  point fly=59.9797 hoist=472.0788
-  point fly=47.98 hoist=472.0788
-  point fly=47.98 hoist=460.4125
-  point fly=36.3136 hoist=460.4125
-  point fly=36.3136 hoist=448.7461
-  point fly=24.6473 hoist=448.7461
-  point fly=24.6473 hoist=437.0797
-  point fly=12.6476 hoist=437.0797
-  point fly=12.6476 hoist=425.08
-  point fly=0.9812 hoist=425.08
-  point fly=0.9812 hoist=495.7449
-  point fly=24.6473 hoist=495.7449
-  point fly=24.6473 hoist=484.0785
-  point fly=36.3136 hoist=484.0785
-  point fly=36.3136 hoist=495.7449
-  point fly=94.9788 hoist=495.7449
-  point fly=94.9788 hoist=484.0785
-  point fly=106.9785 hoist=484.0785
-  point fly=106.9785 hoist=495.7449
-  point fly=165.6437 hoist=495.7449
-  point fly=165.6437 hoist=484.0785
-  point fly=177.3101 hoist=484.0785
-  point fly=177.3101 hoist=495.7449
-  point fly=200.9762 hoist=495.7449
-  point fly=200.9762 hoist=425.08
-  point fly=189.3098 hoist=425.08
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=231.1421 hoist=513.7445
-  at fly=241.8085 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=177.3101 hoist=519.7443
-  point fly=165.6437 hoist=519.7443
-  point fly=165.6437 hoist=507.7446
-  point fly=106.9785 hoist=507.7446
-  point fly=106.9785 hoist=519.7443
-  point fly=94.9788 hoist=519.7443
-  point fly=94.9788 hoist=507.7446
-  point fly=36.3136 hoist=507.7446
-  point fly=36.3136 hoist=519.7443
-  point fly=24.6473 hoist=519.7443
-  point fly=24.6473 hoist=507.7446
-  point fly=0.9812 hoist=507.7446
-  point fly=0.9812 hoist=578.4095
-  point fly=12.6476 hoist=578.4095
-  point fly=12.6476 hoist=566.7431
-  point fly=24.6473 hoist=566.7431
-  point fly=24.6473 hoist=555.0768
-  point fly=36.3136 hoist=555.0768
-  point fly=36.3136 hoist=543.077
-  point fly=47.98 hoist=543.077
-  point fly=47.98 hoist=531.4107
-  point fly=59.9797 hoist=531.4107
-  point fly=59.9797 hoist=519.7443
-  point fly=71.6461 hoist=519.7443
-  point fly=71.6461 hoist=531.4107
-  point fly=83.3125 hoist=531.4107
-  point fly=83.3125 hoist=543.077
-  point fly=71.6461 hoist=543.077
-  point fly=71.6461 hoist=555.0768
-  point fly=59.9797 hoist=555.0768
-  point fly=59.9797 hoist=566.7431
-  point fly=47.98 hoist=566.7431
-  point fly=47.98 hoist=578.4095
-  point fly=83.3125 hoist=578.4095
-  point fly=83.3125 hoist=566.7431
-  point fly=94.9788 hoist=566.7431
-  point fly=94.9788 hoist=555.0768
-  point fly=106.9785 hoist=555.0768
-  point fly=106.9785 hoist=566.7431
-  point fly=118.6449 hoist=566.7431
-  point fly=118.6449 hoist=578.4095
-  point fly=153.9774 hoist=578.4095
-  point fly=153.9774 hoist=566.7431
-  point fly=142.311 hoist=566.7431
-  point fly=142.311 hoist=555.0768
-  point fly=130.3113 hoist=555.0768
-  point fly=130.3113 hoist=543.077
-  point fly=118.6449 hoist=543.077
-  point fly=118.6449 hoist=531.4107
-  point fly=130.3113 hoist=531.4107
-  point fly=130.3113 hoist=519.7443
-  point fly=142.311 hoist=519.7443
-  point fly=142.311 hoist=531.4107
-  point fly=153.9774 hoist=531.4107
-  point fly=153.9774 hoist=543.077
-  point fly=165.6437 hoist=543.077
-  point fly=165.6437 hoist=555.0768
-  point fly=177.3101 hoist=555.0768
-  point fly=177.3101 hoist=566.7431
-  point fly=189.3098 hoist=566.7431
-  point fly=189.3098 hoist=578.4095
-  point fly=200.9762 hoist=578.4095
-  point fly=200.9762 hoist=507.7446
-  point fly=177.3101 hoist=507.7446
-}
-
-charge polygon pink {
-  point fly=354.639 hoist=437.0797
-  point fly=342.9726 hoist=437.0797
-  point fly=342.9726 hoist=448.7461
-  point fly=330.9729 hoist=448.7461
-  point fly=330.9729 hoist=460.4125
-  point fly=319.3066 hoist=460.4125
-  point fly=319.3066 hoist=472.0788
-  point fly=330.9729 hoist=472.0788
-  point fly=330.9729 hoist=484.0785
-  point fly=342.9726 hoist=484.0785
-  point fly=342.9726 hoist=472.0788
-  point fly=354.639 hoist=472.0788
-  point fly=354.639 hoist=460.4125
-  point fly=366.3054 hoist=460.4125
-  point fly=366.3054 hoist=448.7461
-  point fly=377.9718 hoist=448.7461
-  point fly=377.9718 hoist=437.0797
-  point fly=389.9715 hoist=437.0797
-  point fly=389.9715 hoist=425.08
-  point fly=354.639 hoist=425.08
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=371.1386 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=371.4719 hoist=489.5784
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=383.305 hoist=407.2471
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=360.4722 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=377.3051 hoist=554.4101
-  point fly=365.6387 hoist=554.4101
-  point fly=365.6387 hoist=542.4104
-  point fly=353.9724 hoist=542.4104
-  point fly=353.9724 hoist=530.744
-  point fly=342.306 hoist=530.744
-  point fly=342.306 hoist=519.0776
-  point fly=330.3063 hoist=519.0776
-  point fly=330.3063 hoist=530.744
-  point fly=318.6399 hoist=530.744
-  point fly=318.6399 hoist=542.4104
-  point fly=330.3063 hoist=542.4104
-  point fly=330.3063 hoist=554.4101
-  point fly=342.306 hoist=554.4101
-  point fly=342.306 hoist=566.0765
-  point fly=353.9724 hoist=566.0765
-  point fly=353.9724 hoist=577.7429
-  point fly=389.3048 hoist=577.7429
-  point fly=389.3048 hoist=566.0765
-  point fly=377.3051 hoist=566.0765
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=336.6395 hoist=595.0758
-  at fly=383.305 hoist=595.0758
-  at fly=219.3091 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=7.481 hoist=406.9138
-  at fly=78.1459 hoist=406.9138
-  at fly=30.1471 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=100.6454 hoist=406.9138
-  at fly=53.9799 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=171.4769 hoist=406.9138
-  at fly=148.8108 hoist=406.9138
-  at fly=124.8114 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=77.8126 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=100.6454 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=148.4775 hoist=595.0758
-  at fly=7.1477 hoist=595.0758
-  at fly=171.1436 hoist=595.0758
-  at fly=124.4781 hoist=595.0758
-  at fly=195.143 hoist=595.0758
-  at fly=31.1471 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=53.9799 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=512.8017 hoist=772.238
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1431.1121 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1430.1121 hoist=489.5784
-  at fly=1371.4469 hoist=406.9138
-}
-
-charge polygon pink {
-  point fly=1425.2789 hoist=449.0794
-  point fly=1436.9453 hoist=449.0794
-  point fly=1436.9453 hoist=460.7458
-  point fly=1448.6117 hoist=460.7458
-  point fly=1448.6117 hoist=472.4122
-  point fly=1460.6113 hoist=472.4122
-  point fly=1460.6113 hoist=484.4119
-  point fly=1472.2777 hoist=484.4119
-  point fly=1472.2777 hoist=472.4122
-  point fly=1483.9441 hoist=472.4122
-  point fly=1483.9441 hoist=460.7458
-  point fly=1472.2777 hoist=460.7458
-  point fly=1472.2777 hoist=449.0794
-  point fly=1460.6113 hoist=449.0794
-  point fly=1460.6113 hoist=437.413
-  point fly=1448.6117 hoist=437.413
-  point fly=1448.6117 hoist=425.4133
-  point fly=1413.2792 hoist=425.4133
-  point fly=1413.2792 hoist=437.413
-  point fly=1425.2789 hoist=437.413
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1419.2791 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1112.7867 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1500.6104 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1442.1118 hoist=406.9138
-  at fly=1348.7808 hoist=406.9138
-  at fly=1159.4522 hoist=406.9138
-  at fly=1207.451 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1500.6104 hoist=489.5784
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1230.1171 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1136.6195 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1278.1159 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1253.9499 hoist=406.9138
-  at fly=1300.6154 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1324.7814 hoist=406.9138
-  at fly=1466.1112 hoist=406.9138
-  at fly=1678.1059 hoist=406.9138
-  at fly=1724.7714 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1700.6054 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1630.1071 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1653.9399 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1748.7708 hoist=406.9138
-}
-
-charge rect pink {
-  fly 10.3969
-  hoist 11.6664
-  at fly=1794.8016 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1771.4369 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1536.6095 hoist=406.9138
-}
-
-charge polygon pink {
-  point fly=1625.2739 hoist=483.7452
-  point fly=1636.9403 hoist=483.7452
-  point fly=1636.9403 hoist=495.4116
-  point fly=1695.6055 hoist=495.4116
-  point fly=1695.6055 hoist=483.7452
-  point fly=1707.6052 hoist=483.7452
-  point fly=1707.6052 hoist=495.4116
-  point fly=1766.2704 hoist=495.4116
-  point fly=1766.2704 hoist=483.7452
-  point fly=1777.9368 hoist=483.7452
-  point fly=1777.9368 hoist=495.4116
-  point fly=1801.6028 hoist=495.4116
-  point fly=1801.6028 hoist=424.7467
-  point fly=1789.9365 hoist=424.7467
-  point fly=1789.9365 hoist=436.7464
-  point fly=1777.9368 hoist=436.7464
-  point fly=1777.9368 hoist=448.4128
-  point fly=1766.2704 hoist=448.4128
-  point fly=1766.2704 hoist=460.0791
-  point fly=1754.604 hoist=460.0791
-  point fly=1754.604 hoist=471.7455
-  point fly=1742.9376 hoist=471.7455
-  point fly=1742.9376 hoist=483.7452
-  point fly=1730.9379 hoist=483.7452
-  point fly=1730.9379 hoist=471.7455
-  point fly=1719.2716 hoist=471.7455
-  point fly=1719.2716 hoist=460.0791
-  point fly=1730.9379 hoist=460.0791
-  point fly=1730.9379 hoist=448.4128
-  point fly=1742.9376 hoist=448.4128
-  point fly=1742.9376 hoist=436.7464
-  point fly=1754.604 hoist=436.7464
-  point fly=1754.604 hoist=424.7467
-  point fly=1719.2716 hoist=424.7467
-  point fly=1719.2716 hoist=436.7464
-  point fly=1707.6052 hoist=436.7464
-  point fly=1707.6052 hoist=448.4128
-  point fly=1695.6055 hoist=448.4128
-  point fly=1695.6055 hoist=436.7464
-  point fly=1683.9391 hoist=436.7464
-  point fly=1683.9391 hoist=424.7467
-  point fly=1648.6067 hoist=424.7467
-  point fly=1648.6067 hoist=436.7464
-  point fly=1660.6064 hoist=436.7464
-  point fly=1660.6064 hoist=448.4128
-  point fly=1672.2727 hoist=448.4128
-  point fly=1672.2727 hoist=460.0791
-  point fly=1683.9391 hoist=460.0791
-  point fly=1683.9391 hoist=471.7455
-  point fly=1672.2727 hoist=471.7455
-  point fly=1672.2727 hoist=483.7452
-  point fly=1660.6064 hoist=483.7452
-  point fly=1660.6064 hoist=471.7455
-  point fly=1648.6067 hoist=471.7455
-  point fly=1648.6067 hoist=460.0791
-  point fly=1636.9403 hoist=460.0791
-  point fly=1636.9403 hoist=448.4128
-  point fly=1625.2739 hoist=448.4128
-  point fly=1625.2739 hoist=436.7464
-  point fly=1613.2742 hoist=436.7464
-  point fly=1613.2742 hoist=424.7467
-  point fly=1601.6078 hoist=424.7467
-  point fly=1601.6078 hoist=495.4116
-  point fly=1625.2739 hoist=495.4116
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1512.7767 hoist=406.9138
-  at fly=1571.4419 hoist=489.5784
-  at fly=1488.7773 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1571.1086 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1559.4422 hoist=406.9138
-}
-
-charge polygon pink {
-  point fly=1518.6099 hoist=471.7455
-  point fly=1530.2763 hoist=471.7455
-  point fly=1530.2763 hoist=483.7452
-  point fly=1542.276 hoist=483.7452
-  point fly=1542.276 hoist=471.7455
-  point fly=1553.9424 hoist=471.7455
-  point fly=1553.9424 hoist=460.0791
-  point fly=1565.6087 hoist=460.0791
-  point fly=1565.6087 hoist=448.4128
-  point fly=1577.2751 hoist=448.4128
-  point fly=1577.2751 hoist=436.7464
-  point fly=1589.2748 hoist=436.7464
-  point fly=1589.2748 hoist=424.7467
-  point fly=1553.9424 hoist=424.7467
-  point fly=1553.9424 hoist=436.7464
-  point fly=1542.276 hoist=436.7464
-  point fly=1542.276 hoist=448.4128
-  point fly=1530.2763 hoist=448.4128
-  point fly=1530.2763 hoist=460.0791
-  point fly=1518.6099 hoist=460.0791
-}
-
-charge polygon pink {
-  point fly=1494.6105 hoist=449.0794
-  point fly=1506.6102 hoist=449.0794
-  point fly=1506.6102 hoist=437.413
-  point fly=1518.2766 hoist=437.413
-  point fly=1518.2766 hoist=425.4133
-  point fly=1482.9441 hoist=425.4133
-  point fly=1482.9441 hoist=437.413
-  point fly=1494.6105 hoist=437.413
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=512.8017 hoist=231.0848
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=700.6303 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=666.1312 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=700.6303 hoist=489.5784
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=642.1318 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=736.6295 hoist=406.9138
-}
-
-charge polygon pink {
-  point fly=694.6305 hoist=449.0794
-  point fly=706.6302 hoist=449.0794
-  point fly=706.6302 hoist=437.413
-  point fly=718.2966 hoist=437.413
-  point fly=718.2966 hoist=425.4133
-  point fly=682.9641 hoist=425.4133
-  point fly=682.9641 hoist=437.413
-  point fly=694.6305 hoist=437.413
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=619.2991 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=759.4622 hoist=406.9138
-  at fly=688.7973 hoist=406.9138
-  at fly=712.7967 hoist=406.9138
-}
-
-charge polygon pink {
-  point fly=577.3001 hoist=213.0853
-  point fly=565.6337 hoist=213.0853
-  point fly=565.6337 hoist=224.7517
-  point fly=553.9674 hoist=224.7517
-  point fly=553.9674 hoist=236.7514
-  point fly=542.301 hoist=236.7514
-  point fly=542.301 hoist=248.4178
-  point fly=530.3013 hoist=248.4178
-  point fly=530.3013 hoist=260.0841
-  point fly=518.6349 hoist=260.0841
-  point fly=518.6349 hoist=271.7505
-  point fly=530.3013 hoist=271.7505
-  point fly=530.3013 hoist=283.7502
-  point fly=542.301 hoist=283.7502
-  point fly=542.301 hoist=271.7505
-  point fly=553.9674 hoist=271.7505
-  point fly=553.9674 hoist=260.0841
-  point fly=565.6337 hoist=260.0841
-  point fly=565.6337 hoist=248.4178
-  point fly=577.3001 hoist=248.4178
-}
-
-charge polygon pink {
-  point fly=577.3001 hoist=283.7502
-  point fly=565.6337 hoist=283.7502
-  point fly=565.6337 hoist=295.4166
-  point fly=553.9674 hoist=295.4166
-  point fly=553.9674 hoist=307.083
-  point fly=565.6337 hoist=307.083
-  point fly=565.6337 hoist=319.0827
-  point fly=577.3001 hoist=319.0827
-}
-
-charge polygon pink {
-  point fly=577.3001 hoist=389.0809
-  point fly=577.3001 hoist=354.0818
-  point fly=565.6337 hoist=354.0818
-  point fly=565.6337 hoist=342.0821
-  point fly=553.9674 hoist=342.0821
-  point fly=553.9674 hoist=330.4157
-  point fly=542.301 hoist=330.4157
-  point fly=542.301 hoist=318.7493
-  point fly=530.3013 hoist=318.7493
-  point fly=530.3013 hoist=330.4157
-  point fly=518.6349 hoist=330.4157
-  point fly=518.6349 hoist=342.0821
-  point fly=530.3013 hoist=342.0821
-  point fly=530.3013 hoist=354.0818
-  point fly=542.301 hoist=354.0818
-  point fly=542.301 hoist=365.7481
-  point fly=553.9674 hoist=365.7481
-  point fly=553.9674 hoist=377.4145
-  point fly=565.6337 hoist=377.4145
-  point fly=565.6337 hoist=389.0809
-}
-
-charge polygon pink {
-  point fly=625.2989 hoist=449.0794
-  point fly=636.9653 hoist=449.0794
-  point fly=636.9653 hoist=460.7458
-  point fly=648.6317 hoist=460.7458
-  point fly=648.6317 hoist=472.4122
-  point fly=660.6314 hoist=472.4122
-  point fly=660.6314 hoist=484.4119
-  point fly=672.2977 hoist=484.4119
-  point fly=672.2977 hoist=472.4122
-  point fly=683.9641 hoist=472.4122
-  point fly=683.9641 hoist=460.7458
-  point fly=672.2977 hoist=460.7458
-  point fly=672.2977 hoist=449.0794
-  point fly=660.6314 hoist=449.0794
-  point fly=660.6314 hoist=437.413
-  point fly=648.6317 hoist=437.413
-  point fly=648.6317 hoist=425.4133
-  point fly=613.2992 hoist=425.4133
-  point fly=613.2992 hoist=437.413
-  point fly=625.2989 hoist=437.413
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=512.8017 hoist=301.5831
-  at fly=630.1321 hoist=489.5784
-}
-
-charge polygon pink {
-  point fly=577.3001 hoist=189.0859
-  point fly=565.6337 hoist=189.0859
-  point fly=565.6337 hoist=177.4195
-  point fly=553.9674 hoist=177.4195
-  point fly=553.9674 hoist=165.7532
-  point fly=542.301 hoist=165.7532
-  point fly=542.301 hoist=154.0868
-  point fly=530.3013 hoist=154.0868
-  point fly=530.3013 hoist=142.0871
-  point fly=518.6349 hoist=142.0871
-  point fly=518.6349 hoist=130.4207
-  point fly=530.3013 hoist=130.4207
-  point fly=530.3013 hoist=118.7543
-  point fly=542.301 hoist=118.7543
-  point fly=542.301 hoist=130.4207
-  point fly=553.9674 hoist=130.4207
-  point fly=553.9674 hoist=142.0871
-  point fly=565.6337 hoist=142.0871
-  point fly=565.6337 hoist=154.0868
-  point fly=577.3001 hoist=154.0868
-  point fly=577.3001 hoist=118.7543
-  point fly=565.6337 hoist=118.7543
-  point fly=565.6337 hoist=106.7546
-  point fly=553.9674 hoist=106.7546
-  point fly=553.9674 hoist=95.0883
-  point fly=565.6337 hoist=95.0883
-  point fly=565.6337 hoist=83.4219
-  point fly=577.3001 hoist=83.4219
-  point fly=577.3001 hoist=48.0894
-  point fly=565.6337 hoist=48.0894
-  point fly=565.6337 hoist=59.7558
-  point fly=553.9674 hoist=59.7558
-  point fly=553.9674 hoist=71.4222
-  point fly=542.301 hoist=71.4222
-  point fly=542.301 hoist=83.4219
-  point fly=530.3013 hoist=83.4219
-  point fly=530.3013 hoist=71.4222
-  point fly=518.6349 hoist=71.4222
-  point fly=518.6349 hoist=59.7558
-  point fly=530.3013 hoist=59.7558
-  point fly=530.3013 hoist=48.0894
-  point fly=542.301 hoist=48.0894
-  point fly=542.301 hoist=36.4231
-  point fly=553.9674 hoist=36.4231
-  point fly=553.9674 hoist=24.4234
-  point fly=565.6337 hoist=24.4234
-  point fly=565.6337 hoist=12.757
-  point fly=577.3001 hoist=12.757
-  point fly=577.3001 hoist=1.0906
-  point fly=506.9685 hoist=1.0906
-  point fly=506.9685 hoist=24.4234
-  point fly=518.6349 hoist=24.4234
-  point fly=518.6349 hoist=36.4231
-  point fly=506.9685 hoist=36.4231
-  point fly=506.9685 hoist=95.0883
-  point fly=518.6349 hoist=95.0883
-  point fly=518.6349 hoist=106.7546
-  point fly=506.9685 hoist=106.7546
-  point fly=506.9685 hoist=165.7532
-  point fly=518.6349 hoist=165.7532
-  point fly=518.6349 hoist=177.4195
-  point fly=506.9685 hoist=177.4195
-  point fly=506.9685 hoist=201.0856
-  point fly=577.3001 hoist=201.0856
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1088.7873 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=631.1321 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1030.1221 hoist=489.5784
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1019.289 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1042.1218 hoist=406.9138
-}
-
-charge polygon pink {
-  point fly=1025.2889 hoist=449.0794
-  point fly=1036.9553 hoist=449.0794
-  point fly=1036.9553 hoist=460.7458
-  point fly=1048.6217 hoist=460.7458
-  point fly=1048.6217 hoist=472.4122
-  point fly=1060.6214 hoist=472.4122
-  point fly=1060.6214 hoist=484.4119
-  point fly=1072.2877 hoist=484.4119
-  point fly=1072.2877 hoist=472.4122
-  point fly=1083.9541 hoist=472.4122
-  point fly=1083.9541 hoist=460.7458
-  point fly=1072.2877 hoist=460.7458
-  point fly=1072.2877 hoist=449.0794
-  point fly=1060.6214 hoist=449.0794
-  point fly=1060.6214 hoist=437.413
-  point fly=1048.6217 hoist=437.413
-  point fly=1048.6217 hoist=425.4133
-  point fly=1013.2892 hoist=425.4133
-  point fly=1013.2892 hoist=437.413
-  point fly=1025.2889 hoist=437.413
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1066.1212 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1100.6204 hoist=513.7445
-}
-
-charge polygon pink {
-  point fly=1094.6205 hoist=449.0794
-  point fly=1106.6202 hoist=449.0794
-  point fly=1106.6202 hoist=437.413
-  point fly=1118.2866 hoist=437.413
-  point fly=1118.2866 hoist=425.4133
-  point fly=1082.9541 hoist=425.4133
-  point fly=1082.9541 hoist=437.413
-  point fly=1094.6205 hoist=437.413
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1100.6204 hoist=489.5784
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=830.1271 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=900.6254 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=878.1259 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=853.9598 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=807.461 hoist=406.9138
-  at fly=948.7908 hoist=406.9138
-  at fly=924.7914 hoist=406.9138
-  at fly=971.4569 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1031.1221 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1607.441 hoist=406.9138
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=948.4575 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=995.123 hoist=407.2471
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1019.289 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1065.7879 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=977.2901 hoist=519.7443
-  point fly=965.6237 hoist=519.7443
-  point fly=965.6237 hoist=507.7446
-  point fly=906.9585 hoist=507.7446
-  point fly=906.9585 hoist=519.7443
-  point fly=894.9588 hoist=519.7443
-  point fly=894.9588 hoist=507.7446
-  point fly=836.2936 hoist=507.7446
-  point fly=836.2936 hoist=519.7443
-  point fly=824.6273 hoist=519.7443
-  point fly=824.6273 hoist=507.7446
-  point fly=800.9612 hoist=507.7446
-  point fly=800.9612 hoist=578.4095
-  point fly=812.6276 hoist=578.4095
-  point fly=812.6276 hoist=566.7431
-  point fly=824.6273 hoist=566.7431
-  point fly=824.6273 hoist=555.0768
-  point fly=836.2936 hoist=555.0768
-  point fly=836.2936 hoist=543.077
-  point fly=847.96 hoist=543.077
-  point fly=847.96 hoist=531.4107
-  point fly=859.9597 hoist=531.4107
-  point fly=859.9597 hoist=519.7443
-  point fly=871.6261 hoist=519.7443
-  point fly=871.6261 hoist=531.4107
-  point fly=883.2925 hoist=531.4107
-  point fly=883.2925 hoist=543.077
-  point fly=871.6261 hoist=543.077
-  point fly=871.6261 hoist=555.0768
-  point fly=859.9597 hoist=555.0768
-  point fly=859.9597 hoist=566.7431
-  point fly=847.96 hoist=566.7431
-  point fly=847.96 hoist=578.4095
-  point fly=883.2925 hoist=578.4095
-  point fly=883.2925 hoist=566.7431
-  point fly=894.9588 hoist=566.7431
-  point fly=894.9588 hoist=555.0768
-  point fly=906.9585 hoist=555.0768
-  point fly=906.9585 hoist=566.7431
-  point fly=918.6249 hoist=566.7431
-  point fly=918.6249 hoist=578.4095
-  point fly=953.9574 hoist=578.4095
-  point fly=953.9574 hoist=566.7431
-  point fly=942.291 hoist=566.7431
-  point fly=942.291 hoist=555.0768
-  point fly=930.2913 hoist=555.0768
-  point fly=930.2913 hoist=543.077
-  point fly=918.6249 hoist=543.077
-  point fly=918.6249 hoist=531.4107
-  point fly=930.2913 hoist=531.4107
-  point fly=930.2913 hoist=519.7443
-  point fly=942.291 hoist=519.7443
-  point fly=942.291 hoist=531.4107
-  point fly=953.9574 hoist=531.4107
-  point fly=953.9574 hoist=543.077
-  point fly=965.6237 hoist=543.077
-  point fly=965.6237 hoist=555.0768
-  point fly=977.2901 hoist=555.0768
-  point fly=977.2901 hoist=566.7431
-  point fly=989.2898 hoist=566.7431
-  point fly=989.2898 hoist=578.4095
-  point fly=1000.9562 hoist=578.4095
-  point fly=1000.9562 hoist=507.7446
-  point fly=977.2901 hoist=507.7446
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=971.1236 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=989.2898 hoist=437.0797
-  point fly=977.2901 hoist=437.0797
-  point fly=977.2901 hoist=448.7461
-  point fly=965.6237 hoist=448.7461
-  point fly=965.6237 hoist=460.4125
-  point fly=953.9574 hoist=460.4125
-  point fly=953.9574 hoist=472.0788
-  point fly=942.291 hoist=472.0788
-  point fly=942.291 hoist=484.0785
-  point fly=930.2913 hoist=484.0785
-  point fly=930.2913 hoist=472.0788
-  point fly=918.6249 hoist=472.0788
-  point fly=918.6249 hoist=460.4125
-  point fly=930.2913 hoist=460.4125
-  point fly=930.2913 hoist=448.7461
-  point fly=942.291 hoist=448.7461
-  point fly=942.291 hoist=437.0797
-  point fly=953.9574 hoist=437.0797
-  point fly=953.9574 hoist=425.08
-  point fly=918.6249 hoist=425.08
-  point fly=918.6249 hoist=437.0797
-  point fly=906.9585 hoist=437.0797
-  point fly=906.9585 hoist=448.7461
-  point fly=894.9588 hoist=448.7461
-  point fly=894.9588 hoist=437.0797
-  point fly=883.2925 hoist=437.0797
-  point fly=883.2925 hoist=425.08
-  point fly=847.96 hoist=425.08
-  point fly=847.96 hoist=437.0797
-  point fly=859.9597 hoist=437.0797
-  point fly=859.9597 hoist=448.7461
-  point fly=871.6261 hoist=448.7461
-  point fly=871.6261 hoist=460.4125
-  point fly=883.2925 hoist=460.4125
-  point fly=883.2925 hoist=472.0788
-  point fly=871.6261 hoist=472.0788
-  point fly=871.6261 hoist=484.0785
-  point fly=859.9597 hoist=484.0785
-  point fly=859.9597 hoist=472.0788
-  point fly=847.96 hoist=472.0788
-  point fly=847.96 hoist=460.4125
-  point fly=836.2936 hoist=460.4125
-  point fly=836.2936 hoist=448.7461
-  point fly=824.6273 hoist=448.7461
-  point fly=824.6273 hoist=437.0797
-  point fly=812.6276 hoist=437.0797
-  point fly=812.6276 hoist=425.08
-  point fly=800.9612 hoist=425.08
-  point fly=800.9612 hoist=495.7449
-  point fly=824.6273 hoist=495.7449
-  point fly=824.6273 hoist=484.0785
-  point fly=836.2936 hoist=484.0785
-  point fly=836.2936 hoist=495.7449
-  point fly=894.9588 hoist=495.7449
-  point fly=894.9588 hoist=484.0785
-  point fly=906.9585 hoist=484.0785
-  point fly=906.9585 hoist=495.7449
-  point fly=965.6237 hoist=495.7449
-  point fly=965.6237 hoist=484.0785
-  point fly=977.2901 hoist=484.0785
-  point fly=977.2901 hoist=495.7449
-  point fly=1000.9562 hoist=495.7449
-  point fly=1000.9562 hoist=425.08
-  point fly=989.2898 hoist=425.08
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=995.123 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=1083.9541 hoist=530.4107
-  point fly=1072.2877 hoist=530.4107
-  point fly=1072.2877 hoist=518.7443
-  point fly=1060.6214 hoist=518.7443
-  point fly=1060.6214 hoist=530.4107
-  point fly=1048.6217 hoist=530.4107
-  point fly=1048.6217 hoist=542.0771
-  point fly=1036.9553 hoist=542.0771
-  point fly=1036.9553 hoist=554.0768
-  point fly=1025.2889 hoist=554.0768
-  point fly=1025.2889 hoist=565.7432
-  point fly=1013.2892 hoist=565.7432
-  point fly=1013.2892 hoist=577.4095
-  point fly=1048.6217 hoist=577.4095
-  point fly=1048.6217 hoist=565.7432
-  point fly=1060.6214 hoist=565.7432
-  point fly=1060.6214 hoist=554.0768
-  point fly=1072.2877 hoist=554.0768
-  point fly=1072.2877 hoist=542.0771
-  point fly=1083.9541 hoist=542.0771
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1041.7885 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1183.285 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1089.7873 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=1177.2851 hoist=554.4101
-  point fly=1165.6187 hoist=554.4101
-  point fly=1165.6187 hoist=542.4104
-  point fly=1153.9523 hoist=542.4104
-  point fly=1153.9523 hoist=530.744
-  point fly=1142.286 hoist=530.744
-  point fly=1142.286 hoist=519.0776
-  point fly=1130.2863 hoist=519.0776
-  point fly=1130.2863 hoist=530.744
-  point fly=1118.6199 hoist=530.744
-  point fly=1118.6199 hoist=542.4104
-  point fly=1130.2863 hoist=542.4104
-  point fly=1130.2863 hoist=554.4101
-  point fly=1142.286 hoist=554.4101
-  point fly=1142.286 hoist=566.0765
-  point fly=1153.9523 hoist=566.0765
-  point fly=1153.9523 hoist=577.7429
-  point fly=1189.2848 hoist=577.7429
-  point fly=1189.2848 hoist=566.0765
-  point fly=1177.2851 hoist=566.0765
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1171.1186 hoist=513.7445
-  at fly=1160.4522 hoist=595.0758
-  at fly=1112.4534 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1136.6195 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=1106.6202 hoist=554.4101
-  point fly=1094.6205 hoist=554.4101
-  point fly=1094.6205 hoist=566.0765
-  point fly=1082.9541 hoist=566.0765
-  point fly=1082.9541 hoist=577.7429
-  point fly=1118.2866 hoist=577.7429
-  point fly=1118.2866 hoist=566.0765
-  point fly=1106.6202 hoist=566.0765
-}
-
-charge polygon pink {
-  point fly=706.6302 hoist=554.4101
-  point fly=694.6305 hoist=554.4101
-  point fly=694.6305 hoist=566.0765
-  point fly=682.9641 hoist=566.0765
-  point fly=682.9641 hoist=577.7429
-  point fly=718.2966 hoist=577.7429
-  point fly=718.2966 hoist=566.0765
-  point fly=706.6302 hoist=566.0765
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=924.4581 hoist=595.0758
-  at fly=760.4622 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=777.2951 hoist=554.4101
-  point fly=765.6287 hoist=554.4101
-  point fly=765.6287 hoist=542.4104
-  point fly=753.9624 hoist=542.4104
-  point fly=753.9624 hoist=530.744
-  point fly=742.296 hoist=530.744
-  point fly=742.296 hoist=519.0776
-  point fly=730.2963 hoist=519.0776
-  point fly=730.2963 hoist=530.744
-  point fly=718.6299 hoist=530.744
-  point fly=718.6299 hoist=542.4104
-  point fly=730.2963 hoist=542.4104
-  point fly=730.2963 hoist=554.4101
-  point fly=742.296 hoist=554.4101
-  point fly=742.296 hoist=566.0765
-  point fly=753.9624 hoist=566.0765
-  point fly=753.9624 hoist=577.7429
-  point fly=789.2948 hoist=577.7429
-  point fly=789.2948 hoist=566.0765
-  point fly=777.2951 hoist=566.0765
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=736.6295 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1171.4519 hoist=489.5784
-}
-
-charge polygon pink {
-  point fly=683.9641 hoist=530.4107
-  point fly=672.2977 hoist=530.4107
-  point fly=672.2977 hoist=518.7443
-  point fly=660.6314 hoist=518.7443
-  point fly=660.6314 hoist=530.4107
-  point fly=648.6317 hoist=530.4107
-  point fly=648.6317 hoist=542.0771
-  point fly=636.9653 hoist=542.0771
-  point fly=636.9653 hoist=554.0768
-  point fly=625.2989 hoist=554.0768
-  point fly=625.2989 hoist=565.7432
-  point fly=613.2992 hoist=565.7432
-  point fly=613.2992 hoist=577.4095
-  point fly=648.6317 hoist=577.4095
-  point fly=648.6317 hoist=565.7432
-  point fly=660.6314 hoist=565.7432
-  point fly=660.6314 hoist=554.0768
-  point fly=672.2977 hoist=554.0768
-  point fly=672.2977 hoist=542.0771
-  point fly=683.9641 hoist=542.0771
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=689.7973 hoist=595.0758
-  at fly=712.4634 hoist=595.0758
-  at fly=771.1286 hoist=513.7445
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=783.295 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=831.1271 hoist=595.0758
-  at fly=877.7926 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=853.9598 hoist=595.0758
-  at fly=900.6254 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=771.4619 hoist=489.5784
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=807.1277 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=754.629 hoist=437.0797
-  point fly=742.9626 hoist=437.0797
-  point fly=742.9626 hoist=448.7461
-  point fly=730.9629 hoist=448.7461
-  point fly=730.9629 hoist=460.4125
-  point fly=719.2965 hoist=460.4125
-  point fly=719.2965 hoist=472.0788
-  point fly=730.9629 hoist=472.0788
-  point fly=730.9629 hoist=484.0785
-  point fly=742.9626 hoist=484.0785
-  point fly=742.9626 hoist=472.0788
-  point fly=754.629 hoist=472.0788
-  point fly=754.629 hoist=460.4125
-  point fly=766.2954 hoist=460.4125
-  point fly=766.2954 hoist=448.7461
-  point fly=777.9618 hoist=448.7461
-  point fly=777.9618 hoist=437.0797
-  point fly=789.9615 hoist=437.0797
-  point fly=789.9615 hoist=425.08
-  point fly=754.629 hoist=425.08
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.1377 hoist=972.5663
-}
-
-charge polygon pink {
-  point fly=1471.9444 hoist=542.4104
-  point fly=1483.6108 hoist=542.4104
-  point fly=1483.6108 hoist=530.744
-  point fly=1471.9444 hoist=530.744
-  point fly=1471.9444 hoist=519.0776
-  point fly=1460.278 hoist=519.0776
-  point fly=1460.278 hoist=530.744
-  point fly=1448.2783 hoist=530.744
-  point fly=1448.2783 hoist=542.4104
-  point fly=1436.612 hoist=542.4104
-  point fly=1436.612 hoist=554.4101
-  point fly=1424.9456 hoist=554.4101
-  point fly=1424.9456 hoist=566.0765
-  point fly=1412.9459 hoist=566.0765
-  point fly=1412.9459 hoist=577.7429
-  point fly=1448.2783 hoist=577.7429
-  point fly=1448.2783 hoist=566.0765
-  point fly=1460.278 hoist=566.0765
-  point fly=1460.278 hoist=554.4101
-  point fly=1471.9444 hoist=554.4101
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1583.275 hoist=407.2471
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1583.275 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1607.1077 hoist=595.0758
-  at fly=1560.4422 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1536.6095 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1631.1071 hoist=595.0758
-  at fly=1512.4434 hoist=595.0758
-  at fly=1489.7773 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=1518.6099 hoist=566.4098
-  point fly=1506.9435 hoist=566.4098
-  point fly=1506.9435 hoist=554.7434
-  point fly=1494.9438 hoist=554.7434
-  point fly=1494.9438 hoist=566.4098
-  point fly=1483.2775 hoist=566.4098
-  point fly=1483.2775 hoist=578.0762
-  point fly=1518.6099 hoist=578.0762
-}
-
-charge polygon pink {
-  point fly=1542.6093 hoist=554.4101
-  point fly=1542.6093 hoist=566.0765
-  point fly=1554.2757 hoist=566.0765
-  point fly=1554.2757 hoist=577.7429
-  point fly=1589.6081 hoist=577.7429
-  point fly=1589.6081 hoist=566.0765
-  point fly=1577.6084 hoist=566.0765
-  point fly=1577.6084 hoist=554.4101
-  point fly=1565.9421 hoist=554.4101
-  point fly=1565.9421 hoist=542.4104
-  point fly=1554.2757 hoist=542.4104
-  point fly=1554.2757 hoist=530.744
-  point fly=1542.6093 hoist=530.744
-  point fly=1542.6093 hoist=519.0776
-  point fly=1530.6096 hoist=519.0776
-  point fly=1530.6096 hoist=530.744
-  point fly=1518.9432 hoist=530.744
-  point fly=1518.9432 hoist=542.4104
-  point fly=1530.6096 hoist=542.4104
-  point fly=1530.6096 hoist=554.4101
-}
-
-charge polygon pink {
-  point fly=1777.2701 hoist=554.4101
-  point fly=1777.2701 hoist=566.0765
-  point fly=1789.2698 hoist=566.0765
-  point fly=1789.2698 hoist=577.7429
-  point fly=1800.9362 hoist=577.7429
-  point fly=1800.9362 hoist=507.0779
-  point fly=1777.2701 hoist=507.0779
-  point fly=1777.2701 hoist=519.0776
-  point fly=1765.6037 hoist=519.0776
-  point fly=1765.6037 hoist=507.0779
-  point fly=1706.9385 hoist=507.0779
-  point fly=1706.9385 hoist=519.0776
-  point fly=1694.9388 hoist=519.0776
-  point fly=1694.9388 hoist=507.0779
-  point fly=1636.2736 hoist=507.0779
-  point fly=1636.2736 hoist=519.0776
-  point fly=1624.6073 hoist=519.0776
-  point fly=1624.6073 hoist=507.0779
-  point fly=1600.9412 hoist=507.0779
-  point fly=1600.9412 hoist=577.7429
-  point fly=1612.6076 hoist=577.7429
-  point fly=1612.6076 hoist=566.0765
-  point fly=1624.6073 hoist=566.0765
-  point fly=1624.6073 hoist=554.4101
-  point fly=1636.2736 hoist=554.4101
-  point fly=1636.2736 hoist=542.4104
-  point fly=1647.94 hoist=542.4104
-  point fly=1647.94 hoist=530.744
-  point fly=1659.9397 hoist=530.744
-  point fly=1659.9397 hoist=519.0776
-  point fly=1671.6061 hoist=519.0776
-  point fly=1671.6061 hoist=530.744
-  point fly=1683.2725 hoist=530.744
-  point fly=1683.2725 hoist=542.4104
-  point fly=1671.6061 hoist=542.4104
-  point fly=1671.6061 hoist=554.4101
-  point fly=1659.9397 hoist=554.4101
-  point fly=1659.9397 hoist=566.0765
-  point fly=1647.94 hoist=566.0765
-  point fly=1647.94 hoist=577.7429
-  point fly=1683.2725 hoist=577.7429
-  point fly=1683.2725 hoist=566.0765
-  point fly=1694.9388 hoist=566.0765
-  point fly=1694.9388 hoist=554.4101
-  point fly=1706.9385 hoist=554.4101
-  point fly=1706.9385 hoist=566.0765
-  point fly=1718.6049 hoist=566.0765
-  point fly=1718.6049 hoist=577.7429
-  point fly=1753.9374 hoist=577.7429
-  point fly=1753.9374 hoist=566.0765
-  point fly=1742.271 hoist=566.0765
-  point fly=1742.271 hoist=554.4101
-  point fly=1730.2713 hoist=554.4101
-  point fly=1730.2713 hoist=542.4104
-  point fly=1718.6049 hoist=542.4104
-  point fly=1718.6049 hoist=530.744
-  point fly=1730.2713 hoist=530.744
-  point fly=1730.2713 hoist=519.0776
-  point fly=1742.271 hoist=519.0776
-  point fly=1742.271 hoist=530.744
-  point fly=1753.9374 hoist=530.744
-  point fly=1753.9374 hoist=542.4104
-  point fly=1765.6037 hoist=542.4104
-  point fly=1765.6037 hoist=554.4101
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1771.1036 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1653.9399 hoist=595.0758
-}
-
-charge rect pink {
-  fly 10.3969
-  hoist 11.9997
-  at fly=1794.8016 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1748.4375 hoist=595.0758
-  at fly=1677.7726 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1700.6054 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1724.4381 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1183.285 hoist=407.2471
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1348.4475 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1253.9499 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1277.7826 hoist=595.0758
-  at fly=1324.4481 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1300.6154 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=1154.619 hoist=437.0797
-  point fly=1142.9526 hoist=437.0797
-  point fly=1142.9526 hoist=448.7461
-  point fly=1130.9529 hoist=448.7461
-  point fly=1130.9529 hoist=460.4125
-  point fly=1119.2866 hoist=460.4125
-  point fly=1119.2866 hoist=472.0788
-  point fly=1130.9529 hoist=472.0788
-  point fly=1130.9529 hoist=484.0785
-  point fly=1142.9526 hoist=484.0785
-  point fly=1142.9526 hoist=472.0788
-  point fly=1154.619 hoist=472.0788
-  point fly=1154.619 hoist=460.4125
-  point fly=1166.2854 hoist=460.4125
-  point fly=1166.2854 hoist=448.7461
-  point fly=1177.9518 hoist=448.7461
-  point fly=1177.9518 hoist=437.0797
-  point fly=1189.9515 hoist=437.0797
-  point fly=1189.9515 hoist=425.08
-  point fly=1154.619 hoist=425.08
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1207.1177 hoist=595.0758
-  at fly=1231.1171 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=1389.2798 hoist=437.0797
-  point fly=1377.2801 hoist=437.0797
-  point fly=1377.2801 hoist=448.7461
-  point fly=1365.6137 hoist=448.7461
-  point fly=1365.6137 hoist=460.4125
-  point fly=1353.9474 hoist=460.4125
-  point fly=1353.9474 hoist=472.0788
-  point fly=1342.281 hoist=472.0788
-  point fly=1342.281 hoist=484.0785
-  point fly=1330.2813 hoist=484.0785
-  point fly=1330.2813 hoist=472.0788
-  point fly=1318.6149 hoist=472.0788
-  point fly=1318.6149 hoist=460.4125
-  point fly=1330.2813 hoist=460.4125
-  point fly=1330.2813 hoist=448.7461
-  point fly=1342.281 hoist=448.7461
-  point fly=1342.281 hoist=437.0797
-  point fly=1353.9474 hoist=437.0797
-  point fly=1353.9474 hoist=425.08
-  point fly=1318.6149 hoist=425.08
-  point fly=1318.6149 hoist=437.0797
-  point fly=1306.9485 hoist=437.0797
-  point fly=1306.9485 hoist=448.7461
-  point fly=1294.9488 hoist=448.7461
-  point fly=1294.9488 hoist=437.0797
-  point fly=1283.2825 hoist=437.0797
-  point fly=1283.2825 hoist=425.08
-  point fly=1247.95 hoist=425.08
-  point fly=1247.95 hoist=437.0797
-  point fly=1259.9497 hoist=437.0797
-  point fly=1259.9497 hoist=448.7461
-  point fly=1271.6161 hoist=448.7461
-  point fly=1271.6161 hoist=460.4125
-  point fly=1283.2825 hoist=460.4125
-  point fly=1283.2825 hoist=472.0788
-  point fly=1271.6161 hoist=472.0788
-  point fly=1271.6161 hoist=484.0785
-  point fly=1259.9497 hoist=484.0785
-  point fly=1259.9497 hoist=472.0788
-  point fly=1247.95 hoist=472.0788
-  point fly=1247.95 hoist=460.4125
-  point fly=1236.2836 hoist=460.4125
-  point fly=1236.2836 hoist=448.7461
-  point fly=1224.6173 hoist=448.7461
-  point fly=1224.6173 hoist=437.0797
-  point fly=1212.6176 hoist=437.0797
-  point fly=1212.6176 hoist=425.08
-  point fly=1200.9512 hoist=425.08
-  point fly=1200.9512 hoist=495.7449
-  point fly=1224.6173 hoist=495.7449
-  point fly=1224.6173 hoist=484.0785
-  point fly=1236.2836 hoist=484.0785
-  point fly=1236.2836 hoist=495.7449
-  point fly=1294.9488 hoist=495.7449
-  point fly=1294.9488 hoist=484.0785
-  point fly=1306.9485 hoist=484.0785
-  point fly=1306.9485 hoist=495.7449
-  point fly=1365.6137 hoist=495.7449
-  point fly=1365.6137 hoist=484.0785
-  point fly=1377.2801 hoist=484.0785
-  point fly=1377.2801 hoist=495.7449
-  point fly=1400.9462 hoist=495.7449
-  point fly=1400.9462 hoist=425.08
-  point fly=1389.2798 hoist=425.08
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1371.1136 hoist=595.0758
-  at fly=1441.7785 hoist=595.0758
-  at fly=665.7979 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1395.113 hoist=407.2471
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=1419.2791 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1395.113 hoist=595.0758
-}
-
-charge polygon pink {
-  point fly=1377.2801 hoist=519.7443
-  point fly=1365.6137 hoist=519.7443
-  point fly=1365.6137 hoist=507.7446
-  point fly=1306.9485 hoist=507.7446
-  point fly=1306.9485 hoist=519.7443
-  point fly=1294.9488 hoist=519.7443
-  point fly=1294.9488 hoist=507.7446
-  point fly=1236.2836 hoist=507.7446
-  point fly=1236.2836 hoist=519.7443
-  point fly=1224.6173 hoist=519.7443
-  point fly=1224.6173 hoist=507.7446
-  point fly=1200.9512 hoist=507.7446
-  point fly=1200.9512 hoist=578.4095
-  point fly=1212.6176 hoist=578.4095
-  point fly=1212.6176 hoist=566.7431
-  point fly=1224.6173 hoist=566.7431
-  point fly=1224.6173 hoist=555.0768
-  point fly=1236.2836 hoist=555.0768
-  point fly=1236.2836 hoist=543.077
-  point fly=1247.95 hoist=543.077
-  point fly=1247.95 hoist=531.4107
-  point fly=1259.9497 hoist=531.4107
-  point fly=1259.9497 hoist=519.7443
-  point fly=1271.6161 hoist=519.7443
-  point fly=1271.6161 hoist=531.4107
-  point fly=1283.2825 hoist=531.4107
-  point fly=1283.2825 hoist=543.077
-  point fly=1271.6161 hoist=543.077
-  point fly=1271.6161 hoist=555.0768
-  point fly=1259.9497 hoist=555.0768
-  point fly=1259.9497 hoist=566.7431
-  point fly=1247.95 hoist=566.7431
-  point fly=1247.95 hoist=578.4095
-  point fly=1283.2825 hoist=578.4095
-  point fly=1283.2825 hoist=566.7431
-  point fly=1294.9488 hoist=566.7431
-  point fly=1294.9488 hoist=555.0768
-  point fly=1306.9485 hoist=555.0768
-  point fly=1306.9485 hoist=566.7431
-  point fly=1318.6149 hoist=566.7431
-  point fly=1318.6149 hoist=578.4095
-  point fly=1353.9474 hoist=578.4095
-  point fly=1353.9474 hoist=566.7431
-  point fly=1342.281 hoist=566.7431
-  point fly=1342.281 hoist=555.0768
-  point fly=1330.2813 hoist=555.0768
-  point fly=1330.2813 hoist=543.077
-  point fly=1318.6149 hoist=543.077
-  point fly=1318.6149 hoist=531.4107
-  point fly=1330.2813 hoist=531.4107
-  point fly=1330.2813 hoist=519.7443
-  point fly=1342.281 hoist=519.7443
-  point fly=1342.281 hoist=531.4107
-  point fly=1353.9474 hoist=531.4107
-  point fly=1353.9474 hoist=543.077
-  point fly=1365.6137 hoist=543.077
-  point fly=1365.6137 hoist=555.0768
-  point fly=1377.2801 hoist=555.0768
-  point fly=1377.2801 hoist=566.7431
-  point fly=1389.2798 hoist=566.7431
-  point fly=1389.2798 hoist=578.4095
-  point fly=1400.9462 hoist=578.4095
-  point fly=1400.9462 hoist=507.7446
-  point fly=1377.2801 hoist=507.7446
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=1465.7779 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.6664
-  at fly=783.295 hoist=407.2471
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=489.8023 hoist=631.0749
-}
-
-charge polygon pink {
-  point fly=435.9703 hoist=519.7443
-  point fly=424.3039 hoist=519.7443
-  point fly=424.3039 hoist=507.7446
-  point fly=400.6378 hoist=507.7446
-  point fly=400.6378 hoist=578.4095
-  point fly=412.3042 hoist=578.4095
-  point fly=412.3042 hoist=566.7431
-  point fly=424.3039 hoist=566.7431
-  point fly=424.3039 hoist=555.0768
-  point fly=435.9703 hoist=555.0768
-  point fly=435.9703 hoist=543.077
-  point fly=447.6367 hoist=543.077
-  point fly=447.6367 hoist=531.4107
-  point fly=459.6364 hoist=531.4107
-  point fly=459.6364 hoist=519.7443
-  point fly=471.3028 hoist=519.7443
-  point fly=471.3028 hoist=531.4107
-  point fly=482.9691 hoist=531.4107
-  point fly=482.9691 hoist=543.077
-  point fly=471.3028 hoist=543.077
-  point fly=471.3028 hoist=555.0768
-  point fly=459.6364 hoist=555.0768
-  point fly=459.6364 hoist=566.7431
-  point fly=447.6367 hoist=566.7431
-  point fly=447.6367 hoist=578.4095
-  point fly=435.9703 hoist=578.4095
-  point fly=435.9703 hoist=590.0759
-  point fly=424.3039 hoist=590.0759
-  point fly=424.3039 hoist=602.0756
-  point fly=494.6355 hoist=602.0756
-  point fly=494.6355 hoist=578.4095
-  point fly=482.9691 hoist=578.4095
-  point fly=482.9691 hoist=566.7431
-  point fly=494.6355 hoist=566.7431
-  point fly=494.6355 hoist=507.7446
-  point fly=435.9703 hoist=507.7446
-}
-
-charge polygon pink {
-  point fly=425.3039 hoist=413.0803
-  point fly=436.9703 hoist=413.0803
-  point fly=436.9703 hoist=424.7467
-  point fly=448.6367 hoist=424.7467
-  point fly=448.6367 hoist=436.7464
-  point fly=460.6364 hoist=436.7464
-  point fly=460.6364 hoist=448.4128
-  point fly=472.3027 hoist=448.4128
-  point fly=472.3027 hoist=460.0791
-  point fly=483.9691 hoist=460.0791
-  point fly=483.9691 hoist=471.7455
-  point fly=472.3027 hoist=471.7455
-  point fly=472.3027 hoist=483.7452
-  point fly=460.6364 hoist=483.7452
-  point fly=460.6364 hoist=471.7455
-  point fly=448.6367 hoist=471.7455
-  point fly=448.6367 hoist=460.0791
-  point fly=436.9703 hoist=460.0791
-  point fly=436.9703 hoist=448.4128
-  point fly=425.3039 hoist=448.4128
-  point fly=425.3039 hoist=436.7464
-  point fly=413.3042 hoist=436.7464
-  point fly=413.3042 hoist=424.7467
-  point fly=401.6378 hoist=424.7467
-  point fly=401.6378 hoist=495.4116
-  point fly=425.3039 hoist=495.4116
-  point fly=425.3039 hoist=483.7452
-  point fly=436.9703 hoist=483.7452
-  point fly=436.9703 hoist=495.4116
-  point fly=495.6355 hoist=495.4116
-  point fly=495.6355 hoist=436.7464
-  point fly=483.9691 hoist=436.7464
-  point fly=483.9691 hoist=424.7467
-  point fly=495.6355 hoist=424.7467
-  point fly=495.6355 hoist=401.4139
-  point fly=425.3039 hoist=401.4139
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=489.8023 hoist=372.5813
-}
-
-charge polygon pink {
-  point fly=425.3039 hoist=719.7393
-  point fly=436.9703 hoist=719.7393
-  point fly=436.9703 hoist=707.7396
-  point fly=448.6367 hoist=707.7396
-  point fly=448.6367 hoist=696.0732
-  point fly=436.9703 hoist=696.0732
-  point fly=436.9703 hoist=684.4068
-  point fly=425.3039 hoist=684.4068
-}
-
-charge polygon pink {
-  point fly=425.3039 hoist=789.0709
-  point fly=436.9703 hoist=789.0709
-  point fly=436.9703 hoist=777.4045
-  point fly=448.6367 hoist=777.4045
-  point fly=448.6367 hoist=765.7382
-  point fly=460.6364 hoist=765.7382
-  point fly=460.6364 hoist=754.0718
-  point fly=472.3027 hoist=754.0718
-  point fly=472.3027 hoist=742.0721
-  point fly=483.9691 hoist=742.0721
-  point fly=483.9691 hoist=730.4057
-  point fly=472.3027 hoist=730.4057
-  point fly=472.3027 hoist=718.7393
-  point fly=460.6364 hoist=718.7393
-  point fly=460.6364 hoist=730.4057
-  point fly=448.6367 hoist=730.4057
-  point fly=448.6367 hoist=742.0721
-  point fly=436.9703 hoist=742.0721
-  point fly=436.9703 hoist=754.0718
-  point fly=425.3039 hoist=754.0718
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=489.8023 hoist=701.9064
-  at fly=489.8023 hoist=301.9164
-  at fly=489.8023 hoist=772.5713
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=489.8023 hoist=231.0848
-  at fly=595.133 hoist=948.4002
-}
-
-charge polygon pink {
-  point fly=565.3004 hoist=695.7399
-  point fly=553.634 hoist=695.7399
-  point fly=553.634 hoist=707.4063
-  point fly=565.3004 hoist=707.4063
-  point fly=565.3004 hoist=719.406
-  point fly=576.9668 hoist=719.406
-  point fly=576.9668 hoist=684.0735
-  point fly=565.3004 hoist=684.0735
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 10.9341
-  at fly=595.133 hoist=994.533
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=972.5663
-}
-
-charge polygon pink {
-  point fly=506.6352 hoist=825.07
-  point fly=518.3016 hoist=825.07
-  point fly=518.3016 hoist=837.0697
-  point fly=506.6352 hoist=837.0697
-  point fly=506.6352 hoist=895.7349
-  point fly=518.3016 hoist=895.7349
-  point fly=518.3016 hoist=907.4013
-  point fly=506.6352 hoist=907.4013
-  point fly=506.6352 hoist=966.3998
-  point fly=518.3016 hoist=966.3998
-  point fly=518.3016 hoist=978.0662
-  point fly=506.6352 hoist=978.0662
-  point fly=506.6352 hoist=1001.7323
-  point fly=576.9668 hoist=1001.7323
-  point fly=576.9668 hoist=989.7326
-  point fly=565.3004 hoist=989.7326
-  point fly=565.3004 hoist=978.0662
-  point fly=553.634 hoist=978.0662
-  point fly=553.634 hoist=966.3998
-  point fly=541.9677 hoist=966.3998
-  point fly=541.9677 hoist=954.7334
-  point fly=529.968 hoist=954.7334
-  point fly=529.968 hoist=942.7337
-  point fly=518.3016 hoist=942.7337
-  point fly=518.3016 hoist=931.0674
-  point fly=529.968 hoist=931.0674
-  point fly=529.968 hoist=919.401
-  point fly=541.9677 hoist=919.401
-  point fly=541.9677 hoist=931.0674
-  point fly=553.634 hoist=931.0674
-  point fly=553.634 hoist=942.7337
-  point fly=565.3004 hoist=942.7337
-  point fly=565.3004 hoist=954.7334
-  point fly=576.9668 hoist=954.7334
-  point fly=576.9668 hoist=919.401
-  point fly=565.3004 hoist=919.401
-  point fly=565.3004 hoist=907.4013
-  point fly=553.634 hoist=907.4013
-  point fly=553.634 hoist=895.7349
-  point fly=565.3004 hoist=895.7349
-  point fly=565.3004 hoist=884.0685
-  point fly=576.9668 hoist=884.0685
-  point fly=576.9668 hoist=848.7361
-  point fly=565.3004 hoist=848.7361
-  point fly=565.3004 hoist=860.4025
-  point fly=553.634 hoist=860.4025
-  point fly=553.634 hoist=872.0688
-  point fly=541.9677 hoist=872.0688
-  point fly=541.9677 hoist=884.0685
-  point fly=529.968 hoist=884.0685
-  point fly=529.968 hoist=872.0688
-  point fly=518.3016 hoist=872.0688
-  point fly=518.3016 hoist=860.4025
-  point fly=529.968 hoist=860.4025
-  point fly=529.968 hoist=848.7361
-  point fly=541.9677 hoist=848.7361
-  point fly=541.9677 hoist=837.0697
-  point fly=553.634 hoist=837.0697
-  point fly=553.634 hoist=825.07
-  point fly=565.3004 hoist=825.07
-  point fly=565.3004 hoist=813.4036
-  point fly=576.9668 hoist=813.4036
-  point fly=576.9668 hoist=801.7373
-  point fly=506.6352 hoist=801.7373
-}
-
-charge polygon pink {
-  point fly=425.3039 hoist=13.0903
-  point fly=436.9703 hoist=13.0903
-  point fly=436.9703 hoist=24.7567
-  point fly=448.6367 hoist=24.7567
-  point fly=448.6367 hoist=36.7564
-  point fly=460.6364 hoist=36.7564
-  point fly=460.6364 hoist=48.4228
-  point fly=472.3027 hoist=48.4228
-  point fly=472.3027 hoist=60.0891
-  point fly=483.9691 hoist=60.0891
-  point fly=483.9691 hoist=71.7555
-  point fly=472.3027 hoist=71.7555
-  point fly=472.3027 hoist=83.7552
-  point fly=460.6364 hoist=83.7552
-  point fly=460.6364 hoist=71.7555
-  point fly=448.6367 hoist=71.7555
-  point fly=448.6367 hoist=60.0891
-  point fly=436.9703 hoist=60.0891
-  point fly=436.9703 hoist=48.4228
-  point fly=425.3039 hoist=48.4228
-  point fly=425.3039 hoist=83.7552
-  point fly=436.9703 hoist=83.7552
-  point fly=436.9703 hoist=95.4216
-  point fly=448.6367 hoist=95.4216
-  point fly=448.6367 hoist=107.088
-  point fly=436.9703 hoist=107.088
-  point fly=436.9703 hoist=119.0877
-  point fly=425.3039 hoist=119.0877
-  point fly=425.3039 hoist=154.4201
-  point fly=436.9703 hoist=154.4201
-  point fly=436.9703 hoist=142.4204
-  point fly=448.6367 hoist=142.4204
-  point fly=448.6367 hoist=130.754
-  point fly=460.6364 hoist=130.754
-  point fly=460.6364 hoist=119.0877
-  point fly=472.3027 hoist=119.0877
-  point fly=472.3027 hoist=130.754
-  point fly=483.9691 hoist=130.754
-  point fly=483.9691 hoist=142.4204
-  point fly=472.3027 hoist=142.4204
-  point fly=472.3027 hoist=154.4201
-  point fly=460.6364 hoist=154.4201
-  point fly=460.6364 hoist=166.0865
-  point fly=448.6367 hoist=166.0865
-  point fly=448.6367 hoist=177.7529
-  point fly=436.9703 hoist=177.7529
-  point fly=436.9703 hoist=189.4192
-  point fly=425.3039 hoist=189.4192
-  point fly=425.3039 hoist=201.4189
-  point fly=495.6355 hoist=201.4189
-  point fly=495.6355 hoist=177.7529
-  point fly=483.9691 hoist=177.7529
-  point fly=483.9691 hoist=166.0865
-  point fly=495.6355 hoist=166.0865
-  point fly=495.6355 hoist=107.088
-  point fly=483.9691 hoist=107.088
-  point fly=483.9691 hoist=95.4216
-  point fly=495.6355 hoist=95.4216
-  point fly=495.6355 hoist=36.7564
-  point fly=483.9691 hoist=36.7564
-  point fly=483.9691 hoist=24.7567
-  point fly=495.6355 hoist=24.7567
-  point fly=495.6355 hoist=1.4239
-  point fly=425.3039 hoist=1.4239
-}
-
-charge polygon pink {
-  point fly=425.3039 hoist=613.0753
-  point fly=425.3039 hoist=648.4078
-  point fly=436.9703 hoist=648.4078
-  point fly=436.9703 hoist=660.0741
-  point fly=448.6367 hoist=660.0741
-  point fly=448.6367 hoist=671.7405
-  point fly=460.6364 hoist=671.7405
-  point fly=460.6364 hoist=683.7402
-  point fly=472.3027 hoist=683.7402
-  point fly=472.3027 hoist=671.7405
-  point fly=483.9691 hoist=671.7405
-  point fly=483.9691 hoist=660.0741
-  point fly=472.3027 hoist=660.0741
-  point fly=472.3027 hoist=648.4078
-  point fly=460.6364 hoist=648.4078
-  point fly=460.6364 hoist=636.7414
-  point fly=448.6367 hoist=636.7414
-  point fly=448.6367 hoist=624.7417
-  point fly=436.9703 hoist=624.7417
-  point fly=436.9703 hoist=613.0753
-}
-
-charge polygon pink {
-  point fly=565.3004 hoist=742.4054
-  point fly=553.634 hoist=742.4054
-  point fly=553.634 hoist=730.739
-  point fly=541.9677 hoist=730.739
-  point fly=541.9677 hoist=719.0727
-  point fly=529.968 hoist=719.0727
-  point fly=529.968 hoist=730.739
-  point fly=518.3016 hoist=730.739
-  point fly=518.3016 hoist=742.4054
-  point fly=529.968 hoist=742.4054
-  point fly=529.968 hoist=754.4051
-  point fly=541.9677 hoist=754.4051
-  point fly=541.9677 hoist=766.0715
-  point fly=553.634 hoist=766.0715
-  point fly=553.634 hoist=777.7379
-  point fly=565.3004 hoist=777.7379
-  point fly=565.3004 hoist=789.4042
-  point fly=576.9668 hoist=789.4042
-  point fly=576.9668 hoist=754.4051
-  point fly=565.3004 hoist=754.4051
-}
-
-charge polygon pink {
-  point fly=565.3004 hoist=625.075
-  point fly=553.634 hoist=625.075
-  point fly=553.634 hoist=637.0747
-  point fly=541.9677 hoist=637.0747
-  point fly=541.9677 hoist=648.7411
-  point fly=529.968 hoist=648.7411
-  point fly=529.968 hoist=660.4074
-  point fly=518.3016 hoist=660.4074
-  point fly=518.3016 hoist=672.0738
-  point fly=529.968 hoist=672.0738
-  point fly=529.968 hoist=684.0735
-  point fly=541.9677 hoist=684.0735
-  point fly=541.9677 hoist=672.0738
-  point fly=553.634 hoist=672.0738
-  point fly=553.634 hoist=660.4074
-  point fly=565.3004 hoist=660.4074
-  point fly=565.3004 hoist=648.7411
-  point fly=576.9668 hoist=648.7411
-  point fly=576.9668 hoist=613.4086
-  point fly=565.3004 hoist=613.4086
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=407.1377 hoist=831.0698
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.1377 hoist=853.9026
-  at fly=407.1377 hoist=807.2371
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=407.1377 hoist=877.7354
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.1377 hoist=924.5675
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=407.1377 hoist=948.4002
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.1377 hoist=901.9014
-  at fly=407.1377 hoist=783.2377
-}
-
-charge polygon pink {
-  point fly=425.3039 hoist=813.0703
-  point fly=436.9703 hoist=813.0703
-  point fly=436.9703 hoist=824.7367
-  point fly=448.6367 hoist=824.7367
-  point fly=448.6367 hoist=836.7364
-  point fly=460.6364 hoist=836.7364
-  point fly=460.6364 hoist=848.4028
-  point fly=472.3027 hoist=848.4028
-  point fly=472.3027 hoist=860.0691
-  point fly=483.9691 hoist=860.0691
-  point fly=483.9691 hoist=871.7355
-  point fly=472.3027 hoist=871.7355
-  point fly=472.3027 hoist=883.7352
-  point fly=460.6364 hoist=883.7352
-  point fly=460.6364 hoist=871.7355
-  point fly=448.6367 hoist=871.7355
-  point fly=448.6367 hoist=860.0691
-  point fly=436.9703 hoist=860.0691
-  point fly=436.9703 hoist=848.4028
-  point fly=425.3039 hoist=848.4028
-  point fly=425.3039 hoist=883.7352
-  point fly=436.9703 hoist=883.7352
-  point fly=436.9703 hoist=895.4016
-  point fly=448.6367 hoist=895.4016
-  point fly=448.6367 hoist=907.068
-  point fly=436.9703 hoist=907.068
-  point fly=436.9703 hoist=919.0677
-  point fly=425.3039 hoist=919.0677
-  point fly=425.3039 hoist=954.4001
-  point fly=436.9703 hoist=954.4001
-  point fly=436.9703 hoist=942.4004
-  point fly=448.6367 hoist=942.4004
-  point fly=448.6367 hoist=930.734
-  point fly=460.6364 hoist=930.734
-  point fly=460.6364 hoist=919.0677
-  point fly=472.3027 hoist=919.0677
-  point fly=472.3027 hoist=930.734
-  point fly=483.9691 hoist=930.734
-  point fly=483.9691 hoist=942.4004
-  point fly=472.3027 hoist=942.4004
-  point fly=472.3027 hoist=954.4001
-  point fly=460.6364 hoist=954.4001
-  point fly=460.6364 hoist=966.0665
-  point fly=448.6367 hoist=966.0665
-  point fly=448.6367 hoist=977.7329
-  point fly=436.9703 hoist=977.7329
-  point fly=436.9703 hoist=989.3992
-  point fly=425.3039 hoist=989.3992
-  point fly=425.3039 hoist=1001.3989
-  point fly=495.6355 hoist=1001.3989
-  point fly=495.6355 hoist=977.7329
-  point fly=483.9691 hoist=977.7329
-  point fly=483.9691 hoist=966.0665
-  point fly=495.6355 hoist=966.0665
-  point fly=495.6355 hoist=907.068
-  point fly=483.9691 hoist=907.068
-  point fly=483.9691 hoist=895.4016
-  point fly=495.6355 hoist=895.4016
-  point fly=495.6355 hoist=836.7364
-  point fly=483.9691 hoist=836.7364
-  point fly=483.9691 hoist=824.7367
-  point fly=495.6355 hoist=824.7367
-  point fly=495.6355 hoist=801.4039
-  point fly=425.3039 hoist=801.4039
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.1377 hoist=643.2412
-  at fly=407.1377 hoist=665.9073
-  at fly=407.1377 hoist=619.2418
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=407.1377 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.1377 hoist=760.5716
-  at fly=407.1377 hoist=736.5722
-  at fly=407.1377 hoist=689.9067
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=407.1377 hoist=713.7395
-  at fly=595.133 hoist=195.0858
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=243.2512
-  at fly=595.133 hoist=219.2518
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=641.7985 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=265.9173
-  at fly=595.133 hoist=172.5863
-  at fly=595.133 hoist=360.5816
-  at fly=595.133 hoist=336.5822
-  at fly=595.133 hoist=289.9167
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=595.133 hoist=313.7495
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=7.2571
-  at fly=595.133 hoist=383.2477
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=595.133 hoist=148.4203
-  at fly=595.133 hoist=31.0899
-}
-
-charge rect pink {
-  fly 11.9997
-  hoist 11.9997
-  at fly=619.2991 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=53.9226
-  at fly=595.133 hoist=124.5875
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=595.133 hoist=77.7553
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=101.9214
-}
-
-charge polygon pink {
-  point fly=577.3001 hoist=519.7443
-  point fly=565.6337 hoist=519.7443
-  point fly=565.6337 hoist=507.7446
-  point fly=506.9685 hoist=507.7446
-  point fly=506.9685 hoist=566.7431
-  point fly=518.6349 hoist=566.7431
-  point fly=518.6349 hoist=578.4095
-  point fly=506.9685 hoist=578.4095
-  point fly=506.9685 hoist=602.0756
-  point fly=577.3001 hoist=602.0756
-  point fly=577.3001 hoist=590.0759
-  point fly=565.6337 hoist=590.0759
-  point fly=565.6337 hoist=578.4095
-  point fly=553.9674 hoist=578.4095
-  point fly=553.9674 hoist=566.7431
-  point fly=542.301 hoist=566.7431
-  point fly=542.301 hoist=555.0768
-  point fly=530.3013 hoist=555.0768
-  point fly=530.3013 hoist=543.077
-  point fly=518.6349 hoist=543.077
-  point fly=518.6349 hoist=531.4107
-  point fly=530.3013 hoist=531.4107
-  point fly=530.3013 hoist=519.7443
-  point fly=542.301 hoist=519.7443
-  point fly=542.301 hoist=531.4107
-  point fly=553.9674 hoist=531.4107
-  point fly=553.9674 hoist=543.077
-  point fly=565.6337 hoist=543.077
-  point fly=565.6337 hoist=555.0768
-  point fly=577.3001 hoist=555.0768
-  point fly=577.3001 hoist=566.7431
-  point fly=589.2998 hoist=566.7431
-  point fly=589.2998 hoist=578.4095
-  point fly=600.9662 hoist=578.4095
-  point fly=600.9662 hoist=507.7446
-  point fly=577.3001 hoist=507.7446
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=807.2371
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=595.133 hoist=831.0698
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=783.2377
-  at fly=595.133 hoist=760.5716
-  at fly=595.133 hoist=407.2471
-  at fly=595.133 hoist=901.9014
-  at fly=595.133 hoist=736.5722
-  at fly=595.133 hoist=853.9026
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=595.133 hoist=877.7354
-  at fly=595.133 hoist=595.0758
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=924.5675
-  at fly=595.133 hoist=619.2418
-}
-
-charge polygon pink {
-  point fly=589.2998 hoist=437.0797
-  point fly=577.3001 hoist=437.0797
-  point fly=577.3001 hoist=448.7461
-  point fly=565.6337 hoist=448.7461
-  point fly=565.6337 hoist=460.4125
-  point fly=553.9674 hoist=460.4125
-  point fly=553.9674 hoist=472.0788
-  point fly=542.301 hoist=472.0788
-  point fly=542.301 hoist=484.0785
-  point fly=530.3013 hoist=484.0785
-  point fly=530.3013 hoist=472.0788
-  point fly=518.6349 hoist=472.0788
-  point fly=518.6349 hoist=460.4125
-  point fly=530.3013 hoist=460.4125
-  point fly=530.3013 hoist=448.7461
-  point fly=542.301 hoist=448.7461
-  point fly=542.301 hoist=437.0797
-  point fly=553.9674 hoist=437.0797
-  point fly=553.9674 hoist=425.08
-  point fly=565.6337 hoist=425.08
-  point fly=565.6337 hoist=413.4136
-  point fly=577.3001 hoist=413.4136
-  point fly=577.3001 hoist=401.7473
-  point fly=506.9685 hoist=401.7473
-  point fly=506.9685 hoist=425.08
-  point fly=518.6349 hoist=425.08
-  point fly=518.6349 hoist=437.0797
-  point fly=506.9685 hoist=437.0797
-  point fly=506.9685 hoist=495.7449
-  point fly=565.6337 hoist=495.7449
-  point fly=565.6337 hoist=484.0785
-  point fly=577.3001 hoist=484.0785
-  point fly=577.3001 hoist=495.7449
-  point fly=600.9662 hoist=495.7449
-  point fly=600.9662 hoist=425.08
-  point fly=589.2998 hoist=425.08
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=643.2412
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.9997
-  at fly=595.133 hoist=713.7395
-}
-
-charge rect pink {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=689.9067
-  at fly=595.133 hoist=665.9073
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=278.1409 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=254.6415 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=207.476 hoist=584.2427
-  at fly=395.8046 hoist=584.2427
-  at fly=348.8058 hoist=584.2427
-  at fly=325.1397 hoist=584.2427
-  at fly=372.1386 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=301.6403 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=231.1421 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=19.3141 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=42.8135 hoist=584.2427
-  at fly=160.4772 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=183.9766 hoist=584.2427
-  at fly=136.9778 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=89.8123 hoist=584.2427
-  at fly=113.4784 hoist=584.2427
-  at fly=66.4795 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=725.5725
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=419.3041 hoist=749.0719
-  at fly=419.3041 hoist=796.0707
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=607.9088
-  at fly=419.3041 hoist=654.9076
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=419.3041 hoist=678.407
-  at fly=419.3041 hoist=631.4082
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=701.9064
-  at fly=419.3041 hoist=772.5713
-  at fly=419.3041 hoist=984.2327
-  at fly=419.3041 hoist=960.8999
-  at fly=419.3041 hoist=843.2362
-  at fly=419.3041 hoist=819.5701
-  at fly=419.3041 hoist=866.569
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=419.3041 hoist=913.7345
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=890.235
-  at fly=419.3041 hoist=937.2339
-  at fly=419.3041 hoist=584.2427
-  at fly=583.9666 hoist=607.9088
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=583.9666 hoist=796.0707
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=583.9666 hoist=725.5725
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=583.9666 hoist=749.0719
-  at fly=583.9666 hoist=631.4082
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=583.9666 hoist=701.9064
-  at fly=583.9666 hoist=772.5713
-  at fly=583.9666 hoist=984.2327
-  at fly=583.9666 hoist=960.8999
-  at fly=583.9666 hoist=843.2362
-  at fly=583.9666 hoist=819.5701
-  at fly=583.9666 hoist=866.569
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=583.9666 hoist=913.7345
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=583.9666 hoist=890.235
-  at fly=583.9666 hoist=937.2339
-  at fly=583.9666 hoist=654.9076
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=583.9666 hoist=678.407
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=583.9666 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1525.1097 hoist=584.2427
-  at fly=1548.7758 hoist=584.2427
-  at fly=1595.7746 hoist=584.2427
-  at fly=1407.446 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1454.6115 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1478.1109 hoist=584.2427
-  at fly=1431.1121 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1501.6103 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1572.1086 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1783.9366 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1760.4372 hoist=584.2427
-  at fly=1642.7735 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1619.274 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1666.4395 hoist=584.2427
-  at fly=1713.4384 hoist=584.2427
-  at fly=1689.7723 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1736.9378 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1125.1197 hoist=584.2427
-  at fly=1148.7858 hoist=584.2427
-  at fly=1195.7846 hoist=584.2427
-  at fly=1007.456 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1054.6215 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1078.1209 hoist=584.2427
-  at fly=1031.1221 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1101.6203 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1172.1186 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1383.9466 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1360.4472 hoist=584.2427
-  at fly=1242.7835 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1219.2841 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1266.4495 hoist=584.2427
-  at fly=1313.4484 hoist=584.2427
-  at fly=1289.7823 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1336.9478 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=725.1297 hoist=584.2427
-  at fly=748.7958 hoist=584.2427
-  at fly=795.7946 hoist=584.2427
-  at fly=607.466 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=654.6315 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=678.1309 hoist=584.2427
-  at fly=631.1321 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=701.6303 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=772.1286 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=983.9566 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=960.4572 hoist=584.2427
-  at fly=842.7935 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=819.2941 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=866.4595 hoist=584.2427
-  at fly=913.4584 hoist=584.2427
-  at fly=889.7923 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=936.9578 hoist=584.2427
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1407.446 hoist=419.5801
-  at fly=1595.7746 hoist=419.5801
-  at fly=1525.1097 hoist=419.5801
-  at fly=1548.7758 hoist=419.5801
-  at fly=1431.1121 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1501.6103 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1572.1086 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1783.9366 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1760.4372 hoist=419.5801
-  at fly=1642.7735 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1619.274 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1666.4395 hoist=419.5801
-  at fly=1713.4384 hoist=419.5801
-  at fly=1689.7723 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1736.9378 hoist=419.5801
-  at fly=1454.6115 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1478.1109 hoist=419.5801
-  at fly=1007.456 hoist=419.5801
-  at fly=1195.7846 hoist=419.5801
-  at fly=1125.1197 hoist=419.5801
-  at fly=1148.7858 hoist=419.5801
-  at fly=1031.1221 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1101.6203 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1172.1186 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1383.9466 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1360.4472 hoist=419.5801
-  at fly=1242.7835 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1219.2841 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1266.4495 hoist=419.5801
-  at fly=1313.4484 hoist=419.5801
-  at fly=1289.7823 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=1336.9478 hoist=419.5801
-  at fly=1054.6215 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1078.1209 hoist=419.5801
-  at fly=607.466 hoist=419.5801
-  at fly=795.7946 hoist=419.5801
-  at fly=725.1297 hoist=419.5801
-  at fly=748.7958 hoist=419.5801
-  at fly=631.1321 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=701.6303 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=772.1286 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=983.9566 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=960.4572 hoist=419.5801
-  at fly=842.7935 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=819.2941 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=866.4595 hoist=419.5801
-  at fly=913.4584 hoist=419.5801
-  at fly=889.7923 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=936.9578 hoist=419.5801
-  at fly=654.6315 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=678.1309 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=583.9666 hoist=278.417
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=583.9666 hoist=254.9176
-  at fly=583.9666 hoist=207.9188
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=583.9666 hoist=396.0807
-  at fly=583.9666 hoist=349.0819
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=583.9666 hoist=325.5825
-  at fly=583.9666 hoist=372.5813
-  at fly=583.9666 hoist=301.9164
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=583.9666 hoist=231.4182
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=583.9666 hoist=19.5901
-  at fly=583.9666 hoist=43.2562
-  at fly=583.9666 hoist=160.9199
-  at fly=583.9666 hoist=184.2527
-  at fly=583.9666 hoist=137.2539
-  at fly=583.9666 hoist=90.255
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=583.9666 hoist=113.7545
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=583.9666 hoist=66.589
-  at fly=583.9666 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=419.3041 hoist=396.0807
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=207.9188
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=419.3041 hoist=278.417
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=254.9176
-  at fly=419.3041 hoist=372.5813
-  at fly=419.3041 hoist=301.9164
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=419.3041 hoist=231.4182
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=19.5901
-  at fly=419.3041 hoist=43.2562
-  at fly=419.3041 hoist=160.9199
-  at fly=419.3041 hoist=184.2527
-  at fly=419.3041 hoist=137.2539
-  at fly=419.3041 hoist=90.255
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=419.3041 hoist=113.7545
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=66.589
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.9997
-  at fly=419.3041 hoist=349.0819
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=325.5825
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=395.8046 hoist=419.5801
-  at fly=207.476 hoist=419.5801
-  at fly=278.1409 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=254.6415 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=372.1386 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=301.6403 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=231.1421 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=19.3141 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=42.8135 hoist=419.5801
-  at fly=160.4772 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=183.9766 hoist=419.5801
-  at fly=136.9778 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.6664
-  hoist 11.6664
-  at fly=89.8123 hoist=419.5801
-  at fly=113.4784 hoist=419.5801
-  at fly=66.4795 hoist=419.5801
-  at fly=348.8058 hoist=419.5801
-  at fly=325.1397 hoist=419.5801
-}
-
-charge rect blue {
-  fly 11.9997
-  hoist 11.6664
-  at fly=419.3041 hoist=419.5801
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=647 hoist=732
+  at fly=563 hoist=732
+  at fly=733 hoist=692
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=606 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=732
+  at fly=414 hoist=881
+  at fly=733 hoist=648
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=733 hoist=565
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=605
+  at fly=520 hoist=732
+  at fly=479 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=395 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=436 hoist=732
+}
+
+charge polygon red {
+  point fly=406 hoist=808
+  point fly=427 hoist=808
+  point fly=427 hoist=829
+  point fly=448 hoist=829
+  point fly=448 hoist=850
+  point fly=469 hoist=850
+  point fly=469 hoist=872
+  point fly=490 hoist=872
+  point fly=490 hoist=850
+  point fly=511 hoist=850
+  point fly=511 hoist=829
+  point fly=490 hoist=829
+  point fly=490 hoist=808
+  point fly=469 hoist=808
+  point fly=469 hoist=787
+  point fly=448 hoist=787
+  point fly=448 hoist=766
+  point fly=384 hoist=766
+  point fly=384 hoist=787
+  point fly=406 hoist=787
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=541 hoist=925
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=478
+}
+
+charge polygon red {
+  point fly=530 hoist=808
+  point fly=552 hoist=808
+  point fly=552 hoist=787
+  point fly=573 hoist=787
+  point fly=573 hoist=766
+  point fly=509 hoist=766
+  point fly=509 hoist=787
+  point fly=530 hoist=787
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=541 hoist=881
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=521
+}
+
+charge polygon red {
+  point fly=785 hoist=554
+  point fly=806 hoist=554
+  point fly=806 hoist=533
+  point fly=785 hoist=533
+  point fly=785 hoist=512
+  point fly=764 hoist=512
+  point fly=764 hoist=576
+  point fly=785 hoist=576
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=437
+}
+
+charge polygon red {
+  point fly=785 hoist=468
+  point fly=806 hoist=468
+  point fly=806 hoist=489
+  point fly=827 hoist=489
+  point fly=827 hoist=510
+  point fly=848 hoist=510
+  point fly=848 hoist=489
+  point fly=869 hoist=489
+  point fly=869 hoist=468
+  point fly=848 hoist=468
+  point fly=848 hoist=447
+  point fly=827 hoist=447
+  point fly=827 hoist=426
+  point fly=806 hoist=426
+  point fly=806 hoist=404
+  point fly=785 hoist=404
+  point fly=785 hoist=383
+  point fly=764 hoist=383
+  point fly=764 hoist=447
+  point fly=785 hoist=447
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=12
+}
+
+charge polygon red {
+  point fly=785 hoist=681
+  point fly=806 hoist=681
+  point fly=806 hoist=660
+  point fly=827 hoist=660
+  point fly=827 hoist=639
+  point fly=848 hoist=639
+  point fly=848 hoist=618
+  point fly=869 hoist=618
+  point fly=869 hoist=597
+  point fly=848 hoist=597
+  point fly=848 hoist=576
+  point fly=827 hoist=576
+  point fly=827 hoist=597
+  point fly=806 hoist=597
+  point fly=806 hoist=618
+  point fly=785 hoist=618
+  point fly=785 hoist=639
+  point fly=764 hoist=639
+  point fly=764 hoist=702
+  point fly=785 hoist=702
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=923 hoist=1136
+}
+
+charge rect red {
+  fly 21
+  hoist 20
+  at fly=733 hoist=1790
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=923 hoist=1263
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=733 hoist=56
+  at fly=733 hoist=351
+  at fly=733 hoist=267
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=923 hoist=670
+  at fly=733 hoist=99
+  at fly=733 hoist=394
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=733 hoist=140
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=183
+  at fly=733 hoist=226
+  at fly=733 hoist=310
+}
+
+charge polygon red {
+  point fly=511 hoist=955
+  point fly=490 hoist=955
+  point fly=490 hoist=934
+  point fly=469 hoist=934
+  point fly=469 hoist=955
+  point fly=448 hoist=955
+  point fly=448 hoist=976
+  point fly=427 hoist=976
+  point fly=427 hoist=997
+  point fly=406 hoist=997
+  point fly=406 hoist=1018
+  point fly=384 hoist=1018
+  point fly=384 hoist=1039
+  point fly=448 hoist=1039
+  point fly=448 hoist=1018
+  point fly=469 hoist=1018
+  point fly=469 hoist=997
+  point fly=490 hoist=997
+  point fly=490 hoist=976
+  point fly=511 hoist=976
+}
+
+charge polygon red {
+  point fly=552 hoist=998
+  point fly=530 hoist=998
+  point fly=530 hoist=1019
+  point fly=509 hoist=1019
+  point fly=509 hoist=1040
+  point fly=573 hoist=1040
+  point fly=573 hoist=1019
+  point fly=552 hoist=1019
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=478 hoist=1071
+  at fly=562 hoist=1071
+  at fly=522 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=351 hoist=733
+}
+
+charge polygon red {
+  point fly=341 hoist=787
+  point fly=319 hoist=787
+  point fly=319 hoist=808
+  point fly=298 hoist=808
+  point fly=298 hoist=829
+  point fly=277 hoist=829
+  point fly=277 hoist=850
+  point fly=256 hoist=850
+  point fly=256 hoist=871
+  point fly=235 hoist=871
+  point fly=235 hoist=850
+  point fly=214 hoist=850
+  point fly=214 hoist=829
+  point fly=235 hoist=829
+  point fly=235 hoist=808
+  point fly=256 hoist=808
+  point fly=256 hoist=787
+  point fly=277 hoist=787
+  point fly=277 hoist=765
+  point fly=214 hoist=765
+  point fly=214 hoist=787
+  point fly=193 hoist=787
+  point fly=193 hoist=808
+  point fly=171 hoist=808
+  point fly=171 hoist=787
+  point fly=150 hoist=787
+  point fly=150 hoist=765
+  point fly=86 hoist=765
+  point fly=86 hoist=787
+  point fly=108 hoist=787
+  point fly=108 hoist=808
+  point fly=129 hoist=808
+  point fly=129 hoist=829
+  point fly=150 hoist=829
+  point fly=150 hoist=850
+  point fly=129 hoist=850
+  point fly=129 hoist=871
+  point fly=108 hoist=871
+  point fly=108 hoist=850
+  point fly=86 hoist=850
+  point fly=86 hoist=829
+  point fly=65 hoist=829
+  point fly=65 hoist=808
+  point fly=44 hoist=808
+  point fly=44 hoist=787
+  point fly=23 hoist=787
+  point fly=23 hoist=765
+  point fly=2 hoist=765
+  point fly=2 hoist=892
+  point fly=44 hoist=892
+  point fly=44 hoist=871
+  point fly=65 hoist=871
+  point fly=65 hoist=892
+  point fly=171 hoist=892
+  point fly=171 hoist=871
+  point fly=193 hoist=871
+  point fly=193 hoist=892
+  point fly=298 hoist=892
+  point fly=298 hoist=871
+  point fly=319 hoist=871
+  point fly=319 hoist=892
+  point fly=362 hoist=892
+  point fly=362 hoist=765
+  point fly=341 hoist=765
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=416 hoist=925
+  at fly=435 hoist=1071
+}
+
+charge polygon red {
+  point fly=319 hoist=936
+  point fly=298 hoist=936
+  point fly=298 hoist=914
+  point fly=193 hoist=914
+  point fly=193 hoist=936
+  point fly=171 hoist=936
+  point fly=171 hoist=914
+  point fly=65 hoist=914
+  point fly=65 hoist=936
+  point fly=44 hoist=936
+  point fly=44 hoist=914
+  point fly=2 hoist=914
+  point fly=2 hoist=1041
+  point fly=23 hoist=1041
+  point fly=23 hoist=1020
+  point fly=44 hoist=1020
+  point fly=44 hoist=999
+  point fly=65 hoist=999
+  point fly=65 hoist=978
+  point fly=86 hoist=978
+  point fly=86 hoist=957
+  point fly=108 hoist=957
+  point fly=108 hoist=936
+  point fly=129 hoist=936
+  point fly=129 hoist=957
+  point fly=150 hoist=957
+  point fly=150 hoist=978
+  point fly=129 hoist=978
+  point fly=129 hoist=999
+  point fly=108 hoist=999
+  point fly=108 hoist=1020
+  point fly=86 hoist=1020
+  point fly=86 hoist=1041
+  point fly=150 hoist=1041
+  point fly=150 hoist=1020
+  point fly=171 hoist=1020
+  point fly=171 hoist=999
+  point fly=193 hoist=999
+  point fly=193 hoist=1020
+  point fly=214 hoist=1020
+  point fly=214 hoist=1041
+  point fly=277 hoist=1041
+  point fly=277 hoist=1020
+  point fly=256 hoist=1020
+  point fly=256 hoist=999
+  point fly=235 hoist=999
+  point fly=235 hoist=978
+  point fly=214 hoist=978
+  point fly=214 hoist=957
+  point fly=235 hoist=957
+  point fly=235 hoist=936
+  point fly=256 hoist=936
+  point fly=256 hoist=957
+  point fly=277 hoist=957
+  point fly=277 hoist=978
+  point fly=298 hoist=978
+  point fly=298 hoist=999
+  point fly=319 hoist=999
+  point fly=319 hoist=1020
+  point fly=341 hoist=1020
+  point fly=341 hoist=1041
+  point fly=362 hoist=1041
+  point fly=362 hoist=914
+  point fly=319 hoist=914
+}
+
+charge polygon red {
+  point fly=638 hoist=787
+  point fly=617 hoist=787
+  point fly=617 hoist=808
+  point fly=596 hoist=808
+  point fly=596 hoist=829
+  point fly=575 hoist=829
+  point fly=575 hoist=850
+  point fly=596 hoist=850
+  point fly=596 hoist=871
+  point fly=617 hoist=871
+  point fly=617 hoist=850
+  point fly=638 hoist=850
+  point fly=638 hoist=829
+  point fly=659 hoist=829
+  point fly=659 hoist=808
+  point fly=680 hoist=808
+  point fly=680 hoist=787
+  point fly=702 hoist=787
+  point fly=702 hoist=765
+  point fly=638 hoist=765
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=668 hoist=925
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=669 hoist=881
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=690 hoist=733
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=649 hoist=1071
+}
+
+charge polygon red {
+  point fly=679 hoist=998
+  point fly=658 hoist=998
+  point fly=658 hoist=976
+  point fly=637 hoist=976
+  point fly=637 hoist=955
+  point fly=616 hoist=955
+  point fly=616 hoist=934
+  point fly=595 hoist=934
+  point fly=595 hoist=955
+  point fly=574 hoist=955
+  point fly=574 hoist=976
+  point fly=595 hoist=976
+  point fly=595 hoist=998
+  point fly=616 hoist=998
+  point fly=616 hoist=1019
+  point fly=637 hoist=1019
+  point fly=637 hoist=1040
+  point fly=701 hoist=1040
+  point fly=701 hoist=1019
+  point fly=679 hoist=1019
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=606 hoist=1071
+  at fly=690 hoist=1071
+  at fly=395 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=13 hoist=732
+  at fly=141 hoist=732
+  at fly=54 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=181 hoist=732
+  at fly=97 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=309 hoist=732
+  at fly=268 hoist=732
+  at fly=225 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=140 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=181 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=267 hoist=1071
+  at fly=13 hoist=1071
+  at fly=308 hoist=1071
+  at fly=224 hoist=1071
+  at fly=351 hoist=1071
+  at fly=56 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=97 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=923 hoist=1390
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2576 hoist=925
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2574 hoist=881
+  at fly=2469 hoist=732
+}
+
+charge polygon red {
+  point fly=2566 hoist=808
+  point fly=2587 hoist=808
+  point fly=2587 hoist=829
+  point fly=2608 hoist=829
+  point fly=2608 hoist=850
+  point fly=2629 hoist=850
+  point fly=2629 hoist=872
+  point fly=2650 hoist=872
+  point fly=2650 hoist=850
+  point fly=2671 hoist=850
+  point fly=2671 hoist=829
+  point fly=2650 hoist=829
+  point fly=2650 hoist=808
+  point fly=2629 hoist=808
+  point fly=2629 hoist=787
+  point fly=2608 hoist=787
+  point fly=2608 hoist=766
+  point fly=2544 hoist=766
+  point fly=2544 hoist=787
+  point fly=2566 hoist=787
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=2555 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2003 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2701 hoist=925
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2596 hoist=732
+  at fly=2428 hoist=732
+  at fly=2087 hoist=732
+  at fly=2173 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=2701 hoist=881
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2214 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=2046 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2301 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=2257 hoist=732
+  at fly=2341 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2385 hoist=732
+  at fly=2639 hoist=732
+  at fly=3021 hoist=732
+  at fly=3105 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=3061 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2934 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=2977 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=3148 hoist=732
+}
+
+charge rect red {
+  fly 19
+  hoist 21
+  at fly=3231 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=3189 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=2766 hoist=732
+}
+
+charge polygon red {
+  point fly=2925 hoist=871
+  point fly=2946 hoist=871
+  point fly=2946 hoist=892
+  point fly=3052 hoist=892
+  point fly=3052 hoist=871
+  point fly=3074 hoist=871
+  point fly=3074 hoist=892
+  point fly=3179 hoist=892
+  point fly=3179 hoist=871
+  point fly=3200 hoist=871
+  point fly=3200 hoist=892
+  point fly=3243 hoist=892
+  point fly=3243 hoist=765
+  point fly=3222 hoist=765
+  point fly=3222 hoist=786
+  point fly=3200 hoist=786
+  point fly=3200 hoist=807
+  point fly=3179 hoist=807
+  point fly=3179 hoist=828
+  point fly=3158 hoist=828
+  point fly=3158 hoist=849
+  point fly=3137 hoist=849
+  point fly=3137 hoist=871
+  point fly=3116 hoist=871
+  point fly=3116 hoist=849
+  point fly=3095 hoist=849
+  point fly=3095 hoist=828
+  point fly=3116 hoist=828
+  point fly=3116 hoist=807
+  point fly=3137 hoist=807
+  point fly=3137 hoist=786
+  point fly=3158 hoist=786
+  point fly=3158 hoist=765
+  point fly=3095 hoist=765
+  point fly=3095 hoist=786
+  point fly=3074 hoist=786
+  point fly=3074 hoist=807
+  point fly=3052 hoist=807
+  point fly=3052 hoist=786
+  point fly=3031 hoist=786
+  point fly=3031 hoist=765
+  point fly=2967 hoist=765
+  point fly=2967 hoist=786
+  point fly=2989 hoist=786
+  point fly=2989 hoist=807
+  point fly=3010 hoist=807
+  point fly=3010 hoist=828
+  point fly=3031 hoist=828
+  point fly=3031 hoist=849
+  point fly=3010 hoist=849
+  point fly=3010 hoist=871
+  point fly=2989 hoist=871
+  point fly=2989 hoist=849
+  point fly=2967 hoist=849
+  point fly=2967 hoist=828
+  point fly=2946 hoist=828
+  point fly=2946 hoist=807
+  point fly=2925 hoist=807
+  point fly=2925 hoist=786
+  point fly=2904 hoist=786
+  point fly=2904 hoist=765
+  point fly=2883 hoist=765
+  point fly=2883 hoist=892
+  point fly=2925 hoist=892
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2723 hoist=732
+  at fly=2829 hoist=881
+  at fly=2680 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2828 hoist=925
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2807 hoist=732
+}
+
+charge polygon red {
+  point fly=2733 hoist=849
+  point fly=2754 hoist=849
+  point fly=2754 hoist=871
+  point fly=2776 hoist=871
+  point fly=2776 hoist=849
+  point fly=2797 hoist=849
+  point fly=2797 hoist=828
+  point fly=2818 hoist=828
+  point fly=2818 hoist=807
+  point fly=2839 hoist=807
+  point fly=2839 hoist=786
+  point fly=2861 hoist=786
+  point fly=2861 hoist=765
+  point fly=2797 hoist=765
+  point fly=2797 hoist=786
+  point fly=2776 hoist=786
+  point fly=2776 hoist=807
+  point fly=2754 hoist=807
+  point fly=2754 hoist=828
+  point fly=2733 hoist=828
+}
+
+charge polygon red {
+  point fly=2690 hoist=808
+  point fly=2712 hoist=808
+  point fly=2712 hoist=787
+  point fly=2733 hoist=787
+  point fly=2733 hoist=766
+  point fly=2669 hoist=766
+  point fly=2669 hoist=787
+  point fly=2690 hoist=787
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=923 hoist=416
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=1261 hoist=925
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1199 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=1261 hoist=881
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1156 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=1326 hoist=732
+}
+
+charge polygon red {
+  point fly=1250 hoist=808
+  point fly=1272 hoist=808
+  point fly=1272 hoist=787
+  point fly=1293 hoist=787
+  point fly=1293 hoist=766
+  point fly=1229 hoist=766
+  point fly=1229 hoist=787
+  point fly=1250 hoist=787
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=1115 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1367 hoist=732
+  at fly=1240 hoist=732
+  at fly=1283 hoist=732
+}
+
+charge polygon red {
+  point fly=1039 hoist=384
+  point fly=1018 hoist=384
+  point fly=1018 hoist=405
+  point fly=997 hoist=405
+  point fly=997 hoist=426
+  point fly=976 hoist=426
+  point fly=976 hoist=447
+  point fly=955 hoist=447
+  point fly=955 hoist=468
+  point fly=934 hoist=468
+  point fly=934 hoist=489
+  point fly=955 hoist=489
+  point fly=955 hoist=511
+  point fly=976 hoist=511
+  point fly=976 hoist=489
+  point fly=997 hoist=489
+  point fly=997 hoist=468
+  point fly=1018 hoist=468
+  point fly=1018 hoist=447
+  point fly=1039 hoist=447
+}
+
+charge polygon red {
+  point fly=1039 hoist=511
+  point fly=1018 hoist=511
+  point fly=1018 hoist=532
+  point fly=997 hoist=532
+  point fly=997 hoist=553
+  point fly=1018 hoist=553
+  point fly=1018 hoist=574
+  point fly=1039 hoist=574
+}
+
+charge polygon red {
+  point fly=1039 hoist=700
+  point fly=1039 hoist=637
+  point fly=1018 hoist=637
+  point fly=1018 hoist=616
+  point fly=997 hoist=616
+  point fly=997 hoist=595
+  point fly=976 hoist=595
+  point fly=976 hoist=574
+  point fly=955 hoist=574
+  point fly=955 hoist=595
+  point fly=934 hoist=595
+  point fly=934 hoist=616
+  point fly=955 hoist=616
+  point fly=955 hoist=637
+  point fly=976 hoist=637
+  point fly=976 hoist=658
+  point fly=997 hoist=658
+  point fly=997 hoist=679
+  point fly=1018 hoist=679
+  point fly=1018 hoist=700
+}
+
+charge polygon red {
+  point fly=1126 hoist=808
+  point fly=1147 hoist=808
+  point fly=1147 hoist=829
+  point fly=1168 hoist=829
+  point fly=1168 hoist=850
+  point fly=1189 hoist=850
+  point fly=1189 hoist=872
+  point fly=1210 hoist=872
+  point fly=1210 hoist=850
+  point fly=1231 hoist=850
+  point fly=1231 hoist=829
+  point fly=1210 hoist=829
+  point fly=1210 hoist=808
+  point fly=1189 hoist=808
+  point fly=1189 hoist=787
+  point fly=1168 hoist=787
+  point fly=1168 hoist=766
+  point fly=1104 hoist=766
+  point fly=1104 hoist=787
+  point fly=1126 hoist=787
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=923 hoist=543
+  at fly=1134 hoist=881
+}
+
+charge polygon red {
+  point fly=1039 hoist=340
+  point fly=1018 hoist=340
+  point fly=1018 hoist=319
+  point fly=997 hoist=319
+  point fly=997 hoist=298
+  point fly=976 hoist=298
+  point fly=976 hoist=277
+  point fly=955 hoist=277
+  point fly=955 hoist=256
+  point fly=934 hoist=256
+  point fly=934 hoist=235
+  point fly=955 hoist=235
+  point fly=955 hoist=214
+  point fly=976 hoist=214
+  point fly=976 hoist=235
+  point fly=997 hoist=235
+  point fly=997 hoist=256
+  point fly=1018 hoist=256
+  point fly=1018 hoist=277
+  point fly=1039 hoist=277
+  point fly=1039 hoist=214
+  point fly=1018 hoist=214
+  point fly=1018 hoist=192
+  point fly=997 hoist=192
+  point fly=997 hoist=171
+  point fly=1018 hoist=171
+  point fly=1018 hoist=150
+  point fly=1039 hoist=150
+  point fly=1039 hoist=87
+  point fly=1018 hoist=87
+  point fly=1018 hoist=108
+  point fly=997 hoist=108
+  point fly=997 hoist=129
+  point fly=976 hoist=129
+  point fly=976 hoist=150
+  point fly=955 hoist=150
+  point fly=955 hoist=129
+  point fly=934 hoist=129
+  point fly=934 hoist=108
+  point fly=955 hoist=108
+  point fly=955 hoist=87
+  point fly=976 hoist=87
+  point fly=976 hoist=66
+  point fly=997 hoist=66
+  point fly=997 hoist=44
+  point fly=1018 hoist=44
+  point fly=1018 hoist=23
+  point fly=1039 hoist=23
+  point fly=1039 hoist=2
+  point fly=913 hoist=2
+  point fly=913 hoist=44
+  point fly=934 hoist=44
+  point fly=934 hoist=66
+  point fly=913 hoist=66
+  point fly=913 hoist=171
+  point fly=934 hoist=171
+  point fly=934 hoist=192
+  point fly=913 hoist=192
+  point fly=913 hoist=298
+  point fly=934 hoist=298
+  point fly=934 hoist=319
+  point fly=913 hoist=319
+  point fly=913 hoist=362
+  point fly=1039 hoist=362
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1960 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1136 hoist=925
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1854 hoist=881
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=1835 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1876 hoist=732
+}
+
+charge polygon red {
+  point fly=1846 hoist=808
+  point fly=1867 hoist=808
+  point fly=1867 hoist=829
+  point fly=1888 hoist=829
+  point fly=1888 hoist=850
+  point fly=1909 hoist=850
+  point fly=1909 hoist=872
+  point fly=1930 hoist=872
+  point fly=1930 hoist=850
+  point fly=1951 hoist=850
+  point fly=1951 hoist=829
+  point fly=1930 hoist=829
+  point fly=1930 hoist=808
+  point fly=1909 hoist=808
+  point fly=1909 hoist=787
+  point fly=1888 hoist=787
+  point fly=1888 hoist=766
+  point fly=1824 hoist=766
+  point fly=1824 hoist=787
+  point fly=1846 hoist=787
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1919 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=1981 hoist=925
+}
+
+charge polygon red {
+  point fly=1970 hoist=808
+  point fly=1992 hoist=808
+  point fly=1992 hoist=787
+  point fly=2013 hoist=787
+  point fly=2013 hoist=766
+  point fly=1949 hoist=766
+  point fly=1949 hoist=787
+  point fly=1970 hoist=787
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=1981 hoist=881
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1494 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=1621 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1581 hoist=732
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=1537 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1453 hoist=732
+  at fly=1708 hoist=732
+  at fly=1665 hoist=732
+  at fly=1749 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1856 hoist=925
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2893 hoist=732
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1707 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1791 hoist=733
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=1835 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1918 hoist=1071
+}
+
+charge polygon red {
+  point fly=1759 hoist=936
+  point fly=1738 hoist=936
+  point fly=1738 hoist=914
+  point fly=1633 hoist=914
+  point fly=1633 hoist=936
+  point fly=1611 hoist=936
+  point fly=1611 hoist=914
+  point fly=1505 hoist=914
+  point fly=1505 hoist=936
+  point fly=1484 hoist=936
+  point fly=1484 hoist=914
+  point fly=1442 hoist=914
+  point fly=1442 hoist=1041
+  point fly=1463 hoist=1041
+  point fly=1463 hoist=1020
+  point fly=1484 hoist=1020
+  point fly=1484 hoist=999
+  point fly=1505 hoist=999
+  point fly=1505 hoist=978
+  point fly=1526 hoist=978
+  point fly=1526 hoist=957
+  point fly=1548 hoist=957
+  point fly=1548 hoist=936
+  point fly=1569 hoist=936
+  point fly=1569 hoist=957
+  point fly=1590 hoist=957
+  point fly=1590 hoist=978
+  point fly=1569 hoist=978
+  point fly=1569 hoist=999
+  point fly=1548 hoist=999
+  point fly=1548 hoist=1020
+  point fly=1526 hoist=1020
+  point fly=1526 hoist=1041
+  point fly=1590 hoist=1041
+  point fly=1590 hoist=1020
+  point fly=1611 hoist=1020
+  point fly=1611 hoist=999
+  point fly=1633 hoist=999
+  point fly=1633 hoist=1020
+  point fly=1654 hoist=1020
+  point fly=1654 hoist=1041
+  point fly=1717 hoist=1041
+  point fly=1717 hoist=1020
+  point fly=1696 hoist=1020
+  point fly=1696 hoist=999
+  point fly=1675 hoist=999
+  point fly=1675 hoist=978
+  point fly=1654 hoist=978
+  point fly=1654 hoist=957
+  point fly=1675 hoist=957
+  point fly=1675 hoist=936
+  point fly=1696 hoist=936
+  point fly=1696 hoist=957
+  point fly=1717 hoist=957
+  point fly=1717 hoist=978
+  point fly=1738 hoist=978
+  point fly=1738 hoist=999
+  point fly=1759 hoist=999
+  point fly=1759 hoist=1020
+  point fly=1781 hoist=1020
+  point fly=1781 hoist=1041
+  point fly=1802 hoist=1041
+  point fly=1802 hoist=914
+  point fly=1759 hoist=914
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1748 hoist=1071
+}
+
+charge polygon red {
+  point fly=1781 hoist=787
+  point fly=1759 hoist=787
+  point fly=1759 hoist=808
+  point fly=1738 hoist=808
+  point fly=1738 hoist=829
+  point fly=1717 hoist=829
+  point fly=1717 hoist=850
+  point fly=1696 hoist=850
+  point fly=1696 hoist=871
+  point fly=1675 hoist=871
+  point fly=1675 hoist=850
+  point fly=1654 hoist=850
+  point fly=1654 hoist=829
+  point fly=1675 hoist=829
+  point fly=1675 hoist=808
+  point fly=1696 hoist=808
+  point fly=1696 hoist=787
+  point fly=1717 hoist=787
+  point fly=1717 hoist=765
+  point fly=1654 hoist=765
+  point fly=1654 hoist=787
+  point fly=1633 hoist=787
+  point fly=1633 hoist=808
+  point fly=1611 hoist=808
+  point fly=1611 hoist=787
+  point fly=1590 hoist=787
+  point fly=1590 hoist=765
+  point fly=1526 hoist=765
+  point fly=1526 hoist=787
+  point fly=1548 hoist=787
+  point fly=1548 hoist=808
+  point fly=1569 hoist=808
+  point fly=1569 hoist=829
+  point fly=1590 hoist=829
+  point fly=1590 hoist=850
+  point fly=1569 hoist=850
+  point fly=1569 hoist=871
+  point fly=1548 hoist=871
+  point fly=1548 hoist=850
+  point fly=1526 hoist=850
+  point fly=1526 hoist=829
+  point fly=1505 hoist=829
+  point fly=1505 hoist=808
+  point fly=1484 hoist=808
+  point fly=1484 hoist=787
+  point fly=1463 hoist=787
+  point fly=1463 hoist=765
+  point fly=1442 hoist=765
+  point fly=1442 hoist=892
+  point fly=1484 hoist=892
+  point fly=1484 hoist=871
+  point fly=1505 hoist=871
+  point fly=1505 hoist=892
+  point fly=1611 hoist=892
+  point fly=1611 hoist=871
+  point fly=1633 hoist=871
+  point fly=1633 hoist=892
+  point fly=1738 hoist=892
+  point fly=1738 hoist=871
+  point fly=1759 hoist=871
+  point fly=1759 hoist=892
+  point fly=1802 hoist=892
+  point fly=1802 hoist=765
+  point fly=1781 hoist=765
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1791 hoist=1071
+}
+
+charge polygon red {
+  point fly=1951 hoist=955
+  point fly=1930 hoist=955
+  point fly=1930 hoist=934
+  point fly=1909 hoist=934
+  point fly=1909 hoist=955
+  point fly=1888 hoist=955
+  point fly=1888 hoist=976
+  point fly=1867 hoist=976
+  point fly=1867 hoist=997
+  point fly=1846 hoist=997
+  point fly=1846 hoist=1018
+  point fly=1824 hoist=1018
+  point fly=1824 hoist=1039
+  point fly=1888 hoist=1039
+  point fly=1888 hoist=1018
+  point fly=1909 hoist=1018
+  point fly=1909 hoist=997
+  point fly=1930 hoist=997
+  point fly=1930 hoist=976
+  point fly=1951 hoist=976
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1875 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2130 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1962 hoist=1071
+}
+
+charge polygon red {
+  point fly=2119 hoist=998
+  point fly=2098 hoist=998
+  point fly=2098 hoist=976
+  point fly=2077 hoist=976
+  point fly=2077 hoist=955
+  point fly=2056 hoist=955
+  point fly=2056 hoist=934
+  point fly=2035 hoist=934
+  point fly=2035 hoist=955
+  point fly=2014 hoist=955
+  point fly=2014 hoist=976
+  point fly=2035 hoist=976
+  point fly=2035 hoist=998
+  point fly=2056 hoist=998
+  point fly=2056 hoist=1019
+  point fly=2077 hoist=1019
+  point fly=2077 hoist=1040
+  point fly=2141 hoist=1040
+  point fly=2141 hoist=1019
+  point fly=2119 hoist=1019
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2108 hoist=925
+  at fly=2089 hoist=1071
+  at fly=2002 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2046 hoist=1071
+}
+
+charge polygon red {
+  point fly=1992 hoist=998
+  point fly=1970 hoist=998
+  point fly=1970 hoist=1019
+  point fly=1949 hoist=1019
+  point fly=1949 hoist=1040
+  point fly=2013 hoist=1040
+  point fly=2013 hoist=1019
+  point fly=1992 hoist=1019
+}
+
+charge polygon red {
+  point fly=1272 hoist=998
+  point fly=1250 hoist=998
+  point fly=1250 hoist=1019
+  point fly=1229 hoist=1019
+  point fly=1229 hoist=1040
+  point fly=1293 hoist=1040
+  point fly=1293 hoist=1019
+  point fly=1272 hoist=1019
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1664 hoist=1071
+  at fly=1369 hoist=1071
+}
+
+charge polygon red {
+  point fly=1399 hoist=998
+  point fly=1378 hoist=998
+  point fly=1378 hoist=976
+  point fly=1357 hoist=976
+  point fly=1357 hoist=955
+  point fly=1336 hoist=955
+  point fly=1336 hoist=934
+  point fly=1315 hoist=934
+  point fly=1315 hoist=955
+  point fly=1294 hoist=955
+  point fly=1294 hoist=976
+  point fly=1315 hoist=976
+  point fly=1315 hoist=998
+  point fly=1336 hoist=998
+  point fly=1336 hoist=1019
+  point fly=1357 hoist=1019
+  point fly=1357 hoist=1040
+  point fly=1421 hoist=1040
+  point fly=1421 hoist=1019
+  point fly=1399 hoist=1019
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=1326 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2109 hoist=881
+}
+
+charge polygon red {
+  point fly=1231 hoist=955
+  point fly=1210 hoist=955
+  point fly=1210 hoist=934
+  point fly=1189 hoist=934
+  point fly=1189 hoist=955
+  point fly=1168 hoist=955
+  point fly=1168 hoist=976
+  point fly=1147 hoist=976
+  point fly=1147 hoist=997
+  point fly=1126 hoist=997
+  point fly=1126 hoist=1018
+  point fly=1104 hoist=1018
+  point fly=1104 hoist=1039
+  point fly=1168 hoist=1039
+  point fly=1168 hoist=1018
+  point fly=1189 hoist=1018
+  point fly=1189 hoist=997
+  point fly=1210 hoist=997
+  point fly=1210 hoist=976
+  point fly=1231 hoist=976
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1242 hoist=1071
+  at fly=1282 hoist=1071
+  at fly=1388 hoist=925
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=1410 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1496 hoist=1071
+  at fly=1580 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=1537 hoist=1071
+  at fly=1621 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1389 hoist=881
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1453 hoist=1071
+}
+
+charge polygon red {
+  point fly=1358 hoist=787
+  point fly=1337 hoist=787
+  point fly=1337 hoist=808
+  point fly=1316 hoist=808
+  point fly=1316 hoist=829
+  point fly=1295 hoist=829
+  point fly=1295 hoist=850
+  point fly=1316 hoist=850
+  point fly=1316 hoist=871
+  point fly=1337 hoist=871
+  point fly=1337 hoist=850
+  point fly=1358 hoist=850
+  point fly=1358 hoist=829
+  point fly=1379 hoist=829
+  point fly=1379 hoist=808
+  point fly=1400 hoist=808
+  point fly=1400 hoist=787
+  point fly=1422 hoist=787
+  point fly=1422 hoist=765
+  point fly=1358 hoist=765
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=1751
+}
+
+charge polygon red {
+  point fly=2649 hoist=976
+  point fly=2670 hoist=976
+  point fly=2670 hoist=955
+  point fly=2649 hoist=955
+  point fly=2649 hoist=934
+  point fly=2629 hoist=934
+  point fly=2629 hoist=955
+  point fly=2607 hoist=955
+  point fly=2607 hoist=976
+  point fly=2586 hoist=976
+  point fly=2586 hoist=998
+  point fly=2565 hoist=998
+  point fly=2565 hoist=1019
+  point fly=2543 hoist=1019
+  point fly=2543 hoist=1040
+  point fly=2607 hoist=1040
+  point fly=2607 hoist=1019
+  point fly=2629 hoist=1019
+  point fly=2629 hoist=998
+  point fly=2649 hoist=998
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=2850 hoist=733
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2850 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2893 hoist=1071
+  at fly=2809 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2766 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2936 hoist=1071
+  at fly=2722 hoist=1071
+  at fly=2682 hoist=1071
+}
+
+charge polygon red {
+  point fly=2733 hoist=1020
+  point fly=2712 hoist=1020
+  point fly=2712 hoist=999
+  point fly=2691 hoist=999
+  point fly=2691 hoist=1020
+  point fly=2670 hoist=1020
+  point fly=2670 hoist=1041
+  point fly=2733 hoist=1041
+}
+
+charge polygon red {
+  point fly=2777 hoist=998
+  point fly=2777 hoist=1019
+  point fly=2798 hoist=1019
+  point fly=2798 hoist=1040
+  point fly=2861 hoist=1040
+  point fly=2861 hoist=1019
+  point fly=2840 hoist=1019
+  point fly=2840 hoist=998
+  point fly=2819 hoist=998
+  point fly=2819 hoist=976
+  point fly=2798 hoist=976
+  point fly=2798 hoist=955
+  point fly=2777 hoist=955
+  point fly=2777 hoist=934
+  point fly=2755 hoist=934
+  point fly=2755 hoist=955
+  point fly=2734 hoist=955
+  point fly=2734 hoist=976
+  point fly=2755 hoist=976
+  point fly=2755 hoist=998
+}
+
+charge polygon red {
+  point fly=3199 hoist=998
+  point fly=3199 hoist=1019
+  point fly=3221 hoist=1019
+  point fly=3221 hoist=1040
+  point fly=3242 hoist=1040
+  point fly=3242 hoist=913
+  point fly=3199 hoist=913
+  point fly=3199 hoist=934
+  point fly=3178 hoist=934
+  point fly=3178 hoist=913
+  point fly=3072 hoist=913
+  point fly=3072 hoist=934
+  point fly=3051 hoist=934
+  point fly=3051 hoist=913
+  point fly=2945 hoist=913
+  point fly=2945 hoist=934
+  point fly=2924 hoist=934
+  point fly=2924 hoist=913
+  point fly=2882 hoist=913
+  point fly=2882 hoist=1040
+  point fly=2903 hoist=1040
+  point fly=2903 hoist=1019
+  point fly=2924 hoist=1019
+  point fly=2924 hoist=998
+  point fly=2945 hoist=998
+  point fly=2945 hoist=976
+  point fly=2966 hoist=976
+  point fly=2966 hoist=955
+  point fly=2988 hoist=955
+  point fly=2988 hoist=934
+  point fly=3009 hoist=934
+  point fly=3009 hoist=955
+  point fly=3030 hoist=955
+  point fly=3030 hoist=976
+  point fly=3009 hoist=976
+  point fly=3009 hoist=998
+  point fly=2988 hoist=998
+  point fly=2988 hoist=1019
+  point fly=2966 hoist=1019
+  point fly=2966 hoist=1040
+  point fly=3030 hoist=1040
+  point fly=3030 hoist=1019
+  point fly=3051 hoist=1019
+  point fly=3051 hoist=998
+  point fly=3072 hoist=998
+  point fly=3072 hoist=1019
+  point fly=3093 hoist=1019
+  point fly=3093 hoist=1040
+  point fly=3157 hoist=1040
+  point fly=3157 hoist=1019
+  point fly=3136 hoist=1019
+  point fly=3136 hoist=998
+  point fly=3114 hoist=998
+  point fly=3114 hoist=976
+  point fly=3093 hoist=976
+  point fly=3093 hoist=955
+  point fly=3114 hoist=955
+  point fly=3114 hoist=934
+  point fly=3136 hoist=934
+  point fly=3136 hoist=955
+  point fly=3157 hoist=955
+  point fly=3157 hoist=976
+  point fly=3178 hoist=976
+  point fly=3178 hoist=998
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=3188 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2977 hoist=1071
+}
+
+charge rect red {
+  fly 19
+  hoist 22
+  at fly=3231 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=3147 hoist=1071
+  at fly=3020 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=3061 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=3104 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=2130 hoist=733
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2427 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2257 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2300 hoist=1071
+  at fly=2384 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2341 hoist=1071
+}
+
+charge polygon red {
+  point fly=2078 hoist=787
+  point fly=2057 hoist=787
+  point fly=2057 hoist=808
+  point fly=2036 hoist=808
+  point fly=2036 hoist=829
+  point fly=2015 hoist=829
+  point fly=2015 hoist=850
+  point fly=2036 hoist=850
+  point fly=2036 hoist=871
+  point fly=2057 hoist=871
+  point fly=2057 hoist=850
+  point fly=2078 hoist=850
+  point fly=2078 hoist=829
+  point fly=2099 hoist=829
+  point fly=2099 hoist=808
+  point fly=2120 hoist=808
+  point fly=2120 hoist=787
+  point fly=2142 hoist=787
+  point fly=2142 hoist=765
+  point fly=2078 hoist=765
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2173 hoist=1071
+  at fly=2216 hoist=1071
+}
+
+charge polygon red {
+  point fly=2501 hoist=787
+  point fly=2479 hoist=787
+  point fly=2479 hoist=808
+  point fly=2458 hoist=808
+  point fly=2458 hoist=829
+  point fly=2437 hoist=829
+  point fly=2437 hoist=850
+  point fly=2416 hoist=850
+  point fly=2416 hoist=871
+  point fly=2395 hoist=871
+  point fly=2395 hoist=850
+  point fly=2374 hoist=850
+  point fly=2374 hoist=829
+  point fly=2395 hoist=829
+  point fly=2395 hoist=808
+  point fly=2416 hoist=808
+  point fly=2416 hoist=787
+  point fly=2437 hoist=787
+  point fly=2437 hoist=765
+  point fly=2374 hoist=765
+  point fly=2374 hoist=787
+  point fly=2353 hoist=787
+  point fly=2353 hoist=808
+  point fly=2331 hoist=808
+  point fly=2331 hoist=787
+  point fly=2310 hoist=787
+  point fly=2310 hoist=765
+  point fly=2246 hoist=765
+  point fly=2246 hoist=787
+  point fly=2268 hoist=787
+  point fly=2268 hoist=808
+  point fly=2289 hoist=808
+  point fly=2289 hoist=829
+  point fly=2310 hoist=829
+  point fly=2310 hoist=850
+  point fly=2289 hoist=850
+  point fly=2289 hoist=871
+  point fly=2268 hoist=871
+  point fly=2268 hoist=850
+  point fly=2246 hoist=850
+  point fly=2246 hoist=829
+  point fly=2225 hoist=829
+  point fly=2225 hoist=808
+  point fly=2204 hoist=808
+  point fly=2204 hoist=787
+  point fly=2183 hoist=787
+  point fly=2183 hoist=765
+  point fly=2162 hoist=765
+  point fly=2162 hoist=892
+  point fly=2204 hoist=892
+  point fly=2204 hoist=871
+  point fly=2225 hoist=871
+  point fly=2225 hoist=892
+  point fly=2331 hoist=892
+  point fly=2331 hoist=871
+  point fly=2353 hoist=871
+  point fly=2353 hoist=892
+  point fly=2458 hoist=892
+  point fly=2458 hoist=871
+  point fly=2479 hoist=871
+  point fly=2479 hoist=892
+  point fly=2522 hoist=892
+  point fly=2522 hoist=765
+  point fly=2501 hoist=765
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2468 hoist=1071
+  at fly=2595 hoist=1071
+  at fly=1198 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=2511 hoist=733
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=2555 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2511 hoist=1071
+}
+
+charge polygon red {
+  point fly=2479 hoist=936
+  point fly=2458 hoist=936
+  point fly=2458 hoist=914
+  point fly=2353 hoist=914
+  point fly=2353 hoist=936
+  point fly=2331 hoist=936
+  point fly=2331 hoist=914
+  point fly=2225 hoist=914
+  point fly=2225 hoist=936
+  point fly=2204 hoist=936
+  point fly=2204 hoist=914
+  point fly=2162 hoist=914
+  point fly=2162 hoist=1041
+  point fly=2183 hoist=1041
+  point fly=2183 hoist=1020
+  point fly=2204 hoist=1020
+  point fly=2204 hoist=999
+  point fly=2225 hoist=999
+  point fly=2225 hoist=978
+  point fly=2246 hoist=978
+  point fly=2246 hoist=957
+  point fly=2268 hoist=957
+  point fly=2268 hoist=936
+  point fly=2289 hoist=936
+  point fly=2289 hoist=957
+  point fly=2310 hoist=957
+  point fly=2310 hoist=978
+  point fly=2289 hoist=978
+  point fly=2289 hoist=999
+  point fly=2268 hoist=999
+  point fly=2268 hoist=1020
+  point fly=2246 hoist=1020
+  point fly=2246 hoist=1041
+  point fly=2310 hoist=1041
+  point fly=2310 hoist=1020
+  point fly=2331 hoist=1020
+  point fly=2331 hoist=999
+  point fly=2353 hoist=999
+  point fly=2353 hoist=1020
+  point fly=2374 hoist=1020
+  point fly=2374 hoist=1041
+  point fly=2437 hoist=1041
+  point fly=2437 hoist=1020
+  point fly=2416 hoist=1020
+  point fly=2416 hoist=999
+  point fly=2395 hoist=999
+  point fly=2395 hoist=978
+  point fly=2374 hoist=978
+  point fly=2374 hoist=957
+  point fly=2395 hoist=957
+  point fly=2395 hoist=936
+  point fly=2416 hoist=936
+  point fly=2416 hoist=957
+  point fly=2437 hoist=957
+  point fly=2437 hoist=978
+  point fly=2458 hoist=978
+  point fly=2458 hoist=999
+  point fly=2479 hoist=999
+  point fly=2479 hoist=1020
+  point fly=2501 hoist=1020
+  point fly=2501 hoist=1041
+  point fly=2522 hoist=1041
+  point fly=2522 hoist=914
+  point fly=2479 hoist=914
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=2638 hoist=1071
+}
+
+charge rect red {
+  fly 22
+  hoist 21
+  at fly=1410 hoist=733
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=882 hoist=1136
+}
+
+charge polygon red {
+  point fly=785 hoist=936
+  point fly=764 hoist=936
+  point fly=764 hoist=914
+  point fly=721 hoist=914
+  point fly=721 hoist=1041
+  point fly=742 hoist=1041
+  point fly=742 hoist=1020
+  point fly=764 hoist=1020
+  point fly=764 hoist=999
+  point fly=785 hoist=999
+  point fly=785 hoist=978
+  point fly=806 hoist=978
+  point fly=806 hoist=957
+  point fly=827 hoist=957
+  point fly=827 hoist=936
+  point fly=848 hoist=936
+  point fly=848 hoist=957
+  point fly=869 hoist=957
+  point fly=869 hoist=978
+  point fly=848 hoist=978
+  point fly=848 hoist=999
+  point fly=827 hoist=999
+  point fly=827 hoist=1020
+  point fly=806 hoist=1020
+  point fly=806 hoist=1041
+  point fly=785 hoist=1041
+  point fly=785 hoist=1062
+  point fly=764 hoist=1062
+  point fly=764 hoist=1084
+  point fly=890 hoist=1084
+  point fly=890 hoist=1041
+  point fly=869 hoist=1041
+  point fly=869 hoist=1020
+  point fly=890 hoist=1020
+  point fly=890 hoist=914
+  point fly=785 hoist=914
+}
+
+charge polygon red {
+  point fly=766 hoist=744
+  point fly=787 hoist=744
+  point fly=787 hoist=765
+  point fly=808 hoist=765
+  point fly=808 hoist=786
+  point fly=829 hoist=786
+  point fly=829 hoist=807
+  point fly=850 hoist=807
+  point fly=850 hoist=828
+  point fly=871 hoist=828
+  point fly=871 hoist=849
+  point fly=850 hoist=849
+  point fly=850 hoist=871
+  point fly=829 hoist=871
+  point fly=829 hoist=849
+  point fly=808 hoist=849
+  point fly=808 hoist=828
+  point fly=787 hoist=828
+  point fly=787 hoist=807
+  point fly=766 hoist=807
+  point fly=766 hoist=786
+  point fly=744 hoist=786
+  point fly=744 hoist=765
+  point fly=723 hoist=765
+  point fly=723 hoist=892
+  point fly=766 hoist=892
+  point fly=766 hoist=871
+  point fly=787 hoist=871
+  point fly=787 hoist=892
+  point fly=892 hoist=892
+  point fly=892 hoist=786
+  point fly=871 hoist=786
+  point fly=871 hoist=765
+  point fly=892 hoist=765
+  point fly=892 hoist=723
+  point fly=766 hoist=723
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=882 hoist=671
+}
+
+charge polygon red {
+  point fly=766 hoist=1296
+  point fly=787 hoist=1296
+  point fly=787 hoist=1274
+  point fly=808 hoist=1274
+  point fly=808 hoist=1253
+  point fly=787 hoist=1253
+  point fly=787 hoist=1232
+  point fly=766 hoist=1232
+}
+
+charge polygon red {
+  point fly=766 hoist=1420
+  point fly=787 hoist=1420
+  point fly=787 hoist=1399
+  point fly=808 hoist=1399
+  point fly=808 hoist=1378
+  point fly=829 hoist=1378
+  point fly=829 hoist=1357
+  point fly=850 hoist=1357
+  point fly=850 hoist=1336
+  point fly=871 hoist=1336
+  point fly=871 hoist=1315
+  point fly=850 hoist=1315
+  point fly=850 hoist=1294
+  point fly=829 hoist=1294
+  point fly=829 hoist=1315
+  point fly=808 hoist=1315
+  point fly=808 hoist=1336
+  point fly=787 hoist=1336
+  point fly=787 hoist=1357
+  point fly=766 hoist=1357
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=882 hoist=1263
+  at fly=882 hoist=543
+  at fly=882 hoist=1391
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=882 hoist=416
+  at fly=1071 hoist=1707
+}
+
+charge polygon red {
+  point fly=1018 hoist=1252
+  point fly=997 hoist=1252
+  point fly=997 hoist=1273
+  point fly=1018 hoist=1273
+  point fly=1018 hoist=1295
+  point fly=1039 hoist=1295
+  point fly=1039 hoist=1231
+  point fly=1018 hoist=1231
+}
+
+charge rect red {
+  fly 21
+  hoist 20
+  at fly=1071 hoist=1790
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=1751
+}
+
+charge polygon red {
+  point fly=912 hoist=1485
+  point fly=933 hoist=1485
+  point fly=933 hoist=1507
+  point fly=912 hoist=1507
+  point fly=912 hoist=1612
+  point fly=933 hoist=1612
+  point fly=933 hoist=1633
+  point fly=912 hoist=1633
+  point fly=912 hoist=1740
+  point fly=933 hoist=1740
+  point fly=933 hoist=1761
+  point fly=912 hoist=1761
+  point fly=912 hoist=1803
+  point fly=1039 hoist=1803
+  point fly=1039 hoist=1782
+  point fly=1018 hoist=1782
+  point fly=1018 hoist=1761
+  point fly=997 hoist=1761
+  point fly=997 hoist=1740
+  point fly=976 hoist=1740
+  point fly=976 hoist=1719
+  point fly=954 hoist=1719
+  point fly=954 hoist=1697
+  point fly=933 hoist=1697
+  point fly=933 hoist=1676
+  point fly=954 hoist=1676
+  point fly=954 hoist=1655
+  point fly=976 hoist=1655
+  point fly=976 hoist=1676
+  point fly=997 hoist=1676
+  point fly=997 hoist=1697
+  point fly=1018 hoist=1697
+  point fly=1018 hoist=1719
+  point fly=1039 hoist=1719
+  point fly=1039 hoist=1655
+  point fly=1018 hoist=1655
+  point fly=1018 hoist=1633
+  point fly=997 hoist=1633
+  point fly=997 hoist=1612
+  point fly=1018 hoist=1612
+  point fly=1018 hoist=1591
+  point fly=1039 hoist=1591
+  point fly=1039 hoist=1528
+  point fly=1018 hoist=1528
+  point fly=1018 hoist=1549
+  point fly=997 hoist=1549
+  point fly=997 hoist=1570
+  point fly=976 hoist=1570
+  point fly=976 hoist=1591
+  point fly=954 hoist=1591
+  point fly=954 hoist=1570
+  point fly=933 hoist=1570
+  point fly=933 hoist=1549
+  point fly=954 hoist=1549
+  point fly=954 hoist=1528
+  point fly=976 hoist=1528
+  point fly=976 hoist=1507
+  point fly=997 hoist=1507
+  point fly=997 hoist=1485
+  point fly=1018 hoist=1485
+  point fly=1018 hoist=1464
+  point fly=1039 hoist=1464
+  point fly=1039 hoist=1443
+  point fly=912 hoist=1443
+}
+
+charge polygon red {
+  point fly=766 hoist=24
+  point fly=787 hoist=24
+  point fly=787 hoist=45
+  point fly=808 hoist=45
+  point fly=808 hoist=66
+  point fly=829 hoist=66
+  point fly=829 hoist=87
+  point fly=850 hoist=87
+  point fly=850 hoist=108
+  point fly=871 hoist=108
+  point fly=871 hoist=129
+  point fly=850 hoist=129
+  point fly=850 hoist=151
+  point fly=829 hoist=151
+  point fly=829 hoist=129
+  point fly=808 hoist=129
+  point fly=808 hoist=108
+  point fly=787 hoist=108
+  point fly=787 hoist=87
+  point fly=766 hoist=87
+  point fly=766 hoist=151
+  point fly=787 hoist=151
+  point fly=787 hoist=172
+  point fly=808 hoist=172
+  point fly=808 hoist=193
+  point fly=787 hoist=193
+  point fly=787 hoist=214
+  point fly=766 hoist=214
+  point fly=766 hoist=278
+  point fly=787 hoist=278
+  point fly=787 hoist=256
+  point fly=808 hoist=256
+  point fly=808 hoist=235
+  point fly=829 hoist=235
+  point fly=829 hoist=214
+  point fly=850 hoist=214
+  point fly=850 hoist=235
+  point fly=871 hoist=235
+  point fly=871 hoist=256
+  point fly=850 hoist=256
+  point fly=850 hoist=278
+  point fly=829 hoist=278
+  point fly=829 hoist=299
+  point fly=808 hoist=299
+  point fly=808 hoist=320
+  point fly=787 hoist=320
+  point fly=787 hoist=341
+  point fly=766 hoist=341
+  point fly=766 hoist=363
+  point fly=892 hoist=363
+  point fly=892 hoist=320
+  point fly=871 hoist=320
+  point fly=871 hoist=299
+  point fly=892 hoist=299
+  point fly=892 hoist=193
+  point fly=871 hoist=193
+  point fly=871 hoist=172
+  point fly=892 hoist=172
+  point fly=892 hoist=66
+  point fly=871 hoist=66
+  point fly=871 hoist=45
+  point fly=892 hoist=45
+  point fly=892 hoist=3
+  point fly=766 hoist=3
+}
+
+charge polygon red {
+  point fly=766 hoist=1104
+  point fly=766 hoist=1167
+  point fly=787 hoist=1167
+  point fly=787 hoist=1188
+  point fly=808 hoist=1188
+  point fly=808 hoist=1209
+  point fly=829 hoist=1209
+  point fly=829 hoist=1231
+  point fly=850 hoist=1231
+  point fly=850 hoist=1209
+  point fly=871 hoist=1209
+  point fly=871 hoist=1188
+  point fly=850 hoist=1188
+  point fly=850 hoist=1167
+  point fly=829 hoist=1167
+  point fly=829 hoist=1146
+  point fly=808 hoist=1146
+  point fly=808 hoist=1125
+  point fly=787 hoist=1125
+  point fly=787 hoist=1104
+}
+
+charge polygon red {
+  point fly=1018 hoist=1336
+  point fly=997 hoist=1336
+  point fly=997 hoist=1315
+  point fly=976 hoist=1315
+  point fly=976 hoist=1294
+  point fly=954 hoist=1294
+  point fly=954 hoist=1315
+  point fly=933 hoist=1315
+  point fly=933 hoist=1336
+  point fly=954 hoist=1336
+  point fly=954 hoist=1358
+  point fly=976 hoist=1358
+  point fly=976 hoist=1379
+  point fly=997 hoist=1379
+  point fly=997 hoist=1400
+  point fly=1018 hoist=1400
+  point fly=1018 hoist=1421
+  point fly=1039 hoist=1421
+  point fly=1039 hoist=1358
+  point fly=1018 hoist=1358
+}
+
+charge polygon red {
+  point fly=1018 hoist=1125
+  point fly=997 hoist=1125
+  point fly=997 hoist=1147
+  point fly=976 hoist=1147
+  point fly=976 hoist=1168
+  point fly=954 hoist=1168
+  point fly=954 hoist=1189
+  point fly=933 hoist=1189
+  point fly=933 hoist=1210
+  point fly=954 hoist=1210
+  point fly=954 hoist=1231
+  point fly=976 hoist=1231
+  point fly=976 hoist=1210
+  point fly=997 hoist=1210
+  point fly=997 hoist=1189
+  point fly=1018 hoist=1189
+  point fly=1018 hoist=1168
+  point fly=1039 hoist=1168
+  point fly=1039 hoist=1104
+  point fly=1018 hoist=1104
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=733 hoist=1496
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=1537
+  at fly=733 hoist=1453
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=733 hoist=1580
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=1664
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=733 hoist=1707
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=1623
+  at fly=733 hoist=1410
+}
+
+charge polygon red {
+  point fly=766 hoist=1464
+  point fly=787 hoist=1464
+  point fly=787 hoist=1485
+  point fly=808 hoist=1485
+  point fly=808 hoist=1506
+  point fly=829 hoist=1506
+  point fly=829 hoist=1527
+  point fly=850 hoist=1527
+  point fly=850 hoist=1548
+  point fly=871 hoist=1548
+  point fly=871 hoist=1569
+  point fly=850 hoist=1569
+  point fly=850 hoist=1591
+  point fly=829 hoist=1591
+  point fly=829 hoist=1569
+  point fly=808 hoist=1569
+  point fly=808 hoist=1548
+  point fly=787 hoist=1548
+  point fly=787 hoist=1527
+  point fly=766 hoist=1527
+  point fly=766 hoist=1591
+  point fly=787 hoist=1591
+  point fly=787 hoist=1612
+  point fly=808 hoist=1612
+  point fly=808 hoist=1633
+  point fly=787 hoist=1633
+  point fly=787 hoist=1654
+  point fly=766 hoist=1654
+  point fly=766 hoist=1718
+  point fly=787 hoist=1718
+  point fly=787 hoist=1696
+  point fly=808 hoist=1696
+  point fly=808 hoist=1675
+  point fly=829 hoist=1675
+  point fly=829 hoist=1654
+  point fly=850 hoist=1654
+  point fly=850 hoist=1675
+  point fly=871 hoist=1675
+  point fly=871 hoist=1696
+  point fly=850 hoist=1696
+  point fly=850 hoist=1718
+  point fly=829 hoist=1718
+  point fly=829 hoist=1739
+  point fly=808 hoist=1739
+  point fly=808 hoist=1760
+  point fly=787 hoist=1760
+  point fly=787 hoist=1781
+  point fly=766 hoist=1781
+  point fly=766 hoist=1803
+  point fly=892 hoist=1803
+  point fly=892 hoist=1760
+  point fly=871 hoist=1760
+  point fly=871 hoist=1739
+  point fly=892 hoist=1739
+  point fly=892 hoist=1633
+  point fly=871 hoist=1633
+  point fly=871 hoist=1612
+  point fly=892 hoist=1612
+  point fly=892 hoist=1506
+  point fly=871 hoist=1506
+  point fly=871 hoist=1485
+  point fly=892 hoist=1485
+  point fly=892 hoist=1443
+  point fly=766 hoist=1443
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=1158
+  at fly=733 hoist=1199
+  at fly=733 hoist=1115
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=733 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=733 hoist=1369
+  at fly=733 hoist=1326
+  at fly=733 hoist=1242
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=733 hoist=1285
+  at fly=1071 hoist=351
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=438
+  at fly=1071 hoist=395
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1155 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=479
+  at fly=1071 hoist=311
+  at fly=1071 hoist=649
+  at fly=1071 hoist=606
+  at fly=1071 hoist=522
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1071 hoist=565
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=13
+  at fly=1071 hoist=690
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1071 hoist=267
+  at fly=1071 hoist=56
+}
+
+charge rect red {
+  fly 22
+  hoist 22
+  at fly=1115 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=97
+  at fly=1071 hoist=224
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1071 hoist=140
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=183
+}
+
+charge polygon red {
+  point fly=1039 hoist=936
+  point fly=1018 hoist=936
+  point fly=1018 hoist=914
+  point fly=913 hoist=914
+  point fly=913 hoist=1020
+  point fly=934 hoist=1020
+  point fly=934 hoist=1041
+  point fly=913 hoist=1041
+  point fly=913 hoist=1084
+  point fly=1039 hoist=1084
+  point fly=1039 hoist=1062
+  point fly=1018 hoist=1062
+  point fly=1018 hoist=1041
+  point fly=997 hoist=1041
+  point fly=997 hoist=1020
+  point fly=976 hoist=1020
+  point fly=976 hoist=999
+  point fly=955 hoist=999
+  point fly=955 hoist=978
+  point fly=934 hoist=978
+  point fly=934 hoist=957
+  point fly=955 hoist=957
+  point fly=955 hoist=936
+  point fly=976 hoist=936
+  point fly=976 hoist=957
+  point fly=997 hoist=957
+  point fly=997 hoist=978
+  point fly=1018 hoist=978
+  point fly=1018 hoist=999
+  point fly=1039 hoist=999
+  point fly=1039 hoist=1020
+  point fly=1061 hoist=1020
+  point fly=1061 hoist=1041
+  point fly=1082 hoist=1041
+  point fly=1082 hoist=914
+  point fly=1039 hoist=914
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=1453
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1071 hoist=1496
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=1410
+  at fly=1071 hoist=1369
+  at fly=1071 hoist=733
+  at fly=1071 hoist=1623
+  at fly=1071 hoist=1326
+  at fly=1071 hoist=1537
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1071 hoist=1580
+  at fly=1071 hoist=1071
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=1664
+  at fly=1071 hoist=1115
+}
+
+charge polygon red {
+  point fly=1061 hoist=787
+  point fly=1039 hoist=787
+  point fly=1039 hoist=808
+  point fly=1018 hoist=808
+  point fly=1018 hoist=829
+  point fly=997 hoist=829
+  point fly=997 hoist=850
+  point fly=976 hoist=850
+  point fly=976 hoist=871
+  point fly=955 hoist=871
+  point fly=955 hoist=850
+  point fly=934 hoist=850
+  point fly=934 hoist=829
+  point fly=955 hoist=829
+  point fly=955 hoist=808
+  point fly=976 hoist=808
+  point fly=976 hoist=787
+  point fly=997 hoist=787
+  point fly=997 hoist=765
+  point fly=1018 hoist=765
+  point fly=1018 hoist=744
+  point fly=1039 hoist=744
+  point fly=1039 hoist=723
+  point fly=913 hoist=723
+  point fly=913 hoist=765
+  point fly=934 hoist=765
+  point fly=934 hoist=787
+  point fly=913 hoist=787
+  point fly=913 hoist=892
+  point fly=1018 hoist=892
+  point fly=1018 hoist=871
+  point fly=1039 hoist=871
+  point fly=1039 hoist=892
+  point fly=1082 hoist=892
+  point fly=1082 hoist=765
+  point fly=1061 hoist=765
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=1158
+}
+
+charge rect red {
+  fly 21
+  hoist 22
+  at fly=1071 hoist=1285
+}
+
+charge rect red {
+  fly 21
+  hoist 21
+  at fly=1071 hoist=1242
+  at fly=1071 hoist=1199
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=501 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=458 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=373 hoist=1052
+  at fly=712 hoist=1052
+  at fly=628 hoist=1052
+  at fly=585 hoist=1052
+  at fly=670 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=543 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=416 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=35 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=77 hoist=1052
+  at fly=289 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=331 hoist=1052
+  at fly=247 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=162 hoist=1052
+  at fly=204 hoist=1052
+  at fly=120 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=1306
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=755 hoist=1348
+  at fly=755 hoist=1433
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=1094
+  at fly=755 hoist=1179
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=755 hoist=1221
+  at fly=755 hoist=1137
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=1263
+  at fly=755 hoist=1391
+  at fly=755 hoist=1772
+  at fly=755 hoist=1730
+  at fly=755 hoist=1518
+  at fly=755 hoist=1475
+  at fly=755 hoist=1560
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=755 hoist=1645
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=1602
+  at fly=755 hoist=1687
+  at fly=755 hoist=1052
+  at fly=1051 hoist=1094
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=1051 hoist=1433
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1051 hoist=1306
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=1051 hoist=1348
+  at fly=1051 hoist=1137
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1051 hoist=1263
+  at fly=1051 hoist=1391
+  at fly=1051 hoist=1772
+  at fly=1051 hoist=1730
+  at fly=1051 hoist=1518
+  at fly=1051 hoist=1475
+  at fly=1051 hoist=1560
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=1051 hoist=1645
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1051 hoist=1602
+  at fly=1051 hoist=1687
+  at fly=1051 hoist=1179
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=1051 hoist=1221
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1051 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2745 hoist=1052
+  at fly=2788 hoist=1052
+  at fly=2872 hoist=1052
+  at fly=2533 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2618 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2661 hoist=1052
+  at fly=2576 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2703 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2830 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=3211 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=3169 hoist=1052
+  at fly=2957 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2915 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=3000 hoist=1052
+  at fly=3084 hoist=1052
+  at fly=3042 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=3126 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2025 hoist=1052
+  at fly=2068 hoist=1052
+  at fly=2152 hoist=1052
+  at fly=1813 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1898 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1941 hoist=1052
+  at fly=1856 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1983 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2110 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2491 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2449 hoist=1052
+  at fly=2237 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2195 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2280 hoist=1052
+  at fly=2364 hoist=1052
+  at fly=2322 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2407 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1305 hoist=1052
+  at fly=1348 hoist=1052
+  at fly=1432 hoist=1052
+  at fly=1093 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1178 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1221 hoist=1052
+  at fly=1136 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1263 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1390 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1771 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1729 hoist=1052
+  at fly=1517 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1475 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1560 hoist=1052
+  at fly=1644 hoist=1052
+  at fly=1602 hoist=1052
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1687 hoist=1052
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2533 hoist=755
+  at fly=2872 hoist=755
+  at fly=2745 hoist=755
+  at fly=2788 hoist=755
+  at fly=2576 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2703 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2830 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=3211 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=3169 hoist=755
+  at fly=2957 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2915 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=3000 hoist=755
+  at fly=3084 hoist=755
+  at fly=3042 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=3126 hoist=755
+  at fly=2618 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2661 hoist=755
+  at fly=1813 hoist=755
+  at fly=2152 hoist=755
+  at fly=2025 hoist=755
+  at fly=2068 hoist=755
+  at fly=1856 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1983 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2110 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2491 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2449 hoist=755
+  at fly=2237 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2195 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=2280 hoist=755
+  at fly=2364 hoist=755
+  at fly=2322 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=2407 hoist=755
+  at fly=1898 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1941 hoist=755
+  at fly=1093 hoist=755
+  at fly=1432 hoist=755
+  at fly=1305 hoist=755
+  at fly=1348 hoist=755
+  at fly=1136 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1263 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1390 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1771 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1729 hoist=755
+  at fly=1517 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1475 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1560 hoist=755
+  at fly=1644 hoist=755
+  at fly=1602 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1687 hoist=755
+  at fly=1178 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=1221 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=1051 hoist=501
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1051 hoist=459
+  at fly=1051 hoist=374
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=1051 hoist=713
+  at fly=1051 hoist=628
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1051 hoist=586
+  at fly=1051 hoist=671
+  at fly=1051 hoist=543
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=1051 hoist=417
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1051 hoist=35
+  at fly=1051 hoist=78
+  at fly=1051 hoist=290
+  at fly=1051 hoist=332
+  at fly=1051 hoist=247
+  at fly=1051 hoist=162
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=1051 hoist=205
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=1051 hoist=120
+  at fly=1051 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=755 hoist=713
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=374
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=755 hoist=501
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=459
+  at fly=755 hoist=671
+  at fly=755 hoist=543
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=755 hoist=417
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=35
+  at fly=755 hoist=78
+  at fly=755 hoist=290
+  at fly=755 hoist=332
+  at fly=755 hoist=247
+  at fly=755 hoist=162
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=755 hoist=205
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=120
+}
+
+charge rect blue {
+  fly 22
+  hoist 22
+  at fly=755 hoist=628
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=586
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=712 hoist=755
+  at fly=373 hoist=755
+  at fly=501 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=458 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=670 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=543 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=416 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=35 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=77 hoist=755
+  at fly=289 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=331 hoist=755
+  at fly=247 hoist=755
+}
+
+charge rect blue {
+  fly 21
+  hoist 21
+  at fly=162 hoist=755
+  at fly=204 hoist=755
+  at fly=120 hoist=755
+  at fly=628 hoist=755
+  at fly=585 hoist=755
+}
+
+charge rect blue {
+  fly 22
+  hoist 21
+  at fly=755 hoist=755
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 11.9997
-  at fly=500.6354 hoist=595.0758
+  fly 22
+  hoist 22
+  at fly=901 hoist=1071
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 35.3325
-  at fly=500.6354 hoist=466.079
-  at fly=500.6354 hoist=536.7439
-  at fly=500.6354 hoist=702.0731
-  at fly=500.6354 hoist=631.4082
-  at fly=500.6354 hoist=302.0831
+  fly 22
+  hoist 64
+  at fly=901 hoist=839
+  at fly=901 hoist=966
+  at fly=901 hoist=1264
+  at fly=901 hoist=1137
+  at fly=901 hoist=544
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 11.9997
-  at fly=500.6354 hoist=195.0858
+  fly 22
+  hoist 22
+  at fly=901 hoist=351
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 35.3324
-  at fly=500.6354 hoist=231.4182
+  fly 22
+  hoist 64
+  at fly=901 hoist=417
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 11.6664
-  at fly=500.6354 hoist=407.2471
-  at fly=500.6354 hoist=807.2371
+  fly 22
+  hoist 21
+  at fly=901 hoist=733
+  at fly=901 hoist=1453
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 34.9991
-  at fly=500.6354 hoist=371.5813
+  fly 22
+  hoist 63
+  at fly=901 hoist=669
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=301.6403 hoist=501.9114
-  at fly=136.3111 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=543 hoist=903
+  at fly=245 hoist=903
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=195.143 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=351 hoist=903
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=230.9754 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=416 hoist=903
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=7.1477 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=13 hoist=903
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 35.3325
-  at fly=500.6354 hoist=866.069
+  fly 22
+  hoist 64
+  at fly=901 hoist=1559
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=65.6462 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=118 hoist=903
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 35.3325
-  at fly=500.6354 hoist=136.7539
+  fly 22
+  hoist 64
+  at fly=901 hoist=246
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 10.9341
-  at fly=500.6354 hoist=994.533
+  fly 22
+  hoist 20
+  at fly=901 hoist=1790
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 35.3324
-  at fly=500.6354 hoist=936.7339
+  fly 22
+  hoist 64
+  at fly=901 hoist=1686
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=465.6362 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=838 hoist=903
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=407.1377 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=733 hoist=903
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=372.3052 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=670 hoist=903
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 34.9991
-  at fly=500.6354 hoist=771.5713
+  fly 22
+  hoist 63
+  at fly=901 hoist=1389
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1395.113 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=2511 hoist=903
 }
 
 charge rect teal {
-  fly 35.3324
-  hoist 11.6664
-  at fly=1172.2852 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=2110 hoist=903
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=1336.2811 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=2405 hoist=903
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 35.3324
-  at fly=500.6354 hoist=66.089
+  fly 22
+  hoist 64
+  at fly=901 hoist=119
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=1265.6162 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=2278 hoist=903
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1207.1177 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=2173 hoist=903
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=1501.6103 hoist=501.9114
-  at fly=1572.2752 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=2703 hoist=903
+  at fly=2830 hoist=903
 }
 
 charge rect teal {
-  fly 10.3969
-  hoist 11.6664
-  at fly=1794.8016 hoist=501.5781
+  fly 19
+  hoist 21
+  at fly=3231 hoist=903
 }
 
 charge rect teal {
-  fly 35.3324
-  hoist 11.6664
-  at fly=1736.2711 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=3125 hoist=903
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=1607.1077 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=2893 hoist=903
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=1665.6062 hoist=501.9114
-  at fly=1430.9454 hoist=501.9114
-  at fly=630.9654 hoist=501.9114
-  at fly=772.2952 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=2998 hoist=903
+  at fly=2576 hoist=903
+  at fly=1136 hoist=903
+  at fly=1390 hoist=903
 }
 
 charge rect teal {
-  fly 35.3324
-  hoist 11.6664
-  at fly=701.6303 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=1263 hoist=903
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=595.133 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=1071 hoist=903
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=536.3011 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=965 hoist=903
 }
 
 charge rect teal {
-  fly 11.9997
-  hoist 11.6664
-  at fly=500.6354 hoist=7.2571
+  fly 22
+  hoist 21
+  at fly=901 hoist=13
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=995.123 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=1791 hoist=903
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=1030.9554 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=1856 hoist=903
 }
 
 charge rect teal {
-  fly 11.6664
-  hoist 11.6664
-  at fly=807.1277 hoist=501.9114
+  fly 21
+  hoist 21
+  at fly=1453 hoist=903
 }
 
 charge rect teal {
-  fly 35.3325
-  hoist 11.6664
-  at fly=1101.6203 hoist=501.9114
-  at fly=865.6262 hoist=501.9114
-  at fly=936.2911 hoist=501.9114
+  fly 64
+  hoist 21
+  at fly=1983 hoist=903
+  at fly=1558 hoist=903
+  at fly=1685 hoist=903
 }

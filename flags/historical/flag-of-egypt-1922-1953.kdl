@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Egypt (1922-1953)"
@@ -11,36 +10,33 @@ palette {
   green "#00672b"
   white "#ffffff"
 }
-proportion hoist=672 fly=1008
+proportion hoist=2 fly=3
 
 field green
 
 charge disc white {
-  radius 168
-  at fly=448 hoist=336
+  radius 0.5
+  at fly=1.3333 hoist=1
 }
 
 charge disc green {
-  radius 142
-  at fly=485 hoist=336
+  radius 0.4226
+  at fly=1.4435 hoist=1
 }
 
 charge star white {
-  radius 42
-  inner 15.96
-  at fly=448 hoist=264
+  radius 0.125
+  at fly=1.3333 hoist=0.7857
 }
 
 charge star white {
-  radius 42
-  inner 15.96
+  radius 0.125
   rotate -36
-  at fly=448 hoist=408
+  at fly=1.3333 hoist=1.2143
 }
 
 charge star white {
-  radius 42
-  inner 15.96
+  radius 0.125
   rotate 18
-  at fly=572.7077 hoist=336
+  at fly=1.7045 hoist=1
 }

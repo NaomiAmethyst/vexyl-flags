@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Okinawa Prefecture"
@@ -11,24 +10,23 @@ palette {
   white "#ffffff"
   red "#ee0000"
 }
-proportion hoist=141.023 fly=211.667
+proportion hoist=1 fly=1.5009
 
 field white
 
 charge disc red {
-  radius 50.237
-  at fly=105.833 hoist=70.398
-  anchor center
+  radius 0.3562
+  at center
 }
 
 charge ellipse white {
-  fly 68.704
-  hoist 70.222
-  at fly=105.833 hoist=60.397
+  fly 0.4872
+  hoist 0.4979
+  at fly=0.7505 hoist=0.4283
 }
 
 charge ellipse red {
-  fly 45.146
-  hoist 45.076
-  at fly=105.834 hoist=52.654
+  fly 0.3201
+  hoist 0.3196
+  at fly=0.7505 hoist=0.3734
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Proposed German National Flag 1948"
@@ -12,12 +11,12 @@ palette {
   black "#000000"
   yellow "#ffce00"
 }
-proportion hoist=800 fly=1100
+proportion hoist=16 fly=22
 
 field red
 
 cross yellow {
-  fly 350 100 650
-  hoist 350 100 350
-  fimbriate black 50
+  fly 7 2 13
+  hoist 7 2 7
+  fimbriate black 1
 }

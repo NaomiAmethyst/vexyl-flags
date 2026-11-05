@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Yugra"
@@ -12,7 +11,7 @@ palette {
   white "#ffffff"
   blue "#2e96ff"
 }
-proportion hoist=20 fly=40
+proportion hoist=10 fly=20
 
 bars green white {
   along hoist
@@ -20,16 +19,16 @@ bars green white {
 }
 
 canton {
-  fly 38
-  hoist 10
+  fly 19
+  hoist 5
   field blue
 }
 
 charge svg {
   at center
-  fly 40
-  hoist 20
+  fly 20
+  hoist 10
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20"><path d="M15,2 12,6 8,6 5,2 M12.5,2.25 10,5.65 7.5,2.25 M8.5,3.6 9.5,2.25 M11.5,3.6 10.5,2.25" stroke-linecap="round" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20"><path d="M15,2 12,6 8,6 5,2 M12.5,2.25 10,5.65 7.5,2.25 M8.5,3.6 9.5,2.25 M11.5,3.6 10.5,2.25" fill="none" stroke="#ffffff" stroke-linecap="round" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }

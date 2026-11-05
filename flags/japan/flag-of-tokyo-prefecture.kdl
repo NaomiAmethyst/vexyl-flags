@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tokyo Prefecture"
@@ -11,72 +10,69 @@ palette {
   purple "#4b0082"
   white "#ffffff"
 }
-proportion hoist=18 fly=27
+proportion hoist=2 fly=3
 
 field purple
 
 charge polygon white {
-  point fly=13.5 hoist=15
-  point fly=14 hoist=14.5193
-  point fly=14 hoist=11
-  point fly=13 hoist=11
-  point fly=13 hoist=14.5193
+  point fly=1.5 hoist=1.6667
+  point fly=1.5556 hoist=1.6133
+  point fly=1.5556 hoist=1.2222
+  point fly=1.4444 hoist=1.2222
+  point fly=1.4444 hoist=1.6133
 }
 
 charge polygon white {
-  point fly=8.3038 hoist=12
-  point fly=8.9702 hoist=12.1926
-  point fly=12.0179 hoist=10.433
-  point fly=11.5179 hoist=9.567
-  point fly=8.4702 hoist=11.3266
+  point fly=0.9226 hoist=1.3333
+  point fly=0.9967 hoist=1.3547
+  point fly=1.3353 hoist=1.1592
+  point fly=1.2798 hoist=1.0625
+  point fly=0.9411 hoist=1.2585
 }
 
 charge polygon white {
-  point fly=18.6962 hoist=12
-  point fly=18.5298 hoist=11.3266
-  point fly=15.4821 hoist=9.567
-  point fly=14.9821 hoist=10.433
-  point fly=18.0298 hoist=12.1926
+  point fly=2.0774 hoist=1.3333
+  point fly=2.0589 hoist=1.2585
+  point fly=1.7202 hoist=1.0625
+  point fly=1.6647 hoist=1.1592
+  point fly=2.0033 hoist=1.3547
 }
 
 charge polygon white {
-  point fly=13.5 hoist=3
-  point fly=14 hoist=3.4807
-  point fly=14 hoist=7
-  point fly=13 hoist=7
-  point fly=13 hoist=3.4807
+  point fly=1.5 hoist=0.3333
+  point fly=1.5556 hoist=0.3867
+  point fly=1.5556 hoist=0.7778
+  point fly=1.4444 hoist=0.7778
+  point fly=1.4444 hoist=0.3867
 }
 
 charge polygon white {
-  point fly=8.3038 hoist=6
-  point fly=8.9702 hoist=5.8074
-  point fly=12.0179 hoist=7.567
-  point fly=11.5179 hoist=8.433
-  point fly=8.4702 hoist=6.6734
+  point fly=0.9226 hoist=0.6667
+  point fly=0.9967 hoist=0.6453
+  point fly=1.3353 hoist=0.8408
+  point fly=1.2798 hoist=0.9375
+  point fly=0.9411 hoist=0.7415
 }
 
 charge polygon white {
-  point fly=18.6962 hoist=6
-  point fly=18.5298 hoist=6.6734
-  point fly=15.4821 hoist=8.433
-  point fly=14.9821 hoist=7.567
-  point fly=18.0298 hoist=5.8074
+  point fly=2.0774 hoist=0.6667
+  point fly=2.0589 hoist=0.7415
+  point fly=1.7202 hoist=0.9375
+  point fly=1.6647 hoist=0.8408
+  point fly=2.0033 hoist=0.6453
 }
 
 charge disc white {
-  radius 3
-  at fly=13.5 hoist=9
-  anchor center
+  radius 0.3333
+  at center
 }
 
 charge disc purple {
-  radius 2
-  at fly=13.5 hoist=9
-  anchor center
+  radius 0.2222
+  at center
 }
 
 charge disc white {
-  radius 1
-  at fly=13.5 hoist=9
-  anchor center
+  radius 0.1111
+  at center
 }

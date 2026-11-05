@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Hokkaido Prefecture"
@@ -12,70 +11,69 @@ palette {
   white "#ffffff"
   red "#d13a43"
 }
-proportion hoist=840 fly=1260
+proportion hoist=2 fly=3
 
 field blue
 
 charge polygon white {
-  point fly=630 hoist=154.9557
-  point fly=690 hoist=126.0612
-  point fly=690 hoist=420
-  point fly=570 hoist=420
-  point fly=570 hoist=126.0612
+  point fly=1.5 hoist=0.3689
+  point fly=1.6429 hoist=0.3
+  point fly=1.6429 hoist=1
+  point fly=1.3571 hoist=1
+  point fly=1.3571 hoist=0.3
 }
 
 charge polygon white {
-  point fly=837.22 hoist=254.7476
-  point fly=897.22 hoist=283.6421
-  point fly=667.4094 hoist=466.9099
-  point fly=592.5906 hoist=373.0901
-  point fly=822.4012 hoist=189.8223
+  point fly=1.9934 hoist=0.6065
+  point fly=2.1362 hoist=0.6753
+  point fly=1.5891 hoist=1.1117
+  point fly=1.4109 hoist=0.8883
+  point fly=1.9581 hoist=0.452
 }
 
 charge polygon white {
-  point fly=888.3991 hoist=478.9779
-  point fly=903.2179 hoist=543.9032
-  point fly=616.6487 hoist=478.4957
-  point fly=643.3513 hoist=361.5043
-  point fly=929.9204 hoist=426.9119
+  point fly=2.1152 hoist=1.1404
+  point fly=2.15 hoist=1.295
+  point fly=1.4682 hoist=1.1393
+  point fly=1.5318 hoist=0.8607
+  point fly=2.2141 hoist=1.0165
 }
 
 charge polygon white {
-  point fly=744.9984 hoist=658.7967
-  point fly=703.4771 hoist=710.8627
-  point fly=575.9419 hoist=446.033
-  point fly=684.0581 hoist=393.967
-  point fly=811.5934 hoist=658.7967
+  point fly=1.7738 hoist=1.5686
+  point fly=1.6749 hoist=1.6925
+  point fly=1.3713 hoist=1.0625
+  point fly=1.6287 hoist=0.9375
+  point fly=1.9324 hoist=1.5686
 }
 
 charge polygon white {
-  point fly=515.0016 hoist=658.7967
-  point fly=448.4066 hoist=658.7967
-  point fly=575.9419 hoist=393.967
-  point fly=684.0581 hoist=446.033
-  point fly=556.5229 hoist=710.8627
+  point fly=1.2262 hoist=1.5686
+  point fly=1.0676 hoist=1.5686
+  point fly=1.3713 hoist=0.9375
+  point fly=1.6287 hoist=1.0625
+  point fly=1.3251 hoist=1.6925
 }
 
 charge polygon white {
-  point fly=371.6009 hoist=478.9779
-  point fly=330.0796 hoist=426.9119
-  point fly=616.6487 hoist=361.5043
-  point fly=643.3513 hoist=478.4957
-  point fly=356.7821 hoist=543.9032
+  point fly=0.8848 hoist=1.1404
+  point fly=0.7859 hoist=1.0165
+  point fly=1.4682 hoist=0.8607
+  point fly=1.5318 hoist=1.1393
+  point fly=0.85 hoist=1.295
 }
 
 charge polygon white {
-  point fly=422.78 hoist=254.7476
-  point fly=437.5988 hoist=189.8223
-  point fly=667.4094 hoist=373.0901
-  point fly=592.5906 hoist=466.9099
-  point fly=362.78 hoist=283.6421
+  point fly=1.0066 hoist=0.6065
+  point fly=1.0419 hoist=0.452
+  point fly=1.5891 hoist=0.8883
+  point fly=1.4109 hoist=1.1117
+  point fly=0.8638 hoist=0.6753
 }
 
 charge star red {
-  radius 265.0443
-  inner 59.635
+  radius 0.6311
+  inner 0.142
   points 7
-  at fly=630 hoist=420
-  anchor center
+  at center
 }

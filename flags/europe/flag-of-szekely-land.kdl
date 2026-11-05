@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Szekely Land"
@@ -12,35 +11,35 @@ palette {
   orange "#c1a162"
   grey "#c3c3c3"
 }
-proportion hoist=500 fly=800
+proportion hoist=5 fly=8
 
 bars blue orange blue {
   ratio 2 1 2
 }
 
 charge polygon orange {
-  point fly=163.4793 hoist=40
-  point fly=163.4793 hoist=74.0237
-  point fly=130 hoist=74.0237
-  point fly=153.6805 hoist=97.7041
-  point fly=130 hoist=121.3846
-  point fly=163.4793 hoist=121.3846
-  point fly=163.4793 hoist=155
-  point fly=187.3639 hoist=131.1154
-  point fly=211.5888 hoist=155.3402
-  point fly=211.5888 hoist=121.6568
-  point fly=245 hoist=121.6568
-  point fly=220.9112 hoist=97.568
-  point fly=244.6598 hoist=73.8195
-  point fly=211.1124 hoist=73.8195
-  point fly=211.1124 hoist=40.5444
-  point fly=187.2278 hoist=64.429
+  point fly=1.6348 hoist=0.4
+  point fly=1.6348 hoist=0.7402
+  point fly=1.3 hoist=0.7402
+  point fly=1.5368 hoist=0.977
+  point fly=1.3 hoist=1.2138
+  point fly=1.6348 hoist=1.2138
+  point fly=1.6348 hoist=1.55
+  point fly=1.875 hoist=1.3125
+  point fly=2.1159 hoist=1.5534
+  point fly=2.1159 hoist=1.2166
+  point fly=2.45 hoist=1.2166
+  point fly=2.2091 hoist=0.9757
+  point fly=2.4466 hoist=0.7382
+  point fly=2.1111 hoist=0.7382
+  point fly=2.1111 hoist=0.4054
+  point fly=1.8723 hoist=0.6443
 }
 
 charge path grey {
   d "M266.1452 50C260.5693 50 252.078 51.3766 245 55.5438C247.4758 55.1495 248.2514 55.0544 249.4473 55.0115C276.3736 54.0445 296.8668 78.6049 296.8668 108.2607C296.8668 137.9166 278.4601 160.7794 250.3704 160.2959C248.1323 160.2573 247.2693 160.4565 245.5255 160.2003C251.9792 162.6971 260.1793 165 267.5108 165C299.3671 165 322.0784 139.5791 322.0784 107.7227C322.0784 75.8663 298.0016 50 266.1452 50Z"
   box "245 50 77.0784 115"
-  fly 77.0784
-  hoist 115
-  at fly=283.5392 hoist=107.5
+  fly 0.7708
+  hoist 1.15
+  at fly=2.8354 hoist=1.075
 }

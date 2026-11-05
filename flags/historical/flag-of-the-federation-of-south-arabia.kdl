@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Federation of South Arabia"
@@ -14,22 +13,22 @@ palette {
   blue "#00a4de"
   white "#ffffff"
 }
-proportion hoist=6 fly=12
+proportion hoist=1 fly=2
 
 bars black yellow green yellow blue {
   ratio 1.61 0.466 1.848 0.466 1.61
 }
 
 charge crescent white {
-  radius 2.4299
-  inner 2.1058
-  offset 0.4244
-  at fly=6.2431 hoist=3
+  radius 0.405
+  inner 0.351
+  offset 0.0707
+  at fly=1.0405 hoist=0.5
 }
 
 charge star white {
-  radius 0.7104
+  radius 0.1184
   rotate -18
-  at fly=6.0678 hoist=3
+  at fly=1.0113 hoist=0.5
   anchor center
 }

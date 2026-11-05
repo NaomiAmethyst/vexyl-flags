@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Bonaire"
@@ -11,49 +10,49 @@ palette {
   white "#ffffff"
   blue "#003087"
   yellow "#ffd700"
-  blue-2 "#101820"
-  pink "#d50032"
+  dark-blue "#101820"
+  red "#d50032"
 }
-proportion hoist=180 fly=270
+proportion hoist=2 fly=3
 
 field white
 
 pile blue {
   from fly
-  tip 180 270
+  tip 2 3
 }
 
 pile yellow {
-  base 0 75
-  tip 0 112.5
+  base 0 0.8333
+  tip 0 1.25
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M75 32.5L100.9808 77.5L75 122.5L49.0192 77.5ZM120 77.5L75 103.4808L30 77.5L75 51.5192Z"
   box "30 32.5 90 90"
-  fly 90
-  hoist 90
-  at fly=75 hoist=77.5
+  fly 1
+  hoist 1
+  at fly=0.8333 hoist=0.8611
 }
 
-charge disc blue-2 {
-  radius 38.9711
-  at fly=75 hoist=77.5
+charge disc dark-blue {
+  radius 0.433
+  at fly=0.8333 hoist=0.8611
 }
 
 charge disc white {
-  radius 33.75
-  at fly=75 hoist=77.5
+  radius 0.375
+  at fly=0.8333 hoist=0.8611
 }
 
-charge polygon pink {
-  point fly=75 hoist=100
-  point fly=55.5144 hoist=66.25
-  point fly=94.4856 hoist=66.25
+charge polygon red {
+  point fly=0.8333 hoist=1.1111
+  point fly=0.6168 hoist=0.7361
+  point fly=1.05 hoist=0.7361
 }
 
-charge polygon pink {
-  point fly=75 hoist=55
-  point fly=94.4856 hoist=88.75
-  point fly=55.5144 hoist=88.75
+charge polygon red {
+  point fly=0.8333 hoist=0.6111
+  point fly=1.05 hoist=0.9861
+  point fly=0.6168 hoist=0.9861
 }

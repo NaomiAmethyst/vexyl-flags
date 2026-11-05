@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Ust-Orda Buryat Autonomous Okrug (07-1997)"
@@ -11,7 +10,7 @@ palette {
   white "#ffffff"
   yellow "#ffd700"
 }
-proportion hoist=300 fly=450
+proportion hoist=2 fly=3
 
 bars green white {
   ratio 7 1
@@ -19,44 +18,44 @@ bars green white {
 
 charge svg {
   at center
-  fly 450
-  hoist 300
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300"><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 -19.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 30.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 80.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 130.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 180.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 230.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 280.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 330.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 380.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-linecap="square" stroke-width="6" stroke="#e8112d" fill="none" transform="matrix(1 0 0 1 430.5 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300"><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 -19.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 30.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 80.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 130.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 180.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 230.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 280.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 330.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 380.5 0)"/><path d="M 0,290 H 39 V 280 H 26 V 270 H 63 V 280 H 50 V 290" stroke-width="6" fill="none" stroke="#e8112d" stroke-linecap="square" transform="matrix(1 0 0 1 430.5 0)"/></svg>
 """#
 }
 
 charge disc yellow {
-  radius 70
-  at fly=225 hoist=125
+  radius 0.4667
+  at fly=1.5 hoist=0.8333
 }
 
 charge disc yellow {
-  radius 8
-  at fly=225 hoist=125
-  repeat ring count=4 radius=90
+  radius 0.0533
+  at fly=1.5 hoist=0.8333
+  repeat ring count=4 radius=0.6
 }
 
 charge path white {
   d "M230 128.5L214 130.5C214 120.5 201 109.5 191.5 115.5C182 121 187 136 195 133C191 130 192 123 198 123C200 123 209 125 205 137C200 149 173.5 145 176 122C178.5 99 212 102 226 113L230 129Z"
   box "173.5 99 56.5 50"
-  fly 56.5
-  hoist 50
-  at fly=201.75 hoist=124
+  fly 0.3767
+  hoist 0.3333
+  at fly=1.345 hoist=0.8267
 }
 
 charge path white {
   d "M219.4689 127.5801L225.7369 112.7237C234.3971 117.7237 250.4234 111.9654 249.9772 100.7381C249.9641 89.7609 234.4737 86.591 233.0718 95.0192C237.6699 93.0551 243.2321 97.4212 240.2321 102.6173C239.2321 104.3494 233 111.1436 224.6077 101.6795C216.7154 91.3494 233.4295 70.3997 252.0981 84.0648C270.7667 97.7298 251.4186 125.2417 234.8923 131.866L219.0359 127.3301Z"
   box "216.7154 70.3997 54.0513 61.4663"
-  fly 54.0513
-  hoist 61.4663
-  at fly=243.741 hoist=101.1329
+  fly 0.3603
+  hoist 0.4098
+  at fly=1.625 hoist=0.6742
 }
 
 charge path white {
   d "M225.5311 118.9199L235.2631 131.7763C226.6029 136.7763 223.5766 153.5346 233.5228 158.7619C243.0359 164.2391 253.5263 152.409 246.9282 146.9808C246.3301 151.9449 239.7679 154.5788 236.7679 149.3827C235.7679 147.6506 233 138.8564 245.3923 136.3205C258.2846 134.6506 268.0705 159.6003 246.9019 168.9352C225.7333 178.2702 211.5814 147.7583 214.1077 130.134L225.9641 118.6699Z"
   box "211.5814 118.6699 56.4891 59.6003"
-  fly 56.4891
-  hoist 59.6003
-  at fly=239.826 hoist=148.47
+  fly 0.3766
+  hoist 0.3973
+  at fly=1.5988 hoist=0.9898
 }

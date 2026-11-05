@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Ohio"
@@ -9,166 +8,150 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#bf0a30"
+  red "#bf0a30"
   blue "#00205b"
 }
-proportion hoist=16 fly=26
+proportion hoist=8 fly=13
 outline {
   polygon {
-    point fly=0 hoist=16
+    point fly=0 hoist=8
     point fly=0 hoist=0
-    point fly=26 hoist=3
-    point fly=20 hoist=8
-    point fly=26 hoist=13
+    point fly=13 hoist=1.5
+    point fly=10 hoist=4
+    point fly=13 hoist=6.5
   }
 }
 
 charge path white {
   d "M26 3L0 0L0 16L26 13"
   box "0 0 26 16"
-  fly 26
-  hoist 16
-  at fly=13 hoist=8
+  fly 13
+  hoist 8
+  at center
 }
 
-charge path pink {
+charge path red {
   d "M26 3L0 0L0 16L26 13"
   box "0 0 26 16"
-  fly 26
-  hoist 16
-  hollow 4
-  at fly=13 hoist=8
+  fly 13
+  hoist 8
+  hollow 2
+  at center
 }
 
-charge rect pink {
-  fly 26
-  hoist 2
-  at fly=13 hoist=8
+charge rect red {
+  fly 13
+  hoist 1
+  at center
 }
 
 chevrons blue {
-  depth 16
+  depth 8
 }
 
 charge disc white {
-  radius 3
-  at fly=4.9443 hoist=8
+  radius 1.5
+  at fly=2.4722 hoist=4
 }
 
-charge disc pink {
-  radius 2
-  at fly=4.9443 hoist=8
+charge disc red {
+  radius 1
+  at fly=2.4722 hoist=4
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 18
-  at fly=12.8885 hoist=8
-  at fly=8.8885 hoist=8
+  at fly=6.4443 hoist=4
+  at fly=4.4443 hoist=4
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 8.3498
-  at fly=10.8044 hoist=7.0035
+  at fly=5.4 hoist=3.5
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 27.6502
-  at fly=10.8044 hoist=8.9965
+  at fly=5.4 hoist=4.5
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 9.4349
-  at fly=6.7082 hoist=11.5279
+  at fly=3.3541 hoist=5.764
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate -33.4238
-  at fly=4.767 hoist=11.9403
+  at fly=2.3835 hoist=5.9702
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate -4.2825
-  at fly=2.8706 hoist=11.3552
+  at fly=1.4375 hoist=5.6776
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate -13.9328
-  at fly=2.711 hoist=13.5088
+  at fly=1.3555 hoist=6.7544
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 5.3677
-  at fly=1.0158 hoist=12.4611
+  at fly=0.5079 hoist=6.2306
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 24.8587
-  at fly=1.4993 hoist=9.9207
+  at fly=0.75 hoist=4.9604
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate -18
-  at fly=1 hoist=8
+  at fly=0.5 hoist=4
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 26.5651
-  at fly=6.7082 hoist=4.4721
+  at fly=3.3541 hoist=2.2361
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate -2.5762
-  at fly=4.767 hoist=4.0597
+  at fly=2.3835 hoist=2.0299
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate -31.7175
-  at fly=2.8706 hoist=4.6448
+  at fly=1.4375 hoist=2.3224
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate -22.0672
-  at fly=2.711 hoist=2.4912
+  at fly=1.3555 hoist=1.2456
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 30.6323
-  at fly=1.0158 hoist=3.5389
+  at fly=0.5079 hoist=1.7694
 }
 
 charge star white {
-  radius 0.625
-  inner 0.2375
+  radius 0.3125
   rotate 11.1413
-  at fly=1.4993 hoist=6.0793
+  at fly=0.75 hoist=3.0396
 }

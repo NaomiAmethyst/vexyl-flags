@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Kurgan Oblast"
@@ -10,31 +9,31 @@ palette {
   white "#ffffff"
   green "#008040"
 }
-proportion hoist=300 fly=600
+proportion hoist=1 fly=2
 
 bars white green white
 
 charge path white {
   d "M331 119C347 120 350 140 358 154C366 169 370 170 370 173C370 176 360 178 349 178C331 178 295 166 295 166C295 166 315 118 331 119Z"
   box "295 118 75 60"
-  fly 75
-  hoist 60
-  at fly=332.5 hoist=148
+  fly 0.25
+  hoist 0.2
+  at fly=1.1083 hoist=0.4933
 }
 
 charge path white {
   d "M239 179C262 178 278 191 303 192C329 192 332 180 332 177C325 174 323 165 320 159C313 144 307 110 286 109C262 108 255 160 239 179Z"
   box "239 108 93 84"
-  fly 93
-  hoist 84
-  at fly=285.5 hoist=150
+  fly 0.31
+  hoist 0.28
+  at fly=0.9517 hoist=0.5
 }
 
 charge path green {
   d "M239 179C262 178 278 191 303 192C329 192 332 180 332 177C325 174 323 165 320 159C313 144 307 110 286 109C262 108 255 160 239 179Z"
   box "239 108 93 84"
-  fly 93
-  hoist 84
-  hollow 2
-  at fly=285.5 hoist=150
+  fly 0.31
+  hoist 0.28
+  hollow 0.0067
+  at fly=0.9517 hoist=0.5
 }

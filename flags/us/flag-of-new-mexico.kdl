@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of New Mexico"
@@ -8,30 +7,28 @@ meta {
 }
 palette {
   yellow "#ffd700"
-  pink "#bf0a30"
+  red "#bf0a30"
 }
-proportion hoist=1200 fly=1800
+proportion hoist=2 fly=3
 
 field yellow
 
 charge svg {
   at center
-  fly 1800
-  hoist 1200
+  fly 3
+  hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200"><path d="M956.5 353.395v493.21M918.818 313.5v573m-37.636-573v573M843.5 353.395v493.21" stroke-linecap="round" stroke-width="27" stroke="#bf0a30" transform="matrix(1 0 0 1 0 0)"/><path d="M653.395 543.5h493.21M613.5 581.182h573m-573 37.636h573M653.395 656.5h493.21" stroke-linecap="round" stroke-width="27" stroke="#bf0a30" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1200"><path d="M956.5 353.395v493.21M918.818 313.5v573m-37.636-573v573M843.5 353.395v493.21" stroke-width="27" stroke="#bf0a30" stroke-linecap="round" transform="matrix(1 0 0 1 0 0)"/><path d="M653.395 543.5h493.21M613.5 581.182h573m-573 37.636h573M653.395 656.5h493.21" stroke-width="27" stroke="#bf0a30" stroke-linecap="round" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
 charge disc yellow {
-  radius 93.25
-  at fly=900 hoist=600
-  anchor center
+  radius 0.1554
+  at center
 }
 
-charge ring pink {
-  radius 100
-  inner 86.5
-  at fly=900 hoist=600
-  anchor center
+charge ring red {
+  radius 0.1667
+  inner 0.1442
+  at center
 }

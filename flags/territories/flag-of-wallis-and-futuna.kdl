@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Wallis and Futuna"
@@ -11,51 +10,51 @@ palette {
   white "#ffffff"
   blue "#002654"
 }
-proportion hoist=100 fly=150
+proportion hoist=10 fly=15
 
 field red
 
 canton {
-  fly 40
-  hoist 40
+  fly 4
+  hoist 4
   field white
 }
 
 canton {
-  fly 20
-  hoist 40
+  fly 2
+  hoist 4
   field blue
 }
 
 charge path white {
   d "M0 40L60 40L60 0"
   box "0 0 60 40"
-  fly 60
-  hoist 40
-  hollow 1
-  at fly=30 hoist=20
+  fly 6
+  hoist 4
+  hollow 0.1
+  at fly=3 hoist=2
 }
 
 charge polygon white {
-  point fly=105 hoist=46
-  point fly=93 hoist=34
-  point fly=117 hoist=34
+  point fly=10.5 hoist=4.6
+  point fly=9.3 hoist=3.4
+  point fly=11.7 hoist=3.4
 }
 
 charge polygon white {
-  point fly=101 hoist=50
-  point fly=89 hoist=38
-  point fly=89 hoist=62
+  point fly=10.1 hoist=5
+  point fly=8.9 hoist=3.8
+  point fly=8.9 hoist=6.2
 }
 
 charge polygon white {
-  point fly=105 hoist=54
-  point fly=93 hoist=66
-  point fly=117 hoist=66
+  point fly=10.5 hoist=5.4
+  point fly=9.3 hoist=6.6
+  point fly=11.7 hoist=6.6
 }
 
 charge polygon white {
-  point fly=109 hoist=50
-  point fly=121 hoist=38
-  point fly=121 hoist=62
+  point fly=10.9 hoist=5
+  point fly=12.1 hoist=3.8
+  point fly=12.1 hoist=6.2
 }

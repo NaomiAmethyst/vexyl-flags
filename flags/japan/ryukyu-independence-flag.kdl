@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Ryukyu independence flag"
@@ -13,92 +12,92 @@ palette {
   white "#ffffff"
   red "#fe2a15"
 }
-proportion hoist=187.2017 fly=268.4166
+proportion hoist=53 fly=76
 
 bars teal blue {
   ratio 98.1587 89.043
 }
 
 charge polygon yellow {
-  point fly=19.2895 hoist=87.3902
-  point fly=43.3796 hoist=87.3902
-  point fly=50.9696 hoist=64.2901
-  point fly=58.7247 hoist=87.5552
-  point fly=84.1348 hoist=87.5552
-  point fly=63.0147 hoist=102.0753
-  point fly=71.2647 hoist=126.0004
-  point fly=50.8046 hoist=110.8203
-  point fly=31.3345 hoist=126.0004
-  point fly=39.2546 hoist=101.9103
+  point fly=5.45 hoist=24.75
+  point fly=12.2815 hoist=24.75
+  point fly=14.4375 hoist=18.1875
+  point fly=16.625 hoist=24.8
+  point fly=23.8125 hoist=24.8
+  point fly=17.8333 hoist=28.9
+  point fly=20.1875 hoist=35.6875
+  point fly=14.375 hoist=31.375
+  point fly=8.875 hoist=35.6875
+  point fly=11.125 hoist=28.85
 }
 
 charge polygon white {
-  point fly=19.2895 hoist=87.3902
-  point fly=43.3796 hoist=87.3902
-  point fly=50.9696 hoist=64.2901
-  point fly=58.7247 hoist=87.5552
-  point fly=84.1348 hoist=87.5552
-  point fly=63.0147 hoist=102.0753
-  point fly=71.2647 hoist=126.0004
-  point fly=50.8046 hoist=110.8203
-  point fly=31.3345 hoist=126.0004
-  point fly=39.2546 hoist=101.9103
-  point fly=19.2895 hoist=87.3902
-  hollow 1
+  point fly=5.45 hoist=24.75
+  point fly=12.2815 hoist=24.75
+  point fly=14.4375 hoist=18.1875
+  point fly=16.625 hoist=24.8
+  point fly=23.8125 hoist=24.8
+  point fly=17.8333 hoist=28.9
+  point fly=20.1875 hoist=35.6875
+  point fly=14.375 hoist=31.375
+  point fly=8.875 hoist=35.6875
+  point fly=11.125 hoist=28.85
+  point fly=5.45 hoist=24.75
+  hollow 0.2831
 }
 
 charge polygon red {
-  point fly=103.2895 hoist=87.3902
-  point fly=127.3796 hoist=87.3902
-  point fly=134.9696 hoist=64.2901
-  point fly=142.7247 hoist=87.5552
-  point fly=168.1348 hoist=87.5552
-  point fly=147.0147 hoist=102.0753
-  point fly=155.2647 hoist=126.0004
-  point fly=134.8046 hoist=110.8203
-  point fly=115.3345 hoist=126.0004
-  point fly=123.2546 hoist=101.9103
+  point fly=29.25 hoist=24.75
+  point fly=36.0625 hoist=24.75
+  point fly=38.2 hoist=18.1875
+  point fly=40.4167 hoist=24.8
+  point fly=47.6 hoist=24.8
+  point fly=41.625 hoist=28.9
+  point fly=43.95 hoist=35.6875
+  point fly=38.1667 hoist=31.375
+  point fly=32.6667 hoist=35.6875
+  point fly=34.9 hoist=28.85
 }
 
 charge polygon white {
-  point fly=103.2895 hoist=87.3902
-  point fly=127.3796 hoist=87.3902
-  point fly=134.9696 hoist=64.2901
-  point fly=142.7247 hoist=87.5552
-  point fly=168.1348 hoist=87.5552
-  point fly=147.0147 hoist=102.0753
-  point fly=155.2647 hoist=126.0004
-  point fly=134.8046 hoist=110.8203
-  point fly=115.3345 hoist=126.0004
-  point fly=123.2546 hoist=101.9103
-  point fly=103.2895 hoist=87.3902
-  hollow 1
+  point fly=29.25 hoist=24.75
+  point fly=36.0625 hoist=24.75
+  point fly=38.2 hoist=18.1875
+  point fly=40.4167 hoist=24.8
+  point fly=47.6 hoist=24.8
+  point fly=41.625 hoist=28.9
+  point fly=43.95 hoist=35.6875
+  point fly=38.1667 hoist=31.375
+  point fly=32.6667 hoist=35.6875
+  point fly=34.9 hoist=28.85
+  point fly=29.25 hoist=24.75
+  hollow 0.2831
 }
 
 charge polygon white {
-  point fly=185.2895 hoist=87.3902
-  point fly=209.3796 hoist=87.3902
-  point fly=216.9696 hoist=64.2901
-  point fly=224.7247 hoist=87.5552
-  point fly=250.1348 hoist=87.5552
-  point fly=229.0147 hoist=102.0753
-  point fly=237.2647 hoist=126.0004
-  point fly=216.8046 hoist=110.8203
-  point fly=197.3345 hoist=126.0004
-  point fly=205.2546 hoist=101.9103
+  point fly=52.45 hoist=24.75
+  point fly=59.2789 hoist=24.75
+  point fly=61.4375 hoist=18.1875
+  point fly=63.625 hoist=24.8
+  point fly=70.8125 hoist=24.8
+  point fly=64.8333 hoist=28.9
+  point fly=67.1875 hoist=35.6875
+  point fly=61.375 hoist=31.375
+  point fly=55.875 hoist=35.6875
+  point fly=58.125 hoist=28.85
 }
 
 charge polygon white {
-  point fly=185.2895 hoist=87.3902
-  point fly=209.3796 hoist=87.3902
-  point fly=216.9696 hoist=64.2901
-  point fly=224.7247 hoist=87.5552
-  point fly=250.1348 hoist=87.5552
-  point fly=229.0147 hoist=102.0753
-  point fly=237.2647 hoist=126.0004
-  point fly=216.8046 hoist=110.8203
-  point fly=197.3345 hoist=126.0004
-  point fly=205.2546 hoist=101.9103
-  point fly=185.2895 hoist=87.3902
-  hollow 1
+  point fly=52.45 hoist=24.75
+  point fly=59.2789 hoist=24.75
+  point fly=61.4375 hoist=18.1875
+  point fly=63.625 hoist=24.8
+  point fly=70.8125 hoist=24.8
+  point fly=64.8333 hoist=28.9
+  point fly=67.1875 hoist=35.6875
+  point fly=61.375 hoist=31.375
+  point fly=55.875 hoist=35.6875
+  point fly=58.125 hoist=28.85
+  point fly=52.45 hoist=24.75
+  hollow 0.2831
 }

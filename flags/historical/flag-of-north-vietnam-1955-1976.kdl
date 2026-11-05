@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of North Vietnam (1955-1976)"
@@ -10,12 +9,11 @@ palette {
   red "#da251d"
   yellow "#ffff00"
 }
-proportion hoist=20 fly=30
+proportion hoist=2 fly=3
 
 field red
 
 charge star yellow {
-  radius 6.0003
-  at fly=15 hoist=10
-  anchor center
+  radius 0.6
+  at center
 }

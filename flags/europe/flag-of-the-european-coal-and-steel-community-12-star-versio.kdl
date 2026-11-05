@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the European Coal and Steel Community 12 Star Version"
@@ -12,23 +11,22 @@ palette {
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=300 fly=450
+proportion hoist=2 fly=3
 
 bars blue black
 
 charge star white {
-  radius 30
-  inner 11.4
-  at fly=50 hoist=110
-  at fly=120 hoist=110
-  at fly=190 hoist=110
-  at fly=260 hoist=110
-  at fly=330 hoist=110
-  at fly=400 hoist=110
-  at fly=50 hoist=190
-  at fly=120 hoist=190
-  at fly=190 hoist=190
-  at fly=260 hoist=190
-  at fly=330 hoist=190
-  at fly=400 hoist=190
+  radius 0.2
+  at fly=0.3333 hoist=0.7333
+  at fly=0.8 hoist=0.7333
+  at fly=1.2667 hoist=0.7333
+  at fly=1.7333 hoist=0.7333
+  at fly=2.2 hoist=0.7333
+  at fly=2.6667 hoist=0.7333
+  at fly=0.3333 hoist=1.2667
+  at fly=0.8 hoist=1.2667
+  at fly=1.2667 hoist=1.2667
+  at fly=1.7333 hoist=1.2667
+  at fly=2.2 hoist=1.2667
+  at fly=2.6667 hoist=1.2667
 }

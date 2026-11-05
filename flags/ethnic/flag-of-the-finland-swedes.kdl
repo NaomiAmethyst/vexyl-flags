@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Finland Swedes"
@@ -11,11 +10,11 @@ palette {
   red "#c8102e"
   orange "#ffc72c"
 }
-proportion hoist=5 fly=8
+proportion hoist=10 fly=16
 
 field red
 
 cross orange {
-  fly 2.5 1 4.5
-  hoist 2 1 2
+  fly 5 2 9
+  hoist 4 2 4
 }

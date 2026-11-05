@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Burundi (1966)"
@@ -12,23 +11,22 @@ palette {
   green "#1eb53a"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=300 fly=450
 
 field red
 
 charge polygon green {
   point fly=0 hoist=0
-  point fly=0 hoist=600
-  point fly=900 hoist=0
-  point fly=900 hoist=600
+  point fly=0 hoist=300
+  point fly=450 hoist=0
+  point fly=450 hoist=300
 }
 
 saltire white {
-  width 76
+  width 38
 }
 
 charge disc white {
-  radius 170
-  at fly=450 hoist=300
-  anchor center
+  radius 85
+  at center
 }

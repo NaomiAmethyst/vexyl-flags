@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "ICS Repeat Four"
@@ -11,23 +10,23 @@ palette {
   black "#000000"
   yellow "#ffff00"
 }
-proportion hoist=350 fly=550
+proportion hoist=196 fly=308
 
 charge polygon red {
-  point fly=1.5 hoist=2
-  point fly=547 hoist=175
-  point fly=1.5 hoist=348
+  point fly=0.875 hoist=1.125
+  point fly=306.375 hoist=98
+  point fly=0.875 hoist=194.875
 }
 
 charge polygon black {
-  point fly=1.5 hoist=2
-  point fly=547 hoist=175
-  point fly=1.5 hoist=348
-  hollow 2.5
+  point fly=0.875 hoist=1.125
+  point fly=306.375 hoist=98
+  point fly=0.875 hoist=194.875
+  hollow 1.375
 }
 
 charge rect yellow {
-  fly 116
-  hoist 116
-  at fly=60.75 hoist=175
+  fly 65
+  hoist 65
+  at fly=34 hoist=98
 }

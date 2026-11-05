@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Free City of Lübeck"
@@ -11,6 +10,6 @@ palette {
   white "#ffffff"
   red "#f0140a"
 }
-proportion hoist=800 fly=1280
+proportion hoist=5 fly=8
 
 bars white red

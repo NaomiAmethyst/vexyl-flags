@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Iraqi Turkmen Front"
@@ -11,30 +10,30 @@ palette {
   blue "#00b8fd"
   white "#ffffff"
 }
-proportion hoist=240 fly=360
+proportion hoist=2 fly=3
 
 field blue
 
 charge crescent white {
-  radius 60
-  inner 48
-  offset 14.9119
-  at fly=157.0889 hoist=120
+  radius 0.5
+  inner 0.4
+  offset 0.1243
+  at fly=1.3091 hoist=1
 }
 
 charge star white {
-  radius 29.9609
+  radius 0.25
   rotate -18
-  at fly=237.96 hoist=120
+  at fly=1.983 hoist=1
 }
 
 charge polygon white {
-  point fly=-1 hoist=23.3
-  point fly=361 hoist=23.3
-  point fly=361 hoist=46.15
-  point fly=-1 hoist=46.15
-  point fly=-1 hoist=194.65
-  point fly=361 hoist=194.65
-  point fly=361 hoist=217.5
-  point fly=0 hoist=217.5
+  point fly=-0.0083 hoist=0.1942
+  point fly=3.0083 hoist=0.1942
+  point fly=3.0083 hoist=0.3846
+  point fly=-0.0083 hoist=0.3846
+  point fly=-0.0083 hoist=1.6221
+  point fly=3.0083 hoist=1.6221
+  point fly=3.0083 hoist=1.8125
+  point fly=0 hoist=1.8125
 }

@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Chicago, Illinois"
@@ -9,28 +8,28 @@ meta {
 }
 palette {
   white "#ffffff"
-  pink "#e4002b"
+  red "#e4002b"
   blue "#41b6e6"
 }
-proportion hoist=480 fly=720
+proportion hoist=2 fly=3
 
 field white
 
-charge star pink {
-  radius 60.0222
-  inner 21.9697
+charge star red {
+  radius 0.25
+  inner 0.0915
   points 6
-  at fly=150 hoist=240
-  repeat line count=4 fly=140
+  at fly=0.625 hoist=1
+  repeat line count=4 fly=0.5833
 }
 
 charge polygon blue {
-  point fly=0 hoist=80
-  point fly=720 hoist=80
-  point fly=720 hoist=160
-  point fly=0 hoist=160
-  point fly=0 hoist=320
-  point fly=720 hoist=320
-  point fly=720 hoist=400
-  point fly=0 hoist=400
+  point fly=0 hoist=0.3333
+  point fly=3 hoist=0.3333
+  point fly=3 hoist=0.6667
+  point fly=0 hoist=0.6667
+  point fly=0 hoist=1.3333
+  point fly=3 hoist=1.3333
+  point fly=3 hoist=1.6667
+  point fly=0 hoist=1.6667
 }

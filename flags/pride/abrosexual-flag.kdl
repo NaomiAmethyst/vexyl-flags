@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Abrosexual flag"
@@ -9,11 +8,11 @@ meta {
 }
 palette {
   green "#65c286"
-  green-2 "#b4e4cc"
+  light-green "#b4e4cc"
   white "#ffffff"
   pink "#e796b7"
-  pink-2 "#d9446e"
+  dark-pink "#d9446e"
 }
-proportion hoist=15 fly=25
+proportion hoist=3 fly=5
 
-bars green green-2 white pink pink-2
+bars green light-green white pink dark-pink

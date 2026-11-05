@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Tasmania (1875)"
@@ -11,11 +10,11 @@ palette {
   white "#ffffff"
   blue "#00247d"
 }
-proportion hoist=15 fly=30
+proportion hoist=20 fly=40
 
 canton {
-  fly 15
-  hoist 7.5
+  fly 20
+  hoist 10
   field white
 }
 
@@ -23,44 +22,44 @@ field blue
 
 charge svg {
   at center
-  fly 30
-  hoist 15
+  fly 40
+  hoist 20
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 15"><defs><clipPath id="border"><rect height="15" x="-15" width="30" y="-7.5"></rect></clipPath></defs><g clip-path="url(#border)" transform="matrix(0.475 0 0 0.45 7.125 3.375)"><circle cx="0" cy="0" r="20" fill="#00247d"></circle><path d="M -20,-10 L 20,10 M -20,10 L 20,-10" stroke-width="3" stroke="#ffffff"></path><path d="M -20,-10 L 20,10 M -20,10 L 20,-10" stroke-width="2" stroke="#cf142b"></path><path d="M 0,0 L 20,10 L 17,10 L -3,0 M 0,0 L 20,-10 L 23,-10 L 3,0 M 0,0 L -20,10 L -23,10 L -3,0 M 0,0 L -20,-10 L -17,-10 L 3,0" stroke="none" fill="#ffffff"></path><path d="M -20,0 L 20,0 M 0,-10 L 0,10" stroke-width="5" stroke="#ffffff"></path><path d="M -20,0 L 20,0 M 0,-10 L 0,10" stroke-width="3" stroke="#cf142b"></path></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 15"><defs><clipPath id="border"><rect x="-15" height="15" y="-7.5" width="30"></rect></clipPath></defs><g clip-path="url(#border)" transform="matrix(0.475 0 0 0.45 7.125 3.375)"><circle cy="0" r="20" cx="0" fill="#00247d"></circle><path d="M -20,-10 L 20,10 M -20,10 L 20,-10" stroke-width="3" stroke="#ffffff"></path><path d="M -20,-10 L 20,10 M -20,10 L 20,-10" stroke-width="2" stroke="#cf142b"></path><path d="M 0,0 L 20,10 L 17,10 L -3,0 M 0,0 L 20,-10 L 23,-10 L 3,0 M 0,0 L -20,10 L -23,10 L -3,0 M 0,0 L -20,-10 L -17,-10 L 3,0" fill="#ffffff" stroke="none"></path><path d="M -20,0 L 20,0 M 0,-10 L 0,10" stroke-width="5" stroke="#ffffff"></path><path d="M -20,0 L 20,0 M 0,-10 L 0,10" stroke-width="3" stroke="#cf142b"></path></g></svg>
 """#
 }
 
 cross white {
-  fly 14.25 1.5 14.25
-  hoist 6.75 1.5 6.75
+  fly 19 2 19
+  hoist 9 2 9
 }
 
 charge star white {
-  radius 1.0749
-  inner 0.3869
+  radius 1.4375
+  inner 0.5159
   rotate -0.3046
-  at fly=19.2351 hoist=33.3797
+  at fly=25.65 hoist=44.5063
 }
 
 charge star white {
-  radius 1.0269
-  inner 0.3697
+  radius 1.375
+  inner 0.4929
   rotate -0.3045
-  at fly=18.0228 hoist=5.5494
-  at fly=27.8484 hoist=5.3289
-  at fly=23.025 hoist=1.5644
+  at fly=24.0304 hoist=7.4
+  at fly=37.1312 hoist=7.1
+  at fly=30.7 hoist=2.0833
 }
 
 charge star white {
-  radius 0.5281
-  inner 0.1901
+  radius 0.7
+  inner 0.25
   rotate -0.3045
-  at fly=25.9987 hoist=9.1541
+  at fly=34.6667 hoist=12.2
 }
 
 charge star white {
-  radius 1.0269
-  inner 0.3697
+  radius 1.375
+  inner 0.4929
   rotate -0.3045
-  at fly=23.0091 hoist=13.8436
+  at fly=30.6788 hoist=18.4581
 }

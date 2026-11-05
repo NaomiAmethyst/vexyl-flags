@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "United States Gay Pride flag"
@@ -14,365 +13,365 @@ palette {
   green "#008026"
   blue "#004dff"
   pink "#750787"
-  blue-2 "#282d73"
+  dark-blue "#282d73"
   white "#ffffff"
 }
-proportion hoist=708 fly=1234
+proportion hoist=420 fly=732
 
 bars red orange yellow green blue pink
 
 canton {
-  fly 494
-  hoist 354
-  field blue-2
+  fly 293
+  hoist 210
+  field dark-blue
   charge polygon white {
-    point fly=23.3 hoist=28.6
-    point fly=61.1 hoist=28.6
-    point fly=30.1 hoist=50.6
-    point fly=42.1 hoist=14.6
-    point fly=54.1 hoist=50.6
+    point fly=13.75 hoist=17
+    point fly=36.25 hoist=17
+    point fly=17.75 hoist=30
+    point fly=25 hoist=8.75
+    point fly=32 hoist=30
   }
   charge polygon white {
-    point fly=105.3 hoist=28.6
-    point fly=143.1 hoist=28.6
-    point fly=112.1 hoist=50.6
-    point fly=124.1 hoist=14.6
-    point fly=136.1 hoist=50.6
+    point fly=62.5 hoist=17
+    point fly=85 hoist=17
+    point fly=66.5 hoist=30
+    point fly=73.5 hoist=8.75
+    point fly=80.75 hoist=30
   }
   charge polygon white {
-    point fly=187.3 hoist=28.6
-    point fly=225.1 hoist=28.6
-    point fly=194.1 hoist=50.6
-    point fly=206.1 hoist=14.6
-    point fly=218.1 hoist=50.6
+    point fly=111 hoist=17
+    point fly=133.5 hoist=17
+    point fly=115.25 hoist=30
+    point fly=122.25 hoist=8.75
+    point fly=129.5 hoist=30
   }
   charge polygon white {
-    point fly=269.3 hoist=28.6
-    point fly=307.1 hoist=28.6
-    point fly=276.1 hoist=50.6
-    point fly=288.1 hoist=14.6
-    point fly=300.1 hoist=50.6
+    point fly=159.75 hoist=17
+    point fly=182.25 hoist=17
+    point fly=163.75 hoist=30
+    point fly=171 hoist=8.75
+    point fly=178 hoist=30
   }
   charge polygon white {
-    point fly=351.3 hoist=28.6
-    point fly=389.1 hoist=28.6
-    point fly=358.1 hoist=50.6
-    point fly=370.1 hoist=14.6
-    point fly=382.1 hoist=50.6
+    point fly=208.5 hoist=17
+    point fly=230.75 hoist=17
+    point fly=212.5 hoist=30
+    point fly=219.5 hoist=8.75
+    point fly=226.75 hoist=30
   }
   charge polygon white {
-    point fly=433.3 hoist=28.6
-    point fly=471.1 hoist=28.6
-    point fly=440.1 hoist=50.6
-    point fly=452.1 hoist=14.6
-    point fly=464.1 hoist=50.6
+    point fly=257 hoist=17
+    point fly=279.5 hoist=17
+    point fly=261 hoist=30
+    point fly=268.25 hoist=8.75
+    point fly=275.25 hoist=30
   }
   charge polygon white {
-    point fly=64.3 hoist=63.6
-    point fly=102.1 hoist=63.6
-    point fly=71.1 hoist=85.6
-    point fly=83.1 hoist=49.6
-    point fly=95.1 hoist=85.6
+    point fly=38.25 hoist=37.75
+    point fly=60.5 hoist=37.75
+    point fly=42.25 hoist=50.75
+    point fly=49.25 hoist=29.5
+    point fly=56.5 hoist=50.75
   }
   charge polygon white {
-    point fly=146.3 hoist=63.6
-    point fly=184.1 hoist=63.6
-    point fly=153.1 hoist=85.6
-    point fly=165.1 hoist=49.6
-    point fly=177.1 hoist=85.6
+    point fly=86.75 hoist=37.75
+    point fly=109.25 hoist=37.75
+    point fly=90.75 hoist=50.75
+    point fly=98 hoist=29.5
+    point fly=105 hoist=50.75
   }
   charge polygon white {
-    point fly=228.3 hoist=63.6
-    point fly=266.1 hoist=63.6
-    point fly=235.1 hoist=85.6
-    point fly=247.1 hoist=49.6
-    point fly=259.1 hoist=85.6
+    point fly=135.5 hoist=37.75
+    point fly=157.75 hoist=37.75
+    point fly=139.5 hoist=50.75
+    point fly=146.5 hoist=29.5
+    point fly=153.75 hoist=50.75
   }
   charge polygon white {
-    point fly=310.3 hoist=63.6
-    point fly=348.1 hoist=63.6
-    point fly=317.1 hoist=85.6
-    point fly=329.1 hoist=49.6
-    point fly=341.1 hoist=85.6
+    point fly=184 hoist=37.75
+    point fly=206.5 hoist=37.75
+    point fly=188 hoist=50.75
+    point fly=195.25 hoist=29.5
+    point fly=202.25 hoist=50.75
   }
   charge polygon white {
-    point fly=392.3 hoist=63.6
-    point fly=430.1 hoist=63.6
-    point fly=399.1 hoist=85.6
-    point fly=411.1 hoist=49.6
-    point fly=423.1 hoist=85.6
+    point fly=232.75 hoist=37.75
+    point fly=255.25 hoist=37.75
+    point fly=236.75 hoist=50.75
+    point fly=243.75 hoist=29.5
+    point fly=251 hoist=50.75
   }
   charge polygon white {
-    point fly=23.3 hoist=98.6
-    point fly=61.1 hoist=98.6
-    point fly=30.1 hoist=120.6
-    point fly=42.1 hoist=84.6
-    point fly=54.1 hoist=120.6
+    point fly=13.75 hoist=58.5
+    point fly=36.25 hoist=58.5
+    point fly=17.75 hoist=71.5
+    point fly=25 hoist=50.25
+    point fly=32 hoist=71.5
   }
   charge polygon white {
-    point fly=105.3 hoist=98.6
-    point fly=143.1 hoist=98.6
-    point fly=112.1 hoist=120.6
-    point fly=124.1 hoist=84.6
-    point fly=136.1 hoist=120.6
+    point fly=62.5 hoist=58.5
+    point fly=85 hoist=58.5
+    point fly=66.5 hoist=71.5
+    point fly=73.5 hoist=50.25
+    point fly=80.75 hoist=71.5
   }
   charge polygon white {
-    point fly=187.3 hoist=98.6
-    point fly=225.1 hoist=98.6
-    point fly=194.1 hoist=120.6
-    point fly=206.1 hoist=84.6
-    point fly=218.1 hoist=120.6
+    point fly=111 hoist=58.5
+    point fly=133.5 hoist=58.5
+    point fly=115.25 hoist=71.5
+    point fly=122.25 hoist=50.25
+    point fly=129.5 hoist=71.5
   }
   charge polygon white {
-    point fly=269.3 hoist=98.6
-    point fly=307.1 hoist=98.6
-    point fly=276.1 hoist=120.6
-    point fly=288.1 hoist=84.6
-    point fly=300.1 hoist=120.6
+    point fly=159.75 hoist=58.5
+    point fly=182.25 hoist=58.5
+    point fly=163.75 hoist=71.5
+    point fly=171 hoist=50.25
+    point fly=178 hoist=71.5
   }
   charge polygon white {
-    point fly=351.3 hoist=98.6
-    point fly=389.1 hoist=98.6
-    point fly=358.1 hoist=120.6
-    point fly=370.1 hoist=84.6
-    point fly=382.1 hoist=120.6
+    point fly=208.5 hoist=58.5
+    point fly=230.75 hoist=58.5
+    point fly=212.5 hoist=71.5
+    point fly=219.5 hoist=50.25
+    point fly=226.75 hoist=71.5
   }
   charge polygon white {
-    point fly=433.3 hoist=98.6
-    point fly=471.1 hoist=98.6
-    point fly=440.1 hoist=120.6
-    point fly=452.1 hoist=84.6
-    point fly=464.1 hoist=120.6
+    point fly=257 hoist=58.5
+    point fly=279.5 hoist=58.5
+    point fly=261 hoist=71.5
+    point fly=268.25 hoist=50.25
+    point fly=275.25 hoist=71.5
   }
   charge polygon white {
-    point fly=64.3 hoist=133.6
-    point fly=102.1 hoist=133.6
-    point fly=71.1 hoist=155.6
-    point fly=83.1 hoist=119.6
-    point fly=95.1 hoist=155.6
+    point fly=38.25 hoist=79.25
+    point fly=60.5 hoist=79.25
+    point fly=42.25 hoist=92.25
+    point fly=49.25 hoist=71
+    point fly=56.5 hoist=92.25
   }
   charge polygon white {
-    point fly=146.3 hoist=133.6
-    point fly=184.1 hoist=133.6
-    point fly=153.1 hoist=155.6
-    point fly=165.1 hoist=119.6
-    point fly=177.1 hoist=155.6
+    point fly=86.75 hoist=79.25
+    point fly=109.25 hoist=79.25
+    point fly=90.75 hoist=92.25
+    point fly=98 hoist=71
+    point fly=105 hoist=92.25
   }
   charge polygon white {
-    point fly=228.3 hoist=133.6
-    point fly=266.1 hoist=133.6
-    point fly=235.1 hoist=155.6
-    point fly=247.1 hoist=119.6
-    point fly=259.1 hoist=155.6
+    point fly=135.5 hoist=79.25
+    point fly=157.75 hoist=79.25
+    point fly=139.5 hoist=92.25
+    point fly=146.5 hoist=71
+    point fly=153.75 hoist=92.25
   }
   charge polygon white {
-    point fly=310.3 hoist=133.6
-    point fly=348.1 hoist=133.6
-    point fly=317.1 hoist=155.6
-    point fly=329.1 hoist=119.6
-    point fly=341.1 hoist=155.6
+    point fly=184 hoist=79.25
+    point fly=206.5 hoist=79.25
+    point fly=188 hoist=92.25
+    point fly=195.25 hoist=71
+    point fly=202.25 hoist=92.25
   }
   charge polygon white {
-    point fly=392.3 hoist=133.6
-    point fly=430.1 hoist=133.6
-    point fly=399.1 hoist=155.6
-    point fly=411.1 hoist=119.6
-    point fly=423.1 hoist=155.6
+    point fly=232.75 hoist=79.25
+    point fly=255.25 hoist=79.25
+    point fly=236.75 hoist=92.25
+    point fly=243.75 hoist=71
+    point fly=251 hoist=92.25
   }
   charge polygon white {
-    point fly=23.3 hoist=168.6
-    point fly=61.1 hoist=168.6
-    point fly=30.1 hoist=190.6
-    point fly=42.1 hoist=154.6
-    point fly=54.1 hoist=190.6
+    point fly=13.75 hoist=100
+    point fly=36.25 hoist=100
+    point fly=17.75 hoist=113
+    point fly=25 hoist=91.75
+    point fly=32 hoist=113
   }
   charge polygon white {
-    point fly=105.3 hoist=168.6
-    point fly=143.1 hoist=168.6
-    point fly=112.1 hoist=190.6
-    point fly=124.1 hoist=154.6
-    point fly=136.1 hoist=190.6
+    point fly=62.5 hoist=100
+    point fly=85 hoist=100
+    point fly=66.5 hoist=113
+    point fly=73.5 hoist=91.75
+    point fly=80.75 hoist=113
   }
   charge polygon white {
-    point fly=187.3 hoist=168.6
-    point fly=225.1 hoist=168.6
-    point fly=194.1 hoist=190.6
-    point fly=206.1 hoist=154.6
-    point fly=218.1 hoist=190.6
+    point fly=111 hoist=100
+    point fly=133.5 hoist=100
+    point fly=115.25 hoist=113
+    point fly=122.25 hoist=91.75
+    point fly=129.5 hoist=113
   }
   charge polygon white {
-    point fly=269.3 hoist=168.6
-    point fly=307.1 hoist=168.6
-    point fly=276.1 hoist=190.6
-    point fly=288.1 hoist=154.6
-    point fly=300.1 hoist=190.6
+    point fly=159.75 hoist=100
+    point fly=182.25 hoist=100
+    point fly=163.75 hoist=113
+    point fly=171 hoist=91.75
+    point fly=178 hoist=113
   }
   charge polygon white {
-    point fly=351.3 hoist=168.6
-    point fly=389.1 hoist=168.6
-    point fly=358.1 hoist=190.6
-    point fly=370.1 hoist=154.6
-    point fly=382.1 hoist=190.6
+    point fly=208.5 hoist=100
+    point fly=230.75 hoist=100
+    point fly=212.5 hoist=113
+    point fly=219.5 hoist=91.75
+    point fly=226.75 hoist=113
   }
   charge polygon white {
-    point fly=433.3 hoist=168.6
-    point fly=471.1 hoist=168.6
-    point fly=440.1 hoist=190.6
-    point fly=452.1 hoist=154.6
-    point fly=464.1 hoist=190.6
+    point fly=257 hoist=100
+    point fly=279.5 hoist=100
+    point fly=261 hoist=113
+    point fly=268.25 hoist=91.75
+    point fly=275.25 hoist=113
   }
   charge polygon white {
-    point fly=64.3 hoist=203.6
-    point fly=102.1 hoist=203.6
-    point fly=71.1 hoist=225.6
-    point fly=83.1 hoist=189.6
-    point fly=95.1 hoist=225.6
+    point fly=38.25 hoist=120.75
+    point fly=60.5 hoist=120.75
+    point fly=42.25 hoist=133.75
+    point fly=49.25 hoist=112.5
+    point fly=56.5 hoist=133.75
   }
   charge polygon white {
-    point fly=146.3 hoist=203.6
-    point fly=184.1 hoist=203.6
-    point fly=153.1 hoist=225.6
-    point fly=165.1 hoist=189.6
-    point fly=177.1 hoist=225.6
+    point fly=86.75 hoist=120.75
+    point fly=109.25 hoist=120.75
+    point fly=90.75 hoist=133.75
+    point fly=98 hoist=112.5
+    point fly=105 hoist=133.75
   }
   charge polygon white {
-    point fly=228.3 hoist=203.6
-    point fly=266.1 hoist=203.6
-    point fly=235.1 hoist=225.6
-    point fly=247.1 hoist=189.6
-    point fly=259.1 hoist=225.6
+    point fly=135.5 hoist=120.75
+    point fly=157.75 hoist=120.75
+    point fly=139.5 hoist=133.75
+    point fly=146.5 hoist=112.5
+    point fly=153.75 hoist=133.75
   }
   charge polygon white {
-    point fly=310.3 hoist=203.6
-    point fly=348.1 hoist=203.6
-    point fly=317.1 hoist=225.6
-    point fly=329.1 hoist=189.6
-    point fly=341.1 hoist=225.6
+    point fly=184 hoist=120.75
+    point fly=206.5 hoist=120.75
+    point fly=188 hoist=133.75
+    point fly=195.25 hoist=112.5
+    point fly=202.25 hoist=133.75
   }
   charge polygon white {
-    point fly=392.3 hoist=203.6
-    point fly=430.1 hoist=203.6
-    point fly=399.1 hoist=225.6
-    point fly=411.1 hoist=189.6
-    point fly=423.1 hoist=225.6
+    point fly=232.75 hoist=120.75
+    point fly=255.25 hoist=120.75
+    point fly=236.75 hoist=133.75
+    point fly=243.75 hoist=112.5
+    point fly=251 hoist=133.75
   }
   charge polygon white {
-    point fly=23.3 hoist=238.6
-    point fly=61.1 hoist=238.6
-    point fly=30.1 hoist=260.6
-    point fly=42.1 hoist=224.6
-    point fly=54.1 hoist=260.6
+    point fly=13.75 hoist=141.5
+    point fly=36.25 hoist=141.5
+    point fly=17.75 hoist=154.5
+    point fly=25 hoist=133.25
+    point fly=32 hoist=154.5
   }
   charge polygon white {
-    point fly=105.3 hoist=238.6
-    point fly=143.1 hoist=238.6
-    point fly=112.1 hoist=260.6
-    point fly=124.1 hoist=224.6
-    point fly=136.1 hoist=260.6
+    point fly=62.5 hoist=141.5
+    point fly=85 hoist=141.5
+    point fly=66.5 hoist=154.5
+    point fly=73.5 hoist=133.25
+    point fly=80.75 hoist=154.5
   }
   charge polygon white {
-    point fly=187.3 hoist=238.6
-    point fly=225.1 hoist=238.6
-    point fly=194.1 hoist=260.6
-    point fly=206.1 hoist=224.6
-    point fly=218.1 hoist=260.6
+    point fly=111 hoist=141.5
+    point fly=133.5 hoist=141.5
+    point fly=115.25 hoist=154.5
+    point fly=122.25 hoist=133.25
+    point fly=129.5 hoist=154.5
   }
   charge polygon white {
-    point fly=269.3 hoist=238.6
-    point fly=307.1 hoist=238.6
-    point fly=276.1 hoist=260.6
-    point fly=288.1 hoist=224.6
-    point fly=300.1 hoist=260.6
+    point fly=159.75 hoist=141.5
+    point fly=182.25 hoist=141.5
+    point fly=163.75 hoist=154.5
+    point fly=171 hoist=133.25
+    point fly=178 hoist=154.5
   }
   charge polygon white {
-    point fly=351.3 hoist=238.6
-    point fly=389.1 hoist=238.6
-    point fly=358.1 hoist=260.6
-    point fly=370.1 hoist=224.6
-    point fly=382.1 hoist=260.6
+    point fly=208.5 hoist=141.5
+    point fly=230.75 hoist=141.5
+    point fly=212.5 hoist=154.5
+    point fly=219.5 hoist=133.25
+    point fly=226.75 hoist=154.5
   }
   charge polygon white {
-    point fly=433.3 hoist=238.6
-    point fly=471.1 hoist=238.6
-    point fly=440.1 hoist=260.6
-    point fly=452.1 hoist=224.6
-    point fly=464.1 hoist=260.6
+    point fly=257 hoist=141.5
+    point fly=279.5 hoist=141.5
+    point fly=261 hoist=154.5
+    point fly=268.25 hoist=133.25
+    point fly=275.25 hoist=154.5
   }
   charge polygon white {
-    point fly=64.3 hoist=273.6
-    point fly=102.1 hoist=273.6
-    point fly=71.1 hoist=295.6
-    point fly=83.1 hoist=259.6
-    point fly=95.1 hoist=295.6
+    point fly=38.25 hoist=162.25
+    point fly=60.5 hoist=162.25
+    point fly=42.25 hoist=175.25
+    point fly=49.25 hoist=154
+    point fly=56.5 hoist=175.25
   }
   charge polygon white {
-    point fly=146.3 hoist=273.6
-    point fly=184.1 hoist=273.6
-    point fly=153.1 hoist=295.6
-    point fly=165.1 hoist=259.6
-    point fly=177.1 hoist=295.6
+    point fly=86.75 hoist=162.25
+    point fly=109.25 hoist=162.25
+    point fly=90.75 hoist=175.25
+    point fly=98 hoist=154
+    point fly=105 hoist=175.25
   }
   charge polygon white {
-    point fly=228.3 hoist=273.6
-    point fly=266.1 hoist=273.6
-    point fly=235.1 hoist=295.6
-    point fly=247.1 hoist=259.6
-    point fly=259.1 hoist=295.6
+    point fly=135.5 hoist=162.25
+    point fly=157.75 hoist=162.25
+    point fly=139.5 hoist=175.25
+    point fly=146.5 hoist=154
+    point fly=153.75 hoist=175.25
   }
   charge polygon white {
-    point fly=310.3 hoist=273.6
-    point fly=348.1 hoist=273.6
-    point fly=317.1 hoist=295.6
-    point fly=329.1 hoist=259.6
-    point fly=341.1 hoist=295.6
+    point fly=184 hoist=162.25
+    point fly=206.5 hoist=162.25
+    point fly=188 hoist=175.25
+    point fly=195.25 hoist=154
+    point fly=202.25 hoist=175.25
   }
   charge polygon white {
-    point fly=392.3 hoist=273.6
-    point fly=430.1 hoist=273.6
-    point fly=399.1 hoist=295.6
-    point fly=411.1 hoist=259.6
-    point fly=423.1 hoist=295.6
+    point fly=232.75 hoist=162.25
+    point fly=255.25 hoist=162.25
+    point fly=236.75 hoist=175.25
+    point fly=243.75 hoist=154
+    point fly=251 hoist=175.25
   }
   charge polygon white {
-    point fly=23.3 hoist=308.6
-    point fly=61.1 hoist=308.6
-    point fly=30.1 hoist=330.6
-    point fly=42.1 hoist=294.6
-    point fly=54.1 hoist=330.6
+    point fly=13.75 hoist=183
+    point fly=36.25 hoist=183
+    point fly=17.75 hoist=196
+    point fly=25 hoist=174.75
+    point fly=32 hoist=196
   }
   charge polygon white {
-    point fly=105.3 hoist=308.6
-    point fly=143.1 hoist=308.6
-    point fly=112.1 hoist=330.6
-    point fly=124.1 hoist=294.6
-    point fly=136.1 hoist=330.6
+    point fly=62.5 hoist=183
+    point fly=85 hoist=183
+    point fly=66.5 hoist=196
+    point fly=73.5 hoist=174.75
+    point fly=80.75 hoist=196
   }
   charge polygon white {
-    point fly=187.3 hoist=308.6
-    point fly=225.1 hoist=308.6
-    point fly=194.1 hoist=330.6
-    point fly=206.1 hoist=294.6
-    point fly=218.1 hoist=330.6
+    point fly=111 hoist=183
+    point fly=133.5 hoist=183
+    point fly=115.25 hoist=196
+    point fly=122.25 hoist=174.75
+    point fly=129.5 hoist=196
   }
   charge polygon white {
-    point fly=269.3 hoist=308.6
-    point fly=307.1 hoist=308.6
-    point fly=276.1 hoist=330.6
-    point fly=288.1 hoist=294.6
-    point fly=300.1 hoist=330.6
+    point fly=159.75 hoist=183
+    point fly=182.25 hoist=183
+    point fly=163.75 hoist=196
+    point fly=171 hoist=174.75
+    point fly=178 hoist=196
   }
   charge polygon white {
-    point fly=351.3 hoist=308.6
-    point fly=389.1 hoist=308.6
-    point fly=358.1 hoist=330.6
-    point fly=370.1 hoist=294.6
-    point fly=382.1 hoist=330.6
+    point fly=208.5 hoist=183
+    point fly=230.75 hoist=183
+    point fly=212.5 hoist=196
+    point fly=219.5 hoist=174.75
+    point fly=226.75 hoist=196
   }
   charge polygon white {
-    point fly=433.3 hoist=308.6
-    point fly=471.1 hoist=308.6
-    point fly=440.1 hoist=330.6
-    point fly=452.1 hoist=294.6
-    point fly=464.1 hoist=330.6
+    point fly=257 hoist=183
+    point fly=279.5 hoist=183
+    point fly=261 hoist=196
+    point fly=268.25 hoist=174.75
+    point fly=275.25 hoist=196
   }
 }

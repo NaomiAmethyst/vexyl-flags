@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "House flag of Hillern Warrings GmbH & Co. KG"
@@ -12,53 +11,53 @@ palette {
   red "#c40f0d"
   blue "#4079a2"
   white "#ffffff"
-  blue-2 "#000001"
+  dark-blue "#000001"
 }
-proportion hoist=400 fly=600
+proportion hoist=2 fly=3
 
 bars black red blue {
   ratio 1 1 1
 }
 
 charge lozenge white {
-  fly 367.9358
-  hoist 242.5189
-  at fly=300.8366 hoist=200
+  fly 1.8397
+  hoist 1.2126
+  at fly=1.5042 hoist=1
   anchor center
 }
 
-charge polygon blue-2 {
-  point fly=300 hoist=78.7406
-  point fly=485.6412 hoist=200
-  point fly=300 hoist=321.2594
-  point fly=117.7054 hoist=200
-  hollow 15.875
+charge polygon dark-blue {
+  point fly=1.5 hoist=0.3937
+  point fly=2.4282 hoist=1
+  point fly=1.5 hoist=1.6063
+  point fly=0.5885 hoist=1
+  hollow 0.0794
 }
 
 charge polygon black {
-  point fly=209.3788 hoist=167.6741
-  point fly=224.545 hoist=167.6741
-  point fly=249.8222 hoist=253.6163
-  point fly=290.6868 hoist=253.6163
-  point fly=302.9041 hoist=202.6408
-  point fly=318.4917 hoist=253.6163
-  point fly=360.6202 hoist=253.6163
-  point fly=379.9993 hoist=167.6741
-  point fly=392.6379 hoist=167.6741
-  point fly=392.6379 hoist=148.7162
-  point fly=346.7178 hoist=148.7162
-  point fly=346.7178 hoist=168.0954
-  point fly=358.5138 hoist=167.6741
-  point fly=345.4539 hoist=216.5432
-  point fly=333.2366 hoist=167.6741
-  point fly=342.5049 hoist=167.6741
-  point fly=342.5049 hoist=148.7162
-  point fly=279.7334 hoist=148.7162
-  point fly=279.7334 hoist=168.0954
-  point fly=290.6868 hoist=167.6741
-  point fly=278.0483 hoist=216.5432
-  point fly=265.831 hoist=167.6741
-  point fly=275.5206 hoist=168.0954
-  point fly=275.5206 hoist=149.9801
-  point fly=209.3788 hoist=148.7162
+  point fly=1.0469 hoist=0.8384
+  point fly=1.1227 hoist=0.8384
+  point fly=1.2491 hoist=1.2681
+  point fly=1.4534 hoist=1.2681
+  point fly=1.5145 hoist=1.0132
+  point fly=1.5925 hoist=1.2681
+  point fly=1.8031 hoist=1.2681
+  point fly=1.9 hoist=0.8384
+  point fly=1.9632 hoist=0.8384
+  point fly=1.9632 hoist=0.7436
+  point fly=1.7336 hoist=0.7436
+  point fly=1.7336 hoist=0.8405
+  point fly=1.7926 hoist=0.8384
+  point fly=1.7273 hoist=1.0827
+  point fly=1.6667 hoist=0.8384
+  point fly=1.7125 hoist=0.8384
+  point fly=1.7125 hoist=0.7436
+  point fly=1.3987 hoist=0.7436
+  point fly=1.3987 hoist=0.8405
+  point fly=1.4534 hoist=0.8384
+  point fly=1.3902 hoist=1.0827
+  point fly=1.3292 hoist=0.8384
+  point fly=1.3776 hoist=0.8405
+  point fly=1.3776 hoist=0.75
+  point fly=1.0469 hoist=0.7436
 }

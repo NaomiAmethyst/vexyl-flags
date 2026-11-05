@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Oregon (reverse)"
@@ -20,6 +19,5 @@ charge path yellow {
   box "114.9853 91.1422 130.5455 58.1726"
   fly 130.5455
   hoist 58.1726
-  at fly=180.2581 hoist=120.2285
-  anchor center
+  at center
 }

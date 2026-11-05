@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Government Ensign of India"
@@ -12,378 +11,378 @@ palette {
   green "#00643c"
   white "#ffffff"
   orange "#ff6400"
-  blue-2 "#000080"
+  dark-blue "#000080"
   yellow "#ffd700"
 }
-proportion hoist=600 fly=900
+proportion hoist=12 fly=18
 
 field blue
 
 canton {
-  fly 450
-  hoist 300
+  fly 9
+  hoist 6
   field green
 }
 
 canton {
-  fly 450
-  hoist 200
+  fly 9
+  hoist 4
   field white
 }
 
 canton {
-  fly 450
-  hoist 100
+  fly 9
+  hoist 2
   field orange
 }
 
-charge disc blue-2 {
-  radius 46.5
-  at fly=225 hoist=150
+charge disc dark-blue {
+  radius 0.93
+  at fly=4.5 hoist=3
 }
 
 charge disc white {
-  radius 41
-  at fly=225 hoist=150
+  radius 0.82
+  at fly=4.5 hoist=3
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=265.6492 hoist=155.3516
+charge disc dark-blue {
+  radius 0.05
+  at fly=5.3125 hoist=3.107
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M225 191L226.5 167Q225.5 164 225 150Q224.5 164 223.5 167Z"
   box "223.5 150 3 41"
-  fly 3
-  hoist 41
-  at fly=225 hoist=170.5
+  fly 0.0625
+  hoist 0.82
+  at fly=4.5 hoist=3.41
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=262.8791 hoist=165.69
+charge disc dark-blue {
+  radius 0.05
+  at fly=5.2576 hoist=3.3125
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M214.3884 189.603L222.049 166.809Q221.8595 163.6524 225 150Q220.8936 163.3936 219.1512 166.0325Z"
   box "214.3884 150 10.6116 39.603"
-  fly 10.6116
-  hoist 39.603
-  at fly=219.6942 hoist=169.8015
+  fly 0.2122
+  hoist 0.7921
+  at fly=4.3939 hoist=3.396
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=257.5275 hoist=174.9592
+charge disc dark-blue {
+  radius 0.05
+  at fly=5.15 hoist=3.5
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M204.5 185.507L217.799 165.4724Q218.433 162.3744 225 150Q217.567 161.8744 215.201 163.9724Z"
   box "204.5 150 20.5 35.507"
-  fly 20.5
-  hoist 35.507
-  at fly=214.75 hoist=167.7535
+  fly 0.41
+  hoist 0.7101
+  at fly=4.295 hoist=3.3551
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=249.9592 hoist=182.5275
+charge disc dark-blue {
+  radius 0.05
+  at fly=5 hoist=3.65
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M196.0086 178.9914L214.0398 163.0815Q215.4541 160.253 225 150Q214.747 159.5459 211.9185 160.9602Z"
   box "196.0086 150 28.9914 28.9914"
-  fly 28.9914
-  hoist 28.9914
-  at fly=210.5043 hoist=164.4957
+  fly 0.5833
+  hoist 0.5833
+  at fly=4.2101 hoist=3.2899
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=240.69 hoist=187.8791
+charge disc dark-blue {
+  radius 0.05
+  at fly=4.8125 hoist=3.7576
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M189.493 170.5L211.0276 159.799Q213.1256 157.433 225 150Q212.6256 156.567 209.5276 157.201Z"
   box "189.493 150 35.507 20.5"
-  fly 35.507
-  hoist 20.5
-  at fly=207.2465 hoist=160.25
+  fly 0.7101
+  hoist 0.41
+  at fly=4.1449 hoist=3.205
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=230.3516 hoist=190.6492
+charge disc dark-blue {
+  radius 0.05
+  at fly=4.607 hoist=3.8125
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M185.397 160.6116L208.9675 155.8488Q211.6064 154.1064 225 150Q211.3476 153.1405 208.191 152.951Z"
   box "185.397 150 39.603 10.6116"
-  fly 39.603
-  hoist 10.6116
-  at fly=205.1985 hoist=155.3058
+  fly 0.7921
+  hoist 0.2122
+  at fly=4.104 hoist=3.1061
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=219.6484 hoist=190.6492
+charge disc dark-blue {
+  radius 0.05
+  at fly=4.393 hoist=3.8125
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M184 150L208 151.5Q211 150.5 225 150Q211 149.5 208 148.5Z"
   box "184 148.5 41 3"
-  fly 41
-  hoist 3
-  at fly=204.5 hoist=150
+  fly 0.82
+  hoist 0.0625
+  at fly=4.09 hoist=3
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=209.31 hoist=187.8791
+charge disc dark-blue {
+  radius 0.05
+  at fly=4.1875 hoist=3.7576
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M185.397 139.3884L208.191 147.049Q211.3476 146.8595 225 150Q211.6064 145.8936 208.9675 144.1512Z"
   box "185.397 139.3884 39.603 10.6116"
-  fly 39.603
-  hoist 10.6116
-  at fly=205.1985 hoist=144.6942
+  fly 0.7921
+  hoist 0.2122
+  at fly=4.104 hoist=2.8939
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=200.0408 hoist=182.5275
+charge disc dark-blue {
+  radius 0.05
+  at fly=4 hoist=3.65
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M189.493 129.5L209.5276 142.799Q212.6256 143.433 225 150Q213.1256 142.567 211.0276 140.201Z"
   box "189.493 129.5 35.507 20.5"
-  fly 35.507
-  hoist 20.5
-  at fly=207.2465 hoist=139.75
+  fly 0.7101
+  hoist 0.41
+  at fly=4.1449 hoist=2.795
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=192.4725 hoist=174.9592
+charge disc dark-blue {
+  radius 0.05
+  at fly=3.85 hoist=3.5
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M196.0086 121.0086L211.9185 139.0398Q214.747 140.4541 225 150Q215.4541 139.747 214.0398 136.9185Z"
   box "196.0086 121.0086 28.9914 28.9914"
-  fly 28.9914
-  hoist 28.9914
-  at fly=210.5043 hoist=135.5043
+  fly 0.5833
+  hoist 0.5833
+  at fly=4.2101 hoist=2.7101
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=187.1209 hoist=165.69
+charge disc dark-blue {
+  radius 0.05
+  at fly=3.7424 hoist=3.3125
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M204.5 114.493L215.201 136.0276Q217.567 138.1256 225 150Q218.433 137.6256 217.799 134.5276Z"
   box "204.5 114.493 20.5 35.507"
-  fly 20.5
-  hoist 35.507
-  at fly=214.75 hoist=132.2465
+  fly 0.41
+  hoist 0.7101
+  at fly=4.295 hoist=2.6449
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=184.3508 hoist=155.3516
+charge disc dark-blue {
+  radius 0.05
+  at fly=3.6875 hoist=3.107
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M214.3884 110.397L219.1512 133.9675Q220.8936 136.6064 225 150Q221.8595 136.3476 222.049 133.191Z"
   box "214.3884 110.397 10.6116 39.603"
-  fly 10.6116
-  hoist 39.603
-  at fly=219.6942 hoist=130.1985
+  fly 0.2122
+  hoist 0.7921
+  at fly=4.3939 hoist=2.604
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=184.3508 hoist=144.6484
+charge disc dark-blue {
+  radius 0.05
+  at fly=3.6875 hoist=2.893
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M225 109L223.5 133Q224.5 136 225 150Q225.5 136 226.5 133Z"
   box "223.5 109 3 41"
-  fly 3
-  hoist 41
-  at fly=225 hoist=129.5
+  fly 0.0625
+  hoist 0.82
+  at fly=4.5 hoist=2.59
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=187.1209 hoist=134.31
+charge disc dark-blue {
+  radius 0.05
+  at fly=3.7424 hoist=2.6875
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M235.6116 110.397L227.951 133.191Q228.1405 136.3476 225 150Q229.1064 136.6064 230.8488 133.9675Z"
   box "225 110.397 10.6116 39.603"
-  fly 10.6116
-  hoist 39.603
-  at fly=230.3058 hoist=130.1985
+  fly 0.2122
+  hoist 0.7921
+  at fly=4.6061 hoist=2.604
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=192.4725 hoist=125.0408
+charge disc dark-blue {
+  radius 0.05
+  at fly=3.85 hoist=2.5
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M245.5 114.493L232.201 134.5276Q231.567 137.6256 225 150Q232.433 138.1256 234.799 136.0276Z"
   box "225 114.493 20.5 35.507"
-  fly 20.5
-  hoist 35.507
-  at fly=235.25 hoist=132.2465
+  fly 0.41
+  hoist 0.7101
+  at fly=4.705 hoist=2.6449
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=200.0408 hoist=117.4725
+charge disc dark-blue {
+  radius 0.05
+  at fly=4 hoist=2.35
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M253.9914 121.0086L235.9602 136.9185Q234.5459 139.747 225 150Q235.253 140.4541 238.0815 139.0398Z"
   box "225 121.0086 28.9914 28.9914"
-  fly 28.9914
-  hoist 28.9914
-  at fly=239.4957 hoist=135.5043
+  fly 0.5833
+  hoist 0.5833
+  at fly=4.7899 hoist=2.7101
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=209.31 hoist=112.1209
+charge disc dark-blue {
+  radius 0.05
+  at fly=4.1875 hoist=2.2424
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M260.507 129.5L238.9724 140.201Q236.8744 142.567 225 150Q237.3744 143.433 240.4724 142.799Z"
   box "225 129.5 35.507 20.5"
-  fly 35.507
-  hoist 20.5
-  at fly=242.7535 hoist=139.75
+  fly 0.7101
+  hoist 0.41
+  at fly=4.8551 hoist=2.795
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=219.6484 hoist=109.3508
+charge disc dark-blue {
+  radius 0.05
+  at fly=4.393 hoist=2.1875
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M264.603 139.3884L241.0325 144.1512Q238.3936 145.8936 225 150Q238.6524 146.8595 241.809 147.049Z"
   box "225 139.3884 39.603 10.6116"
-  fly 39.603
-  hoist 10.6116
-  at fly=244.8015 hoist=144.6942
+  fly 0.7921
+  hoist 0.2122
+  at fly=4.896 hoist=2.8939
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=230.3516 hoist=109.3508
+charge disc dark-blue {
+  radius 0.05
+  at fly=4.607 hoist=2.1875
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M266 150L242 148.5Q239 149.5 225 150Q239 150.5 242 151.5Z"
   box "225 148.5 41 3"
-  fly 41
-  hoist 3
-  at fly=245.5 hoist=150
+  fly 0.82
+  hoist 0.0625
+  at fly=4.91 hoist=3
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=240.69 hoist=112.1209
+charge disc dark-blue {
+  radius 0.05
+  at fly=4.8125 hoist=2.2424
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M264.603 160.6116L241.809 152.951Q238.6524 153.1405 225 150Q238.3936 154.1064 241.0325 155.8488Z"
   box "225 150 39.603 10.6116"
-  fly 39.603
-  hoist 10.6116
-  at fly=244.8015 hoist=155.3058
+  fly 0.7921
+  hoist 0.2122
+  at fly=4.896 hoist=3.1061
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=249.9592 hoist=117.4725
+charge disc dark-blue {
+  radius 0.05
+  at fly=5 hoist=2.35
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M260.507 170.5L240.4724 157.201Q237.3744 156.567 225 150Q236.8744 157.433 238.9724 159.799Z"
   box "225 150 35.507 20.5"
-  fly 35.507
-  hoist 20.5
-  at fly=242.7535 hoist=160.25
+  fly 0.7101
+  hoist 0.41
+  at fly=4.8551 hoist=3.205
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=257.5275 hoist=125.0408
+charge disc dark-blue {
+  radius 0.05
+  at fly=5.15 hoist=2.5
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M253.9914 178.9914L238.0815 160.9602Q235.253 159.5459 225 150Q234.5459 160.253 235.9602 163.0815Z"
   box "225 150 28.9914 28.9914"
-  fly 28.9914
-  hoist 28.9914
-  at fly=239.4957 hoist=164.4957
+  fly 0.5833
+  hoist 0.5833
+  at fly=4.7899 hoist=3.2899
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=262.8791 hoist=134.31
+charge disc dark-blue {
+  radius 0.05
+  at fly=5.2576 hoist=2.6875
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M245.5 185.507L234.799 163.9724Q232.433 161.8744 225 150Q231.567 162.3744 232.201 165.4724Z"
   box "225 150 20.5 35.507"
-  fly 20.5
-  hoist 35.507
-  at fly=235.25 hoist=167.7535
+  fly 0.41
+  hoist 0.7101
+  at fly=4.705 hoist=3.3551
 }
 
-charge disc blue-2 {
-  radius 2.5
-  at fly=265.6492 hoist=144.6484
+charge disc dark-blue {
+  radius 0.05
+  at fly=5.3125 hoist=2.893
 }
 
-charge path blue-2 {
+charge path dark-blue {
   d "M235.6116 189.603L230.8488 166.0325Q229.1064 163.3936 225 150Q228.1405 163.6524 227.951 166.809Z"
   box "225 150 10.6116 39.603"
-  fly 10.6116
-  hoist 39.603
-  at fly=230.3058 hoist=169.8015
+  fly 0.2122
+  hoist 0.7921
+  at fly=4.6061 hoist=3.396
 }
 
-charge disc blue-2 {
-  radius 8
-  at fly=225 hoist=150
+charge disc dark-blue {
+  radius 0.16
+  at fly=4.5 hoist=3
 }
 
 charge polygon yellow {
-  point fly=582 hoist=365
-  point fly=582 hoist=235
-  point fly=613 hoist=300
+  point fly=11.64 hoist=7.3
+  point fly=11.64 hoist=4.7
+  point fly=12.26 hoist=6
 }
 
 charge path yellow {
   d "M555.399 294.626L555.399 305.374L602.6844 308.0031L790.8584 313.1362C795.747 313.2555 797.7383 323.9256 797.7383 329.9138C797.7383 352.5366 772.9682 381.8197 772.9682 381.8197L771.9111 371.5914C770.7253 383.9977 766.7131 392.4485 761.8091 399.6508C772.5654 400.7469 780.7965 395.8429 789.5886 389.2689C785.7134 389.7909 784.7863 389.7484 782.5741 388.7079C782.5741 388.7079 809.2304 356.5252 809.2304 337.7469C809.2304 321.7229 832.132 300 832.132 300C832.132 300 809.2304 278.2772 809.2304 262.2531C809.2304 243.4748 782.5741 211.2921 782.5741 211.2921C784.7863 210.2515 785.7134 210.209 789.5886 210.7311C780.7965 204.157 772.5654 199.2531 761.8091 200.3492C766.7131 207.5515 770.7253 216.0023 771.9111 228.4086L772.9682 218.1803C772.9682 218.1803 797.7383 247.4634 797.7383 270.0862C797.7383 276.0743 795.747 286.7445 790.8584 286.8638L602.6844 291.9968L555.399 294.626Z"
   box "555.399 199.2531 276.733 201.4938"
-  fly 276.733
-  hoist 201.4938
-  at fly=693.7655 hoist=300
+  fly 5.5347
+  hoist 4.0299
+  at fly=13.875 hoist=6
 }
 
 charge disc yellow {
-  radius 22.5
-  at fly=540.25 hoist=300
+  radius 0.45
+  at fly=10.805 hoist=6
 }
 
 charge disc blue {
-  radius 13.5
-  at fly=540.25 hoist=300
+  radius 0.27
+  at fly=10.805 hoist=6
 }

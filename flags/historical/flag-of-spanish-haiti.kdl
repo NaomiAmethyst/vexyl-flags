@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Spanish Haiti"
@@ -13,73 +12,73 @@ palette {
   red "#ce1126"
   white "#ffffff"
 }
-proportion hoist=300 fly=450
+proportion hoist=2 fly=3
 
 bars yellow blue red {
   ratio 2 1 1
 }
 
 charge polygon white {
-  point fly=155 hoist=191
-  point fly=151 hoist=203
-  point fly=138 hoist=203
-  point fly=149 hoist=211
-  point fly=145 hoist=223
-  point fly=155 hoist=216
-  point fly=165 hoist=223
-  point fly=161 hoist=211
-  point fly=172 hoist=203
-  point fly=159 hoist=203
+  point fly=1.0333 hoist=1.2733
+  point fly=1.0067 hoist=1.3533
+  point fly=0.92 hoist=1.3533
+  point fly=0.9933 hoist=1.4067
+  point fly=0.9667 hoist=1.4867
+  point fly=1.0333 hoist=1.44
+  point fly=1.1 hoist=1.4867
+  point fly=1.0733 hoist=1.4067
+  point fly=1.1467 hoist=1.3533
+  point fly=1.06 hoist=1.3533
 }
 
 charge polygon white {
-  point fly=186 hoist=164
-  point fly=182 hoist=176
-  point fly=169 hoist=176
-  point fly=180 hoist=184
-  point fly=176 hoist=196
-  point fly=186 hoist=189
-  point fly=196 hoist=196
-  point fly=192 hoist=184
-  point fly=203 hoist=176
-  point fly=190 hoist=176
+  point fly=1.24 hoist=1.0933
+  point fly=1.2133 hoist=1.1733
+  point fly=1.1267 hoist=1.1733
+  point fly=1.2 hoist=1.2267
+  point fly=1.1733 hoist=1.3067
+  point fly=1.24 hoist=1.26
+  point fly=1.3067 hoist=1.3067
+  point fly=1.28 hoist=1.2267
+  point fly=1.3533 hoist=1.1733
+  point fly=1.2667 hoist=1.1733
 }
 
 charge polygon white {
-  point fly=225 hoist=153
-  point fly=221 hoist=165
-  point fly=208 hoist=165
-  point fly=219 hoist=173
-  point fly=215 hoist=185
-  point fly=225 hoist=178
-  point fly=235 hoist=185
-  point fly=231 hoist=173
-  point fly=242 hoist=165
-  point fly=229 hoist=165
+  point fly=1.5 hoist=1.02
+  point fly=1.4733 hoist=1.1
+  point fly=1.3867 hoist=1.1
+  point fly=1.46 hoist=1.1533
+  point fly=1.4333 hoist=1.2333
+  point fly=1.5 hoist=1.1867
+  point fly=1.5667 hoist=1.2333
+  point fly=1.54 hoist=1.1533
+  point fly=1.6133 hoist=1.1
+  point fly=1.5267 hoist=1.1
 }
 
 charge polygon white {
-  point fly=264 hoist=164
-  point fly=260 hoist=176
-  point fly=247 hoist=176
-  point fly=258 hoist=184
-  point fly=254 hoist=196
-  point fly=264 hoist=189
-  point fly=274 hoist=196
-  point fly=270 hoist=184
-  point fly=281 hoist=176
-  point fly=268 hoist=176
+  point fly=1.76 hoist=1.0933
+  point fly=1.7333 hoist=1.1733
+  point fly=1.6467 hoist=1.1733
+  point fly=1.72 hoist=1.2267
+  point fly=1.6933 hoist=1.3067
+  point fly=1.76 hoist=1.26
+  point fly=1.8267 hoist=1.3067
+  point fly=1.8 hoist=1.2267
+  point fly=1.8733 hoist=1.1733
+  point fly=1.7867 hoist=1.1733
 }
 
 charge polygon white {
-  point fly=295 hoist=191
-  point fly=291 hoist=203
-  point fly=278 hoist=203
-  point fly=289 hoist=211
-  point fly=285 hoist=223
-  point fly=295 hoist=216
-  point fly=305 hoist=223
-  point fly=301 hoist=211
-  point fly=312 hoist=203
-  point fly=299 hoist=203
+  point fly=1.9667 hoist=1.2733
+  point fly=1.94 hoist=1.3533
+  point fly=1.8533 hoist=1.3533
+  point fly=1.9267 hoist=1.4067
+  point fly=1.9 hoist=1.4867
+  point fly=1.9667 hoist=1.44
+  point fly=2.0333 hoist=1.4867
+  point fly=2.0067 hoist=1.4067
+  point fly=2.08 hoist=1.3533
+  point fly=1.9933 hoist=1.3533
 }

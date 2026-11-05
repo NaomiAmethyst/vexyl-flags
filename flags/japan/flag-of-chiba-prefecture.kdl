@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Chiba Prefecture"
@@ -12,54 +11,54 @@ palette {
   orange "#fece60"
   white "#ffffff"
 }
-proportion hoist=600 fly=900
+proportion hoist=2 fly=3
 
 field blue
 
 charge polygon orange {
-  point fly=450 hoist=94
-  point fly=490 hoist=154
-  point fly=450 hoist=194
-  point fly=410 hoist=154
-  point fly=450 hoist=94
-  point fly=478.8675 hoist=244
-  point fly=623.2051 hoist=194
-  point fly=507.735 hoist=294
-  point fly=623.2051 hoist=394
-  point fly=478.8675 hoist=344
-  point fly=450 hoist=494
-  point fly=421.1325 hoist=344
-  point fly=276.7949 hoist=394
-  point fly=392.265 hoist=294
-  point fly=276.7949 hoist=194
-  point fly=421.1325 hoist=244
+  point fly=1.5 hoist=0.3133
+  point fly=1.6333 hoist=0.5133
+  point fly=1.5 hoist=0.6467
+  point fly=1.3667 hoist=0.5133
+  point fly=1.5 hoist=0.3133
+  point fly=1.5962 hoist=0.8133
+  point fly=2.0774 hoist=0.6467
+  point fly=1.6925 hoist=0.98
+  point fly=2.0774 hoist=1.3133
+  point fly=1.5962 hoist=1.1467
+  point fly=1.5 hoist=1.6467
+  point fly=1.4038 hoist=1.1467
+  point fly=0.9226 hoist=1.3133
+  point fly=1.3075 hoist=0.98
+  point fly=0.9226 hoist=0.6467
+  point fly=1.4038 hoist=0.8133
 }
 
 charge polygon white {
-  point fly=450 hoist=110.225
-  point fly=478.4188 hoist=152.8532
-  point fly=456.3989 hoist=174.8732
-  point fly=471.9937 hoist=255.9059
-  point fly=581.9619 hoist=217.8118
-  point fly=476.3924 hoist=309.2376
-  point fly=450 hoist=446.3765
-  point fly=423.6076 hoist=309.2376
-  point fly=318.0381 hoist=217.8118
-  point fly=428.0063 hoist=255.9059
-  point fly=443.6011 hoist=174.8732
-  point fly=421.5812 hoist=152.8532
+  point fly=1.5 hoist=0.3674
+  point fly=1.5947 hoist=0.5095
+  point fly=1.5213 hoist=0.5833
+  point fly=1.5733 hoist=0.853
+  point fly=1.9399 hoist=0.726
+  point fly=1.588 hoist=1.0308
+  point fly=1.5 hoist=1.4879
+  point fly=1.412 hoist=1.0308
+  point fly=1.0601 hoist=0.726
+  point fly=1.4267 hoist=0.853
+  point fly=1.4787 hoist=0.5833
+  point fly=1.4053 hoist=0.5095
 }
 
 charge polygon white {
-  point fly=484.641 hoist=314
-  point fly=500.8612 hoist=299.9529
-  point fly=581.9619 hoist=370.1882
-  point fly=480.586 hoist=335.0706
+  point fly=1.6155 hoist=1.0467
+  point fly=1.6695 hoist=1
+  point fly=1.9399 hoist=1.234
+  point fly=1.602 hoist=1.1169
 }
 
 charge polygon white {
-  point fly=415.359 hoist=314
-  point fly=399.1388 hoist=299.9529
-  point fly=318.0381 hoist=370.1882
-  point fly=419.414 hoist=335.0706
+  point fly=1.3845 hoist=1.0467
+  point fly=1.3305 hoist=1
+  point fly=1.0601 hoist=1.234
+  point fly=1.398 hoist=1.1169
 }

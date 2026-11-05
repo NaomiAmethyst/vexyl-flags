@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "ICS Golf"
@@ -10,21 +9,21 @@ palette {
   yellow "#ffff00"
   blue "#0000ff"
 }
-proportion hoist=6 fly=6
+proportion hoist=1 fly=1
 
 field yellow
 
 charge polygon blue {
+  point fly=0.1667 hoist=0
+  point fly=0.1667 hoist=1
+  point fly=0.3333 hoist=1
+  point fly=0.3333 hoist=0
+  point fly=0.5 hoist=0
+  point fly=0.5 hoist=1
+  point fly=0.6667 hoist=1
+  point fly=0.6667 hoist=0
+  point fly=0.8333 hoist=0
+  point fly=0.8333 hoist=1
+  point fly=1 hoist=1
   point fly=1 hoist=0
-  point fly=1 hoist=6
-  point fly=2 hoist=6
-  point fly=2 hoist=0
-  point fly=3 hoist=0
-  point fly=3 hoist=6
-  point fly=4 hoist=6
-  point fly=4 hoist=0
-  point fly=5 hoist=0
-  point fly=5 hoist=6
-  point fly=6 hoist=6
-  point fly=6 hoist=0
 }

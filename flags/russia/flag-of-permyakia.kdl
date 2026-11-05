@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of Permyakia"
@@ -12,34 +11,34 @@ palette {
   white "#ffffff"
   blue "#0051ba"
 }
-proportion hoist=120 fly=240
+proportion hoist=1 fly=2
 
 bars red white blue
 
 charge polygon red {
-  point fly=124.2426 hoist=43.0294
-  point fly=103.0294 hoist=64.2426
-  point fly=107.2721 hoist=68.4853
-  point fly=128.4853 hoist=47.2721
+  point fly=1.0354 hoist=0.3586
+  point fly=0.8586 hoist=0.5354
+  point fly=0.8939 hoist=0.5707
+  point fly=1.0707 hoist=0.3939
 }
 
 charge polygon red {
-  point fly=103.0294 hoist=55.7574
-  point fly=124.2426 hoist=76.9706
-  point fly=128.4853 hoist=72.7279
-  point fly=107.2721 hoist=51.5147
+  point fly=0.8586 hoist=0.4646
+  point fly=1.0354 hoist=0.6414
+  point fly=1.0707 hoist=0.6061
+  point fly=0.8939 hoist=0.4293
 }
 
 charge polygon red {
-  point fly=111.5147 hoist=47.2721
-  point fly=132.7279 hoist=68.4853
-  point fly=136.9706 hoist=64.2426
-  point fly=115.7574 hoist=43.0294
+  point fly=0.9293 hoist=0.3939
+  point fly=1.1061 hoist=0.5707
+  point fly=1.1414 hoist=0.5354
+  point fly=0.9646 hoist=0.3586
 }
 
 charge polygon red {
-  point fly=132.7279 hoist=51.5147
-  point fly=111.5147 hoist=72.7279
-  point fly=115.7574 hoist=76.9706
-  point fly=136.9706 hoist=55.7574
+  point fly=1.1061 hoist=0.4293
+  point fly=0.9293 hoist=0.6061
+  point fly=0.9646 hoist=0.6414
+  point fly=1.1414 hoist=0.4646
 }

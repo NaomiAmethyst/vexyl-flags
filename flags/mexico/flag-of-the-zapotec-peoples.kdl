@@ -1,5 +1,4 @@
-// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
-// flag's official construction, and it hasn't been checked against one.
+// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
   name "Flag of the Zapotec Peoples"
@@ -11,6 +10,6 @@ palette {
   green "#004000"
   red "#880015"
 }
-proportion hoist=1600 fly=2400
+proportion hoist=2 fly=3
 
 bars green red
