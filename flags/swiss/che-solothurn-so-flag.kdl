@@ -1,0 +1,15 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "CHE Solothurn SO Flag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:CHE_Solothurn_SO_Flag.svg"
+}
+palette {
+  red "#f00000"
+  white "#ffffff"
+}
+proportion hoist=470 fly=470
+
+bars red white

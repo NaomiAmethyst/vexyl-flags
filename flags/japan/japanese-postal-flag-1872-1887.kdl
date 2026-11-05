@@ -1,0 +1,29 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Japanese postal flag, 1872-1887"
+  encoder "User:Zscout370 (Return Fire)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Japanese_postal_flag,_1872-1887.svg"
+}
+palette {
+  white "#ffffff"
+  red "#b0313f"
+}
+proportion hoist=600 fly=900
+
+bars white red white {
+  ratio 13 4 13
+}
+
+charge disc red {
+  radius 88
+  at fly=450 hoist=300
+}
+
+charge ring white {
+  radius 89.75
+  inner 86.25
+  at fly=450 hoist=300
+}

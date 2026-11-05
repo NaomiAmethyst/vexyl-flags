@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tottori Prefecture"
+  encoder "Guilherme Paula, Mike Rohsopht Insignia This image shows a flag, a coat of arms, a seal or some other official insignia."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tottori_Prefecture.svg"
+}
+palette {
+  blue "#2e328c"
+  white "#ffffff"
+}
+proportion hoist=840 fly=1260
+
+field blue
+
+charge path white {
+  d "M434.9969 137.9844A38.5 38.5 0 0 1 495.25 169.75L495.25 259.9833A231 231 0 0 1 572.25 246.75L918.75 246.75L774.375 343L572.25 343A127.27 127.27 0 0 0 445.2 477.75A127.05 127.05 0 1 0 625.1787 362.25L772.3019 362.25A231 231 0 1 1 348.6013 419.9376L408.2979 189L360.5 189Z"
+  box "117.6013 15.75 801.1487 635.1876"
+  fly 801.1487
+  hoist 635.1876
+  at fly=518.1757 hoist=333.3438
+}

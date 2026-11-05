@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Banner of Baden (3^2)"
+  encoder "Sir Iain"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Banner_of_Baden_(3%5E2).svg"
+}
+palette {
+  yellow "#ffdd00"
+  red "#ff0000"
+}
+proportion hoist=600 fly=900
+
+charge disc yellow {
+  radius 1080
+  at fly=0 hoist=0
+}
+
+band red {
+  along bend
+  width 160
+}

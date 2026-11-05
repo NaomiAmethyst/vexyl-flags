@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge Königreich Württemberg"
+  encoder "David Liuzzo"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_K%C3%B6nigreich_W%C3%BCrttemberg.svg"
+}
+palette {
+  black "#000000"
+  red "#c10020"
+}
+proportion hoist=6 fly=9
+
+bars black red

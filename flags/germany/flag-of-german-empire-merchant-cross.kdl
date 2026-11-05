@@ -1,0 +1,34 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of German Empire (merchant+cross)"
+  encoder "Jwnabd"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_German_Empire_(merchant%2Bcross).svg"
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  red "#dd0000"
+}
+proportion hoist=90 fly=135
+
+bars black white red
+
+charge path black {
+  d "M12.4 20C16.3 25.75 18.85 32.45 19.7 39.7C12.45 38.85 5.75 36.3 0 32.4L0 57.6C5.75 53.7 12.45 51.15 19.7 50.3C18.85 57.55 16.3 64.25 12.4 70L37.6 70C33.7 64.25 31.15 57.55 30.3 50.3C37.55 51.15 44.25 53.7 50 57.6L50 32.4C44.25 36.3 37.55 38.85 30.3 39.7C31.15 32.45 33.7 25.75 37.6 20Z"
+  box "0 20 50 50"
+  fly 50
+  hoist 50
+  at fly=25 hoist=45
+}
+
+charge path white {
+  d "M14.75 21.25C18.25 27.1 20.5 33.85 21.1 41.1C13.85 40.5 7.1 38.25 1.25 34.75L1.25 55.25C7.1 51.75 13.85 49.5 21.1 48.9C20.5 56.15 18.25 62.9 14.75 68.75L35.25 68.75C31.75 62.9 29.5 56.15 28.9 48.9C36.15 49.5 42.9 51.75 48.75 55.25L48.75 34.75C42.9 38.25 36.15 40.5 28.9 41.1C29.5 33.85 31.75 27.1 35.25 21.25Z"
+  box "1.25 21.25 47.5 47.5"
+  fly 47.5
+  hoist 47.5
+  hollow 1.65
+  at fly=25 hoist=45
+}

@@ -1,0 +1,51 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the People's Republic of Kampuchea"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_Kampuchea.svg"
+}
+palette {
+  red "#da121a"
+  yellow "#fcdd09"
+}
+proportion hoist=600 fly=900
+
+field red
+
+charge polygon yellow {
+  point fly=450 hoist=150
+  point fly=431.25 hoist=168.75
+  point fly=431.25 hoist=240
+  point fly=412.5 hoist=240
+  point fly=412.5 hoist=198.75
+  point fly=393.75 hoist=180
+  point fly=375 hoist=198.75
+  point fly=375 hoist=300
+  point fly=356.25 hoist=300
+  point fly=356.25 hoist=258.75
+  point fly=337.5 hoist=240
+  point fly=318.75 hoist=258.75
+  point fly=318.75 hoist=330
+  point fly=280 hoist=330
+  point fly=280 hoist=360
+  point fly=240 hoist=360
+  point fly=240 hoist=390
+  point fly=660 hoist=390
+  point fly=660 hoist=360
+  point fly=620 hoist=360
+  point fly=620 hoist=330
+  point fly=581.25 hoist=330
+  point fly=581.25 hoist=258.75
+  point fly=562.5 hoist=240
+  point fly=543.75 hoist=258.75
+  point fly=543.75 hoist=300
+  point fly=525 hoist=300
+  point fly=525 hoist=198.75
+  point fly=506.25 hoist=180
+  point fly=487.5 hoist=198.75
+  point fly=487.5 hoist=240
+  point fly=468.75 hoist=240
+  point fly=468.75 hoist=168.75
+}

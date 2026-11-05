@@ -1,0 +1,44 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Scindia house flag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Scindia_house_flag.svg"
+}
+palette {
+  blue "#001489"
+  white "#ffffff"
+  red "#f93822"
+}
+proportion hoist=300 fly=450
+
+field blue
+
+charge disc white {
+  radius 100
+  at fly=225 hoist=150
+}
+
+charge polygon red {
+  point fly=175 hoist=100
+  point fly=195 hoist=100
+  point fly=195 hoist=140
+  point fly=215 hoist=140
+  point fly=215 hoist=100
+  point fly=275 hoist=100
+  point fly=275 hoist=120
+  point fly=235 hoist=120
+  point fly=235 hoist=140
+  point fly=275 hoist=140
+  point fly=275 hoist=200
+  point fly=255 hoist=200
+  point fly=255 hoist=160
+  point fly=235 hoist=160
+  point fly=235 hoist=200
+  point fly=175 hoist=200
+  point fly=175 hoist=180
+  point fly=215 hoist=180
+  point fly=215 hoist=160
+  point fly=175 hoist=160
+}

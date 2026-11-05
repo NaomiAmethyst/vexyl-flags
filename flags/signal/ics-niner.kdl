@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Niner"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Niner.svg"
+}
+palette {
+  blue "#0000ff"
+  white "#ffffff"
+}
+proportion hoist=600 fly=600
+
+bars blue white blue {
+  along hoist
+}

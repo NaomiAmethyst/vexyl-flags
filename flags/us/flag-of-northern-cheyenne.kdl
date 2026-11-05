@@ -1,0 +1,45 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Northern Cheyenne"
+  encoder "Officially adopted by Chairman John Wooden Legs [1], possibly designed by Hubert Bearchum [2]"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Northern_Cheyenne.svg"
+}
+palette {
+  blue "#0053ff"
+  white "#ffffff"
+}
+proportion hoist=200 fly=400
+
+field blue
+
+charge polygon white {
+  point fly=199.9999 hoist=22.2222
+  point fly=166.6666 hoist=55.5554
+  point fly=133.3334 hoist=22.2222
+  point fly=122.2223 hoist=33.3333
+  point fly=155.5555 hoist=66.6665
+  point fly=122.2223 hoist=100.0001
+  point fly=155.5555 hoist=133.3334
+  point fly=122.2223 hoist=166.6666
+  point fly=133.3334 hoist=177.7777
+  point fly=166.6666 hoist=144.4445
+  point fly=199.9999 hoist=177.7777
+  point fly=233.3332 hoist=144.4445
+  point fly=266.6667 hoist=177.7777
+  point fly=277.7778 hoist=166.6666
+  point fly=244.4446 hoist=133.3334
+  point fly=277.7778 hoist=100.0001
+  point fly=244.4446 hoist=66.6665
+  point fly=277.7778 hoist=33.3333
+  point fly=266.6667 hoist=22.2222
+  point fly=233.3332 hoist=55.5554
+}
+
+charge lozenge blue {
+  fly 111.1112
+  hoist 111.1112
+  at fly=199.9999 hoist=100.0001
+}

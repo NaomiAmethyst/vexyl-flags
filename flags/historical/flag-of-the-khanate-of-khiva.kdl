@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Khanate of Khiva"
+  encoder "Samhanin"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Khanate_of_Khiva.svg"
+}
+palette {
+  teal "#42bcac"
+  black "#000000"
+  yellow "#ffd731"
+}
+proportion hoist=400 fly=800
+
+field teal
+
+charge rect black {
+  fly 764
+  hoist 364
+  at fly=400 hoist=200
+}
+
+charge path yellow {
+  d "M364.5 205.5C364.5 168.9 389.7 138.2 423.7 129.8C417.7 128.3 411.4 127.5 404.9 127.5C361.8 127.5 326.8 162.4 326.8 205.6C326.8 248.7 361.7 283.7 404.9 283.7C411.4 283.7 417.7 282.9 423.7 281.4C389.7 272.8 364.5 242.1 364.5 205.5Z"
+  box "326.8 127.5 96.9 156.2"
+  fly 96.9
+  hoist 156.2
+  at fly=375.25 hoist=205.6
+}
+
+charge star yellow {
+  radius 30.4709
+  rotate 14.2416
+  at fly=459.31 hoist=205.41
+}

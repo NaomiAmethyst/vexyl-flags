@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Acadia"
+  encoder "Jean-Francois Arseneau (PD), referencing openclipart.org (by user Anonymous); modified by Krun. Own work based on: Flag "
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Acadia.svg"
+}
+palette {
+  blue "#003896"
+  white "#ffffff"
+  red "#cf142b"
+  yellow "#ffd700"
+}
+proportion hoist=30 fly=45
+
+bars blue white red {
+  along hoist
+}
+
+charge star yellow {
+  radius 5.584
+  at fly=7.5 hoist=9.447
+}

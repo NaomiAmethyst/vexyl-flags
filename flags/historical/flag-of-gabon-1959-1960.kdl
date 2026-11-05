@@ -1,0 +1,49 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Gabon (1959–1960)"
+  encoder "Arz"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Gabon_(1959%E2%80%931960).svg"
+}
+palette {
+  yellow "#fcd116"
+  blue "#3a75c4"
+  green "#009e60"
+  red "#ce1126"
+  white "#ffffff"
+  blue-2 "#002654"
+}
+proportion hoist=9 fly=12
+
+bars yellow blue {
+  ratio 5.244 3.756
+}
+
+charge polygon green {
+  point fly=0 hoist=0
+  point fly=12 hoist=0
+  point fly=12 hoist=3.75
+  point fly=6 hoist=3.75
+}
+
+charge polygon red {
+  point fly=0 hoist=0
+  point fly=6 hoist=0
+  point fly=6 hoist=3.75
+  point fly=4 hoist=3.75
+}
+
+charge polygon white {
+  point fly=0 hoist=0
+  point fly=4 hoist=0
+  point fly=4 hoist=3.75
+  point fly=2 hoist=3.75
+}
+
+canton {
+  fly 2
+  hoist 3.75
+  field blue-2
+}

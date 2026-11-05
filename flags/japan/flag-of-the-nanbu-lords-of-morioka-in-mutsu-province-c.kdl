@@ -1,0 +1,44 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Nanbu Lords of Morioka in Mutsu Province (C)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Nanbu_Lords_of_Morioka_in_Mutsu_Province_(C).svg"
+}
+palette {
+  white "#ffffff"
+  black "#000000"
+  pink "#bc002d"
+}
+proportion hoist=700 fly=900
+
+field white
+
+charge lozenge black {
+  fly 491.12
+  hoist 359.59
+  at fly=449.995 hoist=349.995
+}
+
+charge polygon white {
+  point fly=313.9556 hoist=268.9073
+  point fly=568.2956 hoist=455.2773
+  point fly=586.0244 hoist=431.0827
+  point fly=331.6844 hoist=244.7127
+}
+
+charge polygon white {
+  point fly=568.2956 hoist=244.7127
+  point fly=313.9556 hoist=431.0827
+  point fly=331.6844 hoist=455.2773
+  point fly=586.0244 hoist=268.9073
+}
+
+charge rect pink {
+  fly 900
+  hoist 80
+  at fly=450 hoist=110.8
+  at fly=450 hoist=589.19
+}

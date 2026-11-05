@@ -1,0 +1,46 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Republic of the Rif"
+  encoder "Mysid"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Rif.svg"
+}
+palette {
+  red "#c1272d"
+  white "#ffffff"
+  green "#006233"
+}
+proportion hoist=400 fly=600
+
+field red
+
+charge lozenge white {
+  fly 333.3333
+  hoist 333.3333
+  at fly=300 hoist=200
+}
+
+charge polygon green {
+  point fly=347.6191 hoist=165.7143
+  point fly=357.1429 hoist=182.8571
+  point fly=377.1429 hoist=182.8571
+  point fly=366.6667 hoist=200.9524
+  point fly=377.1429 hoist=218.0952
+  point fly=357.1429 hoist=218.0952
+  point fly=347.6191 hoist=235.2381
+  point fly=337.1429 hoist=218.0952
+  point fly=317.1429 hoist=218.0952
+  point fly=327.6191 hoist=200.9524
+  point fly=317.1429 hoist=182.8571
+  point fly=337.1429 hoist=182.8571
+}
+
+charge path green {
+  d "M325.7143 260C317.1429 263.8095 307.6191 265.7143 298.0952 265.7143C260.9524 265.7143 230.4762 235.2381 230.4762 197.1428C230.4762 160 260.9524 129.5238 298.0952 129.5238C307.6191 129.5238 317.1429 131.4286 325.7143 135.2381L323.8095 135.2381C289.5238 135.2381 260.9524 162.8571 260.9524 197.1428C260.9524 231.4286 289.5238 260 323.8095 260L325.7143 260Z"
+  box "230.4762 129.5238 95.2381 136.1905"
+  fly 95.2381
+  hoist 136.1905
+  at fly=278.0952 hoist=197.619
+}

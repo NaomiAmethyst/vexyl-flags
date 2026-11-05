@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Curaçao"
+  encoder "Original: Unknown Vector: David Benbennick"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cura%C3%A7ao.svg"
+}
+palette {
+  blue "#002b7f"
+  yellow "#f9e814"
+  white "#ffffff"
+}
+proportion hoist=36 fly=54
+
+bars blue yellow blue {
+  ratio 5 1 2
+}
+
+charge polygon white {
+  point fly=4.2 hoist=8.4
+  point fly=4.3 hoist=8.3
+  point fly=6 hoist=3
+  point fly=7.8 hoist=8.4
+  point fly=3.2 hoist=5.1
+  point fly=8.9 hoist=5.1
+}
+
+charge polygon white {
+  point fly=9.6 hoist=15.2
+  point fly=12 hoist=8
+  point fly=14.4 hoist=15.2
+  point fly=8.2 hoist=10.8
+  point fly=15.8 hoist=10.8
+}

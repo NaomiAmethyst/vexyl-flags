@@ -1,0 +1,57 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of DSPJ"
+  encoder "平井アツシ"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_DSPJ.svg"
+}
+palette {
+  white "#ffffff"
+  red "#fe0000"
+  blue "#003f8a"
+}
+proportion hoist=4000 fly=6000
+
+field white
+
+charge path red {
+  d "M0 0L3000 0C3000 0 2849.82 1122.17 2400 1440C1950.18 1757.83 0 2000 0 2000L0 0Z"
+  box "0 0 3000 2000"
+  fly 3000
+  hoist 2000
+  at fly=1500 hoist=1000
+}
+
+charge path red {
+  d "M6000 0L3000 0C3000 0 3150.18 1122.17 3600 1440C4049.82 1757.83 6000 2000 6000 2000L6000 0Z"
+  box "3000 0 3000 2000"
+  fly 3000
+  hoist 2000
+  at fly=4500 hoist=1000
+}
+
+charge path red {
+  d "M0 4000L3000 4000C3000 4000 2849.82 2877.83 2400 2560C1950.18 2242.17 0 2000 0 2000L0 4000Z"
+  box "0 2000 3000 2000"
+  fly 3000
+  hoist 2000
+  at fly=1500 hoist=3000
+}
+
+charge path red {
+  d "M6000 4000L3000 4000C3000 4000 3150.18 2877.83 3600 2560C4049.82 2242.17 6000 2000 6000 2000L6000 4000Z"
+  box "3000 2000 3000 2000"
+  fly 3000
+  hoist 2000
+  at fly=4500 hoist=3000
+}
+
+charge path blue {
+  d "M3000 1500C2723.86 1500 2500 1723.86 2500 2000C2500 2276.14 2723.86 2500 3000 2500L3000 2400C2796.04 2400 2627.84 2247.29 2603.22 2050L2979.28 2050L3318.19 2388.91L3388.91 2318.19L3120.72 2050L3500 2050L3500 1950L3020.72 1950L2895.72 1825L3000 1825L3359.75 1825L3468.44 1825C3397.49 1635.19 3214.56 1500 3000 1500ZM3000 1600C3114.35 1600 3217.41 1648.07 3290.31 1725L2709.69 1725C2782.59 1648.07 2885.65 1600 3000 1600ZM2640.25 1825L2754.28 1825L2879.28 1950L2603.19 1950C2608.73 1905.69 2621.44 1863.59 2640.25 1825Z"
+  box "2500 1500 1000 1000"
+  fly 1000
+  hoist 1000
+  at fly=3000 hoist=2000
+}

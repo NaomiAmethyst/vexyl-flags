@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Komi 1991"
+  encoder "В. Я. Сердитов"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Komi_(1991%E2%80%931997).svg"
+}
+palette {
+  blue "#0039a6"
+  green "#009b3a"
+  white "#ffffff"
+}
+proportion hoist=3 fly=6
+
+bars blue green white

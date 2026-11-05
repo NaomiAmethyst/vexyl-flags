@@ -1,0 +1,35 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Comoros (1963-1975)"
+  encoder "Orange Tuesday at en.wikipedia"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros_(1963%E2%80%931975).svg"
+}
+palette {
+  green "#3d8e33"
+  white "#ffffff"
+}
+proportion hoist=400 fly=600
+
+field green
+
+charge disc white {
+  radius 112.5
+  at fly=132 hoist=132
+}
+
+charge disc green {
+  radius 112.5
+  at fly=180 hoist=132
+}
+
+charge svg {
+  at center
+  fly 600
+  hoist 400
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><polygon points="0,0 0,1 0.5,1" transform="matrix(46.140561 -13.230593 13.230593 46.140561 93.158741 280.206197)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-29.551751 37.824516 37.824516 29.551751 93.158741 280.206197)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(26.841259 39.793803 -39.793803 26.841259 149.551751 282.175484)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-45.105246 -16.416967 -16.416967 45.105246 149.551751 282.175484)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(1.675176 -47.97076 47.97076 1.675176 73.859439 333.230593)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(26.841259 39.793803 39.793803 -26.841259 73.859439 333.230593)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-29.551751 37.824516 -37.824516 -29.551751 165.105246 336.416967)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(1.675176 -47.97076 -47.97076 -1.675176 165.105246 336.416967)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-45.105246 -16.416967 16.416967 -45.105246 118.324824 367.97076)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(46.140561 -13.230593 -13.230593 -46.140561 118.324824 367.97076)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(46.140561 -13.230593 13.230593 46.140561 213.158741 200.206197)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-29.551751 37.824516 37.824516 29.551751 213.158741 200.206197)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(26.841259 39.793803 -39.793803 26.841259 269.551751 202.175484)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-45.105246 -16.416967 -16.416967 45.105246 269.551751 202.175484)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(1.675176 -47.97076 47.97076 1.675176 193.859439 253.230593)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(26.841259 39.793803 39.793803 -26.841259 193.859439 253.230593)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-29.551751 37.824516 -37.824516 -29.551751 285.105246 256.416967)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(1.675176 -47.97076 -47.97076 -1.675176 285.105246 256.416967)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-45.105246 -16.416967 16.416967 -45.105246 238.324824 287.97076)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(46.140561 -13.230593 -13.230593 -46.140561 238.324824 287.97076)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(46.140561 -13.230593 13.230593 46.140561 333.158741 120.206197)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-29.551751 37.824516 37.824516 29.551751 333.158741 120.206197)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(26.841259 39.793803 -39.793803 26.841259 389.551751 122.175484)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-45.105246 -16.416967 -16.416967 45.105246 389.551751 122.175484)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(1.675176 -47.97076 47.97076 1.675176 313.859439 173.230593)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(26.841259 39.793803 39.793803 -26.841259 313.859439 173.230593)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-29.551751 37.824516 -37.824516 -29.551751 405.105246 176.416967)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(1.675176 -47.97076 -47.97076 -1.675176 405.105246 176.416967)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-45.105246 -16.416967 16.416967 -45.105246 358.324824 207.97076)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(46.140561 -13.230593 -13.230593 -46.140561 358.324824 207.97076)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(46.140561 -13.230593 13.230593 46.140561 453.158741 40.206197)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-29.551751 37.824516 37.824516 29.551751 453.158741 40.206197)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(26.841259 39.793803 -39.793803 26.841259 509.551751 42.175484)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-45.105246 -16.416967 -16.416967 45.105246 509.551751 42.175484)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(1.675176 -47.97076 47.97076 1.675176 433.859439 93.230593)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(26.841259 39.793803 39.793803 -26.841259 433.859439 93.230593)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-29.551751 37.824516 -37.824516 -29.551751 525.105246 96.416967)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(1.675176 -47.97076 -47.97076 -1.675176 525.105246 96.416967)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-45.105246 -16.416967 16.416967 -45.105246 478.324824 127.97076)" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1" transform="matrix(46.140561 -13.230593 -13.230593 -46.140561 478.324824 127.97076)" fill="#ffffff"/></svg>
+"""#
+}

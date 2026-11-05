@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge Großherzogtum Baden (1891–1918)"
+  encoder "David Liuzzo"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_Gro%C3%9Fherzogtum_Baden_(1891%E2%80%931918).svg"
+}
+palette {
+  yellow "#ffd700"
+  red "#e81b23"
+}
+proportion hoist=300 fly=500
+
+bars yellow red yellow

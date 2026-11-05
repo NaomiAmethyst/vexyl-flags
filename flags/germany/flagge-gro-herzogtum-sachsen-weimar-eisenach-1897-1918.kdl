@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge Großherzogtum Sachsen-Weimar-Eisenach 1897-1918"
+  encoder "Fornax"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_Gro%C3%9Fherzogtum_Sachsen-Weimar-Eisenach_1897-1918.svg"
+}
+palette {
+  black "#000000"
+  yellow "#fcc300"
+  green "#328925"
+}
+proportion hoist=450 fly=675
+
+bars black yellow green

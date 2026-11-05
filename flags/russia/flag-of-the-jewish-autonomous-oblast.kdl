@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Jewish Autonomous Oblast"
+  encoder "Manually edited by Philippe Verdy (fr:User:Verdy_p on Wikipedia or verdy_p on Commons) and optimized without using any S"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Jewish_Autonomous_Oblast.svg"
+}
+palette {
+  white "#ffffff"
+  red "#ff0000"
+  orange "#ff9900"
+  yellow "#ffcc00"
+  green "#66cc33"
+  blue "#3399ff"
+  blue-2 "#0000cc"
+  purple "#660099"
+}
+proportion hoist=240 fly=360
+
+bars white red white orange white yellow white green white blue white blue-2 white purple white {
+  ratio 93 6 2 6 2 6 2 6 2 6 2 6 2 6 93
+}

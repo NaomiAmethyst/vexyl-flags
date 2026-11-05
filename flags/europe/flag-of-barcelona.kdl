@@ -1,0 +1,58 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Barcelona"
+  encoder "Made and uploaded by Huhsunqu."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Barcelona.svg"
+}
+palette {
+  white "#ffffff"
+  yellow "#ffdc00"
+  red "#c80000"
+}
+proportion hoist=24 fly=36
+
+field white
+
+charge polygon yellow {
+  point fly=18 hoist=0
+  point fly=36 hoist=0
+  point fly=36 hoist=12
+  point fly=0 hoist=12
+  point fly=0 hoist=24
+  point fly=18 hoist=24
+}
+
+charge rect red {
+  fly 2
+  hoist 12
+  at fly=9 hoist=6
+}
+
+charge rect red {
+  fly 18
+  hoist 2
+  at fly=9 hoist=6
+}
+
+charge rect red {
+  fly 2
+  hoist 12
+  at fly=21 hoist=6
+  at fly=25 hoist=6
+  at fly=29 hoist=6
+  at fly=33 hoist=6
+  at fly=3 hoist=18
+  at fly=7 hoist=18
+  at fly=11 hoist=18
+  at fly=15 hoist=18
+  at fly=27 hoist=18
+}
+
+charge rect red {
+  fly 18
+  hoist 2
+  at fly=27 hoist=18
+}

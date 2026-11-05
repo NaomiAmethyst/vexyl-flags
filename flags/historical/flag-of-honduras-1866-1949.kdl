@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Honduras (1866-1949)"
+  encoder "AquaVacation"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(1866%E2%80%931949).svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0d3b99"
+}
+proportion hoist=36 fly=72
+
+field white
+
+panel {
+  side top
+  width 12
+  field blue
+}
+
+panel {
+  side bottom
+  width 12
+  field blue
+}
+
+charge star blue {
+  radius 2.1
+  at fly=30.66 hoist=15.33
+  at fly=30.66 hoist=20.73
+  at fly=36.01 hoist=18.03
+  at fly=41.36 hoist=15.33
+  at fly=41.36 hoist=20.73
+}

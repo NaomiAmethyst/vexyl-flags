@@ -1,0 +1,41 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Comoros (1975-1978)"
+  encoder "Zscout370"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros_(1975%E2%80%931978).svg"
+}
+palette {
+  red "#ce1126"
+  green "#3d8e33"
+  white "#ffffff"
+}
+proportion hoist=600 fly=840
+
+bars red green {
+  ratio 2 1
+}
+
+charge disc white {
+  radius 133.3333
+  at fly=183.3333 hoist=178.3333
+}
+
+charge path red {
+  d "M350 204.9997A125 124.9647 0 1 1 100 204.9997A125 124.9647 0 1 1 350 204.9997Z"
+  box "-25 80.035 500 249.9294"
+  fly 500
+  hoist 249.9294
+  at fly=225 hoist=204.9997
+}
+
+charge star white {
+  radius 41.0016
+  rotate 34
+  at fly=170.0068 hoist=160.0065
+  at fly=272.0082 hoist=150.0172
+  at fly=200.0068 hoist=256.0172
+  at fly=298.0081 hoist=248.0171
+}

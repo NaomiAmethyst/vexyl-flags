@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Merchant flag of Germany (1919–1933)"
+  encoder "Jwnabd"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_Germany_(1919%E2%80%931933).svg"
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  red "#dd0000"
+  yellow "#ffce00"
+}
+proportion hoist=90 fly=135
+
+bars black white red
+
+charge rect red {
+  fly 30
+  hoist 12.8
+  at fly=15 hoist=12.8
+}
+
+charge rect yellow {
+  fly 30
+  hoist 6.4
+  at fly=15 hoist=16
+}
+
+charge rect white {
+  fly 1
+  hoist 19.2
+  at fly=29.5 hoist=9.6
+}

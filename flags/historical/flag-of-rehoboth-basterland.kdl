@@ -1,0 +1,29 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Rehoboth-Basterland"
+  encoder "Bamse"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rehoboth-Basterland.svg"
+}
+palette {
+  black "#000000"
+  red "#dd0000"
+  white "#ffffff"
+}
+proportion hoist=6 fly=9
+
+field black
+
+charge rect red {
+  fly 7
+  hoist 4
+  at fly=4.5 hoist=3
+}
+
+charge rect white {
+  fly 5
+  hoist 2
+  at fly=4.5 hoist=3
+}

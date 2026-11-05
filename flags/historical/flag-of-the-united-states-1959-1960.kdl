@@ -1,0 +1,82 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the United States (1959–1960)"
+  encoder "Flag design by the U.S. Government; SVG by Gunter Küchler / Berlin"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1959%E2%80%931960).svg"
+}
+palette {
+  pink "#bf0a30"
+  white "#ffffff"
+  blue "#00205b"
+}
+proportion hoist=650 fly=1235
+
+field pink
+
+charge rect white {
+  fly 1235
+  hoist 50
+  at fly=617.5 hoist=75
+  repeat line count=6 hoist=100
+}
+
+canton {
+  fly 494
+  hoist 350
+  field blue
+  charge star white {
+    radius 20.028
+    at fly=35.1 hoist=36.4
+    at fly=100.1 hoist=36.4
+    at fly=165.1 hoist=36.4
+    at fly=230.1 hoist=36.4
+    at fly=295.1 hoist=36.4
+    at fly=360.1 hoist=36.4
+    at fly=425.1 hoist=36.4
+    at fly=67.6 hoist=82.55
+    at fly=132.6 hoist=82.55
+    at fly=197.6 hoist=82.55
+    at fly=262.6 hoist=82.55
+    at fly=327.6 hoist=82.55
+    at fly=392.6 hoist=82.55
+    at fly=457.6 hoist=82.55
+    at fly=35.1 hoist=128.7
+    at fly=100.1 hoist=128.7
+    at fly=165.1 hoist=128.7
+    at fly=230.1 hoist=128.7
+    at fly=295.1 hoist=128.7
+    at fly=360.1 hoist=128.7
+    at fly=425.1 hoist=128.7
+    at fly=67.6 hoist=174.85
+    at fly=132.6 hoist=174.85
+    at fly=197.6 hoist=174.85
+    at fly=262.6 hoist=174.85
+    at fly=327.6 hoist=174.85
+    at fly=392.6 hoist=174.85
+    at fly=457.6 hoist=174.85
+    at fly=35.1 hoist=221
+    at fly=100.1 hoist=221
+    at fly=165.1 hoist=221
+    at fly=230.1 hoist=221
+    at fly=295.1 hoist=221
+    at fly=360.1 hoist=221
+    at fly=425.1 hoist=221
+    at fly=67.6 hoist=267.15
+    at fly=132.6 hoist=267.15
+    at fly=197.6 hoist=267.15
+    at fly=262.6 hoist=267.15
+    at fly=327.6 hoist=267.15
+    at fly=392.6 hoist=267.15
+    at fly=457.6 hoist=267.15
+    at fly=35.1 hoist=313.3
+    at fly=100.1 hoist=313.3
+    at fly=165.1 hoist=313.3
+    at fly=230.1 hoist=313.3
+    at fly=295.1 hoist=313.3
+    at fly=360.1 hoist=313.3
+    at fly=425.1 hoist=313.3
+  }
+}

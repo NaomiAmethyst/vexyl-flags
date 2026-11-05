@@ -1,0 +1,34 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "House flag of the Lübeck Linie"
+  encoder "TilmannR"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:House_flag_of_the_L%C3%BCbeck_Linie.svg"
+}
+palette {
+  white "#ffffff"
+  red "#cc1122"
+}
+proportion hoist=200 fly=300
+
+field white
+
+charge polygon red {
+  point fly=50 hoist=5
+  point fly=50 hoist=50
+  point fly=300 hoist=50
+  point fly=300 hoist=100
+  point fly=0 hoist=100
+  point fly=0 hoist=5
+}
+
+charge polygon red {
+  point fly=50 hoist=105
+  point fly=50 hoist=150
+  point fly=300 hoist=150
+  point fly=300 hoist=200
+  point fly=0 hoist=200
+  point fly=0 hoist=105
+}

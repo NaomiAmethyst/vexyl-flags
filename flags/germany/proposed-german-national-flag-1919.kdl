@@ -1,0 +1,31 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Proposed German National Flag 1919"
+  encoder "Oren neu dag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Proposed_German_National_Flag_1919.svg"
+}
+palette {
+  black "#000000"
+  yellow "#ffce00"
+  red "#dd0000"
+}
+proportion hoist=400 fly=600
+
+bars black yellow black {
+  along hoist
+  ratio 145 110 345
+}
+
+charge rect yellow {
+  fly 600
+  hoist 110
+  at fly=300 hoist=200
+}
+
+cross red {
+  fly 172.5 55 372.5
+  hoist 172.5 55 172.5
+}

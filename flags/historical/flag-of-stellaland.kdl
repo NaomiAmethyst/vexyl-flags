@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Stellaland"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Stellaland.svg"
+}
+palette {
+  green "#007a4d"
+  white "#ffffff"
+}
+proportion hoist=800 fly=1200
+
+field green
+
+charge star white {
+  radius 279.8755
+  rotate 0.1506
+  at fly=600.4 hoist=426.6
+}

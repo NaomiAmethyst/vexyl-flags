@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of South Kasai"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Kasai.svg"
+}
+palette {
+  red "#ce1126"
+  green "#14b53a"
+}
+proportion hoist=600 fly=900
+
+bars red green
+
+charge svg {
+  at center
+  fly 900
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 18.044H610V446.58H0z" stroke-width=".984" fill-rule="evenodd" fill="#ce1126"></path></clipPath></defs><path d="M 13.244589,9.0169632 305,437.56262 596.75541,9.0169632" transform="matrix(1 0 0 1.04542 145 57.137)" stroke-linejoin="bevel" stroke-width="32.045" clip-path="url(#a)" stroke="#fcd116" fill="none"/></svg>
+"""#
+}

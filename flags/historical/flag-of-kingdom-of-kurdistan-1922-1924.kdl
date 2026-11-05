@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Kingdom of Kurdistan (1922-1924)"
+  encoder "FrancisTyers"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Kurdistan_(1922-1924).svg"
+}
+palette {
+  green "#278e43"
+  red "#ed2024"
+  white "#ffffff"
+}
+proportion hoist=598.3469 fly=899.1735
+
+field green
+
+charge disc red {
+  radius 219.3938
+  at fly=449.5867 hoist=299.1734
+}
+
+charge disc white {
+  radius 151.5812
+  at fly=457.5647 hoist=299.1734
+}
+
+charge disc red {
+  radius 131.6363
+  at fly=501.4434 hoist=299.1734
+}

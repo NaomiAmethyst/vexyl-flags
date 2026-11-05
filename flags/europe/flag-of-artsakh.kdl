@@ -1,0 +1,71 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Artsakh"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Artsakh.svg"
+}
+palette {
+  red "#d90012"
+  orange "#f2a800"
+  blue "#0033a0"
+  white "#ffffff"
+}
+proportion hoist=18 fly=36
+
+bars red orange
+
+charge polygon blue {
+  point fly=0 hoist=6
+  point fly=21 hoist=6
+  point fly=23.2 hoist=8.2
+  point fly=27.7 hoist=3.7
+  point fly=30 hoist=6
+  point fly=36 hoist=6
+  point fly=36 hoist=12
+  point fly=30 hoist=12
+  point fly=27.7 hoist=14.3
+  point fly=23.2 hoist=9.8
+  point fly=21 hoist=12
+  point fly=0 hoist=12
+}
+
+charge polygon white {
+  point fly=36 hoist=0
+  point fly=30 hoist=0
+  point fly=30 hoist=2
+  point fly=27 hoist=2
+  point fly=27 hoist=4
+  point fly=24 hoist=4
+  point fly=24 hoist=6
+  point fly=21 hoist=6
+  point fly=21 hoist=8
+  point fly=18 hoist=8
+  point fly=18 hoist=10
+  point fly=21 hoist=10
+  point fly=21 hoist=12
+  point fly=24 hoist=12
+  point fly=24 hoist=14
+  point fly=27 hoist=14
+  point fly=27 hoist=16
+  point fly=30 hoist=16
+  point fly=30 hoist=18
+  point fly=36 hoist=18
+  point fly=36 hoist=16
+  point fly=33 hoist=16
+  point fly=33 hoist=14
+  point fly=30 hoist=14
+  point fly=30 hoist=12
+  point fly=27 hoist=12
+  point fly=27 hoist=10
+  point fly=24 hoist=10
+  point fly=24 hoist=8
+  point fly=27 hoist=8
+  point fly=27 hoist=6
+  point fly=30 hoist=6
+  point fly=30 hoist=4
+  point fly=33 hoist=4
+  point fly=33 hoist=2
+  point fly=36 hoist=2
+}

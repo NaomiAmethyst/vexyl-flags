@@ -1,0 +1,69 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge Demokratischer Frauenbund Deutschlands"
+  encoder "Fornax"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_Demokratischer_Frauenbund_Deutschlands.svg"
+}
+palette {
+  blue "#3d60d6"
+  white "#ffffff"
+}
+proportion hoist=427.1404 fly=701.1143
+
+field blue
+
+charge path white {
+  d "M217.5657 169.4641L217.5657 245.1989L271.3955 245.1989C286.4488 245.1989 305.7323 237.6829 305.7323 205.945C305.7323 174.21 281.3364 169.4641 271.2202 169.4641L217.5657 169.4641ZM247.3772 181.9474L268.0144 181.9474C268.0144 181.9474 275.8383 186.578 275.8383 207.3965C275.8383 228.215 267.4783 232.8289 267.4783 232.8289L247.3772 232.8289L247.3772 181.9474Z"
+  box "217.5657 169.4641 88.1665 75.7348"
+  fly 88.1665
+  hoist 75.7348
+  at fly=261.649 hoist=207.3315
+}
+
+charge polygon white {
+  point fly=323.7357 hoist=147.7918
+  point fly=374.3056 hoist=147.7918
+  point fly=374.3056 hoist=161.6682
+  point fly=356.6942 hoist=161.6682
+  point fly=356.6942 hoist=198.8497
+  point fly=374.3056 hoist=198.8497
+  point fly=374.3056 hoist=215.2167
+  point fly=356.6942 hoist=215.2167
+  point fly=356.6942 hoist=278.4038
+  point fly=323.7357 hoist=278.4038
+}
+
+charge path white {
+  d "M400.1549 169.4641L400.1549 245.1989L453.9846 245.1989C469.0381 245.1989 488.3215 237.6829 488.3215 205.945C488.3215 174.21 463.9257 169.4641 453.8094 169.4641L400.1549 169.4641ZM429.9664 181.9474L450.6035 181.9474C450.6035 181.9474 458.4275 186.578 458.4275 207.3965C458.4275 228.215 450.0675 232.8289 450.0675 232.8289L429.9664 232.8289L429.9664 181.9474Z"
+  box "400.1549 169.4641 88.1666 75.7348"
+  fly 88.1666
+  hoist 75.7348
+  at fly=444.2382 hoist=207.3315
+}
+
+charge polygon white {
+  point fly=190.939 hoist=154.2873
+  point fly=190.939 hoist=260.9881
+  point fly=318.4521 hoist=260.9881
+  point fly=318.4521 hoist=256.37
+  point fly=195.5571 hoist=256.37
+  point fly=195.5571 hoist=159.5548
+  point fly=195.5571 hoist=159.225
+  point fly=195.5571 hoist=158.8951
+  point fly=318.4521 hoist=158.8951
+  point fly=318.4521 hoist=154.2873
+}
+
+charge polygon white {
+  point fly=379.8378 hoist=154.2873
+  point fly=379.8378 hoist=158.8951
+  point fly=505.5573 hoist=158.8951
+  point fly=505.5573 hoist=256.37
+  point fly=362.2313 hoist=256.37
+  point fly=362.2313 hoist=260.9881
+  point fly=510.1754 hoist=260.9881
+  point fly=510.1754 hoist=154.2873
+}

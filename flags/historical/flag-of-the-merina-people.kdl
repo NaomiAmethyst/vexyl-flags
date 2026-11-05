@@ -1,0 +1,88 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Merina people"
+  encoder "Thommy"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Merina_people.svg"
+}
+palette {
+  red "#fc3d32"
+  white "#ffffff"
+  orange "#ec9a4c"
+  black "#000000"
+}
+proportion hoist=600 fly=900
+
+field red
+
+chevrons white {
+  depth 900.0007
+}
+
+charge disc orange {
+  radius 102.5551
+  at fly=191.441 hoist=299.2145
+}
+
+charge ring black {
+  radius 103.944
+  inner 101.1662
+  at fly=191.441 hoist=299.2145
+}
+
+charge rect red {
+  fly 86.0156
+  hoist 66.5927
+  at fly=191.4409 hoist=333.9102
+}
+
+charge polygon black {
+  point fly=148.4331 hoist=300.6138
+  point fly=234.4487 hoist=300.6138
+  point fly=234.4487 hoist=367.2065
+  point fly=148.4331 hoist=367.2065
+  hollow 2.7747
+}
+
+charge polygon black {
+  point fly=131.1607 hoist=315.3197
+  point fly=208.1579 hoist=212.6568
+  point fly=205.9382 hoist=210.992
+  point fly=128.9409 hoist=313.6549
+}
+
+charge polygon black {
+  point fly=253.941 hoist=313.6549
+  point fly=176.9437 hoist=210.992
+  point fly=174.724 hoist=212.6568
+  point fly=251.7212 hoist=315.3197
+}
+
+charge polygon red {
+  point fly=137.3344 hoist=304.7759
+  point fly=191.4409 hoist=232.6338
+  point fly=245.5475 hoist=304.7753
+}
+
+charge polygon black {
+  point fly=137.3344 hoist=304.7759
+  point fly=191.4409 hoist=232.6338
+  point fly=245.5475 hoist=304.7753
+  hollow 2.7747
+}
+
+charge rect red {
+  fly 102.6638
+  hoist 8.3241
+  at fly=191.4409 hoist=367.2065
+}
+
+charge polygon black {
+  point fly=140.1091 hoist=363.0445
+  point fly=242.7728 hoist=363.0445
+  point fly=242.7728 hoist=371.3686
+  point fly=140.1091 hoist=371.3686
+  hollow 2.7747
+}

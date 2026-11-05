@@ -1,0 +1,54 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Tel Aviv LGBTQ+ Progress Solidarity Flag"
+  encoder "FireDragonValo"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Tel_Aviv_LGBTQ%2B_Progress_Solidarity_Flag.svg"
+}
+palette {
+  red "#e50000"
+  orange "#ff8d00"
+  yellow "#ffee00"
+  green "#028121"
+  blue "#004cff"
+  pink "#770088"
+  black "#000000"
+  brown "#613915"
+  teal "#74d7ee"
+  pink-2 "#ffafc8"
+  white "#ffffff"
+}
+proportion hoist=325 fly=512
+
+bars red orange yellow green blue pink {
+  ratio 32.6464 32.4212 162.6691 32.5338 32.5338 32.195
+}
+
+charge path black {
+  d "M40.9423 0C40.9423 108.3333 40.9423 216.6667 40.9423 325C54.6011 325 68.26 325 81.9188 325C136.0774 270.8333 190.236 216.6667 244.3946 162.5C190.236 108.3333 136.0774 54.1667 81.9188 0C68.26 0 54.6011 0 40.9423 0Z"
+  box "40.9423 0 203.4522 325"
+  fly 203.4522
+  hoist 325
+  at fly=142.6684 hoist=162.5
+}
+
+chevrons brown {
+  depth 203.4342
+  angle 45.0015
+}
+
+chevrons teal {
+  depth 163.1578
+}
+
+chevrons pink-2 {
+  depth 121.1739
+  angle 45.0902
+}
+
+chevrons white {
+  depth 81.1526
+  angle 44.8081
+}

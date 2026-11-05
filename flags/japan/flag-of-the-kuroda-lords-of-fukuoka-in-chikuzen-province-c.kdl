@@ -1,0 +1,29 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Kuroda Lords of Fukuoka in Chikuzen Province (C)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kuroda_Lords_of_Fukuoka_in_Chikuzen_Province_(C).svg"
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+}
+proportion hoist=700 fly=900
+
+bars black white black {
+  ratio 260 180 260
+}
+
+charge disc white {
+  radius 225.23
+  at fly=450 hoist=350
+}
+
+charge ring black {
+  radius 230.23
+  inner 220.23
+  at fly=450 hoist=350
+}

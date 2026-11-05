@@ -1,0 +1,45 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Syria (1963–1972)"
+  encoder "Thespoondragon"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(1963%E2%80%931972).svg"
+}
+palette {
+  red "#ce1126"
+  white "#ffffff"
+  black "#000000"
+  green "#007a3d"
+}
+proportion hoist=600 fly=1200
+
+bars red white black
+
+charge polygon green {
+  point fly=600.01 hoist=228
+  point fly=646.687 hoist=372
+  point fly=524.48 hoist=283.004
+  point fly=675.52 hoist=283.004
+  point fly=553.313 hoist=372
+  point fly=599.991 hoist=228
+}
+
+charge polygon green {
+  point fly=300.01 hoist=228
+  point fly=346.687 hoist=372
+  point fly=224.48 hoist=283.004
+  point fly=375.52 hoist=283.004
+  point fly=253.313 hoist=372
+  point fly=299.991 hoist=228
+}
+
+charge polygon green {
+  point fly=900.01 hoist=228
+  point fly=946.687 hoist=372
+  point fly=824.48 hoist=283.004
+  point fly=975.52 hoist=283.004
+  point fly=853.313 hoist=372
+  point fly=899.991 hoist=228
+}

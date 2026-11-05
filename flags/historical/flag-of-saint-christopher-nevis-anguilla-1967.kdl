@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Saint Christopher-Nevis-Anguilla (1967)"
+  encoder "Bringing It All Back Home"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Christopher-Nevis-Anguilla_(1967).svg"
+}
+palette {
+  green "#009900"
+  yellow "#ffff00"
+  blue "#0099ff"
+}
+proportion hoist=600 fly=1200
+
+bars green yellow blue {
+  along hoist
+}

@@ -1,0 +1,40 @@
+vexyl 1
+meta {
+  name "Uzbekistan"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Uzbekistan.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  teal "#0099b5"
+  red "#ce1126"
+  white "#ffffff"
+  green "#1eb53a"
+}
+proportion hoist=500 fly=1000
+
+bars teal red white red green {
+  ratio 16 1 16 1 16
+}
+charge crescent white {
+  radius 60
+  inner 60
+  offset 20
+  at fly=140 hoist=80
+}
+charge star white {
+  radius 12
+  at fly=176 hoist=128
+  repeat line count=5 fly=48
+}
+charge star white {
+  radius 12
+  at fly=224 hoist=80
+  repeat line count=4 fly=48
+}
+charge star white {
+  radius 12
+  at fly=272 hoist=32
+  repeat line count=3 fly=48
+}

@@ -1,0 +1,26 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Basque Country"
+  encoder "Daniele Schirmo aka Frankie688"
+  license "CC-BY-SA-2.5"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Basque_Country.svg"
+}
+palette {
+  red "#d52b1e"
+  green "#009b48"
+  white "#ffffff"
+}
+proportion hoist=28 fly=50
+
+field red
+
+saltire green {
+  width 4.3
+}
+
+cross white {
+  fly 22.85 4.3 22.85
+  hoist 11.85 4.3 11.85
+}

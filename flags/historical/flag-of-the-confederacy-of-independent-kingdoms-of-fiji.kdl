@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Confederacy of Independent Kingdoms of Fiji"
+  encoder "Jeromi Mikhael"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Confederacy_of_Independent_Kingdoms_of_Fiji.svg"
+}
+palette {
+  blue "#0000cc"
+  white "#ffffff"
+}
+proportion hoist=716.7248 fly=1110.5901
+
+field blue
+
+charge star white {
+  radius 268.852
+  inner 132.1742
+  points 8
+  rotate 0.4109
+  at fly=560.9433 hoist=355.3714
+}

@@ -1,0 +1,51 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Goiás"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Goi%C3%A1s.svg"
+}
+palette {
+  green "#1fa22e"
+  yellow "#ffdd00"
+  blue "#00519e"
+  white "#ffffff"
+}
+proportion hoist=392 fly=560
+
+bars green yellow green {
+  ratio 1 1 6
+}
+
+canton {
+  fly 196
+  hoist 147
+  field blue
+  charge star white {
+    radius 23.4691
+    rotate 0.1172
+    at fly=98 hoist=75.7459
+  }
+  charge star white {
+    radius 31.2921
+    rotate 0.1172
+    at fly=39.4537 hoist=110.7939
+    at fly=39.4537 hoist=42.1952
+    at fly=156.5463 hoist=42.1952
+    at fly=156.5463 hoist=110.7939
+  }
+}
+
+charge rect yellow {
+  fly 560
+  hoist 49
+  at fly=280 hoist=171.5
+  at fly=280 hoist=269.5
+}
+
+panel {
+  side bottom
+  width 49
+  field yellow
+}

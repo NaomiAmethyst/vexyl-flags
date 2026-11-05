@@ -1,0 +1,50 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of South Sudan (2011–2023, tilted star)"
+  encoder "NorthTension"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Sudan_(2011%E2%80%932023,_tilted_star).svg"
+}
+palette {
+  white "#ffffff"
+  black "#000000"
+  red "#da121a"
+  green "#078930"
+  blue "#0f47af"
+  yellow "#fcdd09"
+}
+proportion hoist=57 fly=114
+
+field white
+
+charge polygon black {
+  point fly=0 hoist=0
+  point fly=114 hoist=0
+  point fly=114 hoist=17
+  point fly=9 hoist=17
+}
+
+charge rect red {
+  fly 105
+  hoist 17
+  at fly=61.5 hoist=28.5
+}
+
+charge polygon green {
+  point fly=9 hoist=40
+  point fly=114 hoist=40
+  point fly=114 hoist=57
+  point fly=0 hoist=57
+}
+
+chevrons blue {
+  depth 49.363
+}
+
+charge star yellow {
+  radius 9.5
+  rotate -18
+  at fly=16.4544 hoist=28.5
+}

@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Aichi Prefecture"
+  encoder "en:User:Nameneko"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Aichi_Prefecture.svg"
+}
+palette {
+  red "#a63c47"
+  white "#ffffff"
+}
+proportion hoist=700 fly=1000
+
+field red
+
+charge path white {
+  d "M601 257A160.6 160.6 0 0 0 541.4 319S584.1 342.4 583.6 392C583.6 395.8 583.3 399.6 582.8 403.1A143.3 143.3 0 0 1 410.2 534.1A168.3 168.3 0 0 0 601 257Z"
+  box "266.9 88.7 502.4 588.7"
+  fly 502.4
+  hoist 588.7
+  at fly=518.1 hoist=383.05
+}
+
+charge path white {
+  d "M439.5 529.8A138 138 0 0 0 569.7 437.6A91.6 91.6 0 0 1 531.9 469.1A167.8 167.8 0 0 1 593.9 251.9C609.9 241.9 627.6 234.6 646.6 230.5C646.6 230.5 602 209.9 540.8 222.5C540.8 222.5 529.1 166.9 500.8 141.2L499.8 140L499 141.2C470.6 166.9 459 222.6 459 222.6C397.7 209.9 353.1 230.5 353.1 230.5A167.8 167.8 0 0 1 467.8 469S416.7 448.8 416.1 391.8C415.6 342.3 458.3 318.8 458.3 318.8A160.7 160.7 0 0 0 398.9 257A168 168 0 0 0 393.2 521.7C407.6 526.9 423.2 529.7 439.5 529.7Z"
+  box "225.2 84.1 536.5 605.6"
+  fly 536.5
+  hoist 605.6
+  at fly=493.45 hoist=386.9
+}

@@ -1,0 +1,44 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Democratic Republic of the Congo (1966-1971)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo_(1966%E2%80%931971).svg"
+}
+palette {
+  blue "#0039a5"
+  yellow "#f7d618"
+  red "#ce1021"
+}
+proportion hoist=600 fly=900
+
+field blue
+
+charge polygon yellow {
+  point fly=199.057 hoist=233.862
+  point fly=135.903 hoist=185.502
+  point fly=72.614 hoist=233.669
+  point fly=96.8 hoist=155.51
+  point fly=33.722 hoist=107.045
+  point fly=111.822 hoist=107.102
+  point fly=136.125 hoist=28.985
+  point fly=160.21 hoist=107.175
+  point fly=238.31 hoist=107.362
+  point fly=175.095 hoist=155.63
+  point fly=199.061 hoist=233.862
+}
+
+charge polygon yellow {
+  point fly=0 hoist=446
+  point fly=900 hoist=0
+  point fly=900 hoist=154
+  point fly=0 hoist=600
+}
+
+charge polygon red {
+  point fly=0 hoist=470
+  point fly=900 hoist=20
+  point fly=900 hoist=130
+  point fly=0 hoist=580
+}

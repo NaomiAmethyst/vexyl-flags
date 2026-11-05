@@ -1,0 +1,67 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ingushetia 1994"
+  encoder "Comment – This license tag is also applicable to official documents, state symbols and signs of the Russian Soviet Feder"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ingushetia_(1994%E2%80%931999).svg"
+}
+palette {
+  green "#00923f"
+  white "#ffffff"
+  red "#d81e05"
+}
+proportion hoist=1944 fly=3888
+
+bars green white green {
+  ratio 1 4 1
+}
+
+charge ring red {
+  radius 378
+  inner 324
+  at fly=1953 hoist=1094
+}
+
+charge path red {
+  d "M1953 472C2028 472 2088 532 2088 607C2088 682 2028 742 1953 742"
+  box "1953 472 135 270"
+  fly 135
+  hoist 270
+  hollow 54
+  at fly=2020.5 hoist=607
+}
+
+charge disc red {
+  radius 27
+  at fly=1953 hoist=472
+}
+
+charge path red {
+  d "M2491.6678 1405C2454.1678 1469.9519 2372.2063 1491.9134 2307.2544 1454.4134C2242.3025 1416.9134 2220.3409 1334.9519 2257.8409 1270"
+  box "2220.3409 1270 271.3269 221.9134"
+  fly 271.3269
+  hoist 221.9134
+  hollow 54
+  at fly=2356.0044 hoist=1380.9567
+}
+
+charge disc red {
+  radius 27
+  at fly=2491.6678 hoist=1405
+}
+
+charge path red {
+  d "M1414.3322 1405C1376.8322 1340.0481 1398.7937 1258.0866 1463.7456 1220.5866C1528.6975 1183.0866 1610.6591 1205.0481 1648.1591 1270"
+  box "1376.8322 1183.0866 271.3269 221.9134"
+  fly 271.3269
+  hoist 221.9134
+  hollow 54
+  at fly=1512.4956 hoist=1294.0433
+}
+
+charge disc red {
+  radius 27
+  at fly=1414.3322 hoist=1405
+}

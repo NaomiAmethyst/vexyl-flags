@@ -1,0 +1,156 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of South Australia (1870–1876)"
+  encoder "Tsange"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Australia_(1870%E2%80%931876).svg"
+}
+palette {
+  blue "#002b7f"
+  white "#ffffff"
+  red "#cf142b"
+  black "#000000"
+}
+proportion hoist=450 fly=900
+
+field blue
+
+charge polygon white {
+  point fly=-10.0623 hoist=20.1246
+  point fly=439.9377 hoist=245.1246
+  point fly=460.0623 hoist=204.8754
+  point fly=10.0623 hoist=-20.1246
+}
+
+charge polygon white {
+  point fly=439.9377 hoist=-20.1246
+  point fly=-10.0623 hoist=204.8754
+  point fly=10.0623 hoist=245.1246
+  point fly=460.0623 hoist=20.1246
+}
+
+charge polygon red {
+  point fly=-6.7082 hoist=13.4164
+  point fly=443.2918 hoist=238.4164
+  point fly=456.7082 hoist=211.5836
+  point fly=6.7082 hoist=-13.4164
+}
+
+charge polygon red {
+  point fly=443.2918 hoist=-13.4164
+  point fly=-6.7082 hoist=211.5836
+  point fly=6.7082 hoist=238.4164
+  point fly=456.7082 hoist=13.4164
+}
+
+charge polygon white {
+  point fly=225 hoist=112.5
+  point fly=225 hoist=90
+  point fly=45 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon white {
+  point fly=225 hoist=112.5
+  point fly=270 hoist=112.5
+  point fly=450 hoist=22.5
+  point fly=450 hoist=0
+}
+
+charge polygon white {
+  point fly=225 hoist=112.5
+  point fly=225 hoist=135
+  point fly=405 hoist=225
+  point fly=450 hoist=225
+}
+
+charge polygon white {
+  point fly=225 hoist=112.5
+  point fly=180 hoist=112.5
+  point fly=0 hoist=202.5
+  point fly=0 hoist=225
+}
+
+charge rect white {
+  fly 75
+  hoist 225
+  at fly=225 hoist=112.5
+}
+
+charge rect white {
+  fly 450
+  hoist 75
+  at fly=225 hoist=112.5
+}
+
+charge rect red {
+  fly 45
+  hoist 225
+  at fly=225 hoist=112.5
+}
+
+charge rect red {
+  fly 450
+  hoist 45
+  at fly=225 hoist=112.5
+}
+
+charge disc black {
+  radius 100
+  at fly=675 hoist=225
+}
+
+charge star white {
+  radius 9.9675
+  inner 4.43
+  points 7
+  at fly=713.2515 hoist=164.0662
+}
+
+charge star white {
+  radius 7.6626
+  inner 3.4056
+  at fly=741.0731 hoist=212.7749
+}
+
+charge star white {
+  radius 9.2823
+  inner 4.4341
+  points 8
+  rotate -0.6733
+  at fly=672.5883 hoist=196.7019
+}
+
+charge star white {
+  radius 8.6309
+  inner 4.1229
+  points 6
+  rotate 0.7905
+  at fly=753.7921 hoist=188.492
+}
+
+charge star white {
+  radius 10.4268
+  inner 4.9808
+  points 9
+  rotate 0.775
+  at fly=716.7195 hoist=255.2823
+}
+
+charge star white {
+  radius 9.3808
+  inner 4.4811
+  points 7
+  rotate 1.1263
+  at fly=637.7127 hoist=253.009
+}
+
+charge star white {
+  radius 9.3808
+  inner 4.4811
+  points 8
+  rotate -1.6123
+  at fly=612.7382 hoist=274.9
+}

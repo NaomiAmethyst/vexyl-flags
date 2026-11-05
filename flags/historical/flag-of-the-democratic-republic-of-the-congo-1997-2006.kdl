@@ -1,0 +1,58 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Democratic Republic of the Congo (1997–2006)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo_(1997%E2%80%932006).svg"
+}
+palette {
+  blue "#005daa"
+  yellow "#f7d618"
+}
+proportion hoist=600 fly=900
+
+field blue
+
+charge star yellow {
+  radius 124.4786
+  inner 46.6626
+  rotate -0.1192
+  at fly=450.0801 hoist=311.8105
+}
+
+charge star yellow {
+  radius 41.4932
+  inner 15.5542
+  rotate -0.1191
+  at fly=86.9671 hoist=69.212
+}
+
+charge star yellow {
+  radius 41.4931
+  inner 15.5543
+  rotate -0.1196
+  at fly=86.9671 hoist=163.1026
+}
+
+charge star yellow {
+  radius 41.4929
+  inner 15.5542
+  rotate -0.1206
+  at fly=86.9671 hoist=256.9938
+}
+
+charge star yellow {
+  radius 41.4931
+  inner 15.5543
+  rotate -0.1196
+  at fly=86.9671 hoist=350.8836
+  at fly=86.9671 hoist=444.7736
+}
+
+charge star yellow {
+  radius 41.4932
+  inner 15.5543
+  rotate -0.1191
+  at fly=86.9671 hoist=538.6639
+}

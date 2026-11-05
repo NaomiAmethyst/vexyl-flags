@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Hokkaido Prefecture"
+  encoder "Monaneko"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hokkaido_Prefecture.svg"
+}
+palette {
+  blue "#2f304e"
+}
+proportion hoist=840 fly=1260
+
+field blue
+
+charge svg {
+  at center
+  fly 1260
+  hoist 840
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 840"><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(1 0 0 1 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(0.62349 0.781831 -0.781831 0.62349 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(-0.222521 0.974928 -0.974928 -0.222521 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(-0.900969 0.433884 -0.433884 -0.900969 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(-0.900969 -0.433884 0.433884 -0.900969 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(-0.222521 -0.974928 0.974928 -0.222521 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(0.62349 -0.781831 0.781831 0.62349 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(1 0 0 1 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(0.62349 0.781831 -0.781831 0.62349 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(-0.222521 0.974928 -0.974928 -0.222521 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(-0.900969 0.433884 -0.433884 -0.900969 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(-0.900969 -0.433884 0.433884 -0.900969 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(-0.222521 -0.974928 0.974928 -0.222521 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(0.62349 -0.781831 0.781831 0.62349 630 420)"/></svg>
+"""#
+}

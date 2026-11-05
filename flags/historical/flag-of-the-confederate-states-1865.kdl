@@ -1,0 +1,70 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Confederate States (1865)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Confederate_States_(1865).svg"
+}
+palette {
+  pink "#bf0a30"
+  white "#ffffff"
+  blue "#00205b"
+}
+proportion hoist=600 fly=900
+
+field pink
+
+charge polygon white {
+  point fly=-23.4285 hoist=27.3332
+  point fly=396.5715 hoist=387.3332
+  point fly=443.4285 hoist=332.6668
+  point fly=23.4285 hoist=-27.3332
+}
+
+charge polygon white {
+  point fly=23.4285 hoist=387.3332
+  point fly=443.4285 hoist=27.3332
+  point fly=396.5715 hoist=-27.3332
+  point fly=-23.4285 hoist=332.6668
+}
+
+charge polygon blue {
+  point fly=-17.5714 hoist=20.4999
+  point fly=402.4286 hoist=380.4999
+  point fly=437.5714 hoist=339.5001
+  point fly=17.5714 hoist=-20.4999
+}
+
+charge polygon blue {
+  point fly=17.5714 hoist=380.4999
+  point fly=437.5714 hoist=20.4999
+  point fly=402.4286 hoist=-20.4999
+  point fly=-17.5714 hoist=339.5001
+}
+
+charge star white {
+  radius 18.0001
+  at fly=210 hoist=180
+  at fly=154.002 hoist=132
+  at fly=97.998 hoist=84
+  at fly=42 hoist=36
+  at fly=154.002 hoist=228
+  at fly=97.998 hoist=276
+  at fly=42 hoist=324
+  at fly=265.998 hoist=132
+  at fly=322.002 hoist=84
+  at fly=378 hoist=36
+  at fly=265.998 hoist=228
+  at fly=322.002 hoist=276
+  at fly=378 hoist=324
+}
+
+charge polygon white {
+  point fly=420 hoist=0
+  point fly=660 hoist=0
+  point fly=660 hoist=600
+  point fly=0 hoist=600
+  point fly=0 hoist=360
+  point fly=420 hoist=360
+}

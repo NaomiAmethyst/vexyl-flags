@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "State flag of Saxony before 1815"
+  encoder "Johannes Rössel (talk)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:State_flag_of_Saxony_before_1815.svg"
+}
+palette {
+  black "#000000"
+  yellow "#fcdd09"
+}
+proportion hoist=0.6667 fly=1
+
+bars black yellow

@@ -1,0 +1,46 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Satake Lords of Akita in Dewa Province (B)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Satake_Lords_of_Akita_in_Dewa_Province_(B).svg"
+}
+palette {
+  blue "#005eb8"
+  white "#ffffff"
+}
+proportion hoist=700 fly=900
+
+field blue
+
+charge polygon white {
+  point fly=325.99 hoist=169.48
+  point fly=325.99 hoist=530.52
+  point fly=380.99 hoist=530.52
+  point fly=380.99 hoist=224.48
+  point fly=519.01 hoist=224.48
+  point fly=519.01 hoist=268.18
+  point fly=422.5 hoist=268.18
+  point fly=422.5 hoist=530.52
+  point fly=477.5 hoist=530.52
+  point fly=477.5 hoist=323.17
+  point fly=519.01 hoist=323.17
+  point fly=519.01 hoist=530.52
+  point fly=574.01 hoist=530.52
+  point fly=574.01 hoist=323.17
+  point fly=615.51 hoist=323.17
+  point fly=615.51 hoist=530.52
+  point fly=670.51 hoist=530.52
+  point fly=670.51 hoist=268.17
+  point fly=574.01 hoist=268.17
+  point fly=574.01 hoist=169.48
+}
+
+charge polygon white {
+  point fly=229.48 hoist=268.18
+  point fly=229.48 hoist=530.52
+  point fly=284.48 hoist=530.52
+  point fly=284.48 hoist=268.17
+}

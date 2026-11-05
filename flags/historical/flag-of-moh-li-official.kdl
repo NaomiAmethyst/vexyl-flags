@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Mohéli (official)"
+  encoder "odder"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Moh%C3%A9li_(official).svg"
+}
+palette {
+  yellow "#ffe01e"
+  red "#ce1126"
+}
+proportion hoist=400 fly=600
+
+field yellow
+
+charge star red {
+  radius 110.5577
+  at fly=300.0005 hoist=204.1683
+}

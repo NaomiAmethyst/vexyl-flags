@@ -1,0 +1,35 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Saar (1947–1956)"
+  encoder "Khardan"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saar_(1947%E2%80%931956).svg"
+}
+palette {
+  blue "#002654"
+  red "#ce1126"
+  white "#ffffff"
+}
+proportion hoist=10 fly=15
+
+bars blue red {
+  along hoist
+  ratio 2 3
+}
+
+charge polygon white {
+  point fly=0 hoist=4
+  point fly=5 hoist=4
+  point fly=5 hoist=0
+  point fly=7 hoist=0
+  point fly=7 hoist=4
+  point fly=15 hoist=4
+  point fly=15 hoist=6
+  point fly=7 hoist=6
+  point fly=7 hoist=10
+  point fly=5 hoist=10
+  point fly=5 hoist=6
+  point fly=0 hoist=6
+}

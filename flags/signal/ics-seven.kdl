@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Seven"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Seven.svg"
+}
+palette {
+  red "#ff0000"
+  white "#ffffff"
+}
+proportion hoist=600 fly=600
+
+bars red white red {
+  along hoist
+}

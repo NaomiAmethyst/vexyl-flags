@@ -1,0 +1,62 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Ewe people"
+  encoder "Mysid"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ewe_people.svg"
+}
+palette {
+  green "#00923f"
+  red "#da251d"
+  yellow "#fff500"
+}
+proportion hoist=683 fly=1024
+
+field green
+
+charge rect red {
+  fly 1024
+  hoist 226
+  at fly=512 hoist=342.5
+}
+
+charge polygon yellow {
+  point fly=202.5 hoist=272.5
+  point fly=219.5 hoist=325.5
+  point fly=275.5 hoist=325.5
+  point fly=230.5 hoist=358.5
+  point fly=247.5 hoist=412.5
+  point fly=202.5 hoist=379.5
+  point fly=156.5 hoist=412.5
+  point fly=174.5 hoist=358.5
+  point fly=128.5 hoist=325.5
+  point fly=184.5 hoist=325.5
+}
+
+charge polygon yellow {
+  point fly=512 hoist=272.5
+  point fly=529 hoist=325.5
+  point fly=585 hoist=325.5
+  point fly=540 hoist=358.5
+  point fly=557 hoist=412.5
+  point fly=512 hoist=379.5
+  point fly=467 hoist=412.5
+  point fly=484 hoist=358.5
+  point fly=439 hoist=325.5
+  point fly=495 hoist=325.5
+}
+
+charge polygon yellow {
+  point fly=822.5 hoist=272.5
+  point fly=839.5 hoist=325.5
+  point fly=895.5 hoist=325.5
+  point fly=850.5 hoist=358.5
+  point fly=867.5 hoist=412.5
+  point fly=822.5 hoist=379.5
+  point fly=776.5 hoist=412.5
+  point fly=794.5 hoist=358.5
+  point fly=748.5 hoist=325.5
+  point fly=804.5 hoist=325.5
+}

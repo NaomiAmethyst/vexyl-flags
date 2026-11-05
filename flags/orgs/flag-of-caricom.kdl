@@ -1,0 +1,46 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of CARICOM"
+  encoder "CARICOM"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_CARICOM.svg"
+}
+palette {
+  blue "#66ccff"
+  blue-2 "#003399"
+  yellow "#ffcc00"
+  green "#339933"
+  black "#000000"
+}
+proportion hoist=600 fly=900
+
+bars blue blue-2
+
+charge disc yellow {
+  radius 213
+  at fly=450 hoist=300
+}
+
+charge ring green {
+  radius 220
+  inner 206
+  at fly=450 hoist=300
+}
+
+charge path black {
+  d "M348 182L482 182A18 18 0 0 1 500 200L500 235L464 235L464 218A6 6 0 0 0 458 212L372 212A6 6 0 0 0 366 218L366 311A6 6 0 0 0 372 317L458 317A6 6 0 0 0 464 311L464 296L500 296L500 329A18 18 0 0 1 482 347L348 347A18 18 0 0 1 330 329L330 200A18 18 0 0 1 348 182Z"
+  box "312 164 206 201"
+  fly 206
+  hoist 201
+  at fly=415 hoist=264.5
+}
+
+charge path black {
+  d "M424 254L558 254A18 18 0 0 1 576 272L576 307L540 307L540 290A6 6 0 0 0 534 284L448 284A6 6 0 0 0 442 290L442 383A6 6 0 0 0 448 389L534 389A6 6 0 0 0 540 383L540 368L576 368L576 401A18 18 0 0 1 558 419L424 419A18 18 0 0 1 406 401L406 272A18 18 0 0 1 424 254Z"
+  box "388 236 206 201"
+  fly 206
+  hoist 201
+  at fly=491 hoist=336.5
+}

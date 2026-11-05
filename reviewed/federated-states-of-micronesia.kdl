@@ -1,0 +1,19 @@
+vexyl 1
+meta {
+  name "Federated States of Micronesia"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federated_States_of_Micronesia.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  blue "#75b2dd"
+  white "#ffffff"
+}
+proportion hoist=20 fly=38
+
+field blue
+charge star white {
+  radius 2
+  repeat ring count=4 radius=6 turn=#true
+}

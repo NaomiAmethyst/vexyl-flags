@@ -1,0 +1,53 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Kalmykia (1992)"
+  encoder "P. Bitkeyev"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kalmykia_(1992%E2%80%931993).svg"
+}
+palette {
+  blue "#3399ff"
+  yellow "#ffd700"
+  red "#d81e05"
+}
+proportion hoist=900 fly=1800
+
+bars blue yellow red {
+  ratio 1 2 1
+}
+
+charge disc red {
+  radius 112.5
+  at fly=900 hoist=450
+}
+
+charge disc yellow {
+  radius 100
+  at fly=900 hoist=450
+}
+
+charge path red {
+  d "M938 504C932 488 916 488 913 504C907 488 891 488 888 504C882 488 866 488 863 504L857 504C862 486 878 482 887 494C894 485 905 485 912 494C921 482 937 485 943 504L938 504Z"
+  box "857 482 86 22"
+  fly 86
+  hoist 22
+  at fly=900 hoist=493
+}
+
+charge path red {
+  d "M927 483C923 472 912 472 909 483C905 472 894 472 891 483C887 472 876 472 873 483L869 483C873 470 884 468 891 476C896 470 904 469 909 476C915 468 927 470 931 483L928 483Z"
+  box "869 468 62 15"
+  fly 62
+  hoist 15
+  at fly=900 hoist=475.5
+}
+
+charge path red {
+  d "M897 415C917 395 944 425 926 449C916 462 891 459 881 449C874 442 869 433 870 423C871 413 878 405 885 400C892 395 895 392 897 388C899 385 904 381 903 377L908 376C909 382 908 387 905 392C902 397 898 401 890 406C885 410 879 416 878 423C877 430 882 437 886 441C893 448 909 450 917 443C917 443 917 443 917 443C928 429 914 410 903 422L896 415Z"
+  box "869 376 75 86"
+  fly 75
+  hoist 86
+  at fly=906.5 hoist=419
+}

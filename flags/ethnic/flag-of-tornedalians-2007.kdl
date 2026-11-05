@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tornedalians (2007)"
+  encoder "Mysid"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tornedalians_(2007).svg"
+}
+palette {
+  yellow "#fcd116"
+  white "#ffffff"
+  blue "#005b99"
+}
+proportion hoist=900 fly=1485
+
+bars yellow white blue

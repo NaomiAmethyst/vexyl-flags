@@ -1,0 +1,54 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "CHE Jura Flag"
+  encoder "Original: Paul Boesch Vector: SpinnerLaserzthe2nd"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:CHE_Jura_Flag.svg"
+}
+palette {
+  white "#ffffff"
+  red "#f00000"
+}
+proportion hoist=350 fly=350
+
+pile white {
+  depth 349.9822
+  flat 349.8401
+}
+
+charge rect red {
+  fly 175.479
+  hoist 49.9569
+  at fly=262.2594 hoist=125.1942
+}
+
+charge rect red {
+  fly 175.479
+  hoist 50.0457
+  at fly=262.2594 hoist=225.0813
+}
+
+panel {
+  corner lower-fly
+  fly 175.479
+  hoist 49.9391
+  field red
+}
+
+panel {
+  corner upper-fly
+  fly 175.479
+  hoist 49.8858
+  field red
+}
+
+charge svg {
+  at center
+  fly 350
+  hoist 350
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350"><path d="M 29.11914,-205.3757 V 264.2139" transform="matrix(0.744361 0 0 0.745332 154.153337 153.073001)" stroke-width="3.51584" stroke-opacity="1" stroke="#000000"/><path d="m -28.589218,-119.79267 c -4.990701,-47.02953 -28.226956,-66.27771 -65.437175,-66.27771 -37.326537,0.044 -56.407517,26.0531 -56.407517,51.52293 0,15.81332 9.28518,37.999525 33.26406,37.999525 23.979109,-0.0209 32.219602,-14.668365 32.219602,-26.333945 0,-11.49277 -11.072469,-20.22033 -20.984502,-20.22033 -9.8886,0 -16.365,4.12616 -16.365,4.12616 2.48375,-16.26699 15.83118,-19.31299 24.118082,-19.31299 12.326181,0 28.830515,7.66902 28.830515,37.00576 0,9.18124 -4.317586,44.069943 -10.747588,87.664603 h 62.675026 c -5.385551,-39.425294 -9.749627,-72.326533 -11.165503,-86.174003 z" fill-opacity="1" stroke-width="2.23044" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#f00000" transform="matrix(0.765682 0 0 0.82178 137.676377 170.726384)"/><path d="m -115.33593,199.60633 41.435191,-75.95584 25.278666,72.30494 23.909506,-72.7802 42.595637,76.60391 c 0,0 -15.575754,-92.69808 -27.1590824,-176.47415 l -78.9008316,0.02097 c -12.674176,85.39628 -27.159086,176.27971 -27.159086,176.27971 z" fill-opacity="1" stroke-width="2.23044" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#f00000" transform="matrix(0.765682 0 0 0.82178 137.676377 170.726384)"/><path d="M 11.453068,-9.8122613 V 0.88118036 H -108.5577 l -0.0226,-10.58542266 z" fill-opacity="1" stroke-width="2.23044" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#f00000" transform="matrix(0.765682 0 0 0.82178 137.676377 170.726384)"/><path d="M -1.2907105,6.9731894 V 17.450613 l -94.8016065,0.04402 V 6.9308044 Z" fill-opacity="1" stroke-width="2.23044" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#f00000" transform="matrix(0.765682 0 0 0.82178 137.676377 170.726384)"/><path d="m -1.2907105,-27.072991 v 10.455813 l -94.8016065,0.04402 v -10.520607 h 94.8016065 z" fill-opacity="1" stroke-width="2.23044" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#f00000" transform="matrix(0.765682 0 0 0.82178 137.676377 170.726384)"/></svg>
+"""#
+}

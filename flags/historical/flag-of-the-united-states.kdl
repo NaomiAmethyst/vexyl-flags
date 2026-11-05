@@ -1,0 +1,34 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the United States"
+  encoder "Uploaded by Dbenbenn; edited by users such as Zscout370, Jacobolus, Indolences, and Technion."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg"
+}
+palette {
+  pink "#b31942"
+  white "#ffffff"
+  blue "#0a3161"
+}
+proportion hoist=3900 fly=7410
+
+field pink
+
+charge rect white {
+  fly 7410
+  hoist 300
+  at fly=3705 hoist=450
+  repeat line count=6 hoist=600
+}
+
+canton {
+  fly 2964
+  hoist 2100
+  field blue
+  charge star white {
+    radius 120
+    repeat grid rows=9 columns=11 stagger=#true
+  }
+}

@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Morning Star flag"
+  encoder "Pumbaa80"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Morning_Star_flag.svg"
+}
+palette {
+  blue "#006699"
+  white "#ffffff"
+  red "#dd0000"
+}
+proportion hoist=52 fly=78
+
+field blue
+
+charge rect white {
+  fly 78
+  hoist 4
+  at fly=39 hoist=6
+  repeat line count=6 hoist=8
+}
+
+panel {
+  side hoist
+  width 20.8
+  field red
+  charge polygon white {
+    point fly=5.1 hoist=33.4
+    point fly=10.4 hoist=16.9
+    point fly=15.7 hoist=33.4
+    point fly=1.7 hoist=23.2
+    point fly=19.1 hoist=23.2
+  }
+}

@@ -1,0 +1,178 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Yamal-Nenets Autonomous District"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Yamal-Nenets_Autonomous_District.svg"
+}
+palette {
+  blue "#0080ff"
+  white "#ffffff"
+  red "#ff0000"
+}
+proportion hoist=1050 fly=1575
+
+field blue
+
+charge polygon white {
+  point fly=-53.9571 hoist=863.2412
+  point fly=20.2891 hoist=788.9949
+  point fly=-53.9571 hoist=714.7487
+  point fly=-29.2083 hoist=690
+  point fly=-4.4596 hoist=714.7487
+  point fly=20.2891 hoist=690
+  point fly=69.7866 hoist=739.4975
+  point fly=45.0379 hoist=764.2462
+  point fly=20.2891 hoist=739.4975
+  point fly=69.7866 hoist=690
+  point fly=94.5354 hoist=714.7487
+  point fly=119.2841 hoist=690
+  point fly=144.0328 hoist=714.7487
+  point fly=69.7866 hoist=788.9949
+  point fly=94.5354 hoist=813.7437
+  point fly=119.2841 hoist=788.9949
+  point fly=144.0328 hoist=813.7437
+  point fly=193.5303 hoist=764.2462
+  point fly=168.7816 hoist=739.4975
+  point fly=144.0328 hoist=764.2462
+  point fly=193.5303 hoist=813.7437
+  point fly=218.279 hoist=788.9949
+  point fly=243.0278 hoist=813.7437
+  point fly=267.7765 hoist=788.9949
+  point fly=193.5303 hoist=714.7487
+  point fly=218.279 hoist=690
+  point fly=243.0278 hoist=714.7487
+  point fly=267.7765 hoist=690
+  point fly=317.274 hoist=739.4975
+  point fly=292.5253 hoist=764.2462
+  point fly=267.7765 hoist=739.4975
+  point fly=317.274 hoist=690
+  point fly=342.0227 hoist=714.7487
+  point fly=366.7715 hoist=690
+  point fly=391.5202 hoist=714.7487
+  point fly=317.274 hoist=788.9949
+  point fly=342.0227 hoist=813.7437
+  point fly=366.7715 hoist=788.9949
+  point fly=391.5202 hoist=813.7437
+  point fly=441.0177 hoist=764.2462
+  point fly=416.2689 hoist=739.4975
+  point fly=391.5202 hoist=764.2462
+  point fly=441.0177 hoist=813.7437
+  point fly=465.7664 hoist=788.9949
+  point fly=490.5152 hoist=813.7437
+  point fly=515.2639 hoist=788.9949
+  point fly=441.0177 hoist=714.7487
+  point fly=465.7664 hoist=690
+  point fly=490.5152 hoist=714.7487
+  point fly=515.2639 hoist=690
+  point fly=564.7614 hoist=739.4975
+  point fly=540.0126 hoist=764.2462
+  point fly=515.2639 hoist=739.4975
+  point fly=564.7614 hoist=690
+  point fly=589.5101 hoist=714.7487
+  point fly=614.2588 hoist=690
+  point fly=639.0076 hoist=714.7487
+  point fly=564.7614 hoist=788.9949
+  point fly=589.5101 hoist=813.7437
+  point fly=614.2588 hoist=788.9949
+  point fly=639.0076 hoist=813.7437
+  point fly=688.5051 hoist=764.2462
+  point fly=663.7563 hoist=739.4975
+  point fly=639.0076 hoist=764.2462
+  point fly=688.5051 hoist=813.7437
+  point fly=713.2538 hoist=788.9949
+  point fly=738.0025 hoist=813.7437
+  point fly=762.7513 hoist=788.9949
+  point fly=688.5051 hoist=714.7487
+  point fly=713.2538 hoist=690
+  point fly=738.0025 hoist=714.7487
+  point fly=762.7513 hoist=690
+  point fly=812.2487 hoist=739.4975
+  point fly=787.5 hoist=764.2462
+  point fly=762.7513 hoist=739.4975
+  point fly=812.2487 hoist=690
+  point fly=836.9975 hoist=714.7487
+  point fly=861.7462 hoist=690
+  point fly=886.4949 hoist=714.7487
+  point fly=812.2487 hoist=788.9949
+  point fly=836.9975 hoist=813.7437
+  point fly=861.7462 hoist=788.9949
+  point fly=886.4949 hoist=813.7437
+  point fly=935.9924 hoist=764.2462
+  point fly=911.2437 hoist=739.4975
+  point fly=886.4949 hoist=764.2462
+  point fly=935.9924 hoist=813.7437
+  point fly=960.7412 hoist=788.9949
+  point fly=985.4899 hoist=813.7437
+  point fly=1010.2386 hoist=788.9949
+  point fly=935.9924 hoist=714.7487
+  point fly=960.7412 hoist=690
+  point fly=985.4899 hoist=714.7487
+  point fly=1010.2386 hoist=690
+  point fly=1059.7361 hoist=739.4975
+  point fly=1034.9874 hoist=764.2462
+  point fly=1010.2386 hoist=739.4975
+  point fly=1059.7361 hoist=690
+  point fly=1084.4848 hoist=714.7487
+  point fly=1109.2336 hoist=690
+  point fly=1133.9823 hoist=714.7487
+  point fly=1059.7361 hoist=788.9949
+  point fly=1084.4848 hoist=813.7437
+  point fly=1109.2336 hoist=788.9949
+  point fly=1133.9823 hoist=813.7437
+  point fly=1183.4798 hoist=764.2462
+  point fly=1158.7311 hoist=739.4975
+  point fly=1133.9823 hoist=764.2462
+  point fly=1183.4798 hoist=813.7437
+  point fly=1208.2285 hoist=788.9949
+  point fly=1232.9773 hoist=813.7437
+  point fly=1257.726 hoist=788.9949
+  point fly=1183.4798 hoist=714.7487
+  point fly=1208.2285 hoist=690
+  point fly=1232.9773 hoist=714.7487
+  point fly=1257.726 hoist=690
+  point fly=1307.2235 hoist=739.4975
+  point fly=1282.4747 hoist=764.2462
+  point fly=1257.726 hoist=739.4975
+  point fly=1307.2235 hoist=690
+  point fly=1331.9722 hoist=714.7487
+  point fly=1356.721 hoist=690
+  point fly=1381.4697 hoist=714.7487
+  point fly=1307.2235 hoist=788.9949
+  point fly=1331.9722 hoist=813.7437
+  point fly=1356.721 hoist=788.9949
+  point fly=1381.4697 hoist=813.7437
+  point fly=1430.9672 hoist=764.2462
+  point fly=1406.2184 hoist=739.4975
+  point fly=1381.4697 hoist=764.2462
+  point fly=1430.9672 hoist=813.7437
+  point fly=1455.7159 hoist=788.9949
+  point fly=1480.4646 hoist=813.7437
+  point fly=1505.2134 hoist=788.9949
+  point fly=1430.9672 hoist=714.7487
+  point fly=1455.7159 hoist=690
+  point fly=1480.4646 hoist=714.7487
+  point fly=1505.2134 hoist=690
+  point fly=1554.7109 hoist=739.4975
+  point fly=1529.9621 hoist=764.2462
+  point fly=1505.2134 hoist=739.4975
+  point fly=1554.7109 hoist=690
+  point fly=1579.4596 hoist=714.7487
+  point fly=1604.2083 hoist=690
+  point fly=1628.9571 hoist=714.7487
+  point fly=1554.7109 hoist=788.9949
+  point fly=1628.9571 hoist=863.2412
+}
+
+charge rect blue {
+  fly 1575
+  hoist 30
+  at fly=787.5 hoist=873
+}
+
+charge rect red {
+  fly 1575
+  hoist 21
+  at fly=787.5 hoist=889.5
+}

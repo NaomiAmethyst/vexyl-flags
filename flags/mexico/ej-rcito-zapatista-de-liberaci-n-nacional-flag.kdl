@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Ejército Zapatista de Liberación Nacional, Flag"
+  encoder "No machine-readable author provided. Zscout370 assumed (based on copyright claims)."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Ej%C3%A9rcito_Zapatista_de_Liberaci%C3%B3n_Nacional,_Flag.svg"
+}
+palette {
+  black "#000000"
+  red "#ce1126"
+}
+proportion hoist=300 fly=450
+
+field black
+
+charge polygon red {
+  point fly=184.36 hoist=212.5
+  point fly=224.996 hoist=87.5
+  point fly=265.636 hoist=212.5
+  point fly=159.246 hoist=135.25
+  point fly=290.746 hoist=135.25
+  point fly=184.356 hoist=212.5
+}

@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Infobox ASEAN flag"
+  encoder "CentreLeftRight"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Infobox_ASEAN_flag.svg"
+}
+palette {
+  blue "#0739a4"
+  white "#ffffff"
+  red "#ec2938"
+  yellow "#f6d91a"
+}
+proportion hoist=56.3563 fly=84.6667
+
+field blue
+
+charge disc white {
+  radius 16.9328
+  at fly=42.3429 hoist=28.2139
+}
+
+charge disc red {
+  radius 15.9495
+  at fly=42.3405 hoist=28.1782
+}
+
+charge polygon yellow {
+  point fly=33.7437 hoist=36.5275
+  point fly=37.8354 hoist=28.1781
+  point fly=33.7437 hoist=19.8287
+  point fly=50.923 hoist=19.8287
+  point fly=46.8312 hoist=28.1781
+  point fly=50.923 hoist=36.5275
+}

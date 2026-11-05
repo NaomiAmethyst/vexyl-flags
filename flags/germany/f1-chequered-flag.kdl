@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "F1 chequered flag"
+  encoder "Glidden Tours"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:F1_chequered_flag.svg"
+}
+palette {
+  brown "#322c24"
+}
+proportion hoist=7 fly=9
+
+field brown
+
+charge svg {
+  at center
+  fly 9
+  hoist 7
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 7"><path d="M1,.5h7M0,1.5h9M1,2.5h7M0,3.5h9M1,4.5h7M0,5.5h9M1,6.5h7" stroke-dasharray="1" stroke="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}

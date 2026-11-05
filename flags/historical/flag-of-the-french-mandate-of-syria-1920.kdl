@@ -1,0 +1,46 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the French Mandate of Syria (1920)"
+  encoder "Thommy"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_French_Mandate_of_Syria_(1920).svg"
+}
+palette {
+  blue "#007bc6"
+  red "#cd1226"
+  white "#ffffff"
+  blue-2 "#002654"
+}
+proportion hoist=90 fly=135
+
+field blue
+
+canton {
+  fly 45
+  hoist 30
+  field red
+}
+
+canton {
+  fly 30
+  hoist 30
+  field white
+}
+
+canton {
+  fly 15
+  hoist 30
+  field blue-2
+}
+
+charge disc white {
+  radius 18.8
+  at fly=77.2 hoist=45
+}
+
+charge disc blue {
+  radius 20.2
+  at fly=87 hoist=45
+}

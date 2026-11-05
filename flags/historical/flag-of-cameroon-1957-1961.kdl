@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Cameroon (1957-1961)"
+  encoder "(of code) cs:User:-xfi-"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon_(1957%E2%80%931961).svg"
+}
+palette {
+  teal "#007a5e"
+  red "#ce1126"
+  yellow "#fcd116"
+}
+proportion hoist=60 fly=90
+
+bars teal red yellow {
+  along hoist
+}

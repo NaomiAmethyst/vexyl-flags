@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Macedonia (1992–1995)"
+  encoder "Mysid"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Macedonia_(1992%E2%80%931995).svg"
+}
+palette {
+  red "#d20000"
+  yellow "#ffe600"
+}
+proportion hoist=300 fly=600
+
+field red
+
+charge disc yellow {
+  radius 19.5
+  at fly=300 hoist=150
+}
+
+charge svg {
+  at center
+  fly 600
+  hoist 300
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300"><path d="M-7.473,32.632a7.5,7.5,189.668,1,1,14.946,0L0,121zM12.989,45.687a5.5,5.5,188.962,1,1,10.132-4.197L44.831,108.232z" fill="#ffe600" transform="matrix(1 0 0 1 300 150)"/><path d="M-7.473,32.632a7.5,7.5,189.668,1,1,14.946,0L0,121zM12.989,45.687a5.5,5.5,188.962,1,1,10.132-4.197L44.831,108.232z" fill="#ffe600" transform="matrix(0.707107 0.707107 -0.707107 0.707107 300 150)"/><path d="M-7.473,32.632a7.5,7.5,189.668,1,1,14.946,0L0,121zM12.989,45.687a5.5,5.5,188.962,1,1,10.132-4.197L44.831,108.232z" fill="#ffe600" transform="matrix(0 1 -1 0 300 150)"/><path d="M-7.473,32.632a7.5,7.5,189.668,1,1,14.946,0L0,121zM12.989,45.687a5.5,5.5,188.962,1,1,10.132-4.197L44.831,108.232z" fill="#ffe600" transform="matrix(-0.707107 0.707107 -0.707107 -0.707107 300 150)"/><path d="M-7.473,32.632a7.5,7.5,189.668,1,1,14.946,0L0,121zM12.989,45.687a5.5,5.5,188.962,1,1,10.132-4.197L44.831,108.232z" fill="#ffe600" transform="matrix(-1 0 -0 -1 300 150)"/><path d="M-7.473,32.632a7.5,7.5,189.668,1,1,14.946,0L0,121zM12.989,45.687a5.5,5.5,188.962,1,1,10.132-4.197L44.831,108.232z" fill="#ffe600" transform="matrix(-0.707107 -0.707107 0.707107 -0.707107 300 150)"/><path d="M-7.473,32.632a7.5,7.5,189.668,1,1,14.946,0L0,121zM12.989,45.687a5.5,5.5,188.962,1,1,10.132-4.197L44.831,108.232z" fill="#ffe600" transform="matrix(-0 -1 1 -0 300 150)"/><path d="M-7.473,32.632a7.5,7.5,189.668,1,1,14.946,0L0,121zM12.989,45.687a5.5,5.5,188.962,1,1,10.132-4.197L44.831,108.232z" fill="#ffe600" transform="matrix(0.707107 -0.707107 0.707107 0.707107 300 150)"/></svg>
+"""#
+}

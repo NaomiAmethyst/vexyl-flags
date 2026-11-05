@@ -1,0 +1,64 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "War flag of the Imperial Japanese Army"
+  encoder "Thommy"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Imperial_Japanese_Army.svg"
+}
+palette {
+  white "#ffffff"
+  pink "#be0026"
+}
+proportion hoist=600 fly=900
+
+field white
+
+charge disc pink {
+  radius 153
+  at fly=442 hoist=300
+}
+
+charge svg {
+  at center
+  fly 900
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="m0 0h130l218 185-20.2 21.1z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m230 0h75l94.1 156-27 11.6z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m405 0h70l-18.6 151-29.2-.0352z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m575 0h75l-138 168-27.1-11.4z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m750 0h130l-324 206-20.3-21z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m405 600h70l-18.6-151-29.1-.082z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m230 600h74.9l94.1-156-27-11.5z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m0 600h130l218-185-21.2-20.4z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m575 600h75l-139-168-26.8 11.6z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m750 600h130l-324-206-20.1 21.2z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m900 95v75l-316 86.9-10.9-27.4z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+pile pink {
+  from fly
+  base 265 335
+  depth 310
+  flat 29.5
+}
+
+charge polygon pink {
+  point fly=900 hoist=430
+  point fly=900 hoist=505
+  point fly=573 hoist=370
+  point fly=584.4 hoist=342.9
+}
+
+charge polygon pink {
+  point fly=0 hoist=95
+  point fly=0 hoist=170
+  point fly=300 hoist=257.1
+  point fly=311.4 hoist=230
+}
+
+pile pink {
+  base 265 335
+  depth 294
+  flat 29.4
+}
+
+charge polygon pink {
+  point fly=0 hoist=430
+  point fly=0 hoist=505
+  point fly=311 hoist=370
+  point fly=299.6 hoist=342.9
+}

@@ -1,0 +1,15 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Salzburg, Vienna, Vorarlberg"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Salzburg,_Vienna,_Vorarlberg.svg"
+}
+palette {
+  red "#da121a"
+  white "#ffffff"
+}
+proportion hoist=400 fly=600
+
+bars red white

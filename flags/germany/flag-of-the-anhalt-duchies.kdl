@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Anhalt Duchies"
+  encoder "Germenfer"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Anhalt_Duchies.svg"
+}
+palette {
+  green "#328925"
+  white "#ffffff"
+}
+proportion hoist=1600 fly=1600
+
+bars green white

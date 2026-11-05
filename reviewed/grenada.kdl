@@ -1,0 +1,55 @@
+vexyl 1
+meta {
+  name "Grenada"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  red "#ce1126"
+  green "#007a5e"
+  yellow "#fcd116"
+}
+proportion hoist=300 fly=500
+
+define shell {
+  path "M67.944 150.113c4.262 8.515 12.757 17.893 20.313 21.321.367-8.513-2.341-19.515-6.224-28.33z" box="50 110 60 70"
+}
+define nutmeg {
+  path "M60.284 121.487c6.35 13.695-17.533 45.856 21.453 53.976-4.736-6.643-7.33-17.752-6.04-26.456 8.095 3.448 16.212 11.464 19.402 18.972 13.444-37.484-26.456-33.922-34.815-46.492z" box="50 110 60 70"
+}
+
+field red
+panel {
+  fly 416
+  hoist 216
+  quarters yellow green yellow green {
+    diagonal
+  }
+}
+charge disc red {
+  radius 36
+}
+charge star yellow {
+  radius 33
+}
+charge shell red {
+  fly 60
+  hoist 70
+  at fly=80 hoist=145
+}
+charge nutmeg yellow {
+  fly 60
+  hoist 70
+  at fly=80 hoist=145
+}
+charge star yellow {
+  radius 19.5
+  at fly=150 hoist=279
+  at fly=250 hoist=279
+  at fly=350 hoist=279
+  at fly=150 hoist=21
+  at fly=250 hoist=21
+  at fly=350 hoist=21
+}

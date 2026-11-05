@@ -1,0 +1,14 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "F1 white flag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:F1_white_flag.svg"
+}
+palette {
+  white "#ffffff"
+}
+proportion hoist=3 fly=4
+
+field white

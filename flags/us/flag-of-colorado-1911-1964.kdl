@@ -1,0 +1,31 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Colorado (1911–1964)"
+  encoder "Own work"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Colorado_(1911%E2%80%931964).svg"
+}
+palette {
+  blue "#00205b"
+  white "#ffffff"
+  pink "#bf0a30"
+  yellow "#ffd700"
+}
+proportion hoist=1200 fly=1800
+
+bars blue white blue
+
+charge path pink {
+  d "M589 656A150 150 0 1 1 589 544L444 600"
+  box "439 394 300 300"
+  fly 300
+  hoist 300
+  at fly=589 hoist=544
+}
+
+charge disc yellow {
+  radius 75
+  at fly=450 hoist=600
+}

@@ -1,0 +1,43 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Aruba"
+  encoder "Original: Whitney Smith Vector: Wester"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Aruba.svg"
+}
+palette {
+  blue "#418fde"
+  yellow "#ffd100"
+  white "#ffffff"
+  red "#ef3340"
+}
+proportion hoist=18 fly=27
+
+field blue
+
+charge polygon yellow {
+  point fly=0 hoist=12
+  point fly=27 hoist=12
+  point fly=27 hoist=13
+  point fly=0 hoist=13
+  point fly=0 hoist=14
+  point fly=27 hoist=14
+  point fly=27 hoist=15
+  point fly=0 hoist=15
+}
+
+charge star white {
+  radius 3
+  inner 1.0004
+  points 4
+  at fly=4 hoist=4
+}
+
+charge star red {
+  radius 2.3203
+  inner 0.7735
+  points 4
+  at fly=4 hoist=4
+}

@@ -1,0 +1,19 @@
+vexyl 1
+meta {
+  name "Republic of the Congo"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  green "#009739"
+  yellow "#ffd100"
+  red "#dc241f"
+}
+proportion hoist=600 fly=900
+
+bars green yellow red {
+  rotate -45
+  ratio 2 1 2
+}

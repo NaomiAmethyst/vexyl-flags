@@ -1,0 +1,44 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ação Integralista Brasileira original version"
+  encoder "R-41"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_A%C3%A7%C3%A3o_Integralista_Brasileira_original_version.svg"
+}
+palette {
+  blue "#0045cf"
+  black "#000000"
+  white "#ffffff"
+}
+proportion hoist=700 fly=1000
+
+field blue
+
+charge path black {
+  d "M250 350A250 250 0 0 1 500 100A250 250 0 0 1 750 350A250 250 0 0 1 500 600A250 250 0 0 1 250 350Z"
+  box "0 -150 1000 1000"
+  fly 1000
+  hoist 1000
+  evenodd
+  at fly=500 hoist=350
+}
+
+charge path white {
+  d "M275 350A225 225 0 0 1 500 125A225 225 0 0 1 725 350A225 225 0 0 1 500 575A225 225 0 0 1 275 350Z"
+  box "50 -100 900 900"
+  fly 900
+  hoist 900
+  evenodd
+  at fly=500 hoist=350
+}
+
+charge path black {
+  d "M390 210L390 215L506.5 352L390 485L390 490L600 490L610 420L601 420C601 430.472 600.6861 432.8764 593.2812 440.2812C585.8764 447.6861 579.472 452 569 452L448.6562 452C479.5541 415.5311 515.3725 386.1409 546.656 350C515.5959 313.6695 477.2584 264.718 446.6562 228L555 228C565.472 228 581.8764 234.3139 589.2812 241.7188C596.6861 249.1235 601 253.528 601 264L610 264L600 210Z"
+  box "390 210 220 280"
+  fly 220
+  hoist 280
+  evenodd
+  at fly=500 hoist=350
+}

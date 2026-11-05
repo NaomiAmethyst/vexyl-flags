@@ -1,0 +1,41 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Answer"
+  encoder "Created by Denelson83"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Answer.svg"
+}
+palette {
+  red "#ff0000"
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=300 fly=540
+
+charge polygon red {
+  point fly=1.25 hoist=1.25
+  point fly=538.75 hoist=76.25
+  point fly=538.75 hoist=223.75
+  point fly=1.25 hoist=298.75
+}
+
+charge polygon white {
+  point fly=108 hoist=16
+  point fly=108 hoist=284
+  point fly=216 hoist=269
+  point fly=216 hoist=31
+  point fly=324 hoist=46
+  point fly=324 hoist=254
+  point fly=432 hoist=239
+  point fly=432 hoist=61
+}
+
+charge polygon black {
+  point fly=1.25 hoist=1.25
+  point fly=538.75 hoist=76.25
+  point fly=538.75 hoist=223.75
+  point fly=1.25 hoist=298.75
+  hollow 2.5
+}

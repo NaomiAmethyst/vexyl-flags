@@ -1,0 +1,28 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Red Cross"
+  encoder "Louis Appia and Henri Dufour"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Red_Cross.svg"
+}
+palette {
+  white "#ffffff"
+  red "#da121a"
+}
+proportion hoist=100 fly=150
+
+field white
+
+charge rect red {
+  fly 66
+  hoist 20
+  at fly=75 hoist=50
+}
+
+charge rect red {
+  fly 20
+  hoist 66
+  at fly=75 hoist=50
+}

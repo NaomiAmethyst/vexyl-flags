@@ -1,0 +1,57 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Cyrenaica"
+  encoder "An Encore Performance From The Boys In The Band"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cyrenaica.svg"
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+}
+proportion hoist=300 fly=450
+
+field black
+
+charge path black {
+  d "M323.6747 129.1182C323.6747 129.1182 323.6747 129.1182 323.6747 129.1182"
+  box "323.6747 129.1182 0.001 0.001"
+  fly 0.001
+  hoist 0.001
+  evenodd
+  hollow 0.5693
+  at fly=323.6747 hoist=129.1182
+}
+
+charge path white {
+  d "M264.9974 150A76.3009 75.0001 0 1 1 112.3956 150A76.3009 75.0001 0 1 1 264.9974 150Z"
+  box "36.0948 74.9999 305.2034 150.0001"
+  fly 305.2034
+  hoist 150.0001
+  evenodd
+  at fly=188.6965 hoist=150
+}
+
+charge path black {
+  d "M268.8126 149.9997A66.4968 65.3629 0 1 1 135.8189 149.9997A66.4968 65.3629 0 1 1 268.8126 149.9997Z"
+  box "69.3221 84.6368 265.9874 130.7258"
+  fly 265.9874
+  hoist 130.7258
+  evenodd
+  at fly=202.3157 hoist=149.9997
+}
+
+charge polygon white {
+  point fly=277.3675 hoist=101.4838
+  point fly=276.5119 hoist=140.0038
+  point fly=240.5747 hoist=149.7602
+  point fly=275.9985 hoist=162.3757
+  point fly=275.1428 hoist=197.6996
+  point fly=298.2451 hoist=170.1136
+  point fly=333.1549 hoist=182.2244
+  point fly=312.9619 hoist=152.6192
+  point fly=337.6044 hoist=123.1829
+  point fly=299.7853 hoist=133.6116
+}

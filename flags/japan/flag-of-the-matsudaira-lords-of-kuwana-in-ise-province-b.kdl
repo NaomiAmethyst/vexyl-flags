@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Matsudaira Lords of Kuwana in Ise Province (B)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Matsudaira_Lords_of_Kuwana_in_Ise_Province_(B).svg"
+}
+palette {
+  white "#ffffff"
+  pink "#bc002d"
+}
+proportion hoist=700 fly=900
+
+field white
+
+charge path pink {
+  d "M450 101.41C313.07 101.41 201.41 213.06 201.41 350S313.06 598.59 450 598.59S698.59 486.94 698.59 350S586.94 101.41 450 101.41ZM450 161.41C554.51 161.41 638.59 245.49 638.59 350S554.51 538.59 450 538.59S261.41 454.51 261.41 350S345.49 161.41 450 161.41Z"
+  box "201.41 101.41 497.18 497.18"
+  fly 497.18
+  hoist 497.18
+  evenodd
+  at fly=450 hoist=350
+}

@@ -1,0 +1,156 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of South Africa (1928-1994)"
+  encoder "Parliament of South Africa (Vector graphics image by Denelson83)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa_(1928%E2%80%931994,_dark_colors).svg"
+}
+palette {
+  orange "#ff8400"
+  white "#ffffff"
+  blue "#003884"
+  black "#000000"
+  red "#ce1126"
+  green "#007a4d"
+}
+proportion hoist=600 fly=900
+
+bars orange white blue
+
+charge rect black {
+  fly 100
+  hoist 66.666
+  at fly=365.666 hoist=300
+}
+
+charge polygon black {
+  point fly=315.666 hoist=266.667
+  point fly=315.666 hoist=333.333
+  point fly=415.666 hoist=333.333
+  point fly=415.666 hoist=266.667
+  hollow 2
+}
+
+charge rect black {
+  fly 66.667
+  hoist 100
+  at fly=449.9995 hoist=300
+}
+
+charge polygon black {
+  point fly=416.666 hoist=250
+  point fly=483.333 hoist=250
+  point fly=483.333 hoist=350
+  point fly=416.666 hoist=350
+  hollow 2
+}
+
+charge rect black {
+  fly 100
+  hoist 66.666
+  at fly=534.333 hoist=300
+}
+
+charge polygon black {
+  point fly=484.333 hoist=266.667
+  point fly=584.333 hoist=266.667
+  point fly=584.333 hoist=333.333
+  point fly=484.333 hoist=333.333
+  hollow 2
+}
+
+charge rect blue {
+  fly 100
+  hoist 66.666
+  at fly=365.666 hoist=300
+}
+
+charge svg {
+  at center
+  fly 900
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><defs><clipPath id="b"><path d="M22.5 15H0v15zm0 0v15H45zm0 0H45V0zm0 0V0H0z"></path></clipPath><clipPath id="a"><path d="M0 0v30h45V0z"></path></clipPath></defs><path d="M0 0l45 30m0-30L0 30" transform="matrix(2.22222 0 0 2.22222 315.666 266.667)" stroke-width="6" clip-path="url(#a)" stroke="#ffffff"/><path d="M0 0l45 30m0-30L0 30" transform="matrix(2.22222 0 0 2.22222 315.666 266.667)" stroke-width="4" clip-path="url(#b)" stroke="#ce1126"/></svg>
+"""#
+}
+
+charge rect white {
+  fly 22.222
+  hoist 66.666
+  at fly=365.666 hoist=300
+}
+
+charge rect white {
+  fly 100
+  hoist 22.222
+  at fly=365.666 hoist=300
+}
+
+charge rect red {
+  fly 13.333
+  hoist 66.666
+  at fly=365.666 hoist=300
+}
+
+charge rect red {
+  fly 100
+  hoist 13.333
+  at fly=365.666 hoist=300
+}
+
+charge rect white {
+  fly 66.667
+  hoist 100
+  at fly=449.9995 hoist=300
+}
+
+charge rect red {
+  fly 9.524
+  hoist 42.857
+  at fly=421.429 hoist=271.4285
+}
+
+charge rect blue {
+  fly 9.524
+  hoist 42.857
+  at fly=440.476 hoist=271.4285
+}
+
+charge rect orange {
+  fly 9.524
+  hoist 57.143
+  at fly=430.952 hoist=321.4285
+}
+
+charge rect orange {
+  fly 9.524
+  hoist 100
+  at fly=450 hoist=300
+  at fly=469.048 hoist=300
+}
+
+charge rect blue {
+  fly 100
+  hoist 66.666
+  at fly=534.333 hoist=300
+}
+
+charge rect white {
+  fly 100
+  hoist 44.444
+  at fly=534.333 hoist=288.889
+}
+
+charge rect red {
+  fly 100
+  hoist 22.222
+  at fly=534.333 hoist=277.778
+}
+
+charge rect green {
+  fly 26.667
+  hoist 66.666
+  at fly=497.6665 hoist=300
+}

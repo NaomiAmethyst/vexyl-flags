@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Provinz Pommern flag"
+  encoder "vectorization: JDavid"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Provinz_Pommern_flag.svg"
+}
+palette {
+  blue "#00b3ff"
+  white "#ffffff"
+}
+proportion hoist=400 fly=600
+
+bars blue white

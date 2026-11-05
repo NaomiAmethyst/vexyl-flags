@@ -1,0 +1,27 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Great Britain (1707-1800)"
+  encoder "Hoshie"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Great_Britain_(1707%E2%80%931800).svg"
+}
+palette {
+  blue "#012169"
+  white "#ffffff"
+  red "#c8102e"
+}
+proportion hoist=15 fly=25
+
+field blue
+
+saltire white {
+  width 3
+}
+
+cross red {
+  fly 11 3 11
+  hoist 6 3 6
+  fimbriate white 1
+}

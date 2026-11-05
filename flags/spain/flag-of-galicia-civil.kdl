@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Galicia (civil)"
+  encoder "IgnisFatuus"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Galicia_(civil).svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0099cc"
+}
+proportion hoist=400 fly=600
+
+field white
+
+band blue {
+  along bend
+  width 106
+}

@@ -1,0 +1,105 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Burundi (1967–1982)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Burundi_(1967%E2%80%931982).svg"
+}
+palette {
+  red "#c8102e"
+  green "#43b02a"
+  white "#ffffff"
+}
+proportion hoist=60 fly=90
+
+field red
+
+charge polygon green {
+  point fly=-4.5 hoist=-3
+  point fly=-4.5 hoist=63
+  point fly=94.5 hoist=-3
+  point fly=94.5 hoist=63
+}
+
+charge polygon white {
+  point fly=-4.5 hoist=-3
+  point fly=-4.5 hoist=63
+  point fly=94.5 hoist=-3
+  point fly=94.5 hoist=63
+  hollow 8
+}
+
+charge disc white {
+  radius 17
+  at fly=45 hoist=30
+}
+
+charge star red {
+  radius 3.6398
+  inner 2.1018
+  points 6
+  at fly=45 hoist=21.2
+}
+
+charge polygon green {
+  point fly=45 hoist=17.56
+  point fly=46.051 hoist=19.38
+  point fly=48.152 hoist=19.38
+  point fly=47.102 hoist=21.2
+  point fly=48.152 hoist=23.02
+  point fly=46.051 hoist=23.02
+  point fly=45 hoist=24.84
+  point fly=43.949 hoist=23.02
+  point fly=41.848 hoist=23.02
+  point fly=42.898 hoist=21.2
+  point fly=41.848 hoist=19.38
+  point fly=43.949 hoist=19.38
+  hollow 0.36
+}
+
+charge star red {
+  radius 3.6398
+  inner 2.1018
+  points 6
+  at fly=52.621 hoist=34.4
+}
+
+charge polygon green {
+  point fly=55.7734 hoist=36.22
+  point fly=53.6717 hoist=36.2202
+  point fly=52.6212 hoist=38.0397
+  point fly=51.57 hoist=36.2204
+  point fly=49.4689 hoist=36.2197
+  point fly=50.5194 hoist=34.4002
+  point fly=49.4687 hoist=32.58
+  point fly=51.5704 hoist=32.5798
+  point fly=52.6209 hoist=30.7603
+  point fly=53.672 hoist=32.5796
+  point fly=55.7732 hoist=32.5803
+  point fly=54.7227 hoist=34.3998
+  hollow 0.36
+}
+
+charge star red {
+  radius 3.6398
+  inner 2.1018
+  points 6
+  at fly=37.379 hoist=34.4
+}
+
+charge polygon green {
+  point fly=34.2266 hoist=36.22
+  point fly=35.2773 hoist=34.3998
+  point fly=34.2268 hoist=32.5803
+  point fly=36.328 hoist=32.5796
+  point fly=37.3791 hoist=30.7603
+  point fly=38.4296 hoist=32.5798
+  point fly=40.5313 hoist=32.58
+  point fly=39.4806 hoist=34.4002
+  point fly=40.5311 hoist=36.2197
+  point fly=38.43 hoist=36.2204
+  point fly=37.3788 hoist=38.0397
+  point fly=36.3283 hoist=36.2202
+  hollow 0.36
+}

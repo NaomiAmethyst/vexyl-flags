@@ -1,0 +1,46 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge Franken"
+  encoder "Thomas Reinel"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_Franken.svg"
+}
+palette {
+  red "#ff0000"
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=720 fly=1200
+
+bars red white
+
+charge path white {
+  d "M360 80L840 80L840 400A240 240 0 0 1 360 400Z"
+  box "120 80 720 560"
+  fly 720
+  hoist 560
+  at fly=480 hoist=360
+}
+
+charge polygon red {
+  point fly=360 hoist=80
+  point fly=360 hoist=430
+  point fly=440 hoist=250
+  point fly=520 hoist=430
+  point fly=600 hoist=250
+  point fly=680 hoist=430
+  point fly=760 hoist=250
+  point fly=840 hoist=430
+  point fly=840 hoist=80
+}
+
+charge path black {
+  d "M360 80L840 80L840 400A240 240 0 0 1 360 400Z"
+  box "120 80 720 560"
+  fly 720
+  hoist 560
+  hollow 8
+  at fly=480 hoist=360
+}

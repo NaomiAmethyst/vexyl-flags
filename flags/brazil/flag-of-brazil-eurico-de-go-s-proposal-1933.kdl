@@ -1,0 +1,258 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Brazil (Eurico de Goís' proposal, 1933)"
+  encoder "Eurico de Góis"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(Eurico_de_Go%C3%ADs%27_proposal,_1933).svg"
+}
+palette {
+  green "#009440"
+  yellow "#ffcb00"
+  red "#d8131a"
+  white "#ffffff"
+  blue "#302681"
+}
+proportion hoist=2940 fly=4200
+
+field green
+
+charge lozenge yellow {
+  fly 4200
+  hoist 2940
+  at fly=2100 hoist=1470
+}
+
+charge polygon red {
+  point fly=1915.7317 hoist=611.6636
+  point fly=1915.7317 hoist=1285.7221
+  point fly=1241.6732 hoist=1285.7221
+  point fly=1071.0033 hoist=1052.944
+  point fly=1071.0033 hoist=1887.0555
+  point fly=1241.6732 hoist=1654.2834
+  point fly=1915.7317 hoist=1654.2834
+  point fly=1915.7317 hoist=2328.3299
+  point fly=1682.9476 hoist=2498.9997
+  point fly=2517.0531 hoist=2498.9997
+  point fly=2288.345 hoist=2328.3299
+  point fly=2288.345 hoist=1654.2834
+  point fly=2958.3395 hoist=1654.2834
+  point fly=3128.9973 hoist=1887.0555
+  point fly=3128.9973 hoist=1052.944
+  point fly=2958.3395 hoist=1285.7221
+  point fly=2288.345 hoist=1285.7221
+  point fly=2288.345 hoist=611.6636
+  point fly=2517.0531 hoist=440.9997
+  point fly=1682.9476 hoist=440.9997
+}
+
+charge svg {
+  at center
+  fly 4200
+  hoist 2940
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4200 2940"><polygon points="10190.51,17079.99 10190.51,18201.21 9069.29,18201.21 8785.4,17814.01 8785.4,19201.46 9069.29,18814.27 10190.51,18814.27 10190.51,19935.47 9803.3,20219.36 11190.74,20219.36 10810.31,19935.47 10810.31,18814.27 11924.77,18814.27 12208.64,19201.46 12208.64,17814.01 11924.77,18201.21 10810.31,18201.21 10810.31,17079.99 11190.74,16796.11 9803.3,16796.11 " stroke-width="21.17" stroke-miterlimit="22.9256" fill-rule="evenodd" clip-rule="evenodd" stroke="none" fill="none" transform="matrix(0.601183 0 0 0.601183 -4210.630585 -9656.537583)"/></svg>
+"""#
+}
+
+charge polygon white {
+  point fly=1241.6732 hoist=1373.2303
+  point fly=1241.6732 hoist=1566.7632
+  point fly=2003.2399 hoist=1566.7632
+  point fly=2003.2399 hoist=2328.3299
+  point fly=2196.7547 hoist=2328.3299
+  point fly=2196.7547 hoist=1566.7632
+  point fly=2958.3395 hoist=1566.7632
+  point fly=2958.3395 hoist=1373.2303
+  point fly=2196.7547 hoist=1373.2303
+  point fly=2196.7547 hoist=611.6636
+  point fly=2003.2399 hoist=611.6636
+  point fly=2003.2399 hoist=1373.2303
+}
+
+charge disc blue {
+  radius 735
+  at fly=2099.9995 hoist=1472.5989
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  at fly=2099.5791 hoist=855.2185
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -17.1429
+  at fly=1918.3877 hoist=882.6556
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -34.2857
+  at fly=1753.3335 hoist=962.2808
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 20.5714
+  at fly=1619.082 hoist=1087.0191
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 3.4286
+  at fly=1527.5623 hoist=1245.7869
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -13.7143
+  at fly=1486.9061 hoist=1424.4771
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -30.8571
+  at fly=1500.726 hoist=1607.2121
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 24
+  at fly=1567.7941 hoist=1777.7553
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 6.8572
+  at fly=1682.1509 hoist=1920.953
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -10.2857
+  at fly=1833.6356 hoist=2024.0816
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -27.4286
+  at fly=2008.7878 hoist=2077.9776
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 27.4286
+  at fly=2192.0447 hoist=2077.8522
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 10.2857
+  at fly=2367.1229 hoist=2023.7164
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -6.8571
+  at fly=2518.4662 hoist=1920.3804
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -24
+  at fly=2632.6269 hoist=1777.0262
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 30.8572
+  at fly=2699.4613 hoist=1606.3914
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 13.7143
+  at fly=2713.031 hoist=1423.6376
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -3.4286
+  at fly=2672.1302 hoist=1245.0033
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate -20.5714
+  at fly=2580.3931 hoist=1086.3609
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 34.2857
+  at fly=2445.971 hoist=961.8066
+}
+
+charge star white {
+  radius 81.2596
+  inner 30.8787
+  rotate 17.1429
+  at fly=2280.8078 hoist=882.4074
+}
+
+charge star white {
+  radius 92.8681
+  inner 35.2899
+  rotate -17.7547
+  at fly=1813.3917 hoist=1553.776
+}
+
+charge star white {
+  radius 114.1146
+  inner 43.3635
+  rotate -16.9472
+  at fly=2032.3958 hoist=1155.1367
+}
+
+charge star white {
+  radius 92.8681
+  inner 35.2899
+  rotate -32.4062
+  at fly=2218.1082 hoist=1795.4738
+}
+
+charge star white {
+  radius 102.0418
+  inner 38.7759
+  rotate -17.2486
+  at fly=2398.9337 hoist=1373.1089
+}
+
+charge star white {
+  radius 68.6125
+  inner 26.0727
+  rotate -16.7555
+  at fly=2172.8015 hoist=1486.9329
+}

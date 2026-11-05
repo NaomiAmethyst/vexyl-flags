@@ -1,0 +1,25 @@
+vexyl 1
+meta {
+  name "Guinea-Bissau"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Guinea-Bissau.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  yellow "#fcd116"
+  green "#009e49"
+  red "#ce1126"
+  black "#000000"
+}
+proportion hoist=6 fly=12
+
+bars yellow green
+panel {
+  side hoist
+  width 4
+  field red
+  charge star black {
+    radius 1
+  }
+}

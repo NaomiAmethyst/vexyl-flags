@@ -1,0 +1,85 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Adygea"
+  encoder "Conscious"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Adygea.svg"
+}
+palette {
+  green "#296912"
+  yellow "#fdfc02"
+}
+proportion hoist=1966 fly=3932
+
+field green
+
+charge star yellow {
+  radius 102.2646
+  at fly=1966 hoist=590.269
+}
+
+charge polygon yellow {
+  point fly=1966 hoist=781
+  point fly=1998 hoist=963
+  point fly=1977 hoist=983
+  point fly=1977 hoist=1670
+  point fly=1999 hoist=1693
+  point fly=1999 hoist=1864
+  point fly=1966 hoist=1831
+  point fly=1933 hoist=1864
+  point fly=1933 hoist=1693
+  point fly=1955 hoist=1670
+  point fly=1955 hoist=983
+  point fly=1934 hoist=963
+}
+
+charge star yellow {
+  radius 102.2646
+  at fly=1966 hoist=198.269
+  at fly=2452 hoist=590.269
+  at fly=2452 hoist=276.269
+  at fly=2889 hoist=497.269
+  at fly=3237 hoist=845.269
+  at fly=3460 hoist=1283.269
+}
+
+charge polygon yellow {
+  point fly=2316.3192 hoist=908.5058
+  point fly=2223.8453 hoist=1068.4951
+  point fly=2194.9026 hoist=1070.3174
+  point fly=1753.3076 hoist=1596.59
+  point fly=1755.3764 hoist=1628.3503
+  point fly=1645.4597 hoist=1759.3439
+  point fly=1641.3923 hoist=1712.8524
+  point fly=1594.9008 hoist=1716.9199
+  point fly=1704.8175 hoist=1585.9263
+  point fly=1736.4546 hoist=1582.4486
+  point fly=2178.0497 hoist=1056.1761
+  point fly=2174.8185 hoist=1027.3567
+}
+
+charge star yellow {
+  radius 102.2646
+  at fly=1480 hoist=590.269
+  at fly=1480 hoist=276.269
+  at fly=1043 hoist=497.269
+  at fly=695 hoist=845.269
+  at fly=472 hoist=1283.269
+}
+
+charge polygon yellow {
+  point fly=1615.6808 hoist=908.5058
+  point fly=1708.1547 hoist=1068.4951
+  point fly=1737.0974 hoist=1070.3174
+  point fly=2178.6924 hoist=1596.59
+  point fly=2176.6236 hoist=1628.3503
+  point fly=2286.5403 hoist=1759.3439
+  point fly=2290.6077 hoist=1712.8524
+  point fly=2337.0992 hoist=1716.9199
+  point fly=2227.1825 hoist=1585.9263
+  point fly=2195.5454 hoist=1582.4486
+  point fly=1753.9503 hoist=1056.1761
+  point fly=1757.1815 hoist=1027.3567
+}

@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Grandduchy of Wurzburg"
+  encoder "Sir Iain"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grandduchy_of_Wurzburg.svg"
+}
+palette {
+  red "#d72424"
+  blue "#2c58da"
+  yellow "#ffff00"
+}
+proportion hoist=600 fly=900
+
+bars red blue yellow

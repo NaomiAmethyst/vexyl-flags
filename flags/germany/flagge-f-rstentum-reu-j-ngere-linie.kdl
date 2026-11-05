@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge Fürstentum Reuß jüngere Linie"
+  encoder "David Liuzzo Public domainPublic domainfalsefalse This image of simple geometry is ineligible for copyright and therefor"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_F%C3%BCrstentum_Reu%C3%9F_j%C3%BCngere_Linie.svg"
+}
+palette {
+  black "#000000"
+  red "#e2001a"
+  yellow "#fcc300"
+}
+proportion hoist=480 fly=600
+
+bars black red yellow {
+  along hoist
+}

@@ -1,0 +1,35 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Hatay"
+  encoder "A. Özgür Erdemli"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hatay.svg"
+}
+palette {
+  red "#e30a17"
+  white "#ffffff"
+}
+proportion hoist=80 fly=120
+
+field red
+
+charge disc white {
+  radius 20
+  at fly=40 hoist=40
+}
+
+charge disc red {
+  radius 16
+  at fly=45 hoist=40
+}
+
+charge svg {
+  at center
+  fly 120
+  hoist 80
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80"><polygon points="0,0 0,1 .5,1" transform="matrix(3.09017 9.510565 -9.510565 3.09017 74.99017 34.122147)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(-8.09017 -5.877853 -5.877853 8.09017 74.99017 34.122147)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(-8.09017 5.877853 -5.877853 -8.09017 74.99017 45.877853)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(3.09017 -9.510565 -9.510565 -3.09017 74.99017 45.877853)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(10 0 0 10 63.80983 30.489435)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(-8.09017 5.877853 5.877853 8.09017 63.80983 30.489435)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(-8.09017 -5.877853 5.877853 -8.09017 63.80983 49.510565)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(10 -0 -0 -10 63.80983 49.510565)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(3.09017 -9.510565 9.510565 3.09017 56.9 40)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(3.09017 9.510565 9.510565 -3.09017 56.9 40)" fill="#ffffff"/><polygon points="0,0 0,1 .5,1" transform="matrix(2.163119 6.657396 -6.657396 2.163119 72.563119 35.885503)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(-5.663119 -4.114497 -4.114497 5.663119 72.563119 35.885503)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(-5.663119 4.114497 -4.114497 -5.663119 72.563119 44.114497)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(2.163119 -6.657396 -6.657396 -2.163119 72.563119 44.114497)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(7 0 -0 7 64.736881 33.342604)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(-5.663119 4.114497 4.114497 5.663119 64.736881 33.342604)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(-5.663119 -4.114497 4.114497 -5.663119 64.736881 46.657396)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(7 -0 -0 -7 64.736881 46.657396)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(2.163119 -6.657396 6.657396 2.163119 59.9 40)" fill="#e30a17"/><polygon points="0,0 0,1 .5,1" transform="matrix(2.163119 6.657396 6.657396 -2.163119 59.9 40)" fill="#e30a17"/></svg>
+"""#
+}

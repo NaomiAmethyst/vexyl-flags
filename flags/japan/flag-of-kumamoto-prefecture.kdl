@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Kumamoto Prefecture"
+  encoder "Kzaral, Xeror"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kumamoto_Prefecture.svg"
+}
+palette {
+  red "#931d23"
+  white "#ffffff"
+}
+proportion hoist=150 fly=225
+
+field red
+
+charge path white {
+  d "M40.5 25L112.5 25A50 50 0 1 1 66.6742 95A30 30 0 0 0 121.6652 71A30 30 0 0 0 66.6742 95L22.5 95Z"
+  box "16.6742 25 134.9909 120"
+  fly 134.9909
+  hoist 120
+  at fly=84.1697 hoist=85
+}

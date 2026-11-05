@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ethiopia (1991-1996)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia_(1991%E2%80%931996).svg"
+}
+palette {
+  green "#078930"
+  yellow "#fcdd09"
+  red "#da121a"
+}
+proportion hoist=450 fly=900
+
+bars green yellow red

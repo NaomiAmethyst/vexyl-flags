@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Municipal Flag of Bandung, Indonesia"
+  encoder "Himasaram"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Municipal_Flag_of_Bandung,_Indonesia.svg"
+}
+palette {
+  green "#51a54a"
+  yellow "#faeb1f"
+  blue "#00abeb"
+}
+proportion hoist=1000 fly=1400
+
+bars green yellow blue {
+  ratio 2 1 2
+}

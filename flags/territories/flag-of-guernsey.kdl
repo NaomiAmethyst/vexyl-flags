@@ -1,0 +1,55 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Guernsey"
+  encoder "User:Nightstallion"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Guernsey.svg"
+}
+palette {
+  white "#ffffff"
+  red "#e8112d"
+  yellow "#f9dd16"
+}
+proportion hoist=24 fly=36
+
+field white
+
+charge polygon red {
+  point fly=21 hoist=0
+  point fly=21 hoist=9
+  point fly=36 hoist=9
+  point fly=36 hoist=15
+  point fly=21 hoist=15
+  point fly=21 hoist=24
+  point fly=15 hoist=24
+  point fly=15 hoist=15
+  point fly=0 hoist=15
+  point fly=0 hoist=9
+  point fly=15 hoist=9
+  point fly=15 hoist=0
+}
+
+charge polygon yellow {
+  point fly=9 hoist=14
+  point fly=10 hoist=13
+  point fly=17 hoist=13
+  point fly=17 hoist=20
+  point fly=16 hoist=21
+  point fly=20 hoist=21
+  point fly=19 hoist=20
+  point fly=19 hoist=13
+  point fly=26 hoist=13
+  point fly=27 hoist=14
+  point fly=27 hoist=10
+  point fly=26 hoist=11
+  point fly=19 hoist=11
+  point fly=19 hoist=4
+  point fly=20 hoist=3
+  point fly=16 hoist=3
+  point fly=17 hoist=4
+  point fly=17 hoist=11
+  point fly=10 hoist=11
+  point fly=9 hoist=10
+}

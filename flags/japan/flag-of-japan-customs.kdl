@@ -1,0 +1,27 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Japan Customs"
+  encoder "Kzaral"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_Customs.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#000080"
+  pink "#bc002d"
+}
+proportion hoist=600 fly=900
+
+field white
+
+pile blue {
+  from fly
+  tip 600 900
+}
+
+charge disc pink {
+  radius 200
+  at fly=450 hoist=300
+}

@@ -1,0 +1,77 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "First flag of the Mexican Empire"
+  encoder "TownDown"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:First_flag_of_the_Mexican_Empire.svg"
+}
+palette {
+  red "#ce1126"
+  white "#ffffff"
+  green "#006847"
+  yellow "#d4aa00"
+  yellow-2 "#ffe680"
+}
+proportion hoist=600 fly=900
+
+pile red {
+  from fly
+  tip 600 900
+}
+
+pile white {
+  tip 0 900
+}
+
+charge polygon green {
+  point fly=0 hoist=600
+  point fly=322.5 hoist=600
+  point fly=900 hoist=187.5
+  point fly=900 hoist=0
+  point fly=577.5 hoist=0
+  point fly=0 hoist=412.5
+}
+
+charge star yellow {
+  radius 61.5
+  inner 23.493
+  points 8
+  at fly=450 hoist=300
+}
+
+charge star yellow-2 {
+  radius 52.9947
+  inner 20.244
+  points 8
+  at fly=450 hoist=300
+}
+
+charge star yellow {
+  radius 61.5
+  inner 23.493
+  points 8
+  at fly=808.5 hoist=523.5
+}
+
+charge star yellow-2 {
+  radius 52.9947
+  inner 20.244
+  points 8
+  at fly=808.5 hoist=523.5
+}
+
+charge star yellow {
+  radius 61.5
+  inner 23.493
+  points 8
+  at fly=91.5 hoist=76.5
+}
+
+charge star yellow-2 {
+  radius 52.9947
+  inner 20.244
+  points 8
+  at fly=91.5 hoist=76.5
+}

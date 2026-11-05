@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Bavaria (striped)"
+  encoder "Digitized by User:Boris23,"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bavaria_(striped).svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0098d4"
+}
+proportion hoist=6 fly=10
+
+bars white blue

@@ -1,0 +1,58 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Grand Bassa County"
+  encoder "Original: Presidentially-appointed Grand Bassa County flag committee Vector: Fry1989"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Grand_Bassa_County.svg"
+}
+palette {
+  blue "#002868"
+  pink "#bf0a30"
+  white "#ffffff"
+}
+proportion hoist=110 fly=183.3333
+
+field blue
+
+canton {
+  fly 45.8333
+  hoist 27.5
+  field pink
+  charge rect white {
+    fly 45.8333
+    hoist 2.5
+    at fly=22.9167 hoist=3.75
+    repeat line count=5 hoist=5
+  }
+}
+
+canton {
+  fly 12.5
+  hoist 12.5
+  field blue
+}
+
+charge svg {
+  at center
+  fly 183.3333
+  hoist 110
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.3333 110"><polygon points="0 0 0 1 0.5 1" transform="matrix(3.566462 1.158814 -1.158814 3.566462 6.25 2.5)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(-3.566462 1.158814 1.158814 3.566462 6.25 2.5)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(0 3.75 -3.75 0 9.816462 5.091186)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(-2.204195 -3.033814 -3.033814 2.204195 9.816462 5.091186)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(2.204195 -3.033814 3.033814 2.204195 2.683538 5.091186)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(-0 3.75 3.75 0 2.683538 5.091186)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(-3.566462 1.158814 -1.158814 -3.566462 8.454195 9.283814)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(2.204195 -3.033814 -3.033814 -2.204195 8.454195 9.283814)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(-2.204195 -3.033814 3.033814 -2.204195 4.045805 9.283814)" fill="#ffffff"/><polygon points="0.5 1 0 0 0 1" transform="matrix(3.566462 1.158814 1.158814 -3.566462 4.045805 9.283814)" fill="#ffffff"/></svg>
+"""#
+}
+
+charge rect white {
+  fly 91.6667
+  hoist 9.1667
+  at fly=137.5 hoist=68.75
+  at fly=137.5 hoist=87.0833
+}
+
+charge rect pink {
+  fly 91.6667
+  hoist 9.1667
+  at fly=137.5 hoist=77.9167
+  at fly=137.5 hoist=59.5833
+}

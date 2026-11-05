@@ -1,0 +1,18 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the county of Dülmen"
+  encoder "Sir Iain"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_county_of_D%C3%BClmen.svg"
+}
+palette {
+  white "#ffffff"
+  red "#ff0000"
+}
+proportion hoist=600 fly=900
+
+bars white red white red white red white {
+  ratio 9 10 6 10 6 10 9
+}

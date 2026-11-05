@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Khabarovsk Krai"
+  encoder "Fibonacci"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Khabarovsk_Krai.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0099ff"
+  green "#008000"
+}
+proportion hoist=600 fly=900
+
+bars white blue
+
+chevrons green {
+  depth 300
+}

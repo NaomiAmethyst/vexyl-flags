@@ -1,0 +1,34 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Zulu flag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Zulu_flag.svg"
+}
+palette {
+  yellow "#ffff00"
+  black "#000000"
+  blue "#003399"
+  red "#ff0000"
+}
+proportion hoist=600 fly=900
+
+pile yellow {
+  from top
+  depth 300
+}
+
+chevrons black {
+  depth 450
+}
+
+pile blue {
+  from fly
+  depth 450
+}
+
+pile red {
+  from bottom
+  depth 300
+}

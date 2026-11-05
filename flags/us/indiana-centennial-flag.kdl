@@ -1,0 +1,114 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Indiana Centennial Flag"
+  encoder "William Chauncy Langdon Digital file made entirely by me."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Indiana_Centennial_Flag.svg"
+}
+palette {
+  green "#009246"
+  blue "#000f5d"
+  orange "#ffb900"
+}
+proportion hoist=288 fly=432
+
+bars green blue green {
+  along hoist
+  ratio 111.2126 209.5748 111.2126
+}
+
+charge star orange {
+  radius 12.5008
+  rotate -0.0468
+  at fly=216.0038 hoist=78.2387
+}
+
+charge star orange {
+  radius 12.4878
+  rotate 28.0925
+  at fly=246.5753 hoist=85.7342
+}
+
+charge star orange {
+  radius 12.4805
+  rotate -28.1445
+  at fly=185.439 hoist=85.7342
+}
+
+charge star orange {
+  radius 12.4796
+  rotate -15.7578
+  at fly=270.0588 hoist=106.7745
+}
+
+charge star orange {
+  radius 12.4796
+  rotate 15.7578
+  at fly=161.9422 hoist=106.7745
+}
+
+charge star orange {
+  radius 12.4989
+  rotate 12.4343
+  at fly=281.3503 hoist=136.0063
+}
+
+charge star orange {
+  radius 12.4989
+  rotate -12.4342
+  at fly=150.6497 hoist=136.0063
+}
+
+charge star orange {
+  radius 12.4945
+  rotate -31.1981
+  at fly=277.4801 hoist=167.5418
+}
+
+charge star orange {
+  radius 12.4945
+  rotate 31.1981
+  at fly=154.5213 hoist=167.5418
+}
+
+charge star orange {
+  radius 12.4843
+  rotate -3.0415
+  at fly=259.5443 hoist=193.3418
+}
+
+charge star orange {
+  radius 12.4843
+  rotate 3.0416
+  at fly=172.4571 hoist=193.3418
+}
+
+charge star orange {
+  radius 12.475
+  rotate 25.1842
+  at fly=231.6453 hoist=207.7846
+}
+
+charge star orange {
+  radius 12.475
+  rotate -25.1842
+  at fly=200.3539 hoist=207.7846
+}
+
+charge star orange {
+  radius 12.5008
+  rotate -0.0468
+  at fly=131.9067 hoist=20.4828
+  at fly=300.0956 hoist=20.4828
+  at fly=131.9067 hoist=269.9001
+  at fly=300.0956 hoist=269.9001
+  at fly=216 hoist=269.9001
+}
+
+charge star orange {
+  radius 22.0745
+  rotate 0.0032
+  at fly=216 hoist=146.1081
+}

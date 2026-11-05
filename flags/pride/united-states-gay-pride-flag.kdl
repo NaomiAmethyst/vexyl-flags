@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "United States Gay Pride flag"
+  encoder "Sarang"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:United_States_Gay_Pride_flag.svg"
+}
+palette {
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  pink "#750787"
+  blue-2 "#282d73"
+}
+proportion hoist=708 fly=1234
+
+bars red orange yellow green blue pink
+
+canton {
+  fly 494
+  hoist 354
+  field blue-2
+}
+
+charge svg {
+  at center
+  fly 1234
+  hoist 708
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1234 708"><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 82 0)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 164 0)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 246 0)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 328 0)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 410 0)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 41 35)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 123 35)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 205 35)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 287 35)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 369 35)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 0 70)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 82 70)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 164 70)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 246 70)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 328 70)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 410 70)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 41 105)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 123 105)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 205 105)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 287 105)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 369 105)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 0 140)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 82 140)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 164 140)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 246 140)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 328 140)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 410 140)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 41 175)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 123 175)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 205 175)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 287 175)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 369 175)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 0 210)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 82 210)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 164 210)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 246 210)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 328 210)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 410 210)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 41 245)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 123 245)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 205 245)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 287 245)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 369 245)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 0 280)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 82 280)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 164 280)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 246 280)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 328 280)"/><path d="M23.3,28.6h37.8l-31,22 12-36 12,36z" fill="#ffffff" transform="matrix(1 0 0 1 410 280)"/></svg>
+"""#
+}

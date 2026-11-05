@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge des Landesteils Mecklenburg"
+  encoder "Staatskanzlei Mecklenburg-Vorpommerns"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_des_Landesteils_Mecklenburg.svg"
+}
+palette {
+  blue "#234e9b"
+  yellow "#f7f300"
+  red "#db0021"
+}
+proportion hoist=300 fly=500
+
+bars blue yellow red

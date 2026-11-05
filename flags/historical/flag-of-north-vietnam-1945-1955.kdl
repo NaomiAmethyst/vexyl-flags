@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of North Vietnam (1945-1955)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_North_Vietnam_(1945%E2%80%931955).svg"
+}
+palette {
+  red "#da251d"
+  yellow "#ffff00"
+}
+proportion hoist=600 fly=900
+
+field red
+
+charge star yellow {
+  radius 179.9998
+  inner 89.9999
+  at fly=450 hoist=299.9998
+}

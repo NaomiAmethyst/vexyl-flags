@@ -1,0 +1,22 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "South African Burgers Flag"
+  encoder "SiBr4"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:South_African_Burgers_Flag.svg"
+}
+palette {
+  blue "#002395"
+  white "#ffffff"
+  red "#de3831"
+}
+proportion hoist=400 fly=600
+
+field blue
+
+saltire red {
+  width 80
+  fimbriate white 13.3333
+}

@@ -1,0 +1,108 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Brazil Ambassador Flag"
+  encoder "Jack Ryan Morris"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Brazil_Ambassador_Flag.svg"
+}
+palette {
+  yellow "#ffcb00"
+  blue "#302681"
+  red "#ff0000"
+}
+proportion hoist=400 fly=600
+
+field yellow
+
+charge star blue {
+  radius 15.7719
+  inner 6.3088
+  at fly=300 hoist=201.5061
+  at fly=571.7708 hoist=374.011
+}
+
+charge polygon red {
+  point fly=300 hoist=200
+  point fly=354.3542 hoist=234.501
+  point fly=408.7083 hoist=269.0019
+  point fly=463.0624 hoist=303.5029
+  point fly=517.4166 hoist=338.0039
+  point fly=571.7707 hoist=372.5049
+}
+
+charge star blue {
+  radius 15.703
+  inner 6.2812
+  at fly=517.4166 hoist=339.5034
+  repeat line count=4 fly=-54.3542 hoist=-34.501
+}
+
+charge star blue {
+  radius 15.7719
+  inner 6.3088
+  at fly=28.2293 hoist=29.0012
+  at fly=300 hoist=201.5061
+}
+
+charge polygon red {
+  point fly=28.2293 hoist=27.4951
+  point fly=82.5834 hoist=61.9961
+  point fly=136.9376 hoist=96.497
+  point fly=191.2917 hoist=130.998
+  point fly=245.6458 hoist=165.499
+  point fly=300 hoist=200
+}
+
+charge star blue {
+  radius 15.703
+  inner 6.2812
+  at fly=245.6458 hoist=166.9985
+  repeat line count=4 fly=-54.3541 hoist=-34.501
+}
+
+charge star blue {
+  radius 15.7719
+  inner 6.3088
+  at fly=300 hoist=201.5061
+  at fly=28.2293 hoist=374.011
+}
+
+charge polygon red {
+  point fly=300 hoist=200
+  point fly=245.6459 hoist=234.501
+  point fly=191.2917 hoist=269.0019
+  point fly=136.9376 hoist=303.5029
+  point fly=82.5834 hoist=338.0039
+  point fly=28.2293 hoist=372.5049
+}
+
+charge star blue {
+  radius 15.703
+  inner 6.2812
+  at fly=82.5834 hoist=339.5034
+  repeat line count=4 fly=54.3541 hoist=-34.501
+}
+
+charge star blue {
+  radius 15.7719
+  inner 6.3088
+  at fly=571.7707 hoist=29.0012
+}
+
+charge polygon red {
+  point fly=571.7708 hoist=27.4951
+  point fly=517.4166 hoist=61.9961
+  point fly=463.0625 hoist=96.497
+  point fly=408.7083 hoist=130.998
+  point fly=354.3542 hoist=165.499
+  point fly=300 hoist=200
+}
+
+charge star blue {
+  radius 15.703
+  inner 6.2812
+  at fly=354.3542 hoist=166.9985
+  repeat line count=4 fly=54.3541 hoist=-34.501
+}

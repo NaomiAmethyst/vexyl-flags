@@ -1,0 +1,40 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Romani people"
+  encoder "AdiJapan"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Romani_people.svg"
+}
+palette {
+  blue "#0080ff"
+  green "#008000"
+  red "#f80000"
+}
+proportion hoist=600 fly=900
+
+charge disc blue {
+  radius 999
+  at fly=450 hoist=300
+}
+
+panel {
+  side bottom
+  width 300
+  field green
+}
+
+charge disc red {
+  radius 200
+  at fly=450 hoist=300
+}
+
+charge svg {
+  at center
+  fly 900
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.19509 0.980785 -0.980785 -0.19509 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.55557 0.83147 -0.83147 -0.55557 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.83147 0.55557 -0.55557 -0.83147 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.83147 0.55557 -0.55557 -0.83147 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.980785 0.19509 -0.19509 -0.980785 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.980785 -0.19509 0.19509 -0.980785 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.83147 -0.55557 0.55557 -0.83147 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.55557 -0.83147 0.83147 -0.55557 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(-0.19509 -0.980785 0.980785 -0.19509 450 300)" fill="#008000"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.19509 -0.980785 0.980785 0.19509 450 300)" fill="#0080ff"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.55557 -0.83147 0.83147 0.55557 450 300)" fill="#0080ff"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.83147 -0.55557 0.55557 0.83147 450 300)" fill="#0080ff"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.83147 -0.55557 0.55557 0.83147 450 300)" fill="#0080ff"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.980785 -0.19509 0.19509 0.980785 450 300)" fill="#0080ff"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.980785 0.19509 -0.19509 0.980785 450 300)" fill="#0080ff"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.83147 0.55557 -0.55557 0.83147 450 300)" fill="#0080ff"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.55557 0.83147 -0.83147 0.55557 450 300)" fill="#0080ff"/><path d="M20-154.4a20.6,20.6 0 1 0-40,0l12.8,99a7.5,7.5 0 0 0 14.4,0" transform="matrix(0.19509 0.980785 -0.980785 0.19509 450 300)" fill="#0080ff"/></svg>
+"""#
+}

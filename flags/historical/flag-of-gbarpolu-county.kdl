@@ -1,0 +1,118 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Gbarpolu County"
+  encoder "Fry1989"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Gbarpolu_County.svg"
+}
+palette {
+  yellow "#fcbe04"
+  red "#b73524"
+  green "#1b611f"
+  pink "#bf0a30"
+  white "#ffffff"
+  blue "#002868"
+  black "#000000"
+}
+proportion hoist=440 fly=733.3333
+
+field yellow
+
+charge path red {
+  d "M618.5244 401.3254L619.4161 382.675L615.7657 374.9824L611.0863 367.2897L609.5726 360.6394C579.2828 308.6275 604.2254 315.9599 621.3769 309.5124C652.6459 297.7579 670.1846 315.9103 647.7941 364.0924L645.3664 368.9432L640.4278 373.7667L637.828 381.0225L638.3326 399.8796L638.8372 418.7368L628.235 419.3563L617.6328 419.9758L618.5245 401.3254ZM631.0634 366.9411L637.48 366.0244L639.8849 363.213C641.005 361.6237 641.4459 359.9672 641.5436 358.0957C635.127 353.5124 618.4577 337.8154 615.7077 337.8154L614.9603 353.4936C616.3236 357.4618 615.8769 358.0957 616.7649 360.5866L618.0729 363.995C618.7922 365.8696 620.1128 367.4034 621.0075 367.4034C621.9022 367.4034 623.8693 367.6348 624.9113 367.0072C617.9467 364.7484 620.0527 353.5136 627.3111 353.6052C634.0965 353.6909 637.5078 362.4622 631.0634 366.9411Z"
+  box "579.2828 297.7579 90.9018 122.2178"
+  fly 90.9018
+  hoist 122.2178
+  at fly=624.7337 hoist=358.8669
+}
+
+charge path green {
+  d "M592.742 369.5505L588.5515 367.8015L584.172 368.7932L579.7925 369.7849L576.7878 364.9275C575.1353 362.2559 572.0191 354.6962 569.863 348.1282L565.9428 336.1863L567.2576 325.0806L568.5725 313.9749L572.1529 311.3558C574.1222 309.9153 577.2957 308.7368 579.2052 308.7368L582.677 308.7368L586.6619 299.8942L590.6468 291.0516L596.1094 285.4614C599.1139 282.3867 603.7056 278.7293 606.3132 277.3338L611.0543 274.7965L629.6475 275.9719L648.2407 277.1473L652.4437 279.3967L656.6468 281.6461L656.6468 285.5868L656.6468 289.5275L665.2974 296.379L673.9481 303.2305L677.0609 310.6979C678.773 314.805 681.814 320.5225 683.8189 323.4034L687.464 328.6415L688.7308 338.2554L689.9976 347.8693L685.2299 354.8274L680.4621 361.7854L671.8934 364.3155L663.3247 366.8455L660.5269 365.1164L657.7292 363.3873L652.9975 364.5749L648.2658 365.7625L648.2658 362.2884C648.2658 360.3777 649.6766 356.0861 651.401 352.7516L654.5362 346.6889L652.3906 345.3628L650.245 344.0368C647.1273 348.5919 644.3309 353.3369 641.5436 358.0957L633.148 353.4987C630.1622 351.8639 623.8947 351.8984 620.8436 352.9601L615.4214 354.8468C613.8281 351.3498 612.2347 347.8528 610.6414 344.3558L608.2598 344.3558L605.8782 344.3558L608.7966 355.7349L610.686 363.9334L604.5362 369.354C602.5776 371.0803 599.5817 371.5276 598.6416 371.4466C597.7016 371.3657 595.0468 370.5124 592.742 369.5505Z"
+  box "565.9428 274.7965 124.0548 96.7312"
+  fly 124.0548
+  hoist 96.7312
+  at fly=627.9702 hoist=323.162
+}
+
+canton {
+  fly 183.3333
+  hoist 110
+  field pink
+  charge rect white {
+    fly 183.3333
+    hoist 10
+    at fly=91.6667 hoist=15
+    repeat line count=5 hoist=20
+  }
+}
+
+canton {
+  fly 50
+  hoist 50
+  field blue
+}
+
+charge svg {
+  at center
+  fly 733.3333
+  hoist 440
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 733.3333 440"><polygon points="0,1 0.5,1 0,0 " transform="matrix(14.265848 4.635255 -4.635255 14.265848 24.999993 10)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(-14.265848 4.635255 4.635255 14.265848 24.999993 10)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(0 15 -15 0 39.265841 20.364745)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(-8.816779 -12.135255 -12.135255 8.816779 39.265841 20.364745)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(8.816779 -12.135255 12.135255 8.816779 10.734145 20.364745)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(0 15 15 0 10.734145 20.364745)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(-14.265848 4.635255 -4.635255 -14.265848 33.816772 37.135255)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(8.816779 -12.135255 -12.135255 -8.816779 33.816772 37.135255)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(-8.816779 -12.135255 12.135255 -8.816779 16.183214 37.135255)" stroke="none" fill="#ffffff"/><polygon points="0,0 0,1 0.5,1 " transform="matrix(14.265848 4.635255 4.635255 -14.265848 16.183214 37.135255)" stroke="none" fill="#ffffff"/><path d="m 366.66666,304.33333 -69.66667,-88 34.83334,-31.16667 34.83333,0 z" fill-opacity="1" stroke-width="1.83333337" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#fcfdfa" transform="matrix(1 0 0 1 0 0)"/><path d="m 366.66666,304.33333 -34.83332,-88 17.41666,-31.16667 17.41666,0 z" fill-opacity="1" stroke-width="1.83333337" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#fcfdfa" transform="matrix(1 0 0 1 0 0)"/><path d="m 366.66666,304.33333 -69.66667,-88 34.83334,-31.16667 34.83333,0 z" fill-opacity="1" stroke-width="1.83333337" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#fcfdfa" transform="matrix(-1 0 0 1 733.33332 0.000007)"/><path d="m 366.66666,304.33333 -34.83332,-88 17.41666,-31.16667 17.41666,0 z" fill-opacity="1" stroke-width="1.83333337" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke="#000000" fill="#fcfdfa" transform="matrix(-1 0 0 1 733.33332 0.000007)"/></svg>
+"""#
+}
+
+charge rect black {
+  fly 139.3333
+  hoist 1.8333
+  at fly=366.6667 hoist=216.3333
+}
+
+charge rect black {
+  fly 1.8333
+  hoist 14.6667
+  at fly=366.6667 hoist=168.6667
+}
+
+charge polygon black {
+  point fly=339.1354 hoist=176.6794
+  point fly=335.3394 hoist=162.5125
+  point fly=333.5685 hoist=162.987
+  point fly=337.3646 hoist=177.1539
+}
+
+charge polygon black {
+  point fly=317.0438 hoist=181.9583
+  point fly=309.7105 hoist=169.2566
+  point fly=308.1228 hoist=170.1733
+  point fly=315.4561 hoist=182.875
+}
+
+charge polygon black {
+  point fly=295.8148 hoist=197.3518
+  point fly=285.4439 hoist=186.9809
+  point fly=284.1476 hoist=188.2773
+  point fly=294.5185 hoist=198.6482
+}
+
+charge polygon black {
+  point fly=395.9687 hoist=177.1539
+  point fly=399.7648 hoist=162.987
+  point fly=397.9939 hoist=162.5125
+  point fly=394.1979 hoist=176.6794
+}
+
+charge polygon black {
+  point fly=417.8772 hoist=182.875
+  point fly=425.2105 hoist=170.1733
+  point fly=423.6228 hoist=169.2566
+  point fly=416.2895 hoist=181.9583
+}
+
+charge polygon black {
+  point fly=438.8148 hoist=198.6482
+  point fly=449.1857 hoist=188.2773
+  point fly=447.8894 hoist=186.9809
+  point fly=437.5185 hoist=197.3518
+}

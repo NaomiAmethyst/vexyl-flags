@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Independent State of Okinawa"
+  encoder "Washiucho"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Okinawa_Civilian_Administration.svg"
+}
+palette {
+  blue "#003184"
+  white "#ffffff"
+  red "#ce1021"
+}
+proportion hoist=600 fly=900
+
+bars blue white red
+
+charge polygon white {
+  point fly=112 hoist=19
+  point fly=164 hoist=178
+  point fly=28 hoist=80
+  point fly=196 hoist=80
+  point fly=60 hoist=178
+}

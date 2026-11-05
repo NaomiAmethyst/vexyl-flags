@@ -1,0 +1,18 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "First Flag of the Kingdom of Murcia"
+  encoder "Germenfer"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:First_Flag_of_the_Kingdom_of_Murcia.svg"
+}
+palette {
+  yellow "#ffcc03"
+  red "#e52320"
+}
+proportion hoist=1600 fly=2400
+
+bars yellow red yellow red yellow {
+  ratio 312.0455 330 315.909 330 312.0455
+}

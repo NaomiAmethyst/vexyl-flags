@@ -1,0 +1,27 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Japanese Resident General of Korea (1905–1910)"
+  encoder "Himasaram"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Japanese_Resident_General_of_Korea_(1905%E2%80%931910).svg"
+}
+palette {
+  blue "#002984"
+  white "#ffffff"
+  red "#b0313f"
+}
+proportion hoist=532 fly=798
+
+field blue
+
+canton {
+  fly 399
+  hoist 266
+  field white
+  charge disc red {
+    radius 79.8
+    at fly=199.5 hoist=133
+  }
+}

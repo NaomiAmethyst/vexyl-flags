@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Papa"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Papa.svg"
+}
+palette {
+  blue "#0000ff"
+  white "#ffffff"
+}
+proportion hoist=3 fly=3
+
+field blue
+
+charge rect white {
+  fly 1
+  hoist 1
+  at fly=1.5 hoist=1.5
+}

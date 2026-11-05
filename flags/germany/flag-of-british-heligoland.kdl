@@ -1,0 +1,71 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of British Heligoland"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_British_Heligoland.svg"
+}
+palette {
+  green "#078930"
+  red "#da121a"
+  white "#ffffff"
+  blue "#012169"
+  red-2 "#c8102e"
+}
+proportion hoist=600 fly=1200
+
+bars green red white
+
+canton {
+  fly 600
+  hoist 300
+  field blue
+}
+
+charge polygon white {
+  point fly=-13.4164 hoist=26.8328
+  point fly=586.5836 hoist=326.8328
+  point fly=613.4164 hoist=273.1672
+  point fly=13.4164 hoist=-26.8328
+}
+
+charge polygon white {
+  point fly=586.5836 hoist=-26.8328
+  point fly=-13.4164 hoist=273.1672
+  point fly=13.4164 hoist=326.8328
+  point fly=613.4164 hoist=26.8328
+}
+
+charge svg {
+  at center
+  fly 1200
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><clipPath id="patrick"><path d="M 300,150 h 300 v 150 z v 150 H 0 z H 0 V 0 z V 0 h 300 z"></path></clipPath></defs><path d="M 0,0 L 600,300 M 600,0 L 0,300" stroke-width="40" clip-path="url(#patrick)" stroke="#c8102e" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge rect white {
+  fly 100
+  hoist 300
+  at fly=300 hoist=150
+}
+
+charge rect white {
+  fly 600
+  hoist 100
+  at fly=300 hoist=150
+}
+
+charge rect red-2 {
+  fly 60
+  hoist 300
+  at fly=300 hoist=150
+}
+
+charge rect red-2 {
+  fly 600
+  hoist 60
+  at fly=300 hoist=150
+}

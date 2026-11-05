@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of China (1912–1928)"
+  encoder "Original: en:Provisional Government of the Republic of China (1912) Vector: Kibinsky"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1912%E2%80%931928).svg"
+}
+palette {
+  red "#de2119"
+  yellow "#ffc500"
+  blue "#08639c"
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=600 fly=960
+
+bars red yellow blue white black

@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Azerbaijan Soviet Socialist Republic (1920)"
+  encoder "Germenfer"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Azerbaijan_Soviet_Socialist_Republic_(1920).svg"
+}
+palette {
+  red "#cd000f"
+  white "#ffffff"
+}
+proportion hoist=1200 fly=2400
+
+field red
+
+charge path white {
+  d "M479.9091 62.2727C415.8259 62.2727 356.4453 79.9414 307.7044 110.0219C313.8444 109.7171 320.032 109.5454 326.2727 109.5454C482.4187 109.5454 609 206.4147 609 325.9091C609 445.4035 482.4187 542.2727 326.2727 542.2727C320.032 542.2727 313.8445 542.101 307.7044 541.7963C356.4453 571.8763 415.8259 589.5454 479.9091 589.5454C645.5945 589.5454 779.9091 471.5114 779.9091 325.9091C779.9091 180.3068 645.5945 62.2727 479.9091 62.2727Z"
+  box "307.7044 62.2727 472.2047 527.2727"
+  fly 472.2047
+  hoist 527.2727
+  at fly=543.8067 hoist=325.909
+}
+
+charge polygon white {
+  point fly=207.178 hoist=284.509
+  point fly=257.454 hoist=235.909
+  point fly=264.489 hoist=300.322
+  point fly=334.454 hoist=325.909
+  point fly=264.489 hoist=351.496
+  point fly=257.454 hoist=415.909
+  point fly=207.178 hoist=367.309
+  point fly=132.865 hoist=381.532
+  point fly=171.758 hoist=325.909
+  point fly=132.865 hoist=270.286
+}

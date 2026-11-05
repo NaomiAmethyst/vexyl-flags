@@ -1,0 +1,101 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Mari El (2006–2011)"
+  encoder "User:Urmas"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mari_El_(2006%E2%80%932011).svg"
+}
+palette {
+  blue "#0075bc"
+  white "#ffffff"
+  red "#b32428"
+}
+proportion hoist=1200 fly=1800
+
+bars blue white red {
+  ratio 3 4 3
+}
+
+charge lozenge red {
+  fly 98.9949
+  hoist 98.9949
+  at fly=900 hoist=600
+}
+
+charge polygon red {
+  point fly=805.9548 hoist=397.0604
+  point fly=919.799 hoist=510.9045
+  point fly=811.6117 hoist=619.0919
+  point fly=697.7675 hoist=505.2477
+  point fly=747.2649 hoist=455.7502
+  point fly=831.4106 hoist=539.8959
+  point fly=811.6117 hoist=559.6949
+  point fly=747.2649 hoist=495.3482
+  point fly=737.3654 hoist=505.2477
+  point fly=813.0259 hoist=580.9081
+  point fly=882.3223 hoist=511.6117
+  point fly=808.0761 hoist=437.3654
+  point fly=798.1766 hoist=447.2649
+  point fly=862.5233 hoist=511.6117
+  point fly=842.7244 hoist=531.4106
+  point fly=758.5786 hoist=447.2649
+}
+
+charge polygon red {
+  point fly=994.0452 hoist=802.9396
+  point fly=880.201 hoist=689.0955
+  point fly=988.3883 hoist=580.9081
+  point fly=1102.2325 hoist=694.7523
+  point fly=1052.7351 hoist=744.2498
+  point fly=968.5894 hoist=660.1041
+  point fly=988.3883 hoist=640.3051
+  point fly=1052.7351 hoist=704.6518
+  point fly=1062.6346 hoist=694.7523
+  point fly=986.9741 hoist=619.0919
+  point fly=917.6777 hoist=688.3883
+  point fly=991.9239 hoist=762.6346
+  point fly=1001.8234 hoist=752.7351
+  point fly=937.4767 hoist=688.3883
+  point fly=957.2756 hoist=668.5894
+  point fly=1041.4214 hoist=752.7351
+}
+
+charge polygon red {
+  point fly=1102.9396 hoist=505.9548
+  point fly=989.0955 hoist=619.799
+  point fly=880.9081 hoist=511.6117
+  point fly=994.7523 hoist=397.7675
+  point fly=1044.2498 hoist=447.2649
+  point fly=960.1041 hoist=531.4106
+  point fly=940.3051 hoist=511.6117
+  point fly=1004.6518 hoist=447.2649
+  point fly=994.7523 hoist=437.3654
+  point fly=919.0919 hoist=513.0259
+  point fly=988.3883 hoist=582.3223
+  point fly=1062.6346 hoist=508.0761
+  point fly=1052.7351 hoist=498.1766
+  point fly=988.3883 hoist=562.5233
+  point fly=968.5894 hoist=542.7244
+  point fly=1052.7351 hoist=458.5786
+}
+
+charge polygon red {
+  point fly=697.0604 hoist=694.0452
+  point fly=810.9045 hoist=580.201
+  point fly=919.0919 hoist=688.3883
+  point fly=805.2477 hoist=802.2325
+  point fly=755.7502 hoist=752.7351
+  point fly=839.8959 hoist=668.5894
+  point fly=859.6949 hoist=688.3883
+  point fly=795.3482 hoist=752.7351
+  point fly=805.2477 hoist=762.6346
+  point fly=880.9081 hoist=686.9741
+  point fly=811.6117 hoist=617.6777
+  point fly=737.3654 hoist=691.9239
+  point fly=747.2649 hoist=701.8234
+  point fly=811.6117 hoist=637.4767
+  point fly=831.4106 hoist=657.2756
+  point fly=747.2649 hoist=741.4214
+}

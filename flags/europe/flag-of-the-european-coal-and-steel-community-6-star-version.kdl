@@ -1,0 +1,95 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the European Coal and Steel Community 6 Star Version"
+  encoder "Holek"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_European_Coal_and_Steel_Community_6_Star_Version.svg"
+}
+palette {
+  blue "#002868"
+  black "#000000"
+  orange "#ffce40"
+}
+proportion hoist=100 fly=150
+
+bars blue black
+
+charge polygon orange {
+  point fly=30.3426 hoist=10.6408
+  point fly=26.8702 hoist=21.3278
+  point fly=13.5487 hoist=21.3278
+  point fly=24.326 hoist=29.158
+  point fly=20.6076 hoist=40.6023
+  point fly=30.3426 hoist=33.5293
+  point fly=40.0777 hoist=40.6023
+  point fly=36.3592 hoist=29.158
+  point fly=47.1365 hoist=21.3278
+  point fly=33.8151 hoist=21.3278
+}
+
+charge polygon orange {
+  point fly=74.2904 hoist=10.6408
+  point fly=70.818 hoist=21.3278
+  point fly=57.4965 hoist=21.3278
+  point fly=68.2738 hoist=29.158
+  point fly=64.5554 hoist=40.6023
+  point fly=74.2904 hoist=33.5293
+  point fly=84.0255 hoist=40.6023
+  point fly=80.307 hoist=29.158
+  point fly=91.0843 hoist=21.3278
+  point fly=77.7629 hoist=21.3278
+}
+
+charge polygon orange {
+  point fly=118.2383 hoist=10.6408
+  point fly=114.7659 hoist=21.3278
+  point fly=101.4444 hoist=21.3278
+  point fly=112.2217 hoist=29.158
+  point fly=108.5032 hoist=40.6023
+  point fly=118.2383 hoist=33.5293
+  point fly=127.9734 hoist=40.6023
+  point fly=124.2549 hoist=29.158
+  point fly=135.0322 hoist=21.3278
+  point fly=121.7107 hoist=21.3278
+}
+
+charge polygon orange {
+  point fly=30.3426 hoist=57.0225
+  point fly=26.8702 hoist=67.7095
+  point fly=13.5488 hoist=67.7095
+  point fly=24.326 hoist=75.5397
+  point fly=20.6076 hoist=86.9839
+  point fly=30.3426 hoist=79.911
+  point fly=40.0777 hoist=86.9839
+  point fly=36.3592 hoist=75.5397
+  point fly=47.1365 hoist=67.7095
+  point fly=33.8151 hoist=67.7095
+}
+
+charge polygon orange {
+  point fly=74.2904 hoist=57.0225
+  point fly=70.818 hoist=67.7095
+  point fly=57.4965 hoist=67.7095
+  point fly=68.2738 hoist=75.5397
+  point fly=64.5554 hoist=86.9839
+  point fly=74.2904 hoist=79.911
+  point fly=84.0255 hoist=86.9839
+  point fly=80.307 hoist=75.5397
+  point fly=91.0843 hoist=67.7095
+  point fly=77.7629 hoist=67.7095
+}
+
+charge polygon orange {
+  point fly=118.2383 hoist=57.0225
+  point fly=114.7659 hoist=67.7095
+  point fly=101.4444 hoist=67.7095
+  point fly=112.2217 hoist=75.5397
+  point fly=108.5032 hoist=86.9839
+  point fly=118.2383 hoist=79.911
+  point fly=127.9733 hoist=86.9839
+  point fly=124.2549 hoist=75.5397
+  point fly=135.0322 hoist=67.7095
+  point fly=121.7107 hoist=67.7095
+}

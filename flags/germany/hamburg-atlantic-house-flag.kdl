@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Hamburg Atlantic house flag"
+  encoder "VileGecko"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Hamburg_Atlantic_house_flag.svg"
+}
+palette {
+  red "#f63a00"
+  white "#ffffff"
+}
+proportion hoist=300 fly=450
+
+field red
+
+charge polygon white {
+  point fly=225 hoist=150
+  point fly=287.5 hoist=258.253
+  point fly=225 hoist=233
+  point fly=162.5 hoist=258.253
+}
+
+charge polygon white {
+  point fly=225 hoist=150
+  point fly=100.0002 hoist=150.0001
+  point fly=153.1199 hoist=108.5
+  point fly=162.5002 hoist=41.7469
+}
+
+charge polygon white {
+  point fly=225 hoist=150
+  point fly=287.4998 hoist=41.7469
+  point fly=296.8801 hoist=108.5
+  point fly=349.9998 hoist=150.0001
+}

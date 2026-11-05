@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Georgia (1990-2004)"
+  encoder "Jon Harald Søby"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia_(1990%E2%80%932004).svg"
+}
+palette {
+  red "#990000"
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=15 fly=25
+
+field red
+
+charge polygon white {
+  point fly=0 hoist=0
+  point fly=10 hoist=3
+  point fly=10 hoist=6
+  point fly=0 hoist=6
+}
+
+canton {
+  fly 10
+  hoist 3
+  field black
+}

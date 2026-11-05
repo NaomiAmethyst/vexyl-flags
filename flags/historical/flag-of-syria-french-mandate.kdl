@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Syria French mandate"
+  encoder "F l a n k e r"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_French_mandate.svg"
+}
+palette {
+  green "#006600"
+  white "#ffffff"
+  red "#cd1226"
+  blue "#002654"
+}
+proportion hoist=9 fly=13.5
+
+bars green white green
+
+charge rect red {
+  fly 4.5
+  hoist 4.5
+  at fly=4.5 hoist=2.25
+}
+
+canton {
+  fly 4.5
+  hoist 4.5
+  field blue
+}
+
+charge rect white {
+  fly 2.25
+  hoist 4.71
+  at fly=3.375 hoist=2.355
+}

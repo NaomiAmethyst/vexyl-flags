@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Free City of Lübeck"
+  encoder "See below."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Free_City_of_L%C3%BCbeck.svg"
+}
+palette {
+  white "#ffffff"
+  red "#f0140a"
+}
+proportion hoist=800 fly=1280
+
+bars white red

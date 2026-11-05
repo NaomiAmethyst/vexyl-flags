@@ -1,0 +1,128 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Victoria (1870-1877)"
+  encoder "Tsange"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Victoria_(1870-1877).svg"
+}
+palette {
+  blue "#00247d"
+  white "#ffffff"
+  red "#cf142b"
+}
+proportion hoist=600 fly=1200
+
+field blue
+
+charge polygon white {
+  point fly=-13.4164 hoist=26.8328
+  point fly=586.5836 hoist=326.8328
+  point fly=613.4164 hoist=273.1672
+  point fly=13.4164 hoist=-26.8328
+}
+
+charge polygon white {
+  point fly=586.5836 hoist=-26.8328
+  point fly=-13.4164 hoist=273.1672
+  point fly=13.4164 hoist=326.8328
+  point fly=613.4164 hoist=26.8328
+}
+
+charge svg {
+  at center
+  fly 1200
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><clipPath id="a"><path d="m0 0v150h700v150h-100zm0 300v50h300v-350h300z"></path></clipPath></defs><path d="m0 0 600 300m0-300-600 300" stroke-width="40" clip-path="url(#a)" stroke="#cf142b" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge rect white {
+  fly 700
+  hoist 100
+  at fly=350 hoist=150
+}
+
+charge rect white {
+  fly 100
+  hoist 350
+  at fly=300 hoist=175
+}
+
+charge rect red {
+  fly 700
+  hoist 60
+  at fly=350 hoist=150
+}
+
+charge rect red {
+  fly 60
+  hoist 350
+  at fly=300 hoist=175
+}
+
+charge polygon blue {
+  point fly=0 hoist=300
+  point fly=600 hoist=300
+  point fly=600 hoist=0
+  point fly=1200 hoist=0
+  point fly=1200 hoist=600
+  point fly=0 hoist=600
+}
+
+charge polygon white {
+  point fly=916.2398 hoist=85.2903
+  point fly=943.4636 hoist=87.7578
+  point fly=919.9059 hoist=101.6231
+  point fly=934.9506 hoist=124.4462
+  point fly=909.4222 hoist=114.6724
+  point fly=900.9589 hoist=140.6644
+  point fly=892.6833 hoist=114.6124
+  point fly=867.0854 hoist=124.2009
+  point fly=882.2944 hoist=101.4874
+  point fly=858.8369 hoist=87.4528
+  point fly=886.0781 hoist=85.1817
+  point fly=882.4259 hoist=58.0917
+  point fly=901.1858 hoist=77.9736
+  point fly=920.088 hoist=58.2276
+  point fly=920.088 hoist=58.2276
+}
+
+charge polygon white {
+  point fly=937.3709 hoist=333.174
+  point fly=950.5096 hoist=321.5982
+  point fly=945.9767 hoist=304.6837
+  point fly=961.0468 hoist=313.6012
+  point fly=975.7327 hoist=304.0631
+  point fly=975.7327 hoist=304.0631
+  point fly=971.908 hoist=321.1518
+  point fly=985.5168 hoist=332.1715
+  point fly=968.0828 hoist=333.8148
+  point fly=961.809 hoist=350.1631
+  point fly=954.8584 hoist=334.0901
+}
+
+charge star white {
+  radius 40.8925
+  inner 17.6433
+  points 6
+  rotate -0.0045
+  at fly=1037.0841 hoist=219.4357
+}
+
+charge star white {
+  radius 39.1856
+  inner 18.3078
+  points 9
+  rotate 20
+  at fly=903.6467 hoist=500.9597
+}
+
+charge star white {
+  radius 40.8824
+  inner 17.639
+  points 8
+  at fly=750.0959 hoist=259.8848
+}

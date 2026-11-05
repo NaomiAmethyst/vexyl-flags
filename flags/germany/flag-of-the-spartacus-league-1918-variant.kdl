@@ -1,0 +1,54 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Spartacus League (1918 variant)"
+  encoder "Jens Pattke (User:R-41)"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Spartacus_League_(1918_variant).svg"
+}
+palette {
+  red "#d00000"
+  yellow "#ffce00"
+}
+proportion hoist=20 fly=30
+
+field red
+
+charge star yellow {
+  radius 7.4177
+  inner 3.7374
+  rotate -0.1582
+  at fly=15.0063 hoist=10.6566
+}
+
+charge star yellow {
+  radius 6.6242
+  inner 3.3376
+  rotate -0.1582
+  at fly=15.0057 hoist=10.6272
+}
+
+charge polygon red {
+  point fly=18.914 hoist=15.9755
+  point fly=15.0149 hoist=13.9647
+  point fly=11.1269 hoist=15.997
+  point fly=11.8343 hoist=11.6673
+  point fly=8.7 hoist=8.5976
+  point fly=13.0364 hoist=7.9325
+  point fly=14.9874 hoist=4.003
+  point fly=16.96 hoist=7.9216
+  point fly=21.3 hoist=8.5628
+  point fly=18.1827 hoist=11.6498
+  point fly=18.914 hoist=15.9755
+  hollow 0.25
+}
+
+charge path red {
+  d "M13.6671 8.1046L12.1996 9.242L12.8912 10.2637L15.2117 8.5218ZM15.9833 8.4533C17.2862 9.5451 17.2342 10.9458 16.3448 11.624L16.4706 11.7769C16.7187 11.562 17.1509 11.2755 17.1336 10.1808C17.1309 9.9937 17.1445 9.9146 17.175 9.7964C17.2541 9.9083 17.3016 9.9729 17.3293 10.1436C17.4971 11.1763 17.0575 11.6256 16.6806 12.0326L16.9178 12.3213C17.5296 11.8383 17.913 11.1749 17.8394 10.3851C17.7659 9.5954 17.2356 8.6785 15.9833 8.4533ZM14.2901 9.4549L13.692 9.9085L16.7821 14.0688C17.1417 14.5547 17.9278 14.1806 17.6094 13.5058ZM14.0229 11.4854L13.5499 12.1555L13.91 12.4556L13.9086 12.4584L13.9127 12.4584L14.1727 12.4898C14.8912 12.8647 15.2775 12.8742 15.6074 12.8213L15.0772 12.0497C14.8632 12.0401 14.65 11.9629 14.4357 11.7954L14.433 11.7997ZM13.4314 12.2865L13.2784 12.437L13.7385 12.7671L13.8329 12.5928ZM13.1655 12.5885L12.2096 13.493C11.9926 14.1387 12.4075 14.427 13.0584 14.096L13.6385 12.9314Z"
+  box "11.9926 8.1046 5.9352 6.4501"
+  fly 5.9352
+  hoist 6.4501
+  evenodd
+  at fly=14.9602 hoist=11.3297
+}

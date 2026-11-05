@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Germany as seen in Tagesschau"
+  encoder "TehMountenDew"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_as_seen_in_Tagesschau.svg"
+}
+palette {
+  red "#dd0000"
+  black "#000000"
+  yellow "#ffce00"
+}
+proportion hoist=3 fly=5
+
+bars red black yellow

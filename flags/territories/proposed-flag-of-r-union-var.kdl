@@ -1,0 +1,49 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Proposed flag of Réunion (VAR)"
+  encoder "Ch1902"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_R%C3%A9union_(VAR).svg"
+}
+palette {
+  blue "#3366ff"
+  red "#ff0000"
+  yellow "#ffff00"
+}
+proportion hoist=80 fly=120
+
+field blue
+
+pile red {
+  from bottom
+  depth 40
+}
+
+charge polygon yellow {
+  point fly=0 hoist=37
+  point fly=0 hoist=43
+  point fly=120 hoist=37
+  point fly=120 hoist=43
+}
+
+charge polygon yellow {
+  point fly=60 hoist=40
+  point fly=0 hoist=5
+  point fly=0 hoist=0
+  point fly=5 hoist=0
+}
+
+charge polygon yellow {
+  point fly=60 hoist=40
+  point fly=115 hoist=0
+  point fly=120 hoist=0
+  point fly=120 hoist=5
+}
+
+pile yellow {
+  from top
+  base 57 63
+  depth 40
+}

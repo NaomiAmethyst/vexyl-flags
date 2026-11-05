@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Democratic Republic of Azerbaijan (1918)"
+  encoder "Zscout370"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_Azerbaijan_(1918).svg"
+}
+palette {
+  pink "#e00034"
+  white "#ffffff"
+}
+proportion hoist=600 fly=1200
+
+field pink
+
+charge path white {
+  d "M599.737 371.499C560.2369 371.499 528.2117 339.4684 528.2117 299.9797C528.2117 260.4459 560.2393 228.4329 599.737 228.4329C621.9421 228.4329 641.7897 238.5814 654.9098 254.4454C639.4872 228.9354 611.4921 211.8813 579.5069 211.8813C530.8742 211.8813 491.4415 251.3151 491.4415 299.9797C491.4415 348.6068 530.8717 388.0255 579.5069 388.0255C611.4921 388.0255 639.4872 370.9739 654.9098 345.469C641.7922 361.358 621.9421 371.499 599.737 371.499Z"
+  box "491.4415 211.8813 163.4683 176.1442"
+  fly 163.4683
+  hoist 176.1442
+  at fly=573.1757 hoist=299.9534
+}
+
+charge star white {
+  radius 39.6383
+  inner 22.1969
+  points 8
+  rotate 0.0065
+  at fly=675.1004 hoist=299.9527
+}

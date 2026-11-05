@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Serbian national minority in Croatia"
+  encoder "Srpsko narodno vijeće – nacionalna koordinacija vijeća srpske nacionalne manjine u Republici Hrvatskoj (2005-05-09)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Serbian_national_minority_in_Croatia.svg"
+}
+palette {
+  red "#e62319"
+  blue "#0f378c"
+  white "#ffffff"
+}
+proportion hoist=600 fly=1200
+
+bars red blue white

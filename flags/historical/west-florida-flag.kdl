@@ -1,0 +1,22 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "West Florida Flag"
+  encoder "Wolfmaster2 for original raster"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:West_Florida_Flag.svg"
+}
+palette {
+  blue "#5685b7"
+  white "#ffffff"
+}
+proportion hoist=680 fly=948.8
+
+field blue
+
+charge star white {
+  radius 194.2938
+  rotate 0.0178
+  at fly=474.35 hoist=346.06
+}

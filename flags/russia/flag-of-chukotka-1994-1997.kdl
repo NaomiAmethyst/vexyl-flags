@@ -1,0 +1,40 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Chukotka (1994-1997)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Chukotka_(1994-1997).svg"
+}
+palette {
+  blue "#3399ff"
+  white "#ffffff"
+  red "#d81e05"
+  blue-2 "#0051ba"
+  yellow "#ffd700"
+}
+proportion hoist=600 fly=1200
+
+field blue
+
+chevrons white {
+  depth 600
+}
+
+charge rect red {
+  fly 160
+  hoist 80
+  at fly=200 hoist=340
+}
+
+charge rect blue-2 {
+  fly 160
+  hoist 51.1101
+  at fly=200 hoist=300
+}
+
+charge ring yellow {
+  radius 127.7753
+  inner 76.6652
+  at fly=200 hoist=300
+}

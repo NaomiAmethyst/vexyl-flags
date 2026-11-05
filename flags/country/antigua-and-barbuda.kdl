@@ -1,0 +1,50 @@
+vexyl 1
+meta {
+  name "Antigua and Barbuda"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Antigua_and_Barbuda.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  red "#ce1126"
+  white "#ffffff"
+  black "#000000"
+  gold "#fcd116"
+  blue "#0072c6"
+}
+proportion hoist=92 fly=138
+
+field red
+group {
+  clip {
+    pile {
+      from top
+      depth 92
+    }
+  }
+  field white
+  pile black {
+    from top
+    depth 46
+    flat 120
+  }
+  charge sun gold {
+    radius 30
+    disc 15
+    points 16
+    at fly=69 hoist=36
+    clip {
+      rect {
+        fly 60
+        hoist 30
+        at fly=69 hoist=21
+      }
+    }
+  }
+  charge rect blue {
+    fly 120
+    hoist 20
+    at fly=69 hoist=46
+  }
+}

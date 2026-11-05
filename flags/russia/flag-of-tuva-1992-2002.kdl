@@ -1,0 +1,61 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tuva (1992–2002)"
+  encoder "Comment – This license tag is also applicable to official documents, state symbols and signs of the Russian Soviet Feder"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tuva_(1992%E2%80%932002).svg"
+}
+palette {
+  blue "#63b1e5"
+  white "#ffffff"
+  yellow "#fecb00"
+}
+proportion hoist=18 fly=36
+
+field blue
+
+charge polygon white {
+  point fly=1.8 hoist=-2.4
+  point fly=15.4 hoist=7.8
+  point fly=13.6 hoist=10.2
+  point fly=0 hoist=0
+}
+
+charge polygon white {
+  point fly=0 hoist=18
+  point fly=13.6 hoist=7.8
+  point fly=15.4 hoist=10.2
+  point fly=1.8 hoist=20.4
+}
+
+charge rect white {
+  fly 36
+  hoist 3
+  at fly=18 hoist=9
+}
+
+charge polygon blue {
+  point fly=1.2 hoist=-1.6
+  point fly=14.8 hoist=8.6
+  point fly=14.2 hoist=9.4
+  point fly=0.6 hoist=-0.8
+}
+
+charge polygon blue {
+  point fly=0.6 hoist=18.8
+  point fly=14.2 hoist=8.6
+  point fly=14.8 hoist=9.4
+  point fly=1.2 hoist=19.6
+}
+
+charge rect blue {
+  fly 22
+  hoist 1
+  at fly=25 hoist=9
+}
+
+chevrons yellow {
+  depth 12
+}

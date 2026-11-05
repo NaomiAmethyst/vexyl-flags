@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Honduras (2022–2026)"
+  encoder "COAmaker17"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(2022%E2%80%932026).svg"
+}
+palette {
+  white "#ffffff"
+  teal "#00bce4"
+}
+proportion hoist=36 fly=72
+
+field white
+
+panel {
+  side top
+  width 12
+  field teal
+}
+
+panel {
+  side bottom
+  width 12
+  field teal
+}
+
+charge star teal {
+  radius 2
+  at fly=26 hoist=15
+  at fly=26 hoist=21
+  at fly=36 hoist=18
+  at fly=46 hoist=15
+  at fly=46 hoist=21
+}

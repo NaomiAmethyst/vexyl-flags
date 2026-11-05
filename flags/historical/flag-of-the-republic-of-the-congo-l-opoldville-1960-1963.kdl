@@ -1,0 +1,42 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Republic of the Congo (Léopoldville) (1960–1963)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo_(L%C3%A9opoldville)_(1960%E2%80%931963).svg"
+}
+palette {
+  blue "#0039a5"
+  yellow "#f7d618"
+}
+proportion hoist=600 fly=900
+
+field blue
+
+charge star yellow {
+  radius 139.4723
+  rotate 0.1261
+  at fly=450.8555 hoist=286.0996
+}
+
+charge star yellow {
+  radius 42.1172
+  rotate 0.1257
+  at fly=73.2101 hoist=544.2711
+}
+
+charge star yellow {
+  radius 42.1175
+  rotate 0.1262
+  at fly=73.2101 hoist=447.9835
+}
+
+charge star yellow {
+  radius 42.1175
+  rotate 0.126
+  at fly=73.2101 hoist=353.4978
+  at fly=73.2101 hoist=257.2088
+  at fly=73.2101 hoist=160.1988
+  at fly=73.2101 hoist=63.1888
+}

@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Oldenburg (Scandinavian Cross)"
+  encoder "Sir Iain"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Oldenburg_(Scandinavian_Cross).svg"
+}
+palette {
+  blue "#212178"
+  red "#e12a2a"
+}
+proportion hoist=300 fly=500
+
+field blue
+
+cross red {
+  fly 150 75 275
+  hoist 112.5 75 112.5
+}

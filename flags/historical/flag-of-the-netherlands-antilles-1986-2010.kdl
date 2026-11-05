@@ -1,0 +1,34 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Netherlands Antilles (1986–2010)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands_Antilles_(1986%E2%80%932010).svg"
+}
+palette {
+  white "#ffffff"
+  red "#dc171d"
+  blue "#012a87"
+}
+proportion hoist=36 fly=54
+
+bars white red white {
+  along hoist
+  ratio 7 4 7
+}
+
+charge rect blue {
+  fly 54
+  hoist 12
+  at fly=27 hoist=18
+}
+
+charge svg {
+  at center
+  fly 54
+  hoist 36
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 36"><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 -0.463525 1.426585 27 12.5)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 0.463525 1.426585 27 12.5)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 -1.5 0 28.426585 13.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213526 -1.213526 0.881678 28.426585 13.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213526 1.213526 0.881678 25.573415 13.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 1.5 0 25.573415 13.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 -0.463525 -1.426585 27.881678 15.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213525 -1.213525 -0.881678 27.881678 15.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213525 1.213525 -0.881678 26.118322 15.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 0.463525 -1.426585 26.118322 15.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 -0.463525 1.426585 35 15.813708)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 0.463525 1.426585 35 15.813708)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 -1.5 0 36.426585 16.850183)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213526 -1.213526 0.881678 36.426585 16.850183)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213526 1.213526 0.881678 33.573415 16.850183)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 1.5 0 33.573415 16.850183)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 -0.463525 -1.426585 35.881678 18.527233)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213525 -1.213525 -0.881678 35.881678 18.527233)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213525 1.213525 -0.881678 34.118322 18.527233)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 0.463525 -1.426585 34.118322 18.527233)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 -0.463525 1.426585 30.313708 20.5)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 0.463525 1.426585 30.313708 20.5)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 -1.5 0 31.740293 21.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213526 -1.213526 0.881678 31.740293 21.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213526 1.213526 0.881678 28.887123 21.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 1.5 0 28.887123 21.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 -0.463525 -1.426585 31.195386 23.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213525 -1.213525 -0.881678 31.195386 23.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213525 1.213525 -0.881678 29.43203 23.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 0.463525 -1.426585 29.43203 23.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 0.463525 1.426585 19 15.813708)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 -0.463525 1.426585 19 15.813708)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 1.5 0 17.573415 16.850183)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213526 1.213526 0.881678 17.573415 16.850183)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213526 -1.213526 0.881678 20.426585 16.850183)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 -1.5 0 20.426585 16.850183)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 0.463525 -1.426585 18.118322 18.527233)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213525 1.213525 -0.881678 18.118322 18.527233)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213525 -1.213525 -0.881678 19.881678 18.527233)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 -0.463525 -1.426585 19.881678 18.527233)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 0.463525 1.426585 23.686292 20.5)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 -0.463525 1.426585 23.686292 20.5)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 1.5 0 22.259707 21.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213526 1.213526 0.881678 22.259707 21.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213526 -1.213526 0.881678 25.112877 21.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0 1.5 -1.5 0 25.112877 21.536475)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(1.426585 0.463525 0.463525 -1.426585 22.804614 23.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-0.881678 -1.213525 1.213525 -0.881678 22.804614 23.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(0.881678 -1.213525 -1.213525 -0.881678 24.56797 23.213525)" fill="#ffffff"/><path d="m0 0v1h.5z" transform="matrix(-1.426585 0.463525 -0.463525 -1.426585 24.56797 23.213525)" fill="#ffffff"/></svg>
+"""#
+}

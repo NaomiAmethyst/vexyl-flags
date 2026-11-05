@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Transvaal"
+  encoder "Himasaram"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Transvaal.svg"
+}
+palette {
+  red "#ce1126"
+  white "#ffffff"
+  blue "#003884"
+  green "#007a4d"
+}
+proportion hoist=24 fly=36
+
+bars red white blue
+
+panel {
+  side hoist
+  width 10
+  field green
+}

@@ -1,0 +1,37 @@
+vexyl 1
+meta {
+  name "Burundi"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Burundi.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  red "#c8102e"
+  green "#43b02a"
+  white "#ffffff"
+}
+proportion hoist=60 fly=100
+
+quarters red green red green {
+  diagonal
+}
+saltire white {
+  width 8
+}
+charge disc white {
+  radius 17
+}
+charge star red {
+  radius 3.64
+  inner 2.1016
+  points 6
+  repeat ring count=3 radius=8.8
+}
+charge star green {
+  radius 3.64
+  inner 2.1016
+  points 6
+  hollow 0.36
+  repeat ring count=3 radius=8.8
+}

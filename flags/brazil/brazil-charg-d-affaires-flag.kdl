@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Brazil Chargé d'Affaires Flag"
+  encoder "Jack Ryan Morris"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Brazil_Charg%C3%A9_d%27Affaires_Flag.svg"
+}
+palette {
+  yellow "#ffcb00"
+  blue "#302681"
+}
+proportion hoist=400 fly=600
+
+field yellow
+
+charge star blue {
+  radius 15.7719
+  inner 6.3088
+  at fly=300 hoist=101.5061
+  at fly=450 hoist=201.5061
+  at fly=150 hoist=201.5061
+  at fly=300 hoist=301.5061
+}

@@ -1,0 +1,42 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Võro People"
+  encoder "Blackcat"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_V%C3%B5ro_People.svg"
+}
+palette {
+  green "#1e4c0c"
+  white "#ffffff"
+}
+proportion hoist=400 fly=600
+
+field green
+
+charge rect white {
+  fly 100
+  hoist 300
+  at fly=300 hoist=200
+}
+
+charge rect white {
+  fly 300
+  hoist 100
+  at fly=300 hoist=200
+}
+
+cross green {
+  fly 294 12 294
+  hoist 194 12 194
+}
+
+charge svg {
+  at center
+  fly 600
+  hoist 400
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><polygon points="442,50 458,50 158,350 142,350 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/><polygon points="158,50 142,50 442,350 458,350 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/><polygon points="250,50 350,50 300,100 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/><polygon points="150,150 150,250 200,200 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/><polygon points="450,150 450,250 400,200 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/><polygon points="300,300 250,350 250,372.8 350,372.8 350,350 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/><polygon points="300,100 250,50 250,27.2 350,27.2 350,50 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/><polygon points="400,200 450,250 472.8,250 472.8,150 450,150 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/><polygon points="200,200 150,250 127.2,250 127.2,150 150,150 " fill="#1e4c0c" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}

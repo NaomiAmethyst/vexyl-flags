@@ -1,0 +1,127 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Mountain Republic"
+  encoder "Arsenekoumyk"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mountain_Republic.svg"
+}
+palette {
+  white "#ffffff"
+  green "#176d24"
+  blue "#1370bd"
+  yellow "#efe032"
+}
+proportion hoist=497 fly=847
+
+field white
+
+charge rect green {
+  fly 847
+  hoist 71
+  at fly=423.5 hoist=320.5124
+  at fly=423.5 hoist=177.5124
+}
+
+panel {
+  side top
+  width 71
+  field green
+}
+
+panel {
+  side bottom
+  width 70.9876
+  field green
+}
+
+canton {
+  fly 329.8054
+  hoist 212.6233
+  field blue
+  charge polygon yellow {
+    point fly=233.4887 hoist=106.3185
+    point fly=249.458 hoist=101.4164
+    point fly=249.458 hoist=85.5556
+    point fly=259.3289 hoist=98.3872
+    point fly=275.301 hoist=93.4869
+    point fly=265.4312 hoist=106.3185
+    point fly=275.301 hoist=119.1491
+    point fly=259.3289 hoist=114.2498
+    point fly=249.458 hoist=127.0813
+    point fly=249.458 hoist=111.2196
+  }
+  charge polygon yellow {
+    point fly=224.7503 hoist=54.794
+    point fly=214.8804 hoist=67.6255
+    point fly=224.7503 hoist=80.4562
+    point fly=208.7781 hoist=75.5568
+    point fly=198.9073 hoist=88.3884
+    point fly=198.9073 hoist=72.5267
+    point fly=182.9379 hoist=67.6255
+    point fly=198.9073 hoist=62.7235
+    point fly=198.9073 hoist=46.8627
+    point fly=208.7781 hoist=59.6943
+  }
+  charge polygon yellow {
+    point fly=186.0437 hoist=146.5128
+    point fly=202.0131 hoist=141.6108
+    point fly=202.0131 hoist=125.75
+    point fly=211.8839 hoist=138.5815
+    point fly=227.8561 hoist=133.6813
+    point fly=217.9862 hoist=146.5128
+    point fly=227.8561 hoist=159.3435
+    point fly=211.8839 hoist=154.4441
+    point fly=202.0131 hoist=167.2757
+    point fly=202.0131 hoist=151.414
+  }
+  charge polygon yellow {
+    point fly=134.3067 hoist=73.1478
+    point fly=118.3373 hoist=68.2467
+    point fly=134.3067 hoist=63.3447
+    point fly=134.3067 hoist=47.4839
+    point fly=144.1775 hoist=60.3154
+    point fly=160.1497 hoist=55.4152
+    point fly=150.2798 hoist=68.2467
+    point fly=160.1497 hoist=81.0774
+    point fly=144.1775 hoist=76.178
+    point fly=134.3067 hoist=89.0095
+  }
+  charge polygon yellow {
+    point fly=70.9484 hoist=89.0095
+    point fly=70.9484 hoist=73.1478
+    point fly=54.979 hoist=68.2467
+    point fly=70.9484 hoist=63.3447
+    point fly=70.9484 hoist=47.4839
+    point fly=80.8192 hoist=60.3154
+    point fly=96.7914 hoist=55.4152
+    point fly=86.9215 hoist=68.2467
+    point fly=96.7914 hoist=81.0774
+    point fly=80.8192 hoist=76.178
+  }
+  charge polygon yellow {
+    point fly=88.4224 hoist=148.2227
+    point fly=98.2923 hoist=161.0533
+    point fly=82.3202 hoist=156.1539
+    point fly=72.4493 hoist=168.9855
+    point fly=72.4493 hoist=153.1238
+    point fly=56.48 hoist=148.2227
+    point fly=72.4493 hoist=143.3206
+    point fly=72.4493 hoist=127.4598
+    point fly=82.3202 hoist=140.2914
+    point fly=98.2923 hoist=135.3911
+  }
+  charge polygon yellow {
+    point fly=146.041 hoist=138.5815
+    point fly=162.0131 hoist=133.6813
+    point fly=152.1433 hoist=146.5128
+    point fly=162.0131 hoist=159.3435
+    point fly=146.041 hoist=154.4441
+    point fly=136.1701 hoist=167.2757
+    point fly=136.1701 hoist=151.414
+    point fly=120.2008 hoist=146.5128
+    point fly=136.1701 hoist=141.6108
+    point fly=136.1701 hoist=125.75
+  }
+}

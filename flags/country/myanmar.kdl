@@ -1,0 +1,21 @@
+vexyl 1
+meta {
+  name "Myanmar"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  yellow "#fecb00"
+  green "#34b233"
+  red "#ea2839"
+  white "#ffffff"
+}
+proportion hoist=12 fly=18
+
+bars yellow green red
+charge star white {
+  radius 4.422
+  at fly=9 hoist=6.422
+}

@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Wakayama Prefecture"
+  encoder "PRiMENON, Zscout370, Mike Rohsopht"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Wakayama_Prefecture.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#29437f"
+}
+proportion hoist=60 fly=90
+
+field white
+
+charge path blue {
+  d "M25.6351 35A20 20 0 1 1 64.3649 35L45 50L36.0901 43.0984L53 30A8 8 0 0 0 37 30L44.3275 35.6758L35.4175 42.5775Z"
+  box "25.6351 15 58.7298 40"
+  fly 58.7298
+  hoist 40
+  at fly=55 hoist=35
+}

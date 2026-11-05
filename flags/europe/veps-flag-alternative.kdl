@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Veps Flag Alternative"
+  encoder "Dictatorialkarelian"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Veps_Flag_Alternative.svg"
+}
+palette {
+  green "#3b7f57"
+  yellow "#fbfe6d"
+  blue "#458cd2"
+}
+proportion hoist=202 fly=360
+
+field green
+
+charge polygon yellow {
+  point fly=0 hoist=70
+  point fly=100 hoist=70
+  point fly=100 hoist=0
+  point fly=163 hoist=0
+  point fly=163 hoist=70
+  point fly=360 hoist=70
+  point fly=360 hoist=131
+  point fly=163 hoist=131
+  point fly=163 hoist=202
+  point fly=100 hoist=202
+  point fly=100 hoist=131
+  point fly=0 hoist=131
+}
+
+cross blue {
+  fly 113 38 209
+  hoist 83 36 83
+}

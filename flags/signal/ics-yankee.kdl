@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Yankee"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Yankee.svg"
+}
+palette {
+  red "#ff0000"
+  black "#000000"
+}
+proportion hoist=600 fly=600
+
+field red
+
+charge svg {
+  at center
+  fly 600
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><path d="M0,0 600,600" stroke-width="850" stroke-dasharray="84,86" stroke="#ffff00" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge polygon black {
+  point fly=0 hoist=0
+  point fly=600 hoist=0
+  point fly=600 hoist=600
+  point fly=0 hoist=600
+  hollow 2.5
+}

@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Anjouan (official)"
+  encoder "Orange Tuesday"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Anjouan_(official).svg"
+}
+palette {
+  red "#ce1126"
+  white "#ffffff"
+}
+proportion hoist=400 fly=600
+
+field red
+
+charge disc white {
+  radius 125
+  at fly=320 hoist=200
+}
+
+charge disc red {
+  radius 112.5
+  at fly=362.5 hoist=200
+}
+
+charge star white {
+  radius 22.7151
+  at fly=362.5 hoist=127.0201
+  repeat line count=4 hoist=50
+}

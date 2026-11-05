@@ -1,0 +1,26 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Straight Ally Flag (Prism)"
+  encoder "Femfem5"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Straight_Ally_Flag_(Prism).svg"
+}
+palette {
+  black "#000000"
+}
+proportion hoist=1000 fly=1500
+
+chevrons black {
+  depth 750
+}
+
+charge svg {
+  at center
+  fly 1500
+  hoist 1000
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000"><path d="m1500 1e3 -750-500 750-500v1e3" transform="matrix(1 0 0 1 0 0)"/><path d="m0 1e3 750-500 750 500-1500 1e-4" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m750 500-750-500h250s500 500 500 500" fill="#e40303" transform="matrix(1 0 0 1 0 0)"/><path d="m750 500-500-500h250l250 500" fill="#ff8c00" transform="matrix(1 0 0 1 0 0)"/><path d="m750 500v-500h250l-250 500" fill="#008026" transform="matrix(1 0 0 1 0 0)"/><path d="m750 500 250-500h250l-500 500" fill="#004dff" transform="matrix(1 0 0 1 0 0)"/><path d="m750 500 500-500 250-5.4426e-5 -750 500" fill="#750787" transform="matrix(1 0 0 1 0 0)"/><path d="m750 500-250-500h250v500" fill="#ffed00" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}

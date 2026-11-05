@@ -1,0 +1,22 @@
+vexyl 1
+meta {
+  name "Seychelles"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles.svg"
+  note "Sizes follow the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  blue "#002f6c"
+  yellow "#fed141"
+  red "#d22730"
+  white "#ffffff"
+  green "#007a33"
+}
+proportion hoist=3 fly=6
+
+rays blue yellow red white green {
+  from lower-hoist
+  measure edge
+  ratio 2 2 3 1 1
+}

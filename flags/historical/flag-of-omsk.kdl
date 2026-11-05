@@ -1,0 +1,61 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Omsk"
+  encoder "Администрация"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Omsk.svg"
+}
+palette {
+  white "#ffffff"
+  red "#da251d"
+}
+proportion hoist=600 fly=900
+
+field white
+
+charge polygon red {
+  point fly=0 hoist=200
+  point fly=30 hoist=250
+  point fly=60 hoist=200
+  point fly=140 hoist=200
+  point fly=170 hoist=250
+  point fly=200 hoist=200
+  point fly=280 hoist=200
+  point fly=310 hoist=250
+  point fly=340 hoist=200
+  point fly=420 hoist=200
+  point fly=450 hoist=250
+  point fly=480 hoist=200
+  point fly=560 hoist=200
+  point fly=590 hoist=250
+  point fly=620 hoist=200
+  point fly=700 hoist=200
+  point fly=730 hoist=250
+  point fly=760 hoist=200
+  point fly=840 hoist=200
+  point fly=870 hoist=250
+  point fly=900 hoist=200
+  point fly=900 hoist=350
+  point fly=870 hoist=400
+  point fly=840 hoist=350
+  point fly=760 hoist=350
+  point fly=730 hoist=400
+  point fly=700 hoist=350
+  point fly=620 hoist=350
+  point fly=590 hoist=400
+  point fly=560 hoist=350
+  point fly=480 hoist=350
+  point fly=450 hoist=400
+  point fly=420 hoist=350
+  point fly=340 hoist=350
+  point fly=310 hoist=400
+  point fly=280 hoist=350
+  point fly=200 hoist=350
+  point fly=170 hoist=400
+  point fly=140 hoist=350
+  point fly=60 hoist=350
+  point fly=30 hoist=400
+  point fly=0 hoist=350
+}

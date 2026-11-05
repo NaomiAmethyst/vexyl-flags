@@ -1,0 +1,52 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tokushima Prefecture"
+  encoder "Guilherme Paula, Mike Rohsopht Insignia This image shows a flag, a coat of arms, a seal or some other official insignia."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tokushima_Prefecture.svg"
+}
+palette {
+  blue "#234794"
+  yellow "#fcd400"
+}
+proportion hoist=630 fly=900
+
+field blue
+
+charge disc yellow {
+  radius 189
+  at fly=450 hoist=315
+}
+
+charge polygon yellow {
+  point fly=240 hoist=126
+  point fly=366 hoist=126
+  point fly=660 hoist=504
+  point fly=534 hoist=504
+}
+
+charge polygon yellow {
+  point fly=450 hoist=504
+  point fly=450 hoist=126
+  point fly=684.4256 hoist=126
+}
+
+charge disc blue {
+  radius 84
+  at fly=450 hoist=315
+}
+
+charge rect blue {
+  fly 210
+  hoist 16.8
+  at fly=555 hoist=239.4
+}
+
+charge polygon blue {
+  point fly=445.8 hoist=390.6
+  point fly=534 hoist=504
+  point fly=512.7167 hoist=504
+  point fly=424.5167 hoist=390.6
+}

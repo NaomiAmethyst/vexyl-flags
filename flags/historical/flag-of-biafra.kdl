@@ -1,0 +1,50 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Biafra"
+  encoder "Mysid"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Biafra.svg"
+}
+palette {
+  red "#dd2211"
+  black "#000000"
+  green "#009933"
+  yellow "#ffdd00"
+}
+proportion hoist=6 fly=9
+
+bars red black green
+
+charge polygon yellow {
+  point fly=3.68 hoist=3.39
+  point fly=3.31 hoist=3.18
+  point fly=3.74 hoist=3.18
+  point fly=3.43 hoist=2.87
+  point fly=3.84 hoist=2.99
+  point fly=3.63 hoist=2.63
+  point fly=3.99 hoist=2.84
+  point fly=3.87 hoist=2.42
+  point fly=4.18 hoist=2.73
+  point fly=4.18 hoist=2.3
+  point fly=4.39 hoist=2.68
+  point fly=4.49 hoist=2.27
+  point fly=4.6 hoist=2.68
+  point fly=4.81 hoist=2.3
+  point fly=4.81 hoist=2.73
+  point fly=5.12 hoist=2.42
+  point fly=4.99 hoist=2.84
+  point fly=5.36 hoist=2.63
+  point fly=5.15 hoist=2.99
+  point fly=5.56 hoist=2.87
+  point fly=5.25 hoist=3.18
+  point fly=5.68 hoist=3.18
+  point fly=5.31 hoist=3.39
+}
+
+charge rect yellow {
+  fly 1.6
+  hoist 0.1
+  at fly=4.5 hoist=3.55
+}

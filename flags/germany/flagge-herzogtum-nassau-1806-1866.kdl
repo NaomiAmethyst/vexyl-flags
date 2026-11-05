@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge Herzogtum Nassau (1806-1866)"
+  encoder "Sebastian Walderich"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_Herzogtum_Nassau_(1806-1866).svg"
+}
+palette {
+  red "#f75735"
+  blue "#0047ab"
+}
+proportion hoist=6 fly=9
+
+bars red blue red

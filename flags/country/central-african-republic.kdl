@@ -1,0 +1,26 @@
+vexyl 1
+meta {
+  name "Central African Republic"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Central_African_Republic.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  blue "#003082"
+  white "#ffffff"
+  green "#289728"
+  yellow "#ffce00"
+  red "#d21034"
+}
+proportion hoist=8 fly=12
+
+bars blue white green yellow
+band red {
+  along hoist
+  width 2
+}
+charge star yellow {
+  radius 0.9
+  at fly=2 hoist=1.0859
+}

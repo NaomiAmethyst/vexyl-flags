@@ -1,0 +1,298 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Minister of State (Brazil)"
+  encoder "Giro720"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Minister_of_State_(Brazil).svg"
+}
+palette {
+  yellow "#ffcb00"
+  blue "#302681"
+  yellow-2 "#ffd700"
+  red "#ff0000"
+  grey "#d5d5d5"
+}
+proportion hoist=200 fly=300
+
+charge polygon yellow {
+  point fly=0 hoist=0
+  point fly=0 hoist=200
+  point fly=300 hoist=200
+  point fly=221.4062 hoist=99.9996
+  point fly=300 hoist=0
+}
+
+charge star blue {
+  radius 7.886
+  inner 3.1544
+  at fly=110.7031 hoist=100.753
+  at fly=110.7031 hoist=83.2904
+  at fly=110.7031 hoist=65.8278
+  at fly=110.7031 hoist=48.3652
+  at fly=110.7031 hoist=30.9026
+  at fly=110.7031 hoist=13.44
+  at fly=110.7031 hoist=188.0661
+  at fly=110.7031 hoist=170.6035
+  at fly=110.7031 hoist=153.1409
+  at fly=110.7031 hoist=135.6783
+  at fly=110.7031 hoist=118.2157
+  at fly=91.6531 hoist=100.753
+  at fly=72.6031 hoist=100.753
+  at fly=53.5531 hoist=100.753
+  at fly=34.5031 hoist=100.753
+  at fly=15.4531 hoist=100.753
+  at fly=205.9531 hoist=100.753
+  at fly=186.9031 hoist=100.753
+  at fly=167.8531 hoist=100.753
+  at fly=148.8031 hoist=100.753
+  at fly=129.7531 hoist=100.753
+}
+
+charge star yellow-2 {
+  radius 38.6949
+  inner 20.3717
+  rotate 0.002
+  at fly=55.3503 hoist=53.7099
+}
+
+charge star red {
+  radius 35.0857
+  inner 18.5108
+  rotate -0.002
+  at fly=55.2584 hoist=53.664
+}
+
+charge svg {
+  at center
+  fly 300
+  hoist 200
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200"><path d="m 42.669182,114.57256 -5.673576,10.88072 -6.425569,-2.08471 8.591331,8.7577 -3.96492,5.45483 10.980548,-5.45483 3.964826,5.45483 -1.789625,-12.12782 6.41632,-2.08471 -12.099335,-2.04677 z" stroke-width="0.0925301" fill="#008000" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 42.669182,114.57256 v 6.74924 l -12.099145,2.04677 6.430289,2.08471 -1.803878,12.12782 3.96492,-5.45483 10.980454,5.45483 -3.964826,-5.45483 8.591521,-8.7577 -6.41632,2.08471 z" stroke-width="0.0925301" fill="#ffd700" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 42.669182,135.00594 c 4.245556,0 7.710721,-3.46498 7.710721,-7.70591 0,-4.25038 -3.465165,-7.71545 -7.710721,-7.71545 -4.245745,0 -7.71072,3.46507 -7.71072,7.71545 0,4.24093 3.464975,7.70591 7.71072,7.70591" stroke-width="0.0925301" fill="#ffd700" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 42.669182,134.62045 c 4.031539,0 7.325146,-3.2937 7.325146,-7.32042 0,-4.03626 -3.293607,-7.32524 -7.325146,-7.32524 -4.031538,0 -7.32524,3.28898 -7.32524,7.32524 0,4.02672 3.293702,7.32042 7.32524,7.32042" stroke-width="0.0925301" fill="#007fff" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 42.669182,132.69279 c 2.970033,0 5.39756,-2.42262 5.39756,-5.39274 0,-2.97485 -2.427527,-5.39756 -5.39756,-5.39756 -2.970032,0 -5.397464,2.42271 -5.397464,5.39756 0,2.97012 2.427432,5.39274 5.397464,5.39274" stroke-width="0.0925301" fill="#ffd700" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 42.669182,132.30715 c 2.760634,0 5.011897,-2.24645 5.011897,-5.00718 0,-2.76054 -2.251263,-5.0119 -5.011897,-5.0119 -2.755826,0 -5.01189,2.25136 -5.01189,5.0119 0,2.76073 2.256064,5.00718 5.01189,5.00718" stroke-width="0.0925301" fill="#007fff" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 45.277349,125.92959 0.118623,-0.72932 0.512429,0.54204 0.729416,-0.11834 -0.354853,0.65039 0.335054,0.6702 -0.729327,-0.13788 -0.532228,0.52224 -0.08855,-0.73894 -0.660296,-0.34505 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 38.862288,127.96053 0.109741,-0.67657 0.475143,0.50299 0.67621,-0.10974 -0.329039,0.6033 0.310996,0.62152 -0.676393,-0.12807 -0.493559,0.48449 -0.08235,-0.68555 -0.621525,-0.31979 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 42.92278,127.30251 0.08735,-0.48801 0.334864,0.36411 0.49522,-0.08 -0.240298,0.43702 0.225768,0.44414 -0.487905,-0.0947 -0.356893,0.34957 -0.0656,-0.488 -0.436745,-0.2329 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 43.265805,130.71598 -0.07892,-0.67195 0.584606,0.34948 0.615416,-0.28351 -0.15323,0.65428 0.455433,0.50161 -0.672786,0.0587 -0.332368,0.58979 -0.266022,-0.62569 -0.6677,-0.12853 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 41.201257,123.50042 0.128156,-0.80538 0.555918,0.59858 0.798257,-0.12816 -0.391772,0.71258 0.363457,0.71979 -0.784188,-0.14971 -0.577297,0.57729 -0.106783,-0.80519 -0.719883,-0.37771 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 42.47413,120.80782 0.195052,-0.39511 0.190339,0.39511 0.433038,0.0619 -0.314048,0.30452 0.07615,0.42841 -0.38548,-0.19995 -0.390198,0.20467 0.07615,-0.43313 -0.314137,-0.30452 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 39.603903,121.57412 v -0.43794 l 0.34736,0.26658 0.41425,-0.13815 -0.142864,0.40944 0.257146,0.35218 -0.433227,-0.005 -0.256956,0.35226 -0.12381,-0.41889 -0.418791,-0.13333 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 38.375879,122.43568 -0.09994,-0.42379 0.399826,0.17618 0.371228,-0.22845 -0.04755,0.43313 0.333202,0.28073 -0.423605,0.0953 -0.166649,0.40463 -0.218925,-0.38085 -0.437852,-0.0285 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 37.371559,123.54462 -0.194963,-0.39029 0.428229,0.0809 0.309329,-0.30933 0.05724,0.43314 0.39011,0.19986 -0.394924,0.18561 -0.07134,0.43313 -0.29989,-0.31885 -0.433044,0.0666 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 43.959034,120.93154 0.280647,-0.33329 0.0954,0.42379 0.409258,0.16174 -0.376041,0.22383 -0.02868,0.43776 -0.328205,-0.28546 -0.423599,0.10937 0.171367,-0.40463 -0.233272,-0.37114 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 40.993833,121.02677 0.09984,-0.4237 0.276017,0.33793 0.437851,-0.0379 -0.237985,0.36632 0.171456,0.40464 -0.423605,-0.10946 -0.328389,0.28554 -0.02868,-0.43304 -0.375858,-0.22855 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/><path d="m 47.719068,123.22566 0.428697,-0.0808 -0.200055,0.3902 0.214213,0.38557 -0.433322,-0.0667 -0.299801,0.31424 -0.07125,-0.42841 -0.395101,-0.19044 0.390199,-0.19986 0.0573,-0.43313 z" stroke-width="0.0925301" fill="#d5d5d5" transform="matrix(2.593719 0 0 2.593719 -55.32263 -276.5145)"/></svg>
+"""#
+}
+
+charge star grey {
+  radius 1.7097
+  inner 0.8508
+  rotate 26.6582
+  at fly=62.5221 hoist=39.2149
+}
+
+charge star grey {
+  radius 1.7062
+  inner 0.854
+  rotate -32.1396
+  at fly=65.6255 hoist=41.2354
+}
+
+charge star grey {
+  radius 1.7104
+  inner 0.8529
+  rotate 24.9219
+  at fly=41.231 hoist=61.4868
+}
+
+charge polygon grey {
+  point fly=46.2258 hoist=67.8013
+  point fly=45.2385 hoist=68.3574
+  point fly=45.3988 hoist=67.2337
+  point fly=44.5591 hoist=66.4679
+  point fly=45.6827 hoist=66.2705
+  point fly=46.1522 hoist=65.2457
+  point fly=46.6828 hoist=66.2455
+  point fly=47.8062 hoist=66.3693
+  point fly=47.0161 hoist=67.1838
+  point fly=47.2381 hoist=68.2953
+}
+
+charge polygon grey {
+  point fly=49.72 hoist=69.5052
+  point fly=48.8927 hoist=70.2701
+  point fly=48.7938 hoist=69.1351
+  point fly=47.7937 hoist=68.5915
+  point fly=48.8432 hoist=68.135
+  point fly=49.0654 hoist=67.0361
+  point fly=49.8058 hoist=67.8754
+  point fly=50.9422 hoist=67.7522
+  point fly=50.3617 hoist=68.7273
+  point fly=50.8311 hoist=69.752
+}
+
+charge polygon grey {
+  point fly=39.2882 hoist=58.7277
+  point fly=38.1766 hoist=58.5176
+  point fly=39.0163 hoist=57.7647
+  point fly=38.868 hoist=56.6413
+  point fly=39.8559 hoist=57.2089
+  point fly=40.8804 hoist=56.7152
+  point fly=40.6459 hoist=57.8261
+  point fly=41.4237 hoist=58.6534
+  point fly=40.2878 hoist=58.7644
+  point fly=39.757 hoist=59.7645
+}
+
+charge polygon grey {
+  point fly=43.2385 hoist=65.3446
+  point fly=42.152 hoist=65.6532
+  point fly=42.572 hoist=64.5922
+  point fly=41.9298 hoist=63.6533
+  point fly=43.0657 hoist=63.7278
+  point fly=43.7569 hoist=62.8263
+  point fly=44.053 hoist=63.9248
+  point fly=45.115 hoist=64.3076
+  point fly=44.1641 hoist=64.9251
+  point fly=44.1272 hoist=66.0608
+}
+
+charge star grey {
+  radius 1.7078
+  inner 0.8537
+  rotate 6.1661
+  at fly=40.5977 hoist=47.1429
+}
+
+charge polygon grey {
+  point fly=38.5719 hoist=54.9129
+  point fly=37.5349 hoist=54.456
+  point fly=38.5347 hoist=53.9131
+  point fly=38.6458 hoist=52.777
+  point fly=39.4731 hoist=53.5673
+  point fly=40.572 hoist=53.3203
+  point fly=40.0904 hoist=54.3451
+  point fly=40.6579 hoist=55.3327
+  point fly=39.5348 hoist=55.1846
+  point fly=38.7819 hoist=56.0364
+}
+
+charge polygon grey {
+  point fly=38.7199 hoist=51.0488
+  point fly=37.819 hoist=50.3698
+  point fly=38.9175 hoist=50.0612
+  point fly=39.2883 hoist=48.9872
+  point fly=39.9175 hoist=49.9378
+  point fly=41.041 hoist=49.9638
+  point fly=40.3373 hoist=50.8525
+  point fly=40.6707 hoist=51.939
+  point fly=39.6089 hoist=51.5314
+  point fly=38.6708 hoist=52.1857
+}
+
+charge polygon grey {
+  point fly=69.8183 hoist=62.2585
+  point fly=70.9413 hoist=62.3202
+  point fly=70.2995 hoist=61.3821
+  point fly=70.7068 hoist=60.3201
+  point fly=69.6206 hoist=60.6537
+  point fly=68.7316 hoist=59.9373
+  point fly=68.707 hoist=61.0732
+  point fly=67.7561 hoist=61.6907
+  point fly=68.8303 hoist=62.0608
+  point fly=69.1267 hoist=63.1475
+}
+
+charge polygon grey {
+  point fly=64.4476 hoist=67.7891
+  point fly=65.4357 hoist=68.345
+  point fly=65.2751 hoist=67.2208
+  point fly=66.1142 hoist=66.4557
+  point fly=65.0037 hoist=66.258
+  point fly=64.5338 hoist=65.2335
+  point fly=63.9907 hoist=66.2333
+  point fly=62.8673 hoist=66.3568
+  point fly=63.6573 hoist=67.1718
+  point fly=63.4356 hoist=68.2952
+}
+
+charge polygon grey {
+  point fly=60.9539 hoist=69.4926
+  point fly=61.781 hoist=70.258
+  point fly=61.8801 hoist=69.1223
+  point fly=62.8797 hoist=68.5792
+  point fly=61.8306 hoist=68.1227
+  point fly=61.6082 hoist=67.0233
+  point fly=60.8673 hoist=67.8633
+  point fly=59.7439 hoist=67.7396
+  point fly=60.3117 hoist=68.7149
+  point fly=59.843 hoist=69.7395
+}
+
+charge star grey {
+  radius 1.7086
+  inner 0.8534
+  rotate 28.3392
+  at fly=57.5788 hoist=69.6161
+}
+
+charge polygon grey {
+  point fly=71.3982 hoist=58.7277
+  point fly=72.5094 hoist=58.5176
+  point fly=71.6699 hoist=57.7647
+  point fly=71.8179 hoist=56.6413
+  point fly=70.8425 hoist=57.2089
+  point fly=69.8182 hoist=56.7152
+  point fly=70.0522 hoist=57.8261
+  point fly=69.2624 hoist=58.6534
+  point fly=70.3976 hoist=58.7644
+  point fly=70.9412 hoist=59.7645
+}
+
+charge polygon grey {
+  point fly=67.4348 hoist=65.3325
+  point fly=68.5216 hoist=65.6533
+  point fly=68.1143 hoist=64.5921
+  point fly=68.7436 hoist=63.6532
+  point fly=67.6206 hoist=63.7152
+  point fly=66.9164 hoist=62.826
+  point fly=66.6325 hoist=63.9247
+  point fly=65.5715 hoist=64.3075
+  point fly=66.5216 hoist=64.9125
+  point fly=66.5591 hoist=66.0482
+}
+
+charge star grey {
+  radius 1.7076
+  inner 0.8535
+  rotate -6.0483
+  at fly=70.1069 hoist=47.1416
+}
+
+charge polygon grey {
+  point fly=72.1262 hoist=54.9129
+  point fly=73.164 hoist=54.456
+  point fly=72.1634 hoist=53.9131
+  point fly=72.0523 hoist=52.7894
+  point fly=71.2253 hoist=53.5673
+  point fly=70.1266 hoist=53.3203
+  point fly=70.6078 hoist=54.3451
+  point fly=70.0277 hoist=55.3327
+  point fly=71.1639 hoist=55.1846
+  point fly=71.9165 hoist=56.0364
+}
+
+charge polygon grey {
+  point fly=71.978 hoist=51.0488
+  point fly=72.8799 hoist=50.3698
+  point fly=71.7807 hoist=50.0737
+  point fly=71.4106 hoist=48.9872
+  point fly=70.7931 hoist=49.9378
+  point fly=69.6575 hoist=49.9638
+  point fly=70.3611 hoist=50.8525
+  point fly=70.0275 hoist=51.939
+  point fly=71.0895 hoist=51.5437
+  point fly=72.0277 hoist=52.1857
+}
+
+charge polygon grey {
+  point fly=53.4854 hoist=70.3938
+  point fly=52.8677 hoist=71.3319
+  point fly=52.5096 hoist=70.2457
+  point fly=51.4109 hoist=69.9371
+  point fly=52.3246 hoist=69.2581
+  point fly=52.2876 hoist=68.1349
+  point fly=53.2135 hoist=68.7892
+  point fly=54.263 hoist=68.4064
+  point fly=53.9177 hoist=69.4804
+  point fly=54.6211 hoist=70.381
+}

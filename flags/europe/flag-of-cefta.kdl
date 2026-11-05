@@ -1,0 +1,75 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of CEFTA"
+  encoder "User:Madden"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_CEFTA.svg"
+}
+palette {
+  blue "#003399"
+  yellow "#ffcc00"
+}
+proportion hoist=223 fly=326
+
+field blue
+
+charge ring yellow {
+  radius 22.5
+  inner 8.5
+  at fly=163 hoist=116.5
+}
+
+charge ring yellow {
+  radius 52
+  inner 38
+  at fly=163 hoist=116.5
+}
+
+charge lozenge blue {
+  fly 86.2666
+  hoist 86.2666
+  at fly=206.1328 hoist=116.5
+}
+
+charge rect yellow {
+  fly 30.167
+  hoist 14
+  at fly=104.5835 hoist=116.5
+}
+
+charge rect yellow {
+  fly 45
+  hoist 14
+  at fly=244 hoist=116.5
+}
+
+charge polygon yellow {
+  point fly=184.9198 hoist=84.7091
+  point fly=204.6454 hoist=64.9825
+  point fly=214.546 hoist=74.8827
+  point fly=194.8204 hoist=94.6092
+}
+
+charge rect yellow {
+  fly 14
+  hoist 54.5576
+  at fly=163 hoist=41.2788
+}
+
+charge disc yellow {
+  radius 7
+  at fly=114.667 hoist=70.5586
+  at fly=73.5 hoist=116.501
+  at fly=163 hoist=183.501
+  at fly=163 hoist=206.001
+  at fly=208 hoist=116.5
+}
+
+charge lozenge yellow {
+  fly 19.7988
+  hoist 19.7988
+  at fly=116.0005 hoist=163.2246
+  at fly=220.334 hoist=173.8906
+}

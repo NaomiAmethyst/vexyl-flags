@@ -1,0 +1,57 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Khakassia (1992-1993)"
+  encoder "Comment – This license tag is also applicable to official documents, state symbols and signs of the Russian Soviet Feder"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Khakassia_(1992%E2%80%931993).svg"
+}
+palette {
+  white "#ffffff"
+  blue "#007fff"
+  red "#ff2400"
+  green "#009847"
+  black "#000000"
+}
+proportion hoist=180 fly=360
+
+bars white blue red
+
+panel {
+  side hoist
+  width 60
+  field green
+  charge polygon black {
+    point fly=8.7868 hoist=111.2132
+    point fly=44.8492 hoist=104.8492
+    point fly=51.2132 hoist=68.7868
+    point fly=15.1508 hoist=75.1508
+  }
+  charge polygon black {
+    point fly=51.2132 hoist=111.2132
+    point fly=15.1508 hoist=104.8492
+    point fly=8.7868 hoist=68.7868
+    point fly=44.8492 hoist=75.1508
+  }
+  charge disc black {
+    radius 24
+    at fly=30 hoist=90
+  }
+  charge disc white {
+    radius 21
+    at fly=30 hoist=90
+  }
+  charge disc black {
+    radius 18
+    at fly=30 hoist=90
+  }
+  charge disc white {
+    radius 12
+    at fly=30 hoist=90
+  }
+  charge disc black {
+    radius 10
+    at fly=30 hoist=90
+  }
+}

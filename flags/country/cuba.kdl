@@ -1,0 +1,25 @@
+vexyl 1
+meta {
+  name "Cuba"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cuba.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  blue "#002a8f"
+  white "#ffffff"
+  red "#cb1515"
+}
+proportion hoist=15 fly=30
+
+bars blue white {
+  count 5
+}
+chevrons red {
+  depth 12.99
+}
+charge star white {
+  radius 2.5
+  at fly=4.33 hoist=7.5
+}

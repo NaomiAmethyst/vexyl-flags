@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flagge Herzogtum Braunschweig (1814-1830)"
+  encoder "Siebrand"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flagge_Herzogtum_Braunschweig_(1814-1830).svg"
+}
+palette {
+  blue "#0047ab"
+  white "#ffffff"
+}
+proportion hoist=400 fly=600
+
+bars blue white

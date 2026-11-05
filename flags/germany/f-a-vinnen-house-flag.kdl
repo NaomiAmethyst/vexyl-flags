@@ -1,0 +1,18 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "F. A. Vinnen house flag"
+  encoder "Unknown (anonymous)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:F._A._Vinnen_house_flag.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#355a9b"
+}
+proportion hoist=400 fly=600
+
+quarters white blue white blue {
+  diagonal
+}

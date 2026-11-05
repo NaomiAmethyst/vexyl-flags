@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Sakha"
+  encoder "Lyudmila Sleptsova, Mikhail Starostin, Pyotr Zakharov (Людмила Слепцова, Михаил Старостин, Пётр Захаров)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Sakha.svg"
+}
+palette {
+  blue "#1199ff"
+  white "#ffffff"
+  red "#ff2200"
+  green "#009900"
+}
+proportion hoist=64 fly=128
+
+bars blue white red green {
+  ratio 12 1 1 2
+}
+
+charge disc white {
+  radius 13
+  at fly=64 hoist=24
+}

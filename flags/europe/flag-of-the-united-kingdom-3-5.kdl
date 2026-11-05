@@ -1,0 +1,61 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the United Kingdom (3-5)"
+  encoder "Original: Acts of Union 1800 Vector: Yaddah"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(3-5).svg"
+}
+palette {
+  blue "#012169"
+  white "#ffffff"
+  red "#c8102e"
+}
+proportion hoist=30 fly=50
+
+field blue
+
+saltire white {
+  width 6
+}
+
+charge svg {
+  at center
+  fly 50
+  hoist 30
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30"><defs><clipPath id="t"><path d="M25,15h25v15zv15h-25zh-25v-15zv-15h25z"></path></clipPath></defs><path d="M0,0 50,30M50,0 0,30" stroke-width="4" clip-path="url(#t)" stroke="#c8102e" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge polygon red {
+  point fly=-1 hoist=11
+  point fly=21 hoist=11
+  point fly=21 hoist=-1
+  point fly=29 hoist=-1
+  point fly=29 hoist=11
+  point fly=51 hoist=11
+  point fly=51 hoist=19
+  point fly=29 hoist=19
+  point fly=29 hoist=31
+  point fly=21 hoist=31
+  point fly=21 hoist=19
+  point fly=-1 hoist=19
+}
+
+charge polygon white {
+  point fly=-1 hoist=11
+  point fly=21 hoist=11
+  point fly=21 hoist=-1
+  point fly=29 hoist=-1
+  point fly=29 hoist=11
+  point fly=51 hoist=11
+  point fly=51 hoist=19
+  point fly=29 hoist=19
+  point fly=29 hoist=31
+  point fly=21 hoist=31
+  point fly=21 hoist=19
+  point fly=-1 hoist=19
+  hollow 2
+}

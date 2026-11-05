@@ -1,0 +1,50 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Mordovia"
+  encoder "Fry1989"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mordovia.svg"
+}
+palette {
+  white "#ffffff"
+  purple "#28166f"
+  red "#d20000"
+}
+proportion hoist=800 fly=1200
+
+bars white purple {
+  ratio 3 1
+}
+
+panel {
+  side top
+  width 200
+  field red
+}
+
+charge polygon red {
+  point fly=550 hoist=250
+  point fly=750 hoist=450
+  point fly=450 hoist=450
+  point fly=650 hoist=250
+  point fly=650 hoist=550
+  point fly=450 hoist=350
+  point fly=750 hoist=350
+  point fly=550 hoist=550
+}
+
+charge polygon white {
+  point fly=536.4645 hoist=343.5355
+  point fly=656.4645 hoist=463.5355
+  point fly=663.5355 hoist=456.4645
+  point fly=543.5355 hoist=336.4645
+}
+
+charge polygon white {
+  point fly=543.5355 hoist=463.5355
+  point fly=663.5355 hoist=343.5355
+  point fly=656.4645 hoist=336.4645
+  point fly=536.4645 hoist=456.4645
+}

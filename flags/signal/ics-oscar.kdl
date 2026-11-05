@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Oscar"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Oscar.svg"
+}
+palette {
+  red "#ff0000"
+  yellow "#ffff00"
+}
+proportion hoist=1 fly=1
+
+field red
+
+pile yellow {
+  tip 1 1
+}

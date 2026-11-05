@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Senegal (1958–1959)"
+  encoder "Patricia.fidi"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal_(1958%E2%80%931959).svg"
+}
+palette {
+  green "#00853f"
+}
+proportion hoist=4 fly=6
+
+field green
+
+charge svg {
+  at center
+  fly 6
+  hoist 4
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 4"><polygon points="0,0 0,1 0.5,1" transform="matrix(0.951057 0.309017 -0.309017 0.951057 3 1)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-0.951057 0.309017 0.309017 0.951057 3 1)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(0 1 -1 0 3.951057 1.690983)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 3.951057 1.690983)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(0.587785 -0.809017 0.809017 0.587785 2.048943 1.690983)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-0 1 1 0 2.048943 1.690983)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 3.587785 2.809017)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 3.587785 2.809017)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 2.412215 2.809017)" fill="#fdef42"/><polygon points="0,0 0,1 0.5,1" transform="matrix(0.951057 0.309017 0.309017 -0.951057 2.412215 2.809017)" fill="#fdef42"/></svg>
+"""#
+}

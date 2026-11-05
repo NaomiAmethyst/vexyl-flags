@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Rwanda (January – September 1961)"
+  encoder "Unknown sourceUnknown source"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda_(January_%E2%80%93_September_1961).svg"
+}
+palette {
+  red "#e20212"
+  yellow "#f9d302"
+  green "#319000"
+}
+proportion hoist=300 fly=450
+
+bars red yellow green {
+  along hoist
+}

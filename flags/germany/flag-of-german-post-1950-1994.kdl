@@ -1,0 +1,28 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of German post (1950-1994)"
+  encoder "Jwnabd"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_German_post_(1950-1994).svg"
+}
+palette {
+  black "#000000"
+  red "#dd0000"
+  yellow "#ffd700"
+}
+proportion hoist=600 fly=1000
+
+bars black red yellow {
+  ratio 4 7 4
+}
+
+charge svg {
+  at center
+  fly 1000
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><circle cx="492" r="83" cy="257" stroke-width="4" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><circle cx="492" r="60" cy="257" stroke-width="4" stroke-linecap="round" stroke="#000000" fill="#dd0000" transform="matrix(1 0 0 1 0 0)"/><path d="m457 313c-30-19-40-59-22-90m122 0c17 36 4 79-32 98" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m328.5 215l-16 12.5 2.5 7.5 18.5 16 10.5-9-9-23zm-13.5 20l20-16" stroke-width="4" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><path d="m320 239l10-8" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><path d="m345 241c84 106 178 111 249 24v-63l92 47-51 37c-103 95-209 92-303-34z" stroke-width="4" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><path d="m545 327c-6 2-6 5 1 3 56-18 79-59 111-95l-15-7c-19 33-45 81-97 99z" stroke-width="4" stroke-linecap="round" stroke="none" fill="#000000" transform="matrix(1 0 0 1 0 0)"/><path d="m593 221l79 40h6l1-5-86-44-4 4zm0 43l42 22h8l-1-6-47-24-5 2zm-243-17l-13.1 11.5-0.4 5.5 5.5 1 13.5-11.5v-5.5z" stroke-width="4" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><circle cx="492" r="83" cy="257" stroke-width="4" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><circle cx="492" r="60" cy="257" stroke-width="4" stroke-linecap="round" stroke="#000000" fill="#dd0000" transform="matrix(1 0 0 1 0 0)"/><path d="m457 313c-30-19-40-59-22-90m122 0c17 36 4 79-32 98" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="none" transform="matrix(1 0 0 1 0 0)"/><rect width="10" rx="5" height="45" transform="matrix(0.978148 0.207912 -0.207912 0.978148 457.835262 303.828689)" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700"/><rect width="10" rx="5" height="45" transform="matrix(0.978148 0.207912 -0.207912 0.978148 467.835262 306.828689)" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700"/><rect width="10" rx="5" height="45" transform="matrix(0.978148 0.207912 -0.207912 0.978148 477.835262 309.828689)" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700"/><rect width="10" rx="5" height="60" transform="matrix(0.978148 0.207912 -0.207912 0.978148 488.36575 309.295804)" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700"/><path d="m469 383l12 4 4-14c2-10-9-14-12-4zm7 1l2-8" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><path d="m448 423l25 8 9-27c6-20-17-29-24-10zm8 2l10-30m-3 32l10-30" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><path d="m428 348h-38l14 17h-28l16 18h-25v-5l-13 10 13 8v-6h45l-15-17h30l-16-17h23l-6-8zm24 12l-22 20 8 3-18 13 11 5-13 11-5-4-2 17 19-3-6-5 22-18-11-5 19-14-10-4 15-13z" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(1 0 0 1 0 0)"/><rect width="10" rx="5" height="45" transform="matrix(-0.978148 0.207912 0.207912 0.978148 526.164738 303.828689)" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700"/><rect width="10" rx="5" height="45" transform="matrix(-0.978148 0.207912 0.207912 0.978148 516.164738 306.828689)" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700"/><rect width="10" rx="5" height="45" transform="matrix(-0.978148 0.207912 0.207912 0.978148 506.164738 309.828689)" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700"/><rect width="10" rx="5" height="60" transform="matrix(-0.978148 0.207912 0.207912 0.978148 495.63425 309.295804)" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700"/><path d="m469 383l12 4 4-14c2-10-9-14-12-4zm7 1l2-8" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(-1 0 0 1 984 0)"/><path d="m448 423l25 8 9-27c6-20-17-29-24-10zm8 2l10-30m-3 32l10-30" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(-1 0 0 1 984 0)"/><path d="m428 348h-38l14 17h-28l16 18h-25v-5l-13 10 13 8v-6h45l-15-17h30l-16-17h23l-6-8zm24 12l-22 20 8 3-18 13 11 5-13 11-5-4-2 17 19-3-6-5 22-18-11-5 19-14-10-4 15-13z" stroke-width="3" stroke-linecap="round" stroke="#000000" fill="#ffd700" transform="matrix(-1 0 0 1 984 0)"/></svg>
+"""#
+}

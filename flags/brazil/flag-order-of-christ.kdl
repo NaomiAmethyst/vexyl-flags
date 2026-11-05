@@ -1,0 +1,51 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag Order of Christ"
+  encoder "Jsobral"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_Order_of_Christ.svg"
+}
+palette {
+  white "#ffffff"
+  red "#d62c26"
+}
+proportion hoist=503 fly=753
+
+field white
+
+charge polygon red {
+  point fly=267 hoist=33
+  point fly=321 hoist=87
+  point fly=321 hoist=196
+  point fly=212 hoist=196
+  point fly=158 hoist=142
+  point fly=158 hoist=361
+  point fly=212 hoist=307
+  point fly=321 hoist=307
+  point fly=321 hoist=416
+  point fly=267 hoist=470
+  point fly=486 hoist=470
+  point fly=432 hoist=416
+  point fly=432 hoist=307
+  point fly=541 hoist=307
+  point fly=595 hoist=361
+  point fly=595 hoist=142
+  point fly=541 hoist=196
+  point fly=432 hoist=196
+  point fly=432 hoist=87
+  point fly=486 hoist=33
+}
+
+charge rect white {
+  fly 37
+  hoist 330
+  at fly=376.5 hoist=251.5
+}
+
+charge rect white {
+  fly 330
+  hoist 37
+  at fly=376.5 hoist=251.5
+}

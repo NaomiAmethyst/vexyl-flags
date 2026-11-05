@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Grand Duchy of Berg (1806-1808)"
+  encoder "Sir Iain"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grand_Duchy_of_Berg_(1806-1808).svg"
+}
+palette {
+  white "#ffffff"
+  pink "#bd0042"
+}
+proportion hoist=400 fly=600
+
+bars white pink

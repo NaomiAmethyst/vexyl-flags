@@ -1,0 +1,23 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Baraya"
+  encoder "Aliman5040"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Baraya.svg"
+}
+palette {
+  yellow "#fcef3c"
+  red "#e20909"
+}
+proportion hoist=400 fly=600
+
+field yellow
+
+charge rect red {
+  fly 599.6775
+  hoist 79.9154
+  at fly=300.1147 hoist=120.1192
+  at fly=300.1147 hoist=279.95
+}

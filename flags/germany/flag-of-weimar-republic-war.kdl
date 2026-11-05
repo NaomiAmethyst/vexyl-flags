@@ -1,0 +1,59 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Weimar Republic (war)"
+  encoder "diese Datei: Jwnabd"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:War_Ensign_of_Germany_(1921%E2%80%931933).svg"
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  red "#dd0000"
+  yellow "#ffd700"
+}
+proportion hoist=90 fly=150
+
+bars black white red
+
+canton {
+  fly 30
+  hoist 19.2
+  field white
+}
+
+canton {
+  fly 29
+  hoist 19.2
+  field yellow
+}
+
+canton {
+  fly 29
+  hoist 12.8
+  field red
+}
+
+canton {
+  fly 29
+  hoist 6.4
+  field black
+}
+
+charge path black {
+  d "M62.4 20C66.3 25.75 68.85 32.45 69.7 39.7C62.45 38.85 55.75 36.3 50 32.4L50 57.6C55.75 53.7 62.45 51.15 69.7 50.3C68.85 57.55 66.3 64.25 62.4 70L87.6 70C83.7 64.25 81.15 57.55 80.3 50.3C87.55 51.15 94.25 53.7 100 57.6L100 32.4C94.25 36.3 87.55 38.85 80.3 39.7C81.15 32.45 83.7 25.75 87.6 20Z"
+  box "50 20 50 50"
+  fly 50
+  hoist 50
+  at fly=75 hoist=45
+}
+
+charge path white {
+  d "M64.75 21.25C68.25 27.1 70.5 33.85 71.1 41.1C63.85 40.5 57.1 38.25 51.25 34.75L51.25 55.25C57.1 51.75 63.85 49.5 71.1 48.9C70.5 56.15 68.25 62.9 64.75 68.75L85.25 68.75C81.75 62.9 79.5 56.15 78.9 48.9C86.15 49.5 92.9 51.75 98.75 55.25L98.75 34.75C92.9 38.25 86.15 40.5 78.9 41.1C79.5 33.85 81.75 27.1 85.25 21.25Z"
+  box "51.25 21.25 47.5 47.5"
+  fly 47.5
+  hoist 47.5
+  hollow 1.65
+  at fly=75 hoist=45
+}

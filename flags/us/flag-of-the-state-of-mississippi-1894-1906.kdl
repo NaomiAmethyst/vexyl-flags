@@ -1,0 +1,49 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the State of Mississippi (1894–1906)"
+  encoder "Mario Fabretto"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Mississippi_(1894%E2%80%931906).svg"
+}
+palette {
+  blue "#00205b"
+  white "#ffffff"
+  pink "#bf0a30"
+}
+proportion hoist=600 fly=900
+
+bars blue white pink
+
+panel {
+  side hoist
+  width 400
+  field pink
+}
+
+charge svg {
+  at center
+  fly 900
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><defs><clipPath id="b" clipPathUnits="userSpaceOnUse" fill="#000000"><path d="M -92.485,280.173 H 13.348 V 386.006 H -92.485 Z" stroke-width=".223" fill="#00ff00"></path></clipPath><clipPath id="a" clipPathUnits="userSpaceOnUse" fill="#000000"><path d="M -92.485,280.173 H 13.348 V 386.006 H -92.485 Z" stroke-width=".223" fill="#00ff00"></path></clipPath></defs><path d="M -92.485,386.006 13.348,280.173 m 0,105.833 L -92.485,280.173 13.348,386.006" transform="matrix(3.77953 0 0 3.77953 349.549994 -1058.919996)" stroke-width="21.167" clip-path="url(#a)" stroke="#ffffff" fill="#000000"/><path d="M 13.348,280.173 -92.485,386.006 m 0,-105.833 105.833,105.833" transform="matrix(3.77953 0 0 3.77953 349.549994 -1058.919996)" stroke-width="15.875" clip-path="url(#b)" stroke="#00205b" fill="#000000"/></svg>
+"""#
+}
+
+charge star white {
+  radius 22.5
+  at fly=199.9998 hoist=200
+  at fly=144.9998 hoist=145
+  at fly=89.9998 hoist=90
+  at fly=34.9998 hoist=35
+  at fly=254.9998 hoist=145
+  at fly=309.9998 hoist=90
+  at fly=364.9998 hoist=35
+  at fly=144.9998 hoist=255
+  at fly=89.9998 hoist=310
+  at fly=34.9998 hoist=365
+  at fly=254.9998 hoist=255
+  at fly=309.9998 hoist=310
+  at fly=364.9998 hoist=365
+}

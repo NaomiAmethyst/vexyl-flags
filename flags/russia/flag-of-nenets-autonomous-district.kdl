@@ -1,0 +1,28 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Nenets Autonomous District"
+  encoder "Original: Unknown Vector: Conscious"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nenets_Autonomous_District.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0038a8"
+  green "#008000"
+}
+proportion hoist=300 fly=450
+
+bars white blue green {
+  ratio 17 5 3
+}
+
+charge svg {
+  at center
+  fly 450
+  hoist 300
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300"><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 -61.875 192.75)"/><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 -5.624656 192.75)"/><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 50.625689 192.75)"/><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 106.876033 192.75)"/><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 163.126378 192.75)"/><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 219.376722 192.75)"/><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 275.627067 192.75)"/><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 331.877411 192.75)"/><path d="M0,3v-1h1v1h1v-3h1v1h1v1h-1v1h1v-1h1v1h1v1h-3v1h1v1h1v-1h1v1h-1v2z" fill="#0038a8" transform="matrix(5.625034 -5.625034 5.625034 5.625034 388.127756 192.75)"/></svg>
+"""#
+}

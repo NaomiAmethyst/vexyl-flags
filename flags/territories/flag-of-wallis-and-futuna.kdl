@@ -1,0 +1,61 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Wallis and Futuna"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Wallis_and_Futuna.svg"
+}
+palette {
+  red "#ce1126"
+  white "#ffffff"
+  blue "#002654"
+}
+proportion hoist=100 fly=150
+
+field red
+
+canton {
+  fly 40
+  hoist 40
+  field white
+}
+
+canton {
+  fly 20
+  hoist 40
+  field blue
+}
+
+charge path white {
+  d "M0 40L60 40L60 0"
+  box "0 0 60 40"
+  fly 60
+  hoist 40
+  hollow 1
+  at fly=30 hoist=20
+}
+
+charge polygon white {
+  point fly=105 hoist=46
+  point fly=93 hoist=34
+  point fly=117 hoist=34
+}
+
+charge polygon white {
+  point fly=101 hoist=50
+  point fly=89 hoist=38
+  point fly=89 hoist=62
+}
+
+charge polygon white {
+  point fly=105 hoist=54
+  point fly=93 hoist=66
+  point fly=117 hoist=66
+}
+
+charge polygon white {
+  point fly=109 hoist=50
+  point fly=121 hoist=38
+  point fly=121 hoist=62
+}

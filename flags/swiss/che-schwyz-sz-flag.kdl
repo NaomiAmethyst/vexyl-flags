@@ -1,0 +1,33 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "CHE Schwyz SZ Flag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:CHE_Schwyz_SZ_Flag.svg"
+}
+palette {
+  red "#f00000"
+  white "#ffffff"
+}
+proportion hoist=360 fly=360
+outline pennant {
+  tip 360.0183
+}
+
+field red
+
+charge polygon white {
+  point fly=27.3131 hoist=82.701
+  point fly=82.8284 hoist=82.701
+  point fly=82.8284 hoist=27.5528
+  point fly=96.7072 hoist=27.5528
+  point fly=96.7072 hoist=82.701
+  point fly=152.2224 hoist=82.701
+  point fly=152.2224 hoist=96.488
+  point fly=96.7072 hoist=96.488
+  point fly=96.7072 hoist=151.6362
+  point fly=82.8284 hoist=151.6362
+  point fly=82.8284 hoist=96.488
+  point fly=27.3131 hoist=96.488
+}

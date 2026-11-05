@@ -1,0 +1,15 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ukraine (1917–1921)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine_(1917%E2%80%931921).svg"
+}
+palette {
+  blue "#73b1ff"
+  yellow "#ffcc33"
+}
+proportion hoist=800 fly=1200
+
+bars blue yellow

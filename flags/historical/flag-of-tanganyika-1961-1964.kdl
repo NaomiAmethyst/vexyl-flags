@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tanganyika (1961-1964)"
+  encoder "Mysid"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tanganyika_(1961%E2%80%931964).svg"
+}
+palette {
+  green "#008000"
+  yellow "#ffcc00"
+  black "#000000"
+}
+proportion hoist=48 fly=72
+
+bars green yellow black yellow green {
+  ratio 14 3 14 3 14
+}

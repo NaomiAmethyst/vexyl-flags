@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Sovereign Military Order of Malta"
+  encoder "Zscout370"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Order_of_St._John_(various).svg"
+}
+palette {
+  red "#da121a"
+  white "#ffffff"
+}
+proportion hoist=600 fly=900
+
+field red
+
+cross white {
+  fly 400 100 400
+  hoist 250 100 250
+}

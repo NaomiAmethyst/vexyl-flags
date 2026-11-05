@@ -1,0 +1,354 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Air Force Ensign of India (1950–2023)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Air_Force_Ensign_of_India_(1950%E2%80%932023).svg"
+}
+palette {
+  blue "#64b4e6"
+  green "#006934"
+  white "#ffffff"
+  orange "#f15b25"
+  blue-2 "#2c2c6f"
+}
+proportion hoist=450 fly=900
+
+field blue
+
+canton {
+  fly 450
+  hoist 225
+  field green
+}
+
+canton {
+  fly 450
+  hoist 150
+  field white
+}
+
+canton {
+  fly 450
+  hoist 75
+  field orange
+}
+
+charge disc orange {
+  radius 150
+  at fly=675 hoist=225
+}
+
+charge disc white {
+  radius 95
+  at fly=675 hoist=225
+}
+
+charge disc green {
+  radius 40.9
+  at fly=675 hoist=225
+}
+
+charge disc blue-2 {
+  radius 34.6875
+  at fly=225 hoist=112.5
+}
+
+charge disc white {
+  radius 30
+  at fly=225 hoist=112.5
+}
+
+charge disc blue-2 {
+  radius 6
+  at fly=225 hoist=112.5
+}
+
+charge polygon blue-2 {
+  point fly=225 hoist=82.5
+  point fly=226.125 hoist=100.5528
+  point fly=225 hoist=109.4912
+  point fly=223.875 hoist=100.5528
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=228.9158 hoist=82.7567
+}
+
+charge polygon blue-2 {
+  point fly=225 hoist=142.5
+  point fly=223.875 hoist=124.4472
+  point fly=225 hoist=115.5088
+  point fly=226.125 hoist=124.4472
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=221.0842 hoist=142.2433
+}
+
+charge polygon blue-2 {
+  point fly=232.7646 hoist=83.5222
+  point fly=229.1788 hoist=101.2511
+  point fly=225.7787 hoist=109.5937
+  point fly=227.0055 hoist=100.6688
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=236.4805 hoist=84.7836
+}
+
+charge polygon blue-2 {
+  point fly=217.2354 hoist=141.4778
+  point fly=220.8212 hoist=123.7489
+  point fly=224.2213 hoist=115.4063
+  point fly=222.9945 hoist=124.3312
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=213.5195 hoist=140.2164
+}
+
+charge polygon blue-2 {
+  point fly=240 hoist=86.5192
+  point fly=231.9479 hoist=102.716
+  point fly=226.5044 hoist=109.8943
+  point fly=229.9993 hoist=101.591
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=243.2628 hoist=88.6994
+}
+
+charge polygon blue-2 {
+  point fly=210 hoist=138.4808
+  point fly=218.0521 hoist=122.284
+  point fly=223.4956 hoist=115.1057
+  point fly=220.0007 hoist=123.409
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=206.7372 hoist=136.3006
+}
+
+charge polygon blue-2 {
+  point fly=246.2132 hoist=91.2868
+  point fly=234.2434 hoist=104.8476
+  point fly=227.1276 hoist=110.3724
+  point fly=232.6524 hoist=103.2566
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=248.8006 hoist=94.2372
+}
+
+charge polygon blue-2 {
+  point fly=203.7868 hoist=133.7132
+  point fly=215.7566 hoist=120.1524
+  point fly=222.8724 hoist=114.6276
+  point fly=217.3476 hoist=121.7434
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=201.1994 hoist=130.7628
+}
+
+charge polygon blue-2 {
+  point fly=250.9808 hoist=97.5
+  point fly=235.909 hoist=107.5007
+  point fly=227.6057 hoist=110.9956
+  point fly=234.784 hoist=105.5521
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=252.7164 hoist=101.0195
+}
+
+charge polygon blue-2 {
+  point fly=199.0192 hoist=127.5
+  point fly=214.091 hoist=117.4993
+  point fly=222.3943 hoist=114.0044
+  point fly=215.216 hoist=119.4479
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=197.2836 hoist=123.9805
+}
+
+charge polygon blue-2 {
+  point fly=253.9778 hoist=104.7354
+  point fly=236.8312 hoist=110.4945
+  point fly=227.9063 hoist=111.7213
+  point fly=236.2489 hoist=108.3212
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=254.7433 hoist=108.5842
+}
+
+charge polygon blue-2 {
+  point fly=196.0222 hoist=120.2646
+  point fly=213.1688 hoist=114.5055
+  point fly=222.0937 hoist=113.2787
+  point fly=213.7511 hoist=116.6788
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=195.2567 hoist=116.4158
+}
+
+charge polygon blue-2 {
+  point fly=255 hoist=112.5
+  point fly=236.9472 hoist=113.625
+  point fly=228.0088 hoist=112.5
+  point fly=236.9472 hoist=111.375
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=254.7433 hoist=116.4158
+}
+
+charge polygon blue-2 {
+  point fly=195 hoist=112.5
+  point fly=213.0528 hoist=111.375
+  point fly=221.9912 hoist=112.5
+  point fly=213.0528 hoist=113.625
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=195.2567 hoist=108.5842
+}
+
+charge polygon blue-2 {
+  point fly=253.9778 hoist=120.2646
+  point fly=236.2489 hoist=116.6788
+  point fly=227.9063 hoist=113.2787
+  point fly=236.8312 hoist=114.5055
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=252.7164 hoist=123.9805
+}
+
+charge polygon blue-2 {
+  point fly=196.0222 hoist=104.7354
+  point fly=213.7511 hoist=108.3212
+  point fly=222.0937 hoist=111.7213
+  point fly=213.1688 hoist=110.4945
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=197.2836 hoist=101.0195
+}
+
+charge polygon blue-2 {
+  point fly=250.9808 hoist=127.5
+  point fly=234.784 hoist=119.4479
+  point fly=227.6057 hoist=114.0044
+  point fly=235.909 hoist=117.4993
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=248.8006 hoist=130.7628
+}
+
+charge polygon blue-2 {
+  point fly=199.0192 hoist=97.5
+  point fly=215.216 hoist=105.5521
+  point fly=222.3943 hoist=110.9956
+  point fly=214.091 hoist=107.5007
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=201.1994 hoist=94.2372
+}
+
+charge polygon blue-2 {
+  point fly=246.2132 hoist=133.7132
+  point fly=232.6524 hoist=121.7434
+  point fly=227.1276 hoist=114.6276
+  point fly=234.2434 hoist=120.1524
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=243.2628 hoist=136.3006
+}
+
+charge polygon blue-2 {
+  point fly=203.7868 hoist=91.2868
+  point fly=217.3476 hoist=103.2566
+  point fly=222.8724 hoist=110.3724
+  point fly=215.7566 hoist=104.8476
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=206.7372 hoist=88.6994
+}
+
+charge polygon blue-2 {
+  point fly=240 hoist=138.4808
+  point fly=229.9993 hoist=123.409
+  point fly=226.5044 hoist=115.1057
+  point fly=231.9479 hoist=122.284
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=236.4805 hoist=140.2164
+}
+
+charge polygon blue-2 {
+  point fly=210 hoist=86.5192
+  point fly=220.0007 hoist=101.591
+  point fly=223.4956 hoist=109.8943
+  point fly=218.0521 hoist=102.716
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=213.5195 hoist=84.7836
+}
+
+charge polygon blue-2 {
+  point fly=232.7646 hoist=141.4778
+  point fly=227.0055 hoist=124.3312
+  point fly=225.7787 hoist=115.4063
+  point fly=229.1788 hoist=123.7489
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=228.9158 hoist=142.2433
+}
+
+charge polygon blue-2 {
+  point fly=217.2354 hoist=83.5222
+  point fly=222.9945 hoist=100.6688
+  point fly=224.2213 hoist=109.5937
+  point fly=220.8212 hoist=101.2511
+}
+
+charge disc blue-2 {
+  radius 1.3125
+  at fly=221.0842 hoist=82.7567
+}

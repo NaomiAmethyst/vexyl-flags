@@ -1,0 +1,71 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Woermann flag"
+  encoder "Uwe Dedering"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Woermann_flag.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0000ff"
+  green "#008000"
+}
+proportion hoist=600 fly=900
+
+charge path white {
+  d "M0.4627 0L899.5373 0A0.4627 0.4627 0 0 1 900 0.4627L900 599.5373A0.4627 0.4627 0 0 1 899.5373 600L0.4627 600A0.4627 0.4627 0 0 1 0 599.5373L0 0.4627A0.4627 0.4627 0 0 1 0.4627 0Z"
+  box "-0.4627 -0.4627 900.9255 600.9255"
+  fly 900.9255
+  hoist 600.9255
+  at fly=450 hoist=300
+}
+
+charge path blue {
+  d "M47.7627 53.99L852.2273 53.99A0.4627 0.4627 0 0 1 852.69 54.4527L852.69 545.5373A0.4627 0.4627 0 0 1 852.2273 546L47.7627 546A0.4627 0.4627 0 0 1 47.3 545.5373L47.3 54.4527A0.4627 0.4627 0 0 1 47.7627 53.99Z"
+  box "46.8373 53.5273 806.3155 492.9355"
+  fly 806.3155
+  hoist 492.9355
+  at fly=449.995 hoist=299.995
+}
+
+charge path white {
+  d "M95.07 107.98L801.58 107.98A0.47 0.47 0 0 1 802.05 108.45L802.05 491.35A0.47 0.47 0 0 1 801.58 491.82L95.07 491.82A0.47 0.47 0 0 1 94.6 491.35L94.6 108.45A0.47 0.47 0 0 1 95.07 107.98Z"
+  box "94.13 107.51 708.39 384.78"
+  fly 708.39
+  hoist 384.78
+  at fly=448.325 hoist=299.9
+}
+
+charge polygon green {
+  point fly=94.6 hoist=122.24
+  point fly=802.13 hoist=123.2581
+  point fly=94.64 hoist=476.6981
+  point fly=802.02 hoist=476.6188
+}
+
+charge polygon blue {
+  point fly=130.13 hoist=264.01
+  point fly=141.257 hoist=264.01
+  point fly=158.383 hoist=346.408
+  point fly=175.454 hoist=264.01
+  point fly=187.835 hoist=264.01
+  point fly=204.962 hoist=346.408
+  point fly=222.033 hoist=264.01
+  point fly=233.214 hoist=264.01
+  point fly=212.76 hoist=361.49
+  point fly=198.907 hoist=361.49
+  point fly=181.726 hoist=276.872
+  point fly=164.382 hoist=361.49
+  point fly=150.529 hoist=361.49
+}
+
+charge polygon blue {
+  point fly=697.9 hoist=260.02
+  point fly=708.678 hoist=260.02
+  point fly=708.678 hoist=345.429
+  point fly=739.022 hoist=345.429
+  point fly=739.022 hoist=356.404
+  point fly=697.899 hoist=356.404
+}

@@ -1,0 +1,76 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Lofa County"
+  encoder "Fry1989"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Lofa_County.svg"
+}
+palette {
+  green "#006633"
+  blue "#4186b1"
+  brown "#613d0d"
+  pink "#bf0a30"
+  white "#ffffff"
+  blue-2 "#002868"
+}
+proportion hoist=660 fly=1100
+
+field green
+
+charge path blue {
+  d "M0 162.223L0 208.8688C28.6033 237.2941 126.834 308.69 153.326 320.2078C183.3879 333.2782 193.8443 341.12 246.1256 350.2692C298.407 359.4185 344.1524 367.2607 376.8286 364.6466C409.5046 362.0324 482.6986 388.1735 510.1466 394.7086C537.5943 401.2437 589.876 419.5418 617.3236 426.0769C644.7711 432.612 670.9124 460.0602 686.5968 470.5162S714.0446 484.894 744.1062 508.4205C760.5424 521.2839 830.915 573.9577 889.1862 607.7552C933.1902 633.2792 976.5702 651.0832 1000.2402 660.0002L1100.0002 660.0002L1100.0002 632.055C1023.9002 627.509 960.5842 596.531 916.9492 567.439C851.0812 523.524 782.7362 469.252 755.8692 446.99C710.1232 409.0859 631.7002 380.3313 605.5602 376.41C579.4198 372.4888 572.8844 354.1905 525.8311 342.4271C478.7771 330.6641 375.5221 318.9011 257.8891 303.2161C140.2561 287.5321 42.2281 163.3641 42.2281 163.3641L0.0001 162.2231Z"
+  box "0 162.223 1100.0002 497.7772"
+  fly 1100.0002
+  hoist 497.7772
+  at fly=550.0001 hoist=411.1116
+}
+
+charge svg {
+  at center
+  fly 1100
+  hoist 660
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 660"><defs><linearGradient id="grad1" gradientUnits="userSpaceOnUse" x1="531.18" y1="200.586" y2="199.4" x2="599.167"><stop offset="0.1463" stop-color="#3b2200"/><stop offset="0.2125" stop-color="#563509"/><stop offset="0.35" stop-color="#613d0d"/><stop offset="0.3856" stop-color="#855705"/><stop offset="0.4463" stop-color="#976500"/><stop offset="0.5446" stop-color="#960"/><stop offset="0.642" stop-color="#865804"/><stop offset="0.7239" stop-color="#613d0d"/><stop offset="0.8603" stop-color="#5f3c0c"/><stop offset="0.9735" stop-color="#3b2200"/></linearGradient></defs><path d="m538.518 287.776s6.59918 20.4584 28.3778 20.4584c21.7784 0 24.4181-17.8184 24.4181-17.8184l1.97972-181.485s-8.57917-17.1586-31.0175-17.1586c-22.4381 0-30.3575 20.4584-30.3575 20.4584l6.59945 175.546z" stroke-linejoin="round" stroke-width="2.2" stroke="#000000" fill="url(#grad1)" transform="matrix(1 0 0 1 0 0)"/><ellipse cx="562.473" rx="30.5943" cy="109.737" ry="19.4494" stroke-linejoin="round" stroke-width="2.2" stroke="#000000" fill="#382511" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge path brown {
+  d "M582.553 97.4193L568.403 108.398L568.859 110.7334L591.2838 112.2625S593.3216 100.0386 582.5531 97.4195ZM541.1295 99.5409C535.5077 100.9442 533.7727 110.7761 533.7727 110.7761L554.735 109.9796L555.9199 106.9739L541.1295 99.5408Z"
+  box "533.7727 97.4193 59.5488 14.8432"
+  fly 59.5488
+  hoist 14.8432
+  at fly=563.5471 hoist=104.8409
+}
+
+charge svg {
+  at center
+  fly 1100
+  hoist 660
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 660"><defs><linearGradient id="grad2" gradientUnits="userSpaceOnUse" x1="515.628" y1="298.55" y2="298.96" x2="586.16"><stop offset="0" stop-color="#960"/><stop offset="0.5053" stop-color="#976500"/><stop offset="0.817" stop-color="#855705"/><stop offset="1" stop-color="#613d0d"/></linearGradient></defs><path d="m335.965 384.37l42.4897 58.809s45.556-39.8612 70.9621-67.8958c25.4062-28.0346 63.0773-81.9132 67.0197-91.1119 3.9424-9.19875 19.7117-28.4724 24.0919-35.481 4.3802-7.00865 21.464-17.9597 26.7204-19.7117 5.25635-1.7523 25.8442-16.6455 28.9105-24.0919 2.52395-6.12948 3.9424-45.9938-2.62845-51.2504-1.28535-1.02822-9.40748 9.61015-16.4948 14.7158-14.7851 10.2088-29.6233 21.7058-34.573 27.4805-0.4125-13.1994 0.825-28.0486-0.825-40.0106 0 0-10.7244 5.77473-11.962 14.437-1.49517 10.4665-8.19858 23.9272-9.07472 30.9358-0.87616 7.00865-5.57013 13.305-9.07446 18.5617-3.50432 5.25662-54.2262 60.9111-72.1856 75.3662s-54.3166 50.8123-66.1436 60.011c-11.8269 9.19875-37.2328 29.2364-37.2328 29.2364z" stroke-linejoin="round" stroke-width="2.2" stroke="#000000" fill="url(#grad2)" transform="matrix(1 0 0 1 0 0)"/><path d="m568.037 187.995s14.0811-7.38677 19.7136-14.0753c2.41065-2.86247 9.85683-11.8586 9.85683-11.8586m-30.3955 39.5456s15.4561-7.79873 21.0886-14.4873c2.41065-2.86247 9.85683-11.8585 9.85683-11.8585m-34.4985 39.6789s19.0091-9.03155 24.6414-15.7201c2.41065-2.86247 9.85682-11.8586 9.85682-11.8586" stroke-linejoin="round" stroke-width="2.2" stroke="#000000" fill="none" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+canton {
+  fly 275
+  hoist 165
+  field pink
+  charge rect white {
+    fly 275
+    hoist 15
+    at fly=137.5 hoist=22.5
+    repeat line count=5 hoist=30
+  }
+}
+
+canton {
+  fly 75
+  hoist 75
+  field blue-2
+  charge star white {
+    radius 22.5
+    at fly=37.5 hoist=37.5
+  }
+}

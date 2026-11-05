@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "CHE Zürich Flag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:CHE_Z%C3%BCrich_Flag.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0093dd"
+}
+proportion hoist=507.32 fly=507.32
+
+field white
+
+pile blue {
+  tip 507.32 507.32
+}

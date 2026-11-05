@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Japan (1870–1999)"
+  encoder "kahusi - (Talk)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg"
+}
+palette {
+  white "#ffffff"
+  red "#b0313f"
+}
+proportion hoist=700 fly=1000
+
+field white
+
+charge disc red {
+  radius 210
+  at fly=490 hoist=350
+}

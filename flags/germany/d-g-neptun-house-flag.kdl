@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "D. G. Neptun house flag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:D._G._Neptun_house_flag.svg"
+}
+palette {
+  yellow "#ffec00"
+  blue "#0d5aa1"
+}
+proportion hoist=284 fly=426
+
+charge path yellow {
+  d "M0 0L710 0L710 426L0 426"
+  box "0 0 710 426"
+  fly 710
+  hoist 426
+  at fly=355 hoist=213
+}
+
+charge path blue {
+  d "M0 0L710 0L710 426L0 426"
+  box "0 0 710 426"
+  fly 710
+  hoist 426
+  hollow 284
+  at fly=355 hoist=213
+}

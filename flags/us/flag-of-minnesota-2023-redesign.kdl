@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Minnesota (2023 redesign)"
+  encoder "Original: Minnesota State Emblems Redesign Commission Vector: Jamie Eilat, Undertiago"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg"
+}
+palette {
+  teal "#52c9e8"
+}
+proportion hoist=600 fly=1000
+
+field teal
+
+charge svg {
+  at center
+  fly 1000
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><path d="M0 0h560L390 300l170 300H0Z" fill="#002d5d" transform="matrix(1 0 0 1 0 0)"/><path d="m210 190 v90 l45 20 45-20z" transform="matrix(0.92388 0.382683 -0.382683 0.92388 88.69515 -65.900632)" fill="#ffffff"/><path d="m210 190 v90 l45 20 45-20z" transform="matrix(-0.92388 -0.382683 0.382683 -0.92388 331.30485 665.900632)" fill="#ffffff"/><path d="m210 190 v90 l45 20 45-20z" transform="matrix(0.382683 0.92388 -0.92388 0.382683 382.955336 -44.5063)" fill="#ffffff"/><path d="m210 190 v90 l45 20 45-20z" transform="matrix(-0.382683 -0.92388 0.92388 -0.382683 37.044664 644.5063)" fill="#ffffff"/><path d="m210 190 v90 l45 20 45-20z" transform="matrix(-0.92388 0.382683 -0.382683 -0.92388 554.5063 472.955336)" fill="#ffffff"/><path d="m210 190 v90 l45 20 45-20z" transform="matrix(0.92388 -0.382683 0.382683 0.92388 -134.5063 127.044664)" fill="#ffffff"/><path d="m210 190 v90 l45 20 45-20z" transform="matrix(0.382683 -0.92388 0.92388 0.382683 -155.900632 421.30485)" fill="#ffffff"/><path d="m210 190 v90 l45 20 45-20z" transform="matrix(-0.382683 0.92388 -0.92388 -0.382683 575.900632 178.69515)" fill="#ffffff"/></svg>
+"""#
+}

@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Ninilchik"
+  encoder "Argent Kvasnikoff"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ninilchik.svg"
+}
+palette {
+  brown "#aa4400"
+  teal "#008066"
+  yellow "#ffcc00"
+  white "#ffffff"
+}
+proportion hoist=600 fly=900
+
+bars brown teal {
+  along hoist
+}
+
+charge path yellow {
+  d "M383.828 399.922L516.406 399.922L556.875 276.112L450 200.078L343.125 276.112ZM383.828 400L516.406 400L556.875 276.112L450 200L343.125 276.112Z"
+  box "343.125 200 213.75 200"
+  fly 213.75
+  hoist 200
+  at fly=450 hoist=300
+}
+
+charge polygon white {
+  point fly=410.156 hoist=365.73
+  point fly=490.078 hoist=365.73
+  point fly=514.531 hoist=291.569
+  point fly=450 hoist=245.98
+  point fly=385.547 hoist=291.569
+}

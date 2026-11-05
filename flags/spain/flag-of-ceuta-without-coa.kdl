@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ceuta without coa"
+  encoder "PavelD"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ceuta_without_coa.svg"
+}
+palette {
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=4 fly=6
+
+field white
+
+charge polygon black {
+  point fly=0 hoist=0
+  point fly=3 hoist=0
+  point fly=3 hoist=4
+  point fly=6 hoist=4
+}
+
+charge polygon black {
+  point fly=6 hoist=0
+  point fly=6 hoist=2
+  point fly=0 hoist=2
+  point fly=0 hoist=4
+}

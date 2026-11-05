@@ -1,0 +1,44 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ainu"
+  encoder "Lexicon"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ainu.svg"
+}
+palette {
+  blue "#2194de"
+  red "#ff0000"
+  white "#ffffff"
+}
+proportion hoist=1200 fly=1800
+
+field blue
+
+charge polygon red {
+  point fly=1369 hoist=340.7
+  point fly=985 hoist=441.7
+  point fly=905 hoist=471.7
+  point fly=553 hoist=536.7
+  point fly=489 hoist=430.7
+  point fly=451 hoist=542.7
+  point fly=291 hoist=591.7
+  point fly=459 hoist=627.7
+  point fly=530 hoist=795.7
+  point fly=570 hoist=635.7
+  point fly=953 hoist=660.7
+  point fly=1271 hoist=749.7
+  point fly=1565 hoist=783.7
+  point fly=1301 hoist=652.7
+  point fly=1745 hoist=572.7
+  point fly=1223 hoist=481.7
+}
+
+charge path white {
+  d "M41.9 596C231.9 664 284.9 947 529.9 947C619.9 946 733.9 765 833.9 765C884.9 766 916.9 818 916.9 859S873.9 954 834.9 954S775.9 935 775.9 909S789.9 860 825.9 860S837.9 861 844.9 862C840.9 840 806.9 819 768.9 819C704.9 819 668.9 879 668.9 921C668.9 1012 745.9 1108 854.9 1108S1049.9 976 1049.9 847S921.9 665 817.9 664C698.9 664 583.9 812 524.9 812C417.9 812 313.9 660 205.9 599C275.9 575 427.9 398 479.9 398S660.9 478 766.9 478S945.9 442 942.9 300C941.9 216 901.9 127 783.9 127C715.9 128 660.9 164 660.9 232C661.9 282 698.9 298 752.9 300C729.9 280 721.9 262 721.9 248C721.9 219 754.9 204 781.9 203C811.9 203 830.9 226 830.9 262S807.9 346 750.9 346C651.9 346 600.9 290 491.9 290C293.9 290 275.9 529 41.9 596Z"
+  box "41.9 127 1008 981"
+  fly 1008
+  hoist 981
+  at fly=545.9 hoist=617.5
+}

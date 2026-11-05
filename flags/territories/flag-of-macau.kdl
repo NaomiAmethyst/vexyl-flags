@@ -1,0 +1,80 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Macau"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Macau.svg"
+}
+palette {
+  teal "#0f7562"
+}
+proportion hoist=1920 fly=2880
+
+field teal
+
+charge svg {
+  at center
+  fly 2880
+  hoist 1920
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="b"><path d="M-224 0h448v400h-448z"></path></clipPath></defs><g clip-path="url(#b)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><circle cx="-209" r="324.5" cy="-7" fill="#ffffff"></circle><circle cx="209" r="324.5" cy="-7" fill="#ffffff"></circle></g></svg>
+"""#
+}
+
+charge disc teal {
+  radius 324.5
+  at fly=1664 hoist=921
+  at fly=1216 hoist=921
+}
+
+charge svg {
+  at center
+  fly 2880
+  hoist 1920
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o3"><circle cx="-199" r="324.5" cy="-118"></circle></clipPath><clipPath id="o4"><circle cx="-158" r="324.5" cy="-149"></circle></clipPath><clipPath id="o1"><circle r="576" cy="-38"></circle></clipPath></defs><g clip-path="url(#o1)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><path d="M-500 285.5h291v32h-291zm0 65H500v16H-500zm0 49H500v25H-500zm0 50H500v32H-500zm0 48H500v50H-500zm1000-212H209v32h291z" fill="#ffffff"></path></g><circle cx="158" r="324.5" cy="-149" clip-path="url(#o4)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="199" r="324.5" cy="-118" clip-path="url(#o3)" fill="#0f7562" transform="matrix(1 0 0 1 1440 960)"/></svg>
+"""#
+}
+
+charge disc teal {
+  radius 130
+  at fly=1440 hoist=614
+}
+
+charge svg {
+  at center
+  fly 2880
+  hoist 1920
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cx="-213" r="324.5" cy="-91"></circle></clipPath><clipPath id="o8"><circle cx="-234" r="324.5" cy="-64"></circle></clipPath><clipPath id="o2"><circle cx="-212" r="324.5" cy="-100"></circle></clipPath></defs><circle cx="212" r="324.5" cy="-100" clip-path="url(#o2)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="-379" r="381.5" cy="307" clip-path="url(#o8)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="-370" r="381.5" cy="343" clip-path="url(#o7)" fill="#0f7562" transform="matrix(1 0 0 1 1440 960)"/></svg>
+"""#
+}
+
+charge disc teal {
+  radius 130
+  at fly=955 hoist=981
+}
+
+charge svg {
+  at center
+  fly 2880
+  hoist 1920
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cx="-213" r="324.5" cy="-91"></circle></clipPath><clipPath id="o8"><circle cx="-234" r="324.5" cy="-64"></circle></clipPath><clipPath id="o6"><circle cx="-182" r="324.5" cy="-96"></circle></clipPath></defs><g clip-path="url(#o8)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><circle cx="-339" r="381.5" cy="372" clip-path="url(#o6)" fill="#ffffff"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g><path d="M0 0v1h.5z" transform="matrix(69.810247 -21.343134 21.343134 69.810247 1137.43843 489.897297)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-43.932497 58.300392 58.300392 43.932497 1137.43843 489.897297)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(41.87108 59.798099 -59.798099 41.87108 1223.242006 491.395004)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-69.022856 -23.766475 -23.766475 69.022856 1223.242006 491.395004)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-69.022856 -23.766475 23.766475 -69.022856 1178.035484 622.684278)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(69.810247 -21.343134 -21.343134 -69.810247 1178.035484 622.684278)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-43.932497 58.300392 -58.300392 -43.932497 1248.332366 573.461871)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(1.274026 -72.988882 -72.988882 -1.274026 1248.332366 573.461871)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(1.274026 -72.988882 72.988882 1.274026 1109.499262 571.03853)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(41.87108 59.798099 59.798099 -41.87108 1109.499262 571.03853)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(49.78588 -53.38882 53.38882 49.78588 961.922642 699.068867)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-8.896462 72.455869 72.455869 8.896462 961.922642 699.068867)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(66.160468 30.851133 -30.851133 66.160468 1036.979573 657.464131)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-71.658784 13.929057 13.929057 71.658784 1036.979573 657.464131)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-71.658784 13.929057 -13.929057 -71.658784 1063.474213 793.767239)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(49.78588 -53.38882 -53.38882 -49.78588 1063.474213 793.767239)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-8.896462 72.455869 -72.455869 -8.896462 1099.741895 715.990943)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-35.391102 -63.847239 -63.847239 35.391102 1099.741895 715.990943)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-35.391102 -63.847239 63.847239 -35.391102 978.297231 783.30882)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(66.160468 30.851133 30.851133 -66.160468 978.297231 783.30882)" fill="#ffde23"/><circle cx="-379" r="381.5" cy="307" clip-path="url(#o8)" fill="#ffffff" transform="matrix(-1 0 0 1 1440 960)"/><circle cx="-370" r="381.5" cy="343" clip-path="url(#o7)" fill="#0f7562" transform="matrix(-1 0 0 1 1440 960)"/></svg>
+"""#
+}
+
+charge disc teal {
+  radius 130
+  at fly=1925 hoist=981
+}
+
+charge svg {
+  at center
+  fly 2880
+  hoist 1920
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cx="-182" r="324.5" cy="-96"></circle></clipPath><clipPath id="o8"><circle cx="-234" r="324.5" cy="-64"></circle></clipPath></defs><g clip-path="url(#o8)" fill="#ffffff" transform="matrix(-1 0 0 1 1440 960)"><circle cx="-339" r="381.5" cy="372" clip-path="url(#o6)" fill="#ffffff"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g><path d="M0 0v1h.5z" transform="matrix(-69.810247 -21.343134 -21.343134 69.810247 1742.56157 489.897297)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(43.932497 58.300392 -58.300392 43.932497 1742.56157 489.897297)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-41.87108 59.798099 59.798099 41.87108 1656.757994 491.395004)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(69.022856 -23.766475 23.766475 69.022856 1656.757994 491.395004)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(69.022856 -23.766475 -23.766475 -69.022856 1701.964516 622.684278)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-69.810247 -21.343134 21.343134 -69.810247 1701.964516 622.684278)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(43.932497 58.300392 58.300392 -43.932497 1631.667634 573.461871)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-1.274026 -72.988882 72.988882 -1.274026 1631.667634 573.461871)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-1.274026 -72.988882 -72.988882 1.274026 1770.500738 571.03853)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-41.87108 59.798099 -59.798099 -41.87108 1770.500738 571.03853)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-49.78588 -53.38882 -53.38882 49.78588 1918.077358 699.068867)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(8.896462 72.455869 -72.455869 8.896462 1918.077358 699.068867)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-66.160468 30.851133 30.851133 66.160468 1843.020427 657.464131)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(71.658784 13.929057 -13.929057 71.658784 1843.020427 657.464131)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(71.658784 13.929057 13.929057 -71.658784 1816.525787 793.767239)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-49.78588 -53.38882 53.38882 -49.78588 1816.525787 793.767239)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(8.896462 72.455869 72.455869 -8.896462 1780.258105 715.990943)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(35.391102 -63.847239 63.847239 35.391102 1780.258105 715.990943)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(35.391102 -63.847239 -63.847239 -35.391102 1901.702769 783.30882)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-66.160468 30.851133 -30.851133 -66.160468 1901.702769 783.30882)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(100.336462 32.601293 -32.601293 100.336462 1440 362)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-100.336462 32.601293 32.601293 100.336462 1440 362)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(0 105.5 -105.5 0 1540.336462 434.898707)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-62.011344 -85.351293 -85.351293 62.011344 1540.336462 434.898707)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-62.011344 -85.351293 85.351293 -62.011344 1377.988656 552.851293)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(100.336462 32.601293 32.601293 -100.336462 1377.988656 552.851293)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(-100.336462 32.601293 -32.601293 -100.336462 1502.011344 552.851293)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(62.011344 -85.351293 -85.351293 -62.011344 1502.011344 552.851293)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(62.011344 -85.351293 85.351293 62.011344 1339.663538 434.898707)" fill="#ffde23"/><path d="M0 0v1h.5z" transform="matrix(0 105.5 105.5 -0 1339.663538 434.898707)" fill="#ffde23"/></svg>
+"""#
+}

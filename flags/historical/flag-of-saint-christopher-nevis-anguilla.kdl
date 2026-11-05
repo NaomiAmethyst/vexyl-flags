@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Saint Christopher-Nevis-Anguilla"
+  encoder "Himasaram"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Christopher-Nevis-Anguilla.svg"
+}
+palette {
+  green "#009900"
+  yellow "#ffff00"
+  blue "#0099ff"
+  black "#000000"
+}
+proportion hoist=600 fly=1200
+
+bars green yellow blue {
+  along hoist
+}
+
+charge path black {
+  d "M558 460L579 227C579 227 596 235 609 234L606 462C632 468 634 480 634 480C634 480 597 470 586 475C586 475 580 509 569 513C569 513 575 476 568 471C564 468 547 481 547 481C547 481 542 467 530 470C527 471 511 480 511 480C517 474 519 462 558 459Z"
+  box "511 227 123 286"
+  fly 123
+  hoist 286
+  at fly=572.5 hoist=370
+}
+
+charge path black {
+  d "M459 150C517 92 583 138 593 202C628 68 720 102 740 142C694 140 642 147 624 195C632 186 731 138 740 231C740 231 664 186 615 227L580 223C534 135 459 150 459 150Z"
+  box "459 68 281 163"
+  fly 281
+  hoist 163
+  at fly=599.5 hoist=149.5
+}

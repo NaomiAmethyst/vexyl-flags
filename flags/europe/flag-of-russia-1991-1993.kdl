@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Russia (1991-1993)"
+  encoder "svg by R-41, reworked by Pianist"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_(1991%E2%80%931993).svg"
+}
+palette {
+  white "#ffffff"
+  blue "#088ce8"
+  red "#da1525"
+}
+proportion hoist=600 fly=1200
+
+bars white blue red

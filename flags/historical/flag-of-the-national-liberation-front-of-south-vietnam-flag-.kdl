@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the National Liberation Front of South Vietnam, Flag of South Vietnam (1975–1976)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_National_Liberation_Front_of_South_Vietnam,_Flag_of_South_Vietnam_(1975%E2%80%931976).svg"
+}
+palette {
+  red "#da251d"
+  blue "#3399ff"
+  yellow "#ffff00"
+}
+proportion hoist=12 fly=18
+
+bars red blue
+
+charge star yellow {
+  radius 3.6017
+  at fly=9 hoist=5.9958
+}

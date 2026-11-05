@@ -1,0 +1,31 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Faroe Islands"
+  encoder "It was made by User:IceKarma (Jeffrey Connell), who released it to the public domain."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Faroe_Islands.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#005eb8"
+  red "#ef3340"
+}
+proportion hoist=16 fly=22
+
+bars white blue white {
+  along hoist
+  ratio 3 2 6
+}
+
+charge rect blue {
+  fly 22
+  hoist 4
+  at fly=11 hoist=8
+}
+
+cross red {
+  fly 7 2 13
+  hoist 7 2 7
+}

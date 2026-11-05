@@ -1,0 +1,22 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Abu Dhabi"
+  encoder "Madden"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Abu_Dhabi.svg"
+}
+palette {
+  red "#bf0000"
+  white "#ffffff"
+}
+proportion hoist=300 fly=600
+
+field red
+
+canton {
+  fly 200
+  hoist 100
+  field white
+}

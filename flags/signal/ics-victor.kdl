@@ -1,0 +1,58 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Victor"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Victor.svg"
+}
+palette {
+  white "#ffffff"
+  black "#000000"
+  red "#ff0000"
+}
+proportion hoist=600 fly=600
+
+field white
+
+charge path black {
+  d "M0 0L600 600Z"
+  box "0 0 600 600"
+  fly 600
+  hoist 600
+  at fly=300 hoist=300
+}
+
+charge path red {
+  d "M0 0L600 600Z"
+  box "0 0 600 600"
+  fly 600
+  hoist 600
+  hollow 105
+  at fly=300 hoist=300
+}
+
+charge path black {
+  d "M0 600L600 0Z"
+  box "0 0 600 600"
+  fly 600
+  hoist 600
+  at fly=300 hoist=300
+}
+
+charge path red {
+  d "M0 600L600 0Z"
+  box "0 0 600 600"
+  fly 600
+  hoist 600
+  hollow 105
+  at fly=300 hoist=300
+}
+
+charge polygon black {
+  point fly=0 hoist=0
+  point fly=600 hoist=0
+  point fly=600 hoist=600
+  point fly=0 hoist=600
+  hollow 2
+}

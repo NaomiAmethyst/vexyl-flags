@@ -1,0 +1,49 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Wajir County Flag"
+  encoder "7bdIa9"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Wajir_County_Flag.svg"
+}
+palette {
+  white "#ffffff"
+  yellow "#fac900"
+  red "#955a4c"
+  teal "#308371"
+}
+proportion hoist=360 fly=600
+
+field white
+
+charge polygon yellow {
+  point fly=0 hoist=0
+  point fly=600 hoist=0
+  point fly=600 hoist=80
+  point fly=0 hoist=80
+  point fly=0 hoist=360
+  point fly=600 hoist=360
+  point fly=600 hoist=280
+  point fly=0 hoist=280
+}
+
+panel {
+  side top
+  width 72.5
+  field red
+}
+
+panel {
+  side bottom
+  width 72.5
+  field teal
+}
+
+charge crescent yellow {
+  radius 75.31
+  inner 71.86
+  offset 19.6804
+  rotate -17.4254
+  at fly=321.8038 hoist=187.3097
+}

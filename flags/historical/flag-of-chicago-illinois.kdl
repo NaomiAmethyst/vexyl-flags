@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Chicago, Illinois"
+  encoder "cs:User:-xfi-"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Chicago,_Illinois.svg"
+}
+palette {
+  white "#ffffff"
+  pink "#e4002b"
+  blue "#41b6e6"
+}
+proportion hoist=480 fly=720
+
+field white
+
+charge star pink {
+  radius 60.0222
+  inner 21.9697
+  points 6
+  at fly=150 hoist=240
+  repeat line count=4 fly=140
+}
+
+charge polygon blue {
+  point fly=0 hoist=80
+  point fly=720 hoist=80
+  point fly=720 hoist=160
+  point fly=0 hoist=160
+  point fly=0 hoist=320
+  point fly=720 hoist=320
+  point fly=720 hoist=400
+  point fly=0 hoist=400
+}

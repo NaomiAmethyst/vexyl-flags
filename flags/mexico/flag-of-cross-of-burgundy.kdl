@@ -1,0 +1,130 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Cross of Burgundy"
+  encoder "Ningyou."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg"
+}
+palette {
+  white "#ffffff"
+  red "#d9171a"
+}
+proportion hoist=600 fly=900
+
+field white
+
+charge polygon red {
+  point fly=758.7867 hoist=46.7411
+  point fly=765.3287 hoist=15.9022
+  point fly=712.505 hoist=51.1179
+  point fly=705.9631 hoist=81.9569
+  point fly=658.4061 hoist=113.6615
+  point fly=664.9481 hoist=82.8226
+  point fly=616.5104 hoist=115.1144
+  point fly=609.9685 hoist=145.9533
+  point fly=562.921 hoist=177.3183
+  point fly=569.4629 hoist=146.4793
+  point fly=519.2734 hoist=179.939
+  point fly=512.7315 hoist=210.7779
+  point fly=322.1163 hoist=337.8547
+  point fly=289.9379 hoist=332.8294
+  point fly=239.5435 hoist=366.0533
+  point fly=272.1743 hoist=371.1494
+  point fly=225.7229 hoist=402.117
+  point fly=193.1507 hoist=397.0301
+  point fly=144.0643 hoist=430.0785
+  point fly=176.2427 hoist=435.1038
+  point fly=129.4405 hoist=466.3053
+  point fly=96.9636 hoist=461.2332
+  point fly=47.695 hoist=494.3246
+  point fly=79.8734 hoist=499.35
+  point fly=0 hoist=552.5989
+  point fly=0 hoist=600
+  point fly=71.2717 hoist=600
+  point fly=140.1607 hoist=554.074
+  point fly=133.3214 hoist=586.3148
+  point fly=186.2439 hoist=551.0332
+  point fly=193.0832 hoist=518.7923
+  point fly=240.7295 hoist=487.0281
+  point fly=233.8902 hoist=519.269
+  point fly=282.4184 hoist=486.9168
+  point fly=289.2577 hoist=454.676
+  point fly=336.3939 hoist=423.2519
+  point fly=329.5545 hoist=455.4927
+  point fly=379.8383 hoist=421.9702
+  point fly=386.6777 hoist=389.7294
+  point fly=577.3255 hoist=262.6308
+  point fly=610.9666 hoist=267.8846
+  point fly=659.4339 hoist=235.5731
+  point fly=625.7927 hoist=230.3193
+  point fly=672.4163 hoist=199.2369
+  point fly=706.0575 hoist=204.4907
+  point fly=754.5188 hoist=172.1832
+  point fly=720.8776 hoist=166.9293
+  point fly=767.5726 hoist=135.7993
+  point fly=801.2138 hoist=141.0532
+  point fly=852.3038 hoist=106.9932
+  point fly=818.6626 hoist=101.7393
+  point fly=900 hoist=47.5144
+  point fly=900 hoist=0
+  point fly=828.8984 hoist=0
+}
+
+charge polygon red {
+  point fly=141.2133 hoist=46.7411
+  point fly=134.6713 hoist=15.9022
+  point fly=187.495 hoist=51.1179
+  point fly=194.0369 hoist=81.9569
+  point fly=241.5939 hoist=113.6615
+  point fly=235.0519 hoist=82.8226
+  point fly=283.4896 hoist=115.1144
+  point fly=290.0315 hoist=145.9533
+  point fly=337.079 hoist=177.3183
+  point fly=330.5371 hoist=146.4793
+  point fly=380.7266 hoist=179.939
+  point fly=387.2685 hoist=210.7779
+  point fly=577.8837 hoist=337.8547
+  point fly=610.0621 hoist=332.8294
+  point fly=660.4565 hoist=366.0533
+  point fly=627.8257 hoist=371.1494
+  point fly=674.2771 hoist=402.117
+  point fly=706.8493 hoist=397.0301
+  point fly=755.9357 hoist=430.0785
+  point fly=723.7573 hoist=435.1038
+  point fly=770.5595 hoist=466.3053
+  point fly=803.0364 hoist=461.2332
+  point fly=852.305 hoist=494.3246
+  point fly=820.1266 hoist=499.35
+  point fly=900 hoist=552.5989
+  point fly=900 hoist=600
+  point fly=828.7283 hoist=600
+  point fly=759.8393 hoist=554.074
+  point fly=766.6786 hoist=586.3148
+  point fly=713.7561 hoist=551.0332
+  point fly=706.9168 hoist=518.7923
+  point fly=659.2705 hoist=487.0281
+  point fly=666.1098 hoist=519.269
+  point fly=617.5816 hoist=486.9168
+  point fly=610.7423 hoist=454.676
+  point fly=563.6061 hoist=423.2519
+  point fly=570.4455 hoist=455.4927
+  point fly=520.1617 hoist=421.9702
+  point fly=513.3223 hoist=389.7294
+  point fly=322.6745 hoist=262.6308
+  point fly=289.0334 hoist=267.8846
+  point fly=240.5661 hoist=235.5731
+  point fly=274.2073 hoist=230.3193
+  point fly=227.5837 hoist=199.2369
+  point fly=193.9425 hoist=204.4907
+  point fly=145.4812 hoist=172.1832
+  point fly=179.1224 hoist=166.9293
+  point fly=132.4274 hoist=135.7993
+  point fly=98.7862 hoist=141.0532
+  point fly=47.6962 hoist=106.9932
+  point fly=81.3374 hoist=101.7393
+  point fly=0 hoist=47.5144
+  point fly=0 hoist=0
+  point fly=71.1016 hoist=0
+}

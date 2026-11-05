@@ -1,0 +1,39 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Crimean Tatar people"
+  encoder "Riwnodennyk"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Crimean_Tatar_people.svg"
+}
+palette {
+  blue "#00a3dd"
+  yellow "#f8d80e"
+}
+proportion hoist=195 fly=350
+
+field blue
+
+charge polygon yellow {
+  point fly=40 hoist=30
+  point fly=40 hoist=60
+  point fly=30 hoist=60
+  point fly=30 hoist=70
+  point fly=50 hoist=70
+  point fly=50 hoist=40
+  point fly=70 hoist=40
+  point fly=70 hoist=70
+  point fly=60 hoist=70
+  point fly=60 hoist=80
+  point fly=90 hoist=80
+  point fly=90 hoist=70
+  point fly=80 hoist=70
+  point fly=80 hoist=40
+  point fly=100 hoist=40
+  point fly=100 hoist=70
+  point fly=120 hoist=70
+  point fly=120 hoist=60
+  point fly=110 hoist=60
+  point fly=110 hoist=30
+}

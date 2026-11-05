@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Luhansk People's Republic"
+  encoder "Revolver 45"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Luhansk_People%27s_Republic.svg"
+}
+palette {
+  blue "#64c8ff"
+  blue-2 "#0039a6"
+  red "#d52b1e"
+}
+proportion hoist=600 fly=900
+
+bars blue blue-2 red

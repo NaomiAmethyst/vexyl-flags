@@ -1,0 +1,93 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Rarotonga 1888-1893"
+  encoder "R-41"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rarotonga_1888-1893.svg"
+}
+palette {
+  red "#cf142b"
+  white "#ffffff"
+  blue "#001b69"
+  blue-2 "#1b83b7"
+}
+proportion hoist=546.0412 fly=1091.9156
+
+bars red white red
+
+canton {
+  fly 545.9351
+  hoist 272.9676
+  field blue
+  charge rect white {
+    fly 545.9351
+    hoist 90.7865
+    at fly=272.9676 hoist=136.4838
+  }
+  charge rect white {
+    fly 90.7865
+    hoist 272.9676
+    at fly=272.9675 hoist=136.4838
+  }
+  charge polygon white {
+    point fly=0 hoist=31.4823
+    point fly=0 hoist=0
+    point fly=64.0109 hoist=0
+    point fly=545.9351 hoist=240.4496
+    point fly=545.9351 hoist=272.9676
+    point fly=485.2899 hoist=272.9676
+  }
+  charge path red {
+    d "M545.9351 252.7033L545.9351 272.9676L364.5501 182.181C378.2793 182.5013 392.0164 182.6058 405.75 182.4758Z"
+    box "364.5501 182.181 181.385 90.7866"
+    fly 181.385
+    hoist 90.7866
+    at fly=455.2426 hoist=227.5742
+  }
+  charge path red {
+    d "M0 20.2643L0 0L181.385 90.7866C167.6558 90.4663 153.9187 90.3618 140.1851 90.4918Z"
+    box "0 0 181.385 90.7866"
+    fly 181.385
+    hoist 90.7866
+    at fly=90.6925 hoist=45.3933
+  }
+  charge polygon white {
+    point fly=485.2899 hoist=0
+    point fly=545.9351 hoist=0
+    point fly=545.9351 hoist=32.518
+    point fly=64.0109 hoist=272.9676
+    point fly=0.0001 hoist=272.9676
+    point fly=0.0001 hoist=241.4853
+  }
+  charge polygon red {
+    point fly=504.279 hoist=0
+    point fly=545.9351 hoist=0
+    point fly=362.5788 hoist=91.4126
+    point fly=322.8564 hoist=91.4126
+  }
+  charge polygon red {
+    point fly=41.6562 hoist=272.9676
+    point fly=0.0001 hoist=272.9676
+    point fly=183.3564 hoist=181.555
+    point fly=223.0788 hoist=181.555
+  }
+  charge rect red {
+    fly 545.9351
+    hoist 53.9283
+    at fly=272.9676 hoist=136.4838
+  }
+  charge rect red {
+    fly 53.9283
+    hoist 272.9676
+    at fly=272.9676 hoist=136.4838
+  }
+}
+
+charge star blue-2 {
+  radius 76.8648
+  inner 29.2266
+  at fly=675.0637 hoist=280.4329
+  repeat line count=3 fly=154.1747 hoist=0
+}

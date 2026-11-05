@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Proposed flag of Germany (Paul Wentzcke)"
+  encoder "Paul Wentzcke"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_Germany_(Paul_Wentzcke).svg"
+}
+palette {
+  black "#000000"
+  red "#cc0000"
+  yellow "#ffcc00"
+}
+proportion hoist=439 fly=714
+
+bars black red yellow {
+  along hoist
+}

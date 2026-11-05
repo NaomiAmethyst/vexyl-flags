@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Texas (1839–1879)"
+  encoder "Peter Krag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Texas_(1839%E2%80%931879).svg"
+}
+palette {
+  white "#ffffff"
+  red "#a22027"
+  blue "#183c60"
+}
+proportion hoist=720 fly=1080
+
+bars white red
+
+panel {
+  side hoist
+  width 360
+  field blue
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="M0,-135v135h67.5" transform="matrix(0.951057 0.309017 -0.309017 0.951057 138.282706 353.39263)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(-0.951057 0.309017 0.309017 0.951057 221.717294 353.39263)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(0 1 -1 0 173.39263 318.282706)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 199.175335 397.633715)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 217.633715 340.824665)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 150.133715 389.866285)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 209.866285 389.866285)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(0.951057 0.309017 0.309017 -0.951057 142.366285 340.824665)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(0.587785 -0.809017 0.809017 0.587785 160.824665 397.633715)" fill="#ffffff"/><path d="M0,-135v135h67.5" transform="matrix(0 1 1 -0 186.60737 318.282706)" fill="#ffffff"/></svg>
+"""#
+}

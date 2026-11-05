@@ -1,0 +1,50 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Duty Ship (Imperial Japanese Navy)"
+  encoder "njt, Mike Rohsopht"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Duty_Ship_(Imperial_Japanese_Navy).svg"
+}
+palette {
+  pink "#bc002d"
+  white "#ffffff"
+}
+proportion hoist=60 fly=90
+
+field pink
+
+charge polygon white {
+  point fly=0 hoist=30
+  point fly=0 hoist=27
+  point fly=15 hoist=20
+  point fly=30 hoist=27
+  point fly=45 hoist=20
+  point fly=60 hoist=27
+  point fly=75 hoist=20
+  point fly=90 hoist=27
+  point fly=90 hoist=30
+  point fly=75 hoist=23
+  point fly=60 hoist=30
+  point fly=45 hoist=23
+  point fly=30 hoist=30
+  point fly=15 hoist=23
+}
+
+charge polygon white {
+  point fly=0 hoist=40
+  point fly=0 hoist=37
+  point fly=15 hoist=30
+  point fly=30 hoist=37
+  point fly=45 hoist=30
+  point fly=60 hoist=37
+  point fly=75 hoist=30
+  point fly=90 hoist=37
+  point fly=90 hoist=40
+  point fly=75 hoist=33
+  point fly=60 hoist=40
+  point fly=45 hoist=33
+  point fly=30 hoist=40
+  point fly=15 hoist=33
+}

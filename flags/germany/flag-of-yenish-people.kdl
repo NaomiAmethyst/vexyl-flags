@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Yenish people"
+  encoder "Hierakares"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Yenish_people.svg"
+}
+palette {
+  teal "#00ffff"
+  blue "#0000fe"
+}
+proportion hoist=12 fly=18
+
+field teal
+
+charge path blue {
+  d "M0 0L0 12L9 5.9973L0 0ZM18 0L18 12L9 5.9973L18 0Z"
+  box "0 0 18 12"
+  fly 18
+  hoist 12
+  at fly=9 hoist=6
+}

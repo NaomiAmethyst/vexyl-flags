@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ingrian people"
+  encoder "Walden69"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ingrian_people.svg"
+}
+palette {
+  orange "#ffc425"
+  red "#ee3224"
+  blue "#005daa"
+}
+proportion hoist=550 fly=900
+
+bars orange red orange {
+  ratio 4 3 4
+}
+
+charge rect red {
+  fly 150
+  hoist 550
+  at fly=325 hoist=275
+}
+
+cross blue {
+  fly 275 100 525
+  hoist 225 100 225
+}

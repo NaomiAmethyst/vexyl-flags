@@ -1,0 +1,20 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Santiago de Cali"
+  encoder "No machine-readable author provided. Fibonacci assumed (based on copyright claims)."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Santiago_de_Cali.svg"
+}
+palette {
+  blue "#0000dd"
+  red "#dd0000"
+  white "#ffffff"
+  green "#00aa00"
+}
+proportion hoist=216 fly=324
+
+bars blue red white red green {
+  ratio 16 3 16 3 16
+}

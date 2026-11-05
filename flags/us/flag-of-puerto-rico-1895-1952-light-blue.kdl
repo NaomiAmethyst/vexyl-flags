@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Puerto Rico (1895-1952, light blue)"
+  encoder "Original: Public Domain Vector: Tektonson"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico_(1895-1952,_light_blue).svg"
+}
+palette {
+  red "#ce0000"
+  white "#ffffff"
+  blue "#87cefa"
+}
+proportion hoist=600 fly=900
+
+field red
+
+charge polygon white {
+  point fly=0 hoist=120
+  point fly=900 hoist=120
+  point fly=900 hoist=240
+  point fly=0 hoist=240
+  point fly=0 hoist=360
+  point fly=900 hoist=360
+  point fly=900 hoist=480
+  point fly=0 hoist=480
+}
+
+chevrons blue {
+  depth 519.6
+}
+
+charge star white {
+  radius 100.0021
+  at fly=173.2 hoist=300
+}

@@ -1,0 +1,29 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Pennsylvania Navy Ensign"
+  encoder "HoosierMan1816"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Pennsylvania_Navy_Ensign.svg"
+}
+palette {
+  blue "#00205b"
+  pink "#bf0a30"
+  white "#ffffff"
+}
+proportion hoist=960 fly=1824
+
+field blue
+
+canton {
+  fly 732.567
+  hoist 518.6142
+  field pink
+  charge rect white {
+    fly 732.567
+    hoist 39.9055
+    at fly=366.2835 hoist=59.8453
+    repeat line count=6 hoist=79.7852
+  }
+}

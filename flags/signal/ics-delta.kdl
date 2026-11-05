@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Delta"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Delta.svg"
+}
+palette {
+  yellow "#ffff00"
+  blue "#0000ff"
+}
+proportion hoist=600 fly=600
+
+bars yellow blue yellow {
+  ratio 1 3 1
+}

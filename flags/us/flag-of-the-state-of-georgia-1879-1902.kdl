@@ -1,0 +1,26 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the State of Georgia (1879–1902)"
+  encoder "The original uploader was Zscout370 at English Wikipedia."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(1879%E2%80%931902).svg"
+}
+palette {
+  blue "#00205b"
+  pink "#bf0a30"
+  white "#ffffff"
+}
+proportion hoist=450 fly=750
+
+bars blue pink {
+  along hoist
+  ratio 1 2
+}
+
+charge rect white {
+  fly 500
+  hoist 150
+  at fly=500 hoist=225
+}

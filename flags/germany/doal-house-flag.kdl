@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "DOAL house flag"
+  encoder "VileGecko"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:DOAL_house_flag.svg"
+}
+palette {
+  yellow "#ffe000"
+  black "#000000"
+  white "#ffffff"
+  red "#e30613"
+}
+proportion hoist=300 fly=450
+
+field yellow
+
+charge lozenge black {
+  fly 420
+  hoist 270
+  at fly=225 hoist=150
+}
+
+charge lozenge white {
+  fly 309
+  hoist 199
+  at fly=225 hoist=150
+}
+
+charge lozenge red {
+  fly 198
+  hoist 128
+  at fly=225 hoist=150
+}

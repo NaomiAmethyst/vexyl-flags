@@ -1,0 +1,26 @@
+vexyl 1
+meta {
+  name "Jordan"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Jordan.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  green "#007a3d"
+  red "#ce1126"
+}
+proportion hoist=5040 fly=10080
+
+bars black white green
+chevrons red {
+  depth 5040
+}
+charge star white {
+  radius 360
+  inner 180
+  points 7
+  at fly=1557 hoist=2520
+}

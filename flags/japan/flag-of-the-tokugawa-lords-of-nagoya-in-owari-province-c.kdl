@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Tokugawa Lords of Nagoya in Owari Province (C)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Tokugawa_Lords_of_Nagoya_in_Owari_Province_(C).svg"
+}
+palette {
+  white "#ffffff"
+  pink "#bc002d"
+  black "#000000"
+}
+proportion hoist=700 fly=900
+
+bars white pink white pink {
+  along hoist
+  ratio 684.24 55 45.76 115
+}
+
+charge path black {
+  d "M639.04 393.46A61.95 61.95 0 0 1 593.14 497.03C572.52 497.03 551.64 485.03 539.68 470.16C501.79 423.13 485.39 326.29 447.48 245.56C430.58 209.61 409.63 175.56 350.14 197.72C388.54 130.82 452.81 120.25 495.64 176.13C535.5 228.13 557.63 290.94 589.64 334.77C603.31 353.47 620.58 373.79 639.04 393.47"
+  box "350.14 120.25 304.95 438.73"
+  fly 304.95
+  hoist 438.73
+  evenodd
+  at fly=502.615 hoist=339.615
+}
+
+charge path black {
+  d "M307.95 247.11C305.25 321.64 264.75 306.78 229.07 346.56A52.93 52.93 0 0 0 215.4 381.94C215.4 411 238.96 434.84 268.02 434.56C341.86 433.86 385.9 312.22 307.95 247.11Z"
+  box "162.47 247.11 223.43 187.76"
+  fly 223.43
+  hoist 187.76
+  at fly=274.185 hoist=340.99
+}

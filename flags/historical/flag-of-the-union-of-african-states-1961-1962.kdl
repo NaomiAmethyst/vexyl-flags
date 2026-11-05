@@ -1,0 +1,57 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Union of African States (1961-1962)"
+  encoder "Thommy"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Union_of_African_States_(1961%E2%80%931962).svg"
+}
+palette {
+  red "#ce1126"
+  yellow "#fcd116"
+  green "#006b3f"
+  black "#000000"
+}
+proportion hoist=600 fly=900
+
+bars red yellow green
+
+charge polygon black {
+  point fly=210 hoist=200
+  point fly=185 hoist=276
+  point fly=105 hoist=276
+  point fly=170 hoist=324
+  point fly=145 hoist=400
+  point fly=210 hoist=353
+  point fly=275 hoist=400
+  point fly=250 hoist=324
+  point fly=315 hoist=276
+  point fly=235 hoist=276
+}
+
+charge polygon black {
+  point fly=450 hoist=200
+  point fly=425 hoist=276
+  point fly=345 hoist=276
+  point fly=410 hoist=324
+  point fly=385 hoist=400
+  point fly=450 hoist=353
+  point fly=515 hoist=400
+  point fly=490 hoist=324
+  point fly=555 hoist=276
+  point fly=475 hoist=276
+}
+
+charge polygon black {
+  point fly=690 hoist=200
+  point fly=665 hoist=276
+  point fly=585 hoist=276
+  point fly=650 hoist=324
+  point fly=625 hoist=400
+  point fly=690 hoist=353
+  point fly=755 hoist=400
+  point fly=730 hoist=324
+  point fly=795 hoist=276
+  point fly=715 hoist=276
+}

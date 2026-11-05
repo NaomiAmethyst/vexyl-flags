@@ -1,0 +1,80 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Yamanashi Prefecture"
+  encoder "UnreifeKirsche, Mike Rohsopht"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Yamanashi_Prefecture.svg"
+}
+palette {
+  pink "#990066"
+  white "#ffffff"
+  orange "#ffb300"
+}
+proportion hoist=700 fly=1000
+
+field pink
+
+charge path white {
+  d "M240.141 450L690.577 450L588.8996 273.8897A57.7795 57.7795 0 0 0 538.8612 245L461.1388 245A57.7795 57.7795 0 0 0 411.1004 273.8897L316.1966 440L246.9045 440L360.1288 243.8897A117.7795 117.7795 0 0 1 461.1388 185L538.8612 185A117.7795 117.7795 0 0 1 640.8612 243.8897L772 471.0289A25.9808 25.9808 0 0 1 749.5 510L205.5 510Z"
+  box "205.5 67.2205 569.9808 468.7602"
+  fly 569.9808
+  hoist 468.7602
+  at fly=490.4904 hoist=301.6007
+}
+
+charge rect orange {
+  fly 20
+  hoist 125
+  at fly=500 hoist=327.5
+}
+
+charge rect orange {
+  fly 20
+  hoist 65
+  at fly=550 hoist=317.5
+  at fly=450 hoist=317.5
+}
+
+charge polygon orange {
+  point fly=490.5025 hoist=380.5025
+  point fly=540 hoist=430
+  point fly=554.1421 hoist=415.8579
+  point fly=504.6447 hoist=366.3604
+}
+
+charge polygon orange {
+  point fly=541.7157 hoist=356.7157
+  point fly=570 hoist=385
+  point fly=584.1421 hoist=370.8579
+  point fly=555.8579 hoist=342.5736
+}
+
+charge polygon orange {
+  point fly=547.6777 hoist=339.0381
+  point fly=515.8579 hoist=370.8579
+  point fly=530 hoist=385
+  point fly=561.8198 hoist=353.1802
+}
+
+charge polygon orange {
+  point fly=495.3553 hoist=366.3604
+  point fly=445.8579 hoist=415.8579
+  point fly=460 hoist=430
+  point fly=509.4975 hoist=380.5025
+}
+
+charge polygon orange {
+  point fly=444.1421 hoist=342.5736
+  point fly=415.8579 hoist=370.8579
+  point fly=430 hoist=385
+  point fly=458.2843 hoist=356.7157
+}
+
+charge polygon orange {
+  point fly=438.1802 hoist=353.1802
+  point fly=470 hoist=385
+  point fly=484.1421 hoist=370.8579
+  point fly=452.3223 hoist=339.0381
+}

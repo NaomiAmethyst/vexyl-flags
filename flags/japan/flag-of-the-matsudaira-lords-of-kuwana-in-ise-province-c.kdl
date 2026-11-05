@@ -1,0 +1,38 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Matsudaira Lords of Kuwana in Ise Province (C)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Matsudaira_Lords_of_Kuwana_in_Ise_Province_(C).svg"
+}
+palette {
+  white "#ffffff"
+  black "#000000"
+  pink "#bc002d"
+}
+proportion hoist=700 fly=900
+
+field white
+
+charge path black {
+  d "M443.38 94.4A82.8 82.8 0 0 0 403.28 109.54L403.2 109.6A82.8 82.8 0 0 0 384.23 225.16A82.8 82.8 0 0 0 499.79 244.13L499.86 244.08A82.8 82.8 0 0 0 518.84 128.52A82.8 82.8 0 0 0 443.38 94.41ZM628.94 214.83A82.8 82.8 0 0 0 552.64 247.03A82.8 82.8 0 0 0 568.71 363.03L568.78 363.08A82.8 82.8 0 0 0 684.78 347.02A82.8 82.8 0 0 0 668.72 231.02L668.65 230.97A82.8 82.8 0 0 0 628.94 214.83ZM273.13 216.63A82.8 82.8 0 0 0 233.03 231.76L232.95 231.81A82.8 82.8 0 0 0 213.98 347.37A82.8 82.8 0 0 0 329.54 366.34L329.61 366.29A82.8 82.8 0 0 0 348.59 250.73A82.8 82.8 0 0 0 273.13 216.63ZM451.34 268.19A82.8 82.8 0 0 0 368.54 351L368.54 351.1A82.8 82.8 0 0 0 451.34 433.9A82.8 82.8 0 0 0 534.14 351.1L534.14 351A82.8 82.8 0 0 0 451.34 268.2ZM560.44 411.54A82.8 82.8 0 0 0 476.54 467.44L476.51 467.54A82.8 82.8 0 0 0 528.17 572.62A82.8 82.8 0 0 0 633.26 520.96L633.29 520.88A82.8 82.8 0 0 0 581.63 415.79A82.8 82.8 0 0 0 560.43 411.55ZM346.59 413.21A82.8 82.8 0 0 0 263.79 496.01A82.8 82.8 0 0 0 346.59 578.83L346.69 578.83A82.8 82.8 0 0 0 429.49 496.02A82.8 82.8 0 0 0 346.69 413.22Z"
+  box "131.18 11.61 636.4 650.02"
+  fly 636.4
+  hoist 650.02
+  at fly=449.38 hoist=336.62
+}
+
+panel {
+  side fly
+  width 90.77
+  field pink
+}
+
+pile pink {
+  from top
+  base 715.11 766.05
+  depth 700
+  flat 50.95
+}

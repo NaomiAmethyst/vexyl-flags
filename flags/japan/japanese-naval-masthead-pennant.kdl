@@ -1,0 +1,60 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Japanese Naval Masthead Pennant"
+  encoder "User:Zscout370,User:Ipankonin, and User:penubag"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Japanese_Naval_Masthead_Pennant.svg"
+}
+palette {
+  white "#ffffff"
+  pink "#bc002d"
+}
+proportion hoist=300 fly=12000
+
+charge polygon white {
+  point fly=0 hoist=0
+  point fly=0 hoist=300
+  point fly=670 hoist=300
+  point fly=12000 hoist=153
+  point fly=12000 hoist=145
+  point fly=670 hoist=0
+}
+
+charge svg {
+  at center
+  fly 12000
+  hoist 300
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12000 300"><defs><clipPath id="id0"><path d="M 670,0 0,0 0,300 670,300 12000,153 12000,145 670,0 z"></path></clipPath></defs><g clip-path="url(#id0)" transform="matrix(1 0 0 1 0 0)"><g><polygon points="3.40276,-25.7657 51.3142,-73.6772 226.99,149.91 " fill="#bc002d"></polygon><polygon points="3.40276,325.766 51.3142,373.677 226.99,150.09 " fill="#bc002d"></polygon><polygon points="446.59,325.766 398.679,373.677 223.003,150.09 " fill="#bc002d"></polygon><polygon points="446.59,-25.7657 398.679,-73.6772 223.003,149.91 " fill="#bc002d"></polygon></g></g></svg>
+"""#
+}
+
+charge disc pink {
+  radius 75
+  at fly=225 hoist=150
+}
+
+pile pink {
+  from bottom
+  base 207 243
+  depth 150
+}
+
+chevrons pink {
+  depth 225
+  angle 7.219
+}
+
+charge polygon pink {
+  point fly=450 hoist=178.5
+  point fly=450 hoist=121.5
+  point fly=225 hoist=150
+}
+
+pile pink {
+  from top
+  base 207 243
+  depth 150
+}

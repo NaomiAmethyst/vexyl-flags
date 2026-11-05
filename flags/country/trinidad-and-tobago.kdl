@@ -1,0 +1,21 @@
+vexyl 1
+meta {
+  name "Trinidad and Tobago"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  red "#da1a35"
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=18 fly=30
+
+field red
+band black {
+  rotate 40.8387
+  width 4.0005
+  fimbriate white 1.0000
+}

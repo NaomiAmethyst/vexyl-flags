@@ -1,0 +1,42 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Paralympic flag (2019)"
+  encoder "International Paralympic Committee"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Paralympic_flag_(2019).svg"
+}
+palette {
+  white "#ffffff"
+  red "#ee334e"
+  green "#00a651"
+  blue "#0081c8"
+}
+proportion hoist=450 fly=675
+
+field white
+
+charge path red {
+  d "M319.1 91C292.5 84.9 256.2 91.6 222 111.4C168.4 142.4 140 193.6 158.5 225.7C170.4 246.3 198.6 254.1 231.4 249C216.4 245.5 204.5 238 197.8 226.4C179.2 194.2 207.6 143 261.3 112.1C280.5 100.9 300.5 93.8 319.1 91"
+  box "140 84.9 179.1 169.2"
+  fly 179.1
+  hoist 169.2
+  at fly=229.55 hoist=169.5
+}
+
+charge path green {
+  d "M319.5 217.9C327.5 244 351.5 272 385.7 291.8C439.3 322.8 497.9 321.8 516.4 289.6C528.3 269 521 240.7 500.1 214.9C504.6 229.6 504 243.7 497.3 255.3C478.7 287.5 420.2 288.5 366.6 257.5C347.4 246.3 331.3 232.5 319.5 217.9"
+  box "319.5 214.9 208.8 107.9"
+  fly 208.8
+  hoist 107.9
+  at fly=423.9 hoist=268.85
+}
+
+charge path blue {
+  d "M283.2 154.8C264.6 174.8 252.3 209.5 252.3 249.1C252.3 311 282.4 361.2 319.6 361.2C343.3 361.2 364.2 340.7 376.2 309.7C365.7 321 353.2 327.5 339.8 327.5C302.6 327.5 272.5 277.3 272.5 215.4C272.5 193.1 276.4 172.3 283.2 154.8"
+  box "252.3 154.8 123.9 206.4"
+  fly 123.9
+  hoist 206.4
+  at fly=314.25 hoist=258
+}

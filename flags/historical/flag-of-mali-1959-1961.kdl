@@ -1,0 +1,52 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Mali (1959-1961)"
+  encoder "SKopp"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mali_(1959%E2%80%931961).svg"
+}
+palette {
+  green "#14b53a"
+  yellow "#fcd116"
+  red "#ce1126"
+  black "#000000"
+}
+proportion hoist=600 fly=900
+
+bars green yellow red {
+  along hoist
+}
+
+charge disc black {
+  radius 40
+  at fly=450 hoist=170
+}
+
+charge polygon black {
+  point fly=350 hoist=520
+  point fly=370 hoist=520
+  point fly=370 hoist=460
+  point fly=530 hoist=460
+  point fly=530 hoist=520
+  point fly=550 hoist=520
+  point fly=550 hoist=440
+  point fly=460 hoist=440
+  point fly=460 hoist=260
+  point fly=550 hoist=260
+  point fly=550 hoist=180
+  point fly=530 hoist=180
+  point fly=530 hoist=240
+  point fly=460 hoist=240
+  point fly=460 hoist=180
+  point fly=440 hoist=180
+  point fly=440 hoist=240
+  point fly=370 hoist=240
+  point fly=370 hoist=180
+  point fly=350 hoist=180
+  point fly=350 hoist=260
+  point fly=440 hoist=260
+  point fly=440 hoist=440
+  point fly=350 hoist=440
+}

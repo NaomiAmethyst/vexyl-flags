@@ -1,0 +1,20 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of El Hierro"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_El_Hierro.svg"
+}
+palette {
+  green "#078930"
+  blue "#072357"
+  white "#ffffff"
+}
+proportion hoist=10 fly=15
+
+bars green blue
+
+chevrons white {
+  depth 6
+}

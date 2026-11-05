@@ -1,0 +1,34 @@
+vexyl 1
+meta {
+  name "Germany"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg"
+  note "Sizes follow the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  black "#000000"
+  red "#dd0000"
+  gold "#ffce00"
+}
+proportion hoist=3 fly=5
+
+bars black red gold
+
+adapt {
+  wider scale
+  narrower scale
+}
+
+variant hanging {
+  from transpose
+}
+
+// A generic way to fold a striped flag for storage, not any official procedure.
+fold storage {
+  description "In half lengthwise twice, then in half twice toward the hoist"
+  under along=fly at=1.5 move=bottom
+  under along=fly at=0.75 move=bottom
+  over along=hoist at=2.5 move=fly
+  over along=hoist at=1.25 move=fly
+}

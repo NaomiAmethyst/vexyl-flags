@@ -1,0 +1,40 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tyumen Oblast (1995-2008)"
+  encoder "Conscious"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tyumen_Oblast_(1995-2008).svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0051ba"
+  green "#00923f"
+  red "#d81e05"
+}
+proportion hoist=600 fly=900
+
+bars white blue green
+
+charge svg {
+  at center
+  fly 900
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-width="12" stroke-miterlimit="4" stroke-linecap="round" stroke-dasharray="none" stroke="#ffd700" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-width="12" stroke-miterlimit="4" stroke-linecap="round" stroke-dasharray="none" stroke="#ffd700" fill="none" transform="matrix(1 0 0 1 140 0)"/><path d="M367 288l24 36 62 0 24 -36m-44 -6l14 12m-50 0l14 -12m-26 -6l32 48 10 0 32 -48" stroke-width="12" stroke-miterlimit="4" stroke-linecap="round" stroke-dasharray="none" stroke="#ffd700" fill="none" transform="matrix(1 0 0 1 280 0)"/></svg>
+"""#
+}
+
+chevrons red {
+  depth 225
+}
+
+charge svg {
+  at center
+  fly 900
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="m 507,288 24,36 h 62 l 23.99999,-36 M 573,282 l 14,12 m -50,0 14,-12 m -26,-6 32,48 h 10 l 32,-48" stroke-width="4.5" stroke-miterlimit="4" stroke-linecap="round" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="M 647.00001,288 671,324 h 62 l 24,-36 m -44,-6 14,12 m -50,0 14,-12 m -26,-6 32,48 h 10 l 32,-48" stroke-width="4.5" stroke-miterlimit="4" stroke-linecap="round" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m 367,288 24,36 h 62 l 23.99999,-36 M 433,282 l 14,12 m -50,0 14,-12 m -26,-6 32,48 h 10 l 32,-48" stroke-width="4.5" stroke-miterlimit="4" stroke-linecap="round" stroke-opacity="1" stroke-dasharray="none" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}

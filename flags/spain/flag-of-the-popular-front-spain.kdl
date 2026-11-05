@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Popular Front (Spain)"
+  encoder "R-41"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Popular_Front_(Spain).svg"
+}
+palette {
+  red "#dd0000"
+  white "#ffffff"
+}
+proportion hoist=500 fly=694
+
+field red
+
+charge disc white {
+  radius 137.5
+  at fly=347 hoist=250
+}
+
+charge polygon red {
+  point fly=347.25 hoist=114.5
+  point fly=382.75 hoist=229.5
+  point fly=465.75 hoist=318.5
+  point fly=347.25 hoist=290.5
+  point fly=228.75 hoist=318.5
+  point fly=311.25 hoist=229.5
+}

@@ -1,0 +1,22 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Europe"
+  encoder "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+}
+palette {
+  blue "#003399"
+  yellow "#ffcc00"
+}
+proportion hoist=600 fly=900
+
+field blue
+
+charge star yellow {
+  radius 37.5
+  at fly=450 hoist=300
+  repeat ring count=12 radius=200
+}

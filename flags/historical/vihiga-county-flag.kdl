@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Vihiga County Flag"
+  encoder "7bdIa9"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Vihiga_County_Flag.svg"
+}
+palette {
+  green "#00ff00"
+  white "#ffffff"
+  red "#8f5444"
+  orange "#ff9934"
+}
+proportion hoist=360 fly=600
+
+field green
+
+chevrons white {
+  depth 600
+}
+
+chevrons red {
+  depth 300
+  angle 16.6992
+}
+
+charge polygon orange {
+  point fly=0 hoist=15
+  point fly=550 hoist=180
+  point fly=0 hoist=345
+  point fly=0 hoist=285
+  point fly=350 hoist=180
+  point fly=0 hoist=75
+}

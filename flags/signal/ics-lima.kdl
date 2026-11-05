@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Lima"
+  encoder "Denelson83"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Lima.svg"
+}
+palette {
+  yellow "#ffff00"
+  black "#000000"
+}
+proportion hoist=2 fly=2
+
+field yellow
+
+charge polygon black {
+  point fly=0 hoist=1
+  point fly=2 hoist=1
+  point fly=2 hoist=0
+  point fly=1 hoist=0
+  point fly=1 hoist=2
+  point fly=0 hoist=2
+}

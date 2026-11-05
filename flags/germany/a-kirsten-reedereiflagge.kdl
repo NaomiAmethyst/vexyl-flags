@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "A. Kirsten Reedereiflagge"
+  encoder "Sarang"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:A._Kirsten_Reedereiflagge.svg"
+}
+palette {
+  red "#ee0000"
+}
+proportion hoist=504 fly=750
+outline pennant
+
+field red
+
+charge svg {
+  at center
+  fly 750
+  hoist 504
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 504"><path d="m76,252h540" stroke-width="502" stroke-dasharray="76" stroke="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}

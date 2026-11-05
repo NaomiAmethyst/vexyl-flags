@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Golf"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Golf.svg"
+}
+palette {
+  yellow "#ffff00"
+  blue "#0000ff"
+}
+proportion hoist=6 fly=6
+
+field yellow
+
+charge polygon blue {
+  point fly=1 hoist=0
+  point fly=1 hoist=6
+  point fly=2 hoist=6
+  point fly=2 hoist=0
+  point fly=3 hoist=0
+  point fly=3 hoist=6
+  point fly=4 hoist=6
+  point fly=4 hoist=0
+  point fly=5 hoist=0
+  point fly=5 hoist=6
+  point fly=6 hoist=6
+  point fly=6 hoist=0
+}

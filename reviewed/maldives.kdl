@@ -1,0 +1,27 @@
+vexyl 1
+meta {
+  name "Maldives"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  red "#d21034"
+  green "#007e3a"
+  white "#ffffff"
+}
+proportion hoist=480 fly=720
+
+field red
+panel {
+  fly 480
+  hoist 240
+  field green
+  charge crescent white {
+    radius 80
+    inner 80
+    offset 30
+    at fly=270 hoist=120
+  }
+}

@@ -1,0 +1,39 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Seychelles (1976–1977)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles_(1976%E2%80%931977).svg"
+}
+palette {
+  white "#ffffff"
+  red "#ce1029"
+  blue "#00297b"
+}
+proportion hoist=60 fly=120
+
+field white
+
+chevrons red {
+  depth 53
+  angle 26.131
+}
+
+pile red {
+  from fly
+  base 4 56
+  depth 53
+}
+
+pile blue {
+  from top
+  base 4 116
+  depth 27
+}
+
+pile blue {
+  from bottom
+  base 4 116
+  depth 27
+}

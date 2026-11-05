@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Russian Empire (black-yellow-white)"
+  encoder "Кёне, Бернгард Васильевич"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_(1858%E2%80%931896).svg"
+}
+palette {
+  black "#000000"
+  yellow "#ffcd01"
+  white "#ffffff"
+}
+proportion hoist=600 fly=900
+
+bars black yellow white

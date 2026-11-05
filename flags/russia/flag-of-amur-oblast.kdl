@@ -1,0 +1,27 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Amur Oblast"
+  encoder "Conscious"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Amur_Oblast.svg"
+}
+palette {
+  red "#e00000"
+  blue "#0064c8"
+  white "#ffffff"
+}
+proportion hoist=420 fly=630
+
+bars red blue {
+  ratio 5 2
+}
+
+charge path white {
+  d "M-90 280Q-45 302 0 280T90 280T180 280T270 280T360 280T450 280T540 280T630 280L630 315Q585 293 540 315T450 315T360 315T270 315T180 315T90 315T0 315T-90 315Z"
+  box "-90 280 720 35"
+  fly 720
+  hoist 35
+  at fly=270 hoist=297.5
+}

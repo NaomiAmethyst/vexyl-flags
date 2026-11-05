@@ -1,0 +1,103 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Netherlands Antilles (1959–1986)"
+  license "CC-BY-SA-2.5"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands_Antilles_(1959%E2%80%931986).svg"
+}
+palette {
+  white "#ffffff"
+  red "#dc171d"
+  blue "#012a87"
+}
+proportion hoist=500 fly=750
+
+bars white red white {
+  along hoist
+  ratio 7 4 7
+}
+
+charge rect blue {
+  fly 749.9996
+  hoist 166.6666
+  at fly=374.9998 hoist=250
+}
+
+charge polygon white {
+  point fly=346.1581 hoist=326.3888
+  point fly=333.2111 hoist=315.9722
+  point fly=320.3323 hoist=325.9721
+  point fly=325.4434 hoist=310.5555
+  point fly=312.5 hoist=300.1388
+  point fly=328.0521 hoist=300.1388
+  point fly=333.5025 hoist=284.7222
+  point fly=338.4524 hoist=300.1388
+  point fly=354.1667 hoist=300.1388
+  point fly=341.7069 hoist=310.5555
+}
+
+charge polygon white {
+  point fly=429.488 hoist=326.3888
+  point fly=416.5411 hoist=315.9722
+  point fly=403.6623 hoist=325.9721
+  point fly=408.7734 hoist=310.5555
+  point fly=395.83 hoist=300.1388
+  point fly=411.3821 hoist=300.1388
+  point fly=416.8325 hoist=284.7222
+  point fly=421.7824 hoist=300.1388
+  point fly=437.4966 hoist=300.1388
+  point fly=425.0369 hoist=310.5555
+}
+
+charge polygon white {
+  point fly=346.1581 hoist=215.27
+  point fly=333.2111 hoist=204.8534
+  point fly=320.3323 hoist=214.8534
+  point fly=325.4434 hoist=199.4367
+  point fly=312.5 hoist=189.02
+  point fly=328.0521 hoist=189.02
+  point fly=333.5025 hoist=173.6034
+  point fly=338.4524 hoist=189.02
+  point fly=354.1667 hoist=189.02
+  point fly=341.7069 hoist=199.4367
+}
+
+charge polygon white {
+  point fly=426.1581 hoist=215.27
+  point fly=413.2111 hoist=204.8534
+  point fly=400.3323 hoist=214.8534
+  point fly=405.4434 hoist=199.4367
+  point fly=392.5 hoist=189.02
+  point fly=408.0521 hoist=189.02
+  point fly=413.5025 hoist=173.6034
+  point fly=418.4524 hoist=189.02
+  point fly=434.1667 hoist=189.02
+  point fly=421.7069 hoist=199.4367
+}
+
+charge polygon white {
+  point fly=276.6581 hoist=270.833
+  point fly=263.7111 hoist=260.4163
+  point fly=250.8323 hoist=270.4163
+  point fly=255.9434 hoist=254.9997
+  point fly=243 hoist=244.583
+  point fly=258.5521 hoist=244.583
+  point fly=264.0025 hoist=229.1663
+  point fly=268.9524 hoist=244.583
+  point fly=284.6667 hoist=244.583
+  point fly=272.2069 hoist=254.9997
+}
+
+charge polygon white {
+  point fly=498.938 hoist=270.835
+  point fly=485.9911 hoist=260.4183
+  point fly=473.1123 hoist=270.4183
+  point fly=478.2234 hoist=255.0017
+  point fly=465.28 hoist=244.585
+  point fly=480.8321 hoist=244.585
+  point fly=486.2825 hoist=229.1683
+  point fly=491.2324 hoist=244.585
+  point fly=506.9466 hoist=244.585
+  point fly=494.4869 hoist=255.0017
+}

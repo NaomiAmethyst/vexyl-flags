@@ -1,0 +1,33 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Ottoman Empire"
+  encoder "User:Orwellianist"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ottoman_Empire_(1844%E2%80%931922).svg"
+}
+palette {
+  red "#e30a17"
+  white "#ffffff"
+}
+proportion hoist=800 fly=1200
+
+field red
+
+charge disc white {
+  radius 225
+  at fly=425 hoist=400
+}
+
+charge disc red {
+  radius 180
+  at fly=500 hoist=400
+}
+
+charge star white {
+  radius 109.5094
+  inner 45.9939
+  rotate -18
+  at fly=698.569 hoist=400.5279
+}

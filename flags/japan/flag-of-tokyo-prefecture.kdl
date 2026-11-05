@@ -1,0 +1,79 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tokyo Prefecture"
+  encoder "Original: Unknown Vector: Zscout370"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tokyo_Metropolis.svg"
+}
+palette {
+  purple "#4b0082"
+  white "#ffffff"
+}
+proportion hoist=18 fly=27
+
+field purple
+
+charge polygon white {
+  point fly=13.5 hoist=15
+  point fly=14 hoist=14.5193
+  point fly=14 hoist=11
+  point fly=13 hoist=11
+  point fly=13 hoist=14.5193
+}
+
+charge polygon white {
+  point fly=8.3038 hoist=12
+  point fly=8.9702 hoist=12.1926
+  point fly=12.0179 hoist=10.433
+  point fly=11.5179 hoist=9.567
+  point fly=8.4702 hoist=11.3266
+}
+
+charge polygon white {
+  point fly=18.6962 hoist=12
+  point fly=18.5298 hoist=11.3266
+  point fly=15.4821 hoist=9.567
+  point fly=14.9821 hoist=10.433
+  point fly=18.0298 hoist=12.1926
+}
+
+charge polygon white {
+  point fly=13.5 hoist=3
+  point fly=14 hoist=3.4807
+  point fly=14 hoist=7
+  point fly=13 hoist=7
+  point fly=13 hoist=3.4807
+}
+
+charge polygon white {
+  point fly=8.3038 hoist=6
+  point fly=8.9702 hoist=5.8074
+  point fly=12.0179 hoist=7.567
+  point fly=11.5179 hoist=8.433
+  point fly=8.4702 hoist=6.6734
+}
+
+charge polygon white {
+  point fly=18.6962 hoist=6
+  point fly=18.5298 hoist=6.6734
+  point fly=15.4821 hoist=8.433
+  point fly=14.9821 hoist=7.567
+  point fly=18.0298 hoist=5.8074
+}
+
+charge disc white {
+  radius 3
+  at fly=13.5 hoist=9
+}
+
+charge disc purple {
+  radius 2
+  at fly=13.5 hoist=9
+}
+
+charge disc white {
+  radius 1
+  at fly=13.5 hoist=9
+}

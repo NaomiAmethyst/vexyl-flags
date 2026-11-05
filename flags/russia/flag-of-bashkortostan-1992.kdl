@@ -1,0 +1,115 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Bashkortostan 1992"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bashkortostan_(1992%E2%80%932003).svg"
+}
+palette {
+  blue "#0070ff"
+  white "#ffffff"
+  green "#007000"
+  yellow "#ffd700"
+}
+proportion hoist=300 fly=600
+
+bars blue white green
+
+charge ring yellow {
+  radius 40
+  inner 35
+  at fly=300 hoist=150
+}
+
+charge disc yellow {
+  radius 8
+  at fly=300 hoist=150
+}
+
+charge rect yellow {
+  fly 25
+  hoist 2
+  at fly=312.5 hoist=150
+}
+
+charge disc yellow {
+  radius 5
+  at fly=325 hoist=150
+}
+
+charge polygon yellow {
+  point fly=300.5 hoist=150.866
+  point fly=322.1506 hoist=138.366
+  point fly=321.1506 hoist=136.634
+  point fly=299.5 hoist=149.134
+}
+
+charge disc yellow {
+  radius 5
+  at fly=321.6506 hoist=137.5
+}
+
+charge polygon yellow {
+  point fly=300.866 hoist=150.5
+  point fly=313.366 hoist=128.8494
+  point fly=311.634 hoist=127.8494
+  point fly=299.134 hoist=149.5
+}
+
+charge disc yellow {
+  radius 5
+  at fly=312.5 hoist=128.3494
+}
+
+charge rect yellow {
+  fly 2
+  hoist 25
+  at fly=300 hoist=137.5
+}
+
+charge disc yellow {
+  radius 5
+  at fly=300 hoist=125
+}
+
+charge polygon yellow {
+  point fly=300.866 hoist=149.5
+  point fly=288.366 hoist=127.8494
+  point fly=286.634 hoist=128.8494
+  point fly=299.134 hoist=150.5
+}
+
+charge disc yellow {
+  radius 5
+  at fly=287.5 hoist=128.3494
+}
+
+charge polygon yellow {
+  point fly=300.5 hoist=149.134
+  point fly=278.8494 hoist=136.634
+  point fly=277.8494 hoist=138.366
+  point fly=299.5 hoist=150.866
+}
+
+charge disc yellow {
+  radius 5
+  at fly=278.3494 hoist=137.5
+}
+
+charge rect yellow {
+  fly 25
+  hoist 2
+  at fly=287.5 hoist=150
+}
+
+charge disc yellow {
+  radius 5
+  at fly=275 hoist=150
+}
+
+charge rect yellow {
+  fly 2
+  hoist 25
+  at fly=300 hoist=162.5
+}

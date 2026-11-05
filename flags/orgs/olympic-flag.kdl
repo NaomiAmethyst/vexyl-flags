@@ -1,0 +1,77 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Olympic flag"
+  encoder "Original author: Pierre de Coubertin (1863-1937)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Olympic_flag.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0081c8"
+  black "#000000"
+  red "#ee334e"
+  orange "#fcb131"
+  green "#00a651"
+}
+proportion hoist=600 fly=900
+
+field white
+
+charge ring blue {
+  radius 100.45
+  inner 82.75
+  at fly=232.3 hoist=253.5
+}
+
+charge ring black {
+  radius 100.45
+  inner 82.75
+  at fly=450 hoist=253.5
+}
+
+charge ring red {
+  radius 100.45
+  inner 82.75
+  at fly=667.7 hoist=253.5
+}
+
+charge ring orange {
+  radius 100.45
+  inner 82.75
+  at fly=341.2 hoist=346.5
+}
+
+charge ring green {
+  radius 100.45
+  inner 82.75
+  at fly=558.8 hoist=346.5
+}
+
+charge path blue {
+  d "M305.6 198.5A91.6 91.6 0 0 1 305.6 308.4"
+  box "214 198.5 183.2 201.5"
+  fly 183.2
+  hoist 201.5
+  hollow 17.7
+  at fly=305.6 hoist=299.25
+}
+
+charge path black {
+  d "M523.3 198.5A91.6 91.6 0 0 1 523.3 308.4M450 345A91.6 91.6 0 0 1 395 326.7"
+  box "303.4 198.5 311.5 219.8"
+  fly 311.5
+  hoist 219.8
+  hollow 17.7
+  at fly=459.15 hoist=308.4
+}
+
+charge path red {
+  d "M667.7 345A91.6 91.6 0 0 1 612.7 326.7"
+  box "521.1 235.1 183.2 183.2"
+  fly 183.2
+  hoist 183.2
+  hollow 17.7
+  at fly=612.7 hoist=326.7
+}

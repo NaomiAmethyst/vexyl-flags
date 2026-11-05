@@ -1,0 +1,62 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Gifu Prefecture"
+  encoder "Fvasconcellos (talk · contribs). PNG version by Kzaral"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Gifu_Prefecture.svg"
+}
+palette {
+  white "#ffffff"
+  green "#00693f"
+}
+proportion hoist=600 fly=900
+
+field white
+
+charge path green {
+  d "M617.8652 300.0369A167.8652 167.8652 0 0 1 282.1348 300.0369A167.8652 167.8652 0 1 1 617.8652 300.0369Z"
+  box "114.2697 132.1717 671.4607 335.7303"
+  fly 671.4607
+  hoist 335.7303
+  hollow 24.2697
+  at fly=450 hoist=300.0369
+}
+
+charge polygon green {
+  point fly=476.7219 hoist=173.8346
+  point fly=476.7219 hoist=194.8683
+  point fly=432.177 hoist=194.8683
+  point fly=432.177 hoist=227.2279
+  point fly=432.177 hoist=374.4638
+  point fly=373.9298 hoist=374.4638
+  point fly=373.9298 hoist=227.2279
+  point fly=386.8736 hoist=227.2279
+  point fly=386.8736 hoist=362.3037
+  point fly=419.2332 hoist=362.3037
+  point fly=419.2332 hoist=194.843
+  point fly=341.5702 hoist=194.8682
+  point fly=341.5702 hoist=227.2278
+  point fly=341.5702 hoist=406.8233
+  point fly=464.5365 hoist=406.8233
+  point fly=464.5365 hoist=227.2278
+  point fly=476.7219 hoist=227.2278
+  point fly=476.7219 hoist=272.5312
+  point fly=509.0815 hoist=272.5312
+  point fly=521.1657 hoist=272.5312
+  point fly=521.1657 hoist=374.4637
+  point fly=509.0815 hoist=374.4637
+  point fly=509.0815 hoist=285.475
+  point fly=476.7219 hoist=285.475
+  point fly=476.7219 hoist=406.8233
+  point fly=553.5253 hoist=406.8233
+  point fly=553.5253 hoist=240.1716
+  point fly=509.0815 hoist=240.1716
+  point fly=509.0815 hoist=227.2278
+  point fly=553.5253 hoist=227.2278
+  point fly=553.5253 hoist=194.8682
+  point fly=509.0815 hoist=194.8682
+  point fly=509.0815 hoist=173.8345
+  point fly=476.7219 hoist=173.8345
+}

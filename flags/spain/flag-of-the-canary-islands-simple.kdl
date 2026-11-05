@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Canary Islands (simple)"
+  encoder "No machine-readable author provided. Zirland assumed (based on copyright claims)."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Canary_Islands_(simple).svg"
+}
+palette {
+  white "#ffffff"
+  blue "#0768a9"
+  yellow "#ffcc00"
+}
+proportion hoist=400 fly=600
+
+bars white blue yellow {
+  along hoist
+}

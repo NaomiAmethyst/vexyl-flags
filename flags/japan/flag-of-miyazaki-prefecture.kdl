@@ -1,0 +1,31 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Miyazaki Prefecture"
+  encoder "Ninane at nl.wikipedia"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Miyazaki_Prefecture.svg"
+}
+palette {
+  green "#159939"
+  yellow "#ffff01"
+}
+proportion hoist=1000 fly=1400
+
+field green
+
+charge polygon yellow {
+  point fly=312.1094 hoist=215
+  point fly=703.8 hoist=215
+  point fly=574.6 hoist=405
+  point fly=954.6 hoist=405
+  point fly=825.4 hoist=595
+  point fly=1227.4219 hoist=595
+  point fly=1098.9062 hoist=770
+  point fly=695.4 hoist=770
+  point fly=824.6 hoist=580
+  point fly=444.6 hoist=580
+  point fly=573.8 hoist=390
+  point fly=183.5938 hoist=390
+}

@@ -1,0 +1,857 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Balearic Islands"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Balearic_Islands.svg"
+}
+palette {
+  yellow "#fcdd09"
+  red "#da121a"
+  purple "#40104c"
+}
+proportion hoist=720 fly=1080
+
+bars yellow red {
+  count 9
+}
+
+canton {
+  fly 540
+  hoist 360
+  field purple
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><rect width="40.236" y="88.404" height="172.33" x="249.88" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m247.29,83.275,45.437,0-2.965,4.7965-39.668,0-2.803-4.7965z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m253.34,75.036-6.5561,0,0,8.6657,46.478,0,0-8.6657-6.5561,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><rect width="40.285" y="157.76" height="103" x="48.217" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><rect width="40.236" y="113.52" height="147.22" x="88.608" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><rect width="40.285" y="157.76" height="103" x="209.59" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><rect width="40.285" y="157.76" height="103" x="128.95" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><rect width="40.236" y="113.52" height="147.22" x="169.28" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m43.552,153.48,45.003,0,0,4.0646-40.664,0-4.3393-4.0646z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m48.633,144.94-6.5561,0,0,8.6657,46.478,0,0-8.6657-6.5561,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m86.018,108.69,45.437,0-2.965,4.7965-39.668,0-2.8031-4.7965z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m92.064,100.45-6.5561,0,0,8.6658,46.478,0,0-8.6658-6.5561,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m209.54,151.49,0,6.8905,40.39,0,0-6.8905-40.39,0z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m215.24,144.94-5.6974,0,0,8.6657,40.39,0,0-8.6657-5.6974,0,0,3.7003-5.3243,0,0-3.7003-6.5113,0,0,3.7003-5.3244,0,0-3.7003-6.5113,0,0,3.7003-5.3243,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m128.9,151.49,0,6.8905,40.39,0,0-6.8905-40.39,0z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m134.59,144.94-5.6974,0,0,8.6657,40.39,0,0-8.6657-5.6974,0,0,3.7003-5.3243,0,0-3.7003-6.5113,0,0,3.7003-5.3244,0,0-3.7003-6.5113,0,0,3.7003-5.3243,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m166.69,108.69,45.437,0-2.965,4.7965-39.668,0-2.803-4.7965z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m172.73,100.45-6.5561,0,0,8.6658,46.478,0,0-8.6658-6.5561,0,0,3.7003-6.1268,0,0-3.7003-7.4926,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m48.394,216.6,221.61,0,0,14.724-221.61,0" stroke-width="1.44" stroke="#40104c" fill="none" transform="matrix(1 0 0 1 0 0)"/><path d="m48.394,201.88,221.61-0.13346,0-14.361-221.61-0.2296" stroke-width="1.44" stroke="#40104c" fill="none" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 13.998
+  at fly=68.36 hoist=179.859
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 14.325
+  at fly=68.36 hoist=209.2535
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 14.407
+  at fly=68.36 hoist=238.6635
+}
+
+charge rect purple {
+  fly 221.61
+  hoist 1.44
+  at fly=159.199 hoist=246.12
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 13.998
+  at fly=108.73 hoist=120.389
+  at fly=108.73 hoist=253.547
+  at fly=108.73 hoist=223.705
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 58.385
+  at fly=108.73 hoist=172.4215
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 43.067
+  at fly=229.74 hoist=180.4135
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 14.325
+  at fly=229.74 hoist=224.3035
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 43.067
+  at fly=149.09 hoist=180.4135
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 14.325
+  at fly=149.09 hoist=224.3035
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 13.998
+  at fly=155.82 hoist=179.619
+  at fly=142.357 hoist=179.619
+  at fly=236.465 hoist=179.619
+  at fly=223.002 hoist=179.619
+}
+
+charge rect purple {
+  fly 39.932
+  hoist 1.44
+  at fly=189.396 hoist=157.59
+  at fly=108.728 hoist=157.59
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 13.998
+  at fly=189.39 hoist=120.389
+  at fly=189.39 hoist=253.547
+  at fly=189.39 hoist=223.705
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 58.385
+  at fly=189.39 hoist=172.4215
+}
+
+charge rect purple {
+  fly 39.932
+  hoist 1.44
+  at fly=189.396 hoist=142.62
+  at fly=108.728 hoist=142.62
+  at fly=189.396 hoist=127.74
+  at fly=108.728 hoist=127.74
+}
+
+charge path purple {
+  d "M250.03 157.59L269.996 157.5795L269.996 172.4465L48.386 172.4359"
+  box "48.386 157.5795 221.61 14.867"
+  fly 221.61
+  hoist 14.867
+  hollow 1.44
+  at fly=159.191 hoist=165.013
+}
+
+charge path purple {
+  d "M250.03 127.74L269.996 127.6651L269.996 142.7711L250.03 142.6195"
+  box "250.03 127.6651 19.966 15.106"
+  fly 19.966
+  hoist 15.106
+  hollow 1.44
+  at fly=260.013 hoist=135.2181
+}
+
+charge path purple {
+  d "M250.03 95.531L269.996 95.8526L269.996 111.3556L250.03 111.2041"
+  box "250.03 95.531 19.966 15.8246"
+  fly 19.966
+  hoist 15.8246
+  hollow 1.44
+  at fly=260.013 hoist=103.4433
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m103.23,165.43-4.9081-2.073c1.7325-5.1665,4.5242-9.6238,10.405-11.505v6.4262" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 4.2566
+  hoist 3.567
+  at fly=102.1021 hoist=160.198
+}
+
+charge lozenge purple {
+  fly 3.2844
+  hoist 4.0768
+  at fly=105.0493 hoist=156.5116
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m114.22,165.43,4.9081-2.073c-1.7325-5.1665-4.5242-9.6238-10.405-11.505v6.4262" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 4.2566
+  hoist 3.567
+  at fly=115.3478 hoist=160.198
+}
+
+charge lozenge purple {
+  fly 3.2844
+  hoist 4.0768
+  at fly=112.4107 hoist=156.5116
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m222.8,238.93-6.1963-2.617c2.1872-6.5225,5.7116-12.15,13.136-14.525v8.1129" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.1583
+  hoist 4.1927
+  at fly=221.3713 hoist=232.3252
+}
+
+charge lozenge purple {
+  fly 3.8254
+  hoist 4.9474
+  at fly=225.0888 hoist=227.6764
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m236.68,238.93,6.1963-2.617c-2.1872-6.5225-5.7116-12.15-13.136-14.525v8.1129" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.1583
+  hoist 4.1927
+  at fly=238.0987 hoist=232.3252
+}
+
+charge lozenge purple {
+  fly 3.8254
+  hoist 4.9474
+  at fly=234.3812 hoist=227.6764
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m142.15,238.93-6.1963-2.617c2.1872-6.5225,5.7116-12.15,13.136-14.525v8.1129" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.1583
+  hoist 4.1927
+  at fly=140.7313 hoist=232.3252
+}
+
+charge lozenge purple {
+  fly 3.8254
+  hoist 4.9474
+  at fly=144.4488 hoist=227.6764
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m156.03,238.93,6.1963-2.617c-2.1872-6.5225-5.7116-12.15-13.136-14.525v8.1129" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.1583
+  hoist 4.1927
+  at fly=157.4587 hoist=232.3252
+}
+
+charge lozenge purple {
+  fly 3.8254
+  hoist 4.9474
+  at fly=153.7412 hoist=227.6764
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m183.9,165.43-4.9081-2.073c1.7325-5.1665,4.5242-9.6238,10.405-11.505v6.4262" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 4.2566
+  hoist 3.567
+  at fly=182.7722 hoist=160.198
+}
+
+charge lozenge purple {
+  fly 3.2844
+  hoist 4.0768
+  at fly=185.7093 hoist=156.5116
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m194.89,165.43,4.9081-2.073c-1.7325-5.1665-4.5242-9.6238-10.405-11.505v6.4262" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 4.2566
+  hoist 3.567
+  at fly=196.0179 hoist=160.198
+}
+
+charge lozenge purple {
+  fly 3.2844
+  hoist 4.0768
+  at fly=193.0707 hoist=156.5116
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m256.04,134.04-4.0055-2.0358c1.4139-5.0738,3.6922-9.4512,8.4917-11.299v6.3109" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 3.7268
+  hoist 3.4465
+  at fly=255.118 hoist=128.8994
+}
+
+charge lozenge purple {
+  fly 2.9617
+  hoist 3.9181
+  at fly=257.5289 hoist=125.2814
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m265.02,134.04,4.0055-2.0358c-1.4139-5.0738-3.6922-9.4512-8.4917-11.299v6.3109" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 3.7268
+  hoist 3.4465
+  at fly=265.9319 hoist=128.8994
+}
+
+charge lozenge purple {
+  fly 2.9617
+  hoist 3.9181
+  at fly=263.5312 hoist=125.2814
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m262.09,220.27-7.0625-3.2019c2.493-7.9801,6.5101-14.865,14.972-17.771v9.9259" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.8091
+  hoist 4.8356
+  at fly=260.465 hoist=212.18
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m266.19,209.06-2.9662-5.123" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m108.69,157.03c-3.3011,0.32362-5.2431,3.2621-6.1878,8.0754v20.646h12.376v-20.646c-0.94475-4.8133-2.8867-7.7518-6.1878-8.0754z" stroke-width="1.44" stroke="#40104c" fill="#40104c" transform="matrix(1 0 0 1 0 0)"/><path d="m229.69,228.34c-4.1675,0.40854-6.6192,4.1183-7.812,10.195v22.28h15.624v-22.28c-1.1927-6.0767-3.6444-9.7865-7.812-10.195z" stroke-width="1.44" stroke="#40104c" fill="#40104c" transform="matrix(1 0 0 1 0 0)"/><path d="m149.04,228.34c-4.1675,0.40854-6.6192,4.1183-7.812,10.195v22.28h15.624v-22.28c-1.1927-6.0767-3.6444-9.7865-7.812-10.195z" stroke-width="1.44" stroke="#40104c" fill="#40104c" transform="matrix(1 0 0 1 0 0)"/><path d="m189.35,157.03c-3.3011,0.32362-5.2431,3.2621-6.1878,8.0754v20.646h12.376v-20.646c-0.94475-4.8133-2.8867-7.7518-6.1878-8.0754z" stroke-width="1.44" stroke="#40104c" fill="#40104c" transform="matrix(1 0 0 1 0 0)"/><path d="m260.5,125.79c-2.694,0.3178-4.2789,3.2036-5.0499,7.9306v11.47h10.1v-11.47c-0.77101-4.727-2.3559-7.6128-5.0499-7.9306z" stroke-width="1.44" stroke="#40104c" fill="#40104c" transform="matrix(1 0 0 1 0 0)"/><path d="m269.94,207.3c-4.7501,0.49985-7.5446,5.0386-8.904,12.473v41.013h17.808z" stroke-width="1.44" stroke="#40104c" fill="#40104c" transform="matrix(1 0 0 1 0 0)"/><rect width="40.285" y="157.76" height="103" x="48.217" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><rect width="40.236" y="113.52" height="147.22" x="88.608" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><rect width="40.285" y="157.76" height="103" x="209.59" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><rect width="40.285" y="157.76" height="103" x="128.95" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><rect width="40.236" y="113.52" height="147.22" x="169.28" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m43.552,153.48,45.003,0,0,4.0646-40.664,0-4.3393-4.0646z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m48.633,144.94-6.5561,0,0,8.6657,46.478,0,0-8.6657-6.5561,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m86.018,108.69,45.437,0-2.965,4.7965-39.668,0-2.8031-4.7965z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m92.064,100.45-6.5561,0,0,8.6658,46.478,0,0-8.6658-6.5561,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m209.54,151.49,0,6.8905,40.39,0,0-6.8905-40.39,0z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m215.24,144.94-5.6974,0,0,8.6657,40.39,0,0-8.6657-5.6974,0,0,3.7003-5.3243,0,0-3.7003-6.5113,0,0,3.7003-5.3244,0,0-3.7003-6.5113,0,0,3.7003-5.3243,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m128.9,151.49,0,6.8905,40.39,0,0-6.8905-40.39,0z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m134.59,144.94-5.6974,0,0,8.6657,40.39,0,0-8.6657-5.6974,0,0,3.7003-5.3243,0,0-3.7003-6.5113,0,0,3.7003-5.3244,0,0-3.7003-6.5113,0,0,3.7003-5.3243,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m166.69,108.69,45.437,0-2.965,4.7965-39.668,0-2.803-4.7965z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m172.73,100.45-6.5561,0,0,8.6658,46.478,0,0-8.6658-6.5561,0,0,3.7003-6.1268,0,0-3.7003-7.4926,0,0,3.7003-6.1268,0,0-3.7003-7.4927,0,0,3.7003-6.1268,0,0-3.7003z" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/><path d="m48.394,216.6,221.61,0,0,14.724-221.61,0" stroke-width="1.44" stroke="#40104c" fill="none" transform="matrix(-1 0 0 1 540 0)"/><path d="m48.394,201.88,221.61-0.13346,0-14.361-221.61-0.2296" stroke-width="1.44" stroke="#40104c" fill="none" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 13.998
+  at fly=471.64 hoist=179.859
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 14.325
+  at fly=471.64 hoist=209.2535
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 14.407
+  at fly=471.64 hoist=238.6635
+}
+
+charge rect purple {
+  fly 221.61
+  hoist 1.44
+  at fly=380.801 hoist=246.12
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 13.998
+  at fly=431.27 hoist=120.389
+  at fly=431.27 hoist=253.547
+  at fly=431.27 hoist=223.705
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 58.385
+  at fly=431.27 hoist=172.4215
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 43.067
+  at fly=310.26 hoist=180.4135
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 14.325
+  at fly=310.26 hoist=224.3035
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 43.067
+  at fly=390.91 hoist=180.4135
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 14.325
+  at fly=390.91 hoist=224.3035
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 13.998
+  at fly=384.18 hoist=179.619
+  at fly=397.643 hoist=179.619
+  at fly=303.535 hoist=179.619
+  at fly=316.998 hoist=179.619
+}
+
+charge rect purple {
+  fly 39.932
+  hoist 1.44
+  at fly=350.604 hoist=157.59
+  at fly=431.272 hoist=157.59
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 13.998
+  at fly=350.61 hoist=120.389
+  at fly=350.61 hoist=253.547
+  at fly=350.61 hoist=223.705
+}
+
+charge rect purple {
+  fly 1.44
+  hoist 58.385
+  at fly=350.61 hoist=172.4215
+}
+
+charge rect purple {
+  fly 39.932
+  hoist 1.44
+  at fly=350.604 hoist=142.62
+  at fly=431.272 hoist=142.62
+  at fly=350.604 hoist=127.74
+  at fly=431.272 hoist=127.74
+}
+
+charge path purple {
+  d "M289.97 157.59L270.004 157.5795L270.004 172.4465L491.614 172.4359"
+  box "270.004 157.5795 221.61 14.867"
+  fly 221.61
+  hoist 14.867
+  hollow 1.44
+  at fly=380.809 hoist=165.013
+}
+
+charge path purple {
+  d "M289.97 127.74L270.004 127.6651L270.004 142.7711L289.97 142.6195"
+  box "270.004 127.6651 19.966 15.106"
+  fly 19.966
+  hoist 15.106
+  hollow 1.44
+  at fly=279.987 hoist=135.2181
+}
+
+charge path purple {
+  d "M289.97 95.531L270.004 95.8526L270.004 111.3556L289.97 111.2041"
+  box "270.004 95.531 19.966 15.8246"
+  fly 19.966
+  hoist 15.8246
+  hollow 1.44
+  at fly=279.987 hoist=103.4433
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m103.23,165.43-4.9081-2.073c1.7325-5.1665,4.5242-9.6238,10.405-11.505v6.4262" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 4.2566
+  hoist 3.567
+  at fly=437.8979 hoist=160.198
+}
+
+charge lozenge purple {
+  fly 3.2844
+  hoist 4.0768
+  at fly=434.9507 hoist=156.5116
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m114.22,165.43,4.9081-2.073c-1.7325-5.1665-4.5242-9.6238-10.405-11.505v6.4262" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 4.2566
+  hoist 3.567
+  at fly=424.6522 hoist=160.198
+}
+
+charge lozenge purple {
+  fly 3.2844
+  hoist 4.0768
+  at fly=427.5893 hoist=156.5116
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m222.8,238.93-6.1963-2.617c2.1872-6.5225,5.7116-12.15,13.136-14.525v8.1129" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.1583
+  hoist 4.1927
+  at fly=318.6287 hoist=232.3252
+}
+
+charge lozenge purple {
+  fly 3.8254
+  hoist 4.9474
+  at fly=314.9112 hoist=227.6764
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m236.68,238.93,6.1963-2.617c-2.1872-6.5225-5.7116-12.15-13.136-14.525v8.1129" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.1583
+  hoist 4.1927
+  at fly=301.9013 hoist=232.3252
+}
+
+charge lozenge purple {
+  fly 3.8254
+  hoist 4.9474
+  at fly=305.6188 hoist=227.6764
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m142.15,238.93-6.1963-2.617c2.1872-6.5225,5.7116-12.15,13.136-14.525v8.1129" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.1583
+  hoist 4.1927
+  at fly=399.2687 hoist=232.3252
+}
+
+charge lozenge purple {
+  fly 3.8254
+  hoist 4.9474
+  at fly=395.5512 hoist=227.6764
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m156.03,238.93,6.1963-2.617c-2.1872-6.5225-5.7116-12.15-13.136-14.525v8.1129" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.1583
+  hoist 4.1927
+  at fly=382.5413 hoist=232.3252
+}
+
+charge lozenge purple {
+  fly 3.8254
+  hoist 4.9474
+  at fly=386.2588 hoist=227.6764
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m183.9,165.43-4.9081-2.073c1.7325-5.1665,4.5242-9.6238,10.405-11.505v6.4262" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 4.2566
+  hoist 3.567
+  at fly=357.2278 hoist=160.198
+}
+
+charge lozenge purple {
+  fly 3.2844
+  hoist 4.0768
+  at fly=354.2907 hoist=156.5116
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m194.89,165.43,4.9081-2.073c-1.7325-5.1665-4.5242-9.6238-10.405-11.505v6.4262" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 4.2566
+  hoist 3.567
+  at fly=343.9821 hoist=160.198
+}
+
+charge lozenge purple {
+  fly 3.2844
+  hoist 4.0768
+  at fly=346.9293 hoist=156.5116
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m256.04,134.04-4.0055-2.0358c1.4139-5.0738,3.6922-9.4512,8.4917-11.299v6.3109" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 3.7268
+  hoist 3.4465
+  at fly=284.882 hoist=128.8994
+}
+
+charge lozenge purple {
+  fly 2.9617
+  hoist 3.9181
+  at fly=282.4711 hoist=125.2814
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m265.02,134.04,4.0055-2.0358c-1.4139-5.0738-3.6922-9.4512-8.4917-11.299v6.3109" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 3.7268
+  hoist 3.4465
+  at fly=274.0681 hoist=128.8994
+}
+
+charge lozenge purple {
+  fly 2.9617
+  hoist 3.9181
+  at fly=276.4688 hoist=125.2814
+}
+
+charge svg {
+  at center
+  fly 1080
+  hoist 720
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720"><path d="m262.09,220.27-7.0625-3.2019c2.493-7.9801,6.5101-14.865,14.972-17.771v9.9259" stroke-linejoin="round" stroke-width="1.44" stroke="#40104c" fill="#ffffff" transform="matrix(-1 0 0 1 540 0)"/></svg>
+"""#
+}
+
+charge lozenge purple {
+  fly 5.8091
+  hoist 4.8356
+  at fly=279.535 hoist=212.18
+}
+
+charge polygon purple {
+  point fly=274.4331 hoist=209.4208
+  point fly=277.3993 hoist=204.2978
+  point fly=276.1531 hoist=203.5762
+  point fly=273.1869 hoist=208.6992
+}
+
+charge path purple {
+  d "M431.31 157.03C434.6111 157.3536 436.5531 160.2921 437.4978 165.1054L437.4978 185.7514L425.1218 185.7514L425.1218 165.1054C426.0666 160.2921 428.0085 157.3536 431.3096 157.03Z"
+  box "425.1218 157.03 12.376 28.7214"
+  fly 12.376
+  hoist 28.7214
+  at fly=431.3098 hoist=171.3907
+}
+
+charge path purple {
+  d "M431.31 157.03C434.6111 157.3536 436.5531 160.2921 437.4978 165.1054L437.4978 185.7514L425.1218 185.7514L425.1218 165.1054C426.0666 160.2921 428.0085 157.3536 431.3096 157.03Z"
+  box "425.1218 157.03 12.376 28.7214"
+  fly 12.376
+  hoist 28.7214
+  hollow 1.44
+  at fly=431.3098 hoist=171.3907
+}
+
+charge path purple {
+  d "M310.31 228.34C314.4775 228.7485 316.9292 232.4583 318.122 238.535L318.122 260.815L302.498 260.815L302.498 238.535C303.6907 232.4583 306.1424 228.7485 310.31 228.34Z"
+  box "302.498 228.34 15.624 32.475"
+  fly 15.624
+  hoist 32.475
+  at fly=310.31 hoist=244.5775
+}
+
+charge path purple {
+  d "M310.31 228.34C314.4775 228.7485 316.9292 232.4583 318.122 238.535L318.122 260.815L302.498 260.815L302.498 238.535C303.6907 232.4583 306.1424 228.7485 310.31 228.34Z"
+  box "302.498 228.34 15.624 32.475"
+  fly 15.624
+  hoist 32.475
+  hollow 1.44
+  at fly=310.31 hoist=244.5775
+}
+
+charge path purple {
+  d "M390.96 228.34C395.1275 228.7485 397.5792 232.4583 398.772 238.535L398.772 260.815L383.148 260.815L383.148 238.535C384.3407 232.4583 386.7924 228.7485 390.96 228.34Z"
+  box "383.148 228.34 15.624 32.475"
+  fly 15.624
+  hoist 32.475
+  at fly=390.96 hoist=244.5775
+}
+
+charge path purple {
+  d "M390.96 228.34C395.1275 228.7485 397.5792 232.4583 398.772 238.535L398.772 260.815L383.148 260.815L383.148 238.535C384.3407 232.4583 386.7924 228.7485 390.96 228.34Z"
+  box "383.148 228.34 15.624 32.475"
+  fly 15.624
+  hoist 32.475
+  hollow 1.44
+  at fly=390.96 hoist=244.5775
+}
+
+charge path purple {
+  d "M350.65 157.03C353.9511 157.3536 355.8931 160.2921 356.8378 165.1054L356.8378 185.7514L344.4618 185.7514L344.4618 165.1054C345.4066 160.2921 347.3485 157.3536 350.6496 157.03Z"
+  box "344.4618 157.03 12.376 28.7214"
+  fly 12.376
+  hoist 28.7214
+  at fly=350.6498 hoist=171.3907
+}
+
+charge path purple {
+  d "M350.65 157.03C353.9511 157.3536 355.8931 160.2921 356.8378 165.1054L356.8378 185.7514L344.4618 185.7514L344.4618 165.1054C345.4066 160.2921 347.3485 157.3536 350.6496 157.03Z"
+  box "344.4618 157.03 12.376 28.7214"
+  fly 12.376
+  hoist 28.7214
+  hollow 1.44
+  at fly=350.6498 hoist=171.3907
+}
+
+charge path purple {
+  d "M279.5 125.79C282.194 126.1078 283.7789 128.9936 284.5499 133.7206L284.5499 145.1906L274.4499 145.1906L274.4499 133.7206C275.2209 128.9936 276.8058 126.1078 279.4998 125.79Z"
+  box "274.4499 125.79 10.1 19.4006"
+  fly 10.1
+  hoist 19.4006
+  at fly=279.4999 hoist=135.4903
+}
+
+charge path purple {
+  d "M279.5 125.79C282.194 126.1078 283.7789 128.9936 284.5499 133.7206L284.5499 145.1906L274.4499 145.1906L274.4499 133.7206C275.2209 128.9936 276.8058 126.1078 279.4998 125.79Z"
+  box "274.4499 125.79 10.1 19.4006"
+  fly 10.1
+  hoist 19.4006
+  hollow 1.44
+  at fly=279.4999 hoist=135.4903
+}
+
+charge path purple {
+  d "M270.06 207.3C274.8101 207.7999 277.6046 212.3386 278.964 219.773L278.964 260.786L261.156 260.786Z"
+  box "261.156 207.3 17.808 53.486"
+  fly 17.808
+  hoist 53.486
+  at fly=270.06 hoist=234.043
+}
+
+charge path purple {
+  d "M270.06 207.3C274.8101 207.7999 277.6046 212.3386 278.964 219.773L278.964 260.786L261.156 260.786Z"
+  box "261.156 207.3 17.808 53.486"
+  fly 17.808
+  hoist 53.486
+  hollow 1.44
+  at fly=270.06 hoist=234.043
+}

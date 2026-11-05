@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Greenland"
+  encoder "Jeffrey Connell (IceKarma)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Greenland.svg"
+}
+palette {
+  white "#ffffff"
+  red "#c8102e"
+}
+proportion hoist=12 fly=18
+
+field white
+
+charge path red {
+  d "M0 6L18 6L18 12L0 12ZM3 6A4 4 0 0 0 11 6A4 4 0 0 0 3 6"
+  box "-1 2 19 10"
+  fly 19
+  hoist 10
+  at fly=8.5 hoist=7
+}

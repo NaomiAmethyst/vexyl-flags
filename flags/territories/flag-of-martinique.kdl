@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag-of-Martinique"
+  encoder "User:MapGrid/User:HapHaxion/User:Femfem5/User:Triton, based on work by User:Carport"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag-of-Martinique.svg"
+}
+palette {
+  green "#00a650"
+  black "#231f1e"
+  red "#ef1923"
+}
+proportion hoist=600 fly=900
+
+bars green black
+
+chevrons red {
+  depth 450
+}

@@ -1,0 +1,27 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Unconfirmed Kano Flag"
+  encoder "Bohr"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Unconfirmed_Kano_Flag.svg"
+}
+palette {
+  red "#ce1126"
+  yellow "#fcd116"
+  blue "#003ea8"
+  white "#ffffff"
+}
+proportion hoist=360 fly=600
+
+bars red yellow blue {
+  along hoist
+  ratio 17 6 17
+}
+
+charge star white {
+  radius 63.088
+  inner 23.9734
+  at fly=510.0018 hoist=93.096
+}

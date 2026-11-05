@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Second East Turkestan Republic (2)"
+  encoder "Unknown original designer; commissioned by the government of the (Second) East Turkestan Republic."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Second_East_Turkestan_Republic_(2).svg"
+}
+palette {
+  green "#01411c"
+  white "#ffffff"
+}
+proportion hoist=80 fly=120
+
+field green
+
+charge disc white {
+  radius 19
+  at fly=56 hoist=39
+}
+
+charge disc green {
+  radius 17.5
+  at fly=52 hoist=34.5
+}
+
+charge star white {
+  radius 6.4209
+  rotate 30
+  at fly=48 hoist=29.8
+}

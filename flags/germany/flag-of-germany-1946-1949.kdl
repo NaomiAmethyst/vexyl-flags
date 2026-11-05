@@ -1,0 +1,36 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Germany (1946-1949)"
+  encoder "B1mbo"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_Germany_(1946%E2%80%931949).svg"
+}
+palette {
+  blue "#003399"
+  white "#ffffff"
+  red "#ff0000"
+}
+proportion hoist=1000 fly=1500
+outline swallowtail {
+  depth 500
+}
+
+field blue
+
+charge polygon white {
+  point fly=0 hoist=200
+  point fly=1300 hoist=200
+  point fly=1000 hoist=500
+  point fly=1300 hoist=800
+  point fly=0 hoist=800
+}
+
+charge polygon red {
+  point fly=0 hoist=400
+  point fly=1100 hoist=400
+  point fly=1000 hoist=500
+  point fly=1100 hoist=600
+  point fly=0 hoist=600
+}

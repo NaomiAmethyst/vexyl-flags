@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Toyama Prefecture"
+  encoder "Guilherme Paula and Maanshen"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Toyama_Prefecture.svg"
+}
+palette {
+  white "#ffffff"
+  green "#1a9431"
+}
+proportion hoist=141.02 fly=211.67
+
+field white
+
+charge path green {
+  d "M94.03 23.57L37.1 117.46L174.57 117.46L118.81 23.56L106.37 44.1ZM87.06 41.27L97.99 58.47L63.69 114.53L42.79 114.53ZM125.06 41.27L169.12 114.53L148.12 114.53L116.76 62.2L108.36 76.53L120.2 96.5L92.2 96.5Z"
+  box "37.1 23.56 137.47 93.9"
+  fly 137.47
+  hoist 93.9
+  at fly=105.835 hoist=70.51
+}

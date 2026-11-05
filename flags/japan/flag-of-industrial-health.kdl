@@ -1,0 +1,28 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of industrial health"
+  encoder "Kzaral"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_industrial_health.svg"
+}
+palette {
+  green "#007524"
+  white "#ffffff"
+}
+proportion hoist=600 fly=900
+
+field green
+
+charge rect white {
+  fly 120
+  hoist 360
+  at fly=450 hoist=300
+}
+
+charge rect white {
+  fly 360
+  hoist 120
+  at fly=450 hoist=300
+}

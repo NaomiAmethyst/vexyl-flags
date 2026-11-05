@@ -1,0 +1,59 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "House Flag of Hugo Stinnes"
+  encoder "En rouge"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:House_Flag_of_Hugo_Stinnes.svg"
+}
+palette {
+  black "#221e20"
+  white "#ffffff"
+  red "#cc0000"
+}
+proportion hoist=267 fly=400
+
+bars black white black {
+  ratio 53 161 53
+}
+
+charge polygon red {
+  point fly=160.979 hoist=101.9322
+  point fly=199.8698 hoist=63.0413
+  point fly=218.2546 hoist=81.4261
+  point fly=179.3637 hoist=120.3169
+}
+
+charge polygon black {
+  point fly=158.8579 hoist=104.0533
+  point fly=197.7487 hoist=142.9441
+  point fly=179.364 hoist=161.3289
+  point fly=140.4731 hoist=122.438
+}
+
+charge lozenge black {
+  fly 36.7696
+  hoist 36.7696
+  at fly=199.8457 hoist=122.4141
+}
+
+charge polygon black {
+  point fly=220.4869 hoist=83.3881
+  point fly=259.3778 hoist=122.2789
+  point fly=240.993 hoist=140.6637
+  point fly=202.1022 hoist=101.7728
+}
+
+charge polygon red {
+  point fly=160.9791 hoist=183.9562
+  point fly=220.3758 hoist=124.5595
+  point fly=238.7606 hoist=142.9443
+  point fly=179.3638 hoist=202.341
+}
+
+charge lozenge black {
+  fly 36.7696
+  hoist 36.7696
+  at fly=220.376 hoist=183.9562
+}

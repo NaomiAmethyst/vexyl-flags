@@ -1,0 +1,19 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Kingdom of Westphalia"
+  encoder "Maxek 2005"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Westphalia.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#112aa0"
+}
+proportion hoist=1280.25 fly=1920
+
+bars white blue {
+  along hoist
+  ratio 1 1
+}

@@ -1,0 +1,105 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Naval ensign of the Empire of Japan"
+  encoder "This vector image includes elements that have been taken or adapted from this file:"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Naval_ensign_of_Japan_(1889%E2%80%931945).svg"
+}
+palette {
+  red "#b0313f"
+  white "#ffffff"
+}
+proportion hoist=600 fly=900
+
+field red
+
+pile white {
+  from top
+  base 115.8948 199.2616
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from top
+  base 266.6047 326.2834
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from top
+  base 383.6687 443.3475
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from top
+  base 510.6906 594.0573
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from top
+  base 709.9522 900
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from fly
+  base 129.7435 244.7207
+  tip 300 561.2605
+}
+
+pile white {
+  base 189.1113 263.9964
+  tip 300 365.5511
+}
+
+pile white {
+  base 0 104.6089
+  tip 300 365.5511
+}
+
+pile white {
+  from bottom
+  base 115.8948 199.2616
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from bottom
+  base 266.6047 326.2834
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from bottom
+  base 383.6687 443.3475
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from bottom
+  base 510.6906 594.0573
+  tip 354.9761 291.3213
+}
+
+pile white {
+  from bottom
+  base 709.9522 900
+  tip 354.9761 291.3213
+}
+
+charge path white {
+  d "M338.7395 300L900 470.2565L900 355.2793ZM365.5511 300L0 336.0036L0 410.8887ZL0 600L0 495.3911Z"
+  box "0 300 900 300"
+  fly 900
+  hoist 300
+  at fly=450 hoist=450
+}
+
+charge disc red {
+  radius 150
+  at fly=350 hoist=300
+}

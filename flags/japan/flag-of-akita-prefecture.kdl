@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Akita Prefecture"
+  encoder "Monaneko, Mike Rohsopht"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Akita_Prefecture.svg"
+}
+palette {
+  red "#990000"
+  white "#ffffff"
+}
+proportion hoist=700 fly=1000
+
+field red
+
+charge path white {
+  d "M150 90L575 260C625.3456 282.2005 644.8334 291.9991 678.1941 309.7159C712.1605 327.7543 749.8295 346.107 778.1941 370.8923C801.266 391.0528 824.721 419.3621 825 450C825.2995 482.9105 800.0977 514.2188 778.1941 518.9659L260 610C283.9663 602.524 303.2421 595.7515 317.8275 583.3505A74.3449 74.3449 0 1 1 380.3175 588.8631C390.7691 586.6695 399.2306 582.4859 414.6571 572.8298L575 470.7006C593.9106 458.1 610.2189 432.1014 607.2201 409.1335C601.9683 368.9092 559.4424 342.7524 525 319.4118Z"
+  box "150 90 675.2995 573.208"
+  fly 675.2995
+  hoist 573.208
+  at fly=487.6497 hoist=376.604
+}

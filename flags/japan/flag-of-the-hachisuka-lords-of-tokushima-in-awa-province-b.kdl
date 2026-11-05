@@ -1,0 +1,63 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Hachisuka Lords of Tokushima in Awa Province (B)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Hachisuka_Lords_of_Tokushima_in_Awa_Province_(B).svg"
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+}
+proportion hoist=700 fly=900
+
+charge rect black {
+  fly 900
+  hoist 700
+  at fly=450 hoist=350
+  opacity 0.961
+}
+
+charge rect white {
+  fly 900
+  hoist 235
+  at fly=450 hoist=350
+}
+
+charge svg {
+  at center
+  fly 900
+  hoist 700
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700"><circle cx="450" r="241.71" cy="350" fill-opacity=".961" stroke-width="5" fill-rule="evenodd" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><circle cx="450" r="184.4" cy="350" fill-opacity=".961" stroke-width="5" fill-rule="evenodd" stroke="#000000" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge polygon black {
+  point fly=319.21 hoist=219.21
+  point fly=319.21 hoist=291.716
+  point fly=413.749 hoist=291.716
+  point fly=413.749 hoist=313.749
+  point fly=319.21 hoist=313.749
+  point fly=319.21 hoist=480.799
+  point fly=391.716 hoist=480.799
+  point fly=391.716 hoist=386.26
+  point fly=413.749 hoist=386.26
+  point fly=413.749 hoist=480.799
+  point fly=486.257 hoist=480.799
+  point fly=486.257 hoist=386.26
+  point fly=580.796 hoist=386.26
+  point fly=580.796 hoist=219.21
+  point fly=508.29 hoist=219.21
+  point fly=508.29 hoist=313.749
+  point fly=486.257 hoist=313.749
+  point fly=486.257 hoist=219.21
+}
+
+charge rect black {
+  fly 167.05
+  hoist 72.507
+  at fly=497.273 hoist=444.5445
+}

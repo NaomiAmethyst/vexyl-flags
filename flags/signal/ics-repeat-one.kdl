@@ -1,0 +1,34 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Repeat One"
+  encoder "Created by Denelson83 iThe source code of the previous SVG was invalid due to 4 errors."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Repeat_One.svg"
+}
+palette {
+  blue "#0000ff"
+  black "#000000"
+  yellow "#ffff00"
+}
+proportion hoist=350 fly=550
+
+charge polygon blue {
+  point fly=2 hoist=2
+  point fly=548 hoist=175
+  point fly=2 hoist=348
+}
+
+charge polygon black {
+  point fly=2 hoist=2
+  point fly=548 hoist=175
+  point fly=2 hoist=348
+  hollow 2.5
+}
+
+charge polygon yellow {
+  point fly=3 hoist=58
+  point fly=367 hoist=175
+  point fly=3 hoist=292
+}

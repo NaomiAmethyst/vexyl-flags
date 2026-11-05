@@ -1,0 +1,65 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Aromanian flag"
+  encoder "Own work"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Aromanian_flag.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#325aa6"
+}
+proportion hoist=50 fly=100
+
+field white
+
+charge ring blue {
+  radius 14.75
+  inner 13.25
+  at fly=50 hoist=25
+}
+
+charge rect blue {
+  fly 100
+  hoist 1.5
+  at fly=50 hoist=5
+}
+
+cross blue {
+  fly 4.25 1.5 94.25
+  hoist 44.25 1.5 4.25
+}
+
+charge rect blue {
+  fly 1.5
+  hoist 50
+  at fly=95 hoist=25
+}
+
+charge rect blue {
+  fly 90
+  hoist 1.5
+  at fly=50 hoist=25
+}
+
+charge rect blue {
+  fly 1.5
+  hoist 40
+  at fly=50 hoist=25
+}
+
+charge polygon blue {
+  point fly=4.6954 hoist=5.6854
+  point fly=94.6954 hoist=45.6854
+  point fly=95.3046 hoist=44.3146
+  point fly=5.3046 hoist=4.3146
+}
+
+charge polygon blue {
+  point fly=5.3046 hoist=45.6854
+  point fly=95.3046 hoist=5.6854
+  point fly=94.6954 hoist=4.3146
+  point fly=4.6954 hoist=44.3146
+}

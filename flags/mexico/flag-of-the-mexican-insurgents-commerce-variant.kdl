@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Mexican Insurgents (commerce variant)"
+  encoder "Heraldry"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mexican_Insurgents_(commerce_variant).svg"
+}
+palette {
+  white "#ffffff"
+  blue "#75c5f0"
+}
+proportion hoist=300 fly=450
+
+field white
+
+charge rect blue {
+  fly 150
+  hoist 75
+  at fly=125 hoist=87.5
+  at fly=325 hoist=87.5
+  at fly=125 hoist=212.5
+  at fly=325 hoist=212.5
+}

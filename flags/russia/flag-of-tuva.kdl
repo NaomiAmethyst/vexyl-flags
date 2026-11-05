@@ -1,0 +1,47 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tuva"
+  encoder "Mysid"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tuva.svg"
+}
+palette {
+  blue "#63b1e5"
+  white "#ffffff"
+  yellow "#fecb00"
+}
+proportion hoist=600 fly=900
+
+field blue
+
+charge path white {
+  d "M370 300L35 -35L35 635L370 300L900 300"
+  box "35 -35 865 670"
+  fly 865
+  hoist 670
+  at fly=467.5 hoist=300
+}
+
+charge path white {
+  d "M370 300L35 -35L35 635L370 300L900 300"
+  box "35 -35 865 670"
+  fly 865
+  hoist 670
+  hollow 100
+  at fly=467.5 hoist=300
+}
+
+charge path blue {
+  d "M35 -35L370 300M35 635L370 300L900 300"
+  box "35 -35 865 670"
+  fly 865
+  hoist 670
+  hollow 33.3
+  at fly=467.5 hoist=300
+}
+
+chevrons yellow {
+  depth 300
+}

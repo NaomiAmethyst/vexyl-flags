@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Nordfriesischeflagge"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Nordfriesischeflagge.svg"
+}
+palette {
+  yellow "#ffd000"
+  red "#ff0000"
+  blue "#1c2dff"
+}
+proportion hoist=600 fly=1000
+
+bars yellow red blue

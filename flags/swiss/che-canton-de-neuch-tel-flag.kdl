@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "CHE Canton de Neuchâtel Flag"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:CHE_Canton_de_Neuch%C3%A2tel_Flag.svg"
+}
+palette {
+  green "#009944"
+  white "#ffffff"
+  red "#f00000"
+}
+proportion hoist=540 fly=540
+
+bars green white red {
+  along hoist
+}
+
+charge rect white {
+  fly 20
+  hoist 140
+  at fly=450 hoist=90
+}
+
+charge rect white {
+  fly 140
+  hoist 20
+  at fly=450 hoist=90
+}

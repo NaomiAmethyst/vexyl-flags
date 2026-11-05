@@ -1,0 +1,34 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Mauritania (1959–2017)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania_(1959%E2%80%932017).svg"
+}
+palette {
+  green "#006233"
+  yellow "#ffc400"
+}
+proportion hoist=96 fly=144
+
+field green
+
+charge disc yellow {
+  radius 31
+  at fly=72 hoist=36
+}
+
+charge disc green {
+  radius 30
+  at fly=72 hoist=28
+}
+
+charge svg {
+  at center
+  fly 144
+  hoist 96
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 96"><path d="M 0,-12 v 12 h 6" transform="matrix(0.951057 0.309017 -0.309017 0.951057 68.291796 27.412678)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(-0.951057 0.309017 0.309017 0.951057 75.708204 27.412678)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(0 1 -1 0 71.412678 24.291796)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 73.704474 31.345219)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 75.345219 26.295526)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 69.345219 30.654781)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 74.654781 30.654781)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(0.951057 0.309017 0.309017 -0.951057 68.654781 26.295526)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(0.587785 -0.809017 0.809017 0.587785 70.295526 31.345219)" fill="#ffc400"/><path d="M 0,-12 v 12 h 6" transform="matrix(0 1 1 -0 72.587322 24.291796)" fill="#ffc400"/></svg>
+"""#
+}

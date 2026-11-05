@@ -1,0 +1,40 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Fukushima Prefecture"
+  encoder "Monaneko"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Fukushima_Prefecture.svg"
+}
+palette {
+  red "#d84b24"
+  white "#ffffff"
+}
+proportion hoist=1000 fly=1500
+
+field red
+
+charge path white {
+  d "M647.2708 53.6297A60 60 0 0 0 677.6457 150.2223A300 300 0 1 1 503.19 156.0496A225 225 0 0 0 579.1017 241.0948A200 200 0 1 0 651.7638 246.8148A200 200 0 0 1 503.5276 53.6297Z"
+  box "203.19 -146.3703 648.5738 612.4652"
+  fly 648.5738
+  hoist 612.4652
+  at fly=527.4769 hoist=159.8623
+}
+
+charge path white {
+  d "M893.2774 580.0477A100 100 0 0 0 1001.9612 642.3048A450 450 0 0 1 937.6314 737.498A200 200 0 0 1 830.6211 668.9954A325 325 0 0 0 893.2774 580.0477Z"
+  box "487.6314 255.0477 900 932.4504"
+  fly 900
+  hoist 932.4504
+  at fly=937.6314 hoist=721.2728
+}
+
+charge path white {
+  d "M306.7226 580.0477A100 100 180 0 1 198.0388 642.3048A450 450 180 0 0 262.3686 737.498A200 200 180 0 0 369.3789 668.9954A325 325 180 0 1 306.7226 580.0477Z"
+  box "-187.6314 255.0477 900 932.4504"
+  fly 900
+  hoist 932.4504
+  at fly=262.3686 hoist=721.2728
+}

@@ -1,0 +1,63 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Oita Prefecture"
+  encoder "Guilherme Paula, Mike Rohsopht"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Oita_Prefecture.svg"
+}
+palette {
+  white "#ffffff"
+  pink "#be0428"
+}
+proportion hoist=630 fly=900
+
+field white
+
+charge ring pink {
+  radius 140
+  inner 105
+  at fly=450 hoist=315
+}
+
+charge rect white {
+  fly 7
+  hoist 80
+  at fly=450 hoist=195
+}
+
+charge polygon pink {
+  point fly=450 hoist=343
+  point fly=565.2684 hoist=490.5369
+  point fly=450 hoist=455
+  point fly=334.7316 hoist=490.5369
+}
+
+charge polygon white {
+  point fly=590.3141 hoist=391.9689
+  point fly=586.8141 hoist=398.0311
+  point fly=517.532 hoist=358.0311
+  point fly=521.032 hoist=351.9689
+}
+
+charge polygon pink {
+  point fly=425.7513 hoist=301
+  point fly=240.3464 hoist=327.057
+  point fly=328.7564 hoist=245
+  point fly=355.6148 hoist=127.4062
+}
+
+charge polygon white {
+  point fly=313.1859 hoist=398.0311
+  point fly=309.6859 hoist=391.9689
+  point fly=378.968 hoist=351.9689
+  point fly=382.468 hoist=358.0311
+}
+
+charge polygon pink {
+  point fly=474.2487 hoist=301
+  point fly=544.3852 hoist=127.4062
+  point fly=571.2436 hoist=245
+  point fly=659.6536 hoist=327.057
+}

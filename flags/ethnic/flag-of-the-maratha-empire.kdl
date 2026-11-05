@@ -1,0 +1,18 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Maratha Empire"
+  encoder "DarkEvil"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Maratha_Empire.svg"
+}
+palette {
+  orange "#ff9700"
+}
+proportion hoist=280 fly=600
+outline swallowtail {
+  depth 240
+}
+
+field orange

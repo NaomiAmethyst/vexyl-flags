@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Japan Self-Defense Forces"
+  encoder "Japanese Defense Agency/Ministry of Defense, vectorized by Brevam"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Japan_Self-Defense_Forces.svg"
+}
+palette {
+  yellow "#c0a73f"
+  pink "#bc002d"
+}
+proportion hoist=914 fly=1089
+
+field yellow
+
+charge svg {
+  at center
+  fly 1089
+  hoist 914
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1089 914"><path d="m1089 457h-337l-11.3 67.6 295.4 101.6z" fill="#bc002d" transform="matrix(1 0 0 1 0 0)"/><path d="m1089 457h-337l-11.3 67.6 295.4 101.6z" fill="#bc002d" transform="matrix(-1 0 0 -1 1089 914)"/><path d="m725.2 51.2-100.5 225.8-80.2-27.5v-249.5z" fill="#bc002d" transform="matrix(-1 0 0 -1 1089 914)"/><path d="m725.2 51.2-100.5 225.8-80.2-27.5v-249.5z" fill="#bc002d" transform="matrix(1 0 0 1 0 0)"/><path d="m0 0 385.5 323.6 78.8-46.6-100.5-225.8z" fill="#bc002d" transform="matrix(1 0 0 1 0 0)"/><path d="m0 0 385.5 323.6 78.8-46.6-100.5-225.8z" fill="#bc002d" transform="matrix(-1 0 0 -1 1089 914)"/><path d="m1089 0-385.5 323.6-78.8-46.6 100.5-225.8z" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m1036.1 287.8-295.4 101.6-37.2-65.8 385.5-323.6z" fill="#bc002d" transform="matrix(1 0 0 1 0 0)"/><path d="m1089 457h-337l-11.3-67.6 295.4-101.6z" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m52.9 287.8 295.4 101.6 37.2-65.8-385.5-323.6z" fill="#ffffff" transform="matrix(-1 0 0 -1 1089 914)"/><path d="m363.8 51.2 100.5 225.8 80.2-27.5v-249.5z" fill="#ffffff" transform="matrix(-1 0 0 -1 1089 914)"/><path d="m1036.1 287.8-295.4 101.6-37.2-65.8 385.5-323.6z" fill="#bc002d" transform="matrix(-1 0 0 -1 1089 914)"/><path d="m1089 0-385.5 323.6-78.8-46.6 100.5-225.8z" fill="#ffffff" transform="matrix(-1 0 0 -1 1089 914)"/><path d="m1089 457h-337l-11.3-67.6 295.4-101.6z" fill="#ffffff" transform="matrix(-1 0 0 -1 1089 914)"/><path d="m52.9 287.8 295.4 101.6 37.2-65.8-385.5-323.6z" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m363.8 51.2 100.5 225.8 80.2-27.5v-249.5z" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge disc pink {
+  radius 207.5
+  at fly=544.5 hoist=457
+}

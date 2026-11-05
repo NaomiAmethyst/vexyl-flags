@@ -1,0 +1,26 @@
+vexyl 1
+meta {
+  name "Liberia"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Liberia.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  red "#bf0a30"
+  white "#ffffff"
+  blue "#00205b"
+}
+proportion hoist=110 fly=209
+
+bars red white {
+  count 11
+}
+canton {
+  fly 50
+  hoist 50
+  field blue
+  charge star white {
+    radius 15
+  }
+}

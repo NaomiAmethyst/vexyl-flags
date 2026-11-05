@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Maryland"
+  encoder "Michael Wheeler"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Maryland.svg"
+}
+palette {
+  black "#000000"
+}
+proportion hoist=24 fly=36
+
+field black
+
+charge svg {
+  at center
+  fly 36
+  hoist 24
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24"><path d="M0,24 V2 L3,4 V24 h3 V0 h3 V24 h3 V0 h3 V24 h3 V0 h3 V24 h3 V0 h3 V24 h3 V0 h3 V24 h3 V22 L3,0 V4 L33,24 z" fill="#eaaa00" transform="matrix(1 0 0 1 0 0)"/><path d="M18,0 h9 v12 h9 v-6 h-18 z" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M27,0 h9 v6 h-18 v6 h9 z" fill="#9d2235" transform="matrix(1 0 0 1 0 0)"/><path d="M0,215 a32 32 0 0 0 32 -32 v-16 h31 a32 32 0 0 0 0 -64 h-31 V32 H231 v31 a32 32 0 0 0 64 0 v-31 h28 a32 32 0 0 0 32 -32 L0,0 z" transform="matrix(0.024 0 0 0.024 27 6)" fill="#9d2235"/><path d="M0,215 a32 32 0 0 0 32 -32 v-16 h31 a32 32 0 0 0 0 -64 h-31 V32 H231 v31 a32 32 0 0 0 64 0 v-31 h28 a32 32 0 0 0 32 -32 L0,0 z" transform="matrix(-0.024 0 0 0.024 27 6)" fill="#ffffff"/><path d="M0,215 a32 32 0 0 0 32 -32 v-16 h31 a32 32 0 0 0 0 -64 h-31 V32 H231 v31 a32 32 0 0 0 64 0 v-31 h28 a32 32 0 0 0 32 -32 L0,0 z" transform="matrix(0.024 0 0 -0.024 27 6)" fill="#ffffff"/><path d="M0,215 a32 32 0 0 0 32 -32 v-16 h31 a32 32 0 0 0 0 -64 h-31 V32 H231 v31 a32 32 0 0 0 64 0 v-31 h28 a32 32 0 0 0 32 -32 L0,0 z" transform="matrix(-0.024 0 0 -0.024 27 6)" fill="#9d2235"/><path d="M18,0 h9 v12 h9 v-6 h-18 z" fill="#ffffff" transform="matrix(1 0 0 1 -18 12)"/><path d="M27,0 h9 v6 h-18 v6 h9 z" fill="#9d2235" transform="matrix(1 0 0 1 -18 12)"/><path d="M0,215 a32 32 0 0 0 32 -32 v-16 h31 a32 32 0 0 0 0 -64 h-31 V32 H231 v31 a32 32 0 0 0 64 0 v-31 h28 a32 32 0 0 0 32 -32 L0,0 z" transform="matrix(0.024 0 0 0.024 9 18)" fill="#9d2235"/><path d="M0,215 a32 32 0 0 0 32 -32 v-16 h31 a32 32 0 0 0 0 -64 h-31 V32 H231 v31 a32 32 0 0 0 64 0 v-31 h28 a32 32 0 0 0 32 -32 L0,0 z" transform="matrix(-0.024 0 0 0.024 9 18)" fill="#ffffff"/><path d="M0,215 a32 32 0 0 0 32 -32 v-16 h31 a32 32 0 0 0 0 -64 h-31 V32 H231 v31 a32 32 0 0 0 64 0 v-31 h28 a32 32 0 0 0 32 -32 L0,0 z" transform="matrix(0.024 0 0 -0.024 9 18)" fill="#ffffff"/><path d="M0,215 a32 32 0 0 0 32 -32 v-16 h31 a32 32 0 0 0 0 -64 h-31 V32 H231 v31 a32 32 0 0 0 64 0 v-31 h28 a32 32 0 0 0 32 -32 L0,0 z" transform="matrix(-0.024 0 0 -0.024 9 18)" fill="#9d2235"/></svg>
+"""#
+}

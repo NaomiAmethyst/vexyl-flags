@@ -1,0 +1,29 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Allied Occupied Japan"
+  encoder "Scott Alter (User:Scottalter)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Allied_Occupied_Japan.svg"
+}
+palette {
+  blue "#003184"
+  red "#ce1021"
+}
+proportion hoist=420 fly=630
+
+charge polygon blue {
+  point fly=630 hoist=0
+  point fly=0 hoist=0
+  point fly=0 hoist=280
+  point fly=350 hoist=280
+  point fly=350 hoist=210
+}
+
+charge polygon red {
+  point fly=350 hoist=210
+  point fly=0 hoist=210
+  point fly=0 hoist=420
+  point fly=630 hoist=420
+}

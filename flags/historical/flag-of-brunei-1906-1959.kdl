@@ -1,0 +1,31 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Brunei 1906-1959"
+  encoder "Orange Tuesday at English Wikipedia (Original text: Orange Tuesday (talk))"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brunei_1906-1959.svg"
+}
+palette {
+  yellow "#f7e017"
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=72 fly=144
+
+field yellow
+
+charge polygon white {
+  point fly=0 hoist=0
+  point fly=144 hoist=34.8387
+  point fly=144 hoist=56.0206
+  point fly=0 hoist=21.182
+}
+
+charge polygon black {
+  point fly=0 hoist=19.7419
+  point fly=144 hoist=54.5806
+  point fly=144 hoist=72
+  point fly=0 hoist=37.1613
+}

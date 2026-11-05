@@ -1,0 +1,15 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Socialist red flag"
+  encoder "User:R-41"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Socialist_red_flag.svg"
+}
+palette {
+  red "#dd0000"
+}
+proportion hoist=300 fly=450
+
+field red

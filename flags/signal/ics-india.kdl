@@ -1,0 +1,35 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS India"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_India.svg"
+}
+palette {
+  yellow "#ffff00"
+  black "#000000"
+}
+proportion hoist=600 fly=600
+
+charge path yellow {
+  d "M0 0L600 0L600 600L0 600"
+  box "0 0 600 600"
+  fly 600
+  hoist 600
+  at fly=300 hoist=300
+}
+
+charge path black {
+  d "M0 0L600 0L600 600L0 600"
+  box "0 0 600 600"
+  fly 600
+  hoist 600
+  hollow 2
+  at fly=300 hoist=300
+}
+
+charge disc black {
+  radius 150
+  at fly=300 hoist=300
+}

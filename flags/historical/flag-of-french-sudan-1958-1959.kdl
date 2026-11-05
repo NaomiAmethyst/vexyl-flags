@@ -1,0 +1,52 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of French Sudan (1958-1959)"
+  encoder "Akiramenai"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_French_Sudan_(1958%E2%80%931959).svg"
+}
+palette {
+  blue "#002654"
+  white "#ffffff"
+  red "#ce1126"
+  black "#000000"
+}
+proportion hoist=300 fly=450
+
+bars blue white red {
+  along hoist
+}
+
+charge disc black {
+  radius 20
+  at fly=225 hoist=85
+}
+
+charge polygon black {
+  point fly=175 hoist=240
+  point fly=185 hoist=240
+  point fly=185 hoist=210
+  point fly=265 hoist=210
+  point fly=265 hoist=240
+  point fly=275 hoist=240
+  point fly=275 hoist=200
+  point fly=230 hoist=200
+  point fly=230 hoist=130
+  point fly=275 hoist=130
+  point fly=275 hoist=90
+  point fly=265 hoist=90
+  point fly=265 hoist=120
+  point fly=230 hoist=120
+  point fly=230 hoist=90
+  point fly=220 hoist=90
+  point fly=220 hoist=120
+  point fly=185 hoist=120
+  point fly=185 hoist=90
+  point fly=175 hoist=90
+  point fly=175 hoist=130
+  point fly=220 hoist=130
+  point fly=220 hoist=200
+  point fly=175 hoist=200
+}

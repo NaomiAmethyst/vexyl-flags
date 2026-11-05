@@ -1,0 +1,38 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Northern Mariana Islands (1972)"
+  encoder "Orange Tuesday (talk)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Northern_Mariana_Islands_(1972).svg"
+}
+palette {
+  blue "#0039ad"
+  grey "#e4e5e6"
+  white "#ffffff"
+}
+proportion hoist=500 fly=974.7
+
+field blue
+
+charge path grey {
+  d "M587.3 109L387.3 109C387.3 147.9 409.5 181.5 441.8 198.1L397.3 391L577.3 391L532.8 198.1C565.2 181.5 587.3 147.9 587.3 109Z"
+  box "387.3 109 200 282"
+  fly 200
+  hoist 282
+  at fly=487.3 hoist=250
+}
+
+charge polygon white {
+  point fly=487.3 hoist=137.5
+  point fly=517.3 hoist=222.5
+  point fly=607.3 hoist=222.5
+  point fly=537.3 hoist=277.5
+  point fly=562.3 hoist=362.5
+  point fly=487.3 hoist=312.5
+  point fly=412.3 hoist=362.5
+  point fly=437.3 hoist=277.5
+  point fly=367.3 hoist=222.5
+  point fly=457.3 hoist=222.5
+}

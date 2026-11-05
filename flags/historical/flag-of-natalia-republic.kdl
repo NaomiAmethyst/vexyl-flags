@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Natalia Republic"
+  encoder "Himasaram"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Natalia_Republic.svg"
+}
+palette {
+  red "#ce1126"
+  blue "#001684"
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=400 fly=600
+
+bars red blue
+
+pile white {
+  from fly
+  depth 600
+}
+
+charge rect black {
+  fly 1
+  hoist 400
+  at fly=599.5 hoist=200
+  opacity 0.5
+}

@@ -1,0 +1,42 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Venezuela (1863-1905)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela_(1863%E2%80%931905).svg"
+}
+palette {
+  yellow "#f7d117"
+  blue "#0033ab"
+  red "#cf142b"
+  white "#ffffff"
+}
+proportion hoist=600 fly=900
+
+bars yellow blue red
+
+charge star white {
+  radius 26.095
+  inner 10.0725
+  rotate -0.0066
+  at fly=450.0009 hoist=302.491
+  at fly=450.0009 hoist=246.8869
+}
+
+charge star white {
+  radius 26.095
+  inner 10.0725
+  rotate 0.0066
+  at fly=449.9991 hoist=358.8869
+}
+
+charge star white {
+  radius 26.095
+  inner 10.0725
+  rotate -0.0066
+  at fly=508.0009 hoist=265.4909
+  at fly=508.0009 hoist=331.4909
+  at fly=392.4756 hoist=265.4909
+  at fly=392.0009 hoist=331.4909
+}

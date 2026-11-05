@@ -1,0 +1,29 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of French Guiana"
+  encoder "Madden"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_French_Guiana.svg"
+}
+palette {
+  green "#078930"
+  yellow "#fcdd09"
+  red "#da121a"
+}
+proportion hoist=600 fly=900
+
+pile green {
+  from fly
+  tip 0 900
+}
+
+pile yellow {
+  tip 600 900
+}
+
+charge star red {
+  radius 100
+  at fly=450 hoist=300
+}

@@ -1,0 +1,31 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Azerbaijan Soviet Socialist Republic (1920–1921)"
+  encoder "Aivazovsky"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Azerbaijan_Soviet_Socialist_Republic_(1920%E2%80%931921).svg"
+}
+palette {
+  red "#be000d"
+  white "#ffffff"
+}
+proportion hoist=1135 fly=2166.6667
+
+field red
+
+charge star white {
+  radius 105.332
+  inner 41.0795
+  rotate -0.4692
+  at fly=499.0259 hoist=385.5405
+}
+
+charge path white {
+  d "M402.0312 111.8125C253.0507 111.8125 132.2812 233.5338 132.2812 383.6875C132.2812 533.8412 253.0507 655.5625 402.0312 655.5625C420.2779 655.5625 438.0822 653.7617 455.3125 650.2812C335.6014 622.1096 246.4375 513.8614 246.4375 384.625C246.4375 253.8793 337.7085 144.6317 459.5312 118.0312C440.9954 113.9735 421.7731 111.8125 402.0312 111.8125Z"
+  box "132.2812 111.8125 327.25 543.75"
+  fly 327.25
+  hoist 543.75
+  at fly=295.9062 hoist=383.6875
+}

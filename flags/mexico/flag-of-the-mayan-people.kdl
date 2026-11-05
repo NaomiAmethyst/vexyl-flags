@@ -1,0 +1,35 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Mayan People"
+  encoder "Johannes Rössel (talk)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mayan_People.svg"
+}
+palette {
+  blue "#0f47af"
+  white "#ffffff"
+  red "#e03940"
+  yellow "#fcdd09"
+}
+proportion hoist=0.6667 fly=1
+
+pile blue {
+  from top
+  depth 0.3333
+}
+
+chevrons white {
+  depth 0.5
+}
+
+pile red {
+  from bottom
+  depth 0.3333
+}
+
+pile yellow {
+  from fly
+  depth 0.5
+}

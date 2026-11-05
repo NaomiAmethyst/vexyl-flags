@@ -1,0 +1,23 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the United Arab Republic (1958–1971), Flag of Syria (1980–2024)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Republic_(1958%E2%80%931971),_Flag_of_Syria_(1980%E2%80%932024).svg"
+}
+palette {
+  red "#ce1126"
+  white "#ffffff"
+  black "#000000"
+  green "#007a3d"
+}
+proportion hoist=600 fly=900
+
+bars red white black
+
+charge star green {
+  radius 82.9181
+  at fly=300.0032 hoist=307.918
+  at fly=599.9992 hoist=307.918
+}

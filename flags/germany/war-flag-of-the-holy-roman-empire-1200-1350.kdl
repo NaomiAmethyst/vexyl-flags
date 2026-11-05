@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "War flag of the Holy Roman Empire (1200-1350)"
+  encoder "Sir Iain"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Holy_Roman_Empire_(1200-1350).svg"
+}
+palette {
+  pink "#c9082a"
+  white "#ffffff"
+}
+proportion hoist=600 fly=1000
+outline {
+  polygon {
+    point fly=1000 hoist=0
+    point fly=0 hoist=0
+    point fly=0 hoist=600
+    point fly=600 hoist=600
+    point fly=600 hoist=240
+  }
+}
+
+field pink
+
+charge rect white {
+  fly 120
+  hoist 600
+  at fly=300 hoist=300
+}
+
+charge rect white {
+  fly 600
+  hoist 120
+  at fly=300 hoist=300
+}

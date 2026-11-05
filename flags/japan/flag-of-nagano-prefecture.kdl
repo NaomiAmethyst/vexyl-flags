@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Nagano Prefecture"
+  encoder "Unknown"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nagano_Prefecture.svg"
+}
+palette {
+  red "#f66637"
+  white "#ffffff"
+}
+proportion hoist=600 fly=900
+
+field red
+
+charge disc white {
+  radius 250
+  at fly=300 hoist=300
+}
+
+charge path red {
+  d "M10 300L610 300M150 25A275 275 0 0 1 150 575"
+  box "-125 25 735 825"
+  fly 735
+  hoist 825
+  hollow 50
+  at fly=242.5 hoist=437.5
+}

@@ -1,0 +1,24 @@
+vexyl 1
+meta {
+  name "Cape Verde"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cape_Verde_(3-2).svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  blue "#003893"
+  white "#ffffff"
+  red "#cf2027"
+  yellow "#f7d116"
+}
+proportion hoist=600 fly=900
+
+bars blue white red white blue {
+  ratio 6 1 1 1 3
+}
+charge star yellow {
+  radius 27.64
+  at fly=337.5 hoist=375
+  repeat ring count=10 radius=150
+}

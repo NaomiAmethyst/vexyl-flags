@@ -1,0 +1,63 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "House flag of Hillern Warrings GmbH & Co. KG"
+  encoder "En rouge"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:House_flag_of_Hillern_Warrings_GmbH_%26_Co._KG.svg"
+}
+palette {
+  black "#000000"
+  red "#c40f0d"
+  blue "#4079a2"
+  white "#ffffff"
+  blue-2 "#000001"
+}
+proportion hoist=400 fly=600
+
+bars black red blue {
+  ratio 1 1 1
+}
+
+charge lozenge white {
+  fly 367.9358
+  hoist 242.5189
+  at fly=300.8366 hoist=200
+}
+
+charge polygon blue-2 {
+  point fly=300 hoist=78.7406
+  point fly=485.6412 hoist=200
+  point fly=300 hoist=321.2594
+  point fly=117.7054 hoist=200
+  hollow 15.875
+}
+
+charge polygon black {
+  point fly=209.3788 hoist=167.6741
+  point fly=224.545 hoist=167.6741
+  point fly=249.8222 hoist=253.6163
+  point fly=290.6868 hoist=253.6163
+  point fly=302.9041 hoist=202.6408
+  point fly=318.4917 hoist=253.6163
+  point fly=360.6202 hoist=253.6163
+  point fly=379.9993 hoist=167.6741
+  point fly=392.6379 hoist=167.6741
+  point fly=392.6379 hoist=148.7162
+  point fly=346.7178 hoist=148.7162
+  point fly=346.7178 hoist=168.0954
+  point fly=358.5138 hoist=167.6741
+  point fly=345.4539 hoist=216.5432
+  point fly=333.2366 hoist=167.6741
+  point fly=342.5049 hoist=167.6741
+  point fly=342.5049 hoist=148.7162
+  point fly=279.7334 hoist=148.7162
+  point fly=279.7334 hoist=168.0954
+  point fly=290.6868 hoist=167.6741
+  point fly=278.0483 hoist=216.5432
+  point fly=265.831 hoist=167.6741
+  point fly=275.5206 hoist=168.0954
+  point fly=275.5206 hoist=149.9801
+  point fly=209.3788 hoist=148.7162
+}

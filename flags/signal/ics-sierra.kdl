@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Sierra"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Sierra.svg"
+}
+palette {
+  white "#ffffff"
+  black "#000000"
+  blue "#0000ff"
+}
+proportion hoist=3 fly=3
+
+canton {
+  fly 3
+  hoist 3
+  field white
+  charge polygon black {
+    point fly=0 hoist=0
+    point fly=3 hoist=0
+    point fly=3 hoist=3
+    point fly=0 hoist=3
+    hollow 0.0125
+  }
+  charge rect blue {
+    fly 1
+    hoist 1
+    at fly=1.5 hoist=1.5
+  }
+}

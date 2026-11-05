@@ -1,0 +1,43 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Osaka, Osaka"
+  encoder "Kzaral (original raster), Ch1902"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Osaka,_Osaka.svg"
+}
+palette {
+  blue "#1f2063"
+  yellow "#ffd700"
+}
+proportion hoist=600 fly=900
+
+field blue
+
+charge rect yellow {
+  fly 39
+  hoist 283
+  at fly=450 hoist=336.5
+}
+
+charge polygon yellow {
+  point fly=307.0208 hoist=432.0208
+  point fly=585.5208 hoist=153.5208
+  point fly=561.4792 hoist=129.4792
+  point fly=282.9792 hoist=407.9792
+}
+
+charge polygon yellow {
+  point fly=314.4792 hoist=153.5208
+  point fly=592.9792 hoist=432.0208
+  point fly=617.0208 hoist=407.9792
+  point fly=338.5208 hoist=129.4792
+}
+
+charge polygon yellow {
+  point fly=285 hoist=124
+  point fly=320 hoist=159
+  point fly=580 hoist=159
+  point fly=615 hoist=124
+}

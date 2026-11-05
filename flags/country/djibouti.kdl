@@ -1,0 +1,24 @@
+vexyl 1
+meta {
+  name "Djibouti"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Djibouti.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  sky "#6ab2e7"
+  green "#12ad2b"
+  white "#ffffff"
+  red "#d7141a"
+}
+proportion hoist=600 fly=900
+
+bars sky green
+chevrons white {
+  depth 519.615
+}
+charge star red {
+  radius 82.92
+  at fly=198.86 hoist=307.92
+}

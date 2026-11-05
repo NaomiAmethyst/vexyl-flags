@@ -1,0 +1,42 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Iraq (1959–1963)"
+  encoder "Orzetto~commonswiki (first-uploaded file version), AnonMoos, etc."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq_(1959%E2%80%931963).svg"
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  green "#007a3d"
+  red "#ce1126"
+  yellow "#ffe800"
+}
+proportion hoist=450 fly=900
+
+bars black white green {
+  along hoist
+}
+
+charge polygon red {
+  point fly=450 hoist=350.0363
+  point fly=538.414 hoist=136.586
+  point fly=324.9637 hoist=225
+  point fly=538.414 hoist=313.414
+  point fly=450 hoist=99.9637
+  point fly=361.586 hoist=313.414
+  point fly=575.0363 hoist=225
+  point fly=361.586 hoist=136.586
+}
+
+charge disc white {
+  radius 57.5
+  at fly=450 hoist=225
+}
+
+charge disc yellow {
+  radius 47.5
+  at fly=450 hoist=225
+}

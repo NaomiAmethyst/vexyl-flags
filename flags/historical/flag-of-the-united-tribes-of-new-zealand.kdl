@@ -1,0 +1,58 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the United Tribes of New Zealand"
+  encoder "No machine-readable author provided. Greentubing assumed (based on copyright claims)."
+  license "CC-BY-SA-2.5"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Tribes_of_New_Zealand.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#002b7f"
+  red "#ce1126"
+}
+proportion hoist=5400 fly=10800
+
+field white
+
+canton {
+  fly 5400
+  hoist 2700
+  field blue
+  charge rect white {
+    fly 5040
+    hoist 520
+    at fly=2520 hoist=1170
+  }
+  charge rect white {
+    fly 520
+    hoist 2340
+    at fly=2520 hoist=1170
+  }
+  charge rect red {
+    fly 5040
+    hoist 312
+    at fly=2520 hoist=1170
+  }
+  charge rect red {
+    fly 312
+    hoist 2340
+    at fly=2520 hoist=1170
+  }
+}
+
+cross red {
+  fly 5040 720 5040
+  hoist 2340 720 2340
+}
+
+charge star white {
+  radius 400
+  inner 177
+  points 8
+  at fly=1130 hoist=455
+  at fly=3910 hoist=455
+  at fly=1130 hoist=1885
+  at fly=3910 hoist=1885
+}

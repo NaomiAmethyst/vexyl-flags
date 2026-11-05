@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Ii Lords of Hikone in Omi Province (B)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ii_Lords_of_Hikone_in_Omi_Province_(B).svg"
+}
+palette {
+  pink "#bc002d"
+  white "#ffffff"
+}
+proportion hoist=700 fly=900
+
+field pink
+
+charge path white {
+  d "M290.03 128L290.03 190.03L228 190.03L228 260.03L290.03 260.03L290.03 439.96L228 439.96L228 509.96L290.03 509.96L290.03 572L360.03 572L360.03 509.96L539.96 509.96L539.96 572L609.96 572L609.96 509.96L672 509.96L672 439.96L609.96 439.96L609.96 260.03L672 260.03L672 190.03L609.96 190.03L609.96 128L539.96 128L539.96 190.03L360.03 190.03L360.03 128ZM360.03 260.03L539.96 260.03L539.96 439.96L360.03 439.96Z"
+  box "228 128 444 444"
+  fly 444
+  hoist 444
+  evenodd
+  at fly=450 hoist=350
+}

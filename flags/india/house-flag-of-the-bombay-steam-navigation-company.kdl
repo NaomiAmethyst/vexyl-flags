@@ -1,0 +1,34 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "House Flag of the Bombay Steam Navigation Company"
+  encoder "Germenfer"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:House_Flag_of_the_Bombay_Steam_Navigation_Company.svg"
+}
+palette {
+  white "#ffffff"
+  black "#000000"
+  red "#bd1c18"
+}
+proportion hoist=1200 fly=2399.9983
+
+chevrons white {
+  depth 2403.091
+  angle 14.0363
+}
+
+charge path black {
+  d "M0 0L2399.998 600L0 1200L0 0M-1.5 -1.9211L-1.5 1201.9212L0.3638 1201.4553L2400.3622 601.4553L2406.1829 600L2400.3621 598.5447L0.3637 -1.4553L-1.5 -1.9211Z"
+  box "-1.5 -1.9211 2407.6829 1203.8423"
+  fly 2407.6829
+  hoist 1203.8423
+  at fly=1202.3414 hoist=600
+}
+
+charge star red {
+  radius 207.4936
+  inner 82.9973
+  at fly=594.4543 hoist=619.8141
+}

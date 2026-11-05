@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Rarotonga 1858-1888"
+  encoder "No machine-readable author provided. R-41~commonswiki assumed (based on copyright claims)."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rarotonga_1858-1888.svg"
+}
+palette {
+  red "#dd0000"
+  white "#ffffff"
+  blue "#1b83b7"
+}
+proportion hoist=600 fly=900
+
+bars red white red
+
+charge star blue {
+  radius 84.4751
+  inner 32.1215
+  at fly=170.3281 hoist=308.0719
+  repeat line count=3 fly=279.6875
+}

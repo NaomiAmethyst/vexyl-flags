@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Republic of Texas (1836–1839)"
+  encoder "Pumbaa80."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_Texas_(1836%E2%80%931839).svg"
+}
+palette {
+  blue "#002868"
+  yellow "#ffee00"
+}
+proportion hoist=600 fly=900
+
+field blue
+
+charge polygon yellow {
+  point fly=450 hoist=151
+  point fly=487 hoist=265
+  point fly=606 hoist=265
+  point fly=509 hoist=335
+  point fly=546 hoist=449
+  point fly=449 hoist=379
+  point fly=352 hoist=449
+  point fly=389 hoist=335
+  point fly=292 hoist=265
+  point fly=411 hoist=265
+  point fly=448 hoist=151
+}

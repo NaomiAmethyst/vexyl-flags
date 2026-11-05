@@ -1,0 +1,55 @@
+vexyl 1
+meta {
+  name "Tuvalu"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tuvalu.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  blue "#012169"
+  white "#ffffff"
+  red "#c8102e"
+  sky "#009cde"
+  gold "#fedd00"
+}
+proportion hoist=60 fly=120
+
+define union hoist=30 fly=60 {
+  field blue
+  saltire white {
+    width 6
+  }
+  saltire red {
+    width 2
+    counterchange
+  }
+  cross red {
+    fly 27 6 27
+    hoist 12 6 12
+    fimbriate white 2
+  }
+}
+
+field sky
+canton {
+  fly 60
+  hoist 30
+  use union
+}
+charge star gold {
+  radius 5.2573
+  at fly=65.5 hoist=54
+  at fly=101 hoist=38.5
+  at fly=111.5 hoist=8
+  at fly=111.5 hoist=32
+}
+charge star gold {
+  radius 5.2573
+  rotate 180
+  at fly=78 hoist=38.5
+  at fly=78 hoist=51
+  at fly=90.5 hoist=21.5
+  at fly=90.5 hoist=47.5
+  at fly=101 hoist=17.5
+}

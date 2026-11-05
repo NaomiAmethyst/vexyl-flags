@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Rostov Oblast"
+  encoder "Законодательное Собрание Ростовской области"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rostov_Oblast.svg"
+}
+palette {
+  blue "#0038a8"
+  yellow "#fce016"
+  red "#ff2400"
+  white "#ffffff"
+}
+proportion hoist=6 fly=9
+
+bars blue yellow red
+
+panel {
+  side hoist
+  width 1.2
+  field white
+}

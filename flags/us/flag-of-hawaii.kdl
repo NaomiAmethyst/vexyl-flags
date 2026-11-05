@@ -1,0 +1,72 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Hawaii"
+  encoder "Dbenbenn"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hawaii.svg"
+}
+palette {
+  blue "#012169"
+  white "#ffffff"
+  red "#c8102e"
+}
+proportion hoist=24 fly=48
+
+field blue
+
+charge svg {
+  at center
+  fly 48
+  hoist 24
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 24"><defs><clipPath id="c2"><path d="M0 0V6H22V12H21zM21 0H10.5V13H0V12z"></path></clipPath><clipPath id="c1"><path d="M0 0H24V14H0z"></path></clipPath></defs><path d="M0 0 28 16M21 0 0 12" stroke-width="2.4" clip-path="url(#c1)" stroke="#ffffff" fill="#012169" transform="matrix(1 0 0 1 0 0)"/><path d="M0 0 28 16M21 0 0 12" stroke-width="1.6" clip-path="url(#c2)" stroke="#c8102e" fill="#012169" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge rect white {
+  fly 4
+  hoist 14
+  at fly=10.5 hoist=7
+}
+
+charge rect white {
+  fly 24
+  hoist 4
+  at fly=12 hoist=6
+}
+
+charge polygon white {
+  point fly=48 hoist=0
+  point fly=48 hoist=4
+  point fly=22 hoist=4
+  point fly=21 hoist=3
+  point fly=21 hoist=0
+}
+
+charge rect white {
+  fly 27
+  hoist 4
+  at fly=34.5 hoist=11
+}
+
+panel {
+  side bottom
+  width 6
+  field white
+}
+
+charge path red {
+  d "M48 3L48 7.2L0 7.2L0 4.8L21 4.8L21 3ZM48 12L48 15L0 15L0 12ZM48 21L48 24L0 24L0 21ZM9.3 0L11.7 0L11.7 13L9.3 13Z"
+  box "0 0 48 24"
+  fly 48
+  hoist 24
+  at fly=24 hoist=12
+}
+
+charge rect blue {
+  fly 27
+  hoist 2.5
+  at fly=34.5 hoist=7.25
+}

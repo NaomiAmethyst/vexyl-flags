@@ -1,0 +1,23 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Barotseland"
+  encoder "Himasaram"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Barotseland.svg"
+}
+palette {
+  red "#ff0000"
+  white "#ffffff"
+}
+proportion hoist=6 fly=9
+
+field red
+
+charge polygon white {
+  point fly=-1.0145 hoist=0.8575
+  point fly=8.9855 hoist=6.8575
+  point fly=10.0145 hoist=5.1425
+  point fly=0.0145 hoist=-0.8575
+}

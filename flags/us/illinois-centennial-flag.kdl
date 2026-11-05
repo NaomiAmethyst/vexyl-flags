@@ -1,0 +1,45 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Illinois Centennial Flag"
+  encoder "Libertyernie2"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Illinois_Centennial_Flag.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#002768"
+}
+proportion hoist=432 fly=720
+
+bars white blue white
+
+charge star white {
+  radius 59.7009
+  at fly=90 hoist=221.7009
+}
+
+charge star blue {
+  radius 13.8197
+  at fly=36 hoist=26.8197
+  at fly=36 hoist=58.8197
+  at fly=72 hoist=58.8197
+  at fly=72 hoist=90.8197
+  at fly=36 hoist=90.8197
+  at fly=36 hoist=122.8197
+  at fly=72 hoist=122.8197
+  at fly=108 hoist=90.8197
+  at fly=108 hoist=122.8197
+  at fly=144 hoist=122.8197
+  at fly=36 hoist=311.8197
+  at fly=72 hoist=311.8197
+  at fly=36 hoist=343.8197
+  at fly=72 hoist=343.8197
+  at fly=108 hoist=311.8197
+  at fly=144 hoist=311.8197
+  at fly=108 hoist=343.8197
+  at fly=36 hoist=375.8197
+  at fly=72 hoist=375.8197
+  at fly=36 hoist=407.8197
+}

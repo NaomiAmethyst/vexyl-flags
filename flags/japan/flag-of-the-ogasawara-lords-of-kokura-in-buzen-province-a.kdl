@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Ogasawara Lords of Kokura in Buzen Province (A)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ogasawara_Lords_of_Kokura_in_Buzen_Province_(A).svg"
+}
+palette {
+  blue "#005eb8"
+  white "#ffffff"
+}
+proportion hoist=700 fly=900
+
+field blue
+
+charge path white {
+  d "M329.22 503.73C263.55 458.81 209.8 421.56 209.77 420.95C209.74 420.35 239.53 399.33 275.97 374.25L342.25 328.65L334.14 323C329.68 319.9 318.34 312.2 308.96 305.92C299.58 299.63 291.91 294.09 291.93 293.59C291.95 293.1 315.51 276.66 344.29 257.06S396.88 220.93 397.19 220.32C397.51 219.72 387.05 211.87 373.95 202.89C360.86 193.91 350.17 185.81 350.21 184.9C350.26 183.27 445.22 116.3 449.31 115.01C451.57 114.3 549.83 182.27 550.13 184.75C550.23 185.58 539.49 193.67 526.28 202.74C513.06 211.81 502.51 219.72 502.82 220.32C503.13 220.92 526.94 237.46 555.72 257.06S608.06 293.1 608.08 293.58C608.1 294.07 597.16 301.9 583.78 310.99C570.38 320.09 559.41 327.93 559.39 328.42C559.37 328.92 570.8 337.24 584.79 346.92L650.25 392.19C672.28 407.42 690.28 420.37 690.25 420.97C690.16 422.45 453.69 584.48 450.86 584.99C449.63 585.22 394.89 548.65 329.22 503.73Z"
+  box "209.74 114.3 480.54 470.92"
+  fly 480.54
+  hoist 470.92
+  at fly=450.01 hoist=349.76
+}

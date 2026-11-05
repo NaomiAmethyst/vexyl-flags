@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Zapotec Peoples"
+  encoder "Germenfer"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Zapotec_Peoples.svg"
+}
+palette {
+  green "#004000"
+  red "#880015"
+}
+proportion hoist=1600 fly=2400
+
+bars green red

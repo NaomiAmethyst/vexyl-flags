@@ -1,0 +1,45 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Permyakia"
+  encoder "Drawn by Fibonacci"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Permyakia.svg"
+}
+palette {
+  red "#d81e05"
+  white "#ffffff"
+  blue "#0051ba"
+}
+proportion hoist=120 fly=240
+
+bars red white blue
+
+charge polygon red {
+  point fly=124.2426 hoist=43.0294
+  point fly=103.0294 hoist=64.2426
+  point fly=107.2721 hoist=68.4853
+  point fly=128.4853 hoist=47.2721
+}
+
+charge polygon red {
+  point fly=103.0294 hoist=55.7574
+  point fly=124.2426 hoist=76.9706
+  point fly=128.4853 hoist=72.7279
+  point fly=107.2721 hoist=51.5147
+}
+
+charge polygon red {
+  point fly=111.5147 hoist=47.2721
+  point fly=132.7279 hoist=68.4853
+  point fly=136.9706 hoist=64.2426
+  point fly=115.7574 hoist=43.0294
+}
+
+charge polygon red {
+  point fly=132.7279 hoist=51.5147
+  point fly=111.5147 hoist=72.7279
+  point fly=115.7574 hoist=76.9706
+  point fly=136.9706 hoist=55.7574
+}

@@ -1,0 +1,28 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of South Yemen"
+  encoder "National Front - الجبهة القومية"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Yemen.svg"
+}
+palette {
+  red "#ce1126"
+  white "#ffffff"
+  black "#000000"
+  blue "#80c3e6"
+}
+proportion hoist=1200 fly=1800
+
+bars red white black
+
+chevrons blue {
+  depth 707.5462
+}
+
+charge star red {
+  radius 142.6814
+  rotate 17.9042
+  at fly=303.1958 hoist=600.0661
+}

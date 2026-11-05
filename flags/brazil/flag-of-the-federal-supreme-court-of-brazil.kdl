@@ -1,0 +1,52 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Federal Supreme Court of Brazil"
+  encoder "decreto nº 43.807, de 27 de maio de 1958"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federal_Supreme_Court_of_Brazil.svg"
+}
+palette {
+  yellow "#ffcb00"
+  blue "#302681"
+}
+proportion hoist=200 fly=300
+
+field yellow
+
+charge star blue {
+  radius 7.886
+  inner 3.1544
+  at fly=225 hoist=100
+}
+
+charge star blue {
+  radius 27.6393
+  inner 11.0558
+  at fly=149.9999 hoist=102.6393
+}
+
+charge star blue {
+  radius 7.886
+  inner 3.1544
+  at fly=221.3292 hoist=123.1763
+  at fly=210.6762 hoist=144.0838
+  at fly=194.0838 hoist=160.6763
+  at fly=173.1762 hoist=171.3292
+  at fly=150 hoist=175
+  at fly=126.8237 hoist=171.3292
+  at fly=105.9161 hoist=160.6763
+  at fly=89.3237 hoist=144.0838
+  at fly=78.6708 hoist=123.1763
+  at fly=75 hoist=100
+  at fly=78.6708 hoist=76.8237
+  at fly=89.3237 hoist=55.9161
+  at fly=105.9161 hoist=39.3237
+  at fly=126.8237 hoist=28.6708
+  at fly=150 hoist=25
+  at fly=173.1763 hoist=28.6708
+  at fly=194.0839 hoist=39.3237
+  at fly=210.6763 hoist=55.9161
+  at fly=221.3292 hoist=76.8237
+}

@@ -1,0 +1,20 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Zabaykalsky Krai"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Zabaykalsky_Krai.svg"
+}
+palette {
+  green "#00923f"
+  red "#d81e05"
+  yellow "#ffd700"
+}
+proportion hoist=4 fly=6
+
+bars green red
+
+chevrons yellow {
+  depth 3
+}

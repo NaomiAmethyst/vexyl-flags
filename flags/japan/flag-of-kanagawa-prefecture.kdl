@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Kanagawa Prefecture"
+  encoder "Monaneko, Mike Rohsopht"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kanagawa_Prefecture.svg"
+}
+palette {
+  white "#ffffff"
+  red "#ff0000"
+}
+proportion hoist=600 fly=900
+
+field white
+
+charge path red {
+  d "M243.75 506.25A93.75 93.75 0 0 0 337.5 412.5L337.5 187.5M343.5 333A112.5 112.5 0 1 1 487.5 225L487.5 468.75A18.75 18.75 0 0 1 412.5 468.75L412.5 225A112.5 112.5 0 1 1 556.5 333M562.5 187.5L562.5 412.5A93.75 93.75 0 0 0 656.25 506.25M375 75L375 112.5M525 75L525 112.5"
+  box "243.75 75 506.25 525"
+  fly 506.25
+  hoist 525
+  hollow 37.5
+  at fly=496.875 hoist=337.5
+}

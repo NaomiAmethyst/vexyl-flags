@@ -1,0 +1,35 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "House Flag of Mathias Stinnes"
+  encoder "En rouge"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:House_Flag_of_Mathias_Stinnes.svg"
+}
+palette {
+  white "#ffffff"
+  red "#ed1b24"
+  grey "#b3b3b3"
+}
+proportion hoist=266.6667 fly=400
+
+chevrons white {
+  depth 400
+  angle 18.4564
+}
+
+pile red {
+  base 133.5 266.6667
+  tip 133.5 400
+}
+
+charge path grey {
+  d "M0.2594 133.5C0.2594 88.9311 0.25 44.8189 0.25 0.25L400.082 133.2642L400.082 133.2642"
+  box "0.25 0.25 399.832 133.25"
+  fly 399.832
+  hoist 133.25
+  evenodd
+  hollow 0.5
+  at fly=200.166 hoist=66.875
+}

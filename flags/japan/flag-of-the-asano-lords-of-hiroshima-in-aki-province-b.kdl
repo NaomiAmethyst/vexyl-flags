@@ -1,0 +1,157 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Asano Lords of Hiroshima in Aki Province (B)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Asano_Lords_of_Hiroshima_in_Aki_Province_(B).svg"
+}
+palette {
+  blue "#005eb8"
+  white "#ffffff"
+}
+proportion hoist=700 fly=900
+
+bars blue white blue {
+  ratio 220 260 220
+}
+
+charge polygon white {
+  point fly=493.95 hoist=345.64
+  point fly=429.83 hoist=639.87
+  point fly=417.36 hoist=637.15
+  point fly=481.26 hoist=343.95
+}
+
+charge polygon blue {
+  point fly=493.95 hoist=345.64
+  point fly=429.83 hoist=639.87
+  point fly=417.36 hoist=637.15
+  point fly=481.26 hoist=343.95
+  hollow 6
+}
+
+charge polygon white {
+  point fly=406.05 hoist=345.64
+  point fly=470.17 hoist=639.87
+  point fly=482.64 hoist=637.15
+  point fly=418.74 hoist=343.95
+}
+
+charge polygon blue {
+  point fly=406.05 hoist=345.64
+  point fly=470.17 hoist=639.87
+  point fly=482.64 hoist=637.15
+  point fly=418.74 hoist=343.95
+  hollow 6
+}
+
+charge polygon white {
+  point fly=526.75 hoist=224.5
+  point fly=638.5 hoist=135.67
+  point fly=512.14 hoist=403.08
+  point fly=443.62 hoist=340.79
+  point fly=400.2 hoist=399.29
+  point fly=508.06 hoist=627.55
+  point fly=496.52 hoist=633.01
+  point fly=261.5 hoist=135.67
+  point fly=373.25 hoist=224.5
+  point fly=450 hoist=127.5
+}
+
+charge polygon blue {
+  point fly=526.75 hoist=224.5
+  point fly=638.5 hoist=135.67
+  point fly=512.14 hoist=403.08
+  point fly=443.62 hoist=340.79
+  point fly=400.2 hoist=399.29
+  point fly=508.06 hoist=627.55
+  point fly=496.52 hoist=633.01
+  point fly=261.5 hoist=135.67
+  point fly=373.25 hoist=224.5
+  point fly=450 hoist=127.5
+  hollow 6
+}
+
+charge polygon white {
+  point fly=456.38 hoist=339.73
+  point fly=456.38 hoist=640.87
+  point fly=443.61 hoist=640.87
+  point fly=443.61 hoist=340.79
+}
+
+charge polygon blue {
+  point fly=456.38 hoist=339.73
+  point fly=456.38 hoist=640.87
+  point fly=443.61 hoist=640.87
+  point fly=443.61 hoist=340.79
+  hollow 6
+}
+
+charge path white {
+  d "M526.75 224.5L638.5 135.67L403.49 633.01L391.95 627.56L615.65 154.14"
+  box "391.95 135.67 246.55 497.34"
+  fly 246.55
+  hoist 497.34
+  at fly=515.225 hoist=384.34
+}
+
+charge path blue {
+  d "M526.75 224.5L638.5 135.67L403.49 633.01L391.95 627.56L615.65 154.14"
+  box "391.95 135.67 246.55 497.34"
+  fly 246.55
+  hoist 497.34
+  hollow 6
+  at fly=515.225 hoist=384.34
+}
+
+charge path white {
+  d "M410.76 304.35C346.73 351.9 303.51 422.56 319.93 480.37C374.94 467.84 416.67 422.26 450 355.76C483.33 422.26 525.07 467.85 580.07 480.37C596.49 422.56 553.27 351.9 489.24 304.35C502.44 238.95 492.89 191.23 450 126.47C407.11 191.23 397.56 238.95 410.76 304.35Z"
+  box "303.51 126.47 292.98 353.9"
+  fly 292.98
+  hoist 353.9
+  at fly=450 hoist=303.42
+}
+
+charge path blue {
+  d "M410.76 304.35C346.73 351.9 303.51 422.56 319.93 480.37C374.94 467.84 416.67 422.26 450 355.76C483.33 422.26 525.07 467.85 580.07 480.37C596.49 422.56 553.27 351.9 489.24 304.35C502.44 238.95 492.89 191.23 450 126.47C407.11 191.23 397.56 238.95 410.76 304.35Z"
+  box "303.51 126.47 292.98 353.9"
+  fly 292.98
+  hoist 353.9
+  hollow 6
+  at fly=450 hoist=303.42
+}
+
+charge svg {
+  at center
+  fly 900
+  hoist 700
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700"><path d="M460.71 319.47A10.71 10.71 0 0 1 450 330.18a10.71 10.71 0 0 1-10.72-10.71A10.71 10.71 0 0 1 450 308.76a10.71 10.71 0 0 1 10.71 10.71z" stroke-width="6" stroke-linecap="round" stroke="#005eb8" fill="none" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge rect blue {
+  fly 6
+  hoist 180.05
+  at fly=450 hoist=218.725
+}
+
+charge path blue {
+  d "M319.93 480.37C349.94 430.49 382.86 380.06 440.57 324.95"
+  box "319.93 324.95 120.64 155.42"
+  fly 120.64
+  hoist 155.42
+  hollow 6
+  at fly=380.25 hoist=402.66
+}
+
+charge path blue {
+  d "M580.07 480.37C550.06 430.49 517.14 380.06 459.43 324.95"
+  box "459.43 324.95 120.64 155.42"
+  fly 120.64
+  hoist 155.42
+  hollow 6
+  at fly=519.75 hoist=402.66
+}

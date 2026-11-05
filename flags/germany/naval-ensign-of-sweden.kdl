@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Naval Ensign of Sweden"
+  encoder "User: David Newton"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Naval_ensign_of_Sweden.svg"
+}
+palette {
+  blue "#005293"
+  yellow "#fecb00"
+}
+proportion hoist=300 fly=600
+
+charge polygon blue {
+  point fly=0 hoist=0
+  point fly=600 hoist=0
+  point fly=360 hoist=120
+  point fly=360 hoist=180
+  point fly=600 hoist=300
+  point fly=0 hoist=300
+}
+
+charge rect yellow {
+  fly 60
+  hoist 300
+  at fly=180 hoist=150
+}
+
+charge polygon yellow {
+  point fly=0 hoist=120
+  point fly=360 hoist=120
+  point fly=600 hoist=150
+  point fly=360 hoist=180
+  point fly=0 hoist=180
+}

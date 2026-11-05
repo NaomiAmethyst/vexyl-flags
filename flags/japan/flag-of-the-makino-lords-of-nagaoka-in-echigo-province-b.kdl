@@ -1,0 +1,138 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Makino Lords of Nagaoka in Echigo Province (B)"
+  encoder "Barfodt"
+  license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Makino_Lords_of_Nagaoka_in_Echigo_Province_(B).svg"
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+}
+proportion hoist=700 fly=900
+
+field black
+
+charge polygon white {
+  point fly=335.39 hoist=134.9
+  point fly=335.39 hoist=565.1
+  point fly=387.54 hoist=565.1
+  point fly=387.54 hoist=533.02
+  point fly=361.51 hoist=533.02
+  point fly=361.51 hoist=488.85
+  point fly=387.54 hoist=488.85
+  point fly=387.54 hoist=452.55
+  point fly=361.51 hoist=452.55
+  point fly=361.51 hoist=408.4
+  point fly=387.54 hoist=408.4
+  point fly=387.54 hoist=372.1
+  point fly=361.51 hoist=372.1
+  point fly=361.51 hoist=327.93
+  point fly=387.54 hoist=327.93
+  point fly=387.54 hoist=291.63
+  point fly=361.51 hoist=291.63
+  point fly=361.51 hoist=247.46
+  point fly=387.54 hoist=247.46
+  point fly=387.54 hoist=211.16
+  point fly=361.51 hoist=211.16
+  point fly=361.51 hoist=166.99
+  point fly=387.54 hoist=166.99
+  point fly=387.54 hoist=134.9
+}
+
+charge polygon white {
+  point fly=516.77 hoist=134.9
+  point fly=516.77 hoist=565.1
+  point fly=568.93 hoist=565.1
+  point fly=568.93 hoist=533.02
+  point fly=534.59 hoist=533.02
+  point fly=534.59 hoist=488.85
+  point fly=568.93 hoist=488.85
+  point fly=568.93 hoist=372.08
+  point fly=534.59 hoist=372.08
+  point fly=534.59 hoist=327.92
+  point fly=568.93 hoist=327.92
+  point fly=568.93 hoist=211.15
+  point fly=534.59 hoist=211.15
+  point fly=534.59 hoist=166.98
+  point fly=568.93 hoist=166.98
+  point fly=568.93 hoist=134.9
+}
+
+charge rect white {
+  fly 26.39
+  hoist 36.17
+  at fly=318.195 hoist=189.065
+}
+
+charge polygon white {
+  point fly=365.51 hoist=170.98
+  point fly=365.51 hoist=207.15
+  point fly=512.76 hoist=207.15
+  point fly=512.76 hoist=170.98
+  point fly=387.54 hoist=170.98
+}
+
+charge rect white {
+  fly 56.42
+  hoist 36.17
+  at fly=566.79 hoist=189.065
+}
+
+charge polygon white {
+  point fly=365.51 hoist=251.45
+  point fly=365.51 hoist=287.62
+  point fly=512.76 hoist=287.62
+  point fly=512.76 hoist=251.45
+  point fly=387.54 hoist=251.45
+}
+
+charge rect white {
+  fly 26.39
+  hoist 36.17
+  at fly=318.195 hoist=349.985
+}
+
+charge polygon white {
+  point fly=365.51 hoist=331.9
+  point fly=365.51 hoist=368.07
+  point fly=512.76 hoist=368.07
+  point fly=512.76 hoist=331.9
+  point fly=387.54 hoist=331.9
+}
+
+charge rect white {
+  fly 56.42
+  hoist 36.17
+  at fly=566.79 hoist=349.985
+}
+
+charge polygon white {
+  point fly=365.51 hoist=412.37
+  point fly=365.51 hoist=448.54
+  point fly=512.76 hoist=448.54
+  point fly=512.76 hoist=412.37
+  point fly=387.54 hoist=412.37
+}
+
+charge rect white {
+  fly 26.39
+  hoist 36.17
+  at fly=318.195 hoist=510.935
+}
+
+charge polygon white {
+  point fly=365.51 hoist=492.85
+  point fly=365.51 hoist=529.02
+  point fly=512.76 hoist=529.02
+  point fly=512.76 hoist=492.85
+  point fly=387.54 hoist=492.85
+}
+
+charge rect white {
+  fly 56.42
+  hoist 36.17
+  at fly=566.79 hoist=510.935
+}

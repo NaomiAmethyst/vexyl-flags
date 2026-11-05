@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Indian Marshal of the Air Forces 1950-1980"
+  encoder "Bharata-indstar"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Indian_Marshal_of_the_Air_Forces_1950-1980.svg"
+}
+palette {
+  orange "#ff671f"
+  blue "#3399ff"
+  green "#046a38"
+}
+proportion hoist=400 fly=600
+
+bars orange blue orange {
+  ratio 65 270 65
+}
+
+charge rect green {
+  fly 600
+  hoist 29
+  at fly=300 hoist=112.5
+}
+
+charge rect green {
+  fly 600
+  hoist 74
+  at fly=300 hoist=200
+}
+
+charge rect green {
+  fly 600
+  hoist 29
+  at fly=300 hoist=287.5
+}

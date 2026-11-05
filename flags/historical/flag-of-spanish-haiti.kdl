@@ -1,0 +1,85 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Spanish Haiti"
+  encoder "Milenioscuro"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Spanish_Haiti.svg"
+}
+palette {
+  yellow "#fcd116"
+  blue "#003893"
+  red "#ce1126"
+  white "#ffffff"
+}
+proportion hoist=300 fly=450
+
+bars yellow blue red {
+  ratio 2 1 1
+}
+
+charge polygon white {
+  point fly=155 hoist=191
+  point fly=151 hoist=203
+  point fly=138 hoist=203
+  point fly=149 hoist=211
+  point fly=145 hoist=223
+  point fly=155 hoist=216
+  point fly=165 hoist=223
+  point fly=161 hoist=211
+  point fly=172 hoist=203
+  point fly=159 hoist=203
+}
+
+charge polygon white {
+  point fly=186 hoist=164
+  point fly=182 hoist=176
+  point fly=169 hoist=176
+  point fly=180 hoist=184
+  point fly=176 hoist=196
+  point fly=186 hoist=189
+  point fly=196 hoist=196
+  point fly=192 hoist=184
+  point fly=203 hoist=176
+  point fly=190 hoist=176
+}
+
+charge polygon white {
+  point fly=225 hoist=153
+  point fly=221 hoist=165
+  point fly=208 hoist=165
+  point fly=219 hoist=173
+  point fly=215 hoist=185
+  point fly=225 hoist=178
+  point fly=235 hoist=185
+  point fly=231 hoist=173
+  point fly=242 hoist=165
+  point fly=229 hoist=165
+}
+
+charge polygon white {
+  point fly=264 hoist=164
+  point fly=260 hoist=176
+  point fly=247 hoist=176
+  point fly=258 hoist=184
+  point fly=254 hoist=196
+  point fly=264 hoist=189
+  point fly=274 hoist=196
+  point fly=270 hoist=184
+  point fly=281 hoist=176
+  point fly=268 hoist=176
+}
+
+charge polygon white {
+  point fly=295 hoist=191
+  point fly=291 hoist=203
+  point fly=278 hoist=203
+  point fly=289 hoist=211
+  point fly=285 hoist=223
+  point fly=295 hoist=216
+  point fly=305 hoist=223
+  point fly=301 hoist=211
+  point fly=312 hoist=203
+  point fly=299 hoist=203
+}

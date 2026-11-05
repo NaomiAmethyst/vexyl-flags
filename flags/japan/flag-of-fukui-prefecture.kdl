@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Fukui Prefecture"
+  encoder "This logo image consists only of simple geometric shapes or text. It does not meet the threshold of originality needed f"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Fukui_Prefecture.svg"
+}
+palette {
+  blue "#00006b"
+  white "#ffffff"
+}
+proportion hoist=70 fly=105
+
+field blue
+
+charge path white {
+  d "M55.5 34.4231A18.6 18.6 0 0 0 52.5 41.6728A18.6 18.6 0 0 0 49.5 34.4231L49.5 19L55.5 19ZM71.6674 26.4202A18.6 18.6 0 0 0 65.3268 27.2235A15 15 0 0 0 39.6732 27.2235A18.6 18.6 0 0 0 33.3326 26.4202A21 21 0 0 1 71.6674 26.4202ZM52.8 45A18 18 0 0 1 71.9311 27.0356A21 21 0 0 1 52.8 55.9979L52.8 49.997A15 15 0 0 0 67.4233 33.4849A12 12 0 0 0 59.1275 47.7842A14.4 14.4 0 0 1 52.8 49.3969ZM52.2 45A18 18 0 0 0 33.0689 27.0356A21 21 0 0 0 52.2 55.9979L52.2 49.997A15 15 0 0 1 37.5767 33.4849A12 12 0 0 1 45.8725 47.7842A14.4 14.4 0 0 0 52.2 49.3969Z"
+  box "14.7326 5.4202 77.9347 71.5776"
+  fly 77.9347
+  hoist 71.5776
+  at fly=53.7 hoist=41.209
+}

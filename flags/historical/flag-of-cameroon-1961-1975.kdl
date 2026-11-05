@@ -1,0 +1,28 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Cameroon (1961-1975)"
+  encoder "Himasaram"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon_(1961%E2%80%931975).svg"
+}
+palette {
+  teal "#007a5e"
+  red "#ce1126"
+  yellow "#fcd116"
+}
+proportion hoist=224 fly=336
+
+bars teal red yellow {
+  along hoist
+}
+
+charge svg {
+  at center
+  fly 336
+  hoist 224
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 224"><polygon points="0,0 0,1 .5,1" transform="matrix(19.972187 6.489357 -6.489357 19.972187 56 3)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-19.972187 6.489357 6.489357 19.972187 56 3)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(0 21 -21 0 75.972187 17.510643)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-12.34349 -16.989357 -16.989357 12.34349 75.972187 17.510643)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(12.34349 -16.989357 16.989357 12.34349 36.027813 17.510643)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-0 21 21 0 36.027813 17.510643)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-19.972187 6.489357 -6.489357 -19.972187 68.34349 40.989357)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(12.34349 -16.989357 -16.989357 -12.34349 68.34349 40.989357)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-12.34349 -16.989357 16.989357 -12.34349 43.65651 40.989357)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(19.972187 6.489357 6.489357 -19.972187 43.65651 40.989357)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(19.972187 6.489357 -6.489357 19.972187 56 45)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-19.972187 6.489357 6.489357 19.972187 56 45)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(0 21 -21 0 75.972187 59.510643)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-12.34349 -16.989357 -16.989357 12.34349 75.972187 59.510643)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(12.34349 -16.989357 16.989357 12.34349 36.027813 59.510643)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-0 21 21 0 36.027813 59.510643)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-19.972187 6.489357 -6.489357 -19.972187 68.34349 82.989357)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(12.34349 -16.989357 -16.989357 -12.34349 68.34349 82.989357)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(-12.34349 -16.989357 16.989357 -12.34349 43.65651 82.989357)" fill="#fcd116"/><polygon points="0,0 0,1 .5,1" transform="matrix(19.972187 6.489357 6.489357 -19.972187 43.65651 82.989357)" fill="#fcd116"/></svg>
+"""#
+}

@@ -1,0 +1,95 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of El Salvador (1875–1912)"
+  encoder "Legislative Assembly of El Salvador"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador_(1875%E2%80%931912).svg"
+}
+palette {
+  blue "#0f47af"
+  white "#ffffff"
+  red "#e60000"
+}
+proportion hoist=637.7953 fly=1116.1417
+
+panel {
+  corner upper-fly
+  fly 846.9757
+  hoist 70.8661
+  field blue
+}
+
+charge rect white {
+  fly 1115.2958
+  hoist 70.8661
+  at fly=557.6479 hoist=106.6606
+}
+
+charge rect blue {
+  fly 858.9386
+  hoist 70.8661
+  at fly=686.6724 hoist=177.1654
+}
+
+charge rect white {
+  fly 1116.1417
+  hoist 70.8661
+  at fly=558.0709 hoist=248.0315
+}
+
+charge rect blue {
+  fly 1116.1417
+  hoist 70.8661
+  at fly=558.0708 hoist=318.8977
+}
+
+charge rect white {
+  fly 1116.1417
+  hoist 70.8661
+  at fly=558.0708 hoist=389.7638
+}
+
+charge rect blue {
+  fly 1116.1417
+  hoist 70.8661
+  at fly=558.0709 hoist=460.6299
+}
+
+charge rect white {
+  fly 1116.1417
+  hoist 70.8661
+  at fly=558.0709 hoist=531.496
+}
+
+panel {
+  side bottom
+  width 70.8661
+  field blue
+}
+
+canton {
+  fly 283.4646
+  hoist 283.4646
+  field red
+  charge star white {
+    radius 24.0378
+    inner 9.0142
+    rotate 0.272
+    at fly=55.7282 hoist=143.0954
+    at fly=112.404 hoist=143.6331
+    at fly=169.0797 hoist=143.2102
+    at fly=225.7555 hoist=142.7872
+    at fly=37.0665 hoist=212.4804
+    at fly=88.3589 hoist=213.0181
+    at fly=191.6901 hoist=213.1932
+    at fly=242.3844 hoist=213.9666
+    at fly=139.6513 hoist=212.5951
+    at fly=40.6554 hoist=71.3178
+    at fly=91.9478 hoist=71.8555
+    at fly=195.2789 hoist=72.0306
+    at fly=245.9732 hoist=72.804
+    at fly=143.2401 hoist=71.4325
+  }
+}

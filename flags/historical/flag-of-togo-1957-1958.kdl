@@ -1,0 +1,45 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Togo (1957-1958)"
+  encoder "Mysid"
+  license "CC-BY-SA-3.0"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Togo_(1957%E2%80%931958).svg"
+}
+palette {
+  green "#006a3e"
+  white "#ffffff"
+  blue "#002654"
+  red "#ce1126"
+}
+proportion hoist=72 fly=120
+
+field green
+
+charge svg {
+  at center
+  fly 120
+  hoist 72
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 72"><path d="M -1,0 h 1 v -0.5" transform="matrix(7.281153 5.290067 -5.290067 7.281153 13.721644 61.508914)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(9 0 0 -9 15.440491 56.218847)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-2.781153 8.559509 -8.559509 -2.781153 12.218847 58.559509)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(2.781153 8.559509 8.559509 -2.781153 17.781153 58.559509)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-9 0 -0 -9 14.559509 56.218847)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-7.281153 5.290067 5.290067 7.281153 16.278356 61.508914)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-2.781153 -8.559509 8.559509 -2.781153 17.508914 57.721644)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-7.281153 -5.290067 -5.290067 7.281153 13.008914 60.991086)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(7.281153 -5.290067 5.290067 7.281153 16.991086 60.991086)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(2.781153 -8.559509 -8.559509 -2.781153 12.491086 57.721644)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(7.281153 5.290067 -5.290067 7.281153 103.721644 15.508914)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(9 0 0 -9 105.440491 10.218847)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-2.781153 8.559509 -8.559509 -2.781153 102.218847 12.559509)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(2.781153 8.559509 8.559509 -2.781153 107.781153 12.559509)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-9 0 -0 -9 104.559509 10.218847)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-7.281153 5.290067 5.290067 7.281153 106.278356 15.508914)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-2.781153 -8.559509 8.559509 -2.781153 107.508914 11.721644)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(-7.281153 -5.290067 -5.290067 7.281153 103.008914 14.991086)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(7.281153 -5.290067 5.290067 7.281153 106.991086 14.991086)" fill="#ffffff"/><path d="M -1,0 h 1 v -0.5" transform="matrix(2.781153 -8.559509 -8.559509 -2.781153 102.491086 11.721644)" fill="#ffffff"/></svg>
+"""#
+}
+
+canton {
+  fly 30
+  hoist 20
+  field white
+}
+
+canton {
+  fly 10
+  hoist 20
+  field blue
+}
+
+charge rect red {
+  fly 10
+  hoist 20
+  at fly=25 hoist=10
+}

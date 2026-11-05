@@ -1,0 +1,80 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Soviet Union (1924)"
+  encoder "Supreme Dragon"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union_(1924).svg"
+}
+palette {
+  red "#be000d"
+  yellow "#fcd116"
+  yellow-2 "#fcd20f"
+}
+proportion hoist=300 fly=600
+
+field red
+
+charge rect yellow {
+  fly 252.5
+  hoist 10
+  at fly=126.25 hoist=154
+}
+
+charge rect yellow {
+  fly 10
+  hoist 154
+  at fly=247.5 hoist=77
+}
+
+charge polygon yellow-2 {
+  point fly=109.942 hoist=16.107
+  point fly=122.401 hoist=16.107
+  point fly=126.25 hoist=4.156
+  point fly=130.098 hoist=16.107
+  point fly=142.557 hoist=16.107
+  point fly=132.479 hoist=23.492
+  point fly=136.328 hoist=35.442
+  point fly=126.25 hoist=28.057
+  point fly=116.171 hoist=35.442
+  point fly=120.02 hoist=23.492
+}
+
+charge polygon red {
+  point fly=115.921 hoist=18.065
+  point fly=123.812 hoist=18.065
+  point fly=126.25 hoist=10.496
+  point fly=128.688 hoist=18.065
+  point fly=136.578 hoist=18.065
+  point fly=130.195 hoist=22.742
+  point fly=132.633 hoist=30.311
+  point fly=126.251 hoist=25.634
+  point fly=119.867 hoist=30.311
+  point fly=122.305 hoist=22.742
+}
+
+charge polygon yellow-2 {
+  point fly=94.9964 hoist=62.8247
+  point fly=78.3068 hoist=81.7233
+  point fly=85.4244 hoist=90.3135
+  point fly=108.7408 hoist=62.3952
+}
+
+charge path yellow-2 {
+  d "M86.5903 91.0498L110.5816 62.702L114.6926 69.2674L108.4954 76.6305L161.3254 121.0543C164.8417 123.3737 160.395 129.4345 156.7456 129.8423C156.0075 129.9247 155.075 129.6711 153.8396 128.7855L102.1141 83.7481L94.5056 92.7678Z"
+  box "86.5903 62.702 78.2514 67.2227"
+  fly 78.2514
+  hoist 67.2227
+  evenodd
+  at fly=125.716 hoist=96.3134
+}
+
+charge path yellow-2 {
+  d "M110.5904 102.0111C108.9709 103.2222 108.3181 105.6078 104.1119 107.1309C101.0139 108.2528 98.5213 112.459 97.352 115.746C95.6562 120.513 93.1461 122.0256 90.8735 124.5309C89.1972 131.1716 95.3795 128.8278 96.3403 128.4358C98.6663 125.7529 99.4569 123.1877 103.7428 120.7963C106.7938 119.094 109.8998 116.7484 110.9797 113.2113C111.3141 112.1159 112.4916 111.3854 113.6084 110.5602C133.4517 129.9655 150.9018 125.5657 161.7704 109.0948C169.6459 97.4273 168.0388 78.9371 162.5358 67.6235C153.2674 50.1901 132.4452 43.7878 120.1997 43.201C116.3483 43.0165 115.0923 43.5366 112.854 43.7438C114.9805 44.2645 126.3652 46.3259 138.1326 54.1197C148.3732 60.9022 157.372 72.026 156.6138 90.2535C155.3612 111.5104 141.4858 120.2627 120.3329 107.0551C119.689 106.6531 117.8234 105.0158 117.1661 104.5728C117.9771 101.1928 117.3747 99.6885 112.8274 99.8869Z"
+  box "89.1972 43.0165 80.4488 88.1551"
+  fly 80.4488
+  hoist 88.1551
+  evenodd
+  at fly=129.4215 hoist=87.094
+}

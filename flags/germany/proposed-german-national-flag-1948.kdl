@@ -1,0 +1,23 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Proposed German National Flag 1948"
+  encoder "Bangin"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Proposed_German_National_Flag_1948.svg"
+}
+palette {
+  red "#dd0000"
+  black "#000000"
+  yellow "#ffce00"
+}
+proportion hoist=800 fly=1100
+
+field red
+
+cross yellow {
+  fly 350 100 650
+  hoist 350 100 350
+  fimbriate black 50
+}

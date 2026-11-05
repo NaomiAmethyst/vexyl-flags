@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Anarchist flag"
+  encoder "Boris23"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Anarchist_flag.svg"
+}
+palette {
+  red "#ff1111"
+  black "#000000"
+}
+proportion hoist=2 fly=3
+
+field red
+
+pile black {
+  from fly
+  tip 2 3
+}

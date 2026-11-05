@@ -1,0 +1,38 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Nara Prefecture"
+  encoder "Original: PRiMENON Vector: Wrightbus"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nara_Prefecture.svg"
+}
+palette {
+  white "#ffffff"
+  red "#5b1c1f"
+}
+proportion hoist=800 fly=1200
+
+field white
+
+charge disc red {
+  radius 220
+  at fly=570 hoist=400
+}
+
+charge disc white {
+  radius 76
+  at fly=430 hoist=400
+}
+
+charge rect red {
+  fly 420
+  hoist 80
+  at fly=640 hoist=400
+}
+
+charge rect white {
+  fly 25
+  hoist 10
+  at fly=352.5 hoist=400
+}

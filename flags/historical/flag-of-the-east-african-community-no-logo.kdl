@@ -1,0 +1,22 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the East African Community (no logo)"
+  encoder "Greentubing"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_East_African_Community_(no_logo).svg"
+}
+palette {
+  blue "#0087ff"
+  white "#ffffff"
+  black "#000000"
+  green "#008300"
+  yellow "#ffff00"
+  red "#ff0000"
+}
+proportion hoist=330 fly=600
+
+bars blue white black green yellow green red white blue {
+  ratio 90.75 14.85 24.75 11.55 46.2 11.55 24.75 14.85 90.75
+}

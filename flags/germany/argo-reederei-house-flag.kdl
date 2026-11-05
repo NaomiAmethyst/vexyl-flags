@@ -1,0 +1,26 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Argo Reederei house flag"
+  encoder "Unknown (anonymous)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Argo_Reederei_house_flag.svg"
+}
+palette {
+  green "#67a53d"
+  yellow "#fdeb34"
+}
+proportion hoist=283.465 fly=425.197
+
+canton {
+  fly 424.296
+  hoist 282.697
+  field green
+  charge star yellow {
+    radius 93.5586
+    inner 51.9771
+    points 8
+    at fly=211.6977 hoist=140.9649
+  }
+}

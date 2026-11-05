@@ -1,0 +1,30 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Kingdom of Syria (1920-03-08 to 1920-07-24)"
+  encoder "Ch1902"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Syria_(1920-03-08_to_1920-07-24).svg"
+}
+palette {
+  black "#000000"
+  green "#007a3d"
+  white "#ffffff"
+  red "#ce1126"
+}
+proportion hoist=216 fly=432
+
+bars black green white
+
+chevrons red {
+  depth 216
+}
+
+charge star white {
+  radius 38.8215
+  inner 16.6073
+  points 7
+  rotate 0.1402
+  at fly=81.25 hoist=106.5
+}

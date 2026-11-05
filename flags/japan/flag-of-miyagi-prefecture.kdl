@@ -1,0 +1,33 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Miyagi Prefecture"
+  encoder "Monaneko, Mike Rohsopht"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Miyagi_Prefecture.svg"
+}
+palette {
+  teal "#00594c"
+  white "#ffffff"
+}
+proportion hoist=100 fly=150
+
+field teal
+
+charge path white {
+  d "M74.652 81.9818A61.9548 61.9548 0 0 1 89.896 53.5262A24.7784 24.7784 0 0 1 102.2177 46.4036A7.5 7.5 0 0 1 110.0189 58.1054A24.7725 24.7725 0 0 1 88.6611 68.299A39.3545 39.3545 0 0 1 60.8486 54.4966A24.7763 24.7763 0 0 0 47.7823 46.4036A7.5 7.5 0 0 0 39.9811 58.1054A24.7725 24.7725 0 0 0 53.6717 67.4899A13.9564 13.9564 0 0 0 65.4213 65.3141A47.2618 47.2618 0 0 0 81.9288 43.7901A24.7428 24.7428 0 0 0 82.0331 26.3951A7.5 7.5 0 0 0 67.9669 26.3651A24.7754 24.7754 0 0 0 67.9669 43.6049A7.5 7.5 0 0 0 72.483 48.065"
+  box "21.4941 -8.4286 130.3566 123.9096"
+  fly 130.3566
+  hoist 123.9096
+  hollow 9
+  at fly=86.6724 hoist=53.5262
+}
+
+charge path white {
+  d "M79.0353 83L69.0224 83A44.3046 44.3046 0 0 1 74.0378 69.5453ZM72.1868 42.0419A3 3 0 0 0 75.9659 43.8403A41.7618 41.7618 0 0 1 70.9728 52.304Z"
+  box "29.211 10.5423 89.1314 103.3076"
+  fly 89.1314
+  hoist 103.3076
+  at fly=73.7767 hoist=62.1961
+}

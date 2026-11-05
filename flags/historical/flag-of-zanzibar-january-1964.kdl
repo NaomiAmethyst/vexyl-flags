@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Zanzibar (January 1964)"
+  encoder "SuperManu"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Zanzibar_(January_1964).svg"
+}
+palette {
+  black "#000000"
+  yellow "#fcd116"
+  blue "#00a3dd"
+}
+proportion hoist=6 fly=9
+
+bars black yellow blue

@@ -1,0 +1,59 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Tuvalu (1995)"
+  encoder "Thommy"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tuvalu_(1995).svg"
+}
+palette {
+  blue "#012169"
+  white "#ffffff"
+  red "#c8102e"
+}
+proportion hoist=600 fly=1200
+
+field blue
+
+charge svg {
+  at center
+  fly 1200
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><clipPath id="c2"><path d="m0 0v150h700v150h-100zm0 300v50h300v-350h300z"></path></clipPath><clipPath id="c1"><path d="m0 0h650v350h0-650z"></path></clipPath></defs><path d="m0 0 600 300m0-300-600 300" stroke-width="60" clip-path="url(#c1)" stroke="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="m0 0 600 300m0-300-600 300" stroke-width="40" clip-path="url(#c2)" stroke="#c8102e" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}
+
+charge rect white {
+  fly 700
+  hoist 100
+  at fly=350 hoist=150
+}
+
+charge rect white {
+  fly 100
+  hoist 350
+  at fly=300 hoist=175
+}
+
+charge rect red {
+  fly 700
+  hoist 60
+  at fly=350 hoist=150
+}
+
+charge rect red {
+  fly 60
+  hoist 350
+  at fly=300 hoist=175
+}
+
+charge svg {
+  at center
+  fly 1200
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path d="m0 300h600v-300h600v600h-1200z" fill="#009cde" transform="matrix(1 0 0 1 0 0)"/><path d="m555.613 324.281 70.832-.051-57.341 41.582 21.937 67.349-57.267-41.685-57.273 41.675 21.948-67.345-57.334-41.592 70.831.064 21.839-67.381z" transform="matrix(0.603258 0 0 0.567725 756.40895 -139.42161)" fill="#fedd00"/><path d="m555.613 324.281 70.832-.051-57.341 41.582 21.937 67.349-57.267-41.685-57.273 41.675 21.948-67.345-57.334-41.592 70.831.064 21.839-67.381z" transform="matrix(0.603258 0 0 0.567725 645.54491 147.10416)" fill="#fedd00"/><path d="m555.613 324.281 70.832-.051-57.341 41.582 21.937 67.349-57.267-41.685-57.273 41.675 21.948-67.345-57.334-41.592 70.831.064 21.839-67.381z" transform="matrix(0.603258 0 0 0.567725 759.68997 75.74019)" fill="#fedd00"/><path d="m555.613 324.281 70.832-.051-57.341 41.582 21.937 67.349-57.267-41.685-57.273 41.675 21.948-67.345-57.334-41.592 70.831.064 21.839-67.381z" transform="matrix(-0.603258 0 0 -0.567725 1049.9733 556.34276)" fill="#fedd00"/><path d="m555.613 324.281 70.832-.051-57.341 41.582 21.937 67.349-57.267-41.685-57.273 41.675 21.948-67.345-57.334-41.592 70.831.064 21.839-67.381z" transform="matrix(-0.603258 0 0 -0.567725 1244.4332 348.67657)" fill="#fedd00"/><path d="m555.613 324.281 70.832-.051-57.341 41.582 21.937 67.349-57.267-41.685-57.273 41.675 21.948-67.345-57.334-41.592 70.831.064 21.839-67.381z" transform="matrix(-0.603258 0 0 -0.567725 1197.2224 653.58554)" fill="#fedd00"/><path d="m555.613 324.281 70.832-.051-57.341 41.582 21.937 67.349-57.267-41.685-57.273 41.675 21.948-67.345-57.334-41.592 70.831.064 21.839-67.381z" transform="matrix(-0.603258 0 0 -0.567725 1050.0114 717.37143)" fill="#fedd00"/><path d="m555.613 324.281 70.832-.051-57.341 41.582 21.937 67.349-57.267-41.685-57.273 41.675 21.948-67.345-57.334-41.592 70.831.064 21.839-67.381z" transform="matrix(0.603258 0 0 0.567725 272.40905 349.26727)" fill="#fedd00"/></svg>
+"""#
+}

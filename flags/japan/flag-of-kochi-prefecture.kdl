@@ -1,0 +1,24 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Kochi Prefecture"
+  encoder "Kochi prefecture administration Vectorized by Mike Rohsopht"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kochi_Prefecture.svg"
+}
+palette {
+  red "#7b171c"
+  white "#ffffff"
+}
+proportion hoist=180 fly=270
+
+field red
+
+charge path white {
+  d "M135 22L151.0957 93.37A16.5 16.5 0 1 1 118.9043 93.37ZM75.0188 95.5A60 60 0 0 1 194.9812 95.5L169.4674 95.5A34.5 34.5 0 0 0 100.5326 95.5ZM75.0188 98.5A60 60 0 0 0 194.9812 98.5L169.4674 98.5A34.5 34.5 0 0 1 100.5326 98.5Z"
+  box "66.0326 22 188.9486 136.5"
+  fly 188.9486
+  hoist 136.5
+  at fly=160.5069 hoist=90.25
+}

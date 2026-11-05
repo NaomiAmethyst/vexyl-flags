@@ -1,0 +1,33 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Civil ensign of Mecklenburg-Schwerin"
+  encoder "Artemis Andromeda"
+  license "CC-BY-SA-4.0"
+  source "https://commons.wikimedia.org/wiki/File:Civil_ensign_of_Mecklenburg-Schwerin.svg"
+}
+palette {
+  blue "#004a99"
+  white "#ffffff"
+  red "#e2001a"
+}
+proportion hoist=400 fly=600
+
+panel {
+  side top
+  width 133.3
+  field blue
+}
+
+charge rect white {
+  fly 600
+  hoist 133.3
+  at fly=300 hoist=199.95
+}
+
+panel {
+  side bottom
+  width 133.3
+  field red
+}

@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Second Spanish Republic (plain)"
+  encoder "Marcos Felipe"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Second_Spanish_Republic_(plain).svg"
+}
+palette {
+  red "#da121a"
+  yellow "#fcdd09"
+  pink "#630b57"
+}
+proportion hoist=600 fly=1000
+
+bars red yellow pink

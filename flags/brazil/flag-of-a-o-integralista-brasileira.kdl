@@ -1,0 +1,35 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ação Integralista Brasileira"
+  encoder "Felipe Fontoura"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_A%C3%A7%C3%A3o_Integralista_Brasileira.svg"
+}
+palette {
+  blue "#2020e0"
+  white "#ffffff"
+  black "#000000"
+}
+proportion hoist=700 fly=1000
+
+field blue
+
+charge path white {
+  d "M250 350A250 250 0 0 1 500 100A250 250 0 0 1 750 350A250 250 0 0 1 500 600A250 250 0 0 1 250 350Z"
+  box "0 -150 1000 1000"
+  fly 1000
+  hoist 1000
+  evenodd
+  at fly=500 hoist=350
+}
+
+charge path black {
+  d "M390 210L600 210L600 265L595 265A45 45 0 0 0 550 220L430 220L530 340L430 460L565 460A40 40 0 0 0 605 420L610 420L600 490L390 490L390 485L502.5 350L390 215L390 210Z"
+  box "390 175 255 315"
+  fly 255
+  hoist 315
+  evenodd
+  at fly=517.5 hoist=332.5
+}

@@ -1,0 +1,28 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Altai Republic"
+  encoder "Comment – This license tag is also applicable to official documents, state symbols and signs of the Russian Soviet Feder"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Altai_Republic.svg"
+}
+palette {
+  white "#ffffff"
+  blue "#3399ff"
+}
+proportion hoist=100 fly=150
+
+field white
+
+charge rect blue {
+  fly 150
+  hoist 4
+  at fly=75 hoist=69
+}
+
+panel {
+  side bottom
+  width 25
+  field blue
+}

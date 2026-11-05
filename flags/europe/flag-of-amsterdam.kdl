@@ -1,0 +1,58 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Amsterdam"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Amsterdam.svg"
+}
+palette {
+  red "#ec0000"
+  black "#000000"
+  white "#ffffff"
+}
+proportion hoist=300 fly=450
+
+bars red black red
+
+charge polygon white {
+  point fly=119.2132 hoist=107.5736
+  point fly=55.5736 hoist=171.2132
+  point fly=76.7868 hoist=192.4264
+  point fly=140.4264 hoist=128.7868
+}
+
+charge polygon white {
+  point fly=55.5736 hoist=128.7868
+  point fly=119.2132 hoist=192.4264
+  point fly=140.4264 hoist=171.2132
+  point fly=76.7868 hoist=107.5736
+}
+
+charge polygon white {
+  point fly=246.2132 hoist=107.5736
+  point fly=182.5736 hoist=171.2132
+  point fly=203.7868 hoist=192.4264
+  point fly=267.4264 hoist=128.7868
+}
+
+charge polygon white {
+  point fly=182.5736 hoist=128.7868
+  point fly=246.2132 hoist=192.4264
+  point fly=267.4264 hoist=171.2132
+  point fly=203.7868 hoist=107.5736
+}
+
+charge polygon white {
+  point fly=373.2132 hoist=107.5736
+  point fly=309.5736 hoist=171.2132
+  point fly=330.7868 hoist=192.4264
+  point fly=394.4264 hoist=128.7868
+}
+
+charge polygon white {
+  point fly=309.5736 hoist=128.7868
+  point fly=373.2132 hoist=192.4264
+  point fly=394.4264 hoist=171.2132
+  point fly=330.7868 hoist=107.5736
+}

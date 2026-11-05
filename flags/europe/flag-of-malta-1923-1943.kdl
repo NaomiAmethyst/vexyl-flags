@@ -1,0 +1,54 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Malta (1923–1943)"
+  encoder "Orange Tuesday (talk)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Malta_(1923%E2%80%931943).svg"
+}
+palette {
+  blue "#012169"
+  white "#ffffff"
+  red "#c8102e"
+  yellow "#ffce00"
+}
+proportion hoist=600 fly=1200
+
+field blue
+
+charge svg {
+  at center
+  fly 1200
+  hoist 600
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><clipPath id="border"><rect width="60" height="30"></rect></clipPath></defs><g clip-path="url(#border)" transform="matrix(10 0 0 10 0 0)"><path d="M 0,0 L 60,30 M 0,30 L 60,0" stroke-width="6" stroke="#ffffff"></path><path d="M 0,0 L 60,30 M 0,30 L 60,0" stroke-width="4" stroke="#c8102e"></path><path d="M0,0 5,0 35,15 65,0 60,0 30,15 M-5,30 25,15 55,30 60,30 30,15 0,30" fill="#ffffff"></path><path d="M 0,15 H 60 M 30,0 V 30" stroke-width="10" stroke="#ffffff"></path><path d="M 0,15 H 60 M 30,0 V 30" stroke-width="6" stroke="#c8102e"></path></g></svg>
+"""#
+}
+
+charge polygon white {
+  point fly=807 hoist=233
+  point fly=860 hoist=215
+  point fly=904 hoist=188
+  point fly=905 hoist=417
+  point fly=845 hoist=378
+  point fly=813 hoist=310
+}
+
+charge polygon red {
+  point fly=900 hoist=183
+  point fly=947 hoist=218
+  point fly=998 hoist=239
+  point fly=976 hoist=347
+  point fly=938 hoist=391
+  point fly=900 hoist=416
+}
+
+charge path yellow {
+  d "M900 184C926 210 957 226 994 231C1001 313 970 375 900 416C830 376 799 313 806 231C843 226 874 210 900 184Z"
+  box "799 184 202 232"
+  fly 202
+  hoist 232
+  hollow 10
+  at fly=900 hoist=300
+}

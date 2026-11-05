@@ -1,0 +1,22 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Hejaz (1917)"
+  encoder "Orange Tuesday at English Wikipedia / (Original text: Orange Tuesday (talk))"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hejaz_(1917).svg"
+}
+palette {
+  black "#000000"
+  green "#007a3d"
+  white "#ffffff"
+  red "#ce1126"
+}
+proportion hoist=6 fly=9
+
+bars black green white
+
+chevrons red {
+  depth 3
+}

@@ -1,0 +1,78 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the United States (1896–1908)"
+  encoder "No machine-readable author provided. Jacobolus assumed (based on copyright claims)."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1896%E2%80%931908).svg"
+}
+palette {
+  pink "#bf0a30"
+  white "#ffffff"
+  blue "#00205b"
+}
+proportion hoist=19 fly=36.1
+
+field pink
+
+charge rect white {
+  fly 36.1
+  hoist 1.462
+  at fly=18.05 hoist=2.192
+  repeat line count=6 hoist=2.923
+}
+
+canton {
+  fly 14.44
+  hoist 10.23
+  field blue
+  charge star white {
+    radius 0.5854
+    at fly=0.902 hoist=0.85
+    at fly=2.708 hoist=0.85
+    at fly=4.513 hoist=0.85
+    at fly=6.317 hoist=0.85
+    at fly=8.123 hoist=0.85
+    at fly=9.928 hoist=0.85
+    at fly=11.732 hoist=0.85
+    at fly=13.537 hoist=0.85
+    at fly=1.804 hoist=2.555
+    at fly=3.61 hoist=2.555
+    at fly=5.415 hoist=2.555
+    at fly=7.219 hoist=2.555
+    at fly=9.025 hoist=2.555
+    at fly=10.83 hoist=2.555
+    at fly=12.634 hoist=2.555
+    at fly=0.902 hoist=4.26
+    at fly=2.708 hoist=4.26
+    at fly=4.513 hoist=4.26
+    at fly=6.317 hoist=4.26
+    at fly=8.123 hoist=4.26
+    at fly=9.928 hoist=4.26
+    at fly=11.732 hoist=4.26
+    at fly=13.537 hoist=4.26
+    at fly=1.804 hoist=5.965
+    at fly=3.61 hoist=5.965
+    at fly=5.415 hoist=5.965
+    at fly=7.219 hoist=5.965
+    at fly=9.025 hoist=5.965
+    at fly=10.83 hoist=5.965
+    at fly=12.634 hoist=5.965
+    at fly=0.902 hoist=7.67
+    at fly=2.708 hoist=7.67
+    at fly=4.513 hoist=7.67
+    at fly=6.317 hoist=7.67
+    at fly=8.123 hoist=7.67
+    at fly=9.928 hoist=7.67
+    at fly=11.732 hoist=7.67
+    at fly=13.537 hoist=7.67
+    at fly=1.804 hoist=9.375
+    at fly=3.61 hoist=9.375
+    at fly=5.415 hoist=9.375
+    at fly=7.219 hoist=9.375
+    at fly=9.025 hoist=9.375
+    at fly=10.83 hoist=9.375
+    at fly=12.634 hoist=9.375
+  }
+}

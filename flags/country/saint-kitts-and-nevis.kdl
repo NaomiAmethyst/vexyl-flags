@@ -1,0 +1,39 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Saint Kitts and Nevis"
+  encoder "Edrice Lewis"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Kitts_and_Nevis.svg"
+}
+palette {
+  green "#009739"
+  red "#c8102e"
+  yellow "#ffcd00"
+  black "#000000"
+  white "#ffffff"
+}
+proportion hoist=50 fly=75
+
+pile green {
+  tip 0 75
+}
+
+pile red {
+  from fly
+  tip 50 75
+}
+
+band black {
+  along bend-sinister
+  width 15
+  fimbriate yellow 3
+}
+
+charge star white {
+  radius 7
+  rotate -33.6896
+  at fly=23.448 hoist=35.1716
+  at fly=52.294 hoist=15.9406
+}

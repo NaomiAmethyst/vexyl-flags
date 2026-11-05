@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Germany (3-2 aspect ratio)"
+  encoder "User:Mmxx"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(3-2).svg"
+}
+palette {
+  black "#000000"
+  red "#dd0000"
+  yellow "#ffce00"
+}
+proportion hoist=600 fly=900
+
+bars black red yellow

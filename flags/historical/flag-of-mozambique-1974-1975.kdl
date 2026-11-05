@@ -1,0 +1,25 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Mozambique (1974-1975)"
+  encoder "Thommy"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique_(1974%E2%80%931975).svg"
+}
+palette {
+  teal "#007168"
+  white "#ffffff"
+  black "#000000"
+  yellow "#fce100"
+  pink "#d21034"
+}
+proportion hoist=500 fly=800
+
+bars teal white black white yellow {
+  ratio 10 1 10 1 10
+}
+
+chevrons pink {
+  depth 350
+}

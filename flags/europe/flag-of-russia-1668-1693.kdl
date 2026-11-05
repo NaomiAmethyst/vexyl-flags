@@ -1,0 +1,44 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Russia (1668–1693)"
+  encoder "Milop (talk)"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_(1668%E2%80%931693).svg"
+}
+palette {
+  blue "#0039a6"
+  white "#ffffff"
+  red "#d52b1e"
+}
+proportion hoist=600 fly=900
+
+field blue
+
+canton {
+  fly 380
+  hoist 230
+  field white
+}
+
+panel {
+  corner upper-fly
+  fly 380
+  hoist 230
+  field red
+}
+
+panel {
+  corner lower-hoist
+  fly 380
+  hoist 230
+  field red
+}
+
+panel {
+  corner lower-fly
+  fly 380
+  hoist 230
+  field white
+}

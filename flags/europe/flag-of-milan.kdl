@@ -1,0 +1,21 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Milan"
+  encoder "Zscout370 at English Wikipedia"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Milan.svg"
+}
+palette {
+  white "#ffffff"
+  pink "#d6012e"
+}
+proportion hoist=2 fly=4
+
+field white
+
+cross pink {
+  fly 1.7625 0.475 1.7625
+  hoist 0.7625 0.475 0.7625
+}

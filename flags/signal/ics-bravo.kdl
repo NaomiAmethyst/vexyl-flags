@@ -1,0 +1,31 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "ICS Bravo"
+  encoder "Denelson83"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:ICS_Bravo.svg"
+}
+palette {
+  red "#ff0000"
+  black "#000000"
+}
+proportion hoist=600 fly=600
+
+charge polygon red {
+  point fly=448 hoist=300
+  point fly=596 hoist=599
+  point fly=1 hoist=599
+  point fly=1 hoist=1
+  point fly=596 hoist=1
+}
+
+charge polygon black {
+  point fly=448 hoist=300
+  point fly=596 hoist=599
+  point fly=1 hoist=599
+  point fly=1 hoist=1
+  point fly=596 hoist=1
+  hollow 2
+}

@@ -1,0 +1,32 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of North Korea (20-33)"
+  encoder "EuropeanV"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_North_Korea_(20-33).svg"
+}
+palette {
+  blue "#034da2"
+  white "#ffffff"
+  red "#ec1d25"
+}
+proportion hoist=600 fly=990
+
+bars blue white red white blue {
+  ratio 100 16.7 366.6 16.7 100
+}
+
+charge path white {
+  d "M330 433.3C256.3 433.3 196.7 373.7 196.7 300S256.3 166.7 330 166.7S463.3 226.3 463.3 300S403.7 433.3 330 433.3"
+  box "196.7 166.7 266.6 266.6"
+  fly 266.6
+  hoist 266.6
+  at fly=330 hoist=300
+}
+
+charge star red {
+  radius 129.1499
+  at fly=330 hoist=300
+}

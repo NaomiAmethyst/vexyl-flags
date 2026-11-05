@@ -1,0 +1,19 @@
+vexyl 1
+meta {
+  name "Burkina Faso"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg"
+  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+}
+palette {
+  red "#ef2b2d"
+  green "#009e49"
+  yellow "#fcd116"
+}
+proportion hoist=600 fly=900
+
+bars red green
+charge star yellow {
+  radius 100
+}

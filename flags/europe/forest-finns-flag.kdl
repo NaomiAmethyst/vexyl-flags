@@ -1,0 +1,57 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Forest Finns flag"
+  encoder "Original: Frédéric M. Lindboe, Bettina Gullhagen Vector: HapHaxion"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Forest_Finns_flag.svg"
+}
+palette {
+  green "#3a913f"
+  red "#aa0000"
+  yellow "#fdda3b"
+  black "#000000"
+}
+proportion hoist=2000 fly=3200
+
+bars green red green {
+  along hoist
+  ratio 5 2 9
+}
+
+charge rect red {
+  fly 3200
+  hoist 400
+  at fly=1600 hoist=1000
+}
+
+charge lozenge red {
+  fly 1600
+  hoist 2000
+  at fly=1200 hoist=1000
+}
+
+charge rect yellow {
+  fly 200
+  hoist 2000
+  at fly=1200 hoist=1000
+}
+
+charge lozenge yellow {
+  fly 1320
+  hoist 1650
+  at fly=1200 hoist=1000
+}
+
+charge rect yellow {
+  fly 3200
+  hoist 200
+  at fly=1600 hoist=1000
+}
+
+charge lozenge black {
+  fly 800
+  hoist 1000
+  at fly=1200 hoist=1000
+}

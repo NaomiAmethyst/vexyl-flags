@@ -1,0 +1,48 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Shimane Prefecture"
+  encoder "Guilherme Paula, Mike Rohsopht Insignia This image shows a flag, a coat of arms, a seal or some other official insignia."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Shimane_Prefecture.svg"
+}
+palette {
+  red "#950017"
+  yellow "#ffd700"
+}
+proportion hoist=100 fly=150
+
+field red
+
+charge path yellow {
+  d "M75 50L85 41.0557A12 12 0 0 1 92.2721 38.0221L92.2721 46.0668A4 4 0 1 0 93.7279 46.0668L93.7279 38.0221A12 12 0 1 1 81 50Z"
+  box "69 26.0221 35.2721 35.9779"
+  fly 35.2721
+  hoist 35.9779
+  at fly=86.636 hoist=44.011
+}
+
+charge path yellow {
+  d "M75 50L65 58.9443A12 12 180 0 1 57.7279 61.9779L57.7279 53.9332A4 4 180 1 0 56.2721 53.9332L56.2721 61.9779A12 12 180 1 1 69 50Z"
+  box "45.7279 38 35.2721 35.9779"
+  fly 35.2721
+  hoist 35.9779
+  at fly=63.364 hoist=55.989
+}
+
+charge path yellow {
+  d "M75 50L83.9443 60A12 12 90 0 1 86.9779 67.2721L78.9332 67.2721A4 4 90 1 0 78.9332 68.7279L86.9779 68.7279A12 12 90 1 1 75 56Z"
+  box "63 44 35.9779 35.2721"
+  fly 35.9779
+  hoist 35.2721
+  at fly=80.989 hoist=61.636
+}
+
+charge path yellow {
+  d "M75 50L66.0557 40A12 12 -90 0 1 63.0221 32.7279L71.0668 32.7279A4 4 -90 1 0 71.0668 31.2721L63.0221 31.2721A12 12 -90 1 1 75 44Z"
+  box "51.0221 20.7279 35.9779 35.2721"
+  fly 35.9779
+  hoist 35.2721
+  at fly=69.011 hoist=38.364
+}

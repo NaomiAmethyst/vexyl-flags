@@ -1,0 +1,37 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Ehime Prefecture"
+  encoder "en:User:Nameneko"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ehime_Prefecture.svg"
+}
+palette {
+  green "#0e6d46"
+  white "#ffffff"
+  orange "#ffa600"
+}
+proportion hoist=200 fly=300
+
+charge rect green {
+  fly 300
+  hoist 120
+  at fly=150 hoist=100
+}
+
+charge path white {
+  d "M119.999 50S108.93 57.451 108.244 86.403C80.498 78.109 69.999 86.295 69.999 86.295S73.663 99.123 100.985 108.722C84.516 132.554 89.121 145.071 89.121 145.071S102.416 145.581 119.998 122.536C137.581 145.581 150.875 145.071 150.875 145.071S155.471 132.545 139.011 108.722C166.333 99.122 169.997 86.349 169.997 86.349S159.498 78.11 131.752 86.403C131.066 57.451 119.997 50 119.997 50Z"
+  box "69.999 50 99.998 95.581"
+  fly 99.998
+  hoist 95.581
+  at fly=119.998 hoist=97.7905
+}
+
+charge path orange {
+  d "M119.999 86.511C111.126 86.511 103.91 93.673 103.91 102.546A16.11 16.11 0 0 0 119.999 118.635A16.11 16.11 0 0 0 136.088 102.546C136.088 93.673 128.872 86.511 119.999 86.511ZM119.999 91.874A10.67 10.67 0 0 1 130.671 102.546C130.671 108.442 125.895 113.272 119.999 113.272S109.327 108.442 109.327 102.546A10.67 10.67 0 0 1 119.999 91.874ZM0 0L300 0L300 40L0 40ZM0 160L300 160L300 200L0 200Z"
+  box "0 0 300 200"
+  fly 300
+  hoist 200
+  at fly=150 hoist=100
+}

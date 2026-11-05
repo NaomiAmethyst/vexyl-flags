@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Habsburg Monarchy"
+  encoder "ThrashedParanoid and Peregrine981."
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Habsburg_Monarchy.svg"
+}
+palette {
+  black "#000000"
+  yellow "#ffcc00"
+}
+proportion hoist=2 fly=3
+
+bars black yellow

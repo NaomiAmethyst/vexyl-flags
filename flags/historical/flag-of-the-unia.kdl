@@ -1,0 +1,17 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the UNIA"
+  encoder "Marcus Garvey and the Universal Negro Improvement Association and African Communities League"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_UNIA.svg"
+}
+palette {
+  red "#e31b23"
+  black "#000000"
+  green "#00853f"
+}
+proportion hoist=600 fly=900
+
+bars red black green

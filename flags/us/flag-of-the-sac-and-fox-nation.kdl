@@ -1,0 +1,15 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of the Sac and Fox Nation"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Sac_and_Fox_Nation.svg"
+}
+palette {
+  green "#00923f"
+  red "#da251d"
+}
+proportion hoist=600 fly=1000
+
+bars green red

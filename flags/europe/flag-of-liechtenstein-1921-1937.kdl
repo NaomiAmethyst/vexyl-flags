@@ -1,0 +1,16 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Liechtenstein (1921–1937)"
+  encoder "arz"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein_(1921%E2%80%931937).svg"
+}
+palette {
+  blue "#002b7f"
+  red "#ce1126"
+}
+proportion hoist=6 fly=10
+
+bars blue red

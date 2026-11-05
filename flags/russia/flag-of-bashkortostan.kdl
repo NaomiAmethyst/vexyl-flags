@@ -1,0 +1,116 @@
+// Imported mechanically by tools/svg2vexyl.py. This describes a drawing, not the
+// flag's official construction, and it hasn't been checked against one.
+vexyl 1
+meta {
+  name "Flag of Bashkortostan"
+  encoder "multiple Автор: Conscious"
+  license "LicenseRef-Public-Domain"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bashkortostan.svg"
+}
+palette {
+  blue "#0070ff"
+  white "#ffffff"
+  green "#007000"
+  yellow "#ffd700"
+}
+proportion hoist=600 fly=900
+
+bars blue white green
+
+charge ring yellow {
+  radius 80
+  inner 70
+  at fly=450 hoist=300
+}
+
+charge disc yellow {
+  radius 16
+  at fly=450 hoist=300
+}
+
+charge rect yellow {
+  fly 50
+  hoist 4
+  at fly=475 hoist=300
+}
+
+charge disc yellow {
+  radius 10
+  at fly=500 hoist=300
+}
+
+charge polygon yellow {
+  point fly=451 hoist=301.7321
+  point fly=494.3025 hoist=276.7321
+  point fly=492.3025 hoist=273.2679
+  point fly=449 hoist=298.2679
+}
+
+charge disc yellow {
+  radius 10.0002
+  at fly=493.3025 hoist=275
+}
+
+charge polygon yellow {
+  point fly=451.7321 hoist=301
+  point fly=476.7321 hoist=257.6975
+  point fly=473.2679 hoist=255.6975
+  point fly=448.2679 hoist=299
+}
+
+charge disc yellow {
+  radius 10.0002
+  at fly=475 hoist=256.6975
+}
+
+charge rect yellow {
+  fly 4
+  hoist 50
+  at fly=450 hoist=275
+}
+
+charge disc yellow {
+  radius 10
+  at fly=450 hoist=250
+}
+
+charge polygon yellow {
+  point fly=451.7321 hoist=299
+  point fly=426.7321 hoist=255.6975
+  point fly=423.2679 hoist=257.6975
+  point fly=448.2679 hoist=301
+}
+
+charge disc yellow {
+  radius 10.0002
+  at fly=425 hoist=256.6975
+}
+
+charge polygon yellow {
+  point fly=451 hoist=298.2679
+  point fly=407.6975 hoist=273.2679
+  point fly=405.6975 hoist=276.7321
+  point fly=449 hoist=301.7321
+}
+
+charge disc yellow {
+  radius 10.0002
+  at fly=406.6975 hoist=275
+}
+
+charge rect yellow {
+  fly 50
+  hoist 4
+  at fly=425 hoist=300
+}
+
+charge disc yellow {
+  radius 10
+  at fly=400 hoist=300
+}
+
+charge rect yellow {
+  fly 4
+  hoist 50
+  at fly=450 hoist=325
+}
