@@ -21,6 +21,7 @@ charge rect white {
   fly 244.2857
   hoist 53.5714
   at fly=160.6143 hoist=113.2189
+  anchor center
 }
 
 charge polygon black {
@@ -72,6 +73,7 @@ charge path white {
   hoist 152.7394
   evenodd
   at fly=161.7146 hoist=112.1664
+  anchor center
 }
 
 charge path black {
@@ -82,4 +84,5 @@ charge path black {
   evenodd
   hollow 1
   at fly=161.7146 hoist=112.1664
+  anchor center
 }

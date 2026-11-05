@@ -24,6 +24,7 @@ charge ellipse yellow {
   fly 487.5478
   hoist 487.4438
   at fly=535.1927 hoist=322.303
+  anchor center
   opacity 0.999
 }
 

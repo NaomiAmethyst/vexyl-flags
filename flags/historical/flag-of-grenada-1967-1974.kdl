@@ -24,7 +24,7 @@ charge svg {
   fly 450
   hoist 300
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300"><path d="M 283,149 A 62,75 0 1 1 159,149 A 62,75 0 1 1 283,149 z" transform="matrix(0.782258 0 0 0.813333 52.12096 28.817629)" stroke="#d63931" fill-opacity="1" stroke-opacity="1" fill="#ffffff" stroke-dasharray="none" stroke-linecap="round" stroke-width="3.76107454000000010" stroke-linejoin="round" stroke-miterlimit="4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300"><path d="M 283,149 A 62,75 0 1 1 159,149 A 62,75 0 1 1 283,149 z" transform="matrix(0.782258 0 0 0.813333 52.12096 28.817629)" stroke-linecap="round" stroke-width="3.76107454000000010" stroke="#d63931" stroke-miterlimit="4" fill-opacity="1" stroke-dasharray="none" stroke-linejoin="round" fill="#ffffff" stroke-opacity="1"/></svg>
 """#
 }
 
@@ -42,6 +42,7 @@ charge path green-2 {
   fly 71.6841
   hoist 64.402
   at fly=224.0744 hoist=153.6316
+  anchor center
 }
 
 charge path brown {

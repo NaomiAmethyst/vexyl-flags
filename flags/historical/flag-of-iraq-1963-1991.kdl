@@ -10,16 +10,15 @@ palette {
   red "#ce1126"
   white "#ffffff"
   black "#000000"
+  green "#007a3d"
 }
 proportion hoist=600 fly=900
 
 bars red white black
 
-charge svg {
-  at center
-  fly 900
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="M 0,-60 V 0 h 30" transform="matrix(0.951057 0.309017 -0.309017 0.951057 206.45898 302.792881)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.951057 0.309017 0.309017 0.951057 243.54102 302.792881)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0 1 -1 0 222.063391 287.188471)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 233.522371 322.455586)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 241.726095 297.207119)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 211.726095 319.003395)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 238.273905 319.003395)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.951057 0.309017 0.309017 -0.951057 208.273905 297.207119)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.587785 -0.809017 0.809017 0.587785 216.477629 322.455586)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0 1 1 0 227.936609 287.188471)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.951057 0.309017 -0.309017 0.951057 431.45898 302.792881)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.951057 0.309017 0.309017 0.951057 468.54102 302.792881)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0 1 -1 0 447.063391 287.188471)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 458.522371 322.455586)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 466.726095 297.207119)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 436.726095 319.003395)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 463.273905 319.003395)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.951057 0.309017 0.309017 -0.951057 433.273905 297.207119)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.587785 -0.809017 0.809017 0.587785 441.477629 322.455586)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0 1 1 0 452.936609 287.188471)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.951057 0.309017 -0.309017 0.951057 656.45898 302.792881)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.951057 0.309017 0.309017 0.951057 693.54102 302.792881)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0 1 -1 0 672.063391 287.188471)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 683.522371 322.455586)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 691.726095 297.207119)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 661.726095 319.003395)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 688.273905 319.003395)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.951057 0.309017 0.309017 -0.951057 658.273905 297.207119)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(0.587785 -0.809017 0.809017 0.587785 666.477629 322.455586)" fill="#007a3d"/><path d="M 0,-60 V 0 h 30" transform="matrix(-0 1 1 0 677.936609 287.188471)" fill="#007a3d"/></svg>
-"""#
+charge star green {
+  radius 60
+  inner 22.8
+  at fly=225 hoist=305.7295
+  repeat line count=3 fly=225
 }

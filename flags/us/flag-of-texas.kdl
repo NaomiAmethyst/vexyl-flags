@@ -20,13 +20,9 @@ panel {
   side hoist
   width 300
   field blue
-}
-
-charge svg {
-  at center
-  fly 900
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="M0-112.5V0h50" transform="matrix(0.951057 0.309017 -0.309017 0.951057 115.235588 294.493858)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(-0.951057 0.309017 0.309017 0.951057 184.764412 294.493858)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(0 1 -1 0 144.493858 265.235588)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 165.979446 331.361429)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 181.361429 284.020554)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 125.111429 324.888571)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 174.888571 324.888571)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(0.951057 0.309017 0.309017 -0.951057 118.638571 284.020554)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(0.587785 -0.809017 0.809017 0.587785 134.020554 331.361429)" fill="#ffffff"/><path d="M0-112.5V0h50" transform="matrix(0 1 1 -0 155.506142 265.235588)" fill="#ffffff"/></svg>
-"""#
+  charge star white {
+    radius 112.5
+    inner 42.75
+    at fly=150 hoist=300
+  }
 }

@@ -19,6 +19,7 @@ field red
 charge disc white {
   radius 22.5
   at fly=50 hoist=30
+  anchor center
 }
 
 charge path black {
@@ -28,6 +29,7 @@ charge path black {
   hoist 38.1838
   hollow 6
   at fly=50 hoist=30
+  anchor center
 }
 
 charge path red {
@@ -36,4 +38,5 @@ charge path red {
   fly 42.358
   hoist 43.6274
   at fly=50.818 hoist=29.8023
+  anchor center
 }

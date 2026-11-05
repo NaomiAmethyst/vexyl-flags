@@ -33,6 +33,7 @@ charge polygon white {
 charge disc white {
   radius 17
   at fly=45 hoist=30
+  anchor center
 }
 
 charge star red {

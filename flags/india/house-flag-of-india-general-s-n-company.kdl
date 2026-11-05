@@ -46,4 +46,5 @@ charge star red {
   radius 15.2387
   rotate -0.0113
   at fly=100.003 hoist=69.195
+  anchor center
 }

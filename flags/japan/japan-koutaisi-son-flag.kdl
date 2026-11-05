@@ -27,4 +27,5 @@ charge svg {
 charge disc yellow {
   radius 11.5385
   at fly=450 hoist=300
+  anchor center
 }

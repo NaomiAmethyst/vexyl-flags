@@ -21,6 +21,7 @@ charge path yellow {
   fly 481.0375
   hoist 480.1079
   at fly=500.3301 hoist=299.946
+  anchor center
 }
 
 charge star yellow {
@@ -28,4 +29,5 @@ charge star yellow {
   inner 120
   points 24
   at fly=500 hoist=300
+  anchor center
 }

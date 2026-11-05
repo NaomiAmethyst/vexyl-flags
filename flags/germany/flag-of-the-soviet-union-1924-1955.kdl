@@ -15,13 +15,18 @@ proportion hoist=500 fly=1000
 
 field red
 
-charge svg {
-  at center
-  fly 1000
-  hoist 500
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500"><path d="m 168.9784,24.98845 5.14326,15.829361 h 16.64424 l -13.4655,9.783412 5.14325,15.829356 -13.46525,-9.78313 -13.46524,9.78313 5.14325,-15.829356 -13.46551,-9.783412 h 16.64424 z" stroke="#fcd116" fill="none" stroke-width="8.2" transform="matrix(0.978576 0 0 0.978871 -21.098514 -3.937907)"/></svg>
-"""#
+charge polygon yellow {
+  point fly=144.2598 hoist=20.5226
+  point fly=149.2928 hoist=36.0175
+  point fly=165.5805 hoist=36.0175
+  point fly=152.4035 hoist=45.5942
+  point fly=157.4365 hoist=61.0891
+  point fly=144.2598 hoist=51.5127
+  point fly=131.083 hoist=61.0891
+  point fly=136.116 hoist=45.5942
+  point fly=122.939 hoist=36.0175
+  point fly=139.2267 hoist=36.0175
+  hollow 8.0255
 }
 
 charge star red {

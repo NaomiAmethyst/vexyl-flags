@@ -26,6 +26,7 @@ charge path white {
 charge disc white {
   radius 28.8
   at fly=450 hoist=348.38
+  anchor center
 }
 
 charge svg {

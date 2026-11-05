@@ -17,4 +17,5 @@ field red
 charge star yellow {
   radius 6.0003
   at fly=15 hoist=10
+  anchor center
 }

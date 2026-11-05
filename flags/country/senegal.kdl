@@ -29,4 +29,5 @@ charge star green {
   radius 100.0559
   rotate 0.0694
   at fly=450 hoist=301
+  anchor center
 }

@@ -68,6 +68,7 @@ charge path black {
   fly 122.23
   hoist 127.47
   at fly=447.985 hoist=297.555
+  anchor center
 }
 
 charge path black {

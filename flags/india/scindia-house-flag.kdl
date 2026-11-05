@@ -18,6 +18,7 @@ field blue
 charge disc white {
   radius 100
   at fly=225 hoist=150
+  anchor center
 }
 
 charge polygon red {

@@ -18,4 +18,5 @@ field blue
 charge star white {
   radius 144.4444
   at fly=450 hoist=300
+  anchor center
 }

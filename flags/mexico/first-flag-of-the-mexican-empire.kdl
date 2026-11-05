@@ -39,6 +39,7 @@ charge star yellow {
   inner 23.493
   points 8
   at fly=450 hoist=300
+  anchor center
 }
 
 charge star yellow-2 {
@@ -46,6 +47,7 @@ charge star yellow-2 {
   inner 20.244
   points 8
   at fly=450 hoist=300
+  anchor center
 }
 
 charge star yellow {

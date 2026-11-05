@@ -20,10 +20,12 @@ charge rect red {
   fly 7
   hoist 4
   at fly=4.5 hoist=3
+  anchor center
 }
 
 charge rect white {
   fly 5
   hoist 2
   at fly=4.5 hoist=3
+  anchor center
 }

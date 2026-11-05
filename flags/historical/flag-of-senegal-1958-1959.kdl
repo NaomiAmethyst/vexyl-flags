@@ -9,16 +9,15 @@ meta {
 }
 palette {
   green "#00853f"
+  yellow "#fdef42"
 }
 proportion hoist=4 fly=6
 
 field green
 
-charge svg {
-  at center
-  fly 6
-  hoist 4
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 4"><polygon transform="matrix(0.951057 0.309017 -0.309017 0.951057 3 1)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(-0.951057 0.309017 0.309017 0.951057 3 1)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(0 1 -1 0 3.951057 1.690983)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 3.951057 1.690983)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(0.587785 -0.809017 0.809017 0.587785 2.048943 1.690983)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(-0 1 1 0 2.048943 1.690983)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 3.587785 2.809017)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 3.587785 2.809017)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 2.412215 2.809017)" points="0,0 0,1 0.5,1" fill="#fdef42"/><polygon transform="matrix(0.951057 0.309017 0.309017 -0.951057 2.412215 2.809017)" points="0,0 0,1 0.5,1" fill="#fdef42"/></svg>
-"""#
+charge star yellow {
+  radius 1
+  inner 0.38
+  at fly=3 hoist=2
+  anchor center
 }

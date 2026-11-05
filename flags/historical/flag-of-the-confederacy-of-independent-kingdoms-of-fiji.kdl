@@ -21,4 +21,5 @@ charge star white {
   points 8
   rotate 0.4109
   at fly=560.9433 hoist=355.3714
+  anchor center
 }

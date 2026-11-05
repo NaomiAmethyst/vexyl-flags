@@ -24,4 +24,5 @@ charge path black {
   fly 120
   hoist 135
   at fly=225 hoist=150
+  anchor center
 }

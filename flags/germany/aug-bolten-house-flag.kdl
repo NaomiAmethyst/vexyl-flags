@@ -20,6 +20,7 @@ charge rect white {
   fly 440
   hoist 240
   at fly=250 hoist=150
+  anchor center
 }
 
 charge polygon red {
@@ -39,12 +40,14 @@ charge polygon red {
 charge disc white {
   radius 87.5
   at fly=250 hoist=150
+  anchor center
 }
 
 charge ring black {
   radius 95
   inner 80
   at fly=250 hoist=150
+  anchor center
 }
 
 charge path black {
@@ -53,4 +56,5 @@ charge path black {
   fly 90
   hoist 106
   at fly=255 hoist=150
+  anchor center
 }

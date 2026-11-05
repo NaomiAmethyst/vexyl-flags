@@ -39,6 +39,7 @@ charge path white {
   fly 173.729
   hoist 200.0383
   at fly=449.9999 hoist=300.0192
+  anchor center
 }
 
 charge star white {
@@ -46,6 +47,7 @@ charge star white {
   inner 16.7773
   rotate 0.0751
   at fly=449.9334 hoist=299.2322
+  anchor center
 }
 
 charge path white {
@@ -54,4 +56,5 @@ charge path white {
   fly 127.1789
   hoist 127.0833
   at fly=450.1212 hoist=299.4681
+  anchor center
 }

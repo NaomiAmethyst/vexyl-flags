@@ -21,6 +21,7 @@ charge path purple {
   fly 216.3255
   hoist 215.1979
   at fly=391.9995 hoist=278.9565
+  anchor center
 }
 
 charge path purple {
@@ -29,6 +30,7 @@ charge path purple {
   fly 308.1633
   hoist 306.5554
   at fly=392 hoist=278.9575
+  anchor center
 }
 
 charge path purple {
@@ -37,6 +39,7 @@ charge path purple {
   fly 400
   hoist 397.913
   at fly=392 hoist=278.9565
+  anchor center
 }
 
 charge rect white {

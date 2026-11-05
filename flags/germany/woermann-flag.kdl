@@ -28,6 +28,7 @@ charge path blue {
   fly 806.3155
   hoist 492.9355
   at fly=449.995 hoist=299.995
+  anchor center
 }
 
 charge path white {
@@ -36,6 +37,7 @@ charge path white {
   fly 708.39
   hoist 384.78
   at fly=448.325 hoist=299.9
+  anchor center
 }
 
 charge polygon green {

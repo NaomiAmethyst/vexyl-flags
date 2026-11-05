@@ -9,17 +9,16 @@ meta {
 }
 palette {
   red "#ee0000"
+  white "#ffffff"
 }
 proportion hoist=504 fly=750
 outline pennant
 
 field red
 
-charge svg {
-  at center
-  fly 750
-  hoist 504
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 504"><path d="m76,252h540" stroke="#ffffff" stroke-dasharray="76" stroke-width="502" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+charge rect white {
+  fly 76
+  hoist 502
+  at fly=114 hoist=252
+  repeat line count=4 fly=152
 }

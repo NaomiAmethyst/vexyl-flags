@@ -19,16 +19,19 @@ bars orange white green
 charge disc blue {
   radius 9.25
   at fly=45 hoist=30
+  anchor center
 }
 
 charge disc white {
   radius 8
   at fly=45 hoist=30
+  anchor center
 }
 
 charge disc blue {
   radius 1.6
   at fly=45 hoist=30
+  anchor center
 }
 
 charge polygon blue {

@@ -20,13 +20,9 @@ saltire white {
   width 60
 }
 
-charge svg {
-  at center
-  fly 600
-  hoist 300
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300"><defs><clipPath id="a"><path d="M300 150h300v150zv150H0zH0V0zV0h300z"></path></clipPath></defs><path d="m0 0 600 300m0-300L0 300" stroke="#e00034" stroke-width="40" clip-path="url(#a)" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+saltire pink-2 {
+  width 20
+  counterchange
 }
 
 cross pink-2 {

@@ -28,6 +28,7 @@ panel {
 charge disc red {
   radius 200
   at fly=450 hoist=300
+  anchor center
 }
 
 charge svg {

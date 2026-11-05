@@ -21,6 +21,7 @@ charge path white {
   hoist 202.215
   evenodd
   at fly=201.3175 hoist=132.1965
+  anchor center
 }
 
 charge path red {
@@ -30,6 +31,7 @@ charge path red {
   hoist 199.939
   evenodd
   at fly=200.018 hoist=133.3515
+  anchor center
 }
 
 charge path black {

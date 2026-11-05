@@ -20,13 +20,9 @@ saltire white {
   width 6
 }
 
-charge svg {
-  at center
-  fly 50
-  hoist 30
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30"><defs><clipPath id="t"><path d="M25,15h25v15zv15h-25zh-25v-15zv-15h25z"></path></clipPath></defs><path d="M0,0 50,30M50,0 0,30" stroke="#c8102e" stroke-width="4" clip-path="url(#t)" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+saltire red {
+  width 2
+  counterchange
 }
 
 charge polygon red {

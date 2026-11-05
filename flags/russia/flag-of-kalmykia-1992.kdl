@@ -21,11 +21,13 @@ bars blue yellow red {
 charge disc red {
   radius 112.5
   at fly=900 hoist=450
+  anchor center
 }
 
 charge disc yellow {
   radius 100
   at fly=900 hoist=450
+  anchor center
 }
 
 charge path red {

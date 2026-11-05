@@ -18,6 +18,7 @@ field blue
 charge disc yellow {
   radius 189
   at fly=450 hoist=315
+  anchor center
 }
 
 charge polygon yellow {
@@ -36,6 +37,7 @@ charge polygon yellow {
 charge disc blue {
   radius 84
   at fly=450 hoist=315
+  anchor center
 }
 
 charge rect blue {

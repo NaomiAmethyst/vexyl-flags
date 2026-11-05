@@ -29,11 +29,23 @@ charge disc blue {
   at fly=111 hoist=72
 }
 
-charge svg {
-  at center
-  fly 240
-  hoist 144
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 144"><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.809017 0.587785 -0.587785 0.809017 100.544125 87.179874)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-1 0 0 1 110.536475 90.426585)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.309017 0.951057 -0.951057 -0.309017 106.115225 84.341257)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.309017 -0.951057 -0.951057 0.309017 106.115225 94.847834)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-1 0 -0 -1 110.536475 88.762506)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.809017 -0.587785 -0.587785 -0.809017 100.544125 92.009217)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.309017 -0.951057 0.951057 -0.309017 107.697857 94.333606)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.809017 0.587785 0.587785 -0.809017 101.522246 85.833606)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.809017 -0.587785 0.587785 0.809017 101.522246 93.355485)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.309017 0.951057 0.951057 0.309017 107.697857 84.855485)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.913545 0.406737 -0.406737 -0.913545 103.081781 55.35501)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.5 -0.866025 -0.866025 -0.5 95.273872 62.385283)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.669131 -0.743145 0.743145 -0.669131 102.754546 61.599032)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.978148 0.207912 0.207912 -0.978148 93.655583 56.345743)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.5 -0.866025 0.866025 0.5 96.715006 63.217322)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.104528 0.994522 0.994522 -0.104528 98.899447 52.940338)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.978148 0.207912 -0.207912 0.978148 93.309601 57.973458)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.913545 0.406737 0.406737 0.913545 103.758623 56.875221)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.104528 0.994522 -0.994522 0.104528 97.244484 53.114282)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.669131 -0.743145 -0.743145 0.669131 101.517895 62.712518)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.104528 -0.994522 0.994522 0.104528 129.374094 73.465116)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.5 0.866025 0.866025 -0.5 127.189653 63.188132)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.978148 -0.207912 0.207912 0.978148 124.130229 70.059711)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.669131 0.743145 0.743145 0.669131 133.229193 64.806422)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.5 0.866025 -0.866025 0.5 125.748519 64.020172)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.913545 -0.406737 -0.406737 0.913545 133.556428 71.050444)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.669131 0.743145 -0.743145 -0.669131 131.992541 63.692936)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.104528 -0.994522 -0.994522 -0.104528 127.719131 73.291173)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(-0.913545 -0.406737 0.406737 -0.913545 134.23327 69.530233)" fill="#ffffff"/><path d="M 0,-17 V 0 H 8.5" transform="matrix(0.978148 -0.207912 -0.207912 -0.978148 123.784248 68.431997)" fill="#ffffff"/></svg>
-"""#
+charge star white {
+  radius 17
+  inner 6.46
+  rotate 18
+  at fly=105.2832 hoist=89.5945
+}
+
+charge star white {
+  radius 17
+  inner 6.46
+  rotate -6
+  at fly=98.6211 hoist=58.2518
+}
+
+charge star white {
+  radius 17
+  inner 6.46
+  rotate -30
+  at fly=129.0957 hoist=68.1536
 }

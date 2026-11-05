@@ -19,6 +19,7 @@ charge star blue {
   radius 15.7719
   inner 6.3088
   at fly=300 hoist=201.5061
+  anchor center
 }
 
 charge star blue {

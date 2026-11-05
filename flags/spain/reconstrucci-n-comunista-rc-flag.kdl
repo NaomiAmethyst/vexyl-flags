@@ -19,6 +19,7 @@ bars red yellow pink
 charge star red {
   radius 57.8304
   at fly=337.5001 hoist=230.5219
+  anchor center
 }
 
 charge path red {

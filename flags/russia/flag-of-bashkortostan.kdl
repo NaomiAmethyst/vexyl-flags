@@ -21,11 +21,13 @@ charge ring yellow {
   radius 80
   inner 70
   at fly=450 hoist=300
+  anchor center
 }
 
 charge disc yellow {
   radius 16
   at fly=450 hoist=300
+  anchor center
 }
 
 charge rect yellow {

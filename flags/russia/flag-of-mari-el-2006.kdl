@@ -22,6 +22,7 @@ charge lozenge red {
   fly 98.9949
   hoist 98.9949
   at fly=900 hoist=600
+  anchor center
 }
 
 charge polygon red {

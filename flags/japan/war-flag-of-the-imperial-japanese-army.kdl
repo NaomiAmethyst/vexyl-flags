@@ -18,15 +18,84 @@ field white
 charge disc pink {
   radius 153
   at fly=442 hoist=300
+  anchor center
 }
 
-charge svg {
-  at center
-  fly 900
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="m0 0h130l218 185-20.2 21.1z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m230 0h75l94.1 156-27 11.6z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m405 0h70l-18.6 151-29.2-.0352z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m575 0h75l-138 168-27.1-11.4z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m750 0h130l-324 206-20.3-21z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m405 600h70l-18.6-151-29.1-.082z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m230 600h74.9l94.1-156-27-11.5z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m0 600h130l218-185-21.2-20.4z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m575 600h75l-139-168-26.8 11.6z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m750 600h130l-324-206-20.1 21.2z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/><path d="m900 95v75l-316 86.9-10.9-27.4z" fill="#be0026" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+charge polygon pink {
+  point fly=0 hoist=0
+  point fly=130 hoist=0
+  point fly=348 hoist=185
+  point fly=327.8 hoist=206.1
+}
+
+charge polygon pink {
+  point fly=230 hoist=0
+  point fly=305 hoist=0
+  point fly=399.1 hoist=156
+  point fly=372.1 hoist=167.6
+}
+
+charge polygon pink {
+  point fly=405 hoist=0
+  point fly=475 hoist=0
+  point fly=456.4 hoist=151
+  point fly=427.2 hoist=150.9648
+}
+
+charge polygon pink {
+  point fly=575 hoist=0
+  point fly=650 hoist=0
+  point fly=512 hoist=168
+  point fly=484.9 hoist=156.6
+}
+
+charge polygon pink {
+  point fly=750 hoist=0
+  point fly=880 hoist=0
+  point fly=556 hoist=206
+  point fly=535.7 hoist=185
+}
+
+charge polygon pink {
+  point fly=405 hoist=600
+  point fly=475 hoist=600
+  point fly=456.4 hoist=449
+  point fly=427.3 hoist=448.918
+}
+
+charge polygon pink {
+  point fly=230 hoist=600
+  point fly=304.9 hoist=600
+  point fly=399 hoist=444
+  point fly=372 hoist=432.5
+}
+
+charge polygon pink {
+  point fly=0 hoist=600
+  point fly=130 hoist=600
+  point fly=348 hoist=415
+  point fly=326.8 hoist=394.6
+}
+
+charge polygon pink {
+  point fly=575 hoist=600
+  point fly=650 hoist=600
+  point fly=511 hoist=432
+  point fly=484.2 hoist=443.6
+}
+
+charge polygon pink {
+  point fly=750 hoist=600
+  point fly=880 hoist=600
+  point fly=556 hoist=394
+  point fly=535.9 hoist=415.2
+}
+
+charge polygon pink {
+  point fly=900 hoist=95
+  point fly=900 hoist=170
+  point fly=584 hoist=256.9
+  point fly=573.1 hoist=229.5
 }
 
 pile pink {

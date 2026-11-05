@@ -18,11 +18,13 @@ field white
 charge disc pink {
   radius 120
   at fly=300 hoist=200
+  anchor center
 }
 
 charge disc white {
   radius 100
   at fly=300 hoist=200
+  anchor center
 }
 
 charge path pink {

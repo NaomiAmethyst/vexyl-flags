@@ -66,14 +66,17 @@ charge polygon white {
 charge disc white {
   radius 3
   at fly=13.5 hoist=9
+  anchor center
 }
 
 charge disc purple {
   radius 2
   at fly=13.5 hoist=9
+  anchor center
 }
 
 charge disc white {
   radius 1
   at fly=13.5 hoist=9
+  anchor center
 }

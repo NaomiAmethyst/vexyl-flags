@@ -34,4 +34,5 @@ charge path white {
   hoist 134.0249
   hollow 10.7719
   at fly=505.5843 hoist=304.8286
+  anchor center
 }

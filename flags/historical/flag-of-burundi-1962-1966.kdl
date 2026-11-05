@@ -32,12 +32,13 @@ pile red {
   depth 300
 }
 
-charge path green {
-  d "M450 300L0 0L0 600ZM450 300L900 600L900 0Z"
-  box "0 0 900 600"
-  fly 900
-  hoist 600
-  at fly=450 hoist=300
+chevrons green {
+  depth 450
+}
+
+pile green {
+  from fly
+  depth 450
 }
 
 charge path white {
@@ -51,6 +52,7 @@ charge path white {
 charge disc white {
   radius 169.9998
   at fly=450 hoist=300
+  anchor center
 }
 
 charge svg {

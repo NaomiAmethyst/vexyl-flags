@@ -19,4 +19,5 @@ charge ring purple {
   radius 173.8125
   inner 120.1875
   at fly=450 hoist=300
+  anchor center
 }

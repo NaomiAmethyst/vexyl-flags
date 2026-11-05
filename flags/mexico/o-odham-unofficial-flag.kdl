@@ -38,6 +38,7 @@ charge path red {
   fly 360
   hoist 359.133
   at fly=400 hoist=240.4335
+  anchor center
 }
 
 charge path red {
@@ -47,4 +48,5 @@ charge path red {
   hoist 359.133
   hollow 1.2
   at fly=400 hoist=240.4335
+  anchor center
 }

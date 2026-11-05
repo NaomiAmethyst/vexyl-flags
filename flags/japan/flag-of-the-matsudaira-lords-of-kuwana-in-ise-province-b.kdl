@@ -22,4 +22,5 @@ charge path pink {
   hoist 497.18
   evenodd
   at fly=450 hoist=350
+  anchor center
 }

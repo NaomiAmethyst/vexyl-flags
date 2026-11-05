@@ -24,6 +24,7 @@ charge star white {
   radius 46.6652
   inner 30.1452
   at fly=409.5 hoist=200.66
+  anchor center
 }
 
 charge path white {
@@ -32,4 +33,5 @@ charge path white {
   fly 290.4
   hoist 330
   at fly=395.2 hoist=202
+  anchor center
 }

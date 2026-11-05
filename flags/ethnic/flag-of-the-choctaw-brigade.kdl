@@ -20,23 +20,27 @@ field blue
 charge disc white {
   radius 516.9301
   at fly=1200 hoist=720
+  anchor center
 }
 
 charge ring black {
   radius 519.4301
   inner 514.4301
   at fly=1200 hoist=720
+  anchor center
 }
 
 charge disc red {
   radius 404.3731
   at fly=1200 hoist=720
+  anchor center
 }
 
 charge ring black {
   radius 406.8731
   inner 401.8731
   at fly=1200 hoist=720
+  anchor center
 }
 
 charge path white {
@@ -45,6 +49,7 @@ charge path white {
   fly 742.5993
   hoist 711.902
   at fly=1200.0004 hoist=720
+  anchor center
 }
 
 charge path black {
@@ -53,4 +58,5 @@ charge path black {
   fly 747.5985
   hoist 716.9021
   at fly=1200 hoist=719.9997
+  anchor center
 }

@@ -33,6 +33,7 @@ charge path teal {
   fly 138.1394
   hoist 14.981
   at fly=239.5968 hoist=236.6113
+  anchor center
 }
 
 charge path teal {

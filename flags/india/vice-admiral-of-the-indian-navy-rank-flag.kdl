@@ -37,6 +37,7 @@ charge path blue {
   fly 77.5713
   hoist 77.5713
   at fly=180.2431 hoist=120.3041
+  anchor center
 }
 
 charge path white {
@@ -46,6 +47,7 @@ charge path white {
   hoist 68.3318
   evenodd
   at fly=180.2431 hoist=120.3041
+  anchor center
 }
 
 charge path blue {
@@ -54,16 +56,19 @@ charge path blue {
   fly 13.9454
   hoist 13.9454
   at fly=180.2431 hoist=120.6839
+  anchor center
 }
 
 charge disc blue {
   radius 48
   at fly=180 hoist=120
+  anchor center
 }
 
 charge disc white {
   radius 42.3226
   at fly=180 hoist=120
+  anchor center
 }
 
 charge disc blue {
@@ -381,6 +386,7 @@ charge path blue {
 charge disc blue {
   radius 8.2581
   at fly=180 hoist=120
+  anchor center
 }
 
 charge disc red {

@@ -19,4 +19,5 @@ bars black red
 charge disc yellow {
   radius 1.5
   at fly=5 hoist=3
+  anchor center
 }

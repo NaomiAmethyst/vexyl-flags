@@ -32,15 +32,11 @@ canton {
   fly 12.5
   hoist 12.5
   field blue
-}
-
-charge svg {
-  at center
-  fly 183.3333
-  hoist 110
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.3333 110"><polygon transform="matrix(3.566462 1.158814 -1.158814 3.566462 6.25 2.5)" points="0 0 0 1 0.5 1" fill="#ffffff"/><polygon transform="matrix(-3.566462 1.158814 1.158814 3.566462 6.25 2.5)" points="0.5 1 0 0 0 1" fill="#ffffff"/><polygon transform="matrix(0 3.75 -3.75 0 9.816462 5.091186)" points="0.5 1 0 0 0 1" fill="#ffffff"/><polygon transform="matrix(-2.204195 -3.033814 -3.033814 2.204195 9.816462 5.091186)" points="0.5 1 0 0 0 1" fill="#ffffff"/><polygon transform="matrix(2.204195 -3.033814 3.033814 2.204195 2.683538 5.091186)" points="0.5 1 0 0 0 1" fill="#ffffff"/><polygon transform="matrix(-0 3.75 3.75 0 2.683538 5.091186)" points="0.5 1 0 0 0 1" fill="#ffffff"/><polygon transform="matrix(-3.566462 1.158814 -1.158814 -3.566462 8.454195 9.283814)" points="0.5 1 0 0 0 1" fill="#ffffff"/><polygon transform="matrix(2.204195 -3.033814 -3.033814 -2.204195 8.454195 9.283814)" points="0.5 1 0 0 0 1" fill="#ffffff"/><polygon transform="matrix(-2.204195 -3.033814 3.033814 -2.204195 4.045805 9.283814)" points="0.5 1 0 0 0 1" fill="#ffffff"/><polygon transform="matrix(3.566462 1.158814 1.158814 -3.566462 4.045805 9.283814)" points="0.5 1 0 0 0 1" fill="#ffffff"/></svg>
-"""#
+  charge star white {
+    radius 3.75
+    inner 1.425
+    at fly=6.25 hoist=6.25
+  }
 }
 
 charge rect white {

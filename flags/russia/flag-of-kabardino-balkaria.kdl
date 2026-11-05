@@ -19,6 +19,7 @@ bars blue white green
 charge disc blue {
   radius 50
   at fly=225 hoist=150
+  anchor center
 }
 
 charge svg {
@@ -26,6 +27,6 @@ charge svg {
   fly 450
   hoist 300
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300"><defs><clipPath id="mid"><circle r="50" cx="225" cy="150"></circle></clipPath></defs><path d="M 276,151 C 276,151 251,122 240,122 C 231,122 226,132 226,132 L 229,135 C 224,131 219,124 211,124 C 199,124 174,151 174,151 Z" stroke="#3399ff" fill="#ffffff" stroke-width="1" stroke-linejoin="round" clip-path="url(#mid)" transform="matrix(1 0 0 1 0 0)"/><rect width="100" height="50" x="175" y="150" fill="#00923f" clip-path="url(#mid)" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300"><defs><clipPath id="mid"><circle cx="225" cy="150" r="50"></circle></clipPath></defs><path d="M 276,151 C 276,151 251,122 240,122 C 231,122 226,132 226,132 L 229,135 C 224,131 219,124 211,124 C 199,124 174,151 174,151 Z" clip-path="url(#mid)" stroke-width="1" stroke="#3399ff" stroke-linejoin="round" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><rect height="50" x="175" width="100" y="150" clip-path="url(#mid)" fill="#00923f" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }

@@ -28,4 +28,5 @@ charge ellipse green {
   fly 594.9063
   hoist 589.5919
   at fly=999.9994 hoist=500.0006
+  anchor center
 }

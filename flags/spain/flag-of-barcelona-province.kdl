@@ -26,6 +26,7 @@ charge lozenge white {
   fly 10
   hoist 10
   at fly=13.5 hoist=9
+  anchor center
 }
 
 charge polygon yellow {
@@ -36,13 +37,48 @@ charge polygon yellow {
   hollow 0.18
 }
 
-charge svg {
-  at center
-  fly 27
-  hoist 18
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 18"><defs><clipPath id="c"><path d="m8.5,9 5,-5 5,5 -5,5z"></path></clipPath></defs><path d="M8.5,9h10m-5,-5v10" stroke="#fcdd09" stroke-width="1.272" clip-path="url(#c)" transform="matrix(1 0 0 1 0 0)"/><path d="M8.5,9h10m-5,-5v10" stroke="#da121a" stroke-width="1.2" clip-path="url(#c)" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+charge polygon yellow {
+  point fly=9.136 hoist=9.636
+  point fly=17.864 hoist=9.636
+  point fly=18.5 hoist=9
+  point fly=18.5 hoist=9
+  point fly=17.864 hoist=8.364
+  point fly=9.136 hoist=8.364
+  point fly=8.5 hoist=9
+  point fly=8.5 hoist=9
+}
+
+charge polygon yellow {
+  point fly=12.864 hoist=4.636
+  point fly=12.864 hoist=13.364
+  point fly=13.5 hoist=14
+  point fly=13.5 hoist=14
+  point fly=14.136 hoist=13.364
+  point fly=14.136 hoist=4.636
+  point fly=13.5 hoist=4
+  point fly=13.5 hoist=4
+}
+
+charge polygon red {
+  point fly=9.1 hoist=9.6
+  point fly=17.9 hoist=9.6
+  point fly=18.5 hoist=9
+  point fly=18.5 hoist=9
+  point fly=17.9 hoist=8.4
+  point fly=9.1 hoist=8.4
+  point fly=8.5 hoist=9
+  point fly=8.5 hoist=9
+}
+
+charge polygon red {
+  point fly=12.9 hoist=4.6
+  point fly=12.9 hoist=13.4
+  point fly=13.5 hoist=14
+  point fly=13.5 hoist=14
+  point fly=14.1 hoist=13.4
+  point fly=14.1 hoist=4.6
+  point fly=13.5 hoist=4
+  point fly=13.5 hoist=4
 }
 
 charge polygon yellow {

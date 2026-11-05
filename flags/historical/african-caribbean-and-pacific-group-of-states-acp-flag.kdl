@@ -60,6 +60,7 @@ charge path orange {
   fly 126.02
   hoist 126.024
   at fly=446.7 hoist=303.49
+  anchor center
 }
 
 charge path white {
@@ -94,6 +95,7 @@ charge path white {
   fly 461.8758
   hoist 321.1516
   at fly=443.4771 hoist=299.6912
+  anchor center
 }
 
 charge path black {
@@ -103,4 +105,5 @@ charge path black {
   hoist 321.1516
   hollow 6.3022
   at fly=443.4781 hoist=299.6922
+  anchor center
 }

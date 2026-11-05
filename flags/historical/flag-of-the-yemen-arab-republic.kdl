@@ -20,4 +20,5 @@ bars red white black
 charge star green {
   radius 90.0004
   at fly=450 hoist=308.5943
+  anchor center
 }

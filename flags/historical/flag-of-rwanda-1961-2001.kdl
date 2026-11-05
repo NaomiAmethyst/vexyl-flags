@@ -26,6 +26,7 @@ charge path black {
   fly 204.0262
   hoist 339.9961
   at fly=450 hoist=300
+  anchor center
 }
 
 panel {

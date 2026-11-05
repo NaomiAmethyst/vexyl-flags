@@ -31,7 +31,7 @@ charge svg {
   fly 1000
   hoist 700
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700"><ellipse ry="0" cx="-7141.7002" rx="18.700001" cy="1561.8" fill="#006c35" transform="matrix(-0.236815 0 0 0.244511 -1080.226 114.82041)"/><ellipse ry="0" cx="-7038.7998" rx="18.700001" cy="1571.1" fill="#006c35" transform="matrix(-0.236815 0 0 0.244511 -1080.226 114.82041)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700"><ellipse cx="-7141.7002" cy="1561.8" rx="18.700001" ry="0" fill="#006c35" transform="matrix(-0.236815 0 0 0.244511 -1080.226 114.82041)"/><ellipse cx="-7038.7998" cy="1571.1" rx="18.700001" ry="0" fill="#006c35" transform="matrix(-0.236815 0 0 0.244511 -1080.226 114.82041)"/></svg>
 """#
 }
 

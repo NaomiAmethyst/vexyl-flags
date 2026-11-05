@@ -20,6 +20,7 @@ charge lozenge blue {
   fly 375
   hoist 250
   at fly=224.6123 hoist=149.359
+  anchor center
 }
 
 charge star white {
@@ -127,6 +128,7 @@ charge lozenge white {
   fly 282
   hoist 188
   at fly=224.7084 hoist=149.518
+  anchor center
 }
 
 charge polygon blue {
@@ -174,4 +176,5 @@ charge path blue {
   fly 165.948
   hoist 23.989
   at fly=225 hoist=149.2115
+  anchor center
 }

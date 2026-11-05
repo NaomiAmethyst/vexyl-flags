@@ -111,4 +111,5 @@ charge star orange {
   radius 22.0745
   rotate 0.0032
   at fly=216 hoist=146.1081
+  anchor center
 }

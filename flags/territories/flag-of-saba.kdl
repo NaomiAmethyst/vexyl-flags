@@ -10,6 +10,7 @@ palette {
   red "#dc171d"
   blue "#012a87"
   white "#ffffff"
+  yellow "#f9d90f"
 }
 proportion hoist=1000 fly=1500
 
@@ -21,11 +22,9 @@ charge lozenge white {
   at fly=750 hoist=500
 }
 
-charge svg {
-  at center
-  fly 1500
-  hoist 1000
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000"><path d="M0,-283V0H142z" transform="matrix(0.951057 0.309017 -0.309017 0.951057 662.548191 486.148994)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(-0.951057 0.309017 0.309017 0.951057 837.451809 486.148994)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(0 1 -1 0 736.148994 412.548191)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(-0.587785 -0.809017 -0.809017 0.587785 790.197185 578.891417)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(0.587785 -0.809017 0.809017 0.587785 709.802815 578.891417)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(-0 1 1 0 763.851006 412.548191)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(-0.951057 0.309017 -0.309017 -0.951057 828.891417 459.802815)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(0.587785 -0.809017 -0.809017 -0.587785 687.391417 562.608583)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(-0.587785 -0.809017 0.809017 -0.587785 812.608583 562.608583)" fill="#f9d90f"/><path d="M0,-283V0H142z" transform="matrix(0.951057 0.309017 0.309017 -0.951057 671.108583 459.802815)" fill="#f9d90f"/></svg>
-"""#
+charge star yellow {
+  radius 283
+  inner 107.54
+  at fly=750 hoist=500
+  anchor center
 }

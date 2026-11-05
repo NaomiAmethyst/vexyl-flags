@@ -17,4 +17,5 @@ field white
 charge disc pink {
   radius 180
   at fly=450 hoist=300
+  anchor center
 }

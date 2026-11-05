@@ -24,6 +24,7 @@ charge lozenge white {
   fly 286
   hoist 184
   at fly=250 hoist=150
+  anchor center
 }
 
 charge path black {
@@ -33,6 +34,7 @@ charge path black {
   hoist 153.439
   evenodd
   at fly=249.983 hoist=148.6475
+  anchor center
 }
 
 panel {

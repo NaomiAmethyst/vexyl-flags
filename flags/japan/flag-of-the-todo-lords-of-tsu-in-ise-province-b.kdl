@@ -149,6 +149,7 @@ charge path white {
   hoist 151.2
   evenodd
   at fly=450.02 hoist=353.28
+  anchor center
 }
 
 charge path blue {
@@ -159,4 +160,5 @@ charge path blue {
   evenodd
   hollow 4.0013
   at fly=450.02 hoist=353.28
+  anchor center
 }

@@ -31,6 +31,7 @@ charge path red {
   fly 204.467
   hoist 198.8846
   at fly=400.9894 hoist=232.0045
+  anchor center
 }
 
 charge path green {
@@ -39,4 +40,5 @@ charge path green {
   fly 197.7399
   hoist 283.2863
   at fly=401.4342 hoist=232.67
+  anchor center
 }

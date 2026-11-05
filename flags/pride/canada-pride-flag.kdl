@@ -33,4 +33,5 @@ charge path red-2 {
   fly 2232
   hoist 2418.0001
   at fly=2880 hoist=1929.0001
+  anchor center
 }

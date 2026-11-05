@@ -21,4 +21,5 @@ charge path green {
   fly 137.47
   hoist 93.9
   at fly=105.835 hoist=70.51
+  anchor center
 }

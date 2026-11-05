@@ -25,11 +25,16 @@ charge disc red {
   at fly=45 hoist=40
 }
 
-charge svg {
-  at center
-  fly 120
-  hoist 80
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80"><polygon transform="matrix(3.09017 9.510565 -9.510565 3.09017 74.99017 34.122147)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-8.09017 -5.877853 -5.877853 8.09017 74.99017 34.122147)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-8.09017 5.877853 -5.877853 -8.09017 74.99017 45.877853)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(3.09017 -9.510565 -9.510565 -3.09017 74.99017 45.877853)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(10 0 0 10 63.80983 30.489435)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-8.09017 5.877853 5.877853 8.09017 63.80983 30.489435)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-8.09017 -5.877853 5.877853 -8.09017 63.80983 49.510565)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(10 -0 -0 -10 63.80983 49.510565)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(3.09017 -9.510565 9.510565 3.09017 56.9 40)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(3.09017 9.510565 9.510565 -3.09017 56.9 40)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(2.163119 6.657396 -6.657396 2.163119 72.563119 35.885503)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(-5.663119 -4.114497 -4.114497 5.663119 72.563119 35.885503)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(-5.663119 4.114497 -4.114497 -5.663119 72.563119 44.114497)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(2.163119 -6.657396 -6.657396 -2.163119 72.563119 44.114497)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(7 0 -0 7 64.736881 33.342604)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(-5.663119 4.114497 4.114497 5.663119 64.736881 33.342604)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(-5.663119 -4.114497 4.114497 -5.663119 64.736881 46.657396)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(7 -0 -0 -7 64.736881 46.657396)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(2.163119 -6.657396 6.657396 2.163119 59.9 40)" points="0,0 0,1 .5,1" fill="#e30a17"/><polygon transform="matrix(2.163119 6.657396 6.657396 -2.163119 59.9 40)" points="0,0 0,1 .5,1" fill="#e30a17"/></svg>
-"""#
+charge star white {
+  radius 10
+  inner 3.8
+  rotate -18
+  at fly=66.9 hoist=40
+}
+
+charge star red {
+  radius 7
+  inner 2.66
+  rotate -18
+  at fly=66.9 hoist=40
 }

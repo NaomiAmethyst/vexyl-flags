@@ -24,4 +24,5 @@ pile blue {
 charge disc pink {
   radius 200
   at fly=450 hoist=300
+  anchor center
 }

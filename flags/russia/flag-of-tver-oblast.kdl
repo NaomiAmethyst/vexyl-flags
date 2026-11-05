@@ -28,6 +28,7 @@ charge path black {
   fly 270.0127
   hoist 367.7844
   at fly=449.9852 hoist=300.0114
+  anchor center
 }
 
 charge path orange {

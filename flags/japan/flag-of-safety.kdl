@@ -19,10 +19,12 @@ charge rect green {
   fly 120
   hoist 360
   at fly=450 hoist=300
+  anchor center
 }
 
 charge rect green {
   fly 360
   hoist 120
   at fly=450 hoist=300
+  anchor center
 }

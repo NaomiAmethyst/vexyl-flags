@@ -20,4 +20,5 @@ charge path white {
   fly 360
   hoist 360
   at fly=450 hoist=300
+  anchor center
 }

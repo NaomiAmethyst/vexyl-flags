@@ -21,6 +21,7 @@ charge path white {
   fly 440.06
   hoist 406.38
   at fly=454.16 hoist=355.34
+  anchor center
 }
 
 charge rect white {

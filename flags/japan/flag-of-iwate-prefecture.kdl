@@ -34,4 +34,5 @@ charge rect teal {
   fly 51.9615
   hoist 0.6928
   at fly=82.5 hoist=55
+  anchor center
 }

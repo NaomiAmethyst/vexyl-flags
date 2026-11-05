@@ -18,4 +18,5 @@ bars red blue
 charge star yellow {
   radius 3.6017
   at fly=9 hoist=5.9958
+  anchor center
 }

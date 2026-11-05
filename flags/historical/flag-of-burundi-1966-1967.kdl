@@ -35,6 +35,7 @@ saltire white {
 charge disc white {
   radius 170
   at fly=450 hoist=300
+  anchor center
 }
 
 charge path green {

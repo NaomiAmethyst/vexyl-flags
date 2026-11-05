@@ -25,6 +25,7 @@ charge disc white {
 charge disc pink {
   radius 75
   at fly=600 hoist=300
+  anchor center
 }
 
 charge star white {

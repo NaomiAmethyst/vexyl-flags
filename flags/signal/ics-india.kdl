@@ -32,4 +32,5 @@ charge path black {
 charge disc black {
   radius 150
   at fly=300 hoist=300
+  anchor center
 }

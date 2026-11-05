@@ -16,13 +16,78 @@ proportion hoist=60 fly=120
 
 field blue
 
-charge svg {
-  at center
-  fly 120
-  hoist 60
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60"><defs><clipPath id="c2"><path d="m 0,0 v 16.666667 h 60 v 16.666666 0 z m 0,33.333333 v 0 H 30 V 0 h 30 z"></path></clipPath><clipPath id="c1"><path d="M 0,0 H 65 V 33.333333 H 0 Z"></path></clipPath></defs><path d="M 0,0 60,33.333333 M 60,0 0,33.333333" stroke="#ffffff" stroke-width="6.66666666666667" clip-path="url(#c1)" transform="matrix(1 0 0 1 0 0)"/><path d="M 0,0 60,33.333333 M 60,0 0,33.333333" stroke="#c8102e" stroke-width="4.444444444444447" clip-path="url(#c2)" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+charge polygon white {
+  point fly=0 hoist=3.8132
+  point fly=53.1362 hoist=33.3333
+  point fly=60 hoist=33.3333
+  point fly=61.6188 hoist=30.4195
+  point fly=6.8638 hoist=0
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon white {
+  point fly=53.1362 hoist=0
+  point fly=0 hoist=29.5201
+  point fly=0 hoist=33.3333
+  point fly=0 hoist=33.3333
+  point fly=6.8638 hoist=33.3333
+  point fly=61.6188 hoist=2.9139
+  point fly=60 hoist=0
+}
+
+charge polygon red {
+  point fly=0 hoist=2.5421
+  point fly=25.4242 hoist=16.6667
+  point fly=30 hoist=16.6667
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon red {
+  point fly=60 hoist=33.3333
+  point fly=60 hoist=30.7912
+  point fly=34.5758 hoist=16.6667
+  point fly=30 hoist=16.6667
+}
+
+charge polygon red {
+  point fly=27.7121 hoist=17.9377
+  point fly=30 hoist=19.2088
+  point fly=30 hoist=16.6667
+}
+
+charge polygon red {
+  point fly=32.2879 hoist=15.3956
+  point fly=30 hoist=14.1245
+  point fly=30 hoist=16.6667
+}
+
+charge polygon red {
+  point fly=27.7121 hoist=15.3956
+  point fly=25.4242 hoist=16.6667
+  point fly=30 hoist=16.6667
+}
+
+charge polygon red {
+  point fly=32.2879 hoist=17.9377
+  point fly=34.5758 hoist=16.6667
+  point fly=30 hoist=16.6667
+}
+
+charge polygon red {
+  point fly=0 hoist=33.3333
+  point fly=4.5758 hoist=33.3333
+  point fly=30 hoist=19.2088
+  point fly=30 hoist=16.6667
+}
+
+charge polygon red {
+  point fly=55.4242 hoist=0
+  point fly=30 hoist=14.1245
+  point fly=30 hoist=16.6667
+  point fly=60 hoist=0
+  point fly=60 hoist=0
 }
 
 charge rect white {

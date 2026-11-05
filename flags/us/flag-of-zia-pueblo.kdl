@@ -21,7 +21,7 @@ charge svg {
   fly 1200
   hoist 720
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720"><path d="M791.1639,456.1464H408.8361M832.51,425.1275H367.49M832.51,394.1464H367.49m423.6735-31.0189H408.8361" stroke="#bf0a30" stroke-linecap="round" stroke-width="17px" transform="matrix(1 0 0 1 0 0)"/><path d="M646.5094,218.4731V600.8008M615.4905,177.1274V642.1465M584.51,177.1274V642.1465M553.4906,218.4731V600.8008" stroke="#bf0a30" stroke-linecap="round" stroke-width="17px" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720"><path d="M791.1639,456.1464H408.8361M832.51,425.1275H367.49M832.51,394.1464H367.49m423.6735-31.0189H408.8361" stroke-linecap="round" stroke-width="17px" stroke="#bf0a30" transform="matrix(1 0 0 1 0 0)"/><path d="M646.5094,218.4731V600.8008M615.4905,177.1274V642.1465M584.51,177.1274V642.1465M553.4906,218.4731V600.8008" stroke-linecap="round" stroke-width="17px" stroke="#bf0a30" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
@@ -36,6 +36,7 @@ charge path pink {
   fly 282.544
   hoist 234.4078
   at fly=615 hoist=370.569
+  anchor center
 }
 
 panel {

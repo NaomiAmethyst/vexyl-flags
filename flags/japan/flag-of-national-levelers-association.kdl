@@ -21,4 +21,5 @@ charge path pink {
   fly 487.844
   hoist 453.5999
   at fly=451.9369 hoist=300.345
+  anchor center
 }

@@ -19,19 +19,21 @@ charge svg {
   fly 2835
   hoist 2126
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2835 2126"><path d="M 0.25 -5.00 L 2836.00 2120.56 Z M 0.25 -5.00 " stroke="#ffffff" fill="#ffffff" stroke-linecap="round" stroke-width="87.21" stroke-linejoin="round" clip-rule="evenodd" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/><path d="M 2834.75 2.50 L -1.00 2128.06 Z M 2834.75 2.50 " stroke="#ffffff" fill="#ffffff" stroke-linecap="round" stroke-width="87.21" stroke-linejoin="round" clip-rule="evenodd" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2835 2126"><path d="M 0.25 -5.00 L 2836.00 2120.56 Z M 0.25 -5.00 " stroke-linecap="round" stroke-width="87.21" stroke="#ffffff" stroke-miterlimit="10" stroke-linejoin="round" clip-rule="evenodd" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M 2834.75 2.50 L -1.00 2128.06 Z M 2834.75 2.50 " stroke-linecap="round" stroke-width="87.21" stroke="#ffffff" stroke-miterlimit="10" stroke-linejoin="round" clip-rule="evenodd" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 
 charge disc pink {
   radius 544.52
   at fly=1418.75 hoist=1057.16
+  anchor center
 }
 
 charge ring white {
   radius 588.125
   inner 500.915
   at fly=1418.75 hoist=1057.16
+  anchor center
 }
 
 charge path white {
@@ -40,4 +42,5 @@ charge path white {
   fly 677.49
   hoist 535.72
   at fly=1440.455 hoist=1051.83
+  anchor center
 }

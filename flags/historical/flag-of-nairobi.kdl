@@ -22,6 +22,7 @@ charge rect white {
   fly 66
   hoist 55
   at fly=82.5 hoist=55
+  anchor center
 }
 
 charge path blue {

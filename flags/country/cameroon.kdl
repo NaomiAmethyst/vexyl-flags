@@ -21,4 +21,5 @@ bars teal red yellow {
 charge star yellow {
   radius 0.797
   at fly=4.5 hoist=3
+  anchor center
 }

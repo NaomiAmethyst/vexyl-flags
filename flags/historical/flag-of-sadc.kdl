@@ -17,6 +17,7 @@ field blue
 charge disc green {
   radius 150
   at fly=300 hoist=200
+  anchor center
 }
 
 charge svg {

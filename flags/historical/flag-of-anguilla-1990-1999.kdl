@@ -33,13 +33,60 @@ charge polygon white {
   point fly=613.4164 hoist=26.8328
 }
 
-charge svg {
-  at center
-  fly 1200
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><clipPath id="a"><path d="m0 0v150h700v150h-100zm600 0h-300v350h-300v-50z"></path></clipPath></defs><path d="m0 0 600 300m0-300-600 300" stroke="#c8102e" stroke-width="40" clip-path="url(#a)" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+charge polygon red {
+  point fly=0 hoist=22.3607
+  point fly=255.2786 hoist=150
+  point fly=300 hoist=150
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon red {
+  point fly=600 hoist=300
+  point fly=600 hoist=300
+  point fly=608.9443 hoist=282.1115
+  point fly=344.7214 hoist=150
+  point fly=300 hoist=150
+}
+
+charge polygon red {
+  point fly=322.3607 hoist=138.8197
+  point fly=300 hoist=127.6393
+  point fly=300 hoist=150
+}
+
+charge polygon red {
+  point fly=277.6393 hoist=161.1803
+  point fly=300 hoist=172.3607
+  point fly=300 hoist=150
+}
+
+charge polygon red {
+  point fly=277.6393 hoist=138.8197
+  point fly=255.2786 hoist=150
+  point fly=300 hoist=150
+}
+
+charge polygon red {
+  point fly=322.3607 hoist=161.1803
+  point fly=344.7214 hoist=150
+  point fly=300 hoist=150
+}
+
+charge polygon red {
+  point fly=555.2786 hoist=0
+  point fly=300 hoist=127.6393
+  point fly=300 hoist=150
+  point fly=600 hoist=0
+  point fly=600 hoist=0
+}
+
+charge polygon red {
+  point fly=0 hoist=300
+  point fly=0 hoist=300
+  point fly=8.9443 hoist=317.8885
+  point fly=300 hoist=172.3607
+  point fly=300 hoist=150
 }
 
 charge rect white {
@@ -88,7 +135,7 @@ charge svg {
   fly 1200
   hoist 600
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle r="0" cx="15.07813" cy="-30.97657" fill="#ffffff" transform="matrix(3.508454 0 0 3.344878 -47.152786 -59.398131)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle cx="15.07813" cy="-30.97657" r="0" fill="#ffffff" transform="matrix(3.508454 0 0 3.344878 -47.152786 -59.398131)"/></svg>
 """#
 }
 

@@ -21,4 +21,5 @@ charge star orange {
   inner 75.4211
   points 21
   at fly=450 hoist=300.8425
+  anchor center
 }

@@ -19,11 +19,13 @@ field green
 charge disc red {
   radius 219.3938
   at fly=449.5867 hoist=299.1734
+  anchor center
 }
 
 charge disc white {
   radius 151.5812
   at fly=457.5647 hoist=299.1734
+  anchor center
 }
 
 charge disc red {

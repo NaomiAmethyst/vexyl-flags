@@ -42,11 +42,12 @@ charge path blue {
   at fly=250.0001 hoist=173.6485
 }
 
-charge svg {
-  at center
-  fly 500
-  hoist 300
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300"><path d="m291.817,505.448,116.776,0,0,56.7803-58.3879,30.2828-58.3879-30.2828,0-56.7803z" stroke="#02468e" fill="none" stroke-dasharray="none" stroke-width="1.11372244" stroke-miterlimit="4" transform="matrix(0.993968 0 0 1.022618 -98.092497 -382.363887)"/></svg>
-"""#
+charge polygon blue {
+  point fly=191.9641 hoist=134.5163
+  point fly=308.0357 hoist=134.5163
+  point fly=308.0357 hoist=192.5809
+  point fly=250 hoist=223.5486
+  point fly=191.9643 hoist=192.5809
+  point fly=191.9643 hoist=134.5163
+  hollow 1.123
 }

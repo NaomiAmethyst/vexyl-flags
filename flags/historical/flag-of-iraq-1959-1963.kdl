@@ -34,9 +34,11 @@ charge polygon red {
 charge disc white {
   radius 57.5
   at fly=450 hoist=225
+  anchor center
 }
 
 charge disc yellow {
   radius 47.5
   at fly=450 hoist=225
+  anchor center
 }

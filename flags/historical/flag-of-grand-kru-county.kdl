@@ -42,15 +42,11 @@ canton {
   fly 272.7273
   hoist 272.7273
   field blue
-}
-
-charge svg {
-  at center
-  fly 4000
-  hoist 2400
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4000 2400"><polygon transform="matrix(77.813715 25.283208 -25.283208 77.813715 136.3636 54.545458)" points="0,1 0.5,1 0,0 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-77.813715 25.283208 25.283208 77.813715 136.3636 54.545458)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-0 81.818182 -81.818182 -0 214.177315 111.080432)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-48.09152 -66.1923 -66.1923 48.09152 214.177315 111.080432)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(48.09152 -66.1923 66.1923 48.09152 58.549885 111.080432)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(0 81.818182 81.818182 -0 58.549885 111.080432)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-77.813715 25.283209 -25.283209 -77.813715 184.455121 202.555939)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(48.091521 -66.192299 -66.192299 -48.091521 184.455121 202.555939)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-48.091521 -66.192299 66.192299 -48.091521 88.272079 202.555939)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(77.813715 25.283209 25.283209 -77.813715 88.272079 202.555939)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/></svg>
-"""#
+  charge star white {
+    radius 81.8182
+    inner 31.0909
+    at fly=136.3636 hoist=136.3636
+  }
 }
 
 charge rect yellow {

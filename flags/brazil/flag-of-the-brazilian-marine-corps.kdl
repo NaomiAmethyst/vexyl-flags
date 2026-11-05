@@ -21,6 +21,7 @@ charge star white {
   radius 13.8197
   inner 5.2515
   at fly=100 hoist=71.3197
+  anchor center
 }
 
 charge polygon white {

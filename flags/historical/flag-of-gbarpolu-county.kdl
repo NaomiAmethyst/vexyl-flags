@@ -14,6 +14,7 @@ palette {
   pink "#bf0a30"
   white "#ffffff"
   blue "#002868"
+  green-2 "#fcfdfa"
   black "#000000"
 }
 proportion hoist=440 fly=733.3333
@@ -52,21 +53,78 @@ canton {
   fly 50
   hoist 50
   field blue
+  charge star white {
+    radius 15
+    inner 5.7
+    at fly=25 hoist=25
+  }
 }
 
-charge svg {
-  at center
-  fly 733.3333
-  hoist 440
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 733.3333 440"><polygon transform="matrix(14.265848 4.635255 -4.635255 14.265848 24.999993 10)" points="0,1 0.5,1 0,0 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-14.265848 4.635255 4.635255 14.265848 24.999993 10)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(0 15 -15 0 39.265841 20.364745)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-8.816779 -12.135255 -12.135255 8.816779 39.265841 20.364745)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(8.816779 -12.135255 12.135255 8.816779 10.734145 20.364745)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(0 15 15 0 10.734145 20.364745)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-14.265848 4.635255 -4.635255 -14.265848 33.816772 37.135255)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(8.816779 -12.135255 -12.135255 -8.816779 33.816772 37.135255)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(-8.816779 -12.135255 12.135255 -8.816779 16.183214 37.135255)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><polygon transform="matrix(14.265848 4.635255 4.635255 -14.265848 16.183214 37.135255)" points="0,0 0,1 0.5,1 " stroke="none" fill="#ffffff"/><path d="m 366.66666,304.33333 -69.66667,-88 34.83334,-31.16667 34.83333,0 z" stroke="#000000" fill-opacity="1" stroke-opacity="1" fill="#fcfdfa" stroke-dasharray="none" stroke-width="1.83333337" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="m 366.66666,304.33333 -34.83332,-88 17.41666,-31.16667 17.41666,0 z" stroke="#000000" fill-opacity="1" stroke-opacity="1" fill="#fcfdfa" stroke-dasharray="none" stroke-width="1.83333337" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="m 366.66666,304.33333 -69.66667,-88 34.83334,-31.16667 34.83333,0 z" stroke="#000000" fill-opacity="1" stroke-opacity="1" fill="#fcfdfa" stroke-dasharray="none" stroke-width="1.83333337" stroke-miterlimit="4" transform="matrix(-1 0 0 1 733.33332 0.000007)"/><path d="m 366.66666,304.33333 -34.83332,-88 17.41666,-31.16667 17.41666,0 z" stroke="#000000" fill-opacity="1" stroke-opacity="1" fill="#fcfdfa" stroke-dasharray="none" stroke-width="1.83333337" stroke-miterlimit="4" transform="matrix(-1 0 0 1 733.33332 0.000007)"/></svg>
-"""#
+charge polygon green-2 {
+  point fly=366.6667 hoist=304.3333
+  point fly=297 hoist=216.3333
+  point fly=331.8333 hoist=185.1667
+  point fly=366.6667 hoist=185.1667
+}
+
+charge polygon black {
+  point fly=366.6667 hoist=304.3333
+  point fly=297 hoist=216.3333
+  point fly=331.8333 hoist=185.1667
+  point fly=366.6667 hoist=185.1667
+  hollow 1.8333
+}
+
+charge polygon green-2 {
+  point fly=366.6667 hoist=304.3333
+  point fly=331.8333 hoist=216.3333
+  point fly=349.25 hoist=185.1667
+  point fly=366.6667 hoist=185.1667
+}
+
+charge polygon black {
+  point fly=366.6667 hoist=304.3333
+  point fly=331.8333 hoist=216.3333
+  point fly=349.25 hoist=185.1667
+  point fly=366.6667 hoist=185.1667
+  hollow 1.8333
+}
+
+charge polygon green-2 {
+  point fly=366.6667 hoist=304.3333
+  point fly=436.3333 hoist=216.3333
+  point fly=401.5 hoist=185.1667
+  point fly=366.6667 hoist=185.1667
+}
+
+charge polygon black {
+  point fly=366.6667 hoist=304.3333
+  point fly=436.3333 hoist=216.3333
+  point fly=401.5 hoist=185.1667
+  point fly=366.6667 hoist=185.1667
+  hollow 1.8333
+}
+
+charge polygon green-2 {
+  point fly=366.6667 hoist=304.3333
+  point fly=401.5 hoist=216.3333
+  point fly=384.0833 hoist=185.1667
+  point fly=366.6667 hoist=185.1667
+}
+
+charge polygon black {
+  point fly=366.6667 hoist=304.3333
+  point fly=401.5 hoist=216.3333
+  point fly=384.0833 hoist=185.1667
+  point fly=366.6667 hoist=185.1667
+  hollow 1.8333
 }
 
 charge rect black {
   fly 139.3333
   hoist 1.8333
   at fly=366.6667 hoist=216.3333
+  anchor center
 }
 
 charge rect black {

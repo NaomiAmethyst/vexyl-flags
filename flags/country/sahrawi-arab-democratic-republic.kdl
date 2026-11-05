@@ -24,6 +24,7 @@ chevrons red {
 charge disc red {
   radius 40
   at fly=300 hoist=150
+  anchor center
 }
 
 charge disc white {

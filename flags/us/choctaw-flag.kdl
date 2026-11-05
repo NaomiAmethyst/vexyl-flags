@@ -24,6 +24,7 @@ charge path yellow {
   fly 270.7134
   hoist 273.0206
   at fly=400.8026 hoist=262.6946
+  anchor center
 }
 
 charge path orange {
@@ -32,6 +33,7 @@ charge path orange {
   fly 125.8708
   hoist 91.2714
   at fly=404.1602 hoist=266.0104
+  anchor center
 }
 
 charge path blue {
@@ -40,6 +42,7 @@ charge path blue {
   fly 270.7134
   hoist 273.0206
   at fly=400.8026 hoist=262.6946
+  anchor center
 }
 
 charge path green {
@@ -48,6 +51,7 @@ charge path green {
   fly 272.4376
   hoist 273.0206
   at fly=401.6647 hoist=262.6946
+  anchor center
 }
 
 charge path black {
@@ -56,4 +60,5 @@ charge path black {
   fly 272.4376
   hoist 273.0206
   at fly=401.8957 hoist=262.6122
+  anchor center
 }

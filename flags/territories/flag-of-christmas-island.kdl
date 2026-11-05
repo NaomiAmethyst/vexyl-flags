@@ -25,6 +25,7 @@ pile green {
 charge disc yellow {
   radius 90.3
   at fly=500 hoist=250
+  anchor center
 }
 
 charge polygon white {
@@ -88,4 +89,5 @@ charge path green {
   fly 130.165
   hoist 115.78
   at fly=497.2965 hoist=253.033
+  anchor center
 }

@@ -42,10 +42,12 @@ charge rect white {
   fly 37
   hoist 330
   at fly=376.5 hoist=251.5
+  anchor center
 }
 
 charge rect white {
   fly 330
   hoist 37
   at fly=376.5 hoist=251.5
+  anchor center
 }

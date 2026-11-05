@@ -21,6 +21,7 @@ charge lozenge white {
   fly 507.8158
   hoist 507.8158
   at fly=450.0037 hoist=349.9919
+  anchor center
 }
 
 charge polygon black {
@@ -35,6 +36,7 @@ charge lozenge white {
   fly 109.347
   hoist 109.347
   at fly=450.0037 hoist=349.9919
+  anchor center
 }
 
 charge polygon black {

@@ -26,4 +26,5 @@ pile yellow {
 charge star red {
   radius 100
   at fly=450 hoist=300
+  anchor center
 }

@@ -51,4 +51,5 @@ charge path white {
 charge disc orange {
   radius 79
   at fly=316 hoist=158
+  anchor center
 }

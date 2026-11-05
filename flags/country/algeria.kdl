@@ -23,6 +23,7 @@ charge crescent pink {
   inner 120
   offset 36.2288
   at fly=450 hoist=300
+  anchor center
 }
 
 charge star pink {

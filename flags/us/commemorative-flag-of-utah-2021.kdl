@@ -22,21 +22,25 @@ quarters blue white red white {
 charge disc orange {
   radius 240
   at fly=500 hoist=300
+  anchor center
 }
 
 charge disc blue {
   radius 232.5
   at fly=500 hoist=300
+  anchor center
 }
 
 charge disc orange {
   radius 220
   at fly=500 hoist=300
+  anchor center
 }
 
 charge disc blue {
   radius 212.5
   at fly=500 hoist=300
+  anchor center
 }
 
 charge path orange {

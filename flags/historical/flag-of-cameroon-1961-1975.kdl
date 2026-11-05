@@ -18,11 +18,9 @@ bars teal red yellow {
   along hoist
 }
 
-charge svg {
-  at center
-  fly 336
-  hoist 224
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 224"><polygon transform="matrix(19.972187 6.489357 -6.489357 19.972187 56 3)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-19.972187 6.489357 6.489357 19.972187 56 3)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(0 21 -21 0 75.972187 17.510643)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-12.34349 -16.989357 -16.989357 12.34349 75.972187 17.510643)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(12.34349 -16.989357 16.989357 12.34349 36.027813 17.510643)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-0 21 21 0 36.027813 17.510643)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-19.972187 6.489357 -6.489357 -19.972187 68.34349 40.989357)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(12.34349 -16.989357 -16.989357 -12.34349 68.34349 40.989357)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-12.34349 -16.989357 16.989357 -12.34349 43.65651 40.989357)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(19.972187 6.489357 6.489357 -19.972187 43.65651 40.989357)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(19.972187 6.489357 -6.489357 19.972187 56 45)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-19.972187 6.489357 6.489357 19.972187 56 45)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(0 21 -21 0 75.972187 59.510643)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-12.34349 -16.989357 -16.989357 12.34349 75.972187 59.510643)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(12.34349 -16.989357 16.989357 12.34349 36.027813 59.510643)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-0 21 21 0 36.027813 59.510643)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-19.972187 6.489357 -6.489357 -19.972187 68.34349 82.989357)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(12.34349 -16.989357 -16.989357 -12.34349 68.34349 82.989357)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(-12.34349 -16.989357 16.989357 -12.34349 43.65651 82.989357)" points="0,0 0,1 .5,1" fill="#fcd116"/><polygon transform="matrix(19.972187 6.489357 6.489357 -19.972187 43.65651 82.989357)" points="0,0 0,1 .5,1" fill="#fcd116"/></svg>
-"""#
+charge star yellow {
+  radius 21
+  inner 7.98
+  at fly=56 hoist=24
+  at fly=56 hoist=66
 }

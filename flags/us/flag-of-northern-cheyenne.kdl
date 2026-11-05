@@ -42,4 +42,5 @@ charge lozenge blue {
   fly 111.1112
   hoist 111.1112
   at fly=199.9999 hoist=100.0001
+  anchor center
 }

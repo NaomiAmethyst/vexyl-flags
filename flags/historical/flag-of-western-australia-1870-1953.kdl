@@ -18,13 +18,82 @@ proportion hoist=60 fly=120
 
 field blue
 
-charge svg {
-  at center
-  fly 120
-  hoist 60
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60"><defs><clipPath id="c2"><path d="M0,0V15H60V30H60zM0,30V30H30V0H60z"></path></clipPath><clipPath id="c1"><path d="M0,0H60V30H0z"></path></clipPath></defs><path d="M0,0 60,30M60,0 0,30" stroke="#ffffff" stroke-width="6" clip-path="url(#c1)" transform="matrix(1 0 0 1 0 0)"/><path d="M0,0 60,30M60,0 0,30" stroke="#e4002b" stroke-width="4" clip-path="url(#c2)" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+charge polygon white {
+  point fly=0 hoist=3.3541
+  point fly=53.2918 hoist=30
+  point fly=60 hoist=30
+  point fly=60 hoist=30
+  point fly=60 hoist=26.6459
+  point fly=6.7082 hoist=0
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon white {
+  point fly=53.2918 hoist=0
+  point fly=0 hoist=26.6459
+  point fly=0 hoist=30
+  point fly=0 hoist=30
+  point fly=6.7082 hoist=30
+  point fly=60 hoist=3.3541
+  point fly=60 hoist=0
+  point fly=60 hoist=0
+}
+
+charge polygon pink {
+  point fly=0 hoist=2.2361
+  point fly=25.5279 hoist=15
+  point fly=30 hoist=15
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon pink {
+  point fly=60 hoist=30
+  point fly=60 hoist=30
+  point fly=60 hoist=27.7639
+  point fly=34.4721 hoist=15
+  point fly=30 hoist=15
+}
+
+charge polygon pink {
+  point fly=27.7639 hoist=16.118
+  point fly=30 hoist=17.2361
+  point fly=30 hoist=15
+}
+
+charge polygon pink {
+  point fly=32.2361 hoist=13.882
+  point fly=30 hoist=12.7639
+  point fly=30 hoist=15
+}
+
+charge polygon pink {
+  point fly=27.7639 hoist=13.882
+  point fly=25.5279 hoist=15
+  point fly=30 hoist=15
+}
+
+charge polygon pink {
+  point fly=32.2361 hoist=16.118
+  point fly=34.4721 hoist=15
+  point fly=30 hoist=15
+}
+
+charge polygon pink {
+  point fly=0 hoist=30
+  point fly=0 hoist=30
+  point fly=4.4721 hoist=30
+  point fly=30 hoist=17.2361
+  point fly=30 hoist=15
+}
+
+charge polygon pink {
+  point fly=55.5279 hoist=0
+  point fly=30 hoist=12.7639
+  point fly=30 hoist=15
+  point fly=60 hoist=0
+  point fly=60 hoist=0
 }
 
 charge rect white {

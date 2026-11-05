@@ -20,6 +20,7 @@ bars green yellow red
 charge disc teal {
   radius 200
   at fly=600 hoist=300
+  anchor center
 }
 
 charge polygon yellow {

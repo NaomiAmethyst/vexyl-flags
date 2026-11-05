@@ -23,6 +23,7 @@ charge path white {
   fly 227.2638
   hoist 173.038
   at fly=606.0059 hoist=293.9409
+  anchor center
 }
 
 charge path orange {
@@ -32,6 +33,7 @@ charge path orange {
   hoist 91.0105
   evenodd
   at fly=616.7106 hoist=298.2041
+  anchor center
 }
 
 charge polygon orange-2 {

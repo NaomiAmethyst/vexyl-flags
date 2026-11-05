@@ -31,4 +31,5 @@ charge path white {
   hoist 476.5
   evenodd
   at fly=450 hoist=350
+  anchor center
 }

@@ -18,6 +18,7 @@ field white
 charge disc red {
   radius 50.237
   at fly=105.833 hoist=70.398
+  anchor center
 }
 
 charge ellipse white {

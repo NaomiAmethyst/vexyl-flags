@@ -20,6 +20,7 @@ bars red black green
 charge disc white {
   radius 80
   at fly=450 hoist=300
+  anchor center
 }
 
 charge svg {

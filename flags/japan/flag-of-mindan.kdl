@@ -39,11 +39,13 @@ charge path white {
 charge disc yellow {
   radius 4463
   at fly=23813 hoist=15875
+  anchor center
 }
 
 charge disc red {
   radius 4303.6195
   at fly=23812.5 hoist=15875
+  anchor center
 }
 
 charge path blue-2 {

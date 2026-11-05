@@ -42,6 +42,7 @@ charge path red {
   fly 198.8554
   hoist 198.861
   at fly=444.8083 hoist=305.5188
+  anchor center
 }
 
 charge path yellow {
@@ -76,6 +77,7 @@ charge path white {
   fly 728.8236
   hoist 506.7616
   at fly=439.7298 hoist=299.5269
+  anchor center
 }
 
 charge path green {
@@ -85,4 +87,5 @@ charge path green {
   hoist 506.7616
   hollow 9.9447
   at fly=439.7295 hoist=299.5297
+  anchor center
 }

@@ -24,6 +24,7 @@ charge star red {
   radius 73.8072
   rotate 0.0143
   at fly=180.8 hoist=105.79
+  anchor center
 }
 
 charge polygon red {

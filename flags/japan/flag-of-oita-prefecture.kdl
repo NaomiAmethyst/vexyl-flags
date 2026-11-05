@@ -19,6 +19,7 @@ charge ring pink {
   radius 140
   inner 105
   at fly=450 hoist=315
+  anchor center
 }
 
 charge rect white {

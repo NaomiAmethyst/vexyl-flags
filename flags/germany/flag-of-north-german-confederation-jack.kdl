@@ -22,6 +22,7 @@ charge path black {
   fly 60
   hoist 60
   at fly=67.5 hoist=45
+  anchor center
 }
 
 charge path white {
@@ -31,4 +32,5 @@ charge path white {
   hoist 57
   hollow 1.98
   at fly=67.5 hoist=45
+  anchor center
 }

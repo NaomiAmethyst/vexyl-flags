@@ -11,6 +11,7 @@ palette {
   red "#ce1126"
   yellow "#fcd116"
   green "#078930"
+  white "#ffffff"
 }
 proportion hoist=216 fly=360
 
@@ -20,19 +21,20 @@ charge rect yellow {
   fly 288
   hoist 144
   at fly=180 hoist=108
+  anchor center
 }
 
 charge rect green {
   fly 216
   hoist 72
   at fly=180 hoist=108
+  anchor center
 }
 
-charge svg {
-  at center
-  fly 360
-  hoist 216
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 216"><polygon transform="matrix(29.28888 6.493188 -6.493188 29.28888 180 78)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-29.28888 6.493188 6.493188 29.28888 180 78)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(16.118988 25.301743 -25.301743 16.118988 201.213203 86.786797)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-25.301743 -16.118988 -16.118988 25.301743 201.213203 86.786797)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-6.493188 29.28888 -29.28888 -6.493188 210 108)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-6.493188 -29.28888 -29.28888 6.493188 210 108)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-25.301743 16.118988 -16.118988 -25.301743 201.213203 129.213203)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(16.118988 -25.301743 -25.301743 -16.118988 201.213203 129.213203)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-29.28888 -6.493188 6.493188 -29.28888 180 138)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(29.28888 -6.493188 -6.493188 -29.28888 180 138)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-16.118988 -25.301743 25.301743 -16.118988 158.786797 129.213203)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(25.301743 16.118988 16.118988 -25.301743 158.786797 129.213203)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(6.493188 -29.28888 29.28888 6.493188 150 108)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(6.493188 29.28888 29.28888 -6.493188 150 108)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(25.301743 -16.118988 16.118988 25.301743 158.786797 86.786797)" points="0,0 0,1 .5,1" fill="#ffffff"/><polygon transform="matrix(-16.118988 25.301743 25.301743 16.118988 158.786797 86.786797)" points="0,0 0,1 .5,1" fill="#ffffff"/></svg>
-"""#
+charge star white {
+  radius 30
+  inner 12.15
+  points 8
+  at fly=180 hoist=108
+  anchor center
 }

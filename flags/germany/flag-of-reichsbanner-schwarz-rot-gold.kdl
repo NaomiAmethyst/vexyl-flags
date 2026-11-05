@@ -25,6 +25,7 @@ charge path blue {
   fly 1639.2621
   hoist 1651.9471
   at fly=2835.7286 hoist=1885.9117
+  anchor center
 }
 
 charge path white {
@@ -34,6 +35,7 @@ charge path white {
   hoist 1651.9471
   hollow 30
   at fly=2835.7286 hoist=1885.9117
+  anchor center
 }
 
 charge rect red {
@@ -52,12 +54,14 @@ charge ellipse red {
   fly 1525.9284
   hoist 1494.2221
   at fly=2834.6667 hoist=1890
+  anchor center
 }
 
 charge ellipse yellow {
   fly 1287.9084
   hoist 1323.3734
   at fly=2842.5131 hoist=1894.5769
+  anchor center
 }
 
 charge polygon red {
@@ -108,6 +112,7 @@ charge path brown {
   fly 1639.2626
   hoist 1651.9471
   at fly=2835.725 hoist=1888.5308
+  anchor center
 }
 
 charge path yellow {

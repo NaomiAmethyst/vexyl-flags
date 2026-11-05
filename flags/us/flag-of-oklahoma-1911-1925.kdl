@@ -9,6 +9,7 @@ meta {
 }
 palette {
   pink "#bf0a30"
+  white "#ffffff"
   blue "#002868"
 }
 proportion hoist=533.33 fly=800
@@ -22,13 +23,26 @@ charge path pink {
   at fly=401.4286 hoist=271.9014
 }
 
-charge svg {
-  at center
-  fly 800
-  hoist 533.33
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533.33"><path d="M 398.57145,74.856964 L 443.74118,209.73065 L 585.97189,211.01137 L 471.65762,295.6486 L 514.39129,431.31381 L 398.57144,348.74881 L 282.75159,431.3138 L 325.48527,295.64859 L 211.17099,211.01136 L 353.4017,209.73064 L 398.57145,74.856964 z " transform="matrix(0.921878 0 0 0.921786 32.56585 23.366367)" stroke="#002868" fill-opacity="1" stroke-opacity="1" fill="#ffffff" stroke-dasharray="none" stroke-linecap="butt" stroke-width="11.1734066" stroke-linejoin="miter" stroke-dashoffset="0" stroke-miterlimit="4" fill-rule="evenodd"/></svg>
-"""#
+charge star white {
+  radius 181.6419
+  inner 70.8403
+  at fly=400 hoist=274.0012
+  anchor center
+}
+
+charge polygon blue {
+  point fly=400 hoist=92.3684
+  point fly=441.641 hoist=216.6931
+  point fly=572.7603 hoist=217.8736
+  point fly=467.3765 hoist=295.891
+  point fly=506.7718 hoist=420.9452
+  point fly=400 hoist=344.838
+  point fly=293.2283 hoist=420.9452
+  point fly=332.6235 hoist=295.891
+  point fly=227.2397 hoist=217.8736
+  point fly=358.359 hoist=216.6931
+  point fly=400 hoist=92.3684
+  hollow 10.3
 }
 
 charge path blue {

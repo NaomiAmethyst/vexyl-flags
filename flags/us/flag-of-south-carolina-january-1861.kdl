@@ -19,6 +19,7 @@ charge ellipse white {
   fly 520.4441
   hoist 778.4794
   at fly=673.2283 hoist=444.5138
+  anchor center
 }
 
 charge path white {
@@ -36,4 +37,5 @@ charge path orange {
   hoist 587.9892
   evenodd
   at fly=674.1542 hoist=442.5272
+  anchor center
 }

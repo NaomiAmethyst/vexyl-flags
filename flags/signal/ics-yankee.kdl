@@ -8,19 +8,46 @@ meta {
 }
 palette {
   red "#ff0000"
+  yellow "#ffff00"
   black "#000000"
 }
 proportion hoist=600 fly=600
 
 field red
 
-charge svg {
-  at center
-  fly 600
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><path d="M0,0 600,600" stroke="#ffff00" stroke-dasharray="84,86" stroke-width="850" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+charge polygon yellow {
+  point fly=0 hoist=118.7939
+  point fly=118.7939 hoist=0
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon yellow {
+  point fly=0 hoist=359.2102
+  point fly=359.2102 hoist=0
+  point fly=240.4163 hoist=0
+  point fly=0 hoist=240.4163
+}
+
+charge polygon yellow {
+  point fly=0 hoist=599.6266
+  point fly=599.6266 hoist=0
+  point fly=480.8326 hoist=0
+  point fly=0 hoist=480.8326
+}
+
+charge polygon yellow {
+  point fly=240.0429 hoist=600
+  point fly=600 hoist=240.0429
+  point fly=600 hoist=121.2489
+  point fly=121.2489 hoist=600
+}
+
+charge polygon yellow {
+  point fly=480.4592 hoist=600
+  point fly=600 hoist=480.4592
+  point fly=600 hoist=361.6652
+  point fly=361.6652 hoist=600
 }
 
 charge polygon black {

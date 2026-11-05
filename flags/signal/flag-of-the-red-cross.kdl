@@ -19,10 +19,12 @@ charge rect red {
   fly 66
   hoist 20
   at fly=75 hoist=50
+  anchor center
 }
 
 charge rect red {
   fly 20
   hoist 66
   at fly=75 hoist=50
+  anchor center
 }

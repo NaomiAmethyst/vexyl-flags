@@ -22,6 +22,7 @@ charge path red {
   fly 439.2305
   hoist 439.2305
   at fly=600 hoist=400
+  anchor center
 }
 
 charge path blue {
@@ -30,5 +31,6 @@ charge path blue {
   fly 297.6136
   hoist 321.0687
   at fly=600.0043 hoist=388.3781
+  anchor center
   opacity 0.9882
 }

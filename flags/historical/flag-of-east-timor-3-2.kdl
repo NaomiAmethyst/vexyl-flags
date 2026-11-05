@@ -11,6 +11,7 @@ palette {
   red "#dc241f"
   orange "#ffc726"
   black "#000000"
+  white "#ffffff"
 }
 proportion hoist=12 fly=18
 
@@ -24,11 +25,9 @@ chevrons black {
   depth 6
 }
 
-charge svg {
-  at center
-  fly 18
-  hoist 12
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 12"><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(0.671 -0.335 0.335 0.671 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(-0.671 0.335 0.335 0.671 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(0.525954 0.534638 -0.534638 0.525954 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(-0.525954 -0.534638 -0.534638 0.525954 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(-0.111254 -0.74168 0.74168 -0.111254 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(0.111254 0.74168 0.74168 -0.111254 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(-0.345859 0.665563 -0.665563 -0.345859 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(0.345859 -0.665563 -0.665563 -0.345859 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(-0.739864 -0.123261 0.123261 -0.739864 2.25 6)"/><path d="M0-2.1l-.65 2L.3.2z" fill="#ffffff" transform="matrix(0.739864 0.123261 0.123261 -0.739864 2.25 6)"/></svg>
-"""#
+charge star white {
+  radius 1.5751
+  inner 0.5986
+  rotate -26.532
+  at fly=2.25 hoist=6
 }

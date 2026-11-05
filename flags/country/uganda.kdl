@@ -45,6 +45,7 @@ panel {
 charge disc white {
   radius 93.5
   at fly=450 hoist=300
+  anchor center
 }
 
 charge path red {
@@ -104,6 +105,7 @@ charge path black {
   fly 80.8521
   hoist 167.343
   at fly=441.3924 hoist=304.4017
+  anchor center
 }
 
 charge path black {
@@ -113,6 +115,7 @@ charge path black {
   hoist 167.343
   hollow 1
   at fly=441.3924 hoist=304.4017
+  anchor center
 }
 
 charge path grey {

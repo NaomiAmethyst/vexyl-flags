@@ -19,4 +19,5 @@ bars orange white green
 charge disc orange {
   radius 85
   at fly=350 hoist=300
+  anchor center
 }

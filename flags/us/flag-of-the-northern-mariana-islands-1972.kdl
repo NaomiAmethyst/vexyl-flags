@@ -22,6 +22,7 @@ charge path grey {
   fly 200
   hoist 282
   at fly=487.3 hoist=250
+  anchor center
 }
 
 charge polygon white {

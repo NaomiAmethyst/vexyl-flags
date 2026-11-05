@@ -54,4 +54,5 @@ charge path blue {
   fly 1000
   hoist 1000
   at fly=3000 hoist=2000
+  anchor center
 }

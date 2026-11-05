@@ -22,6 +22,7 @@ charge rect white {
   fly 244.2857
   hoist 53.5714
   at fly=160.6143 hoist=113.2189
+  anchor center
 }
 
 charge polygon black {

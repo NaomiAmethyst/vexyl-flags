@@ -97,6 +97,7 @@ charge ellipse white {
   fly 8
   hoist 12
   at fly=120 hoist=80
+  anchor center
 }
 
 charge path white {

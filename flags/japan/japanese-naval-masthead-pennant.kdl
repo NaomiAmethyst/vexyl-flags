@@ -22,13 +22,28 @@ charge polygon white {
   point fly=670 hoist=0
 }
 
-charge svg {
-  at center
-  fly 12000
-  hoist 300
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12000 300"><defs><clipPath id="id0"><path d="M 670,0 0,0 0,300 670,300 12000,153 12000,145 670,0 z"></path></clipPath></defs><g clip-path="url(#id0)" transform="matrix(1 0 0 1 0 0)"><g><polygon points="3.40276,-25.7657 51.3142,-73.6772 226.99,149.91 " fill="#bc002d"></polygon><polygon points="3.40276,325.766 51.3142,373.677 226.99,150.09 " fill="#bc002d"></polygon><polygon points="446.59,325.766 398.679,373.677 223.003,150.09 " fill="#bc002d"></polygon><polygon points="446.59,-25.7657 398.679,-73.6772 223.003,149.91 " fill="#bc002d"></polygon></g></g></svg>
-"""#
+pile pink {
+  from top
+  base 36.1955 109.2035
+  tip 226.99 149.91
+}
+
+pile pink {
+  from bottom
+  base 36.1958 109.2034
+  tip 226.99 149.91
+}
+
+pile pink {
+  from bottom
+  base 340.7898 413.797
+  tip 223.003 149.91
+}
+
+pile pink {
+  from top
+  base 340.7897 413.7973
+  tip 223.003 149.91
 }
 
 charge disc pink {

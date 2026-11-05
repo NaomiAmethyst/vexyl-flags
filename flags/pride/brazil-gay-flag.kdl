@@ -27,6 +27,7 @@ charge lozenge yellow-2 {
   fly 594
   hoist 379.3012
   at fly=388 hoist=239.4836
+  anchor center
 }
 
 charge path blue-2 {

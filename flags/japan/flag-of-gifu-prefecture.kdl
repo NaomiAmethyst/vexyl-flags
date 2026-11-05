@@ -22,6 +22,7 @@ charge path green {
   hoist 335.7303
   hollow 24.2697
   at fly=450 hoist=300.0369
+  anchor center
 }
 
 charge polygon green {

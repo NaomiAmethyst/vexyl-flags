@@ -20,6 +20,7 @@ charge lozenge white {
   fly 197.5556
   hoist 141.1111
   at fly=127 hoist=84.6667
+  anchor center
 }
 
 charge path red {
@@ -28,4 +29,5 @@ charge path red {
   fly 45.5331
   hoist 60.7161
   at fly=130.011 hoist=85.3914
+  anchor center
 }

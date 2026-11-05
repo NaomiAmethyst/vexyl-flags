@@ -18,4 +18,5 @@ charge star yellow {
   radius 179.9998
   inner 89.9999
   at fly=450 hoist=299.9998
+  anchor center
 }

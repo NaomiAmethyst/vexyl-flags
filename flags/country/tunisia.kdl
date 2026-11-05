@@ -18,11 +18,13 @@ field red
 charge disc white {
   radius 20
   at fly=60 hoist=40
+  anchor center
 }
 
 charge disc red {
   radius 15
   at fly=60 hoist=40
+  anchor center
 }
 
 charge disc white {

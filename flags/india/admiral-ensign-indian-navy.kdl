@@ -27,11 +27,13 @@ charge rect red {
 charge disc blue {
   radius 90
   at fly=337.5 hoist=225
+  anchor center
 }
 
 charge disc white {
   radius 79.3548
   at fly=337.5 hoist=225
+  anchor center
 }
 
 charge disc blue {
@@ -349,4 +351,5 @@ charge path blue {
 charge disc blue {
   radius 15.4839
   at fly=337.5 hoist=225
+  anchor center
 }

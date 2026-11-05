@@ -21,6 +21,7 @@ bars red white {
 charge disc blue {
   radius 529.3463
   at fly=1200 hoist=800
+  anchor center
 }
 
 charge star blue {

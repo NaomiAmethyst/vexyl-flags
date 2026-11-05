@@ -30,6 +30,7 @@ charge path black {
   hoist 499.22
   evenodd
   at fly=450 hoist=350
+  anchor center
 }
 
 panel {

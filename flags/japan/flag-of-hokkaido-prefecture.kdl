@@ -9,16 +9,73 @@ meta {
 }
 palette {
   blue "#2f304e"
+  white "#ffffff"
+  red "#d13a43"
 }
 proportion hoist=840 fly=1260
 
 field blue
 
-charge svg {
-  at center
-  fly 1260
-  hoist 840
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 840"><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(1 0 0 1 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(0.62349 0.781831 -0.781831 0.62349 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(-0.222521 0.974928 -0.974928 -0.222521 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(-0.900969 0.433884 -0.433884 -0.900969 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(-0.900969 -0.433884 0.433884 -0.900969 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(-0.222521 -0.974928 0.974928 -0.222521 630 420)"/><path d="M0-265.044292l60-28.894477V0H-60V-293.938769z" fill="#ffffff" transform="matrix(0.62349 -0.781831 0.781831 0.62349 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(1 0 0 1 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(0.62349 0.781831 -0.781831 0.62349 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(-0.222521 0.974928 -0.974928 -0.222521 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(-0.900969 0.433884 -0.433884 -0.900969 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(-0.900969 -0.433884 0.433884 -0.900969 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(-0.222521 -0.974928 0.974928 -0.222521 630 420)"/><path d="M0-265.044292L32.703114 0H-32.703114z" fill="#d13a43" transform="matrix(0.62349 -0.781831 0.781831 0.62349 630 420)"/></svg>
-"""#
+charge polygon white {
+  point fly=630 hoist=154.9557
+  point fly=690 hoist=126.0612
+  point fly=690 hoist=420
+  point fly=570 hoist=420
+  point fly=570 hoist=126.0612
+}
+
+charge polygon white {
+  point fly=837.22 hoist=254.7476
+  point fly=897.22 hoist=283.6421
+  point fly=667.4094 hoist=466.9099
+  point fly=592.5906 hoist=373.0901
+  point fly=822.4012 hoist=189.8223
+}
+
+charge polygon white {
+  point fly=888.3991 hoist=478.9779
+  point fly=903.2179 hoist=543.9032
+  point fly=616.6487 hoist=478.4957
+  point fly=643.3513 hoist=361.5043
+  point fly=929.9204 hoist=426.9119
+}
+
+charge polygon white {
+  point fly=744.9984 hoist=658.7967
+  point fly=703.4771 hoist=710.8627
+  point fly=575.9419 hoist=446.033
+  point fly=684.0581 hoist=393.967
+  point fly=811.5934 hoist=658.7967
+}
+
+charge polygon white {
+  point fly=515.0016 hoist=658.7967
+  point fly=448.4066 hoist=658.7967
+  point fly=575.9419 hoist=393.967
+  point fly=684.0581 hoist=446.033
+  point fly=556.5229 hoist=710.8627
+}
+
+charge polygon white {
+  point fly=371.6009 hoist=478.9779
+  point fly=330.0796 hoist=426.9119
+  point fly=616.6487 hoist=361.5043
+  point fly=643.3513 hoist=478.4957
+  point fly=356.7821 hoist=543.9032
+}
+
+charge polygon white {
+  point fly=422.78 hoist=254.7476
+  point fly=437.5988 hoist=189.8223
+  point fly=667.4094 hoist=373.0901
+  point fly=592.5906 hoist=466.9099
+  point fly=362.78 hoist=283.6421
+}
+
+charge star red {
+  radius 265.0443
+  inner 59.635
+  points 7
+  at fly=630 hoist=420
+  anchor center
 }

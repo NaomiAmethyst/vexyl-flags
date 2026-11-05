@@ -23,4 +23,5 @@ charge path red {
   hoist 6.364
   hollow 2
   at fly=22.5 hoist=14.6464
+  anchor center
 }

@@ -16,13 +16,65 @@ proportion hoist=738 fly=1107
 
 field pink
 
-charge svg {
-  at center
-  fly 1107
-  hoist 738
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1107 738"><defs><clipPath id="canton"><path d="M0,0h60.5v60.5h-60.5z"></path></clipPath></defs><g clip-path="url(#canton)" transform="matrix(8 0 0 8 0 0)"><path d="M0,0L60,60M0,60L60,0" stroke="#ffffff" stroke-width="12"></path><path d="M0,0L60,60M0,60L60,0" stroke="#00205b" stroke-width="9"></path><g><g transform="matrix(1 0 0 1 6 6)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 14 14)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 22 22)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 38 38)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 46 46)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 54 54)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g></g><g transform="matrix(-1 0 0 1 60 0)"><g><g transform="matrix(1 0 0 1 6 6)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 14 14)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 22 22)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 38 38)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 46 46)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g><g transform="matrix(1 0 0 1 54 54)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g></g></g><g transform="matrix(1 0 0 1 30 30)"><path d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z" transform="scale(3.5)" fill="#ffffff"></path></g></g></svg>
-"""#
+charge polygon white {
+  point fly=0 hoist=67.8823
+  point fly=416.1177 hoist=484
+  point fly=476 hoist=484
+  point fly=484 hoist=476
+  point fly=484 hoist=416.1177
+  point fly=67.8823 hoist=0
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon white {
+  point fly=63.8823 hoist=484
+  point fly=484 hoist=63.8823
+  point fly=484 hoist=4
+  point fly=480 hoist=0
+  point fly=412.1177 hoist=0
+  point fly=0 hoist=412.1177
+  point fly=0 hoist=480
+  point fly=4 hoist=484
+}
+
+charge polygon blue {
+  point fly=0 hoist=50.9117
+  point fly=433.0883 hoist=484
+  point fly=476 hoist=484
+  point fly=484 hoist=476
+  point fly=484 hoist=433.0883
+  point fly=50.9117 hoist=0
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon blue {
+  point fly=46.9117 hoist=484
+  point fly=484 hoist=46.9117
+  point fly=484 hoist=4
+  point fly=480 hoist=0
+  point fly=429.0883 hoist=0
+  point fly=0 hoist=429.0883
+  point fly=0 hoist=480
+  point fly=4 hoist=484
+}
+
+charge star white {
+  radius 28.0001
+  at fly=48 hoist=48
+  at fly=112 hoist=112
+  at fly=176 hoist=176
+  at fly=304 hoist=304
+  at fly=368 hoist=368
+  at fly=432 hoist=432
+  at fly=432 hoist=48
+  at fly=368 hoist=112
+  at fly=304 hoist=176
+  at fly=176 hoist=304
+  at fly=112 hoist=368
+  at fly=48 hoist=432
+  at fly=240 hoist=240
 }
 
 charge polygon white {

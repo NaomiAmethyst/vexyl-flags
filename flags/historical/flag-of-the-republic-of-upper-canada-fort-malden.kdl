@@ -18,11 +18,18 @@ bars blue white red {
   along hoist
 }
 
-charge svg {
-  at center
-  fly 900
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><path d="m 93.750007,450.90002 a 56.250006,56.250006 0 0 0 -56.25001,56.25003 56.250006,56.250006 0 0 0 56.25001,56.24997 56.250006,56.250006 0 0 0 41.250003,-18.00661 42.187504,42.187504 0 0 1 -17.81251,3.94413 42.187504,42.187504 0 0 1 -42.187503,-42.18749 42.187504,42.187504 0 0 1 42.187503,-42.18752 42.187504,42.187504 0 0 1 17.81251,3.94499 56.250006,56.250006 0 0 0 -41.250003,-18.0075 z" stroke="#ffffff" fill-opacity="1" fill="#ffffff" stroke-dasharray="none" stroke-width="0" stroke-miterlimit="4" transform="matrix(1 0 0 1 0 0)"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(17.382206 -53.49693 53.49693 17.382206 37.500004 93.75001)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(17.382206 53.49693 53.49693 -17.382206 37.500004 93.75001)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(56.250002 -0 0 56.250002 76.367799 40.253079)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(-45.507207 33.062921 33.062921 45.507207 76.367799 40.253079)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(-45.507207 -33.062921 33.062921 -45.507207 76.367799 147.246941)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(56.250002 0 0 -56.250002 76.367799 147.246941)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(17.382206 53.49693 -53.49693 17.382206 139.257214 60.687088)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(-45.507207 -33.062921 -33.062921 45.507207 139.257214 60.687088)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(-45.507207 33.062921 -33.062921 -45.507207 139.257214 126.812932)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(17.382206 -53.49693 -53.49693 -17.382206 139.257214 126.812932)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(17.382206 -53.49693 53.49693 17.382206 37.499996 300)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(17.382206 53.49693 53.49693 -17.382206 37.499996 300)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(56.250002 -0 0 56.250002 76.367791 246.503069)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(-45.507207 33.062921 33.062921 45.507207 76.367791 246.503069)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(-45.507207 -33.062921 33.062921 -45.507207 76.367791 353.496931)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(56.250002 0 0 -56.250002 76.367791 353.496931)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(17.382206 53.49693 -53.49693 17.382206 139.257206 266.937078)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(-45.507207 -33.062921 -33.062921 45.507207 139.257206 266.937078)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(-45.507207 33.062921 -33.062921 -45.507207 139.257206 333.062922)" fill-opacity="1" fill="#ffffff"/><path d="M 0,0 V 1 H 0.5 Z" transform="matrix(17.382206 -53.49693 -53.49693 -17.382206 139.257206 333.062922)" fill-opacity="1" fill="#ffffff"/></svg>
-"""#
+charge path white {
+  d "M93.75 450.9A56.25 56.25 0 0 0 37.5 507.15A56.25 56.25 0 0 0 93.75 563.4A56.25 56.25 0 0 0 135 545.3934A42.1875 42.1875 0 0 1 117.1875 549.3375A42.1875 42.1875 0 0 1 75 507.15A42.1875 42.1875 0 0 1 117.1875 464.9625A42.1875 42.1875 0 0 1 135 468.9075A56.25 56.25 0 0 0 93.75 450.9Z"
+  box "-18.75 394.65 210 225"
+  fly 210
+  hoist 225
+  at fly=86.25 hoist=507.15
+}
+
+charge star white {
+  radius 56.25
+  inner 21.375
+  rotate -18
+  at fly=93.75 hoist=93.75
+  at fly=93.75 hoist=300
 }

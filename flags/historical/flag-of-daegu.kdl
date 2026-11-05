@@ -21,4 +21,5 @@ charge path white {
   fly 700
   hoist 566.5
   at fly=600 hoist=399.95
+  anchor center
 }

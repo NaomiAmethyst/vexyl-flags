@@ -19,4 +19,5 @@ charge star white {
   radius 194.2938
   rotate 0.0178
   at fly=474.35 hoist=346.06
+  anchor center
 }

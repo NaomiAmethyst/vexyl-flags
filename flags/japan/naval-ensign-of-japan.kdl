@@ -91,12 +91,20 @@ pile white {
   tip 354.9761 291.3213
 }
 
-charge path white {
-  d "M338.7395 300L900 470.2565L900 355.2793ZM365.5511 300L0 336.0036L0 410.8887ZL0 600L0 495.3911Z"
-  box "0 300 900 300"
-  fly 900
-  hoist 300
-  at fly=450 hoist=450
+pile white {
+  from fly
+  base 355.2793 470.2565
+  tip 300 561.2605
+}
+
+pile white {
+  base 336.0036 410.8887
+  tip 300 365.5511
+}
+
+pile white {
+  base 495.3911 600
+  tip 300 365.5511
 }
 
 charge disc pink {

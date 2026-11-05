@@ -19,6 +19,7 @@ charge ring blue {
   radius 14.75
   inner 13.25
   at fly=50 hoist=25
+  anchor center
 }
 
 charge rect blue {
@@ -48,6 +49,7 @@ charge rect blue {
   fly 1.5
   hoist 40
   at fly=50 hoist=25
+  anchor center
 }
 
 charge polygon blue {

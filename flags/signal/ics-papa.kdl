@@ -18,4 +18,5 @@ charge rect white {
   fly 1
   hoist 1
   at fly=1.5 hoist=1.5
+  anchor center
 }

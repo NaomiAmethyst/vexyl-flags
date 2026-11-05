@@ -20,6 +20,7 @@ bars blue white red
 charge star red {
   radius 152.285
   at fly=499.9996 hoist=250.0009
+  anchor center
 }
 
 charge polygon yellow {

@@ -29,13 +29,58 @@ charge polygon white {
   point fly=-107.3313 hoist=2185.3375
 }
 
-charge svg {
-  at center
-  fly 9600
-  hoist 4800
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9600 4800"><defs><clipPath id="c"><path d="m0 0v1.5h8V4zm6 0H3v4h-5z"></path></clipPath></defs><path d="m0 0 6 3M0 3l6-3" stroke="#c8102e" fill="#012169" stroke-width=".4" clip-path="url(#c)" transform="matrix(800 0 0 800 0 0)"/></svg>
-"""#
+charge polygon red {
+  point fly=0 hoist=178.8854
+  point fly=2042.2291 hoist=1200
+  point fly=2400 hoist=1200
+  point fly=0 hoist=0
+  point fly=0 hoist=0
+}
+
+charge polygon red {
+  point fly=4800 hoist=2400
+  point fly=4871.5542 hoist=2256.8916
+  point fly=2757.7709 hoist=1200
+  point fly=2400 hoist=1200
+}
+
+charge polygon red {
+  point fly=2578.8854 hoist=1110.5573
+  point fly=2400 hoist=1021.1146
+  point fly=2400 hoist=1200
+}
+
+charge polygon red {
+  point fly=2221.1146 hoist=1289.4427
+  point fly=2400 hoist=1378.8854
+  point fly=2400 hoist=1200
+}
+
+charge polygon red {
+  point fly=2221.1146 hoist=1110.5573
+  point fly=2042.2291 hoist=1200
+  point fly=2400 hoist=1200
+}
+
+charge polygon red {
+  point fly=2578.8854 hoist=1289.4427
+  point fly=2757.7709 hoist=1200
+  point fly=2400 hoist=1200
+}
+
+charge polygon red {
+  point fly=4800 hoist=0
+  point fly=4800 hoist=0
+  point fly=4442.2291 hoist=0
+  point fly=2400 hoist=1021.1146
+  point fly=2400 hoist=1200
+}
+
+charge polygon red {
+  point fly=71.5542 hoist=2543.1084
+  point fly=2400 hoist=1378.8854
+  point fly=2400 hoist=1200
+  point fly=0 hoist=2400
 }
 
 charge rect white {

@@ -20,10 +20,12 @@ bars black white black {
 charge disc white {
   radius 225.23
   at fly=450 hoist=350
+  anchor center
 }
 
 charge ring black {
   radius 230.23
   inner 220.23
   at fly=450 hoist=350
+  anchor center
 }

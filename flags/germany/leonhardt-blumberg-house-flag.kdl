@@ -56,4 +56,5 @@ charge rect white {
   fly 29.9659
   hoist 29.9649
   at fly=213.4983 hoist=142.3334
+  anchor center
 }

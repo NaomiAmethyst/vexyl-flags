@@ -123,13 +123,13 @@ charge path blue {
   at fly=450 hoist=303.42
 }
 
-charge svg {
-  at center
-  fly 900
-  hoist 700
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700"><path d="M460.71 319.47A10.71 10.71 0 0 1 450 330.18a10.71 10.71 0 0 1-10.72-10.71A10.71 10.71 0 0 1 450 308.76a10.71 10.71 0 0 1 10.71 10.71z" stroke="#005eb8" fill="none" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/></svg>
-"""#
+charge path blue {
+  d "M460.71 319.47A10.71 10.71 0 0 1 450 330.18A10.71 10.71 0 0 1 439.28 319.47A10.71 10.71 0 0 1 450 308.76A10.71 10.71 0 0 1 460.71 319.47Z"
+  box "428.57 298.05 42.85 42.84"
+  fly 42.85
+  hoist 42.84
+  hollow 6
+  at fly=449.995 hoist=319.47
 }
 
 charge rect blue {

@@ -37,6 +37,7 @@ charge rect black {
   fly 66.667
   hoist 100
   at fly=449.9995 hoist=300
+  anchor center
 }
 
 charge polygon black {
@@ -67,13 +68,82 @@ charge rect blue {
   at fly=365.666 hoist=300
 }
 
-charge svg {
-  at center
-  fly 900
-  hoist 600
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600"><defs><clipPath id="b"><path d="M22.5 15H0v15zm0 0v15H45zm0 0H45V0zm0 0V0H0z"></path></clipPath><clipPath id="a"><path d="M0 0v30h45V0z"></path></clipPath></defs><path d="M0 0l45 30m0-30L0 30" transform="matrix(2.22222 0 0 2.22222 315.666 266.667)" stroke="#ffffff" stroke-width="6" clip-path="url(#a)"/><path d="M0 0l45 30m0-30L0 30" transform="matrix(2.22222 0 0 2.22222 315.666 266.667)" stroke="#ce1126" stroke-width="4" clip-path="url(#b)"/></svg>
-"""#
+charge polygon white {
+  point fly=315.666 hoist=274.6793
+  point fly=403.6474 hoist=333.3336
+  point fly=415.6659 hoist=333.3336
+  point fly=415.6659 hoist=333.3336
+  point fly=415.6659 hoist=325.3213
+  point fly=327.6845 hoist=266.667
+  point fly=315.666 hoist=266.667
+  point fly=315.666 hoist=266.667
+}
+
+charge polygon white {
+  point fly=403.6474 hoist=266.667
+  point fly=315.666 hoist=325.3213
+  point fly=315.666 hoist=333.3336
+  point fly=315.666 hoist=333.3336
+  point fly=327.6845 hoist=333.3336
+  point fly=415.6659 hoist=274.6793
+  point fly=415.6659 hoist=266.667
+  point fly=415.6659 hoist=266.667
+}
+
+charge polygon red {
+  point fly=357.6536 hoist=300.0003
+  point fly=361.6598 hoist=302.6711
+  point fly=365.666 hoist=300.0003
+}
+
+charge polygon red {
+  point fly=365.666 hoist=305.3419
+  point fly=407.6536 hoist=333.3336
+  point fly=415.6659 hoist=333.3336
+  point fly=415.6659 hoist=333.3336
+  point fly=365.666 hoist=300.0003
+}
+
+charge polygon red {
+  point fly=365.666 hoist=300.0003
+  point fly=373.6783 hoist=300.0003
+  point fly=369.6721 hoist=297.3295
+}
+
+charge polygon red {
+  point fly=365.666 hoist=300.0003
+  point fly=365.666 hoist=294.6587
+  point fly=323.6783 hoist=266.667
+  point fly=315.666 hoist=266.667
+  point fly=315.666 hoist=266.667
+}
+
+charge polygon red {
+  point fly=357.6536 hoist=300.0003
+  point fly=315.666 hoist=327.992
+  point fly=315.666 hoist=333.3336
+  point fly=315.666 hoist=333.3336
+  point fly=365.666 hoist=300.0003
+}
+
+charge polygon red {
+  point fly=365.666 hoist=300.0003
+  point fly=365.666 hoist=305.3419
+  point fly=369.6721 hoist=302.6711
+}
+
+charge polygon red {
+  point fly=365.666 hoist=300.0003
+  point fly=373.6783 hoist=300.0003
+  point fly=415.6659 hoist=272.0086
+  point fly=415.6659 hoist=266.667
+  point fly=415.6659 hoist=266.667
+}
+
+charge polygon red {
+  point fly=365.666 hoist=294.6587
+  point fly=361.6598 hoist=297.3295
+  point fly=365.666 hoist=300.0003
 }
 
 charge rect white {
@@ -104,6 +174,7 @@ charge rect white {
   fly 66.667
   hoist 100
   at fly=449.9995 hoist=300
+  anchor center
 }
 
 charge rect red {

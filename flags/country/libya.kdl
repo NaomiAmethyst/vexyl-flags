@@ -22,11 +22,13 @@ bars red black green {
 charge disc white {
   radius 60
   at fly=480 hoist=240
+  anchor center
 }
 
 charge disc black {
   radius 52.132
   at fly=492.132 hoist=240
+  anchor center
 }
 
 charge star white {

@@ -20,6 +20,7 @@ charge ellipse green {
   fly 740
   hoist 360
   at fly=450 hoist=300
+  anchor center
 }
 
 charge disc yellow {
@@ -35,6 +36,7 @@ charge disc green {
 charge disc yellow {
   radius 100
   at fly=458 hoist=300
+  anchor center
 }
 
 charge disc green {

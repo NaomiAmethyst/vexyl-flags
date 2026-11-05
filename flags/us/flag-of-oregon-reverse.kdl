@@ -21,4 +21,5 @@ charge path yellow {
   fly 130.5455
   hoist 58.1726
   at fly=180.2581 hoist=120.2285
+  anchor center
 }
