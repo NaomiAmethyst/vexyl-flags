@@ -1,17 +1,33 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law: the five stripes of the Schedule, Part II, as 24ths of the depth,
+// read in a scan of the 1966 statute volume: azure blue 9, white 1, black 4, white 1,
+// azure blue 9. The law gives no length and no shade.
+// From elsewhere: 2:3 is FOTW's construction sheet (24:36). Pantone 15-4225 TCX is the
+// Botswana Bureau of Standards' BOS 207:2015, as FOTW and Wikipedia report it; the
+// standard wasn't read. The hex is Wikipedia's, which FOTW notes has no stated source,
+// and it agrees with third-party conversions of that Pantone. Not checked against the
+// amended Act, whose official site is paywalled.
 vexyl 1
 meta {
-  name "Flag of Botswana"
-  encoder "SKopp, Gabbe, Madden"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Botswana.svg"
+  name "Botswana"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://sherloc.unodc.org/cld/uploads/res/document/immigration-consolidation-law--1966_html/Botswana_Statute_Law_1966.pdf"
+  source "https://www.crwflags.com/fotw/flags/bw.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Botswana"
+  note "The law says azure blue with no shade, and sets no length. 2:3 is from FOTW, and the blue from the Bureau of Standards' Pantone 15-4225 TCX, as reported by FOTW and Wikipedia, with Wikipedia's hex for it."
+  note "This reads the law as enacted in 1966. Later amendments weren't read."
+  law "Botswana Emblems Law, 1966" {
+    source "https://sherloc.unodc.org/cld/uploads/res/document/immigration-consolidation-law--1966_html/Botswana_Statute_Law_1966.pdf"
+  }
 }
 palette {
-  blue "#6da9d2"
+  blue "#6da9d2" {
+    pantone "15-4225 TCX"
+  }
   white "#ffffff"
   black "#000000"
 }
-proportion hoist=2 fly=3
+proportion hoist=24 fly=36
 
 bars blue white black white blue {
   ratio 9 1 4 1 9

@@ -18,7 +18,7 @@ charge svg {
   fly 1.3333
   hoist 1
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2835 2126"><path d="M 0.25 -5.00 L 2836.00 2120.56 Z M 0.25 -5.00 " stroke-linejoin="round" stroke-width="87.21" clip-rule="evenodd" fill="#ffffff" stroke="#ffffff" stroke-linecap="round" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/><path d="M 2834.75 2.50 L -1.00 2128.06 Z M 2834.75 2.50 " stroke-linejoin="round" stroke-width="87.21" clip-rule="evenodd" fill="#ffffff" stroke="#ffffff" stroke-linecap="round" stroke-miterlimit="10" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2835 2126"><path d="M 0.25 -5.00 L 2836.00 2120.56 Z M 0.25 -5.00 " clip-rule="evenodd" fill="#ffffff" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="87.21" transform="matrix(1 0 0 1 0 0)"/><path d="M 2834.75 2.50 L -1.00 2128.06 Z M 2834.75 2.50 " clip-rule="evenodd" fill="#ffffff" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="87.21" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 

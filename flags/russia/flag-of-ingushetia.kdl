@@ -28,6 +28,6 @@ charge svg {
   fly 3
   hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><path d="M300 166a26 26 0 1 0-20.5-42M252.21 247.1a26 26 0 1 0-26.15 38.86m122.31-41.94a26 26 0 1 0 46.51 3.18" stroke-width="20" fill="none" stroke="#d81e05" stroke-linecap="round" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"><path d="M300 166a26 26 0 1 0-20.5-42M252.21 247.1a26 26 0 1 0-26.15 38.86m122.31-41.94a26 26 0 1 0 46.51 3.18" fill="none" stroke="#d81e05" stroke-linecap="round" stroke-width="20" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }

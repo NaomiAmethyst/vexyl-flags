@@ -1,0 +1,41 @@
+// From the law: only the colors. Article 193 of the constitution, read directly, says
+// "rouge, jaune et noire", with no order, shape or shade.
+// From elsewhere: 13:15, reported by Wikipedia from the Official Guide to Belgian
+// Protocol and by FOTW from a 19th-century foreign ministry directive of 2.60 by 3 m.
+// The black, yellow, red order from the hoist is a Navy Department order of 15 September
+// 1831, as FOTW reports it. Pantone and CMYK are the protocol guide as FOTW reports it,
+// and the hex values are Wikipedia's, as FOTW quotes them. The guide itself wasn't found.
+vexyl 1
+meta {
+  name "Belgium"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.senate.be/doc/const_fr.html"
+  source "https://www.crwflags.com/fotw/flags/be.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Belgium"
+  note "The constitution names only the colors. The proportion, order and shades aren't from a law that was read: 13:15 and the shades are the Official Guide to Belgian Protocol, as reported by FOTW and Wikipedia, and the guide wasn't found."
+  note "The constitution lists \"red, yellow and black\", the reverse of the flag's order from the hoist, which FOTW traces to a Navy Department order of 15 September 1831."
+  note "Most Belgian flags in use are 2:3. Those aren't drawn here, since no source read gives a rule for them."
+  law "Constitution of Belgium, Article 193" {
+    source "https://www.senate.be/doc/const_fr.html"
+  }
+}
+palette {
+  black "#000000" {
+    pantone "Black"
+    cmyk 0 0 0 100
+  }
+  yellow "#fdda24" {
+    pantone "115"
+    cmyk 0 8.5 79 0
+  }
+  red "#ef3340" {
+    pantone "032"
+    cmyk 0 94 87 0
+  }
+}
+proportion hoist=13 fly=15
+
+bars black yellow red {
+  along hoist
+}

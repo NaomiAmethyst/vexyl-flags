@@ -359,7 +359,7 @@ charge svg {
   fly 3
   hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.125 158.75"><defs><clipPath id="A"><path d="M-1515.524 1207.15l680.625-4.537v58.987l-685.162-4.537z" stroke-opacity="1" stroke-linejoin="miter" stroke-width="1" fill="none" stroke="#000000"></path></clipPath></defs><path transform="matrix(0.076078 0 0 0.027404 256.330311 61.041527)" d="M-1155.563 1261.044l-363.71.937v-28.808-28.808l342.842-.816 342.842-.816 21.282 28.17c11.705 15.493 21.096 28.403 20.867 28.688s-164.084.94-364.124 1.455z" fill="#07038d" clip-path="url(#A)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.125 158.75"><defs><clipPath id="A"><path d="M-1515.524 1207.15l680.625-4.537v58.987l-685.162-4.537z" fill="none" stroke="#000000" stroke-linejoin="miter" stroke-opacity="1" stroke-width="1"></path></clipPath></defs><path d="M-1155.563 1261.044l-363.71.937v-28.808-28.808l342.842-.816 342.842-.816 21.282 28.17c11.705 15.493 21.096 28.403 20.867 28.688s-164.084.94-364.124 1.455z" transform="matrix(0.076078 0 0 0.027404 256.330311 61.041527)" clip-path="url(#A)" fill="#07038d"/></svg>
 """#
 }
 

@@ -1,13 +1,35 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law: Article 8a of the constitution and section 3 of the Wappengesetz 1984
+// give three equal horizontal stripes, red, white and red, and no shade.
+// Not from the law: 2:3. The Wappengesetz sets 2:3 only for the service flag with the
+// arms, and FOTW quotes Peter Diem that lawmakers declined to fix the civil flag's
+// ratio. FOTW also reports 2:3 for the flag at sea (Seeschiffahrtsgesetz, not read).
+// Pantone 186 C is the Defence Ministry's decree of 14 May 2018, read directly, which
+// binds the armed forces and makes 2:3 the format for its own flags. The hex and CMYK
+// are the Album des Pavillons 2023, as FOTW reports it.
 vexyl 1
 meta {
-  name "Flag of Austria"
-  encoder "Bundesministerium für Landesverteidigung"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg"
+  name "Austria"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.jusline.at/gesetz/b-vg/paragraf/artikel8a"
+  source "https://web.archive.org/web/20241218114910/https://www.ris.bka.gv.at/Dokumente/BgblPdf/1984_159_0/1984_159_0.pdf"
+  source "https://www.bmlv.gv.at/abzeichen/pdf/flaggenordnung.pdf"
+  source "https://www.crwflags.com/fotw/flags/at.html"
+  note "No law that was read fixes the national flag's proportion. 2:3 is the service flag's legal ratio and the common format."
+  note "The law says only red. Pantone 186 C comes from a 2018 Defence Ministry decree for the armed forces, and the hex from the Album des Pavillons 2023, as reported by FOTW."
+  note "The Wappengesetz was read as published in 1984. Its current consolidated text wasn't reachable, so a later change to the proportion can't be ruled out."
+  law "Federal Constitutional Law (B-VG), Article 8a" {
+    source "https://www.jusline.at/gesetz/b-vg/paragraf/artikel8a"
+  }
+  law "Wappengesetz, BGBl. 159/1984, section 3" {
+    source "https://web.archive.org/web/20241218114910/https://www.ris.bka.gv.at/Dokumente/BgblPdf/1984_159_0/1984_159_0.pdf"
+  }
 }
 palette {
-  red "#c8102e"
+  red "#c8102e" {
+    pantone "186 C"
+    cmyk 14 100 79 4
+  }
   white "#ffffff"
 }
 proportion hoist=2 fly=3

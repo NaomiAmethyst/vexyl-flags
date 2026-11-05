@@ -21,7 +21,7 @@ charge svg {
   fly 1.4969
   hoist 1
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188.913 126.206"><path d="M-301.551 98.246h0" stroke-width=".265" fill="none" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188.913 126.206"><path d="M-301.551 98.246h0" fill="none" stroke="#000000" stroke-width=".265" transform="matrix(1 0 0 1 0 0)"/></svg>
 """#
 }
 

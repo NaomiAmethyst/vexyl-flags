@@ -57,7 +57,7 @@ charge svg {
   fly 2
   hoist 1
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle cy="-30.97657" r="0" cx="15.07813" fill="#ffffff" transform="matrix(3.508454 0 0 3.344878 -47.152786 -59.398131)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><circle cx="15.07813" cy="-30.97657" r="0" fill="#ffffff" transform="matrix(3.508454 0 0 3.344878 -47.152786 -59.398131)"/></svg>
 """#
 }
 

@@ -19,7 +19,7 @@ charge svg {
   fly 5
   hoist 3
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><defs><clipPath id="b" clipPathUnits="userSpaceOnUse"><path d="M0 0h1024v614H0Z" stroke-width="3" stroke-miterlimit="8"></path></clipPath><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 0h1024v614H0Z" stroke-width="3" stroke-miterlimit="8"></path></clipPath></defs><circle cy="262.144" r="262.144" cx="515.5" fill-rule="evenodd" stroke-width="1.024" fill="#ffffff" clip-path="url(#a)" transform="matrix(0.9766 0 0 0.9766 -3.418 0)"/><circle cy="196.608" r="229.376" cx="515.5" fill-rule="evenodd" stroke-width="1.024" fill="#3d8e33" clip-path="url(#b)" transform="matrix(0.9766 0 0 0.9766 -3.418 0)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><defs><clipPath id="b" clipPathUnits="userSpaceOnUse"><path d="M0 0h1024v614H0Z" stroke-miterlimit="8" stroke-width="3"></path></clipPath><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 0h1024v614H0Z" stroke-miterlimit="8" stroke-width="3"></path></clipPath></defs><circle cx="515.5" cy="262.144" r="262.144" clip-path="url(#a)" fill="#ffffff" fill-rule="evenodd" stroke-width="1.024" transform="matrix(0.9766 0 0 0.9766 -3.418 0)"/><circle cx="515.5" cy="196.608" r="229.376" clip-path="url(#b)" fill="#3d8e33" fill-rule="evenodd" stroke-width="1.024" transform="matrix(0.9766 0 0 0.9766 -3.418 0)"/></svg>
 """#
 }
 

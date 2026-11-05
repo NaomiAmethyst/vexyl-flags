@@ -25,7 +25,7 @@ charge svg {
   fly 40
   hoist 20
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 15"><defs><clipPath id="border"><rect x="-15" height="15" y="-7.5" width="30"></rect></clipPath></defs><g clip-path="url(#border)" transform="matrix(0.475 0 0 0.45 7.125 3.375)"><circle cy="0" r="20" cx="0" fill="#00247d"></circle><path d="M -20,-10 L 20,10 M -20,10 L 20,-10" stroke-width="3" stroke="#ffffff"></path><path d="M -20,-10 L 20,10 M -20,10 L 20,-10" stroke-width="2" stroke="#cf142b"></path><path d="M 0,0 L 20,10 L 17,10 L -3,0 M 0,0 L 20,-10 L 23,-10 L 3,0 M 0,0 L -20,10 L -23,10 L -3,0 M 0,0 L -20,-10 L -17,-10 L 3,0" fill="#ffffff" stroke="none"></path><path d="M -20,0 L 20,0 M 0,-10 L 0,10" stroke-width="5" stroke="#ffffff"></path><path d="M -20,0 L 20,0 M 0,-10 L 0,10" stroke-width="3" stroke="#cf142b"></path></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 15"><defs><clipPath id="border"><rect height="15" width="30" x="-15" y="-7.5"></rect></clipPath></defs><g clip-path="url(#border)" transform="matrix(0.475 0 0 0.45 7.125 3.375)"><circle cx="0" cy="0" r="20" fill="#00247d"></circle><path d="M -20,-10 L 20,10 M -20,10 L 20,-10" stroke="#ffffff" stroke-width="3"></path><path d="M -20,-10 L 20,10 M -20,10 L 20,-10" stroke="#cf142b" stroke-width="2"></path><path d="M 0,0 L 20,10 L 17,10 L -3,0 M 0,0 L 20,-10 L 23,-10 L 3,0 M 0,0 L -20,10 L -23,10 L -3,0 M 0,0 L -20,-10 L -17,-10 L 3,0" fill="#ffffff" stroke="none"></path><path d="M -20,0 L 20,0 M 0,-10 L 0,10" stroke="#ffffff" stroke-width="5"></path><path d="M -20,0 L 20,0 M 0,-10 L 0,10" stroke="#cf142b" stroke-width="3"></path></g></svg>
 """#
 }
 

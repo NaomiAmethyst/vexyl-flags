@@ -42,34 +42,34 @@ brazil/house-flag-of-lloyd-brasileiro	path	27	0	0.377	CC0-1.0
 brazil/pcdob-flag	path	3	0	0.688	LicenseRef-Public-Domain
 country/afghanistan-2013-2021	path	4	0	0.249	LicenseRef-Public-Domain
 country/albania	path	3	0	0.292	LicenseRef-Public-Domain
-country/algeria	named	3	0	0.0	LicenseRef-Public-Domain
+country/algeria	reviewed: named				Apache-2.0
 country/andorra	artwork	1	1	0.0	LicenseRef-Public-Domain
 country/andorra-civil	named	1	0	0.0	LicenseRef-Public-Domain
 country/angola	path	4	0	0.062	LicenseRef-Public-Domain
 country/antigua-and-barbuda	reviewed: named				LicenseRef-Public-Domain
 country/argentina	artwork	3	1	0.0	LicenseRef-Public-Domain
 country/argentina-civil	named	1	0	0.0	LicenseRef-Public-Domain
-country/armenia	named	1	0	0.0	LicenseRef-Public-Domain
+country/armenia	reviewed: named				Apache-2.0
 country/artigas	polygon	2	0	0.0	LicenseRef-Public-Domain
 country/australia	reviewed: named				LicenseRef-Public-Domain
-country/austria	named	1	0	0.0	LicenseRef-Public-Domain
+country/austria	reviewed: named				Apache-2.0
 country/austria-state	artwork	0	1	0.0	LicenseRef-Public-Domain
-country/azerbaijan	named	4	0	0.0	LicenseRef-Public-Domain
-country/bahamas	named	3	0	0.0	LicenseRef-Public-Domain
+country/azerbaijan	reviewed: named				Apache-2.0
+country/bahamas	reviewed: named				Apache-2.0
 country/bahrain	reviewed: named				Apache-2.0
 country/bangladesh	reviewed: named				Apache-2.0
 country/barbados	path	3	0	0.0	LicenseRef-Public-Domain
 country/belarus	artwork	2	1	0.069	LicenseRef-Public-Domain
-country/belgium	named	1	0	0.0	LicenseRef-Public-Domain
+country/belgium	reviewed: named				Apache-2.0
 country/belize	artwork	2	1	0.015	LicenseRef-Public-Domain
 country/benin	reviewed: named				Apache-2.0
 country/bhutan	artwork	2	1	0.0	LicenseRef-Public-Domain
 country/bolivia	named	1	0	0.0	LicenseRef-Public-Domain
 country/bosnia-and-herzegovina	reviewed: named				Apache-2.0
-country/botswana	named	1	0	0.0	LicenseRef-Public-Domain
+country/botswana	reviewed: named				Apache-2.0
 country/brazil	artwork	30	1	0.205	LicenseRef-Public-Domain
 country/brunei	artwork	5	1	0.0	LicenseRef-Public-Domain
-country/bulgaria	named	1	0	0.0	LicenseRef-Public-Domain
+country/bulgaria	reviewed: named				Apache-2.0
 country/burkina-faso	reviewed: named				LicenseRef-Public-Domain
 country/burundi	reviewed: named				LicenseRef-Public-Domain
 country/c-te-d-ivoire	named	1	0	0.0	LicenseRef-Public-Domain
@@ -80,8 +80,8 @@ country/cape-verde	reviewed: named				LicenseRef-Public-Domain
 country/central-african-republic	reviewed: named				LicenseRef-Public-Domain
 country/chad	named	1	0	0.0	LicenseRef-Public-Domain
 country/chile	reviewed: named				LicenseRef-Public-Domain
-country/china	named	6	0	0.0	LicenseRef-Public-Domain
-country/colombia	named	1	0	0.0	LicenseRef-Public-Domain
+country/china	reviewed: named				Apache-2.0
+country/colombia	reviewed: named				Apache-2.0
 country/comoros	named	7	0	0.0	LicenseRef-Public-Domain
 country/cook-islands	polygon	18	0	0.175	LicenseRef-Public-Domain
 country/costa-rica	named	1	0	0.0	LicenseRef-Public-Domain

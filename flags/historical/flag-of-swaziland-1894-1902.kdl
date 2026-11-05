@@ -87,7 +87,7 @@ charge svg {
   fly 2400
   hoist 1500
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><path transform="matrix(0 -0.666667 0.6 0 261.81112 498.03146)" d="M 637.795,230.315 C 584.646,289.37 513.779,407.48 372.047,407.48 C 248.031,407.48 159.449,289.37 106.299,230.315 C 159.449,171.26 248.031,53.1496 372.047,53.1496 C 513.779,53.1496 584.646,171.26 637.795,230.315 z " stroke-opacity="1" fill-rule="evenodd" stroke-width="1.97642004" stroke-dasharray="none" fill="#ffffff" stroke="#000000"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><path d="M 637.795,230.315 C 584.646,289.37 513.779,407.48 372.047,407.48 C 248.031,407.48 159.449,289.37 106.299,230.315 C 159.449,171.26 248.031,53.1496 372.047,53.1496 C 513.779,53.1496 584.646,171.26 637.795,230.315 z " transform="matrix(0 -0.666667 0.6 0 261.81112 498.03146)" fill="#ffffff" fill-rule="evenodd" stroke="#000000" stroke-dasharray="none" stroke-opacity="1" stroke-width="1.97642004"/></svg>
 """#
 }
 

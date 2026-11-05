@@ -53,6 +53,6 @@ charge svg {
   fly 1
   hoist 1
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.5 419.5"><path d="m125.5 131h103v22h-103zm0 200.7h103v22h-103zm0-12.2h1.5l101.5-120.5v-33.7h-1.5l-101.5 120.5z" stroke-linejoin="round" stroke-width="4.5" fill-opacity="1" fill="#009944" stroke="#000000" transform="matrix(1 0 0 1 32.75 -9.6658)"/><path d="m125.5 165.3h1.5l101.5 120.5v33.7h-1.5l-101.5-120.5z" stroke-linejoin="round" stroke-width="4.5" fill-opacity="1" fill="#009944" stroke="#000000" transform="matrix(1 0 0 1 32.75 -9.6658)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 419.5 419.5"><path d="m125.5 131h103v22h-103zm0 200.7h103v22h-103zm0-12.2h1.5l101.5-120.5v-33.7h-1.5l-101.5 120.5z" fill="#009944" fill-opacity="1" stroke="#000000" stroke-linejoin="round" stroke-width="4.5" transform="matrix(1 0 0 1 32.75 -9.6658)"/><path d="m125.5 165.3h1.5l101.5 120.5v33.7h-1.5l-101.5-120.5z" fill="#009944" fill-opacity="1" stroke="#000000" stroke-linejoin="round" stroke-width="4.5" transform="matrix(1 0 0 1 32.75 -9.6658)"/></svg>
 """#
 }

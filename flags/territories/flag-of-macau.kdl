@@ -18,7 +18,7 @@ charge svg {
   fly 3
   hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="b"><path d="M-224 0h448v400h-448z"></path></clipPath></defs><g fill="#ffffff" clip-path="url(#b)" transform="matrix(1 0 0 1 1440 960)"><circle cy="-7" r="324.5" cx="-209" fill="#ffffff"></circle><circle cy="-7" r="324.5" cx="209" fill="#ffffff"></circle></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="b"><path d="M-224 0h448v400h-448z"></path></clipPath></defs><g clip-path="url(#b)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><circle cx="-209" cy="-7" r="324.5" fill="#ffffff"></circle><circle cx="209" cy="-7" r="324.5" fill="#ffffff"></circle></g></svg>
 """#
 }
 
@@ -33,7 +33,7 @@ charge svg {
   fly 3
   hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o3"><circle cy="-118" r="324.5" cx="-199"></circle></clipPath><clipPath id="o4"><circle cy="-149" r="324.5" cx="-158"></circle></clipPath><clipPath id="o1"><circle cy="-38" r="576"></circle></clipPath></defs><g fill="#ffffff" clip-path="url(#o1)" transform="matrix(1 0 0 1 1440 960)"><path d="M-500 285.5h291v32h-291zm0 65H500v16H-500zm0 49H500v25H-500zm0 50H500v32H-500zm0 48H500v50H-500zm1000-212H209v32h291z" fill="#ffffff"></path></g><circle cy="-149" r="324.5" cx="158" fill="#ffffff" clip-path="url(#o4)" transform="matrix(1 0 0 1 1440 960)"/><circle cy="-118" r="324.5" cx="199" fill="#0f7562" clip-path="url(#o3)" transform="matrix(1 0 0 1 1440 960)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o3"><circle cx="-199" cy="-118" r="324.5"></circle></clipPath><clipPath id="o4"><circle cx="-158" cy="-149" r="324.5"></circle></clipPath><clipPath id="o1"><circle cy="-38" r="576"></circle></clipPath></defs><g clip-path="url(#o1)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><path d="M-500 285.5h291v32h-291zm0 65H500v16H-500zm0 49H500v25H-500zm0 50H500v32H-500zm0 48H500v50H-500zm1000-212H209v32h291z" fill="#ffffff"></path></g><circle cx="158" cy="-149" r="324.5" clip-path="url(#o4)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="199" cy="-118" r="324.5" clip-path="url(#o3)" fill="#0f7562" transform="matrix(1 0 0 1 1440 960)"/></svg>
 """#
 }
 
@@ -47,7 +47,7 @@ charge svg {
   fly 3
   hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cy="-91" r="324.5" cx="-213"></circle></clipPath><clipPath id="o8"><circle cy="-64" r="324.5" cx="-234"></circle></clipPath><clipPath id="o2"><circle cy="-100" r="324.5" cx="-212"></circle></clipPath></defs><circle cy="-100" r="324.5" cx="212" fill="#ffffff" clip-path="url(#o2)" transform="matrix(1 0 0 1 1440 960)"/><circle cy="307" r="381.5" cx="-379" fill="#ffffff" clip-path="url(#o8)" transform="matrix(1 0 0 1 1440 960)"/><circle cy="343" r="381.5" cx="-370" fill="#0f7562" clip-path="url(#o7)" transform="matrix(1 0 0 1 1440 960)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cx="-213" cy="-91" r="324.5"></circle></clipPath><clipPath id="o8"><circle cx="-234" cy="-64" r="324.5"></circle></clipPath><clipPath id="o2"><circle cx="-212" cy="-100" r="324.5"></circle></clipPath></defs><circle cx="212" cy="-100" r="324.5" clip-path="url(#o2)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="-379" cy="307" r="381.5" clip-path="url(#o8)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"/><circle cx="-370" cy="343" r="381.5" clip-path="url(#o7)" fill="#0f7562" transform="matrix(1 0 0 1 1440 960)"/></svg>
 """#
 }
 
@@ -61,7 +61,7 @@ charge svg {
   fly 3
   hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cy="-96" r="324.5" cx="-182"></circle></clipPath><clipPath id="o8"><circle cy="-64" r="324.5" cx="-234"></circle></clipPath></defs><g fill="#ffffff" clip-path="url(#o8)" transform="matrix(1 0 0 1 1440 960)"><circle cy="372" r="381.5" cx="-339" fill="#ffffff" clip-path="url(#o6)"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cx="-182" cy="-96" r="324.5"></circle></clipPath><clipPath id="o8"><circle cx="-234" cy="-64" r="324.5"></circle></clipPath></defs><g clip-path="url(#o8)" fill="#ffffff" transform="matrix(1 0 0 1 1440 960)"><circle cx="-339" cy="372" r="381.5" clip-path="url(#o6)" fill="#ffffff"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g></svg>
 """#
 }
 
@@ -82,7 +82,7 @@ charge svg {
   fly 3
   hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cy="-91" r="324.5" cx="-213"></circle></clipPath><clipPath id="o8"><circle cy="-64" r="324.5" cx="-234"></circle></clipPath></defs><circle cy="307" r="381.5" cx="-379" fill="#ffffff" clip-path="url(#o8)" transform="matrix(-1 0 0 1 1440 960)"/><circle cy="343" r="381.5" cx="-370" fill="#0f7562" clip-path="url(#o7)" transform="matrix(-1 0 0 1 1440 960)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o7"><circle cx="-213" cy="-91" r="324.5"></circle></clipPath><clipPath id="o8"><circle cx="-234" cy="-64" r="324.5"></circle></clipPath></defs><circle cx="-379" cy="307" r="381.5" clip-path="url(#o8)" fill="#ffffff" transform="matrix(-1 0 0 1 1440 960)"/><circle cx="-370" cy="343" r="381.5" clip-path="url(#o7)" fill="#0f7562" transform="matrix(-1 0 0 1 1440 960)"/></svg>
 """#
 }
 
@@ -96,7 +96,7 @@ charge svg {
   fly 3
   hoist 2
   markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cy="-96" r="324.5" cx="-182"></circle></clipPath><clipPath id="o8"><circle cy="-64" r="324.5" cx="-234"></circle></clipPath></defs><g fill="#ffffff" clip-path="url(#o8)" transform="matrix(-1 0 0 1 1440 960)"><circle cy="372" r="381.5" cx="-339" fill="#ffffff" clip-path="url(#o6)"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2880 1920"><defs><clipPath id="o6"><circle cx="-182" cy="-96" r="324.5"></circle></clipPath><clipPath id="o8"><circle cx="-234" cy="-64" r="324.5"></circle></clipPath></defs><g clip-path="url(#o8)" fill="#ffffff" transform="matrix(-1 0 0 1 1440 960)"><circle cx="-339" cy="372" r="381.5" clip-path="url(#o6)" fill="#ffffff"></circle><path d="M-100 50l60 50h50v100h-60z" fill="#ffffff"></path></g></svg>
 """#
 }
 

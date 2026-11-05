@@ -1,0 +1,46 @@
+// From the law: Article 2 of Law 12 of 1984, read in a legal database and as quoted in
+// Decree 1687 of 1986 and a 2021 foreign ministry circular: yellow on top, half of the
+// flag, then blue and red each a quarter.
+// From elsewhere: no law read fixes the national flag's length. 2:3 is the Album des
+// Pavillons as FOTW reports it, and matches the 3 by 2 m merchant flag of Decree 861,
+// also through FOTW. The law gives no shade: Pantone is the London 2012 flag manual as
+// FOTW reports it, and the hex and CMYK are Wikipedia's for those Pantones.
+vexyl 1
+meta {
+  name "Colombia"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.dmsjuridica.com/buscador_20179478954/legislacion/leyes/?p=4418"
+  source "https://www.dmsjuridica.com/buscador_20179478954/legislacion/decretos/2023/07/10/decreto-1687-de-1986/?pdf=17930"
+  source "https://cancilleria.gov.co/sites/default/files/Normograma/docs/circular_minrelaciones_0036_2021.htm"
+  source "https://www.crwflags.com/fotw/flags/co.html"
+  source "https://www.crwflags.com/fotw/flags/co-leg.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Colombia"
+  note "The law fixes the stripes but not the flag's length or the shades. 2:3 is from the Album des Pavillons, as reported by FOTW. The Pantones are from the London 2012 flag manual, as reported by FOTW, and the hex values from Wikipedia."
+  law "Law 12 of 1984, Article 2" {
+    source "https://www.dmsjuridica.com/buscador_20179478954/legislacion/leyes/?p=4418"
+    source "https://cancilleria.gov.co/sites/default/files/Normograma/docs/circular_minrelaciones_0036_2021.htm"
+  }
+  law "Decree 1687 of 1986" {
+    source "https://www.dmsjuridica.com/buscador_20179478954/legislacion/decretos/2023/07/10/decreto-1687-de-1986/?pdf=17930"
+  }
+}
+palette {
+  yellow "#ffcd00" {
+    pantone "116"
+    cmyk 0 20 100 0
+  }
+  blue "#003087" {
+    pantone "287"
+    cmyk 100 64 0 47
+  }
+  red "#c8102e" {
+    pantone "186"
+    cmyk 0 92 77 22
+  }
+}
+proportion hoist=2 fly=3
+
+bars yellow blue red {
+  ratio 2 1 1
+}

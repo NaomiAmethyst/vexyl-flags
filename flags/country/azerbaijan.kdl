@@ -1,35 +1,64 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law: everything on the grid is the table of ratios in the annex to
+// Constitutional Law 1331-VKQ of 2 November 2018, read in the gazette's page image,
+// with A = 1000:
+//   A 1, B 2A, stripes A/3 each, C = B/2 from the hoist to the inner circle's center
+//   D 0.286 outer circle diameter, D1 0.220 inner, D2 0.166 star outer, D3 0.078 star inner
+//   F 0.035 between the crescent's centers, G 0.140 from the star to the outer center
+// So the inner circle is on the flag's center, the outer is at 1000 - 35, and the star
+// is at 965 + 140. Pantone is Article 2.2 of the same text.
+// From elsewhere: hex and CMYK are the color table on parliament's website, not the
+// law. The star's point-up rotation is from the annex's drawing.
+//
+// This is the 2018 geometry. The 1991 regulation, which Commons draws, differs. At
+// these sizes the crescent's tips run into the star, as the annex's drawing shows.
 vexyl 1
 meta {
-  name "Flag of Azerbaijan"
-  encoder "SKopp and others"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan.svg"
+  name "Azerbaijan"
+  date "2018-11-16"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20221130170508/https://e-qanun.az/framework/40675"
+  source "https://web.archive.org/web/20221130170508im_/https://images.e-qanun.az/40/f_40675_4.png"
+  source "https://meclis.gov.az/news-az.php?id=2&lang=az"
+  source "https://meclis.gov.az/main/bayraq-rengler.png"
+  source "https://meclis.gov.az/documents/legislation/1674-VQD%2008.10.2019.pdf"
+  note "The law gives Pantone only. The hex and CMYK values are from the color table on parliament's website."
+  note "The 2018 law changed the emblem from the 1991 regulation: the crescent is smaller and heavier, and the star sits closer. Many drawings still follow 1991."
+  law "Constitution of the Republic of Azerbaijan, Article 23" {
+    source "https://meclis.gov.az/news-az.php?id=2&lang=az"
+  }
+  law "Constitutional Law No. 1331-VKQ on approving the description of the State Flag, 2 November 2018" {
+    source "https://web.archive.org/web/20221130170508/https://e-qanun.az/framework/40675"
+    source "https://web.archive.org/web/20221130170508im_/https://images.e-qanun.az/40/f_40675_4.png"
+  }
 }
 palette {
-  teal "#00b5e2"
-  red "#ef3340"
-  green "#509e2f"
+  blue "#00b5e2" {
+    pantone "306 C"
+    cmyk 75 0 5 0
+  }
+  red "#ef3340" {
+    pantone "Red 032 C"
+    cmyk 0 79 73 6
+  }
+  green "#509e2f" {
+    pantone "362 C"
+    cmyk 78 0 100 2
+  }
   white "#ffffff"
 }
-proportion hoist=1 fly=2
+proportion hoist=1000 fly=2000
 
-bars teal red green
-
-charge disc white {
-  radius 0.15
-  at fly=0.95 hoist=0.5
+bars blue red green
+charge crescent white {
+  radius 143
+  inner 110
+  offset 35
+  at fly=965 hoist=500
 }
-
-charge disc red {
-  radius 0.125
-  at fly=0.9833 hoist=0.5
-  anchor center
-}
-
 charge star white {
-  radius 0.0833
-  inner 0.0417
+  radius 83
+  inner 39
   points 8
-  at fly=1.1167 hoist=0.5
+  at fly=1105 hoist=500
 }
