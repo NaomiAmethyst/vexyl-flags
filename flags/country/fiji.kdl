@@ -1,27 +1,47 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the Album des Pavillons, as FOTW reports it: 1:2. The Union Flag fills the upper hoist
+// quarter, and the shield is centered in the fly half, at 1.5, as the Commons drawing has it.
 vexyl 1
 meta {
-  name "Flag of Fiji"
+  name "Fiji"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg" {
-    author "Tessa Mackenzie"
+    author "Wikimedia Commons contributors, listed in the file's history"
     license "LicenseRef-Public-Domain"
+    part "the shield"
   }
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg"
+  source "https://web.archive.org/web/2023/http://www.paclii.org/fj/legis/num_act/nfpa2015246/"
+  source "https://www.fijitimes.com.fj/?p=880431"
+  source "https://www.crwflags.com/fotw/flags/fj.html"
+  note "No law defining this flag was found or read, so its geometry isn't legal. The National Flag Protection Act 2015 doesn't describe a flag, and the Fiji Times quotes a lawyer saying it was never gazetted into force."
+  note "Hex, Pantone and CMYK are the Album des Pavillons 2023's, as FOTW reports them. FOTW's contributors find no official shade of the light blue, and list other Pantones for it."
+  note "The shield's drawing comes from the Commons file. The Union Flag's construction is the usual one, from the same drawing."
+  note "Commons' author field names Tessa Mackenzie, which appears to be who made the design or passed the law rather than who drew this file."
 }
 palette {
-  blue "#012169"
+  light-blue "#42b4e6" {
+    pantone "298 C"
+    cmyk 67 9 1 0
+    reference "London 2012 manual, Pantone" "2915"
+  }
+  blue "#0033a0" {
+    pantone "286 C"
+    cmyk 100 83 2 0
+  }
   white "#ffffff"
-  red "#c8102e"
-  light-blue "#62b5e5"
+  red "#c8102e" {
+    pantone "186 C"
+    cmyk 14 100 79 4
+  }
 }
 proportion hoist=1 fly=2
 
-field blue
-
+field light-blue
 canton {
   fly 1
   hoist 0.5
+  field blue
   saltire white {
     width 0.1
   }
@@ -34,15 +54,6 @@ canton {
     hoist 0.2 0.1 0.2
     fimbriate white 0.0333
   }
-}
-
-charge polygon light-blue {
-  point fly=0 hoist=0.5
-  point fly=1 hoist=0.5
-  point fly=1 hoist=0
-  point fly=2 hoist=0
-  point fly=2 hoist=1
-  point fly=0 hoist=1
 }
 
 charge path white {

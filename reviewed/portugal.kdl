@@ -1,12 +1,33 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, published in the Diario do Governo No. 150, 30 June 1911, Articles 1 and 2:
+//   length one and a half times the hoist; green 2/5 of the length, red 3/5
+//   the emblem on the join of the two colors, half the hoist high, equally far from top and
+//   bottom
 vexyl 1
 meta {
-  name "Flag of Portugal (official)"
+  name "Portugal"
+  designer "Columbano Bordalo Pinheiro"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal_(official).svg" {
-    author "Original: Columbano Bordalo Pinheiro Vector: Vítor Luís Rodrigues, António Martins-Tuválkin"
+    author "Vítor Luís Rodrigues"
+    author "António Martins-Tuválkin"
     license "LicenseRef-Public-Domain"
+    part "the armillary sphere and shield"
+  }
+  source "https://www.presidencia.pt/media/qpuix12d/19110630.pdf"
+  source "https://www.presidencia.pt/presidente-da-republica/a-presidencia/simbolos-nacionais/"
+  source "https://www.presidencia.pt/media/povd31yj/bandeiranacional.svg"
+  source "https://www.crwflags.com/fotw/flags/pt.html"
+  note "The emblem's drawing comes from the Commons file, not the law, which describes it in words. The law published no drawing with its text."
+  note "The law says dark green and scarlet with no shade. The hex values are those of the Presidency's published image of the flag, a government file and not a law."
+  note "The Presidency also publishes its own drawing of the flag, with the same layout and colors for the fields. The Commons drawing differs from it slightly in its outlines and its yellow."
+  note "Article 11 of the Constitution wasn't read directly. Its terms are from a translation on FOTW."
+  law "Constitution of the Portuguese Republic, Article 11"
+  law "Decree of the National Constituent Assembly of 19 June 1911, Diario do Governo No. 141" {
+    source "https://www.presidencia.pt/presidente-da-republica/a-presidencia/simbolos-nacionais/"
+  }
+  law "Dimensions and details of the National Flag, in execution of that decree, Diario do Governo No. 150, 30 June 1911" {
+    source "https://www.presidencia.pt/media/qpuix12d/19110630.pdf"
   }
 }
 palette {
@@ -19,7 +40,6 @@ bars green red {
   along hoist
   ratio 2 3
 }
-
 charge svg {
   at center
   fly 3

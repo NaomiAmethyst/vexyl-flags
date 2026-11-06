@@ -1,0 +1,58 @@
+// From Article 4 of Law 301-Z: 1:2, red over green at 2:1, and the ornament's white field
+// 1/9 of the length, so on a grid of 9 by 18 the stripes are 6 and 3 and the field 2 wide.
+// The Commons drawing has the ornament 42 of its 378 units wide but 2 units in from the
+// hoist, so it's moved 2/21 of a grid unit toward the hoist to fill that 1/9 exactly.
+// The ornament is white shapes on the red, so the green is laid over the rest.
+vexyl 1
+meta {
+  name "Belarus"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Belarus.svg" {
+    author "MapGrid"
+    author "Perhelion"
+    author "Other Wikimedia Commons contributors, per the file history"
+    license "LicenseRef-Public-Domain"
+    part "the ornament"
+  }
+  source "https://pravo.by/document/?guid=3871&p0=H10400301"
+  source "https://www.crwflags.com/fotw/flags/by.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Belarus"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Belarus.svg"
+  note "The proportion, stripes and the ornament's 1/9 are Article 4 of Law 301-Z, consolidated to the amendments of 7 February 2023. Annex 1 is a small picture of the flag, in which the green starts about 12% along, with a thin red line at the hoist."
+  note "Article 3 requires flags to match a standard kept in the National Archive, which wasn't seen. Standard STB 911-2008 wasn't read either. FOTW says its 2012 amendment made the ornament fill the whole white field."
+  note "The law gives no shades. The hex, Pantone and CMYK are Wikipedia's table. Its CIE values for STB 911-2008 are recorded as references."
+  note "The ornament's drawing comes from the Commons file and isn't from the law."
+  law "Law No. 301-Z of 5 July 2004 on the state symbols of the Republic of Belarus, Article 4" {
+    source "https://pravo.by/document/?guid=3871&p0=H10400301"
+  }
+}
+palette {
+  red "#d22730" {
+    pantone "1795 C"
+    cmyk 0 96 82 1
+    reference "STB 911-2008, as reported by Wikipedia" "x 0.553, y 0.318, Y 14.8"
+  }
+  green "#009739" {
+    pantone "355 C"
+    cmyk 93 0 100 0
+    reference "STB 911-2008, as reported by Wikipedia" "x 0.297, y 0.481, Y 29.6"
+  }
+}
+proportion hoist=9 fly=18
+
+field red
+charge svg {
+  at fly=8.9048 hoist=4.5
+  fly 18
+  hoist 9
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378 189"><defs><clipPath id="p"><path d="m0 0h200v608h8v284l-8 8H0z"></path></clipPath></defs><g clip-path="url(#p)" fill="#ffffff" transform="matrix(0.21 0 0 0.21 2 0)"><g fill="#ffffff"><path d="m36 0v14h-9v14H16v16H8v13H-8V24H8V6H-8V0zm26 77v15h-8v12h-8V92h-8V77h-8V57h8V42h8V30h8v12h8v15h8v20zm-17-1h10V58H45zM19 183h8v-18h-8zm54 0h8v-18h-8zM-8 305H6v13h6v16h9v15h12v-15h9v-16h8v-13H38v-15h21v10h13v17h11v19h-8v14h-7v13h-6v14h-9v12h-7v11h-9v14H24v-15h-9v-14H8v-9H-8v-23H8v-20H-8z" fill="#ffffff"></path><g transform="matrix(-1 0 0 1 200 0)"><path d="m36 0v14h-9v14H16v16H8v13H-8V24H8V6H-8V0zm26 77v15h-8v12h-8V92h-8V77h-8V57h8V42h8V30h8v12h8v15h8v20zm-17-1h10V58H45zM19 183h8v-18h-8zm54 0h8v-18h-8zM-8 305H6v13h6v16h9v15h12v-15h9v-16h8v-13H38v-15h21v10h13v17h11v19h-8v14h-7v13h-6v14h-9v12h-7v11h-9v14H24v-15h-9v-14H8v-9H-8v-23H8v-20H-8z" fill="#ffffff"></path></g><path d="m96 0v32h8V0h32v14h-8v14h-12v16h-8v13H92V44h-8V28H72V14h-8V0zm-2 274v-11h-6v-13h-7v-14h-8v-14h-8v-10h-9v-14H44v14h-9v10h-7v14h-8v14h-6v13H8v17H-8v-44H8v-20H-8v-33H8v14h10v14h10v-14h10v-14h8v-18h-8v-14H28v-14H18v14H8v14H-8v-41H8v-19H-8V77H8v13h8v16h11v13h9v15h7v12h14v-12h7v-15h9v-13h11V90h8V77h16v13h8v16h11v13h9v15h7v12h14v-12h7v-15h9v-13h11V90h8V77h16v28h-16v19h16v41h-16v-14h-10v-14h-10v14h-10v14h-8v18h8v14h10v14h10v-14h10v-14h16v33h-16v20h16v44h-16v-17h-6v-13h-6v-14h-8v-14h-7v-10h-9v-14h-12v14h-9v10h-8v14h-8v14h-7v13h-6v11zm2-167v27h8v-27zm-4 58v-14H82v-14H72v14H62v14h-8v18h8v14h10v14h10v-14h10v-14h16v14h10v14h10v-14h10v-14h8v-18h-8v-14h-10v-14h-10v14h-10v14zm4 46v27h8v-27z" fill="#ffffff"></path></g><g transform="matrix(1 0 0 -1 0 900)"><g fill="#ffffff"><path d="m36 0v14h-9v14H16v16H8v13H-8V24H8V6H-8V0zm26 77v15h-8v12h-8V92h-8V77h-8V57h8V42h8V30h8v12h8v15h8v20zm-17-1h10V58H45zM19 183h8v-18h-8zm54 0h8v-18h-8zM-8 305H6v13h6v16h9v15h12v-15h9v-16h8v-13H38v-15h21v10h13v17h11v19h-8v14h-7v13h-6v14h-9v12h-7v11h-9v14H24v-15h-9v-14H8v-9H-8v-23H8v-20H-8z" fill="#ffffff"></path><g transform="matrix(-1 0 0 1 200 0)"><path d="m36 0v14h-9v14H16v16H8v13H-8V24H8V6H-8V0zm26 77v15h-8v12h-8V92h-8V77h-8V57h8V42h8V30h8v12h8v15h8v20zm-17-1h10V58H45zM19 183h8v-18h-8zm54 0h8v-18h-8zM-8 305H6v13h6v16h9v15h12v-15h9v-16h8v-13H38v-15h21v10h13v17h11v19h-8v14h-7v13h-6v14h-9v12h-7v11h-9v14H24v-15h-9v-14H8v-9H-8v-23H8v-20H-8z" fill="#ffffff"></path></g><path d="m96 0v32h8V0h32v14h-8v14h-12v16h-8v13H92V44h-8V28H72V14h-8V0zm-2 274v-11h-6v-13h-7v-14h-8v-14h-8v-10h-9v-14H44v14h-9v10h-7v14h-8v14h-6v13H8v17H-8v-44H8v-20H-8v-33H8v14h10v14h10v-14h10v-14h8v-18h-8v-14H28v-14H18v14H8v14H-8v-41H8v-19H-8V77H8v13h8v16h11v13h9v15h7v12h14v-12h7v-15h9v-13h11V90h8V77h16v13h8v16h11v13h9v15h7v12h14v-12h7v-15h9v-13h11V90h8V77h16v28h-16v19h16v41h-16v-14h-10v-14h-10v14h-10v14h-8v18h8v14h10v14h10v-14h10v-14h16v33h-16v20h16v44h-16v-17h-6v-13h-6v-14h-8v-14h-7v-10h-9v-14h-12v14h-9v10h-8v14h-8v14h-7v13h-6v11zm2-167v27h8v-27zm-4 58v-14H82v-14H72v14H62v14h-8v18h8v14h10v14h10v-14h10v-14h16v14h10v14h10v-14h10v-14h8v-18h-8v-14h-10v-14h-10v14h-10v14zm4 46v27h8v-27z" fill="#ffffff"></path></g></g><path d="m-8 408H8v14h7v8h8v14h7v12h-7v14h-8v8H8v14H-8zm216 0v84h-16v-14h-7v-8h-8v-14h-7v-12h7v-14h8v-8h7v-14zM62 459h8v-18h-8zm76 0v-18h-8v18zm-42-59h8v-18h-8zm0 100v18h8v-18zm-50-75h14v-11h10v-10h5v-10h6v-14h8v-14h4v-13h14v13h4v14h8v14h6v10h5v10h10v11h14v50h-14v11h-10v10h-5v10h-6v14h-8v14h-4v13H93v-13h-4v-14h-8v-14h-6v-10h-5v-10H60v-11H46zm50 9v-15h-8v-10h-8v25h8v9h5v14h-5v9h-8v25h8v-10h8v-15h8v15h8v10h8v-25h-8v-9h-5v-14h5v-9h8v-25h-8v10h-8v15z" fill="#ffffff"></path></g></svg>
+"""#
+}
+panel {
+  corner lower-fly
+  fly 16
+  hoist 3
+  field green
+}

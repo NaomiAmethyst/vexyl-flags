@@ -1,19 +1,35 @@
+// From the law, Annex 2, in units of 0.1: flag 20 by 30; cross 13:4:13 and 8:4:8. Each small
+// cross fills a square of 4, centered in its quarter, so at 4.5 + 2 and 2 + 2 from the corner.
+// Each arm's sides are arcs of R 10.4 centered 10.9 from the cross's center, and its end an arc
+// of R 5.4 centered 7.4 from it. Those arcs meet 0.7032 and 2.046 from the center (derived).
 vexyl 1
 meta {
   name "Georgia"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia.svg"
-  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.heraldika.ge/uploads/saxelmwifo_mniSvnelobis_Sesaxeb.pdf"
+  source "https://matsne.gov.ge/ka/document/view/4368486?publication=0"
+  source "https://www.crwflags.com/fotw/flags/ge.html"
+  note "Proportion, construction and colors are all from Annexes 1 and 2 of the 2018 law, including the RGB, CMYK and hex values."
+  note "The 2018 sheet changed the end arcs from R 0.56, in the 2004 decree, to R 0.54, per FOTW's account of the two. The arm corners run slightly past the sheet's 0.4 square, as its arcs require."
+  law "Organic Law of Georgia on the State Symbols of Georgia, No. 3724-Is, 14 November 2018, Article 2 and Annexes 1 and 2" {
+    source "https://www.heraldika.ge/uploads/saxelmwifo_mniSvnelobis_Sesaxeb.pdf"
+    source "https://matsne.gov.ge/ka/document/view/4368486?publication=0"
+  }
 }
 palette {
-  white "#ffffff"
-  red "#ff0000"
+  white "#ffffff" {
+    cmyk 0 0 0 0
+  }
+  red "#ff0000" {
+    cmyk 0 100 100 0
+  }
 }
 proportion hoist=20 fly=30
 
 define bolnisi {
-  path "M5.7968 1.954a5.4 5.4 0 0 0 1.4064 0 10.4 10.4 0 0 0 0 4.092 5.4 5.4 0 0 0-1.4064 0 10.4 10.4 0 0 0 0-4.092z" box="4.5 2 4 4"
+  path "M-0.7032 -2.046A5.4 5.4 0 0 0 0.7032 -2.046A10.4 10.4 0 0 0 0.7032 2.046A5.4 5.4 0 0 0 -0.7032 2.046A10.4 10.4 0 0 0 -0.7032 -2.046Z" box="-2 -2 4 4"
 }
 
 field white

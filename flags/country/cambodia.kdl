@@ -1,24 +1,47 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the ministry's sheet: stripes 1:2:1 and approximately 2:3, on the drawing's own
+// hoist of 1344. The temple keeps its size from the drawing.
 vexyl 1
 meta {
-  name "Flag of Cambodia"
+  name "Cambodia"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cambodia.svg" {
+    author "Wikimedia Commons contributors, listed in the file's history"
     license "LicenseRef-Public-Domain"
+    part "the temple"
+  }
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cambodia.svg"
+  source "https://web.archive.org/web/2024/https://www.ccc.gov.kh/datapublic/subdata/Constitution%20of%20the%20Kingdom%20of%20Cambodia.pdf"
+  source "https://web.archive.org/web/20250116054028im_/https://mfaic.gov.kh/images/uploads/EPY5PP9DX8H2/2.jpg"
+  source "https://web.archive.org/web/20250116054028im_/https://mfaic.gov.kh/images/uploads/EPY5PP9DX8H2/1.png"
+  note "The Constitution defines the flag only by the drawing in its Annex 1, read here in the Constitutional Council's unofficial translation. That drawing measures about 16:25."
+  note "The 2:3, the stripes and the CMYK values are the foreign ministry's flag sheet, not a law. The sheet calls 2:3 approximate and asks for it so national flags line up. Its own image, like the annex, is drawn about 16:25."
+  note "The temple's drawing comes from the Commons file named above and isn't from the law. The sheet asks for white with black outlines, and the annex in this copy shows red ones."
+  note "The sheet gives the central tower as about 12/13 of the red stripe and the temple's base as half the length. The sheet's own image and the annex both draw about 0.84 and 0.41, as this does."
+  note "The hex values are the colors in the ministry's image of the flag. The ministry's CMYK is kept as given, though it converts to a darker blue than its image shows."
+  law "Constitution of the Kingdom of Cambodia, Article 6 and Annex 1" {
+    source "https://web.archive.org/web/2024/https://www.ccc.gov.kh/datapublic/subdata/Constitution%20of%20the%20Kingdom%20of%20Cambodia.pdf"
   }
 }
 palette {
-  blue "#032ea1"
-  red "#e00025"
-  black "#000000"
+  blue "#032ea1" {
+    cmyk 100 58 0 57
+  }
+  red "#e00025" {
+    cmyk 0 100 100 0
+  }
+  white "#ffffff" {
+    cmyk 0 0 0 0
+  }
+  black "#000000" {
+    cmyk 0 0 0 100
+  }
 }
-proportion hoist=1344 fly=2100
+proportion hoist=1344 fly=2016
 
 bars blue red blue {
   ratio 1 2 1
 }
-
 charge svg {
   at center
   fly 2100
@@ -31,26 +54,26 @@ charge svg {
 charge rect black {
   fly 649
   hoist 3
-  at fly=1050 hoist=766.5
+  at fly=1008 hoist=766.5
 }
 
 charge rect black {
   fly 31
   hoist 3
-  at fly=798 hoist=930
+  at fly=756 hoist=930
   repeat line count=7 hoist=-21
 }
 
 charge rect black {
   fly 29
   hoist 3
-  at fly=1049 hoist=930
+  at fly=1007 hoist=930
   repeat line count=7 hoist=-21
 }
 
 charge rect black {
   fly 31
   hoist 3
-  at fly=1301 hoist=930
+  at fly=1259 hoist=930
   repeat line count=7 hoist=-21
 }

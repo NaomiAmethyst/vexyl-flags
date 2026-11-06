@@ -1,19 +1,56 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
 vexyl 1
 meta {
-  name "Flag of Turkmenistan"
+  name "Turkmenistan"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg" {
+    author "Open Clip Art Library"
+    author "Vzb83"
     license "LicenseRef-Public-Domain"
+    part "the carpet guls, olive branches, crescent and stars"
+  }
+  source "https://www.vexillographia.ru/turkmen/texts/2001_flag.doc"
+  source "https://base.spinform.ru/show_doc.fwx?rgn=17894"
+  source "https://base.spinform.ru/show_doc.fwx?rgn=23643"
+  source "https://base.spinform.ru/show_doc.fwx?rgn=23658"
+  source "https://base.spinform.ru/show_doc.fwx?rgn=88483"
+  source "https://www.vexillographia.ru/turkmen/texts/2017_flagi.doc"
+  source "https://www.crwflags.com/fotw/flags/tm.html"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg"
+  note "Article 2 of the law gives 2:3 by its own words (width to length one to one and a half), the green field, the red-brown stripe with five guls framed by an ornament reaching its edges, the olive branches below them, and a white crescent and five stars in the upper part of the green. It gives no measurements."
+  note "The law was read in Vexillographia's transcription, which warns that its text may be incomplete. Law 381-V of 2016, read in part, changes Articles 1, 3 and 8 only. Amendments of 2011 and 2014 weren't read."
+  note "Article 5 leaves sizes and colors to the Regulation of Decree PP-3051 of 2000, and the state standard TDS 562-2000 draws the emblem. Both are paywalled at Spinform past their opening, so neither was read in full."
+  note "The carpet, branches, crescent, stars and stripe's position come from the Commons file, not the law. Graham Bartram's 4:6:23 on FOTW would put the stripe about 1% from where the drawing does. It's kept where the drawing's ornament meets it, as Article 2 requires."
+  note "Pantone is the Presidential Decree of 2 September 2017, read in Vexillographia's transcription, which replaces Part 3 of the Regulation and so the textile Pantones FOTW reports from 2000. The hex and CMYK are Wikipedia's for those Pantones, as FOTW reports them. The Album des Pavillons 2023 gives 342 C, 187 C and 1375 C, set aside because they don't match the decree."
+  law "Law of Turkmenistan on the State Flag of Turkmenistan, new edition of 24 January 2001" {
+    source "https://www.vexillographia.ru/turkmen/texts/2001_flag.doc"
+    source "https://base.spinform.ru/show_doc.fwx?rgn=88483"
+  }
+  law "Decree of the President of Turkmenistan No. PP-3051 of 14 February 2000 approving the Regulation on the State Flag" {
+    source "https://base.spinform.ru/show_doc.fwx?rgn=23643"
+  }
+  law "Decree of the President of Turkmenistan of 2 September 2017 amending certain decrees" {
+    source "https://www.vexillographia.ru/turkmen/texts/2017_flagi.doc"
   }
 }
 palette {
-  green "#00843d"
+  green "#00853a" {
+    pantone "348 C"
+    cmyk 100 0 56 48
+  }
   white "#ffffff"
-  red "#d22630"
-  orange "#ffc72c"
-  grey "#383739"
+  red "#d22630" {
+    pantone "1795 C"
+    cmyk 0 82 77 18
+  }
+  orange "#ffc72c" {
+    pantone "123 C"
+    cmyk 0 22 83 0
+  }
+  grey "#383739" {
+    pantone "Black C"
+    cmyk 2 4 0 78
+  }
 }
 proportion hoist=2 fly=3
 

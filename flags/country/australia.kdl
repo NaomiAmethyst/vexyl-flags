@@ -1,15 +1,46 @@
+// From Schedule 1 of the Flags Act 1953, with the width of the flag W = 5040, the smallest
+// grid that holds every fraction:
+//   Commonwealth Star: seven points, diameter 3/10 W, inner 4/9 of it, so radius 756 and
+//     336, on the Union Jack's middle line at 2520, 1/4 W from the bottom, so 3780
+//   the middle line of the fly is at 7560
+//   Alpha, Gamma: on it, 1/6 W from the bottom and top, so 4200 and 840
+//   Beta: 1/4 W left of it, at a point 1/16 W above the fly's center, so 6300, 2205
+//   Delta: 2/9 W right of it, 1/15 W above that point, so 8680, 1869
+//   Epsilon: 1/10 W right of it, 1/24 W below the fly's center, so 8064, 2730
+//   Southern Cross: diameter 1/7 W, inner 4/9, so radius 360 and 160
+//   Epsilon: five points, diameter 1/12 W, inner 4/9, so radius 210 and 93.3333
 vexyl 1
 meta {
   name "Australia"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_(converted).svg"
-  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.legislation.gov.au/C1954A00001/2008-07-04/2008-07-04/text/original/pdf"
+  source "https://web.archive.org/web/20241211071650/https://www.pmc.gov.au/resources/australian-flags-booklet/part-1-australian-national-flag"
+  source "https://www.crwflags.com/fotw/flags/au.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Australia"
+  note "Every star's place, size and points are Schedule 1 of the Flags Act 1953."
+  note "The Act doesn't give the proportion. 1:2 is from government-issued drawings, as FOTW reports, so it isn't a legal value."
+  note "The Act places the Union Jack without describing it. Its inner sizes are the usual 30:60 construction, which isn't from the Act."
+  note "The Act gives no colors. The government's flags booklet gives Pantone 280 and 185, recorded as references. The Style Manual's screen values as Wikipedia reports them, #00008b and #ff0000, are pure primaries that don't match those Pantones, so the hex, Pantone and CMYK here are the Album des Pavillons 2023, as reported by FOTW. Its Pantones differ from the government's."
+  law "Flags Act 1953, Schedule 1" {
+    source "https://www.legislation.gov.au/C1954A00001/2008-07-04/2008-07-04/text/original/pdf"
+  }
 }
 palette {
-  blue "#012169"
+  blue "#000091" {
+    pantone "2738 C"
+    cmyk 100 92 21 6
+    reference "Australian Government flags booklet" "Pantone 280"
+    reference "Style Manual, as reported by Wikipedia" "#00008b"
+  }
   white "#ffffff"
-  red "#e4002b"
+  red "#e1000f" {
+    pantone "2347 C"
+    cmyk 0 100 100 0
+    reference "Australian Government flags booklet" "Pantone 185"
+    reference "Style Manual, as reported by Wikipedia" "#ff0000"
+  }
 }
 proportion hoist=5040 fly=10080
 

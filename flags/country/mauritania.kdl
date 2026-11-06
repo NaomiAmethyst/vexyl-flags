@@ -1,28 +1,53 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the decree, Articles 1 and 2, as the government's graphic charter reproduces them:
+//   short side 2/3 of the long one, so 2000 by 3000; red bands of 20% at top and bottom
+//   crescent and star in the center, the crescent's bulge downward, the star level with
+//   the crescent's tips
+// From the government's flag plan (Maquette drapeau), not the decree:
+//   star's top 10% below the red band, so at 600
+//   star's half width 6.7%, which the plan's arrows show is of the long side: 201
+//   so its radius is 201 / sin 72 = 211.34 (derived), and its center is at 811.34
+//   the crescent is the plan's own filled outline, in the PDF's coordinates, with the
+//   flag's rectangle as its box. Its two arcs aren't circular, so a `crescent` wouldn't fit.
+// Hex and CMYK are the plan's and the charter's.
 vexyl 1
 meta {
-  name "Flag of Mauritania"
+  name "Mauritania"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania.svg" {
-    license "LicenseRef-Public-Domain"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "http://www.kennach.gov.mr/IMG/pdf/_ar_fr_charte_graphique_mauritanie.pdf"
+  source "http://www.kennach.gov.mr/docs/plan01.pdf"
+  source "https://www.crwflags.com/fotw/flags/mr.html"
+  note "The decree's wording is read as the government's graphic charter reproduces it, not from the Journal officiel. The decree gives 2:3, the 20% bands and the arrangement. The star's size and the crescent's outline are from the government's plan, which isn't the decree."
+  note "The plan labels its horizontal measures as percentages of the short side, but its arrows measure them against the long side. This follows the arrows."
+  law "Decree No. 467-2017 of 25 October 2017 describing the flag of the Islamic Republic of Mauritania, Articles 1 and 2" {
+    source "http://www.kennach.gov.mr/IMG/pdf/_ar_fr_charte_graphique_mauritanie.pdf"
   }
 }
 palette {
-  red "#d01c1f"
-  green "#00a95c"
-  yellow "#ffd700"
+  red "#d01c1f" {
+    cmyk 11 100 100 4
+  }
+  green "#00a95c" {
+    cmyk 86 5 95 0
+  }
+  gold "#ffd700" {
+    cmyk 1 13 100 0
+  }
 }
-proportion hoist=2 fly=3
+proportion hoist=2000 fly=3000
 
 bars red green red {
   ratio 1 3 1
 }
-
-charge path yellow {
-  d "M1299 744L1452 744L1500 600L1548 744L1701 744L1575 836L1626 982L1500 892L1374 982L1425 836ZM750 670A760.0928 628 0 0 0 2250 670A750 730 0 0 1 750 670Z"
-  box "0 -60 3010.0928 1460"
-  fly 3.0101
-  hoist 1.46
-  at fly=1.505 hoist=0.67
+charge path gold {
+  d "M545.414 246.258C532.141 294.152 481.426 329.809 420.891 329.809C360.355 329.809 309.641 294.152 296.363 246.258C300.328 312.051 354.566 364.172 420.891 364.172C487.215 364.172 541.449 312.051 545.414 246.258Z"
+  box "170.825 130.953 500.241 333.366"
+  fly 3000
+  hoist 2000
+  at center
+}
+charge star gold {
+  radius 211.34
+  at fly=1500 hoist=811.34
 }

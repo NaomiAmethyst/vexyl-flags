@@ -41,44 +41,44 @@ brazil/flag-peter-ii-of-portugal	artwork	6	1	0.0	LicenseRef-Public-Domain
 brazil/house-flag-of-lloyd-brasileiro	path	27	0	0.377	CC0-1.0
 brazil/pcdob-flag	path	3	0	0.688	LicenseRef-Public-Domain
 country/afghanistan-2013-2021	path	4	0	0.249	LicenseRef-Public-Domain
-country/albania	path	3	0	0.292	LicenseRef-Public-Domain
+country/albania	reviewed: path				LicenseRef-Public-Domain
 country/algeria	reviewed: named				CC-BY-SA-4.0
-country/andorra	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/andorra	reviewed: artwork				LicenseRef-Public-Domain
 country/andorra-civil	named	1	0	0.0	LicenseRef-Public-Domain
-country/angola	path	4	0	0.062	LicenseRef-Public-Domain
-country/antigua-and-barbuda	reviewed: named				LicenseRef-Public-Domain
-country/argentina	artwork	3	1	0.0	LicenseRef-Public-Domain
+country/angola	reviewed: path				LicenseRef-Public-Domain
+country/antigua-and-barbuda	reviewed: named				CC-BY-SA-4.0
+country/argentina	reviewed: artwork				LicenseRef-Public-Domain
 country/argentina-civil	named	1	0	0.0	LicenseRef-Public-Domain
 country/armenia	reviewed: named				CC-BY-SA-4.0
 country/artigas	polygon	2	0	0.0	LicenseRef-Public-Domain
-country/australia	reviewed: named				LicenseRef-Public-Domain
+country/australia	reviewed: named				CC-BY-SA-4.0
 country/austria	reviewed: named				CC-BY-SA-4.0
 country/austria-state	artwork	0	1	0.0	LicenseRef-Public-Domain
 country/azerbaijan	reviewed: named				CC-BY-SA-4.0
 country/bahamas	reviewed: named				CC-BY-SA-4.0
 country/bahrain	reviewed: named				CC-BY-SA-4.0
 country/bangladesh	reviewed: named				CC-BY-SA-4.0
-country/barbados	path	3	0	0.0	LicenseRef-Public-Domain
-country/belarus	artwork	2	1	0.069	LicenseRef-Public-Domain
+country/barbados	reviewed: path				LicenseRef-Public-Domain
+country/belarus	reviewed: artwork				LicenseRef-Public-Domain
 country/belgium	reviewed: named				CC-BY-SA-4.0
-country/belize	artwork	2	1	0.015	LicenseRef-Public-Domain
+country/belize	reviewed: artwork				LicenseRef-Public-Domain
 country/benin	reviewed: named				CC-BY-SA-4.0
-country/bhutan	artwork	2	1	0.0	LicenseRef-Public-Domain
+country/bhutan	reviewed: artwork				LicenseRef-Public-Domain
 country/bolivia	reviewed: named				CC-BY-SA-4.0
 country/bosnia-and-herzegovina	reviewed: named				CC-BY-SA-4.0
 country/botswana	reviewed: named				CC-BY-SA-4.0
-country/brazil	artwork	30	1	0.205	LicenseRef-Public-Domain
-country/brunei	artwork	5	1	0.0	LicenseRef-Public-Domain
+country/brazil	reviewed: artwork				LicenseRef-Public-Domain
+country/brunei	reviewed: artwork				LicenseRef-Public-Domain
 country/bulgaria	reviewed: named				CC-BY-SA-4.0
-country/burkina-faso	reviewed: named				LicenseRef-Public-Domain
-country/burundi	reviewed: named				LicenseRef-Public-Domain
-country/cambodia	artwork	23	1	0.439	LicenseRef-Public-Domain
+country/burkina-faso	reviewed: named				CC-BY-SA-4.0
+country/burundi	reviewed: named				CC-BY-SA-4.0
+country/cambodia	reviewed: artwork				LicenseRef-Public-Domain
 country/cameroon	reviewed: named				CC-BY-SA-4.0
-country/canada	reviewed: named				Apache-2.0
-country/cape-verde	reviewed: named				LicenseRef-Public-Domain
-country/central-african-republic	reviewed: named				LicenseRef-Public-Domain
+country/canada	reviewed: named				LicenseRef-Public-Domain
+country/cape-verde	reviewed: named				CC-BY-SA-4.0
+country/central-african-republic	reviewed: named				CC-BY-SA-4.0
 country/chad	reviewed: named				CC-BY-SA-4.0
-country/chile	reviewed: named				LicenseRef-Public-Domain
+country/chile	reviewed: named				CC-BY-SA-4.0
 country/china	reviewed: named				CC-BY-SA-4.0
 country/colombia	reviewed: named				CC-BY-SA-4.0
 country/comoros	reviewed: named				CC-BY-SA-4.0
@@ -86,144 +86,144 @@ country/cook-islands	polygon	18	0	0.175	LicenseRef-Public-Domain
 country/costa-rica	reviewed: named				CC-BY-SA-4.0
 country/costa-rica-state	artwork	2	1	0.0	LicenseRef-Public-Domain
 country/cote-divoire	reviewed: named				CC-BY-SA-4.0
-country/croatia	artwork	16	1	0.013	LicenseRef-Public-Domain
-country/cuba	reviewed: named				LicenseRef-Public-Domain
-country/cyprus	path	4	0	0.005	LicenseRef-Public-Domain
+country/croatia	reviewed: artwork				LicenseRef-Public-Domain
+country/cuba	reviewed: named				CC-BY-SA-4.0
+country/cyprus	reviewed: path				LicenseRef-Public-Domain
 country/czech-republic	reviewed: named				CC-BY-SA-4.0
-country/democratic-republic-of-the-congo	reviewed: polygon				LicenseRef-Public-Domain
+country/democratic-republic-of-the-congo	reviewed: named				CC-BY-SA-4.0
 country/denmark	reviewed: named				CC-BY-SA-4.0
 country/denmark-state	polygon	3	0	0.397	LicenseRef-Public-Domain
-country/djibouti	reviewed: named				LicenseRef-Public-Domain
-country/dominica	artwork	11	1	0.0	LicenseRef-Public-Domain
-country/dominican-republic	artwork	5	1	0.0	LicenseRef-Public-Domain
+country/djibouti	reviewed: named				CC-BY-SA-4.0
+country/dominica	reviewed: artwork				LicenseRef-Public-Domain
+country/dominican-republic	reviewed: artwork				LicenseRef-Public-Domain
 country/east-timor	reviewed: named				CC-BY-SA-4.0
-country/ecuador	artwork	1	1	0.0	LicenseRef-Public-Domain
-country/egypt	artwork	5	2	0.0	LicenseRef-Public-Domain
-country/el-salvador	artwork	3	1	1.11	LicenseRef-Public-Domain
-country/equatorial-guinea	artwork	2	1	0.0	LicenseRef-Public-Domain
-country/eritrea	path	6	0	0.0	LicenseRef-Public-Domain
+country/ecuador	reviewed: artwork				LicenseRef-Public-Domain
+country/egypt	reviewed: artwork				LicenseRef-Public-Domain
+country/el-salvador	reviewed: artwork				LicenseRef-Public-Domain
+country/equatorial-guinea	reviewed: artwork				LicenseRef-Public-Domain
+country/eritrea	reviewed: path				LicenseRef-Public-Domain
 country/estonia	reviewed: named				CC-BY-SA-4.0
-country/eswatini	artwork	34	1	0.021	LicenseRef-Public-Domain
-country/ethiopia	polygon	12	0	0.049	LicenseRef-Public-Domain
-country/federated-states-of-micronesia	reviewed: named				LicenseRef-Public-Domain
-country/fiji	artwork	6	1	0.177	LicenseRef-Public-Domain
+country/eswatini	reviewed: artwork				LicenseRef-Public-Domain
+country/ethiopia	reviewed: polygon				LicenseRef-Public-Domain
+country/federated-states-of-micronesia	reviewed: named				CC-BY-SA-4.0
+country/fiji	reviewed: artwork				LicenseRef-Public-Domain
 country/finland	reviewed: named				CC-BY-SA-4.0
 country/finland-state	artwork	4	1	0.34	LicenseRef-Public-Domain
 country/france	reviewed: named				CC-BY-SA-4.0
 country/gabon	reviewed: named				CC-BY-SA-4.0
 country/gambia	reviewed: named				CC-BY-SA-4.0
-country/georgia	reviewed: named				LicenseRef-Public-Domain
+country/georgia	reviewed: named				CC-BY-SA-4.0
 country/germany	reviewed: named				CC-BY-SA-4.0
 country/germany-state	artwork	1	1	0.0	LicenseRef-Public-Domain
 country/ghana	reviewed: named				CC-BY-SA-4.0
 country/greece	reviewed: named				CC-BY-SA-4.0
 country/grenada	reviewed: named				LicenseRef-Public-Domain
-country/guatemala	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/guatemala	reviewed: artwork				LicenseRef-Public-Domain
 country/guinea	reviewed: named				CC-BY-SA-4.0
-country/guinea-bissau	reviewed: named				LicenseRef-Public-Domain
+country/guinea-bissau	reviewed: named				CC-BY-SA-4.0
 country/guyana	reviewed: named				CC-BY-SA-4.0
-country/haiti	artwork	2	1	0.0	LicenseRef-Public-Domain
+country/haiti	reviewed: artwork				LicenseRef-Public-Domain
 country/haiti-civil	named	1	0	0.0	LicenseRef-Public-Domain
 country/honduras	reviewed: named				CC-BY-SA-4.0
 country/hungary	reviewed: named				CC-BY-SA-4.0
 country/iceland	reviewed: named				CC-BY-SA-4.0
 country/iceland-state	polygon	5	0	0.162	LicenseRef-Public-Domain
-country/india	polygon	52	0	0.005	LicenseRef-Public-Domain
+country/india	reviewed: path				CC-BY-SA-4.0
 country/indonesia	reviewed: named				CC-BY-SA-4.0
-country/iran-official	path	71	0	0.828	LicenseRef-Public-Domain
-country/iraq	path	2	0	0.124	LicenseRef-Public-Domain
+country/iran	reviewed: path				LicenseRef-Public-Domain
+country/iraq	reviewed: path				LicenseRef-Public-Domain
 country/ireland	reviewed: named				CC-BY-SA-4.0
 country/israel	reviewed: named				CC-BY-SA-4.0
 country/italy	reviewed: named				CC-BY-SA-4.0
-country/jamaica	reviewed: named				LicenseRef-Public-Domain
+country/jamaica	reviewed: named				CC-BY-SA-4.0
 country/japan	reviewed: named				CC-BY-SA-4.0
-country/jordan	reviewed: named				LicenseRef-Public-Domain
-country/kazakhstan	artwork	2	1	0.0	LicenseRef-Public-Domain
-country/kenya	path	15	0	0.0	LicenseRef-Public-Domain
-country/kiribati	artwork	5	1	0.055	LicenseRef-Public-Domain
-country/kosovo	path	8	0	0.329	LicenseRef-Public-Domain
+country/jordan	reviewed: named				CC-BY-SA-4.0
+country/kazakhstan	reviewed: artwork				LicenseRef-Public-Domain
+country/kenya	reviewed: path				LicenseRef-Public-Domain
+country/kiribati	reviewed: artwork				LicenseRef-Public-Domain
+country/kosovo	reviewed: path				LicenseRef-Public-Domain
 country/kuwait	reviewed: named				CC-BY-SA-4.0
-country/kyrgyzstan	path	2	0	0.0	LicenseRef-Public-Domain
+country/kyrgyzstan	reviewed: path				LicenseRef-Public-Domain
 country/laos	reviewed: named				CC-BY-SA-4.0
 country/latvia	reviewed: named				CC-BY-SA-4.0
-country/lebanon	path	2	0	0.09	LicenseRef-Public-Domain
-country/lesotho	path	2	0	0.387	LicenseRef-Public-Domain
-country/liberia	reviewed: named				LicenseRef-Public-Domain
+country/lebanon	reviewed: path				LicenseRef-Public-Domain
+country/lesotho	reviewed: path				LicenseRef-Public-Domain
+country/liberia	reviewed: named				CC-BY-SA-4.0
 country/libya	reviewed: named				CC-BY-SA-4.0
-country/liechtenstein	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/liechtenstein	reviewed: artwork				LicenseRef-Public-Domain
 country/liechtenstein-state	artwork	1	1	0.0	LicenseRef-Public-Domain
 country/lithuania	reviewed: named				CC-BY-SA-4.0
 country/lithuania-state	path	5	0	1.947	LicenseRef-Public-Domain
 country/luxembourg	reviewed: named				CC-BY-SA-4.0
 country/madagascar	reviewed: named				CC-BY-SA-4.0
-country/malawi	artwork	5	1	0.729	LicenseRef-Public-Domain
+country/malawi	reviewed: path				LicenseRef-Public-Domain
 country/malaysia	reviewed: named				CC-BY-SA-4.0
-country/maldives	reviewed: named				LicenseRef-Public-Domain
+country/maldives	reviewed: named				CC-BY-SA-4.0
 country/mali	reviewed: named				CC-BY-SA-4.0
-country/malta	artwork	1	1	0.0	LicenseRef-Public-Domain
-country/marshall-islands	polygon	5	0	0.427	LicenseRef-Public-Domain
-country/mauritania	path	2	0	0.0	LicenseRef-Public-Domain
+country/malta	reviewed: artwork				LicenseRef-Public-Domain
+country/marshall-islands	reviewed: polygon				CC-BY-SA-4.0
+country/mauritania	reviewed: path				CC-BY-SA-4.0
 country/mauritius	reviewed: named				CC-BY-SA-4.0
-country/mexico	artwork	1	1	0.364	LicenseRef-Public-Domain
-country/moldova	artwork	4	1	0.047	LicenseRef-Public-Domain
+country/mexico	reviewed: artwork				LicenseRef-Public-Domain
+country/moldova	reviewed: artwork				LicenseRef-Public-Domain
 country/monaco	reviewed: named				CC-BY-SA-4.0
 country/monaco-state	artwork	1	1	0.0	CC-BY-SA-3.0
-country/mongolia	path	9	0	0.001	LicenseRef-Public-Domain
-country/montenegro	artwork	0	1	0.0	LicenseRef-Public-Domain
+country/mongolia	reviewed: path				LicenseRef-Public-Domain
+country/montenegro	reviewed: artwork				LicenseRef-Public-Domain
 country/morocco	reviewed: named				CC-BY-SA-4.0
-country/mozambique	artwork	7	1	0.061	LicenseRef-Public-Domain
-country/myanmar	reviewed: named				LicenseRef-Public-Domain
+country/mozambique	reviewed: artwork				LicenseRef-Public-Domain
+country/myanmar	reviewed: named				CC-BY-SA-4.0
 country/namibia	reviewed: named				CC-BY-SA-4.0
 country/nauru	reviewed: named				CC-BY-SA-4.0
 country/nepal	reviewed: polygon				CC-BY-SA-4.0
 country/netherlands	reviewed: named				CC-BY-SA-4.0
 country/new-zealand	reviewed: named				CC-BY-SA-4.0
-country/nicaragua	artwork	3	1	0.0	LicenseRef-Public-Domain
+country/nicaragua	reviewed: artwork				LicenseRef-Public-Domain
 country/niger	reviewed: named				CC-BY-SA-4.0
 country/nigeria	reviewed: named				CC-BY-SA-4.0
 country/nigeria-state	artwork	1	1	0.093	CC0-1.0
 country/niue	polygon	9	0	0.0	LicenseRef-Public-Domain
 country/north-korea	named	3	0	0.002	LicenseRef-Public-Domain
-country/north-macedonia	reviewed: named				CC-BY-SA-4.0
+country/north-macedonia	reviewed: polygon				CC-BY-SA-4.0
 country/norway	reviewed: named				CC-BY-SA-4.0
 country/norway-state	reviewed: named				CC-BY-SA-4.0
 country/pakistan	reviewed: named				CC-BY-SA-4.0
 country/palau	reviewed: named				CC-BY-SA-4.0
 country/palestine	reviewed: named				CC-BY-SA-4.0
 country/panama	reviewed: named				CC-BY-SA-4.0
-country/papua-new-guinea	path	8	0	0.0	LicenseRef-Public-Domain
-country/paraguay	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/papua-new-guinea	reviewed: path				LicenseRef-Public-Domain
+country/paraguay	reviewed: artwork				LicenseRef-Public-Domain
 country/paraguay-reverse	artwork	1	1	0.0	LicenseRef-Public-Domain
 country/people-s-republic-of-china	named	6	0	0.0	LicenseRef-Public-Domain
 country/peru	reviewed: named				CC-BY-SA-4.0
 country/peru-state-2025	artwork	1	1	0.0	LicenseRef-Public-Domain
-country/philippines	polygon	31	0	0.003	LicenseRef-Public-Domain
+country/philippines	reviewed: polygon				LicenseRef-Public-Domain
 country/poland	reviewed: named				CC-BY-SA-4.0
 country/poland-with-coat-of-arms	artwork	2	1	0.0	LicenseRef-Public-Domain
-country/portugal-official	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/portugal	reviewed: artwork				LicenseRef-Public-Domain
 country/qatar	reviewed: named				CC-BY-SA-4.0
 country/republic-of-abkhazia	artwork	2	1	0.247	LicenseRef-Public-Domain
-country/republic-of-the-congo	reviewed: named				LicenseRef-Public-Domain
+country/republic-of-the-congo	reviewed: named				CC-BY-SA-4.0
 country/romania	reviewed: named				CC-BY-SA-4.0
 country/russia	reviewed: named				CC-BY-SA-4.0
 country/russia-1-2	named	1	0	0.0	LicenseRef-Public-Domain
 country/rwanda	reviewed: named				CC-BY-SA-4.0
 country/sahrawi-arab-democratic-republic	polygon	5	0	0.0	LicenseRef-Public-Domain
 country/saint-kitts-and-nevis	reviewed: named				CC-BY-SA-4.0
-country/saint-lucia	polygon	4	0	0.0	LicenseRef-Public-Domain
+country/saint-lucia	reviewed: polygon				CC-BY-SA-4.0
 country/saint-vincent-and-the-grenadines	reviewed: named				CC-BY-SA-4.0
 country/samoa	reviewed: named				CC-BY-SA-4.0
-country/san-marino	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/san-marino	reviewed: artwork				LicenseRef-Public-Domain
 country/san-marino-civil	named	1	0	0.0	LicenseRef-Public-Domain
 country/sao-tome-and-principe	reviewed: named				CC-BY-SA-4.0
-country/saudi-arabia	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/saudi-arabia	reviewed: artwork				LicenseRef-Public-Domain
 country/senegal	reviewed: named				CC-BY-SA-4.0
-country/serbia	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/serbia	reviewed: artwork				LicenseRef-Public-Domain
 country/seychelles	reviewed: named				CC-BY-SA-4.0
 country/sierra-leone	reviewed: named				CC-BY-SA-4.0
 country/singapore	reviewed: named				CC-BY-SA-4.0
-country/slovakia	path	5	0	0.479	LicenseRef-Public-Domain
-country/slovenia-pantone	path	9	0	0.0	LicenseRef-Public-Domain
+country/slovakia	reviewed: path				LicenseRef-Public-Domain
+country/slovenia	reviewed: path				LicenseRef-Public-Domain
 country/solomon-islands	reviewed: named				CC-BY-SA-4.0
 country/somalia	reviewed: named				CC-BY-SA-4.0
 country/somaliland	artwork	2	1	0.042	LicenseRef-Public-Domain
@@ -231,16 +231,16 @@ country/south-africa	reviewed: named				CC-BY-SA-4.0
 country/south-korea	reviewed: named				CC-BY-SA-4.0
 country/south-ossetia	named	1	0	0.0	LicenseRef-Public-Domain
 country/south-sudan	named	3	0	0.0	LicenseRef-Public-Domain
-country/spain	artwork	8	1	0.0	LicenseRef-Public-Domain
+country/spain	reviewed: artwork				LicenseRef-Public-Domain
 country/spain-civil	named	1	0	0.0	LicenseRef-Public-Domain
-country/sri-lanka	path	16	0	0.35	LicenseRef-Public-Domain
+country/sri-lanka	reviewed: path				LicenseRef-Public-Domain
 country/sudan	reviewed: named				CC-BY-SA-4.0
 country/suriname	reviewed: named				CC-BY-SA-4.0
 country/sweden	reviewed: named				CC-BY-SA-4.0
-country/switzerland	reviewed: named				LicenseRef-Public-Domain
+country/switzerland	reviewed: named				CC-BY-SA-4.0
 country/syria	reviewed: named				CC-BY-SA-4.0
 country/taiwan	reviewed: named				CC-BY-SA-4.0
-country/tajikistan	artwork	6	2	0.833	LicenseRef-Public-Domain
+country/tajikistan	reviewed: artwork				LicenseRef-Public-Domain
 country/taliban	path	2	0	1.89	LicenseRef-Public-Domain
 country/tanzania	reviewed: named				CC-BY-SA-4.0
 country/thailand	reviewed: named				CC-BY-SA-4.0
@@ -248,27 +248,27 @@ country/togo	named	4	0	0.343	LicenseRef-Public-Domain
 country/tonga	reviewed: named				CC-BY-SA-4.0
 country/transnistria-state	path	4	0	0.009	LicenseRef-Public-Domain
 country/treinta-y-tres	path	2	0	0.758	LicenseRef-Public-Domain
-country/trinidad-and-tobago	reviewed: named				LicenseRef-Public-Domain
+country/trinidad-and-tobago	reviewed: named				CC-BY-SA-4.0
 country/tunisia	reviewed: named				CC-BY-SA-4.0
 country/turkey	reviewed: named				CC-BY-SA-4.0
 country/turkish-republic-of-northern-cyprus	named	6	0	0.0	LicenseRef-Public-Domain
-country/turkmenistan	artwork	101	2	0.01	LicenseRef-Public-Domain
-country/tuvalu	reviewed: named				LicenseRef-Public-Domain
+country/turkmenistan	reviewed: artwork				LicenseRef-Public-Domain
+country/tuvalu	reviewed: named				CC-BY-SA-4.0
 country/tuvalu-state	artwork	12	1	0.079	CC-BY-SA-3.0
-country/uganda	path	33	0	0.633	LicenseRef-Public-Domain
+country/uganda	reviewed: path				LicenseRef-Public-Domain
 country/ukraine	reviewed: named				CC-BY-SA-4.0
 country/united-arab-emirates	reviewed: named				CC-BY-SA-4.0
 country/united-kingdom	reviewed: named				CC-BY-SA-4.0
 country/united-states	reviewed: named				CC-BY-SA-4.0
-country/uruguay	artwork	10	2	0.0	LicenseRef-Public-Domain
-country/uzbekistan	reviewed: named				LicenseRef-Public-Domain
-country/vanuatu-official	artwork	6	1	0.107	LicenseRef-Public-Domain
-country/vatican-city-2023-present	artwork	1	1	0.0	LicenseRef-Public-Domain
+country/uruguay	reviewed: artwork				LicenseRef-Public-Domain
+country/uzbekistan	reviewed: named				CC-BY-SA-4.0
+country/vanuatu	reviewed: artwork				LicenseRef-Public-Domain
+country/vatican-city	reviewed: artwork				LicenseRef-Public-Domain
 country/venezuela	reviewed: named				CC-BY-SA-4.0
 country/vietnam	reviewed: named				CC-BY-SA-4.0
 country/yemen	reviewed: named				CC-BY-SA-4.0
-country/zambia	artwork	4	1	0.001	LicenseRef-Public-Domain
-country/zimbabwe	artwork	11	2	0.108	LicenseRef-Public-Domain
+country/zambia	reviewed: artwork				LicenseRef-Public-Domain
+country/zimbabwe	reviewed: artwork				LicenseRef-Public-Domain
 ethnic/aromanian-flag	polygon	9	0	0.34	LicenseRef-Public-Domain
 ethnic/australian-aboriginal-flag	named	2	0	0.0	LicenseRef-Copyrighted-Free-Use
 ethnic/flag-of-acadia	named	2	0	0.0	CC0-1.0

@@ -1,50 +1,60 @@
+// From the Album des Pavillons 2000 and 2023, as reported by FOTW: stripes 18:10:18,
+// length 69, so 46:69, which is 2:3.
+// From FOTW's Zeljko Heimer, who calls these his own approximation: the sun is half of a
+// 16-point star of outer diameter 30 and inner 15, so radius 15 and inner 7.5.
 vexyl 1
 meta {
   name "Antigua and Barbuda"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Antigua_and_Barbuda.svg"
-  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.crwflags.com/fotw/flags/ag.html"
+  note "No law defining this flag could be found, so nothing here is a legal value. FOTW mentions a law only in passing, in an anecdote about a golden sun."
+  note "The stripes and proportion are the Album des Pavillons, as reported by FOTW. The Album itself wasn't read."
+  note "The sun's size is an approximation by FOTW's Zeljko Heimer. FOTW also gives Christopher Southworth's figures, with no source: stripes 39:22:39 on a length of 150, and a sun of 68 and 40."
+  note "FOTW reports that seven full points of the sun were decided on in 1994, with no instrument named."
+  note "The hex, Pantone and CMYK are the Album des Pavillons 2023, as reported by FOTW."
 }
 palette {
-  red "#ce1126"
-  white "#ffffff"
+  red "#c8102e" {
+    pantone "186 C"
+    cmyk 14 100 79 4
+  }
   black "#000000"
-  gold "#fcd116"
-  blue "#0072c6"
+  blue "#005eb8" {
+    pantone "300 C"
+    cmyk 90 62 0 0
+  }
+  white "#ffffff"
+  gold "#ffcc00" {
+    pantone "116 C"
+    cmyk 0 21 93 0
+  }
 }
-proportion hoist=92 fly=138
+proportion hoist=46 fly=69
 
 field red
 group {
   clip {
     pile {
       from top
-      depth 92
+      depth 46
     }
   }
-  field white
-  pile black {
-    from top
-    depth 46
-    flat 120
+  bars black blue white {
+    ratio 18 10 18
   }
-  charge sun gold {
-    radius 30
-    disc 15
+  charge star gold {
+    radius 15
+    inner 7.5
     points 16
-    at fly=69 hoist=36
+    at fly=34.5 hoist=18
     clip {
       rect {
-        fly 60
-        hoist 30
-        at fly=69 hoist=21
+        fly 30
+        hoist 15
+        at fly=34.5 hoist=10.5
       }
     }
-  }
-  charge rect blue {
-    fly 120
-    hoist 20
-    at fly=69 hoist=46
   }
 }

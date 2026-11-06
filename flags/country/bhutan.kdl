@@ -1,26 +1,50 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the rules: width is 2/3 of length. Yellow holds the hoist side and orange the fly
+// side of the line from the lower hoist to the upper fly, with the dragon over that line.
+// From elsewhere: the shades, and the dragon's drawing, size and position.
 vexyl 1
 meta {
-  name "Flag of Bhutan"
+  name "Bhutan"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg" {
+    author "Wikimedia Commons contributors, listed in the file history"
     license "LicenseRef-Public-Domain"
+    part "the dragon"
+  }
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg"
+  source "https://www.wipo.int/wipolex/en/text/490663"
+  source "https://web.archive.org/web/20090306122100/http://www.constitution.bt/TsaThrim%20Eng%20(A5).pdf"
+  source "https://dorjipenjore.wordpress.com/wp-content/uploads/2015/08/the-origin-and-description-of-the-national-flag-and-national-anthem-of-the-kingdom-of-bhutan.pdf"
+  source "https://www.crwflags.com/fotw/flags/bt'.html"
+  note "The dragon's drawing comes from the Commons file named above and isn't from the law. The law describes it in words only: white, spread equally over the dividing line."
+  note "FOTW reports that flags since 2008 show a more elaborate dragon, with no document of adoption found. This drawing wasn't checked against that form."
+  note "The law names colors only. The hex, Pantone and CMYK values are the Album des Pavillons 2023, as reported by FOTW, which calls this orange red. The Album itself wasn't read. The London 2012 manual, which each Olympic committee approved, gives PMS 116 and 165, recorded as references."
+  law "Constitution of the Kingdom of Bhutan, 2008, Article 1(5) and First Schedule" {
+    source "https://web.archive.org/web/20090306122100/http://www.constitution.bt/TsaThrim%20Eng%20(A5).pdf"
+  }
+  law "National Flag Rules of 1972, National Assembly Resolution 28 of 8 June 1972" {
+    source "https://www.wipo.int/wipolex/en/text/490663"
   }
 }
 palette {
-  yellow "#ffcd00"
-  orange "#ff671f"
+  yellow "#f1b434" {
+    pantone "143 C"
+    cmyk 5 32 86 0
+    reference "Flags and Anthems Manual, London 2012, as reported by FOTW" "PMS 116"
+  }
+  orange "#e03c31" {
+    pantone "179 C"
+    cmyk 5 87 82 0
+    reference "Flags and Anthems Manual, London 2012, as reported by FOTW" "PMS 165"
+  }
 }
 proportion hoist=2 fly=3
 
 field yellow
-
 pile orange {
   from fly
   tip 2 3
 }
-
 charge svg {
   at center
   fly 3

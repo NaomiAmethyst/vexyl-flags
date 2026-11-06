@@ -1,23 +1,43 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Article 1: a sky-blue rectangle, width to length 1:2, with a sun with rays
+// at the center, a soaring eagle beneath it, and a vertical band of national ornament at the
+// staff, all gold. That's all its words give; everything else is its annexed image.
+// The placement and size of all three come from the drawing, not the law.
 vexyl 1
 meta {
-  name "Flag of Kazakhstan"
+  name "Kazakhstan"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kazakhstan.svg" {
-    author "Shaken Niyazbekop"
+    author "Wikimedia Commons contributors, listed in the file's history"
     license "LicenseRef-Public-Domain"
+    part "the sun, the eagle and the ornament"
+  }
+  source "https://zakon.uchet.kz/rus/docs/Z070000258_"
+  source "https://web.archive.org/web/20251214061640/https://adilet.zan.kz/rus/docs/Z070000258_"
+  source "https://web.archive.org/web/20251214061640im_/https://adilet.zan.kz/files/1488/09/0.jpg"
+  source "https://www.crwflags.com/fotw/flags/kz.html"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kazakhstan.svg"
+  note "The law's Annex 1 defines the emblem by an image, which was read only at about 270 pixels wide, and shows no visible difference from this drawing at that size. The drawing of the sun, eagle and ornament comes from the Commons file and isn't from the law."
+  note "Article 4 requires flags to meet the national standard, ST RK 988-2007, with construction drawings, but its file on geraldika.kz couldn't be reached. A revision was under discussion in 2016-17, and whether it was adopted isn't known."
+  note "The hex values are Wikipedia's for the Pantone that FOTW reports from the standard, and are also the drawing's, which fixes the gold in its artwork. Two others are set aside: the Album des Pavillons 2023 as FOTW reports it (639 C and Yellow C, 0-154-207 and 255-255-0), because they aren't the standard's Pantone, and FOTW's Brian Ellis's conversion of the same Pantone (#00b5cc, #fff203), because the artwork's gold can't follow it unchanged."
+  note "Commons' author field names Shaken Niyazbekop, which appears to be who made the design or passed the law rather than who drew this file."
+  law "Constitutional Law No. 258-III on the State Symbols of the Republic of Kazakhstan, 4 June 2007, as amended to 2026" {
+    source "https://zakon.uchet.kz/rus/docs/Z070000258_"
+    source "https://web.archive.org/web/20251214061640/https://adilet.zan.kz/rus/docs/Z070000258_"
   }
 }
 palette {
-  teal "#00abc2"
-  yellow "#ffec2d"
+  blue "#00abc2" {
+    pantone "3125 U"
+  }
+  gold "#ffec2d" {
+    pantone "102 U"
+  }
 }
 proportion hoist=1 fly=2
 
-field teal
-
-charge disc yellow {
+field blue
+charge disc gold {
   radius 0.1346
   at fly=1.0805 hoist=0.42
 }

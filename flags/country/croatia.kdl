@@ -1,18 +1,46 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law: width to length 1:2, three colors of one third each, and the arms' central
+// point on the crossing of the flag's diagonals.
+// From parliament's construction sheet, with a = 100: shield 38.8 wide and 42.5 high from
+// the red-white line, crown 46.9 wide and 19.6 high above that line. These agree with the
+// drawing's shield, 0.3888 by 0.4254 of the hoist, whose top is on that line.
 vexyl 1
 meta {
-  name "Flag of Croatia"
+  name "Croatia"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg" {
-    author "Nightstallion, Elephantus, Neoneo13, Denelson83, Rainman, R-41, Minestrone, Lupo, Zscout370,MaGa (based on Decision of t"
+    author "Wikimedia Commons contributors, listed in the file's history"
     license "LicenseRef-Public-Domain"
+    part "the coat of arms"
+  }
+  source "https://www.zakon.hr/z/1247/Zakon-o-grbu,-zastavi-i-himni-Republike-Hrvatske-te-zastavi-i-lenti-predsjednika-Republike-Hrvatske"
+  source "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_55_1067.html"
+  source "https://www.sabor.hr/hr/o-saboru/obiljezja-drzavnosti"
+  source "https://www.sabor.hr/sites/default/files/uploads/Obilje%C5%BEja%20dr%C5%BEavnosti/zastava_rh_s_konstrukcijom_kodovi_boja.jpg"
+  source "https://www.crwflags.com/fotw/flags/hr.html"
+  note "The drawing of the arms is from the Commons file, not the law. The law describes the arms in words and with annexed drawings. Its size agrees with parliament's construction sheet, which isn't itself part of the law."
+  note "Parliament's sheet gives the red as Pantone 186 C but RGB 255-0-0, which contradicts it, so the palette's red is the Album des Pavillons 2023's, as reported by FOTW, and the sheet's values are kept as a reference. The blue is the sheet's."
+  note "The arms' crown keeps the colors of the Commons drawing, so its red is #ff0000 where the flag and shield use the palette's red."
+  note "The law calls the lower stripe plava. Parliament's sheet draws it in the darker color it names modra, Reflex Blue, and this file follows the sheet."
+  note "The constitution's Article 11 wasn't read directly. Its terms are from FOTW's quotation: three colors with the historical arms in the center, with details left to a law."
+  law "Constitution of the Republic of Croatia, Article 11"
+  law "Law on the Coat of Arms, the Flag and the Anthem of the Republic of Croatia and the Flag and Sash of the President, Article 10, NN 55/1990, 26/1993, 29/1994" {
+    source "https://www.zakon.hr/z/1247/Zakon-o-grbu,-zastavi-i-himni-Republike-Hrvatske-te-zastavi-i-lenti-predsjednika-Republike-Hrvatske"
+    source "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_55_1067.html"
   }
 }
 palette {
-  red "#ff0000"
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+    reference "Croatian parliament's sheet" "Pantone 186 C, CMYK 0-100-100-0, RGB 255-0-0"
+  }
   white "#ffffff"
-  blue "#171796"
+  blue "#171796" {
+    pantone "Reflex Blue"
+    cmyk 100 82 0 2
+    reference "Album des Pavillons 2023" "Pantone Reflex Blue C, CMYK 100-91-24-7, RGB 0-20-137"
+  }
 }
 proportion hoist=1 fly=2
 

@@ -1,0 +1,111 @@
+// From Law 5.700, Article 5, in modules: 14 x 20, lozenge corners 1.7 from the frame, so
+// 16.6 x 10.6, disc radius 3.5. Star diameters: 0.30, 0.25, 0.20, 1/7 and 0.10, so the radii
+// here are half of those. The band's arcs (radii 8 and 8.5, centered 2 left of where the
+// disc's vertical diameter, extended, meets the frame's base) are in the artwork, whose numbers match those.
+// From elsewhere: star coordinates are read from the Commons file. Colors are the Album.
+vexyl 1
+meta {
+  name "Brazil"
+  date "1992-05-12"
+  designer "Raimundo Teixeira Mendes"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg" {
+    author "Wikimedia Commons contributors, listed in the file's history"
+    license "LicenseRef-Public-Domain"
+    part "the band, the lettering and the star coordinates"
+  }
+  source "https://en.wikipedia.org/wiki/File:Flag_of_Brazil.svg"
+  source "https://web.archive.org/web/2024/https://www.planalto.gov.br/ccivil_03/leis/l5700compilado.htm"
+  source "https://web.archive.org/web/2024/https://www.planalto.gov.br/ccivil_03/leis/l8421.htm"
+  source "https://web.archive.org/web/20241219230407/https://www.planalto.gov.br/ccivil_03/leis/1989_1994/anexo/ANL8421-92.pdf"
+  source "https://www.crwflags.com/fotw/flags/br.html"
+  note "The band and the lettering are drawn in the artwork, which comes from the Commons file named above and isn't from the law. Its lettering is in that file's green, #009440, not this palette's."
+  note "The law places the stars and the letters by its Annex 2 drawing, with no coordinates. The star coordinates here are the Commons file's, checked by eye against the annex, not measured from it."
+  note "The fourth-magnitude star follows the law's 1/7 module diameter. The law's own parenthesis rounds this to 0.14, and Commons draws 0.15."
+  note "The law gives no shades. The hex, Pantone and CMYK values are the Album des Pavillons 2023, as reported by FOTW. The Album itself wasn't read. FOTW also reports Pantone 355, Yellow and 280 for the federal government's mark, which is said to use the flag's colors."
+  law "Law No. 5.700 of 1 September 1971, Articles 3 and 5, as amended" {
+    source "https://web.archive.org/web/2024/https://www.planalto.gov.br/ccivil_03/leis/l5700compilado.htm"
+  }
+  law "Law No. 8.421 of 11 May 1992, replacing Annexes 1 and 2" {
+    source "https://web.archive.org/web/2024/https://www.planalto.gov.br/ccivil_03/leis/l8421.htm"
+    source "https://web.archive.org/web/20241219230407/https://www.planalto.gov.br/ccivil_03/leis/1989_1994/anexo/ANL8421-92.pdf"
+  }
+}
+palette {
+  green "#009530" {
+    pantone "355 C"
+    cmyk 84 12 100 1
+  }
+  yellow "#f8c100" {
+    pantone "7408 C"
+    cmyk 3 25 95 0
+  }
+  blue "#003580" {
+    pantone "287 C"
+    cmyk 100 84 26 6
+  }
+  white "#ffffff"
+}
+proportion hoist=14 fly=20
+
+field green
+charge lozenge yellow {
+  fly 16.6
+  hoist 10.6
+  at center
+}
+charge disc blue {
+  radius 3.5
+  at center
+}
+charge svg {
+  at center
+  fly 20
+  hoist 14
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4200 2940"><defs><clipPath id="B"><circle r="735"></circle></clipPath></defs><path d="m-2205 1470a1785 1785 0 0 1 3570 0h-105a1680 1680 0 1 0-3360 0z" clip-path="url(#B)" fill="#ffffff" transform="matrix(1 0 0 1 2100 1470)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill="#009440" fill-rule="evenodd" transform="matrix(0.992546 -0.121869 0.121869 0.992546 1473.12679 1255.152908)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill="#009440" fill-rule="evenodd" transform="matrix(0.997564 -0.069756 0.069756 0.997564 1561.588386 1246.635025)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.997564 -0.069756 0.069756 0.997564 1561.588386 1246.635025)"/><path d="m-31.5 0h33a30 30 0 0 0 30-30v-10a30 30 0 0 0-30-30h-33zm13-13h19a19 19 0 0 0 19-19v-6a19 19 0 0 0-19-19h-19z" fill="#009440" fill-rule="evenodd" transform="matrix(0.999848 -0.017452 0.017452 0.999848 1650.37454 1242.758537)"/><path d="m0 0h63v-13h-51v-18h40v-12h-40v-14h48v-13h-60z" transform="matrix(0.999391 0.034899 -0.034899 0.999391 1707.761085 1242.434737)" fill="#009440"/><path d="m-31.5 0h12v-48l14 48h11l14-48v48h12v-70h-17.5l-14 48-14-48h-17.5z" fill="#009440" transform="matrix(0.996195 0.087156 -0.087156 0.996195 1827.946873 1248.9595)"/><path d="m-26.25 0h52.5v-12h-40.5v-16h33v-12h-33v-11h39.25v-12h-51.25z" fill="#009440" transform="matrix(0.985556 0.16935 -0.16935 0.985556 1967.470783 1267.01859)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill="#009440" fill-rule="evenodd" transform="matrix(0.968148 0.25038 -0.25038 0.968148 2105.020057 1296.56938)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill="#009440" fill-rule="evenodd" transform="matrix(0.953717 0.300706 -0.300706 0.953717 2190.448095 1321.065476)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.953717 0.300706 -0.300706 0.953717 2190.448095 1321.065476)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill="#009440" fill-rule="evenodd" transform="matrix(0.936672 0.350207 -0.350207 0.936672 2274.47703 1349.998959)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill="#009440" fill-rule="evenodd" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="M5-35H31.5V-25H5z" fill="#009440" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="m21.5-35h10v35h-10z" fill="#009440" transform="matrix(0.91706 0.398749 -0.398749 0.91706 2356.876545 1383.290524)"/><path d="m-31.5 0h13v-26h28a22 22 0 0 0 0-44h-40zm13-39h27a9 9 0 0 0 0-18h-27z" fill="#009440" fill-rule="evenodd" transform="matrix(0.894934 0.446198 -0.446198 0.894934 2437.420788 1420.848921)"/><path d="m28 0c0-10 0-32-15-32h-19c22 0 22 22 22 32" fill="#009440" transform="matrix(0.894934 0.446198 -0.446198 0.894934 2437.420788 1420.848921)"/><path d="m0 0h63v-13h-51v-18h40v-12h-40v-14h48v-13h-60z" transform="matrix(0.870356 0.492424 -0.492424 0.870356 2488.472789 1447.059864)" fill="#009440"/><path d="m-15.75-22c0 7 6.75 10.5 16.75 10.5s14.74-3.25 14.75-7.75c0-14.25-46.75-5.25-46.5-30.25 0.25-21.5 24.75-20.5 33.75-20.5s26 4 25.75 21.25h-15.25c0-7.5-7-10.25-15-10.25-7.75 0-13.25 1.25-13.25 8.5-0.25 11.75 46.25 4 46.25 28.75 0 18.25-18 21.75-31.5 21.75-11.5 0-31.55-4.5-31.5-22z" fill="#009440" transform="matrix(0.843391 0.5373 -0.5373 0.843391 2592.066085 1508.343021)"/><path d="m-15.75-22c0 7 6.75 10.5 16.75 10.5s14.74-3.25 14.75-7.75c0-14.25-46.75-5.25-46.5-30.25 0.25-21.5 24.75-20.5 33.75-20.5s26 4 25.75 21.25h-15.25c0-7.5-7-10.25-15-10.25-7.75 0-13.25 1.25-13.25 8.5-0.25 11.75 46.25 4 46.25 28.75 0 18.25-18 21.75-31.5 21.75-11.5 0-31.55-4.5-31.5-22z" fill="#009440" transform="matrix(0.814116 0.580703 -0.580703 0.814116 2665.743267 1558.038908)"/><path d="m0 0a31.5 35 0 0 0 0-70 31.5 35 0 0 0 0 70m0-13a18.5 22 0 0 0 0-44 18.5 22 0 0 0 0 44" fill="#009440" fill-rule="evenodd" transform="matrix(0.782608 0.622515 -0.622515 0.782608 2736.718596 1611.522654)"/></svg>
+"""#
+}
+charge star white {
+  radius 0.15
+  at fly=7.14 hoist=6.375
+  at fly=7.45 hoist=7.84
+  at fly=11.0875 hoist=5.9125
+  at fly=12.45 hoist=8.225
+  at fly=10 hoist=8.575
+  at fly=8.59524 hoist=8.86
+}
+charge star white {
+  radius 0.125
+  at fly=7.025 hoist=8.16
+  at fly=8.18334 hoist=8.1875
+  at fly=12.59524 hoist=8.5375
+  at fly=11.75 hoist=9.275
+  at fly=12.38334 hoist=8.81666
+  at fly=8.6625 hoist=7.14
+  at fly=10.40476 hoist=7.875
+  at fly=10 hoist=7.5625
+  at fly=11.05 hoist=9.36
+}
+charge star white {
+  radius 0.1
+  at fly=8.075 hoist=8.5375
+  at fly=12.9375 hoist=8.2625
+  at fly=11.75 hoist=9.625
+  at fly=12.1 hoist=8.99524
+  at fly=11.7375 hoist=8.925
+  at fly=10.95 hoist=6.825
+  at fly=9.65 hoist=7.875
+  at fly=11.35 hoist=9.05
+  at fly=10.775 hoist=8.9625
+}
+charge star white {
+  radius 0.0714286
+  at fly=7.79524 hoist=7.625
+  at fly=9.825 hoist=8.11666
+}
+charge star white {
+  radius 0.05
+  at fly=10 hoist=9.7375
+}

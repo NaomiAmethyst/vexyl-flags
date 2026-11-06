@@ -1,0 +1,154 @@
+// From the law, the Second Schedule's dimensioned drawing, on its own grid of 30 by 20:
+//   stripes 6, 1, 6, 1, 6, black, white, red, white, green
+//   shield 12 high and 6 wide at the center, spears at 60 degrees crossing at the center
+// The shield's and spears' artwork is the Commons drawing, which matches those sizes.
+vexyl 1
+meta {
+  name "Kenya"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg" {
+    author "User:Pumbaa80"
+    license "LicenseRef-Public-Domain"
+    part "the shield and spears"
+  }
+  source "http://www.parliament.go.ke/sites/default/files/2023-03/The_Constitution_of_Kenya_2010.pdf"
+  source "https://www.crwflags.com/fotw/flags/ke.html"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg"
+  note "The Second Schedule defines the emblem by an annexed drawing, whose dimensions the Commons artwork follows in its overall sizes and spear angle. The artwork isn't from the law, and it differs in one visible way: the Schedule's scan draws the central oval about 3 high and 1.5 wide, and labels 1 1/2, while Commons draws it 1.5 high and 1 wide."
+  note "The Schedule gives British Standard shade references for red and green. The hex, Pantone and CMYK are the Album des Pavillons 2023 as FOTW reports it, not conversions of those shades. White and black are plain."
+  law "Constitution of Kenya, 2010, Article 9 and Second Schedule" {
+    source "http://www.parliament.go.ke/sites/default/files/2023-03/The_Constitution_of_Kenya_2010.pdf"
+  }
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  green "#007229" {
+    pantone "356 C"
+    cmyk 89 29 100 18
+    reference "British Standard shade" "0-010"
+  }
+  red "#c0362c" {
+    pantone "180 C"
+    cmyk 18 89 85 7
+    reference "British Standard shade" "0-006"
+  }
+}
+proportion hoist=20 fly=30
+
+bars black white red white green {
+  ratio 6 1 6 1 6
+}
+
+charge path black {
+  d "M91.421 127.5003L93.153 128.5003L139.866 47.591C142.5981 46.859 144.0981 44.2609 145.5981 41.6628C146.5981 39.9308 150.5981 33.0026 152.3315 24.0002C145.4019 30.0026 141.4019 36.9308 140.4019 38.6628C138.9019 41.2609 137.4019 43.859 138.134 46.591Z"
+  box "91.421 24.0002 60.9105 104.5001"
+  fly 7.6138
+  hoist 13.0625
+  at fly=15.2345 hoist=9.5312
+}
+
+charge path black {
+  d "M91.421 127.5003L93.153 128.5003L139.866 47.591C142.5981 46.859 144.0981 44.2609 145.5981 41.6628C146.5981 39.9308 150.5981 33.0026 152.3315 24.0002C145.4019 30.0026 141.4019 36.9308 140.4019 38.6628C138.9019 41.2609 137.4019 43.859 138.134 46.591Z"
+  box "91.421 24.0002 60.9105 104.5001"
+  fly 7.6138
+  hoist 13.0625
+  hollow 0.125
+  at fly=15.2345 hoist=9.5312
+}
+
+charge path white {
+  d "M91.421 127.5003L93.153 128.5003L139.866 47.591C142.5981 46.859 144.0981 44.2609 145.5981 41.6628C146.5981 39.9308 150.5981 33.0026 152.3315 24.0002C145.4019 30.0026 141.4019 36.9308 140.4019 38.6628C138.9019 41.2609 137.4019 43.859 138.134 46.591Z"
+  box "91.421 24.0002 60.9105 104.5001"
+  fly 7.6138
+  hoist 13.0625
+  at fly=15.2345 hoist=9.5312
+}
+
+charge path black {
+  d "M148.579 127.5003L146.847 128.5003L100.134 47.591C97.4019 46.859 95.9019 44.2609 94.4019 41.6628C93.4019 39.9308 89.4019 33.0026 87.6685 24.0002C94.5981 30.0026 98.5981 36.9308 99.5981 38.6628C101.0981 41.2609 102.5981 43.859 101.866 46.591Z"
+  box "87.6685 24.0002 60.9105 104.5001"
+  fly 7.6138
+  hoist 13.0625
+  at fly=14.7655 hoist=9.5312
+}
+
+charge path black {
+  d "M148.579 127.5003L146.847 128.5003L100.134 47.591C97.4019 46.859 95.9019 44.2609 94.4019 41.6628C93.4019 39.9308 89.4019 33.0026 87.6685 24.0002C94.5981 30.0026 98.5981 36.9308 99.5981 38.6628C101.0981 41.2609 102.5981 43.859 101.866 46.591Z"
+  box "87.6685 24.0002 60.9105 104.5001"
+  fly 7.6138
+  hoist 13.0625
+  hollow 0.125
+  at fly=14.7655 hoist=9.5312
+}
+
+charge path white {
+  d "M148.579 127.5003L146.847 128.5003L100.134 47.591C97.4019 46.859 95.9019 44.2609 94.4019 41.6628C93.4019 39.9308 89.4019 33.0026 87.6685 24.0002C94.5981 30.0026 98.5981 36.9308 99.5981 38.6628C101.0981 41.2609 102.5981 43.859 101.866 46.591Z"
+  box "87.6685 24.0002 60.9105 104.5001"
+  fly 7.6138
+  hoist 13.0625
+  at fly=14.7655 hoist=9.5312
+}
+
+charge path red {
+  d "M0 56L0 104L101 104C104 112 114 128 120 128S136 112 139 104L240 104L240 56L139 56C136 48 126 32 120 32S104 48 101 56Z"
+  box "0 32 240 96"
+  fly 30
+  hoist 12
+  at center
+}
+
+charge path black {
+  d "M139 104C142 96 144 88 144 80S142 64 139 56C136 64 134 72 134 80S136 96 139 104"
+  box "134 56 10 48"
+  fly 1.25
+  hoist 6
+  at fly=17.375 hoist=10
+}
+
+charge path black {
+  d "M101 104C98 96 96 88 96 80S98 64 101 56C104 64 106 72 106 80S104 96 101 104"
+  box "96 56 10 48"
+  fly 1.25
+  hoist 6
+  at fly=12.625 hoist=10
+}
+
+charge ellipse white {
+  fly 1
+  hoist 1.5
+  at center
+}
+
+charge path white {
+  d "M121 85.85S125 93.85 125 106.85S121 127.85 121 127.85Z"
+  box "121 85.85 4 42"
+  fly 0.5
+  hoist 5.25
+  at fly=15.375 hoist=13.3562
+}
+
+charge path white {
+  d "M119 74.15S115 66.15 115 53.15S119 32.15 119 32.15Z"
+  box "115 32.15 4 42"
+  fly 0.5
+  hoist 5.25
+  at fly=14.625 hoist=6.6437
+}
+
+charge path white {
+  d "M119 85.85S115 93.85 115 106.85S119 127.85 119 127.85Z"
+  box "115 85.85 4 42"
+  fly 0.5
+  hoist 5.25
+  at fly=14.625 hoist=13.3562
+}
+
+charge path white {
+  d "M121 74.15S125 66.15 125 53.15S121 32.15 121 32.15Z"
+  box "121 32.15 4 42"
+  fly 0.5
+  hoist 5.25
+  at fly=15.375 hoist=6.6437
+}

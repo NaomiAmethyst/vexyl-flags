@@ -1,24 +1,47 @@
+// Nothing here is from a law, which names only the colors and the star.
+// The Album des Pavillons 2000's construction, as FOTW reports it: (2+2):(3~+3~), that is 2:3
+// with the triangle reaching about halfway, 15 on a grid of 20 by 30. Star in a circle of
+// diameter 1/5 of the hoist, so radius 2. It's put at the triangle's center, one third of
+// its depth from the hoist (derived, and assumed, as the Album's report doesn't place it).
 vexyl 1
 meta {
   name "Djibouti"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Djibouti.svg"
-  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.presidence.dj/page/constitution"
+  source "https://www.crwflags.com/fotw/flags/dj.html"
+  note "The constitution says only that the emblem is the blue, green, white flag with a five-pointed red star. FOTW's contributors found no law on its sizes or colors."
+  note "The 2:3 proportion is from the Album des Pavillons, whose editor reports relying on a sketch in an official letter of 22 July 1977 from the French naval authority at Djibouti. The 21:38 often printed has no known source, and FOTW reports longer flags in use."
+  note "The star's circle is Heimer's reading of the Album's image on FOTW, with no stated base, taken here as the hoist."
+  note "The triangle is from the Album 2000's construction, as reported on FOTW, which marks the triangle's depth as approximate. Its editor says the triangle in his source isn't equilateral, while another FOTW contributor, and the Commons drawing, have it equilateral, reaching 3.46 of 6."
+  note "The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW."
+  law "Constitution of the Republic of Djibouti of 15 September 1992, Article 2" {
+    source "https://www.presidence.dj/page/constitution"
+  }
 }
 palette {
-  sky "#6ab2e7"
-  green "#12ad2b"
+  sky "#6ab2e7" {
+    pantone "292 C"
+    cmyk 59 17 0 0
+  }
+  green "#12ad2b" {
+    pantone "2271 C"
+    cmyk 78 0 100 0
+  }
   white "#ffffff"
-  red "#d7141a"
+  red "#c8102e" {
+    pantone "186 C"
+    cmyk 14 100 79 4
+  }
 }
-proportion hoist=600 fly=900
+proportion hoist=20 fly=30
 
 bars sky green
 chevrons white {
-  depth 519.615
+  depth 15
 }
 charge star red {
-  radius 82.92
-  at fly=198.86 hoist=307.92
+  radius 2
+  at fly=5 hoist=10
 }

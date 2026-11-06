@@ -1,18 +1,39 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law: the width is 2/3 of the length, with three equal rectangles along the length,
+// and the eagle in the middle of the white one.
 vexyl 1
 meta {
-  name "Flag of Egypt"
+  name "Egypt"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg" {
+    author "Wikimedia Commons contributors, listed in the file's history"
     license "LicenseRef-Public-Domain"
+    part "the eagle"
+  }
+  source "https://manshurat.org/sites/default/files/docs/pdf/004219.pdf"
+  source "https://www.crwflags.com/fotw/flags/eg.html"
+  note "The drawing of the eagle is from the Commons file, not the law. The law defines the eagle by the model annexed to it, a poor black and white print in the gazette, which shows the same layout with the eagle about 7/8 of the white stripe's height. Its details can't be compared."
+  note "The law says the eagle is golden yellow. The eagle keeps the Commons drawing's yellow, so that its parts match, and the Album des Pavillons 2023's gold is kept as a reference."
+  note "The red's hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. The law names only the colors."
+  note "The constitution's Article 223 wasn't read directly. Its terms are from FOTW's quotation of the 2013 draft: black, white and red with the eagle of Saladin in golden yellow."
+  law "Constitution of the Arab Republic of Egypt, 2014, Article 223"
+  law "Law No. 41 of 2014 on the National Flag, Anthem and Salute, Article 2 and annexed model, Official Gazette No. 22 (supplement a) of 29 May 2014" {
+    source "https://manshurat.org/sites/default/files/docs/pdf/004219.pdf"
+  }
+  restriction "Article 6 of Law No. 41 of 2014 forbids adding words, pictures or designs to the flag, and using it as a trademark or part of one." {
+    source "https://manshurat.org/sites/default/files/docs/pdf/004219.pdf"
   }
 }
 palette {
-  red "#c8102e"
+  red "#c8102e" {
+    pantone "186 C"
+    cmyk 14 100 79 4
+  }
   white "#ffffff"
   black "#000000"
-  yellow "#ffcd00"
+  yellow "#ffcd00" {
+    reference "Album des Pavillons 2023" "Pantone 117 C, CMYK 22-38-100-11, RGB 192-147-0"
+  }
 }
 proportion hoist=2 fly=3
 

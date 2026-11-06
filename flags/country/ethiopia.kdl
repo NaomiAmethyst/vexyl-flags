@@ -1,29 +1,50 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Article 6: three equal stripes, length twice the width, so 90 by 180. The
+// emblem's edge crosses the middle of the green and red stripes, so radius 90/2 - 90/6 = 30.
 vexyl 1
 meta {
-  name "Flag of Ethiopia"
+  name "Ethiopia"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg" {
     author "Drawn by User:SKopp"
     license "LicenseRef-Public-Domain"
+    part "the star and rays"
+  }
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia.svg"
+  source "https://mesfinbelachew.net/proclamations/654_2009.pdf"
+  source "http://hrlibrary.umn.edu/research/proclamation%20no.48-1996.pdf"
+  source "https://www.crwflags.com/fotw/flags/et.html"
+  note "The proportion, stripes and disc are from Article 6, which describes the star and rays in words, with no sizes. The copy read is missing the picture in Article 9. The picture in Proclamation 48/1996, now replaced, shows the same interlaced star as the Commons drawing, whose lines are used here and aren't from the law."
+  note "The law says the colors are bright and basic, and gives no shades. Green, yellow and red are the Album des Pavillons 2023's, as FOTW reports them. FOTW reports the Album's blue as a light RGB 0-169-224 beside a dark CMYK, so the blue is Wikipedia's, as FOTW reports it."
+  law "Flag Proclamation No. 654/2009, Article 6" {
+    source "https://mesfinbelachew.net/proclamations/654_2009.pdf"
   }
 }
 palette {
-  green "#078930"
-  yellow "#fcdd09"
-  red "#da121a"
-  blue "#0f47af"
+  green "#009530" {
+    pantone "355 C"
+    cmyk 84 12 100 1
+  }
+  yellow "#fedd00" {
+    pantone "Yellow C"
+    cmyk 3 9 92 0
+  }
+  red "#c8102e" {
+    pantone "186 C"
+    cmyk 14 100 79 4
+  }
+  blue "#0f47af" {
+    pantone "2728"
+    cmyk 91 59 0 31
+    reference "Album des Pavillons 2023, as FOTW reports it" "Pantone 2132 C, CMYK 94-73-0-0, RGB 0-169-224"
+  }
 }
 proportion hoist=90 fly=180
 
 bars green yellow red
-
 charge disc blue {
   radius 30
-  at center
 }
-
 charge polygon yellow {
   point fly=90 hoist=21
   point fly=88.9375 hoist=24.25

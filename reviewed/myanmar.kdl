@@ -1,21 +1,49 @@
+// From the law, section 3 and its Annexure, in feet: 9 long, 6 wide; yellow, green, red of
+// 2 each; a white five-pointed star, its top at mid-length pointing up, 1 below the flag's
+// top; its two lower points 1 above the bottom. 7.2 inches over 2 feet between points.
+// Derived here: the star is 4 tall, so its radius is 4 / (1 + cos 36) = 2.21115 and its
+// center is at 3.21115. Its points are then 2 x 2.21115 x sin 36 = 2.5994 feet apart, which
+// is the law's 2 feet 7.2 inches.
+// Pantone and CMYK are the law's. From elsewhere: the hex values are Wikipedia's.
 vexyl 1
 meta {
   name "Myanmar"
+  date "2010-10-21"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg"
-  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.burmalibrary.org/sites/burmalibrary.org/files/obl/docs18/2010-10-21-SPDC_Law2010-08_Union_Flag_Law-oag-en.pdf"
+  source "https://en.wikipedia.org/wiki/Flag_of_Myanmar"
+  source "https://www.crwflags.com/fotw/flags/mm.html"
+  note "The law gives Pantone and, in its Annexure, CMYK. The hex values are the ones Wikipedia lists for those Pantones, not from the law."
+  note "Section 3(d) gives the red as Pantone 1788 PC. The Annexure's text in this copy reads 178 PC, taken as a misprint."
+  note "The law was read in the English version of the Attorney General's Office, as hosted by the Online Burma/Myanmar Library."
+  law "The Union Flag Law, State Peace and Development Council Law No. 8/2010, 21 October 2010" {
+    source "https://www.burmalibrary.org/sites/burmalibrary.org/files/obl/docs18/2010-10-21-SPDC_Law2010-08_Union_Flag_Law-oag-en.pdf"
+  }
+  restriction "Section 15(c): the flag may not be applied as a trademark of any goods, painted on clothes or used as decoration, except when performing on behalf of the Union or the entire nation." {
+    source "https://www.burmalibrary.org/sites/burmalibrary.org/files/obl/docs18/2010-10-21-SPDC_Law2010-08_Union_Flag_Law-oag-en.pdf"
+  }
 }
 palette {
-  yellow "#fecb00"
-  green "#34b233"
-  red "#ea2839"
+  yellow "#fecb00" {
+    pantone "116 PC"
+    cmyk 0 12 100 0
+  }
+  green "#34b233" {
+    pantone "361 PC"
+    cmyk 75 0 100 0
+  }
+  red "#ea2839" {
+    pantone "1788 PC"
+    cmyk 0 88 80 0
+  }
   white "#ffffff"
 }
-proportion hoist=12 fly=18
+proportion hoist=6 fly=9
 
 bars yellow green red
 charge star white {
-  radius 4.422
-  at fly=9 hoist=6.422
+  radius 2.21115
+  at fly=4.5 hoist=3.21115
 }

@@ -1,40 +1,69 @@
+// From the law, Article 4, in centimeters: 250 long and 125 wide, three stripes of 40 with
+// red edges of 2.5 on the white. The crescent and stars fit a 75 x 30 rectangle in the
+// middle of the blue, 20 from the hoist, so it runs 20 to 95 and 5 to 35.
+//   crescent: fits a circle of diameter 30, so its center is 20 + 15 = 35
+//   stars: fit circles of diameter 6, with 6 between circles, so centers step 12
+//   rows of 3, 4 and 5 end at the rectangle's fly side: 95 - 3 = 92; rows at 8, 20, 32
+//   the 5-star row starts 3.5 past the crescent's lower tip: 44 - 3 - 3.5 = 37.5
+// The cut circle isn't in the text. The schematic annex draws two equal circles 5 apart,
+// whose tips lie at 35 + 5/2 = 37.5, as the text needs. Fitting circles to the annex's
+// colored image gave radii 14.8 to 15 and an offset of 4.7.
 vexyl 1
 meta {
   name "Uzbekistan"
+  date "1991-11-18"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Uzbekistan.svg"
-  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://lex.uz/docs/-100122"
+  source "https://lex.uz/files/8096765.jpg"
+  source "https://lex.uz/files/5783098"
+  source "https://lex.uz/files/5783125"
+  source "https://www.crwflags.com/fotw/flags/uz.html"
+  note "All sizes are in the law's Article 4 or its schematic annex. The law gives no shades, so the hex values are sampled from the colored image annexed to it, which is a GIF rather than a color specification. The Album's values are recorded as references: its blue is far from both the annex and its own Pantone number."
+  law "Law No. 407-XII on the State Flag of the Republic of Uzbekistan, 18 November 1991, as amended to 2024" {
+    source "https://lex.uz/docs/-100122"
+    source "https://lex.uz/files/8096765.jpg"
+  }
 }
 palette {
-  teal "#0099b5"
-  red "#ce1126"
+  blue "#008baf" {
+    reference "Album des Pavillons 2023, via FOTW" "Pantone 313c, CMYK 72-41-0-0, RGB 67-137-221"
+  }
+  red "#dd2a1b" {
+    reference "Album des Pavillons 2023, via FOTW" "Pantone 186c, CMYK 10-100-74-2, RGB 210-16-52"
+  }
   white "#ffffff"
-  green "#1eb53a"
+  green "#54bd06" {
+    reference "Album des Pavillons 2023, via FOTW" "Pantone 361c, CMYK 70-0-100-0, RGB 18-173-43"
+  }
 }
-proportion hoist=500 fly=1000
+proportion hoist=125 fly=250
 
-bars teal red white red green {
-  ratio 16 1 16 1 16
+bars blue red white red green {
+  ratio 40 2.5 40 2.5 40
 }
 charge crescent white {
-  radius 60
-  inner 60
-  offset 20
-  at fly=140 hoist=80
+  radius 15
+  inner 15
+  offset 5
+  at fly=35 hoist=20
 }
 charge star white {
-  radius 12
-  at fly=176 hoist=128
-  repeat line count=5 fly=48
+  radius 3
+  at fly=68 hoist=8
+  repeat line count=3 fly=12
 }
 charge star white {
-  radius 12
-  at fly=224 hoist=80
-  repeat line count=4 fly=48
+  radius 3
+  at fly=56 hoist=20
+  repeat line count=4 fly=12
 }
 charge star white {
-  radius 12
-  at fly=272 hoist=32
-  repeat line count=3 fly=48
+  radius 3
+  at fly=44 hoist=32
+  repeat line count=5 fly=12
 }
+
+// Article 4: the crescent and stars are near the pole on both faces, as the annex shows.
+reverse mirror

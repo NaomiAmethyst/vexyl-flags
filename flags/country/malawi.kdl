@@ -1,50 +1,67 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, the First Schedule of the Protected Flag, Emblems and Names Act: three
+// equal horizontal stripes of black, red and green, a red rising sun in the center of the
+// black stripe, length to breadth 3:2. So 120 by 180 with stripes of 40.
+// From elsewhere: the sun is the Commons file's, on a grid 0.4 of its own: a disc of radius
+// 64.5 x 0.4, and rays 5 degrees apart, their outer ends 102 x 0.4 from the center, cut off
+// 3 above the red stripe. The file's 32nd ray, at -80 degrees, lies wholly under the black
+// and is left out, so 31 show. Hex, Pantone and CMYK are the Album des Pavillons 2023, as
+// FOTW reports it.
 vexyl 1
 meta {
-  name "Flag of Malawi"
+  name "Malawi"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Malawi.svg" {
+    author "Achim1999"
+    author "Unknown author (original)"
     license "LicenseRef-Public-Domain"
+    part "the shape, size and place of the sun's disc and rays"
+  }
+  source "https://media.malawilii.org/files/legislation/akn-mw-act-1967-10-eng-2014-12-31.pdf"
+  source "https://www.crwflags.com/fotw/flags/mw.html"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Malawi.svg"
+  note "The law defines the sun's look only by the picture in its Schedule. The disc and rays here come from the Commons file Flag_of_Malawi.svg, not the law, with the file's shape of ray kept. The law's small picture also shows 31 rays, counted by sampling around the disc, but its sun is a little larger and higher."
+  note "The law names the colors with no shades. The hex, Pantone and CMYK values are the Album des Pavillons 2023, as reported by FOTW, which lists them with no flag-specific color table. The Album wasn't read."
+  law "Protected Flag, Emblems and Names Act, Chapter 18:03, as at 31 December 2014" {
+    source "https://media.malawilii.org/files/legislation/akn-mw-act-1967-10-eng-2014-12-31.pdf"
+  }
+  restriction "Section 5: using a protected emblem or the protected colors for trade, advertising, or patent or trade mark titles needs the Minister's written permission. Section 4 makes insulting the flag an offence." {
+    source "https://media.malawilii.org/files/legislation/akn-mw-act-1967-10-eng-2014-12-31.pdf"
   }
 }
 palette {
   black "#000000"
-  red "#c7361e"
-  green "#008c51"
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+  }
+  green "#289728" {
+    pantone "362 C"
+    cmyk 80 12 100 2
+  }
 }
 proportion hoist=120 fly=180
 
 field black
-
 charge disc red {
-  radius 25.8125
-  at fly=90 hoist=45.625
+  radius 25.8
+  at fly=90 hoist=45.6
 }
-
-charge svg {
-  at center
-  fly 180
-  hoist 120
-  markup #"""
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300"><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(1 0 0 1 225 12)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.996195 0.087156 -0.087156 0.996195 233.889885 12.388141)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.984808 0.173648 -0.173648 0.984808 242.712114 13.54961)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.965926 0.258819 -0.258819 0.965926 251.399543 15.475566)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.939693 0.34202 -0.34202 0.939693 259.886054 18.151353)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.906308 0.422618 -0.422618 0.906308 268.107062 21.556605)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.866025 0.5 -0.5 0.866025 276 25.665409)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.819152 0.573576 -0.573576 0.819152 283.504796 30.446492)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.766044 0.642788 -0.642788 0.766044 290.564336 35.863467)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.707107 0.707107 -0.707107 0.707107 297.124892 41.875108)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.642788 0.766044 -0.766044 0.642788 303.136533 48.435665)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.573576 0.819152 -0.819152 0.573576 308.553508 55.495204)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.5 0.866025 -0.866025 0.5 313.334591 63)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.422618 0.906308 -0.906308 0.422618 317.443394 70.892937)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.34202 0.939693 -0.939693 0.34202 320.848647 79.113946)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.258819 0.965926 -0.965926 0.258819 323.524434 87.600457)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.173648 -0.984808 0.984808 0.173648 124.54961 96.287886)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.258819 -0.965926 0.965926 0.258819 126.475566 87.600457)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.34202 -0.939693 0.939693 0.34202 129.151353 79.113945)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.422618 -0.906308 0.906308 0.422618 132.556606 70.892937)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.5 -0.866025 0.866025 0.5 136.665409 63)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.573576 -0.819152 0.819152 0.573576 141.446492 55.495204)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.642788 -0.766044 0.766044 0.642788 146.863468 48.435664)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.707107 -0.707107 0.707107 0.707107 152.875109 41.875109)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.766044 -0.642788 0.642788 0.766044 159.435665 35.863467)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.819152 -0.573576 0.573576 0.819152 166.495204 30.446492)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.866025 -0.5 0.5 0.866025 174.000001 25.665409)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.906308 -0.422618 0.422618 0.906308 181.892938 21.556606)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.939693 -0.34202 0.34202 0.939693 190.113946 18.151353)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.965926 -0.258819 0.258819 0.965926 198.600457 15.475566)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.984808 -0.173648 0.173648 0.984808 207.287887 13.54961)" fill="#c7361e"/><path d="m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z" transform="matrix(0.996195 -0.087156 0.087156 0.996195 216.110115 12.388142)" fill="#c7361e"/></svg>
-"""#
+charge path red {
+  d "m0 0c-2.16666 0-3 3.25-3 6.5 0 7.833332.95963 11.928508 3 23.5 2.04036-11.571492 3-15.666668 3-23.5 0-3.25-.83333-6.5-3-6.5z"
+  box "-3 0 6 30"
+  fly 2.4
+  hoist 12
+  at fly=90 hoist=45.6
+  repeat arc count=31 radius=34.8 from=-75 to=75 turn=#true
 }
-
 panel {
   side bottom
   width 83
   field black
 }
-
 panel {
   side bottom
   width 80
-  field red
-}
-
-panel {
-  side bottom
-  width 40
-  field green
+  bars red green
 }

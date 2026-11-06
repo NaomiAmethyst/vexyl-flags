@@ -1,63 +1,83 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Article 11: red, blue, red, the middle a third of the flag; the golden
+// Soyombo in the center of the red by the staff; width to length 1:2.
+// From the standard MNS 6262:2011, not a law, in its picture's unit a = 1/60 of the hoist:
+//   stripes 40 each; the Soyombo 22 wide and 45 tall, 6 below the top
+// The discs are from the Commons file's construction, which agrees with the standard's
+// picture where that gives a measure: moon 11 wide, disc of the two fish 10 across.
 vexyl 1
 meta {
-  name "Flag of Mongolia"
+  name "Mongolia"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia.svg" {
+    author "Wikimedia Commons contributors, listed in the file's history"
     license "LicenseRef-Public-Domain"
+    part "the Soyombo"
+  }
+  source "https://web.archive.org/web/20231207235300/https://legalinfo.mn/mn/detail?lawId=496"
+  source "https://web.archive.org/web/20130314013607/http://www.president.mn/mongolian/node/1958"
+  source "https://web.archive.org/web/2012/http://www.president.mn/eng/newsCenter/viewNews.php?newsId=573"
+  source "https://web.archive.org/web/20130314013607im_/http://open-government.mn/newspic/fs6.jpg"
+  source "https://web.archive.org/web/20130314013607im_/http://open-government.mn/newspic/fs1.jpg"
+  source "https://web.archive.org/web/20130314013607im_/http://open-government.mn/newspic/fs2.jpg"
+  source "https://web.archive.org/web/20130314013607im_/http://open-government.mn/newspic/fs3.jpg"
+  source "https://www.crwflags.com/fotw/flags/mn.html"
+  note "The Soyombo's outline comes from the Commons file. The standard defines it by construction drawings, which were read at low resolution; no difference of design shows."
+  note "MNS 6262:2011 is a national standard, not a law. Its text prints the yellow's CMYK as C0 M15 Y0 K0, but its own swatch figure shows 0 15 100 0, as recorded here."
+  note "The standard gives colors as CMYK only. The hex values are measured here from its color swatch images, as the median of each swatch in a JPEG, so they're approximate."
+  note "The law also requires the model annexed to the Constitution, which wasn't read."
+  law "Law of Mongolia on State Symbols, Article 11, read at a December 2023 snapshot" {
+    source "https://web.archive.org/web/20231207235300/https://legalinfo.mn/mn/detail?lawId=496"
   }
 }
 palette {
-  red "#da2031"
-  blue "#0066b2"
-  yellow "#ffd300"
-  light-red "#da2032"
+  red "#c4272e" {
+    cmyk 10 100 90 0
+  }
+  blue "#015198" {
+    cmyk 100 60 0 0
+  }
+  gold "#f9cf00" {
+    cmyk 0 15 100 0
+  }
 }
-proportion hoist=1 fly=2
+proportion hoist=60 fly=120
 
 bars red blue red {
   along hoist
 }
-
-charge disc yellow {
-  radius 0.0917
-  at fly=0.3333 hoist=0.3417
+charge disc gold {
+  radius 5.5
+  at fly=20 hoist=20.5
 }
-
 charge disc red {
-  radius 0.1
-  at fly=0.3333 hoist=0.3
+  radius 6
+  at fly=20 hoist=18
 }
-
-charge disc yellow {
-  radius 0.0667
-  at fly=0.3333 hoist=0.3167
+charge disc gold {
+  radius 4
+  at fly=20 hoist=19
 }
-
-charge path yellow {
+charge path gold {
   d "M204.2035 60C199.2335 62.255 197.3765 66.321 196.9765 70.371C196.7265 73.781 198.2315 77.622 198.3815 80.957C198.3815 86.696 192.4435 88.586 192.4435 96.777C192.4435 99.592 195.0435 102.694 195.0435 110C194.5935 113.835 192.4535 114.7 190.0435 115A5 5 0 0 1 185.0435 110A5 5 0 0 1 186.4285 106.56A5 5 0 0 1 186.9385 106.06C188.0785 104.91 189.6435 104.465 189.6335 101.43C189.6335 99.87 188.6235 98.45 187.6585 95.688C186.7485 93.008 187.4085 88.528 189.5735 85.883C186.0735 87.233 183.9165 90.588 182.8165 93.598C181.6565 97.298 182.6665 99.429 181.0765 102.504C180.1065 104.494 178.9515 105.319 177.8565 106.979C176.5615 108.789 175.0415 113.022 175.0415 114.987A25 25 0 0 0 225.0415 114.987C225.0415 113.022 223.5415 108.789 222.2465 106.979C221.1515 105.319 219.9765 104.494 219.0065 102.504C217.4365 99.429 218.4465 97.298 217.2865 93.598C216.1865 90.588 214.0265 87.234 210.5285 85.883C212.6935 88.528 213.3535 93.008 212.4435 95.688C211.4735 98.448 210.4535 99.868 210.4535 101.43C210.4535 104.465 212.0085 104.91 213.1485 106.06A5 5 0 0 1 213.6585 106.56A5 5 0 0 1 215.0435 110A5 5 0 0 1 210.0435 115C207.2785 114.65 205.2935 113.36 205.0435 110C205.0435 100.374 209.1635 99.76 209.1635 92.637C209.1635 82.466 200.0425 77.651 200.0425 70.215C200.0425 67.695 200.6325 63.4 204.2025 59.9875ZM90 270L140 270L140 510L90 510ZM260 270L310 270L310 510L260 510ZM150 270L250 270L200 300ZM150 310L250 310L250 330L150 330ZM150 450L250 450L250 470L150 470ZM150 480L250 480L200 510Z"
   box "90 59.9875 220 450.0125"
-  fly 0.3667
-  hoist 0.75
-  at fly=0.3333 hoist=0.475
+  fly 22
+  hoist 45
+  at fly=20 hoist=28.5
 }
-
-charge disc yellow {
-  radius 0.0833
-  at fly=0.3333 hoist=0.65
+charge disc gold {
+  radius 5
+  at fly=20 hoist=39
 }
-
-charge disc light-red {
-  radius 0.0167
-  at fly=0.3333 hoist=0.6058
-  at fly=0.3333 hoist=0.6942
+charge disc red {
+  radius 1
+  at fly=20 hoist=36.35
+  at fly=20 hoist=41.65
 }
-
-charge path light-red {
+charge path red {
   d "M200 334A29.5 29.5 0 0 1 200 393A23.5 23.5 0 0 0 200 440L200 446A29.5 29.5 0 0 1 200 387A23.5 23.5 0 0 0 200 340Z"
   box "170.5 316.5 59 147"
-  fly 0.0983
-  hoist 0.245
-  at fly=0.3333 hoist=0.65
+  fly 5.9
+  hoist 14.7
+  at fly=20 hoist=39
 }

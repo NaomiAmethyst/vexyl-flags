@@ -1,17 +1,39 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From Schedule I of the National Symbols Act 2025: proportion 3:5, and the two red borders
+// together 1/5 of the width, so 1:8:1, as the Schedule's drawing shows them.
+// The disc's size isn't in the words. In the Schedule's drawing it measures about 0.587 of
+// the height, which agrees with the Commons radius of 0.875 on this grid (0.583).
 vexyl 1
 meta {
-  name "Flag of Belize"
+  name "Belize"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg" {
     author "Caleb Moore"
     license "LicenseRef-Public-Domain"
+    part "the coat of arms"
+  }
+  source "https://web.archive.org/web/20250312102216/https://www.nationalassembly.gov.bz/wp-content/uploads/2025/02/Act-No.-9-of-2025-National-Symbols-Act-2025.pdf"
+  source "https://www.crwflags.com/fotw/flags/bz.html"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg"
+  note "The proportion, red borders, white circle, Pantone numbers and centered arms are Schedule I of the Act, whose drawing also gives the disc's size. Its words could be read as each border being 1/5, but its drawing shows each at about 1/10."
+  note "The hex values are the 2019 standardization's slide, as Jonathan Dixon transcribes it on FOTW. They aren't from the law, and Wikipedia and Commons give the red as #d90f19."
+  note "The coat of arms' drawing comes from the Commons file and isn't from the law. Its colors are the Commons file's own."
+  note "Commons tags the drawing public domain, while this law vests copyright in the design in the Crown. The file's license follows Commons' tag and doesn't settle that."
+  design-rights "Section 11: copyright in the design of the National Flag and Coat of Arms is vested in the Crown in perpetuity."
+  restriction "Section 12: importing, making or selling anything showing the flag or arms, or using them in connection with a business or body of persons, needs a licence from the Minister." {
+    source "https://web.archive.org/web/20250312102216/https://www.nationalassembly.gov.bz/wp-content/uploads/2025/02/Act-No.-9-of-2025-National-Symbols-Act-2025.pdf"
+  }
+  law "National Symbols Act, 2025 (No. 9 of 2025), Schedule I" {
+    source "https://web.archive.org/web/20250312102216/https://www.nationalassembly.gov.bz/wp-content/uploads/2025/02/Act-No.-9-of-2025-National-Symbols-Act-2025.pdf"
   }
 }
 palette {
-  red "#d90f19"
-  blue "#171696"
+  red "#d60f19" {
+    pantone "485 C"
+  }
+  blue "#171696" {
+    pantone "2738 C"
+  }
   white "#ffffff"
 }
 proportion hoist=3 fly=5
@@ -19,12 +41,10 @@ proportion hoist=3 fly=5
 bars red blue red {
   ratio 1 8 1
 }
-
 charge disc white {
   radius 0.875
   at center
 }
-
 charge svg {
   at center
   fly 5

@@ -1,26 +1,52 @@
+// From the law, Article 4, on Heimer's grid of 42 by 21: length twice the width, three equal
+// stripes, a red triangle on the whole hoist with its height half the length, so its point
+// is at fly 21. The star fits a circle of a fourteenth of the length, so radius 1.5, with
+// one point's axis parallel to the base, so one point up.
+// Its center is where the triangle's bisectors meet. Sides 21, and 21 x sqrt(5)/2 twice,
+// give fly = 21 x 21 / (21 + 21 sqrt 5) = 21 (sqrt 5 - 1) / 4 = 6.4894 (derived).
+// From elsewhere: the inner radius, for a {7/3} star: 1.5 cos(3 pi/7) / cos(2 pi/7) = 0.5353.
 vexyl 1
 meta {
   name "Jordan"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Jordan.svg"
-  note "Rewritten by hand from the drawing on Commons, not a checked construction sheet."
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.constituteproject.org/constitution/Jordan_2016"
+  source "http://www.kinghussein.gov.jo/const_ch1-3.html"
+  source "https://www.crwflags.com/fotw/flags/jo'.html"
+  source "https://www.crwflags.com/fotw/flags/jo.html"
+  note "The geometry is Article 4, in Constitute's text of the constitution as amended to 2016. The translation on the King Hussein site omits the triangle's height and says only 'one-fourteenth part of its length' for the star, but agrees otherwise. The Arabic wasn't read."
+  note "The law doesn't give the star's points their shape. The {7/3} form is FOTW's conclusion from the Flaggenbuch 1939 drawing, which FOTW reports and which wasn't read. M. Schmöger on FOTW saw thicker stars on real flags, and Commons uses an inner radius of half."
+  note "The Royal Protocol's Jordanian Flag Basic Elements of 2007, as FOTW reports it, gives Pantone 200 and 356 with CMYK, but no screen values, and it wasn't read. Those are kept as references. The hex is the Album des Pavillons 2023 as FOTW reports it, with its own Pantone and CMYK. White and black are plain."
+  law "Constitution of the Hashemite Kingdom of Jordan, 1952, Article 4" {
+    source "https://www.constituteproject.org/constitution/Jordan_2016"
+  }
 }
 palette {
   black "#000000"
   white "#ffffff"
-  green "#007a3d"
-  red "#ce1126"
+  green "#007229" {
+    pantone "356 C"
+    cmyk 89 29 100 18
+    reference "Royal Protocol 2007 Pantone, as FOTW reports" "356"
+    reference "Royal Protocol 2007 CMYK, as FOTW reports" "100 0 91 27.5"
+  }
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+    reference "Royal Protocol 2007 Pantone, as FOTW reports" "200"
+    reference "Royal Protocol 2007 CMYK, as FOTW reports" "0 100 65 15"
+  }
 }
-proportion hoist=5040 fly=10080
+proportion hoist=21 fly=42
 
 bars black white green
-chevrons red {
-  depth 5040
+pile red {
+  depth 21
 }
 charge star white {
-  radius 360
-  inner 180
+  radius 1.5
+  inner 0.5353
   points 7
-  at fly=1557 hoist=2520
+  at fly=6.4894 hoist=10.5
 }

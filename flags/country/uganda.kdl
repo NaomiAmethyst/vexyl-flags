@@ -1,48 +1,51 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law: six stripes of equal width, so 2 each on a hoist of 12.
+// From elsewhere: 2:3 is the Album des Pavillons 2000, and the disc's radius 1.87 is the
+// Commons drawing, so that it stops short of the yellow stripes.
 vexyl 1
 meta {
-  name "Flag of Uganda"
+  name "Uganda"
+  date "1962-10-09"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Uganda.svg" {
     author "tobias"
     license "LicenseRef-Public-Domain"
+    part "the crested crane"
+  }
+  source "https://web.archive.org/web/20251231035153/https://ulii.org/en/akn/ug/act/ord/1962/64/eng@2000-12-31"
+  source "https://www.crwflags.com/fotw/flags/ug.html"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Uganda.svg"
+  note "The Act gives the six stripes, their order and a crested crane on a white circle in the center. It gives no proportion, circle size or shades."
+  note "2:3 is the Album des Pavillons 2000, as FOTW reports it. The Uganda Bureau of Standards' flag standard wasn't read. FOTW's contributors say it specifies neither the colors nor the crane's construction."
+  note "The crane's drawing and the disc's size come from the Commons file, not the law. FOTW records that the Album's disc touches the yellow stripes, while other sources draw it smaller, as here."
+  note "Red and yellow are the Album des Pavillons 2023, as FOTW reports it. The crane's grey is Flag Color Codes, as FOTW reports it. The Act names the colors only."
+  note "This is the 2000 revision. ULII lists the Law Revision (Miscellaneous Amendments) Act 2023 as not yet applied to it, and that amendment wasn't read."
+  law "National Flag and Armorial Ensigns Act, Chapter 254" {
+    source "https://web.archive.org/web/20251231035153/https://ulii.org/en/akn/ug/act/ord/1962/64/eng@2000-12-31"
+  }
+  restriction "Section 4: no one may use the flag or a deceptive likeness in connection with a business, trade, calling or profession, in a way suggesting authority to do so, without the Minister's authority." {
+    source "https://web.archive.org/web/20251231035153/https://ulii.org/en/akn/ug/act/ord/1962/64/eng@2000-12-31"
   }
 }
 palette {
   black "#000000"
-  yellow "#fcdc04"
-  red "#d90000"
+  yellow "#ffce00" {
+    pantone "116 C"
+    cmyk 0 19 93 0
+  }
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+  }
   white "#ffffff"
-  grey "#9ca69c"
+  grey "#9ca69c" {
+    pantone "430"
+    cmyk 50 34 27 11
+  }
 }
 proportion hoist=12 fly=18
 
-field black
-
-charge rect yellow {
-  fly 18
-  hoist 3
-  at fly=9 hoist=3.5
-}
-
-panel {
-  side bottom
-  width 4
-  field yellow
-}
-
-charge rect red {
-  fly 18
-  hoist 2
-  at fly=9 hoist=5
-}
-
-panel {
-  side bottom
-  width 2
-  field red
-}
+bars black yellow red black yellow red
 
 charge disc white {
   radius 1.87

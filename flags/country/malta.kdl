@@ -1,23 +1,43 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Article 3 of the Constitution: two equal vertical stripes, white in the
+// hoist and red in the fly, with a representation of the George Cross, edged with red, in
+// the canton of the white stripe.
+// From the Office of the Prime Minister's Graphical Specifications of 2008, which aren't a
+// law: 2:3, and with A the height and B the length, D (arm width) 2/27 A, G 1/8 B, F (red
+// edge) 1/16 D, and C 5/18 A and E 1/27 A, which the drawing doesn't follow.
+// The cross's drawing is the Commons file, unchanged and in its place. Its arms are D wide,
+// its center is G from the hoist and top, and its edge is about F wide.
 vexyl 1
 meta {
-  name "Flag of Malta"
+  name "Malta"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Malta.svg" {
+    author "Wikimedia Commons contributors, listed in the file's history"
     license "LicenseRef-Public-Domain"
+    part "the George Cross"
+  }
+  source "https://legislation.mt/eli/const/eng/pdf"
+  source "https://web.archive.org/web/20261002161132id_/https://www.gov.mt/en/About%20Malta/Documents/Maltese%20Islands/National%20Flag%20Graphical%20Specifications.pdf"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Malta.svg"
+  note "The Constitution gives neither a proportion nor the cross's size. 2:3 and the color values are from the Office of the Prime Minister's Graphical Specifications of February 2008, which says of its diagram that it's for reference only. Its description implies that the Constitution gives 2:3, and Article 3 as read doesn't."
+  note "The George Cross's drawing comes from the Commons file Flag_of_Malta.svg, not the law. It has the Specifications' arm width and center, but its height is about 0.259 of the flag's without the red edge, where the Specifications' C is 0.278, and the gap to the edge is about 0.05 where E is 0.037. The Specifications' own values don't quite agree, since E + C/2 falls short of G. The drawing is left unchanged."
+  law "Constitution of Malta, Article 3" {
+    source "https://legislation.mt/eli/const/eng/pdf"
   }
 }
 palette {
   white "#ffffff"
-  red "#cf142b"
+  red "#cf142b" {
+    pantone "186 C"
+    cmyk 0 91 76 6
+    reference "Office of the Prime Minister, spot color" "50% rubine red, 50% warm red"
+  }
 }
 proportion hoist=2 fly=3
 
 bars white red {
   along hoist
 }
-
 charge svg {
   at center
   fly 3

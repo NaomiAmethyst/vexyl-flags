@@ -1,18 +1,37 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// No law read gives a construction. The grid is 2:3, as reported from the 2006 decision.
+// The map and branches are placed as the Commons drawing has them.
 vexyl 1
 meta {
-  name "Flag of Cyprus"
+  name "Cyprus"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg" {
     author "İsmet Güney, SVG by User:Vzb83~commonswiki"
     license "LicenseRef-Public-Domain"
+    part "the map and the olive branches"
   }
+  source "https://www.constituteproject.org/constitution/Cyprus_2013?lang=en"
+  source "https://web.archive.org/web/20240530190524/https://www.presidency.gov.cy/cypresidency/cypresidency.nsf/presidencf_en/presidencf_en?OpenDocument"
+  source "https://www.crwflags.com/fotw/flags/cy.html"
+  source "https://web.archive.org/web/20240530190524/https://www.presidency.gov.cy/cypresidency/cypresidency.nsf/All/8B995FA2C5889EADC22585D8003BCA0F/$file/NEW%20FLAG.jpg?OpenElement"
+  note "The constitution says only that the flag is of neutral design and color, chosen by the President and Vice-President. The drawing of the map and branches is from the Commons file, not a law."
+  note "Decision 63.673 wasn't read. FOTW reports it from the website of the embassy in Copenhagen, as changing the proportion from 3:5 to 2:3 and redrawing the map and leaves. The presidency's own flag image is about 2:3."
+  note "The Pantone numbers are the presidency's page, which isn't a law. The hex and CMYK values are Wikipedia's, as reported by FOTW. The Album des Pavillons 2023 gives Pantone 716 C and 336 C at 3:5, which predates the presidency's values, so they're set aside."
+  law "Constitution of the Republic of Cyprus, Article 4" {
+    source "https://www.constituteproject.org/constitution/Cyprus_2013?lang=en"
+  }
+  law "Council of Ministers Decision No. 63.673 of 20 April 2006"
 }
 palette {
   white "#ffffff"
-  orange "#d67900"
-  green "#4d5b2d"
+  orange "#d57800" {
+    pantone "1385 C"
+    cmyk 0 44 100 16
+  }
+  green "#4e5b31" {
+    pantone "574 C"
+    cmyk 14 0 46 64
+  }
 }
 proportion hoist=2 fly=3
 

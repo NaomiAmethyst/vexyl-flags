@@ -1,22 +1,46 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Articles 4 and 5 of the Wappengesetz: two equal stripes, blue over red,
+// the princely hat in gold in the blue stripe toward the staff, height to length 3:5.
+// The annex's pictures govern the display, and give no measurements.
+// From elsewhere: the hat's drawing and place are the Commons file, whose placement looks
+// like the annex's. Blue and red are the Album des Pavillons 2023, as FOTW reports it.
 vexyl 1
 meta {
-  name "Flag of Liechtenstein"
+  name "Liechtenstein"
   encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg" {
     author "Mnmazur and others"
     license "LicenseRef-Public-Domain"
+    part "the princely hat"
+  }
+  source "https://www.gesetze.li/konso/html/1982058000?version=4"
+  source "https://www.gesetze.li/konso/pdf/1982058000?version=4"
+  source "https://www.crwflags.com/fotw/flags/li.html"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg"
+  note "The law defines the hat by the pictures in its annex, which were read in the consolidated text of 1 June 2016. The drawing here comes from the Commons file Flag_of_Liechtenstein.svg, not the law. It differs from the annex's small picture in its finer line work and paler gold."
+  note "The law names blue, red and gold with no shades. The blue and red are the Album des Pavillons 2023, as reported by FOTW, which wasn't read. The hat keeps the Commons file's own gold and black."
+  note "The law also defines a Fahne of the same design and proportion, which this also shows, and a Banner hanging from a crossbar, with no proportion in its text. FOTW's 4:1 for the Banner isn't in the law, so there's no variant for it."
+  law "Gesetz vom 30. Juni 1982 über Wappen, Farben, Siegel und Embleme des Fürstentums Liechtenstein (Wappengesetz), LGBl. 1982 Nr. 58" {
+    source "https://www.gesetze.li/konso/html/1982058000?version=4"
+    source "https://www.gesetze.li/konso/pdf/1982058000?version=4"
+  }
+  restriction "Article 21: using the arms, colors, seals or emblems for business purposes requires a special permit from the Government. Article 16 forbids other use, apart from the cases it lists and Articles 17 to 21, on penalty of a fine." {
+    source "https://www.gesetze.li/konso/html/1982058000?version=4"
   }
 }
 palette {
-  blue "#002b7f"
-  red "#ce1126"
+  blue "#00267f" {
+    pantone "280 C"
+    cmyk 100 89 27 8
+  }
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+  }
 }
 proportion hoist=3 fly=5
 
 bars blue red
-
 charge svg {
   at center
   fly 5

@@ -1,322 +1,71 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the resolution: tricolor of equal bands, 2:3, a navy wheel at the center, of about
+// the white band's width, in the design of the wheel on the Sarnath capital.
+// From IS 1:1968, Table 6 and Fig. 4, flag size 1, 6300 by 4200 mm:
+//   J 1295 outer diameter, K 1120 inside the rim, L 112, N 14
+//   24 spokes at 15 degrees, hub diameter 2L, each spoke 3N wide on a circle of 4L,
+//     and N wide where it meets the hub
+// Derived here from the figure:
+//   a spoke tapers 3N to N over L, so it comes to a point at L/2 = 56 from the center,
+//     and its outer point is on the K circle, 560. The midpoint of 56 and 560 is 308.
+//   L runs from the bottom of a scallop to the wheel's edge, so a scallop's radius is
+//     L - (J - K) / 2 = 24.5, centered on the K circle, between the spokes.
 vexyl 1
 meta {
-  name "Flag of India"
+  name "India"
+  date "1947-07-22"
   encoder "Naomi Persephone Amethyst"
-  license "LicenseRef-Public-Domain"
-  adapted-from "https://en.wikipedia.org/wiki/File:Flag_of_India.svg" {
-    license "LicenseRef-Public-Domain"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.constitutionofindia.net/debates/22-jul-1947/"
+  source "https://law.resource.org/pub/in/bis/S12/is.1.1968.pdf"
+  source "https://www.crwflags.com/fotw/flags/in.html"
+  note "The resolution sets the design. The wheel's construction and the exact 3:2 are IS 1:1968, a Bureau of Indian Standards specification for cotton khadi flags (reaffirmed 2003, read with amendments to No. 4), not a law. The Flag Code of India wasn't read, because the Home Ministry's links failed."
+  note "The resolution says 'ordinarily' 2:3, and IS 1 allows other ratios for special purposes, without a rule for them, so none is written here."
+  note "IS 1's sleeve, hem and reinforcements are omitted. Its colors are set by a sealed sample at Kanpur, and the CIE values recorded here are its note on the flag of 1947, with brightness as Y."
+  note "The hex, Pantone and CMYK values are the Album des Pavillons 2023 as FOTW reports it. White is plain white."
+  law "Resolution of the Constituent Assembly of India on the National Flag, 22 July 1947" {
+    source "https://www.constitutionofindia.net/debates/22-jul-1947/"
   }
 }
 palette {
-  orange "#ff6820"
-  white "#ffffff"
-  green "#046a38"
-  blue "#07038d"
+  saffron "#ff671f" {
+    pantone "165 C"
+    cmyk 0 60 88 0
+    reference "IS 1:1968, CIE 1931 xyY, illuminant C" "0.538 0.360 21.5"
+  }
+  white "#ffffff" {
+    reference "IS 1:1968, CIE 1931 xyY, illuminant C" "0.313 0.319 72.6"
+  }
+  green "#046a38" {
+    pantone "349 C"
+    cmyk 89 32 92 24
+    reference "IS 1:1968, CIE 1931 xyY, illuminant C" "0.288 0.395 8.9"
+  }
+  navy "#000091" {
+    pantone "2738 C"
+    cmyk 100 92 21 6
+  }
 }
-proportion hoist=2 fly=3
+proportion hoist=4200 fly=6300
 
-bars orange white green
-
-charge disc blue {
-  radius 0.3083
+bars saffron white green
+charge ring navy {
+  radius 647.5
+  inner 560
+}
+charge disc navy {
+  radius 112
+}
+charge path navy {
+  d "M21 0L42 336L21 504L0 336Z"
+  box "0 0 42 504"
+  fly 42
+  hoist 504
   at center
+  repeat ring count=24 radius=308 turn=#true
 }
-
-charge disc white {
-  radius 0.2667
+charge disc navy {
+  radius 24.5
   at center
-}
-
-charge disc blue {
-  radius 0.0533
-  at center
-}
-
-charge polygon blue {
-  point fly=1.5 hoist=0.7333
-  point fly=1.51 hoist=0.8938
-  point fly=1.5 hoist=0.9733
-  point fly=1.49 hoist=0.8938
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.5348 hoist=0.7356
-}
-
-charge polygon blue {
-  point fly=1.5 hoist=1.2667
-  point fly=1.49 hoist=1.1062
-  point fly=1.5 hoist=1.0267
-  point fly=1.51 hoist=1.1062
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.4652 hoist=1.2644
-}
-
-charge polygon blue {
-  point fly=1.569 hoist=0.7424
-  point fly=1.5371 hoist=0.9
-  point fly=1.5069 hoist=0.9742
-  point fly=1.5178 hoist=0.8948
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.602 hoist=0.7536
-}
-
-charge polygon blue {
-  point fly=1.431 hoist=1.2576
-  point fly=1.4629 hoist=1.1
-  point fly=1.4931 hoist=1.0258
-  point fly=1.4822 hoist=1.1052
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.398 hoist=1.2464
-}
-
-charge polygon blue {
-  point fly=1.6333 hoist=0.7691
-  point fly=1.5618 hoist=0.913
-  point fly=1.5134 hoist=0.9768
-  point fly=1.5444 hoist=0.903
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.6623 hoist=0.7884
-}
-
-charge polygon blue {
-  point fly=1.3667 hoist=1.2309
-  point fly=1.4382 hoist=1.087
-  point fly=1.4866 hoist=1.0232
-  point fly=1.4556 hoist=1.097
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.3377 hoist=1.2116
-}
-
-charge polygon blue {
-  point fly=1.6886 hoist=0.8114
-  point fly=1.5822 hoist=0.932
-  point fly=1.5189 hoist=0.9811
-  point fly=1.568 hoist=0.9178
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.7116 hoist=0.8377
-}
-
-charge polygon blue {
-  point fly=1.3114 hoist=1.1886
-  point fly=1.4178 hoist=1.068
-  point fly=1.4811 hoist=1.0189
-  point fly=1.432 hoist=1.0822
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.2884 hoist=1.1623
-}
-
-charge polygon blue {
-  point fly=1.7309 hoist=0.8667
-  point fly=1.597 hoist=0.9556
-  point fly=1.5232 hoist=0.9866
-  point fly=1.587 hoist=0.9382
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.7464 hoist=0.898
-}
-
-charge polygon blue {
-  point fly=1.2691 hoist=1.1333
-  point fly=1.403 hoist=1.0444
-  point fly=1.4768 hoist=1.0134
-  point fly=1.413 hoist=1.0618
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.2536 hoist=1.102
-}
-
-charge polygon blue {
-  point fly=1.7576 hoist=0.931
-  point fly=1.6052 hoist=0.9822
-  point fly=1.5258 hoist=0.9931
-  point fly=1.6 hoist=0.9629
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.7644 hoist=0.9652
-}
-
-charge polygon blue {
-  point fly=1.2424 hoist=1.069
-  point fly=1.3948 hoist=1.0178
-  point fly=1.4742 hoist=1.0069
-  point fly=1.4 hoist=1.0371
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.2356 hoist=1.0348
-}
-
-charge polygon blue {
-  point fly=1.7667 hoist=1
-  point fly=1.6062 hoist=1.01
-  point fly=1.5267 hoist=1
-  point fly=1.6062 hoist=0.99
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.7644 hoist=1.0348
-}
-
-charge polygon blue {
-  point fly=1.2333 hoist=1
-  point fly=1.3938 hoist=0.99
-  point fly=1.4733 hoist=1
-  point fly=1.3938 hoist=1.01
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.2356 hoist=0.9652
-}
-
-charge polygon blue {
-  point fly=1.7576 hoist=1.069
-  point fly=1.6 hoist=1.0371
-  point fly=1.5258 hoist=1.0069
-  point fly=1.6052 hoist=1.0178
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.7464 hoist=1.102
-}
-
-charge polygon blue {
-  point fly=1.2424 hoist=0.931
-  point fly=1.4 hoist=0.9629
-  point fly=1.4742 hoist=0.9931
-  point fly=1.3948 hoist=0.9822
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.2536 hoist=0.898
-}
-
-charge polygon blue {
-  point fly=1.7309 hoist=1.1333
-  point fly=1.587 hoist=1.0618
-  point fly=1.5232 hoist=1.0134
-  point fly=1.597 hoist=1.0444
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.7116 hoist=1.1623
-}
-
-charge polygon blue {
-  point fly=1.2691 hoist=0.8667
-  point fly=1.413 hoist=0.9382
-  point fly=1.4768 hoist=0.9866
-  point fly=1.403 hoist=0.9556
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.2884 hoist=0.8377
-}
-
-charge polygon blue {
-  point fly=1.6886 hoist=1.1886
-  point fly=1.568 hoist=1.0822
-  point fly=1.5189 hoist=1.0189
-  point fly=1.5822 hoist=1.068
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.6623 hoist=1.2116
-}
-
-charge polygon blue {
-  point fly=1.3114 hoist=0.8114
-  point fly=1.432 hoist=0.9178
-  point fly=1.4811 hoist=0.9811
-  point fly=1.4178 hoist=0.932
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.3377 hoist=0.7884
-}
-
-charge polygon blue {
-  point fly=1.6333 hoist=1.2309
-  point fly=1.5444 hoist=1.097
-  point fly=1.5134 hoist=1.0232
-  point fly=1.5618 hoist=1.087
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.602 hoist=1.2464
-}
-
-charge polygon blue {
-  point fly=1.3667 hoist=0.7691
-  point fly=1.4556 hoist=0.903
-  point fly=1.4866 hoist=0.9768
-  point fly=1.4382 hoist=0.913
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.398 hoist=0.7536
-}
-
-charge polygon blue {
-  point fly=1.569 hoist=1.2576
-  point fly=1.5178 hoist=1.1052
-  point fly=1.5069 hoist=1.0258
-  point fly=1.5371 hoist=1.1
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.5348 hoist=1.2644
-}
-
-charge polygon blue {
-  point fly=1.431 hoist=0.7424
-  point fly=1.4822 hoist=0.8948
-  point fly=1.4931 hoist=0.9742
-  point fly=1.4629 hoist=0.9
-}
-
-charge disc blue {
-  radius 0.0117
-  at fly=1.4652 hoist=0.7356
+  repeat arc count=24 radius=560 from=7.5 to=352.5
 }
