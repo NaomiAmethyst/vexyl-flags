@@ -5,7 +5,8 @@ vexyl 1
 meta {
   name "Denmark"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.retsinformation.dk/api/pdf/246718"
   source "https://www.folketingstidende.dk/samling/20241/lovforslag/L21/20241_L21_som_fremsat.pdf"
   source "https://www.crwflags.com/fotw/flags/dk.html"

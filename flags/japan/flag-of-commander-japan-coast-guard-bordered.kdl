@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Commander (Japan Coast Guard)-bordered"
-  encoder "Vectorized by Los688"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Commander_(Japan_Coast_Guard)-bordered.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Commander_(Japan_Coast_Guard)-bordered.svg" {
+    author "Vectorized by Los688"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

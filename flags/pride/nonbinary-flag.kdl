@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Nonbinary flag"
-  encoder "Kye Rowan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Nonbinary_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Nonbinary_flag.svg" {
+    author "Kye Rowan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fff433"

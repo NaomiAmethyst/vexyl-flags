@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Hanover (1692)"
-  encoder "Oren neu dag"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hanover_(1692).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Hanover_(1692).svg" {
+    author "Oren neu dag"
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   red "#ce0f25"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saint Helena"
-  encoder "Patricia Fidi"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Helena.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Helena.svg" {
+    author "Patricia Fidi"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

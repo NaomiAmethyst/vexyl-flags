@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Biafra"
-  encoder "Mysid"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Biafra.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Biafra.svg" {
+    author "Mysid"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#dd2211"

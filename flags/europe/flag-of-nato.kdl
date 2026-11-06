@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of NATO"
-  encoder "Current file: Found by 475847394d347339 in websites noted in the source section. Previous file Vectorization: Mysid and "
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_NATO.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_NATO.svg" {
+    author "Current file: Found by 475847394d347339 in websites noted in the source section. Previous file Vectorization: Mysid and "
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#004990"

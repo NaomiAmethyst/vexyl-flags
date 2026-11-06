@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of California"
-  encoder "Original: Donald Graeme Kelley Vectorization: Devin Cook"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_California.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_California.svg" {
+    author "Original: Donald Graeme Kelley Vectorization: Devin Cook"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

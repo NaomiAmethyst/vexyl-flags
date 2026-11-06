@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Cyprus"
-  encoder "İsmet Güney, SVG by User:Vzb83~commonswiki"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg" {
+    author "İsmet Güney, SVG by User:Vzb83~commonswiki"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

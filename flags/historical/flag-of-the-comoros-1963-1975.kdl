@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Comoros (1963-1975)"
-  encoder "Orange Tuesday at en.wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros_(1963%E2%80%931975).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros_(1963%E2%80%931975).svg" {
+    author "Orange Tuesday at en.wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#3d8e33"

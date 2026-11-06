@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Netherlands Antilles (1986–2010)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands_Antilles_(1986%E2%80%932010).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands_Antilles_(1986%E2%80%932010).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

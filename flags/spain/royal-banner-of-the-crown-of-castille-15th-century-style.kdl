@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Royal Banner of the Crown of Castille (15th Century Style)"
-  encoder "Heralder"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Royal_Banner_of_the_Crown_of_Castille_(15th_Century_Style).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Royal_Banner_of_the_Crown_of_Castille_(15th_Century_Style).svg" {
+    author "Heralder"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#da121a"

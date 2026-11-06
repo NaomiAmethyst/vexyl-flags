@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Udmurtia (1991–1993)"
-  encoder "Hogweard"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Udmurtia_(1991%E2%80%931993).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Udmurtia_(1991%E2%80%931993).svg" {
+    author "Hogweard"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0092fa"

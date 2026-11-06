@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Royal flag of Ramiro I of Asturies"
-  encoder "Mikel"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Royal_flag_of_Ramiro_I_of_Asturies.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Royal_flag_of_Ramiro_I_of_Asturies.svg" {
+    author "Mikel"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Senior Officer of the Indian Navy pennant"
-  encoder "User:Zscout370 (Return Fire)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Senior_Officer_of_the_Indian_Navy_pennant.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Senior_Officer_of_the_Indian_Navy_pennant.svg" {
+    author "User:Zscout370 (Return Fire)"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

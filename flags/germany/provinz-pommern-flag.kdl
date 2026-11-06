@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Provinz Pommern flag"
-  encoder "vectorization: JDavid"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Provinz_Pommern_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Provinz_Pommern_flag.svg" {
+    author "vectorization: JDavid"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00b3ff"

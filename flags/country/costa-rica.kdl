@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Costa Rica"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.tse.go.cr/pdf/normativa/Ley-10178-Ley_que_regula_uso_Pabellon-Bandera-Escudo-Nac.pdf"
   source "https://www.crwflags.com/fotw/flags/cr.html"
   note "The stripes, proportion and Pantones are the law's. Article 23 repeals the earlier flag laws of 1906, 1934, 1964 and 1976."

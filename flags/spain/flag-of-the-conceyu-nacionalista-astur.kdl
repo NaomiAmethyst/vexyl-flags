@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Conceyu Nacionalista Astur"
-  encoder "Willtron (SVG file)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Conceyu_Nacionalista_Astur.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Conceyu_Nacionalista_Astur.svg" {
+    author "Willtron (SVG file)"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#0066ff"

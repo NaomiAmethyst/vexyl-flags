@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Rhodesia (1964-1968)"
-  encoder "Greentubing (original)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1964%E2%80%931968).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1964%E2%80%931968).svg" {
+    author "Greentubing (original)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

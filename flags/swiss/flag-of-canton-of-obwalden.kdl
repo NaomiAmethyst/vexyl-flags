@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Canton of Obwalden"
-  encoder "Rudolf Münger"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Canton_of_Obwalden.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Canton_of_Obwalden.svg" {
+    author "Rudolf Münger"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e8423f"

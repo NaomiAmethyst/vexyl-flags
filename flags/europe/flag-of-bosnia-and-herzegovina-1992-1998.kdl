@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Bosnia and Herzegovina (1992–1998)"
-  encoder "The authors of the final version of the officially adopted flag are Prof. Dr. Enver Imamović and graphic designer Zvonim"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina_(1992%E2%80%931998).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina_(1992%E2%80%931998).svg" {
+    author "The authors of the final version of the officially adopted flag are Prof. Dr. Enver Imamović and graphic designer Zvonim"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

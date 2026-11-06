@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Proposed flag of Tamil Nadu"
-  encoder "HaeKN"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_Tamil_Nadu.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_Tamil_Nadu.svg" {
+    author "HaeKN"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   grey "#c3c3c3"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Cyprus (1922-1960)"
-  encoder "Shandris"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus_(1922%E2%80%931960).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus_(1922%E2%80%931960).svg" {
+    author "Shandris"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

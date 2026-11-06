@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Germany as seen in Tagesschau"
-  encoder "TehMountenDew"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_as_seen_in_Tagesschau.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_as_seen_in_Tagesschau.svg" {
+    author "TehMountenDew"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#dd0000"

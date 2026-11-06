@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Iraq (1991–2004)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq_(1991%E2%80%932004).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq_(1991%E2%80%932004).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saint Lucia (1967–1979)"
-  encoder "Orange Tuesday at English Wikipedia (Original text: Orange Tuesday (talk))"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Lucia_(1967%E2%80%931979).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Lucia_(1967%E2%80%931979).svg" {
+    author "Orange Tuesday at English Wikipedia (Original text: Orange Tuesday (talk))"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0065fe"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Auto Racing Code 60 flag"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Auto_Racing_Code_60_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Auto_Racing_Code_60_flag.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e12f82"

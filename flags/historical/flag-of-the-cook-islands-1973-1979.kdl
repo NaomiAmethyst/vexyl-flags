@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Cook Islands (1973-1979)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cook_Islands_(1973-1979).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cook_Islands_(1973-1979).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#005a00"

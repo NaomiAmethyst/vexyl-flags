@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ulyanovsk Oblast"
-  encoder "Анатолий Сергеев, Николай Сергеев, Константин Мочёнов, Ольга Салова"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ulyanovsk_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ulyanovsk_Oblast.svg" {
+    author "Анатолий Сергеев, Николай Сергеев, Константин Мочёнов, Ольга Салова"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#009bde"

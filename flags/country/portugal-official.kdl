@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Portugal (official)"
-  encoder "Original: Columbano Bordalo Pinheiro Vector: Vítor Luís Rodrigues, António Martins-Tuválkin"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal_(official).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal_(official).svg" {
+    author "Original: Columbano Bordalo Pinheiro Vector: Vítor Luís Rodrigues, António Martins-Tuválkin"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#006035"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Nizhny Novgorod"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nizhny_Novgorod.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nizhny_Novgorod.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

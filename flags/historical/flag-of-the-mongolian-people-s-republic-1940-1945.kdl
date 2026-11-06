@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Mongolian People's Republic (1940–1945)"
-  encoder "Ericmetro"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia_(1940%E2%80%931945).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia_(1940%E2%80%931945).svg" {
+    author "Ericmetro"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#dc171c"

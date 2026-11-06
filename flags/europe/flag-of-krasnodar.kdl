@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Krasnodar"
-  encoder "Юнти-Флаги Юнти"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Krasnodar.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Krasnodar.svg" {
+    author "Юнти-Флаги Юнти"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

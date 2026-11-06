@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of SEATO"
-  encoder "SEATO officials; SVG by w:User:Sn1per"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_SEATO.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_SEATO.svg" {
+    author "SEATO officials; SVG by w:User:Sn1per"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0094ff"

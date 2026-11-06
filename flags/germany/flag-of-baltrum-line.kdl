@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Baltrum Line"
-  encoder "En rouge"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Baltrum_Line.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Baltrum_Line.svg" {
+    author "En rouge"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   green "#3b9b54"

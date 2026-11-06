@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of East Germany (Hanging)"
-  encoder "Flag of Germany (Hanging).svg: David Liuzzo Coat of arms of East Germany.svg: Jwnabd derivative work: Ladislav Faigl (ta"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_East_Germany_(Hanging).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_East_Germany_(Hanging).svg" {
+    author "Flag of Germany (Hanging).svg: David Liuzzo Coat of arms of East Germany.svg: Jwnabd derivative work: Ladislav Faigl (ta"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffce0d"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the People's Republic of China"
-  encoder "Zeng Liansong"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg" {
+    author "Zeng Liansong"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ee1c25"

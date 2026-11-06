@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Penza Oblast (2002-2022)"
-  encoder "Hellerick"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Penza_Oblast_(2002-2022).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Penza_Oblast_(2002-2022).svg" {
+    author "Hellerick"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#008a3e"

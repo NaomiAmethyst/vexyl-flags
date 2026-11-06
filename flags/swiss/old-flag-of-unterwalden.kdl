@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Old flag of Unterwalden"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Old_flag_of_Unterwalden.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Old_flag_of_Unterwalden.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d2232c"

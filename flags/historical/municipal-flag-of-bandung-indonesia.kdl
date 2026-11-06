@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Municipal Flag of Bandung, Indonesia"
-  encoder "Himasaram"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Municipal_Flag_of_Bandung,_Indonesia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Municipal_Flag_of_Bandung,_Indonesia.svg" {
+    author "Himasaram"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#51a54a"

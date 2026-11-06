@@ -10,7 +10,8 @@ meta {
   name "Japan"
   date "1999-08-13"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://laws.e-gov.go.jp/api/1/lawdata/411AC0000000127"
   source "https://www.crwflags.com/fotw/flags/jp.html"
   source "https://en.wikipedia.org/wiki/Flag_of_Japan"
@@ -37,14 +38,9 @@ charge disc red {
   at center
 }
 
-adapt {
-  range 1.428571 1.5
-  narrower cut
-}
-
 // Paragraph 3 of the supplementary provisions allows this form for the time being.
 variant provisional {
-  ratio 1.428571
+  proportion hoist=20 fly=28.5714
   field white
   charge disc red {
     radius 6

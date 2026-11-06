@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Lipstick lesbian Pride Flag"
-  encoder "xles (SVG file)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Lipstick_lesbian_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Lipstick_lesbian_Pride_Flag.svg" {
+    author "xles (SVG file)"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   pink "#a40061"

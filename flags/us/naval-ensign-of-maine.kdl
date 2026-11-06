@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Naval Ensign of Maine"
-  encoder "Himasaram"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Ensign_of_Maine.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Ensign_of_Maine.svg" {
+    author "Himasaram"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

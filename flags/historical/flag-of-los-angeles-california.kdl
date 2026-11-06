@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Los Angeles, California"
-  encoder "Mysid"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Los_Angeles,_California.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Los_Angeles,_California.svg" {
+    author "Mysid"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   orange "#ffbb00"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tanganyika (1961-1964)"
-  encoder "Mysid"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tanganyika_(1961%E2%80%931964).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tanganyika_(1961%E2%80%931964).svg" {
+    author "Mysid"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   green "#008000"

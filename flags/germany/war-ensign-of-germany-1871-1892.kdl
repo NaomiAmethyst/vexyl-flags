@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "War Ensign of Germany 1871-1892"
-  encoder "Fornax, overhaul by Ericmetro."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:War_Ensign_of_Germany_(1867%E2%80%931892).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:War_Ensign_of_Germany_(1867%E2%80%931892).svg" {
+    author "Fornax, overhaul by Ericmetro."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

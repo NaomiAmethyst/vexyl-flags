@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Russian Soviet Federative Socialist Republic (1918–1925)"
-  encoder "Sergey Chekhonin"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_(1918%E2%80%931925).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_Soviet_Federative_Socialist_Republic_(1918%E2%80%931925).svg" {
+    author "Sergey Chekhonin"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bc0000"

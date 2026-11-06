@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Poland"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19800070018/U/D19800018Lj.pdf"
   source "https://www.crwflags.com/fotw/flags/pl.html"
   note "The stripes, the 5:8 proportion and the CIE values are from the Act, read in the Sejm's consolidated text (Dz. U. 2025 item 299)."

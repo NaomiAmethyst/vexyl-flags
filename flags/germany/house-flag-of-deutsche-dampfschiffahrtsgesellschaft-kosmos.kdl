@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "House flag of Deutsche Dampfschiffahrtsgesellschaft Kosmos"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:House_flag_of_Deutsche_Dampfschiffahrtsgesellschaft_Kosmos.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:House_flag_of_Deutsche_Dampfschiffahrtsgesellschaft_Kosmos.svg" {
+    author "Germenfer"
+    license "CC0-1.0"
+  }
 }
 palette {
   red "#e52320"

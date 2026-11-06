@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Air Force Ensign of India (2023)"
-  encoder "Colohisto"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Air_Force_Ensign_of_India.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Air_Force_Ensign_of_India.svg" {
+    author "Colohisto"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#64b4e6"

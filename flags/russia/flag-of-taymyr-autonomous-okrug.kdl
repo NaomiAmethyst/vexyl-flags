@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Taymyr Autonomous Okrug"
-  encoder "Fred the Oyster iThe source code of this SVG is valid. This vector image was created with Adobe Illustrator by v."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Taymyr_Autonomous_Okrug.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Taymyr_Autonomous_Okrug.svg" {
+    author "Fred the Oyster iThe source code of this SVG is valid. This vector image was created with Adobe Illustrator by v."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0081c4"

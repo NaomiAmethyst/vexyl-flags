@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Sakha"
-  encoder "Lyudmila Sleptsova, Mikhail Starostin, Pyotr Zakharov (Людмила Слепцова, Михаил Старостин, Пётр Захаров)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Sakha.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Sakha.svg" {
+    author "Lyudmila Sleptsova, Mikhail Starostin, Pyotr Zakharov (Людмила Слепцова, Михаил Старостин, Пётр Захаров)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#1199ff"

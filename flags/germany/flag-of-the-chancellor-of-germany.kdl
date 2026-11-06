@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Chancellor of Germany"
-  encoder "TheGlobetrotter"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chancellor_of_Germany.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chancellor_of_Germany.svg" {
+    author "TheGlobetrotter"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d00000"

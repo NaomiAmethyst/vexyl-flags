@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Germany (RGB)"
-  encoder "Government of Germany"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(RGB).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(RGB).svg" {
+    author "Government of Germany"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

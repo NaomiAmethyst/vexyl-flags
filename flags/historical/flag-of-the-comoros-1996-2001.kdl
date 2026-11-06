@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Comoros (1996-2001)"
-  encoder "Mysid"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros_(1996%E2%80%932001).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Comoros_(1996%E2%80%932001).svg" {
+    author "Mysid"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#3d8e33"

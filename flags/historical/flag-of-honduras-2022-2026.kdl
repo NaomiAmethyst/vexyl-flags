@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Honduras (2022–2026)"
-  encoder "COAmaker17"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(2022%E2%80%932026).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(2022%E2%80%932026).svg" {
+    author "COAmaker17"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

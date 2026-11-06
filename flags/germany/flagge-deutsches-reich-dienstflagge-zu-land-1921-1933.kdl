@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Deutsches Reich - Dienstflagge zu Land (1921-1933)"
-  encoder "David Liuzzo"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_Deutsches_Reich_-_Dienstflagge_zu_Land_(1921-1933).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_Deutsches_Reich_-_Dienstflagge_zu_Land_(1921-1933).svg" {
+    author "David Liuzzo"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   black "#000000"

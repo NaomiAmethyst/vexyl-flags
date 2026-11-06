@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Haiti"
-  encoder "(colours and size changes of the now deleted versions) Madden, Vzb83, Denelson83, Chanheigeorge, Zscout370 and Nightstal"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti.svg" {
+    author "(colours and size changes of the now deleted versions) Madden, Vzb83, Denelson83, Chanheigeorge, Zscout370 and Nightstal"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00209f"

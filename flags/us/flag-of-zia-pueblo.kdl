@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Zia Pueblo"
-  encoder "Zia Pueblo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Zia_Pueblo.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Zia_Pueblo.svg" {
+    author "Zia Pueblo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

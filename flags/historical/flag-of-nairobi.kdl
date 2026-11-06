@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nairobi"
-  encoder "earlier version Mandingoesque; this version Johannes Rössel"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nairobi.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nairobi.svg" {
+    author "earlier version Mandingoesque; this version Johannes Rössel"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Adygea (1992–2007)"
-  encoder "HaeKN"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Adygea_(1992%E2%80%932007).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Adygea_(1992%E2%80%932007).svg" {
+    author "HaeKN"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#296912"

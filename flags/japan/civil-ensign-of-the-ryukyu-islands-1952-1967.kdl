@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Civil ensign of the Ryukyu Islands (1952–1967)"
-  encoder "Scott Alter (User:Scottalter)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Civil_ensign_of_the_Ryukyu_Islands_(1952%E2%80%931967).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Civil_ensign_of_the_Ryukyu_Islands_(1952%E2%80%931967).svg" {
+    author "Scott Alter (User:Scottalter)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffff00"

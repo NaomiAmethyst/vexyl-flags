@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Leather, Latex, and BDSM pride - Light"
-  encoder "Icey at English Wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Leather,_Latex,_and_BDSM_pride_-_Light.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Leather,_Latex,_and_BDSM_pride_-_Light.svg" {
+    author "Icey at English Wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

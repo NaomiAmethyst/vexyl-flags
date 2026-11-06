@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Galicia (civil)"
-  encoder "IgnisFatuus"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Galicia_(civil).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Galicia_(civil).svg" {
+    author "IgnisFatuus"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

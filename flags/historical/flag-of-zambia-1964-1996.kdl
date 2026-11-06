@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Zambia (1964–1996)"
-  encoder "Orange Tuesday on en.wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Zambia_(1964%E2%80%931996).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Zambia_(1964%E2%80%931996).svg" {
+    author "Orange Tuesday on en.wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#de2010"

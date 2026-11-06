@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Eritrea (1993-1995)"
-  encoder "Orange Tuesday (talk)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea_(1993%E2%80%931995).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea_(1993%E2%80%931995).svg" {
+    author "Orange Tuesday (talk)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ea0437"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Maratha Empire"
-  encoder "DarkEvil"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Maratha_Empire.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Maratha_Empire.svg" {
+    author "DarkEvil"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   orange "#ff9700"

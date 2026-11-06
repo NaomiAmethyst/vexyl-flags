@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Cape Colony (1876–1910)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cape_Colony_(1876%E2%80%931910).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cape_Colony_(1876%E2%80%931910).svg" {
+    author "Sodacan"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#00247d"

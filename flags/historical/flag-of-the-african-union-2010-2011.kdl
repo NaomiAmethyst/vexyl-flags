@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the African Union (2010–2011)"
-  encoder "Yadesa Bojia"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_Union_(2010%E2%80%932011).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_Union_(2010%E2%80%932011).svg" {
+    author "Yadesa Bojia"
+    license "CC0-1.0"
+  }
 }
 palette {
   green "#006239"

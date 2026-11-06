@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Ghana (1964-1966)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ghana_(1964%E2%80%931966).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ghana_(1964%E2%80%931966).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

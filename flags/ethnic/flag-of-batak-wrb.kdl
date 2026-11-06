@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Batak WRB"
-  encoder "Christian Advs Sltg"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Batak_WRB.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Batak_WRB.svg" {
+    author "Christian Advs Sltg"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

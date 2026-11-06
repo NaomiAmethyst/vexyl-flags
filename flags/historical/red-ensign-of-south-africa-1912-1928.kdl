@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Red Ensign of South Africa (1912-1928)"
-  encoder "Fornax"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Red_Ensign_of_South_Africa_(1912%E2%80%931951).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Red_Ensign_of_South_Africa_(1912%E2%80%931951).svg" {
+    author "Fornax"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#c8102e"

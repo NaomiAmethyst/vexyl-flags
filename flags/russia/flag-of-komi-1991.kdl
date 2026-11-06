@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Komi 1991"
-  encoder "В. Я. Сердитов"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Komi_(1991%E2%80%931997).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Komi_(1991%E2%80%931997).svg" {
+    author "В. Я. Сердитов"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0039a6"

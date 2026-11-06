@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Liberal Democratic Party (Japan) Flag"
-  encoder "Alejandro Basombrio"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Liberal_Democratic_Party_(Japan)_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Liberal_Democratic_Party_(Japan)_Flag.svg" {
+    author "Alejandro Basombrio"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#693042"

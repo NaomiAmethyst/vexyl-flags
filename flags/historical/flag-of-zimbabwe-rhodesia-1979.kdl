@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Zimbabwe Rhodesia (1979)"
-  encoder "Thommy9 (original)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe_Rhodesia_(1979).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe_Rhodesia_(1979).svg" {
+    author "Thommy9 (original)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

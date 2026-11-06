@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the UNIA"
-  encoder "Marcus Garvey and the Universal Negro Improvement Association and African Communities League"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_UNIA.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_UNIA.svg" {
+    author "Marcus Garvey and the Universal Negro Improvement Association and African Communities League"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e31b23"

@@ -16,7 +16,8 @@ vexyl 1
 meta {
   name "Libya"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.constituteproject.org/constitution/Libya_2011"
   source "https://upload.wikimedia.org/wikipedia/commons/a/ae/Libyan_Flag_Construction_Ministry_of_Information_and_Guidance_1951.jpg"
   source "https://www.crwflags.com/fotw/flags/ly.html"

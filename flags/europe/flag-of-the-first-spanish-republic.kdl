@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the First Spanish Republic"
-  encoder "Ignacio Gavira (original image), B1mbo (modifications)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1873%E2%80%931874).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1873%E2%80%931874).svg" {
+    author "Ignacio Gavira (original image), B1mbo (modifications)"
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   red "#da121a"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Nordic Council 2016"
-  encoder "Kontrapunkt / the Nordic Council of Ministers and the Nordic Council"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Nordic_Council_2016.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Nordic_Council_2016.svg" {
+    author "Kontrapunkt / the Nordic Council of Ministers and the Nordic Council"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#006eb6"

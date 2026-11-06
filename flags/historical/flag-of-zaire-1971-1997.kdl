@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Zaire (1971–1997)"
-  encoder "User:Moyogo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Zaire_(1971%E2%80%931997).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Zaire_(1971%E2%80%931997).svg" {
+    author "User:Moyogo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#6abd51"

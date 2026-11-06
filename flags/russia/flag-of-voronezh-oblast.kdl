@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Voronezh Oblast"
-  encoder "Mysid after António Martins"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Voronezh_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Voronezh_Oblast.svg" {
+    author "Mysid after António Martins"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#da251d"

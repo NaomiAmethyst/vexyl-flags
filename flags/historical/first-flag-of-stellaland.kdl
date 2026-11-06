@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "First flag of Stellaland"
-  encoder "Samhanin"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:First_flag_of_Stellaland.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:First_flag_of_Stellaland.svg" {
+    author "Samhanin"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   green "#007a4d"

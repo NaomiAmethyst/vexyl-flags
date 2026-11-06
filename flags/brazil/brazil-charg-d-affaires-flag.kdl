@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Brazil Chargé d'Affaires Flag"
-  encoder "Jack Ryan Morris"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Brazil_Charg%C3%A9_d%27Affaires_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Brazil_Charg%C3%A9_d%27Affaires_Flag.svg" {
+    author "Jack Ryan Morris"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   yellow "#ffcb00"

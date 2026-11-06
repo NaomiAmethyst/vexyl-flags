@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "War flag of the Holy Roman Empire (1200-1350)"
-  encoder "Sir Iain"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Holy_Roman_Empire_(1200-1350).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Holy_Roman_Empire_(1200-1350).svg" {
+    author "Sir Iain"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#c9082a"

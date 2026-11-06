@@ -7,7 +7,8 @@ vexyl 1
 meta {
   name "Armenia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20230503144708/http://www.parliament.am/legislation.php?sel=show&ID=2711&lang=arm"
   source "https://web.archive.org/web/20171014133731/http://yeraguyn.com/wp-content/uploads/2010/04/HST-50-2012.pdf"
   source "https://www.crwflags.com/fotw/flags/am.html"

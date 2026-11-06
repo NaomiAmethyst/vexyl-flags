@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of warships of VM (East Germany)"
-  encoder "User Jwnabd from German-Wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_warships_of_VM_(East_Germany).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_warships_of_VM_(East_Germany).svg" {
+    author "User Jwnabd from German-Wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#dd0000"

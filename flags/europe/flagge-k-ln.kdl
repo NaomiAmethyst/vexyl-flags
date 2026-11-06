@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Köln"
-  encoder "Neubearbeitung der Flagge der Stadt Köln durch Jürgen Krause."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_K%C3%B6ln.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_K%C3%B6ln.svg" {
+    author "Neubearbeitung der Flagge der Stadt Köln durch Jürgen Krause."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#da121a"

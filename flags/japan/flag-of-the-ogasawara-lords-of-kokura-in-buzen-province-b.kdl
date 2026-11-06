@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Ogasawara Lords of Kokura in Buzen Province (B)"
-  encoder "Barfodt"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ogasawara_Lords_of_Kokura_in_Buzen_Province_(B).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ogasawara_Lords_of_Kokura_in_Buzen_Province_(B).svg" {
+    author "Barfodt"
+    license "CC0-1.0"
+  }
 }
 palette {
   black "#000000"

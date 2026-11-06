@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Lithuania (state)"
-  encoder "Jsx and others"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Lithuania_(state).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Lithuania_(state).svg" {
+    author "Jsx and others"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#de192a"

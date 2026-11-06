@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the President of East Germany (1955–1960)"
-  encoder "Der Präsident der Deutschen Demokratischen Republik W. Pieck"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_East_Germany_(1955%E2%80%931960).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_East_Germany_(1955%E2%80%931960).svg" {
+    author "Der Präsident der Deutschen Demokratischen Republik W. Pieck"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#dd0000"

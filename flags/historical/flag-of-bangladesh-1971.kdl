@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Bangladesh (1971)"
-  encoder "Himasaram / Nirvik12 (Valid SVG Version)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bangladesh_(1971).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Bangladesh_(1971).svg" {
+    author "Himasaram / Nirvik12 (Valid SVG Version)"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   green "#006747"

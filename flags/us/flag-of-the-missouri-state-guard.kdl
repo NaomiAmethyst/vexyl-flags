@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Missouri State Guard"
-  encoder "Flag_of_Missouri.svg: User:Denelson83 derivative work: Paedia"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Missouri_State_Guard.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Missouri_State_Guard.svg" {
+    author "Flag_of_Missouri.svg: User:Denelson83 derivative work: Paedia"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#0071ba"

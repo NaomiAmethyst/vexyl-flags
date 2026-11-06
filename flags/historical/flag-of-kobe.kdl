@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kobe"
-  encoder "N35725E139547"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kobe.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kobe.svg" {
+    author "N35725E139547"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#157a00"

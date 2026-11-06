@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "First Bear Flag of California (1846)"
-  encoder "User:Smurrayinchester"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:First_Bear_Flag_of_California_(1846).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:First_Bear_Flag_of_California_(1846).svg" {
+    author "User:Smurrayinchester"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

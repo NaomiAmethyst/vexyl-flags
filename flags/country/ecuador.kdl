@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ecuador"
-  encoder "President of the Republic of Ecuador, first uploaded by Denelson83 as Flag of Ecuador.svg, modifications by Husunqu, Zsc"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ecuador.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ecuador.svg" {
+    author "President of the Republic of Ecuador, first uploaded by Denelson83 as Flag of Ecuador.svg, modifications by Husunqu, Zsc"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffdd00"

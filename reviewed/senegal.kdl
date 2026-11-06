@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Senegal"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.constituteproject.org/constitution/Senegal_2016"
   source "https://www.crwflags.com/fotw/flags/sn.html"
   note "The bands and star are from Article 1, read in the Constitute Project's English translation of the text as amended through 2016. It gives no proportion, star size or shades."

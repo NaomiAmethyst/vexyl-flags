@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Baja California Sur"
-  encoder "Gobierno de Baja California Sur"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Baja_California_Sur.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Baja_California_Sur.svg" {
+    author "Gobierno de Baja California Sur"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

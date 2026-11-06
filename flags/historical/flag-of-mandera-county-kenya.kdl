@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mandera County, Kenya"
-  encoder "Flagvisioner"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mandera_County,_Kenya.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mandera_County,_Kenya.svg" {
+    author "Flagvisioner"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#fd2f2a"

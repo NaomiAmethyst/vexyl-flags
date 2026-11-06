@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Germany (3-2)"
-  encoder "User:Mmxx"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(3-2).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(3-2).svg" {
+    author "User:Mmxx"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

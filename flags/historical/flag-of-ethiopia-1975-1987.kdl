@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ethiopia (1975-1987)"
-  encoder "Johannes Rössel"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia_(1975%E2%80%931987).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia_(1975%E2%80%931987).svg" {
+    author "Johannes Rössel"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#078930"

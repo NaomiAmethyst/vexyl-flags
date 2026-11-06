@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Kingdom of Spain"
-  encoder "Antonio Valdés y Fernández Bazán"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg" {
+    author "Antonio Valdés y Fernández Bazán"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ad1519"

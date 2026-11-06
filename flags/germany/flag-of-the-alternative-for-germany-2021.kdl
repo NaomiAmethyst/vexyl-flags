@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Alternative for Germany (2021)"
-  encoder "ThecentreCZ"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Alternative_for_Germany_(2021).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Alternative_for_Germany_(2021).svg" {
+    author "ThecentreCZ"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00a2de"

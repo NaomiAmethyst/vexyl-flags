@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Chechen Republic (before 2004)"
-  encoder "Urmas"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chechen_Republic_(before_2004).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chechen_Republic_(before_2004).svg" {
+    author "Urmas"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#2b7338"

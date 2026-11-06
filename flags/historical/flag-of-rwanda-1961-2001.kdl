@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Rwanda (1961–2001)"
-  encoder "Drawn by Zscout370."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda_(1961%E2%80%932001).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda_(1961%E2%80%932001).svg" {
+    author "Drawn by Zscout370."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e20212"

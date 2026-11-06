@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nara Prefecture"
-  encoder "Original: PRiMENON Vector: Wrightbus"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nara_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nara_Prefecture.svg" {
+    author "Original: PRiMENON Vector: Wrightbus"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

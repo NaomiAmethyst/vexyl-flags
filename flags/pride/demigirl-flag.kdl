@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Demigirl Flag"
-  encoder "Misc"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Demigirl_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Demigirl_Flag.svg" {
+    author "Misc"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   grey "#7f7f7f"

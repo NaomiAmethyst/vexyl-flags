@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Turkmenistan (1992–1997)"
-  encoder "Flag_of_Turkmenistan.svg: User:Vzb83 derivative work: Orange Tuesday (talk)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan_(1992%E2%80%931997).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan_(1992%E2%80%931997).svg" {
+    author "Flag_of_Turkmenistan.svg: User:Vzb83 derivative work: Orange Tuesday (talk)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#00843d"

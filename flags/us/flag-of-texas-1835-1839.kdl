@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Texas (1835–1839)"
-  encoder "DevinCook (talk)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Texas_(1835%E2%80%931839).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Texas_(1835%E2%80%931839).svg" {
+    author "DevinCook (talk)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

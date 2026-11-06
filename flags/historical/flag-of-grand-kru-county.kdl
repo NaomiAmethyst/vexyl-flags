@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Grand Kru County"
-  encoder "Fry1989"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Grand_Kru_County.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Grand_Kru_County.svg" {
+    author "Fry1989"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   green "#006633"

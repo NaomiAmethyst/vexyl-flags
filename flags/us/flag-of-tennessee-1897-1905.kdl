@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tennessee (1897-1905)"
-  encoder "Own work"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tennessee_(1897%E2%80%931905).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tennessee_(1897%E2%80%931905).svg" {
+    author "Own work"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

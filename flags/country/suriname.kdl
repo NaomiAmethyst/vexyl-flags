@@ -8,7 +8,8 @@ vexyl 1
 meta {
   name "Suriname"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20190808201030/https://kennisbanksu.com/wp-content/uploads/2017/08/Vlag-Suriname-Kennisbanksu.pdf"
   source "https://www.crwflags.com/fotw/flags/sr.html"
   note "The sizes and paint mixes are from an extract of the decree on the Kennisbank Suriname site, which matches FOTW's translation of the decree's appendix. The decree's number and date are FOTW's, and the Government Gazette itself wasn't read."

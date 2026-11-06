@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Moscow (1994)"
-  encoder "Администрация города"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Moscow_(1994).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Moscow_(1994).svg" {
+    author "Администрация города"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff2400"

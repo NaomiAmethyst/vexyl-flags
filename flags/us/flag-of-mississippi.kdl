@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mississippi"
-  encoder "Rocky Vaughn, Sue Anna Joe, Dominique Pugh, Clay Moss, Kara Giles, Micah Whitson and the Mississippi Department of Archi"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Copyrighted-Free-Use"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mississippi.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mississippi.svg" {
+    author "Rocky Vaughn, Sue Anna Joe, Dominique Pugh, Clay Moss, Kara Giles, Micah Whitson and the Mississippi Department of Archi"
+    license "LicenseRef-Copyrighted-Free-Use"
+  }
 }
 palette {
   red "#ba0c2f"

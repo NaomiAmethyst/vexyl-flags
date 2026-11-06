@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Yugoslavia (1943–1946)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Yugoslavia_(1943%E2%80%931946).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Yugoslavia_(1943%E2%80%931946).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003893"

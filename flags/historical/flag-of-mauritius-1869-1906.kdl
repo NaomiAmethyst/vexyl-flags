@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mauritius (1869–1906)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius_(1869%E2%80%931906).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius_(1869%E2%80%931906).svg" {
+    author "Sodacan"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#002b7f"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "German Olympic flag (1959-1968)"
-  encoder "Flaggenentwurf: unbekannt diese Datei: Jwnabd"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:German_Olympic_flag_(1959-1968).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:German_Olympic_flag_(1959-1968).svg" {
+    author "Flaggenentwurf: unbekannt diese Datei: Jwnabd"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

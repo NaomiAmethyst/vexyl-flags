@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Air vice marshal (India)"
-  encoder "Indian Airforce"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Air_vice_marshal_(India).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Air_vice_marshal_(India).svg" {
+    author "Indian Airforce"
+    license "CC-BY-3.0"
+  }
 }
 palette {
   blue "#3399ff"

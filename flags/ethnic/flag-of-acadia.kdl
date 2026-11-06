@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Acadia"
-  encoder "Jean-Francois Arseneau (PD), referencing openclipart.org (by user Anonymous); modified by Krun. Own work based on: Flag "
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Acadia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Acadia.svg" {
+    author "Jean-Francois Arseneau (PD), referencing openclipart.org (by user Anonymous); modified by Krun. Own work based on: Flag "
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#003896"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Mauritania (1959–2017)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania_(1959%E2%80%932017).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritania_(1959%E2%80%932017).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#006233"

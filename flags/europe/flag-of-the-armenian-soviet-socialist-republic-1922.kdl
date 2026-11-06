@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Armenian Soviet Socialist Republic (1922)"
-  encoder "Vectorization by Pacha Tchernof from The album of the RSFSR glags and foregn countires Flag_of_SSRA.png: Original upload"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Armenian_Soviet_Socialist_Republic_(1922).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Armenian_Soviet_Socialist_Republic_(1922).svg" {
+    author "Vectorization by Pacha Tchernof from The album of the RSFSR glags and foregn countires Flag_of_SSRA.png: Original upload"
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
 }

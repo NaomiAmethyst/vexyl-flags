@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tver Oblast"
-  encoder "derivative work: Popadius"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tver_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tver_Oblast.svg" {
+    author "derivative work: Popadius"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffd700"

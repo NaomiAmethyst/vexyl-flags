@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Gibraltar"
-  encoder "Created on behalf of Isabella I of Castile in 1502; this version uploaded by Denelson83 (talk · contribs)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Gibraltar.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Gibraltar.svg" {
+    author "Created on behalf of Isabella I of Castile in 1502; this version uploaded by Denelson83 (talk · contribs)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

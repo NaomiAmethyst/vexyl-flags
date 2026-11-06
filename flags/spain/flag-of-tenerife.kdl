@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Tenerife"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tenerife.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tenerife.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#072357"

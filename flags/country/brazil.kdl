@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Brazil"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://en.wikipedia.org/wiki/File:Flag_of_Brazil.svg"
+  adapted-from "https://en.wikipedia.org/wiki/File:Flag_of_Brazil.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009440"

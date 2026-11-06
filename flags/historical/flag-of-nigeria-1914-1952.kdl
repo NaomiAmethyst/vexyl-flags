@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nigeria (1914–1952)"
-  encoder "Benchill (original)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nigeria_(1914%E2%80%931952).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nigeria_(1914%E2%80%931952).svg" {
+    author "Benchill (original)"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#012169"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Kokbayraq flag"
-  encoder "User:Tarkan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Kokbayraq_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Kokbayraq_flag.svg" {
+    author "User:Tarkan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#559ee2"

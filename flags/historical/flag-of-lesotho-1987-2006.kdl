@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Lesotho (1987-2006)"
-  encoder "Courtesy an e-mail from the author of xrmap - modifications by Denelson83 - uploaded by Zscout370"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Lesotho_(1987%E2%80%932006).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Lesotho_(1987%E2%80%932006).svg" {
+    author "Courtesy an e-mail from the author of xrmap - modifications by Denelson83 - uploaded by Zscout370"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

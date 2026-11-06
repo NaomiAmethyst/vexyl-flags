@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Toluca, Mexico"
-  encoder "Municipality of Toluca de Lerdo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Toluca,_Mexico.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Toluca,_Mexico.svg" {
+    author "Municipality of Toluca de Lerdo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

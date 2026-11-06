@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Popular Front (Spain)"
-  encoder "R-41"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Popular_Front_(Spain).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Popular_Front_(Spain).svg" {
+    author "R-41"
+    license "CC0-1.0"
+  }
 }
 palette {
   red "#dd0000"

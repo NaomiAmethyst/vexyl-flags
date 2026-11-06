@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Belgorod Oblast"
-  encoder "Лобачев Владимир (vectorization)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Belgorod_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Belgorod_Oblast.svg" {
+    author "Лобачев Владимир (vectorization)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0064b1"

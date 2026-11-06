@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Assyrians (gold and blue Assur)"
-  encoder "Thespoondragon"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Assyrians_(gold_and_blue_Assur).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Assyrians_(gold_and_blue_Assur).svg" {
+    author "Thespoondragon"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#ffffff"

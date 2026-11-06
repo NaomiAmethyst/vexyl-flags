@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "ICS One"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:ICS_One.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:ICS_One.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

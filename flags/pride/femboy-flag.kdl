@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Femboy flag"
-  encoder "Jay"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Femboy_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Femboy_flag.svg" {
+    author "Jay"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   pink "#d460a7"

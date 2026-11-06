@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Comecon"
-  encoder "Froztbyte"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Comecon.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Comecon.svg" {
+    author "Froztbyte"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#de0000"

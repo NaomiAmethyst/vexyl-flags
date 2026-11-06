@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Incheon"
-  encoder "Incheon Metropolitan Government. Replica (this file) made by D6283"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Incheon.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Incheon.svg" {
+    author "Incheon Metropolitan Government. Replica (this file) made by D6283"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

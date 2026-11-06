@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Altai Republic (1992–1994, 2003–2016)"
-  encoder "No machine-readable author provided. Urmas assumed (based on copyright claims)."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Altai_Republic_(1992%E2%80%931994,_2003%E2%80%932016).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Altai_Republic_(1992%E2%80%931994,_2003%E2%80%932016).svg" {
+    author "No machine-readable author provided. Urmas assumed (based on copyright claims)."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

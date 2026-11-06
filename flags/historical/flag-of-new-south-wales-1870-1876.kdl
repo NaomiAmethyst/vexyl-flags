@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of New South Wales (1870–1876)"
-  encoder "Fry1989 eh?"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_New_South_Wales_(1870%E2%80%931876).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_New_South_Wales_(1870%E2%80%931876).svg" {
+    author "Fry1989 eh?"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002776"

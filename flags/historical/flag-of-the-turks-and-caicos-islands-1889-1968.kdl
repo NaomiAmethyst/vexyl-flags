@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Turks and Caicos Islands (1889–1968)"
-  encoder "Glrx"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turks_and_Caicos_Islands_(1889%E2%80%931968).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turks_and_Caicos_Islands_(1889%E2%80%931968).svg" {
+    author "Glrx"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#00247d"

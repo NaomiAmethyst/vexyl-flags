@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saint Helena (1874–1985)"
-  encoder "Orange Tuesday"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Helena_(1874%E2%80%931985).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Helena_(1874%E2%80%931985).svg" {
+    author "Orange Tuesday"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

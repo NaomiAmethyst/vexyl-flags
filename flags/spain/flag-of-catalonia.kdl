@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Catalonia"
-  encoder "Motoroil"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Catalonia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Catalonia.svg" {
+    author "Motoroil"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fcdd09"

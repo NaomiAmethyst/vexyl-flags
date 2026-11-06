@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "CHE Bern BE Flag"
-  encoder "Original: Hans Jenni Vector: ARK"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:CHE_Bern_BE_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:CHE_Bern_BE_Flag.svg" {
+    author "Original: Hans Jenni Vector: ARK"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#f00000"

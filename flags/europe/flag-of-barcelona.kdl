@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Barcelona"
-  encoder "Made and uploaded by Huhsunqu."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Barcelona.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Barcelona.svg" {
+    author "Made and uploaded by Huhsunqu."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

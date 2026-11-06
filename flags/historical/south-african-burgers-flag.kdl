@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "South African Burgers Flag"
-  encoder "SiBr4"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:South_African_Burgers_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:South_African_Burgers_Flag.svg" {
+    author "SiBr4"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#002395"

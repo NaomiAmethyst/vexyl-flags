@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mauritius (1923–1968)"
-  encoder "Orange Tuesday (talk) Original uploader was Orange Tuesday at en.wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius_(1923%E2%80%931968).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius_(1923%E2%80%931968).svg" {
+    author "Orange Tuesday (talk) Original uploader was Orange Tuesday at en.wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00247d"

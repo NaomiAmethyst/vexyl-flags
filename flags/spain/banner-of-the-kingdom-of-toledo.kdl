@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Banner of the Kingdom of Toledo"
-  encoder "Heralder"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Banner_of_the_Kingdom_of_Toledo.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Banner_of_the_Kingdom_of_Toledo.svg" {
+    author "Heralder"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   teal "#63a3b6"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Brazilian Marine Corps"
-  encoder "Presidential Decree 20394"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Brazilian_Marine_Corps.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Brazilian_Marine_Corps.svg" {
+    author "Presidential Decree 20394"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

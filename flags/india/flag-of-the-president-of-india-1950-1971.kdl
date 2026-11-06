@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the President of India (1950–1971)"
-  encoder "Prez001"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_India_(1950%E2%80%931971).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_India_(1950%E2%80%931971).svg" {
+    author "Prez001"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#2e3192"

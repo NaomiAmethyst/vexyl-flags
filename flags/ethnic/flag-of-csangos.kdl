@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Csangos"
-  encoder "István Attila Szekeres (heraldist) – of the concept flag Argean – of the SVG flag"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Csangos.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Csangos.svg" {
+    author "István Attila Szekeres (heraldist) – of the concept flag Argean – of the SVG flag"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   purple "#b5b0c1"

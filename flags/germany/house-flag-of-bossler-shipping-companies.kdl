@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "House Flag of Bossler shipping companies"
-  encoder "Carnby"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:House_Flag_of_Bossler_shipping_companies.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:House_Flag_of_Bossler_shipping_companies.svg" {
+    author "Carnby"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#4472c4"

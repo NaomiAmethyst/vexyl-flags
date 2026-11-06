@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of West Virginia (1907-1929)"
-  encoder "SVG-image-maker"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_West_Virginia_(1907-1929).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_West_Virginia_(1907-1929).svg" {
+    author "SVG-image-maker"
+    license "CC-BY-4.0"
+  }
 }
 palette {
   blue "#000084"

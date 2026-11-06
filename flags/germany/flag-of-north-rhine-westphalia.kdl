@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of North Rhine-Westphalia"
-  encoder "Bundesland Nordrhein-Westfalen"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_North_Rhine-Westphalia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_North_Rhine-Westphalia.svg" {
+    author "Bundesland Nordrhein-Westfalen"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009136"

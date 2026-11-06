@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tuvalu (1978–1995)"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tuvalu_(1978%E2%80%931995).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tuvalu_(1978%E2%80%931995).svg" {
+    author "Thommy"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

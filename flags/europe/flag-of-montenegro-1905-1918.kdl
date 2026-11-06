@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Montenegro (1905–1918)"
-  encoder "w:Kingdom of Montenegro (Vector graphics image by B1mbo)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Montenegro_(1905%E2%80%931918).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Montenegro_(1905%E2%80%931918).svg" {
+    author "w:Kingdom of Montenegro (Vector graphics image by B1mbo)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#c40308"

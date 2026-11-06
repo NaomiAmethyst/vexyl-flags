@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Fiji (1883–1903)"
-  encoder "PawełMM"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji_(1883%E2%80%931903).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji_(1883%E2%80%931903).svg" {
+    author "PawełMM"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#00267f"

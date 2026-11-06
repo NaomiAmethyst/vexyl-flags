@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nyasaland (1914–1919)"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nyasaland_(1914%E2%80%931919).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nyasaland_(1914%E2%80%931919).svg" {
+    author "Thommy"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#00247d"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Bulgaria (1967-1971)"
-  encoder "Scroch"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria_(1967%E2%80%931971).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria_(1967%E2%80%931971).svg" {
+    author "Scroch"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

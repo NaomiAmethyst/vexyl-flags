@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Gay Flag of South Africa"
-  encoder "Htonl"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Gay_Flag_of_South_Africa.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Gay_Flag_of_South_Africa.svg" {
+    author "Htonl"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e40303"

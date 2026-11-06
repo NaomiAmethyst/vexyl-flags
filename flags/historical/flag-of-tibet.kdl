@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Tibet"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tibet.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tibet.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#f4e109"

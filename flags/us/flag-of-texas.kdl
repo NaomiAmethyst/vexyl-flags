@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Texas"
-  encoder "Paul B. Joiner"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Texas.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Texas.svg" {
+    author "Paul B. Joiner"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

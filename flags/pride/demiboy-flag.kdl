@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Demiboy Flag"
-  encoder "Trichromat"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Demiboy_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Demiboy_Flag.svg" {
+    author "Trichromat"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   grey "#7f7f7f"

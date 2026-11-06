@@ -5,7 +5,8 @@ vexyl 1
 meta {
   name "Thailand"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20170305003537/http://www.krisdika.go.th/wps/wcm/connect/d9e7ff804ba1c19498d99a8b4221fda7/FLAG+ACT,+B.E.+2522+(1979).pdf?MOD=AJPERES&CACHEID=d9e7ff804ba1c19498d99a8b4221fda7"
   source "https://web.archive.org/web/20171004191426/http://www.ratchakitcha.soc.go.th/DATA/PDF/2560/E/245/1.PDF"
   source "https://web.archive.org/web/20180211202549/https://www.nstda.or.th/th/nstda-knowledge/11557-thaiflag-color"

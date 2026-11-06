@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of South Carolina"
-  encoder "Design by South Carolina General Assembly, SVG by Steve Hall"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Carolina.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_South_Carolina.svg" {
+    author "Design by South Carolina General Assembly, SVG by Steve Hall"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#041e42"

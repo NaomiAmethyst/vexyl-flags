@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Brazil (Eurico de Goís' proposal, 1933)"
-  encoder "Eurico de Góis"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(Eurico_de_Go%C3%ADs%27_proposal,_1933).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(Eurico_de_Go%C3%ADs%27_proposal,_1933).svg" {
+    author "Eurico de Góis"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009440"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Northern Cheyenne"
-  encoder "Officially adopted by Chairman John Wooden Legs [1], possibly designed by Hubert Bearchum [2]"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Northern_Cheyenne.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Northern_Cheyenne.svg" {
+    author "Officially adopted by Chairman John Wooden Legs [1], possibly designed by Hubert Bearchum [2]"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0053ff"

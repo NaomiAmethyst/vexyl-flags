@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Aam Aadmi Party flag (2)"
-  encoder "VNC200"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Aam_Aadmi_Party_flag_(2).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Aam_Aadmi_Party_flag_(2).svg" {
+    author "VNC200"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   yellow "#fdf000"

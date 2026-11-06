@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Miyagi Prefecture"
-  encoder "Monaneko, Mike Rohsopht"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Miyagi_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Miyagi_Prefecture.svg" {
+    author "Monaneko, Mike Rohsopht"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#00594c"

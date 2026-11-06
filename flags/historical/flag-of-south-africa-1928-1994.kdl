@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of South Africa (1928-1994)"
-  encoder "Parliament of South Africa (Vector graphics image by Denelson83)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa_(1928%E2%80%931994,_dark_colors).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa_(1928%E2%80%931994,_dark_colors).svg" {
+    author "Parliament of South Africa (Vector graphics image by Denelson83)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   orange "#ff8400"

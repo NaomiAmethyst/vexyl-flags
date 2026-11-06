@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Lesotho (1966–1987)"
-  encoder "Zscout370"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Lesotho_(1966%E2%80%931987).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Lesotho_(1966%E2%80%931987).svg" {
+    author "Zscout370"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   green "#00a531"

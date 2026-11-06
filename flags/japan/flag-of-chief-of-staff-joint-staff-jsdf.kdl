@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Chief of Staff, Joint Staff (JSDF)"
-  encoder "Japanese Ministry of Defense, vectorized by Los688"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Chief_of_Staff,_Joint_Staff_(JSDF).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Chief_of_Staff,_Joint_Staff_(JSDF).svg" {
+    author "Japanese Ministry of Defense, vectorized by Los688"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   pink "#b90f7c"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Bear Brotherhood flag"
-  encoder "Fibonacci."
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Bear_Brotherhood_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Bear_Brotherhood_flag.svg" {
+    author "Fibonacci."
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   brown "#623804"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Asano Lords of Hiroshima in Aki Province (A)"
-  encoder "Barfodt"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Asano_Lords_of_Hiroshima_in_Aki_Province_(A).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Asano_Lords_of_Hiroshima_in_Aki_Province_(A).svg" {
+    author "Barfodt"
+    license "CC0-1.0"
+  }
 }
 palette {
   orange "#ffc01b"

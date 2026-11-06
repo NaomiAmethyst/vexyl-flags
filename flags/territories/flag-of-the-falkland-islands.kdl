@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Falkland Islands"
-  encoder "Original: Government of the United Kingdom Vector: Nightstallion and Echando una mano"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Falkland_Islands.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Falkland_Islands.svg" {
+    author "Original: Government of the United Kingdom Vector: Nightstallion and Echando una mano"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

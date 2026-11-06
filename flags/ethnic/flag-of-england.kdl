@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of England"
-  encoder "Original: traditional Vector: Nicholas Shanks"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg" {
+    author "Original: traditional Vector: Nicholas Shanks"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Suriname (1959–1975)"
-  encoder "Mysid"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Suriname_(1959%E2%80%931975).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Suriname_(1959%E2%80%931975).svg" {
+    author "Mysid"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

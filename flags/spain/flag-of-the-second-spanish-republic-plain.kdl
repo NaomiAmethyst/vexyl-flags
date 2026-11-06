@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Second Spanish Republic (plain)"
-  encoder "Marcos Felipe"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Second_Spanish_Republic_(plain).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Second_Spanish_Republic_(plain).svg" {
+    author "Marcos Felipe"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#da121a"

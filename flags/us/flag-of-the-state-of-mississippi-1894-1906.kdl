@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the State of Mississippi (1894–1906)"
-  encoder "Mario Fabretto"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Mississippi_(1894%E2%80%931906).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Mississippi_(1894%E2%80%931906).svg" {
+    author "Mario Fabretto"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00205b"

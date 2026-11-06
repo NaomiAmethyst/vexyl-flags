@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Okinawa Civilian Administration"
-  encoder "Washiucho"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Okinawa_Civilian_Administration.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Okinawa_Civilian_Administration.svg" {
+    author "Washiucho"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003184"

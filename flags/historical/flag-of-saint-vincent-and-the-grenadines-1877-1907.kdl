@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saint Vincent and the Grenadines (1877-1907)"
-  encoder "Tcfc2349"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines_(1877-1907).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines_(1877-1907).svg" {
+    author "Tcfc2349"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00247d"

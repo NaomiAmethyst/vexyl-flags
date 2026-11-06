@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Australia (1903–1908)"
-  encoder "Roke (original)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_(1903%E2%80%931908).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_(1903%E2%80%931908).svg" {
+    author "Roke (original)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

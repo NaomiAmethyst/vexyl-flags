@@ -6,7 +6,8 @@ vexyl 1
 meta {
   name "São Tomé and Príncipe"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20241113155533/https://stj.st/index.php/constituicao-da-republica?download=2:constituicao-da-republica"
   source "https://www.crwflags.com/fotw/flags/st.html"
   note "The bars and triangle are from Article 14. The Constitution gives no proportion, no star size or position, and no shades."

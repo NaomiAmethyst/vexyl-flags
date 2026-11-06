@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saudi Arabia (1934–1938)"
-  encoder "Orange Tuesday at English Wikipedia / (Original text: Orange Tuesday (talk))"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia_(1934%E2%80%931938).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saudi_Arabia_(1934%E2%80%931938).svg" {
+    author "Orange Tuesday at English Wikipedia / (Original text: Orange Tuesday (talk))"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#006c35"

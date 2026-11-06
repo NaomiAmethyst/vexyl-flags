@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "War flag of the Imperial Japanese Army"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Imperial_Japanese_Army.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:War_flag_of_the_Imperial_Japanese_Army.svg" {
+    author "Thommy"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

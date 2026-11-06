@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Australian Aboriginal Flag"
-  encoder "Original: Harold Thomas; Vectorization: Trisreed"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Copyrighted-Free-Use"
-  source "https://commons.wikimedia.org/wiki/File:Australian_Aboriginal_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Australian_Aboriginal_Flag.svg" {
+    author "Original: Harold Thomas; Vectorization: Trisreed"
+    license "LicenseRef-Copyrighted-Free-Use"
+  }
 }
 palette {
   black "#000000"

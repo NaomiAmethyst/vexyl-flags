@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Agender pride flag"
-  encoder "Salem Fontana"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Agender_pride_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Agender_pride_flag.svg" {
+    author "Salem Fontana"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

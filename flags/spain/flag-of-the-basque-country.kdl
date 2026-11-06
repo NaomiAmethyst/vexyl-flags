@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Basque Country"
-  encoder "Daniele Schirmo aka Frankie688"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Basque_Country.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Basque_Country.svg" {
+    author "Daniele Schirmo aka Frankie688"
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   red "#d52b1e"

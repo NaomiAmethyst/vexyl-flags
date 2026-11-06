@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Zanzibar (January-April 1964)"
-  encoder "SuperManu"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Zanzibar_(January-April_1964).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Zanzibar_(January-April_1964).svg" {
+    author "SuperManu"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00a3dd"

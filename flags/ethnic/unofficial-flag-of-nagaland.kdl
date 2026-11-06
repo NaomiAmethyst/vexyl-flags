@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Unofficial flag of Nagaland"
-  encoder "Ch1902"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Unofficial_flag_of_Nagaland.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Unofficial_flag_of_Nagaland.svg" {
+    author "Ch1902"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#74c6f1"

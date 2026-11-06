@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Lebanon"
-  encoder "Henri Pharaon"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Lebanon.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Lebanon.svg" {
+    author "Henri Pharaon"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d31624"

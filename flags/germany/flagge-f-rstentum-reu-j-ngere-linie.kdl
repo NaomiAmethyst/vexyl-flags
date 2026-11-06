@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Fürstentum Reuß jüngere Linie"
-  encoder "David Liuzzo Public domainPublic domainfalsefalse This image of simple geometry is ineligible for copyright and therefor"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_F%C3%BCrstentum_Reu%C3%9F_j%C3%BCngere_Linie.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_F%C3%BCrstentum_Reu%C3%9F_j%C3%BCngere_Linie.svg" {
+    author "David Liuzzo Public domainPublic domainfalsefalse This image of simple geometry is ineligible for copyright and therefor"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

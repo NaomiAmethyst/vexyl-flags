@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ação Integralista Brasileira original version"
-  encoder "R-41"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_A%C3%A7%C3%A3o_Integralista_Brasileira_original_version.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_A%C3%A7%C3%A3o_Integralista_Brasileira_original_version.svg" {
+    author "R-41"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#0045cf"

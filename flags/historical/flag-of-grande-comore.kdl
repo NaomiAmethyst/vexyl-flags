@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Grande Comore"
-  encoder "Ninane"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Grande_Comore.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Grande_Comore.svg" {
+    author "Ninane"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00237e"

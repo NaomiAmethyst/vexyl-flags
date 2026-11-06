@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Anguilla"
-  encoder "This work created by the United Kingdom Government is in the public domain. This is because it is one of the following: "
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Anguilla.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Anguilla.svg" {
+    author "This work created by the United Kingdom Government is in the public domain. This is because it is one of the following: "
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

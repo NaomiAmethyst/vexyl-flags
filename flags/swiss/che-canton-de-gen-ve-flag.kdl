@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "CHE Canton de Genève Flag"
-  encoder "Original: Émile Demole Vector: République et Canton de Genève"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:CHE_Canton_de_Gen%C3%A8ve_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:CHE_Canton_de_Gen%C3%A8ve_Flag.svg" {
+    author "Original: Émile Demole Vector: République et Canton de Genève"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fcdb00"

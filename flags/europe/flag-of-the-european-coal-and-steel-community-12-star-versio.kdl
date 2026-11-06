@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the European Coal and Steel Community 12 Star Version"
-  encoder "Vectorization: Holek (talk · contribs)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_European_Coal_and_Steel_Community_12_Star_Version.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_European_Coal_and_Steel_Community_12_Star_Version.svg" {
+    author "Vectorization: Holek (talk · contribs)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0786d5"

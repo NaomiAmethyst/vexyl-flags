@@ -5,7 +5,8 @@ vexyl 1
 meta {
   name "Bolivia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.lexivox.org/norms/BO-DS-N241.xhtml"
   source "https://www.crwflags.com/fotw/flags/bo.html"
   note "The decree was read on LexiVox, which isn't the official gazette. Its Article 7 color table is an image that couldn't be retrieved. The Pantone numbers here are from Article 23, for the flags on the arms, and FOTW says Article 7 keeps the 2004 decree's 485, Process Yellow and 356."
@@ -33,12 +34,8 @@ proportion hoist=7.5 fly=11
 
 bars red yellow green
 
-adapt {
-  range 1.4666 1.5
-  wider scale
-}
-
 // Article 9: the official sizes are 300 by 200 cm and 30 by 20 cm.
 variant official-size {
-  ratio 1.5
+  proportion hoist=2 fly=3
+  bars red yellow green
 }

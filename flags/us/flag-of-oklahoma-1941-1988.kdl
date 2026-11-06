@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Oklahoma (1941–1988)"
-  encoder "State of Oklahoma"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Oklahoma_(1941%E2%80%931988).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Oklahoma_(1941%E2%80%931988).svg" {
+    author "State of Oklahoma"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

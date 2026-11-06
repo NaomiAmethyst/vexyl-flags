@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tibet (1916-1951)"
-  encoder "Felipe Fidelis Tobias"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tibet_(1916-1951).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tibet_(1916-1951).svg" {
+    author "Felipe Fidelis Tobias"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   yellow "#f4e109"

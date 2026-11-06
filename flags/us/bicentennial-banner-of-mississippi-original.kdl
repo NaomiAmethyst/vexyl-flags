@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Bicentennial Banner of Mississippi (original)"
-  encoder "RootOfAllLight"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Bicentennial_Banner_of_Mississippi_(original).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Bicentennial_Banner_of_Mississippi_(original).svg" {
+    author "RootOfAllLight"
+    license "CC0-1.0"
+  }
 }
 palette {
 }

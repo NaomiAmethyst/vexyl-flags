@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Preußische Kriegs- und Dienstflagge"
-  encoder "Fornax"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Preu%C3%9Fische_Kriegs-_und_Dienstflagge.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Preu%C3%9Fische_Kriegs-_und_Dienstflagge.svg" {
+    author "Fornax"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

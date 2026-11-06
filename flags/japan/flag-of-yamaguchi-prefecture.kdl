@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Yamaguchi Prefecture"
-  encoder "Alex Tora, Mike Rohsopht"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Yamaguchi_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Yamaguchi_Prefecture.svg" {
+    author "Alex Tora, Mike Rohsopht"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#693c34"

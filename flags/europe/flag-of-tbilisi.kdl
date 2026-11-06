@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tbilisi"
-  encoder "Tbilisi City Seal.svg: *Tbilisi City Seal.PNG: Tbilisi City Hall derivative work: Nesnad Flag of Georgian Orthodox Churc"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tbilisi.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tbilisi.svg" {
+    author "Tbilisi City Seal.svg: *Tbilisi City Seal.PNG: Tbilisi City Hall derivative work: Nesnad Flag of Georgian Orthodox Churc"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

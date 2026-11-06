@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of South Sudan (2011–2023, tilted star)"
-  encoder "NorthTension"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Sudan_(2011%E2%80%932023,_tilted_star).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_South_Sudan_(2011%E2%80%932023,_tilted_star).svg" {
+    author "NorthTension"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

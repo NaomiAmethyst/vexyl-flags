@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Barotseland"
-  encoder "Himasaram"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Barotseland.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Barotseland.svg" {
+    author "Himasaram"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

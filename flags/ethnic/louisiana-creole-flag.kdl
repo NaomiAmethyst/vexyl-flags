@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Louisiana Creole Flag"
-  encoder "Elevatorrailfan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Louisiana_Creole_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Louisiana_Creole_Flag.svg" {
+    author "Elevatorrailfan"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   green "#08834c"

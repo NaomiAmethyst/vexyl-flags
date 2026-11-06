@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Cooperation Council for the Arab States of the Gulf"
-  encoder "Rico Shen"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cooperation_Council_for_the_Arab_States_of_the_Gulf.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cooperation_Council_for_the_Arab_States_of_the_Gulf.svg" {
+    author "Rico Shen"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#038e3b"

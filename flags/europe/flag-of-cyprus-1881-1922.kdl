@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Cyprus (1881-1922)"
-  encoder "Christmas Island"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus_(1881%E2%80%931922).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus_(1881%E2%80%931922).svg" {
+    author "Christmas Island"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

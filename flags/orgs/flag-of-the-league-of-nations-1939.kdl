@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the League of Nations (1939)"
-  encoder "Martin Grandjean This W3C-unspecified vector image was created with Inkscape ."
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_League_of_Nations_(1939).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_League_of_Nations_(1939).svg" {
+    author "Martin Grandjean This W3C-unspecified vector image was created with Inkscape ."
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#ffffff"

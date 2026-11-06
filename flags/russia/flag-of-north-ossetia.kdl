@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of North Ossetia"
-  encoder "Nardo Polo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_North_Ossetia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_North_Ossetia.svg" {
+    author "Nardo Polo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

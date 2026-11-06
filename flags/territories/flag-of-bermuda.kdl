@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Bermuda"
-  encoder "Version 1: Made by Caleb Moore from the Open Clip Art website and uploaded by Nightstallion Version 2: Made by Nameneko "
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bermuda.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Bermuda.svg" {
+    author "Version 1: Made by Caleb Moore from the Open Clip Art website and uploaded by Nightstallion Version 2: Made by Nameneko "
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#c8102e"

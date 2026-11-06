@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Minnesota (1983-2024)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota_(1983%E2%80%932024).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota_(1983%E2%80%932024).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#4869b0"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Chickasaw Nation"
-  encoder "Muriel Wright [1]"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chickasaw_Nation.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chickasaw_Nation.svg" {
+    author "Muriel Wright [1]"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#1b316d"

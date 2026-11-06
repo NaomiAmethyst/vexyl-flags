@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Grand Duchy of Berg (1806-1808)"
-  encoder "Sir Iain"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grand_Duchy_of_Berg_(1806-1808).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grand_Duchy_of_Berg_(1806-1808).svg" {
+    author "Sir Iain"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

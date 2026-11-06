@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Connecticut"
-  encoder "Jean-Pierre Demailly, xrmap authors, Commons users (SVG)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Connecticut.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Connecticut.svg" {
+    author "Jean-Pierre Demailly, xrmap authors, Commons users (SVG)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0c2d83"

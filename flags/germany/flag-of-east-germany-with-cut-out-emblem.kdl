@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of East Germany with cut out emblem"
-  encoder "Madden"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_East_Germany_with_cut_out_emblem.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_East_Germany_with_cut_out_emblem.svg" {
+    author "Madden"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

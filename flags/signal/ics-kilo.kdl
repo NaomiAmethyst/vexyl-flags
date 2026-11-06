@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "ICS Kilo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:ICS_Kilo.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:ICS_Kilo.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffff00"

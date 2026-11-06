@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Union of African States (1961-1962)"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Union_of_African_States_(1961%E2%80%931962).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Union_of_African_States_(1961%E2%80%931962).svg" {
+    author "Thommy"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

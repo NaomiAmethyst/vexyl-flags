@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Royal Banner of the Kingdom of Castile"
-  encoder "Heralder"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Royal_Banner_of_the_Kingdom_of_Castile.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Royal_Banner_of_the_Kingdom_of_Castile.svg" {
+    author "Heralder"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#ff0000"

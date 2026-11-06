@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Minnesota (1893)"
-  encoder "This vector image was created by Ali Zifan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota_(1893).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota_(1893).svg" {
+    author "This vector image was created by Ali Zifan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00009c"

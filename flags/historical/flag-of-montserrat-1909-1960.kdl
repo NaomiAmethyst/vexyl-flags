@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Montserrat (1909–1960)"
-  encoder "Cypp0847"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Montserrat_(1909%E2%80%931960).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Montserrat_(1909%E2%80%931960).svg" {
+    author "Cypp0847"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

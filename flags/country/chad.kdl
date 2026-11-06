@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Chad"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/TCD_Chad_Constitution_2023.pdf"
   source "https://www.crwflags.com/fotw/flags/td.html"
   note "The constitution gives no proportion. The 2:3 is FOTW's and Wikipedia's, and FOTW's contributor notes the ratio is unspecified, so it isn't legal."

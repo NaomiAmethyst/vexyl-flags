@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Argentina (civil)"
-  encoder "Manuel Belgrano (1770-1820)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina_(civil).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina_(civil).svg" {
+    author "Manuel Belgrano (1770-1820)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#74acdf"

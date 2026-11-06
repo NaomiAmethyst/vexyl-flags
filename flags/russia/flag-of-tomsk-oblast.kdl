@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tomsk Oblast"
-  encoder "Re-rendered by User:Hellerick"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tomsk_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tomsk_Oblast.svg" {
+    author "Re-rendered by User:Hellerick"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

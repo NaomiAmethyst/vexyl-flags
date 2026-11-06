@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Brazil Gay flag"
-  encoder "Eddo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Brazil_Gay_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Brazil_Gay_flag.svg" {
+    author "Eddo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e50000"

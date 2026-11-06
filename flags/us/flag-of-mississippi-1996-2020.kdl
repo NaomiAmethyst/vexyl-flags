@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mississippi (1996–2020)"
-  encoder "Rocky Vaughn, Sue Anna Joe, Dominique Pugh, Clay Moss, Kara Giles, and the Mississippi Department of Archives and Histor"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mississippi_(1996%E2%80%932020).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mississippi_(1996%E2%80%932020).svg" {
+    author "Rocky Vaughn, Sue Anna Joe, Dominique Pugh, Clay Moss, Kara Giles, and the Mississippi Department of Archives and Histor"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

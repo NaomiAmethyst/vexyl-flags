@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "West Florida Flag"
-  encoder "Wolfmaster2 for original raster"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:West_Florida_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:West_Florida_Flag.svg" {
+    author "Wolfmaster2 for original raster"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#5685b7"

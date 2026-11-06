@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Karachay-Cherkessia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Karachay-Cherkessia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Karachay-Cherkessia.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0090d0"

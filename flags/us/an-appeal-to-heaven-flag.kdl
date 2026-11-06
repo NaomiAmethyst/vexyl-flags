@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "An Appeal to Heaven Flag"
-  encoder "Joseph Reed"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:An_Appeal_to_Heaven_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:An_Appeal_to_Heaven_Flag.svg" {
+    author "Joseph Reed"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

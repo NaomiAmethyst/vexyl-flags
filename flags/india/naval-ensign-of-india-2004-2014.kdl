@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Naval Ensign of India (2004–2014)"
-  encoder "Indian Navy"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Naval_Ensign_of_India_(2004%E2%80%932014).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Naval_Ensign_of_India_(2004%E2%80%932014).svg" {
+    author "Indian Navy"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

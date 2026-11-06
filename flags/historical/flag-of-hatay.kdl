@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Hatay"
-  encoder "A. Özgür Erdemli"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hatay.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Hatay.svg" {
+    author "A. Özgür Erdemli"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#e30a17"

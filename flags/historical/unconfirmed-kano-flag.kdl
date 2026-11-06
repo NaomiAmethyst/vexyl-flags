@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Unconfirmed Kano Flag"
-  encoder "Bohr"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Unconfirmed_Kano_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Unconfirmed_Kano_Flag.svg" {
+    author "Bohr"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

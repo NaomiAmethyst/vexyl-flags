@@ -3,31 +3,29 @@ vexyl 1
 meta {
   name "Russia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "http://flag.kremlin.ru/flag/item"
   source "https://meganorm.ru/mega_doc/norm/gost-r_gosudarstvennyj-standart/8/gost_r_51130-2023_natsionalnyy_standart_rossiyskoy.html"
   source "https://legalacts.ru/doc/prikaz-rosstandarta-ot-22082023-n-694-st-ob-utverzhdenii-natsionalnogo/"
   source "https://www.crwflags.com/fotw/flags/ru.html"
   note "The stripes and proportion are from the law, which names the colors without shades."
-  note "The hex, Pantone and CMYK values are Table A.1 of the national standard GOST R 51130-2023, in force from 1 February 2024, read in a reproduction on meganorm.ru. Its Annex A is marked recommended, not mandatory, and the law remains the authority for the colors."
-  note "Other references use darker shades: the Album des Pavillons 2023, as reported by FOTW, gives Pantone 485 C, RGB 220-36-31, for red, and lists three blues, of which 293 C, RGB 0-71-182, is taken here as the flag's."
-  note "The standard's hex values are pure screen primaries and don't match its own Pantones: FOTW reports 485 C as about 220-36-31. So the render is much brighter than flags in use."
+  note "The hex values and blue's Pantone are the Album des Pavillons 2023's, as reported by FOTW, which gives Pantone 485 C, RGB 220-36-31, for red, and lists three blues, of which 293 C, RGB 0-71-182, is taken here as the flag's."
+  note "The national standard GOST R 51130-2023, in force from 1 February 2024, was read in a reproduction on meganorm.ru, and its Table A.1 is kept as references. Its Annex A is marked recommended, not mandatory, and the law remains the authority for the colors."
+  note "The standard's hex values are pure screen primaries that don't match its own Pantones, so they'd render much brighter than flags in use, which is why they aren't used here."
   law "Federal Constitutional Law No. 1-FKZ of 25 December 2000 on the State Flag of the Russian Federation, Article 1" {
     source "http://flag.kremlin.ru/flag/item"
   }
 }
 palette {
-  white "#ffffff" {
-    pantone "Trans.White"
-    cmyk 0 0 0 1
+  white "#ffffff"
+  blue "#0047b6" {
+    pantone "293 C"
+    reference "GOST R 51130-2023, Table A.1" "Pantone 072 C, #0000ff, CMYK 100 100 0 1"
   }
-  blue "#0000ff" {
-    pantone "072 C"
-    cmyk 100 100 0 1
-  }
-  red "#ff0000" {
+  red "#dc241f" {
     pantone "485 C"
-    cmyk 0 100 100 1
+    reference "GOST R 51130-2023, Table A.1" "Pantone 485 C, #ff0000, CMYK 0 100 100 1"
   }
 }
 proportion hoist=2 fly=3

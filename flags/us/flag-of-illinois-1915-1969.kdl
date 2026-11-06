@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Illinois (1915-1969)"
-  encoder "Permjak"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Illinois_(1915%E2%80%931969).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Illinois_(1915%E2%80%931969).svg" {
+    author "Permjak"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

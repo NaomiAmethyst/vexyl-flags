@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Chief of Defence Staff (India)"
-  encoder "HunterdeltaX15"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chief_of_Defence_Staff_(India).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chief_of_Defence_Staff_(India).svg" {
+    author "HunterdeltaX15"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#6a0000"

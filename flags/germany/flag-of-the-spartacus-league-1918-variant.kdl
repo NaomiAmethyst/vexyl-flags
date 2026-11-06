@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Spartacus League (1918 variant)"
-  encoder "Jens Pattke (User:R-41)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Spartacus_League_(1918_variant).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Spartacus_League_(1918_variant).svg" {
+    author "Jens Pattke (User:R-41)"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#d00000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nagano Prefecture"
-  encoder "Unknown"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nagano_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nagano_Prefecture.svg" {
+    author "Unknown"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#f66637"

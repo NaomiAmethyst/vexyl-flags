@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Haiti (1820–1849, 1859–1964)"
-  encoder "Wrestlingring"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(1820%E2%80%931849,_1859%E2%80%931964).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(1820%E2%80%931849,_1859%E2%80%931964).svg" {
+    author "Wrestlingring"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00369c"

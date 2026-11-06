@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Aromantic Pride Flag"
-  encoder "Cameron Whimsey"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Aromantic_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Aromantic_Pride_Flag.svg" {
+    author "Cameron Whimsey"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#3da542"

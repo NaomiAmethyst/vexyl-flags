@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Genderfluidity Pride-Flag"
-  encoder "JJ Pole.McLennonSonGarethPW"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Genderfluidity_Pride-Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Genderfluidity_Pride-Flag.svg" {
+    author "JJ Pole.McLennonSonGarethPW"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#f5f5f5"

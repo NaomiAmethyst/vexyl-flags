@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Latin American Parliament"
-  encoder "RobloxMiner$$"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Latin_American_Parliament.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Latin_American_Parliament.svg" {
+    author "RobloxMiner$$"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#75caf1"

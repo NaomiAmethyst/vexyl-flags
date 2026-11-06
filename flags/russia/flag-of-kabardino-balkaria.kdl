@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kabardino-Balkaria"
-  encoder "Original: Unknown Vector: Conscious"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kabardino-Balkaria.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kabardino-Balkaria.svg" {
+    author "Original: Unknown Vector: Conscious"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#3399ff"

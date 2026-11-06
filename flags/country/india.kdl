@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of India"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://en.wikipedia.org/wiki/File:Flag_of_India.svg"
+  adapted-from "https://en.wikipedia.org/wiki/File:Flag_of_India.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   orange "#ff6820"

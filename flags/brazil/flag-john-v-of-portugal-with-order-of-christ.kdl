@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag John V of Portugal with Order of Christ"
-  encoder "Tonyjeff, based on ancient national symbol."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_John_V_of_Portugal_with_Order_of_Christ.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_John_V_of_Portugal_with_Order_of_Christ.svg" {
+    author "Tonyjeff, based on ancient national symbol."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "War Ensign of Prussia (1816)"
-  encoder "Guilherme Paula"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:War_Ensign_of_Prussia_(1816).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:War_Ensign_of_Prussia_(1816).svg" {
+    author "Guilherme Paula"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

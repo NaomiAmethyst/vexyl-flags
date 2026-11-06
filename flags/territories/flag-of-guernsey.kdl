@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Guernsey"
-  encoder "User:Nightstallion"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Guernsey.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Guernsey.svg" {
+    author "User:Nightstallion"
+    license "CC0-1.0"
+  }
 }
 palette {
   white "#ffffff"

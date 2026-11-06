@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Königreich Württemberg"
-  encoder "David Liuzzo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_K%C3%B6nigreich_W%C3%BCrttemberg.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_K%C3%B6nigreich_W%C3%BCrttemberg.svg" {
+    author "David Liuzzo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

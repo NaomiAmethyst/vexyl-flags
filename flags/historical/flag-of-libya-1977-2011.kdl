@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Libya (1977-2011)"
-  encoder "Zscout370"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Libya_(1977%E2%80%932011).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Libya_(1977%E2%80%932011).svg" {
+    author "Zscout370"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#008542"

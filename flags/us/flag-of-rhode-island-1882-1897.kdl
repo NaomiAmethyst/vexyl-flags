@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Rhode Island (1882–1897)"
-  encoder "Flag_of_Rhode_Island.svg: derivative work: Fry1989 (talk) 03:53, 7 July 2011 (UTC)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island_(1882%E2%80%931897).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island_(1882%E2%80%931897).svg" {
+    author "Flag_of_Rhode_Island.svg: derivative work: Fry1989 (talk) 03:53, 7 July 2011 (UTC)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

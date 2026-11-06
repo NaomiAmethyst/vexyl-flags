@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Indian Marshal of the Air Forces 1950-1980"
-  encoder "Bharata-indstar"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Indian_Marshal_of_the_Air_Forces_1950-1980.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Indian_Marshal_of_the_Air_Forces_1950-1980.svg" {
+    author "Bharata-indstar"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   orange "#ff671f"

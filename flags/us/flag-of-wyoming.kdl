@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Wyoming"
-  encoder "User:Dbenbenn"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Wyoming.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Wyoming.svg" {
+    author "User:Dbenbenn"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

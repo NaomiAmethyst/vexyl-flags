@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of John IV of Portugal during the Restoration War"
-  encoder "Tonyjeff, based on ancient national symbol."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_John_IV_of_Portugal_during_the_Restoration_War.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_John_IV_of_Portugal_during_the_Restoration_War.svg" {
+    author "Tonyjeff, based on ancient national symbol."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#005197"

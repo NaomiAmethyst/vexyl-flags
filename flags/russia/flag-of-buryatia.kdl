@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Buryatia"
-  encoder "Elvonudinium"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Buryatia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Buryatia.svg" {
+    author "Elvonudinium"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0039a6"

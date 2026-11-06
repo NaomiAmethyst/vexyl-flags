@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Minsk, Belarus"
-  encoder "Минский городской исполнительный комитет"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Minsk,_Belarus.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Minsk,_Belarus.svg" {
+    author "Минский городской исполнительный комитет"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#336fb7"

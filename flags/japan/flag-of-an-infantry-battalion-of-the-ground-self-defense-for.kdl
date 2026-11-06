@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of an Infantry Battalion of the Ground Self Defense Force (Japan)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_an_Infantry_Battalion_of_the_Ground_Self_Defense_Force_(Japan).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_an_Infantry_Battalion_of_the_Ground_Self_Defense_Force_(Japan).svg" {
+    author "Sodacan"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#ff0000"

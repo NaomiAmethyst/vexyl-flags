@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Sri Lanka"
-  encoder "Original: Sri Lanka Vectorization: Zscout370, Mike Rohsopht"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Sri_Lanka.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Sri_Lanka.svg" {
+    author "Original: Sri Lanka Vectorization: Zscout370, Mike Rohsopht"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   orange "#ffbe29"

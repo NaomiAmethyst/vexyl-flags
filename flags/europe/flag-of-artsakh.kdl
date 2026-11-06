@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Artsakh"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Artsakh.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Artsakh.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d90012"

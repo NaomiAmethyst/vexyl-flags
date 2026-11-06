@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Louisiana"
-  encoder "Curtis Vann, Jr."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Louisiana.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Louisiana.svg" {
+    author "Curtis Vann, Jr."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#01447b"

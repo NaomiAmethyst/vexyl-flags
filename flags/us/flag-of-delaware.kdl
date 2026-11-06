@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Delaware"
-  encoder "xrmap flag collection"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Delaware.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Delaware.svg" {
+    author "xrmap flag collection"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#669ca4"

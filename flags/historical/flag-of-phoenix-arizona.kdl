@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Phoenix, Arizona"
-  encoder "City of Phoenix"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Phoenix,_Arizona.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Phoenix,_Arizona.svg" {
+    author "City of Phoenix"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#660033"

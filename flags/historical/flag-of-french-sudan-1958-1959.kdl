@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of French Sudan (1958-1959)"
-  encoder "Akiramenai"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_French_Sudan_(1958%E2%80%931959).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_French_Sudan_(1958%E2%80%931959).svg" {
+    author "Akiramenai"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002654"

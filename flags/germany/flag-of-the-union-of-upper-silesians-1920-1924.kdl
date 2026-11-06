@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Union of Upper Silesians (1920-1924)"
-  encoder "Artemis Andromeda"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Union_of_Upper_Silesians_(1920-1924).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Union_of_Upper_Silesians_(1920-1924).svg" {
+    author "Artemis Andromeda"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of American Samoa"
-  encoder "by Tobias Jakobs"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_American_Samoa.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_American_Samoa.svg" {
+    author "by Tobias Jakobs"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00205b"

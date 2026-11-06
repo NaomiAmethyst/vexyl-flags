@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Syria (1963–1972)"
-  encoder "Thespoondragon"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(1963%E2%80%931972).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(1963%E2%80%931972).svg" {
+    author "Thespoondragon"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

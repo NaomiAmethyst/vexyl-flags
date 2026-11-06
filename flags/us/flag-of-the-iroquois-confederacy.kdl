@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Iroquois Confederacy"
-  encoder "Rick Hill, Harold Johnson, and Tim Johnson"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Iroquois_Confederacy.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Iroquois_Confederacy.svg" {
+    author "Rick Hill, Harold Johnson, and Tim Johnson"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   purple "#593eb6"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Croatia"
-  encoder "Nightstallion, Elephantus, Neoneo13, Denelson83, Rainman, R-41, Minestrone, Lupo, Zscout370,MaGa (based on Decision of t"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Croatia.svg" {
+    author "Nightstallion, Elephantus, Neoneo13, Denelson83, Rainman, R-41, Minestrone, Lupo, Zscout370,MaGa (based on Decision of t"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Maine Bicentennial Flag (2020)"
-  encoder "Alphabatross"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Maine_Bicentennial_Flag_(2020).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Maine_Bicentennial_Flag_(2020).svg" {
+    author "Alphabatross"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#3d3f77"

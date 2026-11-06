@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kansas (1927–1961)"
-  encoder "User:Denelson83 (File:Flag of Kansas.svg)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kansas_(1927%E2%80%931961).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kansas_(1927%E2%80%931961).svg" {
+    author "User:Denelson83 (File:Flag of Kansas.svg)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00205b"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "F1 white flag"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:F1_white_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:F1_white_flag.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

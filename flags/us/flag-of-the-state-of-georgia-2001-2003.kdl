@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the State of Georgia (2001-2003)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(2001%E2%80%932003).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(2001%E2%80%932003).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00205b"

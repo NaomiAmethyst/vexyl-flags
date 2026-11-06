@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Miyazaki Prefecture"
-  encoder "Ninane at nl.wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Miyazaki_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Miyazaki_Prefecture.svg" {
+    author "Ninane at nl.wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#159939"

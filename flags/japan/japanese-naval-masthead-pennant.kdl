@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Japanese Naval Masthead Pennant"
-  encoder "User:Zscout370,User:Ipankonin, and User:penubag"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Japanese_Naval_Masthead_Pennant.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Japanese_Naval_Masthead_Pennant.svg" {
+    author "User:Zscout370,User:Ipankonin, and User:penubag"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

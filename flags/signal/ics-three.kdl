@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "ICS Three"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:ICS_Three.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:ICS_Three.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0000ff"

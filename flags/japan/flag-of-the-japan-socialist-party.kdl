@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Japan Socialist Party"
-  encoder "10素10"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Japan_Socialist_Party.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Japan_Socialist_Party.svg" {
+    author "10素10"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#e3213d"

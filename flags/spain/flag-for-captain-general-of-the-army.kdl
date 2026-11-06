@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag for Captain general of the Army"
-  encoder "This vector image includes elements that have been taken or adapted from this file:"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_for_Captain_general_of_the_Army.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_for_Captain_general_of_the_Army.svg" {
+    author "This vector image includes elements that have been taken or adapted from this file:"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#c61621"

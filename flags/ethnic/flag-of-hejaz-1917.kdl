@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Hejaz (1917)"
-  encoder "Orange Tuesday at English Wikipedia / (Original text: Orange Tuesday (talk))"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hejaz_(1917).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Hejaz_(1917).svg" {
+    author "Orange Tuesday at English Wikipedia / (Original text: Orange Tuesday (talk))"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

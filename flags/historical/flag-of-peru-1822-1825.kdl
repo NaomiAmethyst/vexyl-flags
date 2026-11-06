@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Peru (1822–1825)"
-  encoder "Huhsunqu"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Peru_(1822%E2%80%931825).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Peru_(1822%E2%80%931825).svg" {
+    author "Huhsunqu"
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   red "#d91023"

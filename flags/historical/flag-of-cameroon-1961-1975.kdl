@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Cameroon (1961-1975)"
-  encoder "Himasaram"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon_(1961%E2%80%931975).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon_(1961%E2%80%931975).svg" {
+    author "Himasaram"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#007a5e"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Ottoman Empire"
-  encoder "User:Orwellianist"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ottoman_Empire_(1844%E2%80%931922).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ottoman_Empire_(1844%E2%80%931922).svg" {
+    author "User:Orwellianist"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e30a17"

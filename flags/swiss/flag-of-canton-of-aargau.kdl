@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Canton of Aargau"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Canton_of_Aargau.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Canton_of_Aargau.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

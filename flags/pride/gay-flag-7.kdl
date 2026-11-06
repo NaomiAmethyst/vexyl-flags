@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Gay flag 7"
-  encoder "Fibonacci"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Gay_flag_7.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Gay_flag_7.svg" {
+    author "Fibonacci"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Vice Admiral ensign of Indian Navy"
-  encoder "Great Brightstar"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Vice_Admiral_ensign_of_Indian_Navy.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Vice_Admiral_ensign_of_Indian_Navy.svg" {
+    author "Great Brightstar"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

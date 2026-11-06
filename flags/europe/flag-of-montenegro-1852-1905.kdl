@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Montenegro (1852–1905)"
-  encoder "B1mbo"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Montenegro_(1860%E2%80%931905).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Montenegro_(1860%E2%80%931905).svg" {
+    author "B1mbo"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#c40308"

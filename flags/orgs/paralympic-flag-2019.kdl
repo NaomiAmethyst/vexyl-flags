@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Paralympic flag (2019)"
-  encoder "International Paralympic Committee"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Paralympic_flag_(2019).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Paralympic_flag_(2019).svg" {
+    author "International Paralympic Committee"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

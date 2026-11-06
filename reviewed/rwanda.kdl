@@ -9,7 +9,8 @@ vexyl 1
 meta {
   name "Rwanda"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.rlrc.gov.rw/index.php?eID=dumpFile&t=f&f=74762&token=cb41274d1a4b2d1626672542e40024a521270e26"
   source "https://www.ecoi.net/en/file/local/2050279/60872f7d4.pdf"
   source "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/National_Symbols/National_Flag/Rwanda_Flag.jpg"

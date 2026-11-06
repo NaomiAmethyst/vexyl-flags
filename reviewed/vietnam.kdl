@@ -6,7 +6,8 @@ vexyl 1
 meta {
   name "Vietnam"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.constituteproject.org/constitution/Socialist_Republic_of_Vietnam_2013"
   source "https://web.archive.org/web/20170423145213/http://bvhttdl.gov.vn/vn/vb-qly-nn/1/1195/index.html"
   source "https://cdn.haiphong.gov.vn/gov-hpg/6803/tintuc/2025/8/2.-thong-bao-treo-co-tq-co-dang-trong-dip-cmt8-va-qk-2-9.signed638919712185874663.pdf"

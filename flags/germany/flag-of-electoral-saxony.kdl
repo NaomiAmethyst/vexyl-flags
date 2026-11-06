@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Electoral Saxony"
-  encoder "Sir Iain, crancelin by User:Sodacan from File:Arms of Albert of Saxe-Coburg and Gotha.svg."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Electoral_Saxony.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Electoral_Saxony.svg" {
+    author "Sir Iain, crancelin by User:Sodacan from File:Arms of Albert of Saxe-Coburg and Gotha.svg."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

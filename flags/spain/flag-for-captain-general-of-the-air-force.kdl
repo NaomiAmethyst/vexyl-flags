@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag for Captain general of the Air force"
-  encoder "Skjoldbro"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_for_Captain_general_of_the_Air_force.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_for_Captain_general_of_the_Air_force.svg" {
+    author "Skjoldbro"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#c61621"

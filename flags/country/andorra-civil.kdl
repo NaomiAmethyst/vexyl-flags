@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Andorra (civil)"
-  encoder "Original: Napoleon III Vector: SkyBon"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Andorra_(civil).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Andorra_(civil).svg" {
+    author "Original: Napoleon III Vector: SkyBon"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0018a8"

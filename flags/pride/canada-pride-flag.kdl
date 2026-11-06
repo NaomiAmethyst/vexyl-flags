@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Canada Pride flag"
-  encoder "Keepscases"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Canada_Pride_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Canada_Pride_flag.svg" {
+    author "Keepscases"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#e50000"

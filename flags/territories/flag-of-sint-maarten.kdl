@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Sint Maarten"
-  encoder "User:Shervinafshar, based on work of User:Washiucho. Earlier non-PD versions by User:SiBr4, User:Fry1989, and User:Andrw"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Sint_Maarten.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Sint_Maarten.svg" {
+    author "User:Shervinafshar, based on work of User:Washiucho. Earlier non-PD versions by User:SiBr4, User:Fry1989, and User:Andrw"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

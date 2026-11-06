@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Syria"
-  encoder "Modification by AnonMoos of PD image File:Flag of Syria (1930–1958, 1961–1963).svg (previous non-vector versions were by"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(2025-).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(2025-).svg" {
+    author "Modification by AnonMoos of PD image File:Flag of Syria (1930–1958, 1961–1963).svg (previous non-vector versions were by"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#007a3d"

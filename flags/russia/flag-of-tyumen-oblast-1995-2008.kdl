@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tyumen Oblast (1995-2008)"
-  encoder "Conscious"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tyumen_Oblast_(1995-2008).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tyumen_Oblast_(1995-2008).svg" {
+    author "Conscious"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

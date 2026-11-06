@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge des Landesteils Mecklenburg"
-  encoder "Staatskanzlei Mecklenburg-Vorpommerns"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_des_Landesteils_Mecklenburg.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_des_Landesteils_Mecklenburg.svg" {
+    author "Staatskanzlei Mecklenburg-Vorpommerns"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#234e9b"

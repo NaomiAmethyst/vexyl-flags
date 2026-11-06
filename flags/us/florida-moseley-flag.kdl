@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Florida Moseley Flag"
-  encoder "Thespoondragon"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Florida_Moseley_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Florida_Moseley_Flag.svg" {
+    author "Thespoondragon"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#002868"

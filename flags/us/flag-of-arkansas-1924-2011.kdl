@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Arkansas (1924–2011)"
-  encoder "Willie Kavanaugh Hocker"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Arkansas_(1924%E2%80%932011).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Arkansas_(1924%E2%80%932011).svg" {
+    author "Willie Kavanaugh Hocker"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cc0033"

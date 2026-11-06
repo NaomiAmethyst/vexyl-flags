@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Southern Rhodesia (1924–1964)"
-  encoder "Greentubing"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Southern_Rhodesia_(1924%E2%80%931964).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Southern_Rhodesia_(1924%E2%80%931964).svg" {
+    author "Greentubing"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

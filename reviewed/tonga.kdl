@@ -6,7 +6,8 @@ vexyl 1
 meta {
   name "Tonga"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.constituteproject.org/constitution/Tonga_2013"
   source "https://web.archive.org/web/20250502100810/https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/1962/1962-0017/RoyalArmsandFlagAct_3.pdf"
   source "https://www.crwflags.com/fotw/flags/to.html"

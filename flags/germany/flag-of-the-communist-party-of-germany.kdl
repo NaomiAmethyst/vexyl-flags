@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Communist Party of Germany"
-  encoder "R-41~commonswiki"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Germany.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Communist_Party_of_Germany.svg" {
+    author "R-41~commonswiki"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#d00000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ust-Orda Buryat Autonomous Okrug"
-  encoder "User:Conscious"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ust-Orda_Buryat_Autonomous_Okrug.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ust-Orda_Buryat_Autonomous_Okrug.svg" {
+    author "User:Conscious"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0051ba"

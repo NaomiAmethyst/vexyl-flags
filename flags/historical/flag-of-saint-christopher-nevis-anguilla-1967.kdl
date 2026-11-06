@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saint Christopher-Nevis-Anguilla (1967)"
-  encoder "Bringing It All Back Home"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Christopher-Nevis-Anguilla_(1967).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Christopher-Nevis-Anguilla_(1967).svg" {
+    author "Bringing It All Back Home"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009900"

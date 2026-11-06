@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Hong Kong"
-  encoder "Designed by Tao Ho SVG code of 24 November 2005 version copied from Open Clip Art SVG code of 20 August 2011 version by "
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hong_Kong.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Hong_Kong.svg" {
+    author "Designed by Tao Ho SVG code of 24 November 2005 version copied from Open Clip Art SVG code of 20 August 2011 version by "
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ee1c25"

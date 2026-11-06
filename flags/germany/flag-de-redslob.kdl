@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag De Redslob"
-  encoder "Ziegelbrenner"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_De_Redslob.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_De_Redslob.svg" {
+    author "Ziegelbrenner"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Haiti (civil)"
-  encoder "Wrestlingring"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(civil).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(civil).svg" {
+    author "Wrestlingring"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00209f"

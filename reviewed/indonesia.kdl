@@ -3,7 +3,8 @@ vexyl 1
 meta {
   name "Indonesia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://id.wikisource.org/wiki/Undang-Undang_Republik_Indonesia_Nomor_24_Tahun_2009"
   note "The law's text was read as reproduced on Wikisource, because the government's database refused the download."
   note "The geometry is Article 4(1). The RGB values are in the official elucidation of that article, not in the article itself."

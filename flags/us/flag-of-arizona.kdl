@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Arizona"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Arizona.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Arizona.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

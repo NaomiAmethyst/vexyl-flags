@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tennessee"
-  encoder "-xfi-"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tennessee.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tennessee.svg" {
+    author "-xfi-"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cc0000"

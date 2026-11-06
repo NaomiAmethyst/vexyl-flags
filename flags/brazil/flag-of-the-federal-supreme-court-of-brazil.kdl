@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Federal Supreme Court of Brazil"
-  encoder "decreto nº 43.807, de 27 de maio de 1958"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federal_Supreme_Court_of_Brazil.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federal_Supreme_Court_of_Brazil.svg" {
+    author "decreto nº 43.807, de 27 de maio de 1958"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffcb00"

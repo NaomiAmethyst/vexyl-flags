@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Republic of the Congo (Léopoldville) (1960–1963)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo_(L%C3%A9opoldville)_(1960%E2%80%931963).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo_(L%C3%A9opoldville)_(1960%E2%80%931963).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0039a5"

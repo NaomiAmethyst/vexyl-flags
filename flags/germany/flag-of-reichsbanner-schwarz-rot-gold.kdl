@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Reichsbanner Schwarz-Rot-Gold"
-  encoder "Original: Der Michel Vector: TheWanderingTraders"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Reichsbanner_Schwarz-Rot-Gold.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Reichsbanner_Schwarz-Rot-Gold.svg" {
+    author "Original: Der Michel Vector: TheWanderingTraders"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   black "#000000"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Viejas Band of Kumeyaay Indians"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Viejas_Band_of_Kumeyaay_Indians.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Viejas_Band_of_Kumeyaay_Indians.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fcee21"

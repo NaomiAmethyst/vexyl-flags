@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Warsaw"
-  encoder "David Benbennick made this flag, based on a PNG flag uploaded by User:Rfl. They were then modified by Halibutt in accord"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Warsaw.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Warsaw.svg" {
+    author "David Benbennick made this flag, based on a PNG flag uploaded by User:Rfl. They were then modified by Halibutt in accord"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffcd00"

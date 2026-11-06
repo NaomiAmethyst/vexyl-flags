@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Reederei Oldenburg-Portugiesische Dampfschiffs-Rhederei"
-  encoder "Carnby"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_Reederei_Oldenburg-Portugiesische_Dampfschiffs-Rhederei.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_Reederei_Oldenburg-Portugiesische_Dampfschiffs-Rhederei.svg" {
+    author "Carnby"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#212178"

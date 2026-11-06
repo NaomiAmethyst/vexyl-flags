@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Organization of African Unity (1970–2002); Flag of the African Union (2004–2010)"
-  encoder "Organization of African Unity"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Organization_of_African_Unity_(1970%E2%80%932002);_Flag_of_the_African_Union_(2004%E2%80%932010).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Organization_of_African_Unity_(1970%E2%80%932002);_Flag_of_the_African_Union_(2004%E2%80%932010).svg" {
+    author "Organization of African Unity"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009933"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Iran (official)"
-  encoder "SVG file: SiBr4Designer: Hamid NadimiConstruction: ISIRI"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Iran_(official).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Iran_(official).svg" {
+    author "SVG file: SiBr4Designer: Hamid NadimiConstruction: ISIRI"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#239f40"

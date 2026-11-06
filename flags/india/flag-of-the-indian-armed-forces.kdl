@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Indian Armed Forces"
-  encoder "Swapnil1101"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Indian_Armed_Forces.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Indian_Armed_Forces.svg" {
+    author "Swapnil1101"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d90000"

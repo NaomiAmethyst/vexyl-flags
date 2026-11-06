@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Lesbian pride flag 2018"
-  encoder "SVG file by L ke in Inkscape"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Lesbian_pride_flag_2018.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Lesbian_pride_flag_2018.svg" {
+    author "SVG file by L ke in Inkscape"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d52d00"

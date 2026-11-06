@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "IRI flag with the first takbir design"
-  encoder "MrInfo2012"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:IRI_flag_with_the_first_takbir_design.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:IRI_flag_with_the_first_takbir_design.svg" {
+    author "MrInfo2012"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#239f40"

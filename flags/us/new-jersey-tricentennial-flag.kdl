@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "New Jersey Tricentennial Flag"
-  encoder "State Government of New Jersey"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:New_Jersey_Tricentennial_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:New_Jersey_Tricentennial_Flag.svg" {
+    author "State Government of New Jersey"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#2484c6"

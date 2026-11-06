@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of North Carolina (1885-1991)"
-  encoder "User:Zscout370"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_North_Carolina_(1885%E2%80%931991).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_North_Carolina_(1885%E2%80%931991).svg" {
+    author "User:Zscout370"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

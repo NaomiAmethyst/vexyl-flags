@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kherson Oblast (Russia)"
-  encoder "Author unknown"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kherson_Oblast_(Russia).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kherson_Oblast_(Russia).svg" {
+    author "Author unknown"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Curaçao"
-  encoder "Original: Unknown Vector: David Benbennick"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cura%C3%A7ao.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cura%C3%A7ao.svg" {
+    author "Original: Unknown Vector: David Benbennick"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002b7f"

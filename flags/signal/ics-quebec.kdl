@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "ICS Quebec"
-  encoder "Denelson833 at English Wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:ICS_Quebec.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:ICS_Quebec.svg" {
+    author "Denelson833 at English Wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffff00"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Peru (state) 2025"
-  encoder "EncyclopedianWP"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Peru_(state)_2025.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Peru_(state)_2025.svg" {
+    author "EncyclopedianWP"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d91023"

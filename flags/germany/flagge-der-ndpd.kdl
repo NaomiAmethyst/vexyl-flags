@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge der NDPD"
-  encoder "NDPD"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_der_NDPD.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_der_NDPD.svg" {
+    author "NDPD"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffce00"

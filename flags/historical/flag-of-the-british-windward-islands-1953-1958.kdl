@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the British Windward Islands (1953-1958)"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Windward_Islands_(1953%E2%80%931958).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Windward_Islands_(1953%E2%80%931958).svg" {
+    author "Thommy"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#012169"

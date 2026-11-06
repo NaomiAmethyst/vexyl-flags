@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ação Integralista Brasileira"
-  encoder "Felipe Fontoura"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_A%C3%A7%C3%A3o_Integralista_Brasileira.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_A%C3%A7%C3%A3o_Integralista_Brasileira.svg" {
+    author "Felipe Fontoura"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#2020e0"

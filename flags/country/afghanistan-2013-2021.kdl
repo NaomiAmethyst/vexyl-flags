@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Afghanistan (2013–2021)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan_(2013%E2%80%932021).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan_(2013%E2%80%932021).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

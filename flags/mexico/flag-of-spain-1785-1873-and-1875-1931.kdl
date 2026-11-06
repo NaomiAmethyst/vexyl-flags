@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Spain (1785-1873 and 1875-1931)"
-  encoder "previous version User:Ignaciogavira ; current version HansenBCN, designs from SanchoPanzaXXI"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1785%E2%80%931873,_1875%E2%80%931931).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1785%E2%80%931873,_1875%E2%80%931931).svg" {
+    author "previous version User:Ignaciogavira ; current version HansenBCN, designs from SanchoPanzaXXI"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#da121a"

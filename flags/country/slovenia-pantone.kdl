@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Slovenia (Pantone)"
-  encoder "Republic of Slovenia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia_(Pantone).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia_(Pantone).svg" {
+    author "Republic of Slovenia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

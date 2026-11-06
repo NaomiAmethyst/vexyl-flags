@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Seychelles (1977–1996)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles_(1977%E2%80%931996).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles_(1977%E2%80%931996).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d62929"

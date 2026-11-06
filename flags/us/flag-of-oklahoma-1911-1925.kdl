@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Oklahoma (1911–1925)"
-  encoder "Original: Unknown Vector: Mysid"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Oklahoma_(1911%E2%80%931925).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Oklahoma_(1911%E2%80%931925).svg" {
+    author "Original: Unknown Vector: Mysid"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

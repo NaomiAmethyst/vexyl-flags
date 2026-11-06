@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag-of-Martinique"
-  encoder "User:MapGrid/User:HapHaxion/User:Femfem5/User:Triton, based on work by User:Carport"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag-of-Martinique.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag-of-Martinique.svg" {
+    author "User:MapGrid/User:HapHaxion/User:Femfem5/User:Triton, based on work by User:Carport"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#00a650"

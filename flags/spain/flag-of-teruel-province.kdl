@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Teruel (province)"
-  encoder "HansenBCN"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Teruel_(province).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Teruel_(province).svg" {
+    author "HansenBCN"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#ffffff"

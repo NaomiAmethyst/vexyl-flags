@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of China (1889–1912)"
-  encoder "Original: zh:清朝政府 Vector: Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1889%E2%80%931912).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1889%E2%80%931912).svg" {
+    author "Original: zh:清朝政府 Vector: Sodacan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fecd21"

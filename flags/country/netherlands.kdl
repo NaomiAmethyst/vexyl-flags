@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Netherlands"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.crwflags.com/fotw/flags/nl.html"
   source "https://web.archive.org/web/20250619144358id_/https://puc.overheid.nl/mp-bundels/doc/PUC_200100000000_10/1/"
   source "https://en.wikipedia.org/wiki/Flag_of_the_Netherlands"

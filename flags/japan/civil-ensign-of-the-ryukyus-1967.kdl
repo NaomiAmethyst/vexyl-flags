@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Civil Ensign of the Ryukyus (1967)"
-  encoder "Orange Tuesday"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Civil_Ensign_of_the_Ryukyus_(1967).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Civil_Ensign_of_the_Ryukyus_(1967).svg" {
+    author "Orange Tuesday"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

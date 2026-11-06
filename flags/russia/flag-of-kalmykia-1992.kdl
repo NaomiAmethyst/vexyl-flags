@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kalmykia (1992)"
-  encoder "P. Bitkeyev"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kalmykia_(1992%E2%80%931993).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kalmykia_(1992%E2%80%931993).svg" {
+    author "P. Bitkeyev"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#3399ff"

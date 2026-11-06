@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Azerbaijan Soviet Socialist Republic (1920)"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Azerbaijan_Soviet_Socialist_Republic_(1920).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Azerbaijan_Soviet_Socialist_Republic_(1920).svg" {
+    author "Germenfer"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cd000f"

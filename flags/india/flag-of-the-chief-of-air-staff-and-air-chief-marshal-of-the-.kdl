@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Chief of Air Staff and Air Chief Marshal of the Indian Air Force"
-  encoder "Ensign_of_the_Indian_Air_Force.svg: IAFemblem.svg: Indian Airforce derivative work: Fry1989"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chief_of_Air_Staff_and_Air_Chief_Marshal_of_the_Indian_Air_Force.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chief_of_Air_Staff_and_Air_Chief_Marshal_of_the_Indian_Air_Force.svg" {
+    author "Ensign_of_the_Indian_Air_Force.svg: IAFemblem.svg: Indian Airforce derivative work: Fry1989"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#3399ff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mexico"
-  encoder "Omar Alejandro Covarrubias Neri, 9 April 2006. Based on the 1968 arms by Francisco Eppens Helguera and Juan Manuel Gabin"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg" {
+    author "Omar Alejandro Covarrubias Neri, 9 April 2006. Based on the 1968 arms by Francisco Eppens Helguera and Juan Manuel Gabin"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#006847"

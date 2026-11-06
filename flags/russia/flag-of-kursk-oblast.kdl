@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kursk Oblast"
-  encoder "Hellerick"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kursk_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kursk_Oblast.svg" {
+    author "Hellerick"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e51919"

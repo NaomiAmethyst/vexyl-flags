@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Maine"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Maine.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Maine.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002664"

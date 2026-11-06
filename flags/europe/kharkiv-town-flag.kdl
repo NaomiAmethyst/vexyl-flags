@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Kharkiv-town-flag"
-  encoder "Лобачев Владимир"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Kharkiv-town-flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Kharkiv-town-flag.svg" {
+    author "Лобачев Владимир"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#60c659"

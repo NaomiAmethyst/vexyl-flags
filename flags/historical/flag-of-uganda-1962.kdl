@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Uganda 1962"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Uganda_1962.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Uganda_1962.svg" {
+    author "Thommy"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#019801"

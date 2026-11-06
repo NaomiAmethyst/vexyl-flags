@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "ROU Bucharest Flag"
-  encoder "Дмитрий-5-Аверин"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:ROU_Bucharest_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:ROU_Bucharest_Flag.svg" {
+    author "Дмитрий-5-Аверин"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

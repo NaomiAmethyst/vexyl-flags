@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of North Ossetia (1991—1994)"
-  encoder "North Ossetian SSR"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_North_Ossetia_(1991%E2%80%941994).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_North_Ossetia_(1991%E2%80%941994).svg" {
+    author "North Ossetian SSR"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

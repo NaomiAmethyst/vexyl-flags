@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Eritrea (1952-1961)"
-  encoder "Orange Tuesday (talk) Original uploader was Orange Tuesday at en.wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea_(1952-1961).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Eritrea_(1952-1961).svg" {
+    author "Orange Tuesday (talk) Original uploader was Orange Tuesday at en.wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#b4d7f4"

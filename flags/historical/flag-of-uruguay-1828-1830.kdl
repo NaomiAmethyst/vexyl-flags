@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Uruguay (1828-1830)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay_(1828-1830).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay_(1828-1830).svg" {
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   white "#ffffff"

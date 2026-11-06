@@ -7,7 +7,8 @@ vexyl 1
 meta {
   name "Peru"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://busquedas.elperuano.pe/dispositivo/NL/2363369-4"
   source "https://www.crwflags.com/fotw/flags/pe.html"
   source "https://img.lpderecho.pe/wp-content/uploads/2025/07/REGLAMENTO-DE-LA-LEY-No-32251-LP-derecho.pdf"

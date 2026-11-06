@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of China (1912–1928)"
-  encoder "Original: en:Provisional Government of the Republic of China (1912) Vector: Kibinsky"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1912%E2%80%931928).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1912%E2%80%931928).svg" {
+    author "Original: en:Provisional Government of the Republic of China (1912) Vector: Kibinsky"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#de2119"

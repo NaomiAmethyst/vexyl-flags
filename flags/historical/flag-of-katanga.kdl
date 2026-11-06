@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Katanga"
-  encoder "Vectorized by Lexicon (2006-10-02) and User:Froztbyte (2010-01-25)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Katanga.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Katanga.svg" {
+    author "Vectorized by Lexicon (2006-10-02) and User:Froztbyte (2010-01-25)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

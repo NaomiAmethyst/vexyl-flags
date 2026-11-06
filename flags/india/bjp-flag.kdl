@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "BJP Flag"
-  encoder "RachitSinghal"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:BJP_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:BJP_Flag.svg" {
+    author "RachitSinghal"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   green "#046a38"

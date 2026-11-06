@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Perth"
-  encoder "Villacastrojimeno"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Perth.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Perth.svg" {
+    author "Villacastrojimeno"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#ffffff"

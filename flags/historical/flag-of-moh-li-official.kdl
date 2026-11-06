@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mohéli (official)"
-  encoder "odder"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Moh%C3%A9li_(official).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Moh%C3%A9li_(official).svg" {
+    author "odder"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffe01e"

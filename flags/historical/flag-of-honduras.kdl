@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Honduras"
-  encoder "Kes47"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(1949%E2%80%932022,_2026%E2%80%93present).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(1949%E2%80%932022,_2026%E2%80%93present).svg" {
+    author "Kes47"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

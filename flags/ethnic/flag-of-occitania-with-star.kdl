@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Occitania (with star)"
-  encoder "Nimlar"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Occitania_(with_star).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Occitania_(with_star).svg" {
+    author "Nimlar"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d4001c"

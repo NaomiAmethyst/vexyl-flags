@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of New Taipei City"
-  encoder "新北市政府"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_New_Taipei_City.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_New_Taipei_City.svg" {
+    author "新北市政府"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

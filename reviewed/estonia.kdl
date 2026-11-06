@@ -3,7 +3,8 @@ vexyl 1
 meta {
   name "Estonia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.wipo.int/wipolex/en/text/424353"
   source "https://www.crwflags.com/fotw/flags/ee.html"
   source "https://en.wikipedia.org/wiki/Flag_of_Estonia"

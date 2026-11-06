@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Venezuela (1930–2006)"
-  encoder "FXXX"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela_(1930%E2%80%932006).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela_(1930%E2%80%932006).svg" {
+    author "FXXX"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#f7d117"

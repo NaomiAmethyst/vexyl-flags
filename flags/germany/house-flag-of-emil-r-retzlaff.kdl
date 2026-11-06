@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "House Flag of Emil R. Retzlaff"
-  encoder "Original: Emil R. Retzlaff Vector: Designism"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:House_Flag_of_Emil_R._Retzlaff.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:House_Flag_of_Emil_R._Retzlaff.svg" {
+    author "Original: Emil R. Retzlaff Vector: Designism"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

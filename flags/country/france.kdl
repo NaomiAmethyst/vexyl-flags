@@ -3,7 +3,8 @@ vexyl 1
 meta {
   name "France"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
   source "https://www.elysee.fr/la-presidence/le-drapeau-francais"
   source "https://www.crwflags.com/fotw/flags/fr.html"

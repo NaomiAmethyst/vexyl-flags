@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Kriegsflagge Kur-Brandenburgische Flotte"
-  encoder "Fornax"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Kriegsflagge_Kur-Brandenburgische_Flotte.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Kriegsflagge_Kur-Brandenburgische_Flotte.svg" {
+    author "Fornax"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

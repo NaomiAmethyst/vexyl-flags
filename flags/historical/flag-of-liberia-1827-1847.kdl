@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Liberia (1827–1847)"
-  encoder "Helt"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Liberia_(1827%E2%80%931847).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Liberia_(1827%E2%80%931847).svg" {
+    author "Helt"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a22"

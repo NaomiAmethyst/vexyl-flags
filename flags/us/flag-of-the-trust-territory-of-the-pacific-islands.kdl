@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Trust Territory of the Pacific Islands"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Trust_Territory_of_the_Pacific_Islands.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Trust_Territory_of_the_Pacific_Islands.svg" {
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#6b86bd"

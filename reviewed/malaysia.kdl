@@ -11,7 +11,8 @@ vexyl 1
 meta {
   name "Malaysia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.asean.org/wp-content/uploads/2012/05/NATIONAL-FLAG-OF-MALAYSIA.pdf"
   source "https://dbook.penerangan.gov.my/dbook/dmdocuments/bendera_kita_jalur_gemilang_2017/files/basic-html/page12.html"
   source "https://www.crwflags.com/fotw/flags/my'.html"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Vatican City (2023–present)"
-  encoder "Goran_tek-en"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Vatican_City_(2023%E2%80%93present).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Vatican_City_(2023%E2%80%93present).svg" {
+    author "Goran_tek-en"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fff200"

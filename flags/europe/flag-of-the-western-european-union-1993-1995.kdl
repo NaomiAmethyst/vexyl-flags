@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Western European Union (1993-1995)"
-  encoder "Western European Union Flag.svg: Icey / derivative work: Ssolbergj"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Western_European_Union_(1993-1995).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Western_European_Union_(1993-1995).svg" {
+    author "Western European Union Flag.svg: Icey / derivative work: Ssolbergj"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003399"

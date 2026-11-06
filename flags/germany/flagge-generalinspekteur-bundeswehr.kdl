@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Generalinspekteur Bundeswehr"
-  encoder "David Liuzzo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_Generalinspekteur_Bundeswehr.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_Generalinspekteur_Bundeswehr.svg" {
+    author "David Liuzzo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d00000"

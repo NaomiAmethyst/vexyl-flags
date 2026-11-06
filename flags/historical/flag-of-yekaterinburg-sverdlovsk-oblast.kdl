@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Yekaterinburg (Sverdlovsk oblast)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Yekaterinburg_(Sverdlovsk_oblast).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Yekaterinburg_(Sverdlovsk_oblast).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fac300"

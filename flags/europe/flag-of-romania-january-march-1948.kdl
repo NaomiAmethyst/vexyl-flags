@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Romania (January-March 1948)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Romania_(January-March_1948).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Romania_(January-March_1948).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002b7f"

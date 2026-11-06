@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Crimea (Latest version)"
-  encoder "Патрік Павловський"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Crimea_(Latest_version).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Crimea_(Latest_version).svg" {
+    author "Патрік Павловський"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#2e2875"

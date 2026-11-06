@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Indian Army"
-  encoder "Fred the Oyster"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Indian_Army.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Indian_Army.svg" {
+    author "Fred the Oyster"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#c62828"

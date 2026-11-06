@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nevada"
-  encoder "Caleb Moore"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nevada.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nevada.svg" {
+    author "Caleb Moore"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0033ab"

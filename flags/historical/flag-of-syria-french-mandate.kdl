@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Syria French mandate"
-  encoder "F l a n k e r"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_French_mandate.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_French_mandate.svg" {
+    author "F l a n k e r"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#006600"

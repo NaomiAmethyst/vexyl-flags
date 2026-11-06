@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Philippines (1936–1985, 1986–1998)"
-  encoder "Philippine Heraldry Committee"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines_(1936%E2%80%931985,_1986%E2%80%931998).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines_(1936%E2%80%931985,_1986%E2%80%931998).svg" {
+    author "Philippine Heraldry Committee"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#041e42"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Turks and Caicos Islands (1968–1999)"
-  encoder "Bringing It All Back Home"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turks_and_Caicos_Islands_(1968%E2%80%931999).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turks_and_Caicos_Islands_(1968%E2%80%931999).svg" {
+    author "Bringing It All Back Home"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002868"

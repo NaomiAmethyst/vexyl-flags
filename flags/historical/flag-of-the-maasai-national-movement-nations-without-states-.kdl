@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Maasai National Movement (Nations Without States, 1996)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Maasai_National_Movement_(Nations_Without_States,_1996).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Maasai_National_Movement_(Nations_Without_States,_1996).svg" {
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   red "#bb0000"

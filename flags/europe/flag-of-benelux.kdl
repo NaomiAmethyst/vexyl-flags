@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Benelux"
-  encoder "Guilherme Paula"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Benelux.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Benelux.svg" {
+    author "Guilherme Paula"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

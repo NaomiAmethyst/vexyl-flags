@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Reconstrucción Comunista RC flag"
-  encoder "FugeeCamp"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Reconstrucci%C3%B3n_Comunista_RC_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Reconstrucci%C3%B3n_Comunista_RC_flag.svg" {
+    author "FugeeCamp"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#da121a"

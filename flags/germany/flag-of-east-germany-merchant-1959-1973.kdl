@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of East Germany - merchant 1959-1973"
-  encoder "diese Datei: Jwnabd"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Civil_Ensign_of_East_Germany_(1959%E2%80%931973).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Civil_Ensign_of_East_Germany_(1959%E2%80%931973).svg" {
+    author "diese Datei: Jwnabd"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

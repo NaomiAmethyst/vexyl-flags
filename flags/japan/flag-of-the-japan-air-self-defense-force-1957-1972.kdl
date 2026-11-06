@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Japan Air Self-Defense Force (1957-1972)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Japan_Air_Self-Defense_Force_(1957-1972).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Japan_Air_Self-Defense_Force_(1957-1972).svg" {
+    author "Sodacan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#007fff"

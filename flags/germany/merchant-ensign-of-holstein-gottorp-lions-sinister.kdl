@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Merchant Ensign of Holstein-Gottorp (Lions sinister)"
-  encoder "Sir Iain"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Merchant_Ensign_of_Holstein-Gottorp_(Lions_sinister).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Merchant_Ensign_of_Holstein-Gottorp_(Lions_sinister).svg" {
+    author "Sir Iain"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

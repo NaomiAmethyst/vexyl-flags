@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Perm"
-  encoder "Дмитрий-5-Аверин"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Perm.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Perm.svg" {
+    author "Дмитрий-5-Аверин"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#f71a22"

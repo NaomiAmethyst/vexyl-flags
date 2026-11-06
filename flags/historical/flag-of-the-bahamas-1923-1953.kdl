@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Bahamas (1923–1953)"
-  encoder "NikNaks talk - gallery - wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Bahamas_(1923%E2%80%931953).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Bahamas_(1923%E2%80%931953).svg" {
+    author "NikNaks talk - gallery - wikipedia"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#012169"

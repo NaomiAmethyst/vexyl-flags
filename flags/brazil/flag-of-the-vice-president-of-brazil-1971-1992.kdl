@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Vice President of Brazil (1971–1992)"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Vice_President_of_Brazil_(1971%E2%80%931992).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Vice_President_of_Brazil_(1971%E2%80%931992).svg" {
+    author "Thommy"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffcb00"

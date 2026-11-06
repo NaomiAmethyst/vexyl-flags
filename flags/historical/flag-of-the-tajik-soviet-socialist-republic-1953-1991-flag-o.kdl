@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Tajik Soviet Socialist Republic (1953–1991), Flag of Tajikistan (1991–1992)"
-  encoder "SVG by Pianist"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Tajik_Soviet_Socialist_Republic_(1953%E2%80%931991),_Flag_of_Tajikistan_(1991%E2%80%931992).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Tajik_Soviet_Socialist_Republic_(1953%E2%80%931991),_Flag_of_Tajikistan_(1991%E2%80%931992).svg" {
+    author "SVG by Pianist"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cc0000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Herzogtum Braunschweig (1814-1830)"
-  encoder "Siebrand"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_Herzogtum_Braunschweig_(1814-1830).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_Herzogtum_Braunschweig_(1814-1830).svg" {
+    author "Siebrand"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0047ab"

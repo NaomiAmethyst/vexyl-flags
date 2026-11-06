@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Iraqi Turkmen Front"
-  encoder "Oren neu dag"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Iraqi_Turkmen_Front.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Iraqi_Turkmen_Front.svg" {
+    author "Oren neu dag"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00b8fd"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge der CDU (Ost)"
-  encoder "Fornax"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_der_CDU_(Ost).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_der_CDU_(Ost).svg" {
+    author "Fornax"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#184892"

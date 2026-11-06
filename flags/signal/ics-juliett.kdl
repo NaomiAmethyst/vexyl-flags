@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "ICS Juliett"
-  encoder "Created by Denelson83"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:ICS_Juliett.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:ICS_Juliett.svg" {
+    author "Created by Denelson83"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0000ff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "CHE Graubünden Flag"
-  encoder "Kanton Graubünden, Anton Nigg"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:CHE_Graub%C3%BCnden_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:CHE_Graub%C3%BCnden_Flag.svg" {
+    author "Kanton Graubünden, Anton Nigg"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

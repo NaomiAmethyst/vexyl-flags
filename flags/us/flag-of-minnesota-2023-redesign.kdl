@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Minnesota (2023 redesign)"
-  encoder "Original: Minnesota State Emblems Redesign Commission Vector: Jamie Eilat, Undertiago"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg" {
+    author "Original: Minnesota State Emblems Redesign Commission Vector: Jamie Eilat, Undertiago"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#52c9e8"

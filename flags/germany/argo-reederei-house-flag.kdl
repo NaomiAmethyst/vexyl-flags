@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Argo Reederei house flag"
-  encoder "Unknown (anonymous)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Argo_Reederei_house_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Argo_Reederei_house_flag.svg" {
+    author "Unknown (anonymous)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#67a53d"

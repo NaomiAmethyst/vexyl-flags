@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Bogotá"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bogot%C3%A1.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Bogot%C3%A1.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fcdd09"

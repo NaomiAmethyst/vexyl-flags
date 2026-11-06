@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Blumenthal Ships Flag"
-  encoder "Person or Persons Unknown"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Blumenthal_Ships_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Blumenthal_Ships_Flag.svg" {
+    author "Person or Persons Unknown"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

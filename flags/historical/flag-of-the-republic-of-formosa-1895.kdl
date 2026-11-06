@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Republic of Formosa (1895)"
-  encoder "Henry Szytko, vectorised by cypp0847"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_Formosa_(1895).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_Formosa_(1895).svg" {
+    author "Henry Szytko, vectorised by cypp0847"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#275c72"

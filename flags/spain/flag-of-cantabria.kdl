@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Cantabria"
-  encoder "HansenBCN"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cantabria.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cantabria.svg" {
+    author "HansenBCN"
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   white "#ffffff"

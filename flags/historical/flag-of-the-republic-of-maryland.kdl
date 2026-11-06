@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Republic of Maryland"
-  encoder "Government of the Republic of Maryland/Liberia. Image digitized by Jaume Ollé."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_Maryland.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_Maryland.svg" {
+    author "Government of the Republic of Maryland/Liberia. Image digitized by Jaume Ollé."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

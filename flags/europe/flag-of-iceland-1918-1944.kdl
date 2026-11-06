@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Iceland (1918–1944)"
-  encoder "Original: Matthías Þórðarson Vector: Gustavo Ronconi"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland_(1918%E2%80%931944).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland_(1918%E2%80%931944).svg" {
+    author "Original: Matthías Þórðarson Vector: Gustavo Ronconi"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0048cc"

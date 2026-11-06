@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Brazil (1960–1968)"
-  encoder "Governo do Brasil"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1960%E2%80%931968).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1960%E2%80%931968).svg" {
+    author "Governo do Brasil"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009440"

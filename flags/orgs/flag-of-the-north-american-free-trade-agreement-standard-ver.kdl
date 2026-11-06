@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the North American Free Trade Agreement (standard version)"
-  encoder "Keepscases"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_North_American_Free_Trade_Agreement_(standard_version).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_North_American_Free_Trade_Agreement_(standard_version).svg" {
+    author "Keepscases"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#bf0a30"

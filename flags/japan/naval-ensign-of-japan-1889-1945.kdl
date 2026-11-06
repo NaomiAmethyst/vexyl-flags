@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Naval ensign of Japan (1889–1945)"
-  encoder "This vector image includes elements that have been taken or adapted from this file:"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Naval_ensign_of_Japan_(1889%E2%80%931945).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Naval_ensign_of_Japan_(1889%E2%80%931945).svg" {
+    author "This vector image includes elements that have been taken or adapted from this file:"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#b0313f"

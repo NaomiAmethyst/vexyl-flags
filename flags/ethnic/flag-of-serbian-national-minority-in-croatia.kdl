@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Serbian national minority in Croatia"
-  encoder "Srpsko narodno vijeće – nacionalna koordinacija vijeća srpske nacionalne manjine u Republici Hrvatskoj (2005-05-09)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Serbian_national_minority_in_Croatia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Serbian_national_minority_in_Croatia.svg" {
+    author "Srpsko narodno vijeće – nacionalna koordinacija vijeća srpske nacionalne manjine u Republici Hrvatskoj (2005-05-09)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e62319"

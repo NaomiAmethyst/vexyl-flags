@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saint Barthélemy (Local)"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barth%C3%A9lemy_(Local).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barth%C3%A9lemy_(Local).svg" {
+    author "Germenfer"
+    license "CC0-1.0"
+  }
 }
 palette {
 }

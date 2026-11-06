@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Lauburu flag of Eusko Abertzale Ekintza"
-  encoder "Dahn"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Lauburu_flag_of_Eusko_Abertzale_Ekintza.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Lauburu_flag_of_Eusko_Abertzale_Ekintza.svg" {
+    author "Dahn"
+    license "CC-BY-4.0"
+  }
 }
 palette {
 }

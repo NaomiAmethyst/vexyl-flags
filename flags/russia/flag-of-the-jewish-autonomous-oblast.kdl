@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Jewish Autonomous Oblast"
-  encoder "Manually edited by Philippe Verdy (fr:User:Verdy_p on Wikipedia or verdy_p on Commons) and optimized without using any S"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Jewish_Autonomous_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Jewish_Autonomous_Oblast.svg" {
+    author "Manually edited by Philippe Verdy (fr:User:Verdy_p on Wikipedia or verdy_p on Commons) and optimized without using any S"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

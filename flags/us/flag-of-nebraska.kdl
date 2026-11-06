@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nebraska"
-  encoder "Liamgabby79"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nebraska.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nebraska.svg" {
+    author "Liamgabby79"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Aragon"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Aragon.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Aragon.svg" {
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   yellow "#fcdd09"

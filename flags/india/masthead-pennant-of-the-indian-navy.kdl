@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Masthead Pennant of the Indian Navy"
-  encoder "User:Zscout370 (Return Fire)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Masthead_Pennant_of_the_Indian_Navy.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Masthead_Pennant_of_the_Indian_Navy.svg" {
+    author "User:Zscout370 (Return Fire)"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of New York City"
-  encoder "Zscout370"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_New_York_City.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_New_York_City.svg" {
+    author "Zscout370"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#003884"

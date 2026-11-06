@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Hanover 1837-1866"
-  encoder "User:Kalan, User:F l a n k e r (crown)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hanover_1837-1866.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Hanover_1837-1866.svg" {
+    author "User:Kalan, User:F l a n k e r (crown)"
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   yellow "#ffce08"

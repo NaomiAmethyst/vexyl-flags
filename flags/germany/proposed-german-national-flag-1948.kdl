@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Proposed German National Flag 1948"
-  encoder "Bangin"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Proposed_German_National_Flag_1948.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Proposed_German_National_Flag_1948.svg" {
+    author "Bangin"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#dd0000"

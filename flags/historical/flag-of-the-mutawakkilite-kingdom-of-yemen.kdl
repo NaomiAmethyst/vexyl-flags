@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Mutawakkilite Kingdom of Yemen"
-  encoder "Urmas (SVG file)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mutawakkilite_Kingdom_of_Yemen.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mutawakkilite_Kingdom_of_Yemen.svg" {
+    author "Urmas (SVG file)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

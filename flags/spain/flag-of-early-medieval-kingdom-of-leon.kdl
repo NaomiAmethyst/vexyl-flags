@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Early Medieval Kingdom of Leon"
-  encoder "SanchoPanzaXXI"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Early_Medieval_Kingdom_of_Leon.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Early_Medieval_Kingdom_of_Leon.svg" {
+    author "SanchoPanzaXXI"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
 }

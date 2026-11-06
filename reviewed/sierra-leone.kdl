@@ -3,7 +3,8 @@ vexyl 1
 meta {
   name "Sierra Leone"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20240711024457/https://www.parliament.gov.sl/images/pdf/THE-CONSTITUTION-OF-SIERRA-LEONE-1991.pdf"
   source "https://www.crwflags.com/fotw/flags/sl.html"
   source "https://www.crwflags.com/fotw/flags/st.html"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Royal Banner of Leon (Variant)"
-  encoder "Heralder"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Royal_Banner_of_Leon_(Variant).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Royal_Banner_of_Leon_(Variant).svg" {
+    author "Heralder"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   grey "#e3e4e5"

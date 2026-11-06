@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Spain"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://en.wikipedia.org/wiki/File:Flag_of_Spain.svg"
+  adapted-from "https://en.wikipedia.org/wiki/File:Flag_of_Spain.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#c60b1e"

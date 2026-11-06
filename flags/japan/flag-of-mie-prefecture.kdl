@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mie Prefecture"
-  encoder "NalesnikLD, Mike Rohsopht"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mie_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mie_Prefecture.svg" {
+    author "NalesnikLD, Mike Rohsopht"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009900"

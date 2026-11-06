@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the State of Georgia (1906–1920)"
-  encoder "This vector image was created by Ali Zifan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(1906%E2%80%931920).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(1906%E2%80%931920).svg" {
+    author "This vector image was created by Ali Zifan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

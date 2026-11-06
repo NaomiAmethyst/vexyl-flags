@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Naval Ensign of Germany"
-  encoder "Deutsche Bundesregierung"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Naval_Ensign_of_Germany.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Naval_Ensign_of_Germany.svg" {
+    author "Deutsche Bundesregierung"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

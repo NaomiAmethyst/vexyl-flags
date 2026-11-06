@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Satake Lords of Akita in Dewa Province (A)"
-  encoder "Barfodt"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Satake_Lords_of_Akita_in_Dewa_Province_(A).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Satake_Lords_of_Akita_in_Dewa_Province_(A).svg" {
+    author "Barfodt"
+    license "CC0-1.0"
+  }
 }
 palette {
   black "#000000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Orange River Colony"
-  encoder "Philip Ronan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Orange_River_Colony.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Orange_River_Colony.svg" {
+    author "Philip Ronan"
+    license "CC-BY-2.5"
+  }
 }
 palette {
   blue "#00247d"

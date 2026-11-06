@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "African-Caribbean-And-Pacific-Group-Of-States-ACP-Flag"
-  encoder "Status and origin of flag uncertain"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-3.0"
-  source "https://commons.wikimedia.org/wiki/File:African-Caribbean-And-Pacific-Group-Of-States-ACP-Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:African-Caribbean-And-Pacific-Group-Of-States-ACP-Flag.svg" {
+    author "Status and origin of flag uncertain"
+    license "CC-BY-3.0"
+  }
 }
 palette {
   green "#009367"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag Cuenca Province"
-  encoder "HansenBCN"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_Cuenca_Province.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_Cuenca_Province.svg" {
+    author "HansenBCN"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   yellow "#fcdd09"

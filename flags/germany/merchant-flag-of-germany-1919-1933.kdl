@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Merchant flag of Germany (1919–1933)"
-  encoder "Jwnabd"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_Germany_(1919%E2%80%931933).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_Germany_(1919%E2%80%931933).svg" {
+    author "Jwnabd"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

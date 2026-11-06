@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mordovia (1990–1995)"
-  encoder "Osipov Georgiy Nokka"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mordovia_(1990%E2%80%931995).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mordovia_(1990%E2%80%931995).svg" {
+    author "Osipov Georgiy Nokka"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0092fa"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Burundi (1967–1982)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Burundi_(1967%E2%80%931982).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Burundi_(1967%E2%80%931982).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#c8102e"

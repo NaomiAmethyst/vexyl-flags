@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Ensign of Commissioners of the Port of Calcutta"
-  encoder "Bharata-indstar"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Ensign_of_Commissioners_of_the_Port_of_Calcutta.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Ensign_of_Commissioners_of_the_Port_of_Calcutta.svg" {
+    author "Bharata-indstar"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
 }

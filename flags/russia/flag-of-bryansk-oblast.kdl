@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Bryansk Oblast"
-  encoder "Cian Akril"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bryansk_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Bryansk_Oblast.svg" {
+    author "Cian Akril"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#a32638"

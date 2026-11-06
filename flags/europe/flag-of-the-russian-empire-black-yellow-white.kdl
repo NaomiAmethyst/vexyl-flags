@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Russian Empire (black-yellow-white)"
-  encoder "Кёне, Бернгард Васильевич"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_(1858%E2%80%931896).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_(1858%E2%80%931896).svg" {
+    author "Кёне, Бернгард Васильевич"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of El Salvador (1873–1875)"
-  encoder "Legislative Assembly of El Salvador"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador_(1873%E2%80%931875).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador_(1873%E2%80%931875).svg" {
+    author "Legislative Assembly of El Salvador"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0f47af"

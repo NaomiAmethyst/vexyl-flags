@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Chief of the Defence Staff (Spain)"
-  encoder "Skjoldbro"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chief_of_the_Defence_Staff_(Spain).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Chief_of_the_Defence_Staff_(Spain).svg" {
+    author "Skjoldbro"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#c60b1e"

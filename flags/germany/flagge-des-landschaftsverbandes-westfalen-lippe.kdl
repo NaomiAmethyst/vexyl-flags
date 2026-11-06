@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge des Landschaftsverbandes Westfalen-Lippe"
-  encoder "Landschaftsverband Westfalen-Lippe"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_des_Landschaftsverbandes_Westfalen-Lippe.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_des_Landschaftsverbandes_Westfalen-Lippe.svg" {
+    author "Landschaftsverband Westfalen-Lippe"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

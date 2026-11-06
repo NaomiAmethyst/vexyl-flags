@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Japan Koutaisi(son) Flag"
-  encoder "njt"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Japan_Koutaisi(son)_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Japan_Koutaisi(son)_Flag.svg" {
+    author "njt"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bd0029"

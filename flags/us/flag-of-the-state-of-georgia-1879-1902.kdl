@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the State of Georgia (1879–1902)"
-  encoder "The original uploader was Zscout370 at English Wikipedia."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(1879%E2%80%931902).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(1879%E2%80%931902).svg" {
+    author "The original uploader was Zscout370 at English Wikipedia."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00205b"

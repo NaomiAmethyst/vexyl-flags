@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Alabama Secession Convention (reproduction, reverse)"
-  encoder "user:Fornax"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Alabama_Secession_Convention_(reproduction,_reverse).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Alabama_Secession_Convention_(reproduction,_reverse).svg" {
+    author "user:Fornax"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00297b"

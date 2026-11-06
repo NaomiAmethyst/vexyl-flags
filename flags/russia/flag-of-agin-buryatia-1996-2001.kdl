@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Agin-Buryatia (1996-2001)"
-  encoder "vectorization by Anzee"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Agin-Buryatia_(1996-2001).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Agin-Buryatia_(1996-2001).svg" {
+    author "vectorization by Anzee"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

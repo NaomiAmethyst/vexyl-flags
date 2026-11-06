@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Philadelphia Pride Flag"
-  encoder "Philadelphia City Council and Tierney"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Philadelphia_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Philadelphia_Pride_Flag.svg" {
+    author "Philadelphia City Council and Tierney"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

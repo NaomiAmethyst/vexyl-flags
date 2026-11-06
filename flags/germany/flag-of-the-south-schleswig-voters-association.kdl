@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the South Schleswig Voters' Association"
-  encoder "ThecentreCZ Südschleswigscher Wählerverband"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_South_Schleswig_Voters%27_Association.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_South_Schleswig_Voters%27_Association.svg" {
+    author "ThecentreCZ Südschleswigscher Wählerverband"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003c8f"

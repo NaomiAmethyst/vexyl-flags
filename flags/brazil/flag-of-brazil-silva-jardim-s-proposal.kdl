@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Brazil (Silva Jardim's proposal)"
-  encoder "Tonyjeff"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(Silva_Jardim%27s_proposal).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(Silva_Jardim%27s_proposal).svg" {
+    author "Tonyjeff"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

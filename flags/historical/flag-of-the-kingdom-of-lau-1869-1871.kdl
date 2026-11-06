@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Kingdom of Lau 1869-1871"
-  encoder "Mark Sensen"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Lau_1869-1871.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Lau_1869-1871.svg" {
+    author "Mark Sensen"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

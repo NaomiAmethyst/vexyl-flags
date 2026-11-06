@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kiribati"
-  encoder "User:Hanzlan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg" {
+    author "User:Hanzlan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#c81010"

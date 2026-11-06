@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "CHE Canton de Neuchâtel Flag"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:CHE_Canton_de_Neuch%C3%A2tel_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:CHE_Canton_de_Neuch%C3%A2tel_Flag.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009944"

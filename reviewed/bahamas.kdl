@@ -10,7 +10,8 @@ vexyl 1
 meta {
   name "The Bahamas"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.crwflags.com/fotw/flags/bs_leg.html"
   source "https://www.crwflags.com/fotw/flags/bs.html"
   note "The law's text wasn't read directly; its terms here come from FOTW's transcription. It gives a blazon only, with no proportion, sizes or shades."

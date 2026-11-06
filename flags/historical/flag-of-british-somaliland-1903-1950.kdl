@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of British Somaliland (1903–1950)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_British_Somaliland_(1903%E2%80%931950).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_British_Somaliland_(1903%E2%80%931950).svg" {
+    author "Sodacan"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#00247d"

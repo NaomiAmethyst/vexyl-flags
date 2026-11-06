@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Mutawakkilite Kingdom of Yemen (1918-1927)"
-  encoder "Dekodrak"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mutawakkilite_Kingdom_of_Yemen_(1918-1927).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mutawakkilite_Kingdom_of_Yemen_(1918-1927).svg" {
+    author "Dekodrak"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#ce1126"

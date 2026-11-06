@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Christmas Island"
-  encoder "Tony Couch"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Christmas_Island.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Christmas_Island.svg" {
+    author "Tony Couch"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

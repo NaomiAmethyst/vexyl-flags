@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Albania"
-  encoder "Sadik Kaceli"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Albania.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Albania.svg" {
+    author "Sadik Kaceli"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

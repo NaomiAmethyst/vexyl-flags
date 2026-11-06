@@ -5,7 +5,8 @@ vexyl 1
 meta {
   name "Sudan"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.crwflags.com/fotw/flags/sd.html"
   source "https://www.wipo.int/wipolex/en/legislation/details/10877"
   note "No law's text was read. The geometry and colors are Article 3 of the 1970 Act as Christopher Southworth quotes it on FOTW, and the Album des Pavillons 2000's construction agrees, as FOTW reports."

@@ -7,7 +7,8 @@ vexyl 1
 meta {
   name "Niger"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20260718183047id_/https://www.refworld.org/sites/default/files/2025-05/charte-refondation-26mars2025.pdf"
   source "https://www.crwflags.com/fotw/flags/ne.html"
   source "https://www.crwflags.com/fotw/images/n/ne.gif"

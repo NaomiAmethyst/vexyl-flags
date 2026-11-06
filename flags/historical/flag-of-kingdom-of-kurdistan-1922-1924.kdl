@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kingdom of Kurdistan (1922-1924)"
-  encoder "FrancisTyers"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Kurdistan_(1922-1924).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Kurdistan_(1922-1924).svg" {
+    author "FrancisTyers"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#278e43"

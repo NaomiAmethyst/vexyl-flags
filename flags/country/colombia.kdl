@@ -9,7 +9,8 @@ vexyl 1
 meta {
   name "Colombia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.dmsjuridica.com/buscador_20179478954/legislacion/leyes/?p=4418"
   source "https://www.dmsjuridica.com/buscador_20179478954/legislacion/decretos/2023/07/10/decreto-1687-de-1986/?pdf=17930"
   source "https://cancilleria.gov.co/sites/default/files/Normograma/docs/circular_minrelaciones_0036_2021.htm"

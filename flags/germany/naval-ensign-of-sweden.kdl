@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Naval Ensign of Sweden"
-  encoder "User: David Newton"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Naval_ensign_of_Sweden.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Naval_ensign_of_Sweden.svg" {
+    author "User: David Newton"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#005293"

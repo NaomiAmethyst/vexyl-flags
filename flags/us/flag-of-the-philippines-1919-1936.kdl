@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Philippines (1919–1936)"
-  encoder "User 50"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines_(1919%E2%80%931936).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines_(1919%E2%80%931936).svg" {
+    author "User 50"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#041e42"

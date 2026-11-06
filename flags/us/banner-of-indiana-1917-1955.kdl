@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Banner of Indiana (1917–1955)"
-  encoder "The banner of Indiana was designed by Paul Hadley. Digital file by HoosierMan1816"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Banner_of_Indiana_(1917%E2%80%931955).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Banner_of_Indiana_(1917%E2%80%931955).svg" {
+    author "The banner of Indiana was designed by Paul Hadley. Digital file by HoosierMan1816"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#011d3d"

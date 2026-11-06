@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Russia (1668–1693)"
-  encoder "Milop (talk)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_(1668%E2%80%931693).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Russia_(1668%E2%80%931693).svg" {
+    author "Milop (talk)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0039a6"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Liechtenstein"
-  encoder "Mnmazur and others"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg" {
+    author "Mnmazur and others"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002b7f"

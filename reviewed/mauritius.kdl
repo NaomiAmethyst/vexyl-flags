@@ -6,7 +6,8 @@ vexyl 1
 meta {
   name "Mauritius"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://mauritiusassembly.govmu.org/mauritiusassembly/wp-content/uploads/2023/03/act0522.pdf"
   source "https://www.crwflags.com/fotw/flags/mu.html"
   note "The Act gives Pantone cotton codes only. The hex values are the approximations FOTW reports for those codes, based on icolorpalette.com, and aren't legal values."

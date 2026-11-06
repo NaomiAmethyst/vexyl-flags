@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Cyprus (1960-2006)"
-  encoder "User:Vzb83"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus_(1960%E2%80%932006).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus_(1960%E2%80%932006).svg" {
+    author "User:Vzb83"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

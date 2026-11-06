@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Omnisexuality flag"
-  encoder "pastelroswell"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Omnisexuality_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Omnisexuality_flag.svg" {
+    author "pastelroswell"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   pink "#ff9bcd"

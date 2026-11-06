@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Europe"
-  encoder "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg" {
+    author "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003399"

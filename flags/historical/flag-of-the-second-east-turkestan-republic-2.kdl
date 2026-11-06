@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Second East Turkestan Republic (2)"
-  encoder "Unknown original designer; commissioned by the government of the (Second) East Turkestan Republic."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Second_East_Turkestan_Republic_(2).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Second_East_Turkestan_Republic_(2).svg" {
+    author "Unknown original designer; commissioned by the government of the (Second) East Turkestan Republic."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#01411c"

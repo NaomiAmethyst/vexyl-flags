@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Virginia (1861–1865)"
-  encoder "This vector image was completely created by Ali Zifan."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Virginia_(1861%E2%80%931865).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Virginia_(1861%E2%80%931865).svg" {
+    author "This vector image was completely created by Ali Zifan."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#282c6c"

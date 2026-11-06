@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Malta (1923–1943)"
-  encoder "Orange Tuesday (talk)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Malta_(1923%E2%80%931943).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Malta_(1923%E2%80%931943).svg" {
+    author "Orange Tuesday (talk)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

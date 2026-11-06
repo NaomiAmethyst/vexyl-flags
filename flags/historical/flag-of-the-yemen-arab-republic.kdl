@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Yemen Arab Republic"
-  encoder "B1mbo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Yemen_Arab_Republic.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Yemen_Arab_Republic.svg" {
+    author "B1mbo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

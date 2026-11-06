@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the President of East Germany (1953–1955)"
-  encoder "Fornax"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_East_Germany_(1953%E2%80%931955).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_East_Germany_(1953%E2%80%931955).svg" {
+    author "Fornax"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

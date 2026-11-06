@@ -13,7 +13,8 @@ vexyl 1
 meta {
   name "Pakistan"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://balochistancode.gob.pk/pdfviewer.aspx?pdffile=37fcba70-1655-488d-9ac1-1718a978b3ca.pdf"
   source "https://www.crwflags.com/fotw/flags/pk'.html"
   source "https://www.crwflags.com/fotw/flags/pk.html"

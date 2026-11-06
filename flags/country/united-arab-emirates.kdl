@@ -5,7 +5,8 @@ vexyl 1
 meta {
   name "United Arab Emirates"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20240602194113/https://u.ae/-/media/Documents-2nd-half-2023/NPO_UAEFLAG_Updated_12OCT23.pdf"
   source "https://web.archive.org/web/20260123014657/https://www.mohesr.gov.ae/Ar/MediaCenter/Documents/UAE%20Flag%20and%20Official%20Portraits%20Guideline_Updated_Nov.pdf"
   source "https://www.crwflags.com/fotw/flags/ae.html"

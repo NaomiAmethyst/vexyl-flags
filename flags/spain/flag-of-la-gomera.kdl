@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of La Gomera"
-  encoder "HansenBCN"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_La_Gomera.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_La_Gomera.svg" {
+    author "HansenBCN"
+    license "CC-BY-3.0"
+  }
 }
 palette {
   red "#da121a"

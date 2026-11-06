@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Sami flag"
-  encoder "Jeltz"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Sami_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Sami_flag.svg" {
+    author "Jeltz"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#dc241f"

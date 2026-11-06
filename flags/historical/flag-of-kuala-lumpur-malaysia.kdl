@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kuala Lumpur, Malaysia"
-  encoder "No machine-readable author provided. Zscout370 assumed (based on copyright claims)."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kuala_Lumpur,_Malaysia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kuala_Lumpur,_Malaysia.svg" {
+    author "No machine-readable author provided. Zscout370 assumed (based on copyright claims)."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

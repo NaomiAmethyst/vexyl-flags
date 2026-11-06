@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Indiana Centennial Flag"
-  encoder "William Chauncy Langdon Digital file made entirely by me."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Indiana_Centennial_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Indiana_Centennial_Flag.svg" {
+    author "William Chauncy Langdon Digital file made entirely by me."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009246"

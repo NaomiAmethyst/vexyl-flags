@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Sikkim (1967-1975)"
-  encoder "UnknownUnknown (flag design), first version of SVG file uploaded by Nichalp, subsequent edits by User:Goran_tek-en and A"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Sikkim_(1967-1975).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Sikkim_(1967-1975).svg" {
+    author "UnknownUnknown (flag design), first version of SVG file uploaded by Nichalp, subsequent edits by User:Goran_tek-en and A"
+    license "CC-BY-SA-2.5"
+  }
 }
 palette {
   red "#fd241e"

@@ -5,7 +5,8 @@ vexyl 1
 meta {
   name "Somalia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://faolex.fao.org/docs/pdf/som127387.pdf"
   source "https://www.crwflags.com/fotw/flags/so.html"
   note "The design is Article 6 of the 2012 Provisional Constitution. The proportion and star size have no written measurement, so they are measured from the drawing in Schedule One (A), which is part of the law."

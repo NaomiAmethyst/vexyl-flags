@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Michigan (1865–1911, reverse)"
-  encoder "HoosierMan1816"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Michigan_(1865%E2%80%931911,_reverse).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Michigan_(1865%E2%80%931911,_reverse).svg" {
+    author "HoosierMan1816"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00287e"

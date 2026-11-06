@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Philadelphia, Pennsylvania"
-  encoder "Dyfsunctional"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Philadelphia,_Pennsylvania.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Philadelphia,_Pennsylvania.svg" {
+    author "Dyfsunctional"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#115aac"

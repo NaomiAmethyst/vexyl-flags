@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Genderqueer Pride Flag"
-  encoder "Original: Marilyn Roxie Vector: McLennonSon"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Genderqueer_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Genderqueer_Pride_Flag.svg" {
+    author "Original: Marilyn Roxie Vector: McLennonSon"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   purple "#b57edc"

@@ -13,7 +13,8 @@ vexyl 1
 meta {
   name "China"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.12371.cn/2021/05/23/ARTI1621736435095903.shtml"
   source "https://en.wikipedia.org/wiki/Flag_of_China"
   note "The law says only red and yellow. The hex values are those Wikipedia gives for the standard images on the National People's Congress site, and the CIE values are its account of GB 12983-2004. Neither was read directly."

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Cyrenaica"
-  encoder "An Encore Performance From The Boys In The Band"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Cyrenaica.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Cyrenaica.svg" {
+    author "An Encore Performance From The Boys In The Band"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

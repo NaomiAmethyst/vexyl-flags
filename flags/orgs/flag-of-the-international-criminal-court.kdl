@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the International Criminal Court"
-  encoder "International Criminal Court"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_International_Criminal_Court.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_International_Criminal_Court.svg" {
+    author "International Criminal Court"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003366"

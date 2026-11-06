@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Japan (1870–1999)"
-  encoder "kahusi - (Talk)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg" {
+    author "kahusi - (Talk)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

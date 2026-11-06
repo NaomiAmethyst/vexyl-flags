@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Chuvashia"
-  encoder "Elli Mikhailovich Yuriev"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Chuvashia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Chuvashia.svg" {
+    author "Elli Mikhailovich Yuriev"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffdf00"

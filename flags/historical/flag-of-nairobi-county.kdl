@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nairobi County"
-  encoder "SVG-image-maker"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nairobi_County.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nairobi_County.svg" {
+    author "SVG-image-maker"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   green "#00431d"

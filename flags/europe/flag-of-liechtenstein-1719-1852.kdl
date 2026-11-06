@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Liechtenstein (1719–1852)"
-  encoder "arz"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein_(1719%E2%80%931852).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein_(1719%E2%80%931852).svg" {
+    author "arz"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffe000"

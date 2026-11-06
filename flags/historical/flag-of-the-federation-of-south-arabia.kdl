@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Federation of South Arabia"
-  encoder "R-41"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federation_of_South_Arabia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federation_of_South_Arabia.svg" {
+    author "R-41"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

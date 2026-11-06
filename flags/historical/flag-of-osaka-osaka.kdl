@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Osaka, Osaka"
-  encoder "Kzaral (original raster), Ch1902"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Osaka,_Osaka.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Osaka,_Osaka.svg" {
+    author "Kzaral (original raster), Ch1902"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#1f2063"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Brazil 15-19 November"
-  encoder "Sitenl"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(November_1889).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(November_1889).svg" {
+    author "Sitenl"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffcb00"

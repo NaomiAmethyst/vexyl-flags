@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saint Petersburg Russia (1992-2003)"
-  encoder "Connormah"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Petersburg_Russia_(1992-2003).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Petersburg_Russia_(1992-2003).svg" {
+    author "Connormah"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d5312c"

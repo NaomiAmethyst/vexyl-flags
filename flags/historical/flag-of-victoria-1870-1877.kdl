@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Victoria (1870-1877)"
-  encoder "Tsange"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Victoria_(1870-1877).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Victoria_(1870-1877).svg" {
+    author "Tsange"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#00247d"

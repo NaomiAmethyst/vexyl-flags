@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Free City of Danzig"
-  encoder "Mnmazur"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Free_City_of_Danzig.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Free_City_of_Danzig.svg" {
+    author "Mnmazur"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0000"

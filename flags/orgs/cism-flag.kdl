@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "CISM flag"
-  encoder "Project: International Military Sports Council / Conseil International du Sport Militaire (CISM) File: Mboro IMSC Order "
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:CISM_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:CISM_flag.svg" {
+    author "Project: International Military Sports Council / Conseil International du Sport Militaire (CISM) File: Mboro IMSC Order "
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

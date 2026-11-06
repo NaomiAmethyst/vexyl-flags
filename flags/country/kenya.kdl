@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kenya"
-  encoder "User:Pumbaa80"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg" {
+    author "User:Pumbaa80"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

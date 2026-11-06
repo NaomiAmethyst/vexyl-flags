@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Crimean Khanate (15th century)"
-  encoder "Ultimete"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Crimean_Khanate_(15th_century).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Crimean_Khanate_(15th_century).svg" {
+    author "Ultimete"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#2a8dbc"

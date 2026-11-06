@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Andalucía (no CoA)"
-  encoder "R-41"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Andaluc%C3%ADa_(no_CoA).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Andaluc%C3%ADa_(no_CoA).svg" {
+    author "R-41"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#006633"

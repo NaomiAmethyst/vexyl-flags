@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "DDG „Hansa“ house flag"
-  encoder "Unknown (anonymous)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:DDG_%E2%80%9EHansa%E2%80%9C_house_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:DDG_%E2%80%9EHansa%E2%80%9C_house_flag.svg" {
+    author "Unknown (anonymous)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

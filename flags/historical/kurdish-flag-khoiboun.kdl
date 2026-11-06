@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Kurdish flag (Khoiboun)"
-  encoder "Benohight214"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Kurdish_flag_(Khoiboun).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Kurdish_flag_(Khoiboun).svg" {
+    author "Benohight214"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
 }

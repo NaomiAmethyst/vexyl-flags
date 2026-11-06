@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Brandenburg (1340-1657)"
-  encoder "Armoiries_électeur_Brandebourg.svg: Odejea derivative work: Amber and Black (talk)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brandenburg_(1340-1657).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Brandenburg_(1340-1657).svg" {
+    author "Armoiries_électeur_Brandebourg.svg: Odejea derivative work: Amber and Black (talk)"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

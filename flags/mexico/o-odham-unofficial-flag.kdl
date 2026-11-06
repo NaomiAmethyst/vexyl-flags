@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "O'odham unofficial flag"
-  encoder "Traditional O'odham design [2]"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:O%27odham_unofficial_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:O%27odham_unofficial_flag.svg" {
+    author "Traditional O'odham design [2]"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fff726"

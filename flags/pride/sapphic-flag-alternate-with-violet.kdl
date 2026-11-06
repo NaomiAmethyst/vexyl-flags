@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Sapphic Flag alternate with violet"
-  encoder "Cayla / lexbeux-moved"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Sapphic_Flag_alternate_with_violet.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Sapphic_Flag_alternate_with_violet.svg" {
+    author "Cayla / lexbeux-moved"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   pink "#fd8ba8"

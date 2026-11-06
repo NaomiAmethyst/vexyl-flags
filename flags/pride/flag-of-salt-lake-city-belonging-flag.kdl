@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Salt Lake City - Belonging flag"
-  encoder "Arianna Meinking, Ella Kennedy-Yoon, and Erin Mendenhall"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Salt_Lake_City_-_Belonging_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Salt_Lake_City_-_Belonging_flag.svg" {
+    author "Arianna Meinking, Ella Kennedy-Yoon, and Erin Mendenhall"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   pink "#890084"

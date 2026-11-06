@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Lesbian Pride double-Venus canton rainbow flag"
-  encoder "AnonMoos (SVG file)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Lesbian_Pride_double-Venus_canton_rainbow_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Lesbian_Pride_double-Venus_canton_rainbow_flag.svg" {
+    author "AnonMoos (SVG file)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e40303"

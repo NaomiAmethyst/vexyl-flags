@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Jammu and Kashmir (1936-1953)"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Jammu_and_Kashmir_(1936-1953).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Jammu_and_Kashmir_(1936-1953).svg" {
+    author "Germenfer"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

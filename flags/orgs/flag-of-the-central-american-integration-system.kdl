@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Central American Integration System"
-  encoder "Heraldry"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Central_American_Integration_System.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Central_American_Integration_System.svg" {
+    author "Heraldry"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#2659e9"

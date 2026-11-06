@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Bashkortostan (1992–2003)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Bashkortostan_(1992%E2%80%932003).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Bashkortostan_(1992%E2%80%932003).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0070ff"

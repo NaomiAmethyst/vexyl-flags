@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Hq Integrated Defence Staff"
-  encoder "HunterdeltaX15"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hq_Integrated_Defence_Staff.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Hq_Integrated_Defence_Staff.svg" {
+    author "HunterdeltaX15"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#6a0000"

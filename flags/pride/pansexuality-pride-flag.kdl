@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Pansexuality Pride Flag"
-  encoder "This SVG version: KiwiNeko14. Original idea: Tumblr blog PansexualFlag."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Pansexuality_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Pansexuality_Pride_Flag.svg" {
+    author "This SVG version: KiwiNeko14. Original idea: Tumblr blog PansexualFlag."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   pink "#ff218c"

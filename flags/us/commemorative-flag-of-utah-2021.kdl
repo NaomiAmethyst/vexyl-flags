@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Commemorative Flag of Utah (2021)"
-  encoder "BlinxTheKitty"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Commemorative_Flag_of_Utah_(2021).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Commemorative_Flag_of_Utah_(2021).svg" {
+    author "BlinxTheKitty"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0b2444"

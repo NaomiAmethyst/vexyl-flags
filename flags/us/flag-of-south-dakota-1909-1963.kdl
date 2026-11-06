@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of South Dakota (1909-1963)"
-  encoder "w:User:DevinCook"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Dakota_(1909%E2%80%931963).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_South_Dakota_(1909%E2%80%931963).svg" {
+    author "w:User:DevinCook"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0074a8"

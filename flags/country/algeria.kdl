@@ -12,7 +12,8 @@ vexyl 1
 meta {
   name "Algeria"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://archive.gazettes.africa/archive/dz/1963/dz-government-gazette-dated-1963-04-30-no-26.pdf"
   source "https://www.crwflags.com/fotw/flags/dz.html"
   source "https://www.upgrowth.dz/reference/decret-executif-n-22-249-du-30-juin-2022-fixant-les-conditions-d-exercice-de-l"

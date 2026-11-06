@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Shimazu Lords of Kagoshima in Satsuma Province (B)"
-  encoder "Barfodt"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Shimazu_Lords_of_Kagoshima_in_Satsuma_Province_(B).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Shimazu_Lords_of_Kagoshima_in_Satsuma_Province_(B).svg" {
+    author "Barfodt"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#005eb8"

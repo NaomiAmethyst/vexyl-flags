@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tokyo Metropolis"
-  encoder "Original: Unknown Vector: Zscout370"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tokyo_Metropolis.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tokyo_Metropolis.svg" {
+    author "Original: Unknown Vector: Zscout370"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   purple "#4b0082"

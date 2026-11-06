@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Syria (1972–1980)"
-  encoder "Flag_of_Egypt_1972.svg: Current vector version by Editor at Large derivative work: Orange Tuesday (talk)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(1972%E2%80%931980).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(1972%E2%80%931980).svg" {
+    author "Flag_of_Egypt_1972.svg: Current vector version by Editor at Large derivative work: Orange Tuesday (talk)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "War Ensign of Germany 1903-1918"
-  encoder "The original uploader was R-41 at English Wikipedia."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:War_Ensign_of_Germany_(1903%E2%80%931919).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:War_Ensign_of_Germany_(1903%E2%80%931919).svg" {
+    author "The original uploader was R-41 at English Wikipedia."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Ibiza flag"
-  encoder "Javitomad, HansenBCN"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Ibiza_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Ibiza_flag.svg" {
+    author "Javitomad, HansenBCN"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   yellow "#fcdd09"

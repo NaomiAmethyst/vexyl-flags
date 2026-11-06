@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "SADCC flag (1980-1992)"
-  encoder "Sette-quattro"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:SADCC_flag_(1980-1992).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:SADCC_flag_(1980-1992).svg" {
+    author "Sette-quattro"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#ffffff"

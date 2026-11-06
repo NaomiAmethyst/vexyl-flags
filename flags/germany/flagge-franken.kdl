@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Franken"
-  encoder "Thomas Reinel"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_Franken.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_Franken.svg" {
+    author "Thomas Reinel"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Quezon City Flag"
-  encoder "Exec8"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Quezon_City_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Quezon_City_Flag.svg" {
+    author "Exec8"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#fcd116"

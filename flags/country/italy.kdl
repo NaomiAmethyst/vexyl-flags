@@ -3,7 +3,8 @@ vexyl 1
 meta {
   name "Italy"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20250116201857/https://www.senato.it/istituzione/la-costituzione/principi-fondamentali/articolo-12"
   source "https://www.gazzettaufficiale.it/do/atto/serie_generale/caricaPdf?cdimg=06A0689600100010110001&dgu=2006-07-28&art.dataPubblicazioneGazzetta=2006-07-28&art.codiceRedazionale=06A06896&art.num=1&art.tiposerie=SG"
   source "https://www.crwflags.com/fotw/flags/it.html"

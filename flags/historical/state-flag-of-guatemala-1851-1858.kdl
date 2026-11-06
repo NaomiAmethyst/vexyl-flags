@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "State Flag of Guatemala (1851-1858)"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:State_Flag_of_Guatemala_(1851-1858).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:State_Flag_of_Guatemala_(1851-1858).svg" {
+    author "Germenfer"
+    license "CC0-1.0"
+  }
 }
 palette {
   yellow "#fcdd09"

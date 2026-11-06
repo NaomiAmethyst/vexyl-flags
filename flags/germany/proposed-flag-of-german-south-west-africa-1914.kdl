@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Proposed Flag of German South West Africa (1914)"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Proposed_Flag_of_German_South_West_Africa_(1914).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Proposed_Flag_of_German_South_West_Africa_(1914).svg" {
+    author "Germenfer"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#010101"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Norddeutscher Lloyd flag"
-  encoder "Unknown (anonymous)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Norddeutscher_Lloyd_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Norddeutscher_Lloyd_flag.svg" {
+    author "Unknown (anonymous)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

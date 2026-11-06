@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saitama Prefecture"
-  encoder "Monaneko, Xeror, Mike Rohsopht"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saitama_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saitama_Prefecture.svg" {
+    author "Monaneko, Xeror, Mike Rohsopht"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of South Georgia and the South Sandwich Islands"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg" {
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#012169"

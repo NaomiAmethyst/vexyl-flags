@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Honduras (1866-1949)"
-  encoder "AquaVacation"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(1866%E2%80%931949).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(1866%E2%80%931949).svg" {
+    author "AquaVacation"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of East Timor (3-2)"
-  encoder "Sangjinhwa"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor_(3-2).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor_(3-2).svg" {
+    author "Sangjinhwa"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#dc241f"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mongolia (1924–1940)"
-  encoder "Drawn by Joins2003"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia_(1924%E2%80%931940).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mongolia_(1924%E2%80%931940).svg" {
+    author "Drawn by Joins2003"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#dc171c"

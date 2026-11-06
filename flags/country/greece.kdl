@@ -5,7 +5,8 @@ vexyl 1
 meta {
   name "Greece"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.e-nomothesia.gr/kat-semaia/n-851-1978.html"
   source "https://www.crwflags.com/fotw/flags/gr_law.html"
   source "https://www.crwflags.com/fotw/flags/gr.html"

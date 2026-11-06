@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kingdom of Westphalia"
-  encoder "Maxek 2005"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Westphalia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Westphalia.svg" {
+    author "Maxek 2005"
+    license "CC0-1.0"
+  }
 }
 palette {
   white "#ffffff"

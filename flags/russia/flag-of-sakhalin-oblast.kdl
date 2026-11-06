@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Sakhalin Oblast"
-  encoder "Original: Vitaliy Evgenievich Gomilevsky Vector: Conscious"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Sakhalin_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Sakhalin_Oblast.svg" {
+    author "Original: Vitaliy Evgenievich Gomilevsky Vector: Conscious"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#47a5ae"

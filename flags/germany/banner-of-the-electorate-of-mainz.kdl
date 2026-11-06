@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Banner of the Electorate of Mainz"
-  encoder "User:Sodacan, wheel from File:Coat of Arms of Ernest August, Duke of Brunswick-Lüneburg (1661-1692).svg"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Banner_of_the_Electorate_of_Mainz.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Banner_of_the_Electorate_of_Mainz.svg" {
+    author "User:Sodacan, wheel from File:Coat of Arms of Ernest August, Duke of Brunswick-Lüneburg (1661-1692).svg"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#ce0f25"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Melilla"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Melilla.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Melilla.svg" {
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#0071bc"

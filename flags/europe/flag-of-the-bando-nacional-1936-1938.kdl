@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Bando Nacional (1936–1938)"
-  encoder "Durero"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Bando_Nacional_(1936%E2%80%931938).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Bando_Nacional_(1936%E2%80%931938).svg" {
+    author "Durero"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#da121a"

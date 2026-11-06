@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Kingdom of Bau"
-  encoder "Jeromi Mikhael, crown and sun by Jaume Ollé."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Bau.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Bau.svg" {
+    author "Jeromi Mikhael, crown and sun by Jaume Ollé."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

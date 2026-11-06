@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Illinois Sesquicentennial Flag"
-  encoder "State of Illinois"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Illinois_Sesquicentennial_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Illinois_Sesquicentennial_Flag.svg" {
+    author "State of Illinois"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

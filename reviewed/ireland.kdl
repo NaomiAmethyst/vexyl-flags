@@ -3,7 +3,8 @@ vexyl 1
 meta {
   name "Ireland"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.irishstatutebook.ie/eli/cons/en/html"
   source "https://assets.gov.ie/static/documents/9d76c655/The_National_Flag_-_Guidelines_September_2025.pdf"
   source "https://www.crwflags.com/fotw/flags/ie.html"

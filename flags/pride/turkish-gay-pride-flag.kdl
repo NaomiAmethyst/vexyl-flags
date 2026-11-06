@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Turkish Gay Pride Flag"
-  encoder "HectorTroi"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Turkish_Gay_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Turkish_Gay_Pride_Flag.svg" {
+    author "HectorTroi"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#e40303"

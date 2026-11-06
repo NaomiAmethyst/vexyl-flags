@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Lauenburg"
-  encoder "Graphic made by Carport"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Lauenburg.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Lauenburg.svg" {
+    author "Graphic made by Carport"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

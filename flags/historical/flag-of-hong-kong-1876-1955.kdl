@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Hong Kong (1876–1955)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hong_Kong_(1876%E2%80%931955).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Hong_Kong_(1876%E2%80%931955).svg" {
+    author "Sodacan"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#012169"

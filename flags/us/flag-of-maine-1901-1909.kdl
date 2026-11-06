@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Maine (1901–1909)"
-  encoder "w:User:DevinCook"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Maine_(1901%E2%80%931909).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Maine_(1901%E2%80%931909).svg" {
+    author "w:User:DevinCook"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#356a78"

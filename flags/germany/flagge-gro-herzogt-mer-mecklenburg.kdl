@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Großherzogtümer Mecklenburg"
-  encoder "David Liuzzo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_Gro%C3%9Fherzogt%C3%BCmer_Mecklenburg.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_Gro%C3%9Fherzogt%C3%BCmer_Mecklenburg.svg" {
+    author "David Liuzzo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#004a99"

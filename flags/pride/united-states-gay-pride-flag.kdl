@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "United States Gay Pride flag"
-  encoder "Sarang"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:United_States_Gay_Pride_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:United_States_Gay_Pride_flag.svg" {
+    author "Sarang"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e40303"

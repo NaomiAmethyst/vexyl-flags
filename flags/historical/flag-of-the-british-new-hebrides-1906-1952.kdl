@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the British New Hebrides (1906–1952)"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_New_Hebrides_(1906%E2%80%931952).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_New_Hebrides_(1906%E2%80%931952).svg" {
+    author "Thommy"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#00247d"

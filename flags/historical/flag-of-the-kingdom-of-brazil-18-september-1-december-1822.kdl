@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Kingdom of Brazil (18 september - 1 december 1822)"
-  encoder "Reino do Brasil/Kingdom of Brazil"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Brazil_(18_september_-_1_december_1822).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Brazil_(18_september_-_1_december_1822).svg" {
+    author "Reino do Brasil/Kingdom of Brazil"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#00923f"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the United Arab Republic (1958–1971), Flag of Syria (1980–2024)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Republic_(1958%E2%80%931971),_Flag_of_Syria_(1980%E2%80%932024).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Republic_(1958%E2%80%931971),_Flag_of_Syria_(1980%E2%80%932024).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

@@ -7,7 +7,8 @@ vexyl 1
 meta {
   name "Palau"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.crwflags.com/fotw/flags/pw.html"
   note "The text of Public Law No. 7-6-2 wasn't read. Its terms come from the passages FOTW's contributor quotes from it, and whether it has since been changed wasn't confirmed."
   note "FOTW's quotation adds that the flag may be reproduced for unofficial purposes with different dimensions."

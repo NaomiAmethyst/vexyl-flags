@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Free Democratic Party of Germany (main variant)"
-  encoder "Own work Free Democratic Party (FDP)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Free_Democratic_Party_of_Germany_(main_variant).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Free_Democratic_Party_of_Germany_(main_variant).svg" {
+    author "Own work Free Democratic Party (FDP)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffed00"

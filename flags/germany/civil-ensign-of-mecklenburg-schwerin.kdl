@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Civil ensign of Mecklenburg-Schwerin"
-  encoder "Artemis Andromeda"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Civil_ensign_of_Mecklenburg-Schwerin.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Civil_ensign_of_Mecklenburg-Schwerin.svg" {
+    author "Artemis Andromeda"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#004a99"

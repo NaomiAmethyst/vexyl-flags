@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saar 1920-1935"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saar_1920-1935.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saar_1920-1935.svg" {
+    author "Thommy"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00209f"

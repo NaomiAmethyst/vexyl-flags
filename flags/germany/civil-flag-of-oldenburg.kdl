@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Civil flag of Oldenburg"
-  encoder "Lokal_Profil"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Civil_flag_of_Oldenburg.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Civil_flag_of_Oldenburg.svg" {
+    author "Lokal_Profil"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#212178"

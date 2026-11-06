@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Tino Rangatiratanga Maori sovereignty movement flag"
-  encoder "of code: cs:User:-xfi-; of flag, Linda Munn, Jan Dobson and Hiraina Marsden. Linda Munn was the only one still alive in "
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Tino_Rangatiratanga_Maori_sovereignty_movement_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Tino_Rangatiratanga_Maori_sovereignty_movement_flag.svg" {
+    author "of code: cs:User:-xfi-; of flag, Linda Munn, Jan Dobson and Hiraina Marsden. Linda Munn was the only one still alive in "
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

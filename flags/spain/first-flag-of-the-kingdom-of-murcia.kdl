@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "First Flag of the Kingdom of Murcia"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:First_Flag_of_the_Kingdom_of_Murcia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:First_Flag_of_the_Kingdom_of_Murcia.svg" {
+    author "Germenfer"
+    license "CC0-1.0"
+  }
 }
 palette {
   yellow "#ffcc03"

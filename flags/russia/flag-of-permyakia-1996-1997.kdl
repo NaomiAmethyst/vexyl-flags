@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Permyakia (1996–1997)"
-  encoder "Own work"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Permyakia_(1996%E2%80%931997).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Permyakia_(1996%E2%80%931997).svg" {
+    author "Own work"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d81e05"

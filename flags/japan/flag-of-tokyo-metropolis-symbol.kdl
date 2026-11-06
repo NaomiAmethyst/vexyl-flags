@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Tokyo Metropolis (symbol)"
-  encoder "Kzaral"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Tokyo_Metropolis_(symbol).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Tokyo_Metropolis_(symbol).svg" {
+    author "Kzaral"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ulyanovsk Oblast (2004)"
-  encoder "Николай Сергеев"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ulyanovsk_Oblast_(2004).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ulyanovsk_Oblast_(2004).svg" {
+    author "Николай Сергеев"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

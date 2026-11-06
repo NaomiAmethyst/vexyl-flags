@@ -7,7 +7,8 @@ vexyl 1
 meta {
   name "Madagascar"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "http://www.hcc.gov.mg/wp-content/uploads/2015/09/CONSTITUTION-IV.pdf"
   source "https://www.crwflags.com/fotw/flags/mg.html"
   source "https://constitutionnet.org/news/madagascar-military-ousts-president-and-suspends-constitution"

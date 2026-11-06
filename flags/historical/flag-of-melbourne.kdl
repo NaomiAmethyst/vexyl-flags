@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Melbourne"
-  encoder "Abyssmanx"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Melbourne.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Melbourne.svg" {
+    author "Abyssmanx"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#ffffff"

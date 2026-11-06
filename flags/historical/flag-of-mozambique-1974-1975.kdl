@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mozambique (1974-1975)"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique_(1974%E2%80%931975).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique_(1974%E2%80%931975).svg" {
+    author "Thommy"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#007168"

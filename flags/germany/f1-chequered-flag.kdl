@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "F1 chequered flag"
-  encoder "Glidden Tours"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:F1_chequered_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:F1_chequered_flag.svg" {
+    author "Glidden Tours"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   brown "#322c24"

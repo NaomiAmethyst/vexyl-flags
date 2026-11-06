@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Silesians"
-  encoder "User:Andrew J.Kurbiko"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Silesians.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Silesians.svg" {
+    author "User:Andrew J.Kurbiko"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#f9dd18"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Signalflagge8 Marine"
-  encoder "Trex2001 at German Wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Signalflagge8_Marine.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Signalflagge8_Marine.svg" {
+    author "Trex2001 at German Wikipedia"
+    license "CC-BY-3.0"
+  }
 }
 palette {
 }

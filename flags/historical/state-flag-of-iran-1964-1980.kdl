@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "State flag of Iran (1964–1980)"
-  encoder "Original: Unknown Vector: Sodacan (added new emblem to this file), Pouya, Jooja, and ConflictFan (current version and st"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:State_flag_of_Iran_(1964%E2%80%931980).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:State_flag_of_Iran_(1964%E2%80%931980).svg" {
+    author "Original: Unknown Vector: Sodacan (added new emblem to this file), Pouya, Jooja, and ConflictFan (current version and st"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#319b42"

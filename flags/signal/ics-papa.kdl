@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "ICS Papa"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:ICS_Papa.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:ICS_Papa.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0000ff"

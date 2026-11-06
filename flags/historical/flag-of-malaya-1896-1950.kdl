@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Malaya (1896–1950)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Malaya_(1896%E2%80%931950).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Malaya_(1896%E2%80%931950).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

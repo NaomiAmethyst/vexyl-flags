@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Rwanda (January – September 1961)"
-  encoder "Unknown sourceUnknown source"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda_(January_%E2%80%93_September_1961).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda_(January_%E2%80%93_September_1961).svg" {
+    author "Unknown sourceUnknown source"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e20212"

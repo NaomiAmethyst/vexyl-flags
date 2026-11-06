@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Moscow"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Moscow,_Russia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Moscow,_Russia.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#a8002c"

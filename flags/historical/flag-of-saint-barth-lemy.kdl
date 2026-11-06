@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saint Barthélemy"
-  encoder "The arms are from User:Manassas's Image:Blason St Barthélémy TOM entire.svg."
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-2.5"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barth%C3%A9lemy_(local).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barth%C3%A9lemy_(local).svg" {
+    author "The arms are from User:Manassas's Image:Blason St Barthélémy TOM entire.svg."
+    license "CC-BY-2.5"
+  }
 }
 palette {
   white "#ffffff"

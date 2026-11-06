@@ -6,7 +6,8 @@ vexyl 1
 meta {
   name "Monaco"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://crteducazione.org/wp-content/uploads/2025/03/MCO_Constitution_1962_FR.pdf"
   source "https://legimonaco.mc/tnc/ordonnance/1881/04-04-L000701@1881.04.05/"
   source "https://www.crwflags.com/fotw/flags/mc.html"

@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Northern Mariana Islands (1976–1989)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Northern_Mariana_Islands_(1976%E2%80%931989).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Northern_Mariana_Islands_(1976%E2%80%931989).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#3caaec"

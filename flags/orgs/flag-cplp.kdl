@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag CPLP"
-  encoder "Comunidade dos Países de Lingua Portuguesa"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_CPLP.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_CPLP.svg" {
+    author "Comunidade dos Países de Lingua Portuguesa"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#17408f"

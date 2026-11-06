@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Haiti (1849–1859)"
-  encoder "FDRMRZUSA"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(1849%E2%80%931859).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(1849%E2%80%931859).svg" {
+    author "FDRMRZUSA"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#00209f"

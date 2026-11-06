@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Virginia"
-  encoder "LadyofHats with additional editing by 痛 and Patrickneil / Charles Keck"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Virginia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Virginia.svg" {
+    author "LadyofHats with additional editing by 痛 and Patrickneil / Charles Keck"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012168"

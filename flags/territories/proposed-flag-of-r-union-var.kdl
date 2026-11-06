@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Proposed flag of Réunion (VAR)"
-  encoder "Ch1902"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_R%C3%A9union_(VAR).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_R%C3%A9union_(VAR).svg" {
+    author "Ch1902"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#3366ff"

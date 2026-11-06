@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Germany (1867–1918)"
-  encoder "Original: Adolf Soetbeer, Otto von Bismarck Vector: B1mbo, Madden"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg" {
+    author "Original: Adolf Soetbeer, Otto von Bismarck Vector: B1mbo, Madden"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

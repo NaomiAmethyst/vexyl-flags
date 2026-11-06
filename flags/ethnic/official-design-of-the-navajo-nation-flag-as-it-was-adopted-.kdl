@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Official design of the Navajo Nation flag as it was adopted on May 21, 1968"
-  encoder "Jay R. Degroat"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Official_design_of_the_Navajo_Nation_flag_as_it_was_adopted_on_May_21,_1968.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Official_design_of_the_Navajo_Nation_flag_as_it_was_adopted_on_May_21,_1968.svg" {
+    author "Jay R. Degroat"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

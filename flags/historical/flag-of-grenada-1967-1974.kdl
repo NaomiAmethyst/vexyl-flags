@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Grenada (1967-1974)"
-  encoder "Bringing It All Back Home"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada_(1967%E2%80%931974).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada_(1967%E2%80%931974).svg" {
+    author "Bringing It All Back Home"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0039ad"

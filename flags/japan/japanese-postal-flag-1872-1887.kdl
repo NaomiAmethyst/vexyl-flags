@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Japanese postal flag, 1872-1887"
-  encoder "User:Zscout370 (Return Fire)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Japanese_postal_flag,_1872-1887.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Japanese_postal_flag,_1872-1887.svg" {
+    author "User:Zscout370 (Return Fire)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

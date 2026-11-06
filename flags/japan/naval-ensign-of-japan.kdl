@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Naval Ensign of Japan"
-  encoder "David Newton, uploader was Denelson83"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Naval_Ensign_of_Japan.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Naval_Ensign_of_Japan.svg" {
+    author "David Newton, uploader was Denelson83"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bc002d"

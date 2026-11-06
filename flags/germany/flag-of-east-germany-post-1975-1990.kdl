@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of East Germany Post (1975-1990)"
-  encoder "Guilherme Paula"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_East_Germany_Post_(1975-1990).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_East_Germany_Post_(1975-1990).svg" {
+    author "Guilherme Paula"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffc709"

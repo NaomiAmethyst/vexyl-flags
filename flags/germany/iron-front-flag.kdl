@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Iron Front Flag"
-  encoder "Original: Fordring101 Vector: QuickQuokka"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Iron_Front_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Iron_Front_Flag.svg" {
+    author "Original: Fordring101 Vector: QuickQuokka"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#dd0000"

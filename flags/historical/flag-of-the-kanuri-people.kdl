@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Kanuri people"
-  encoder "User:Hosmich"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kanuri_people.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kanuri_people.svg" {
+    author "User:Hosmich"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#008f00"

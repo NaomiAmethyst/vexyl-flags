@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the African Union"
-  encoder "African Union - supranational union in Africa"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_Union.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_Union.svg" {
+    author "African Union - supranational union in Africa"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#3f724a"

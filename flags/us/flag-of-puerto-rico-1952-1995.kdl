@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Puerto Rico (1952-1995)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico_(1952%E2%80%931995).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico_(1952%E2%80%931995).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

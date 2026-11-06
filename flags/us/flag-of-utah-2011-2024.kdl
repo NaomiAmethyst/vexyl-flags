@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Utah (2011–2024)"
-  encoder "This vector was made by Ali Zifan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Utah_(2011%E2%80%932024).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Utah_(2011%E2%80%932024).svg" {
+    author "This vector was made by Ali Zifan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012d6a"

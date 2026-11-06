@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Santiago Matatlán, Oaxaca"
-  encoder "Flagvisioner"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Santiago_Matatl%C3%A1n,_Oaxaca.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Santiago_Matatl%C3%A1n,_Oaxaca.svg" {
+    author "Flagvisioner"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ef2c3a"

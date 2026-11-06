@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Free City of Lübeck"
-  encoder "See below."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Free_City_of_L%C3%BCbeck.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Free_City_of_L%C3%BCbeck.svg" {
+    author "See below."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

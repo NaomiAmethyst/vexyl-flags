@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the CIS"
-  encoder "The original uploader was Denelson83 at Wikimedia Commons. Redrawn from scratch by MapGrid in 2021."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_CIS.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_CIS.svg" {
+    author "The original uploader was Denelson83 at Wikimedia Commons. Redrawn from scratch by MapGrid in 2021."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0073cf"

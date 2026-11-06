@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ethiopia (1897-1914)"
-  encoder "Thommy"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia_(1897%E2%80%931914).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia_(1897%E2%80%931914).svg" {
+    author "Thommy"
+    license "CC0-1.0"
+  }
 }
 palette {
   red "#da121a"

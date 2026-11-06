@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "BG Sofia flag"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:BG_Sofia_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:BG_Sofia_flag.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

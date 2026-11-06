@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the State of Georgia (1920-1956)"
-  encoder "Guilherme Paula"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(1920%E2%80%931956).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Georgia_(1920%E2%80%931956).svg" {
+    author "Guilherme Paula"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00205b"

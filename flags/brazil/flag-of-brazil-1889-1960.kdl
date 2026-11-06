@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Brazil (1889–1960)"
-  encoder "Raimundo Teixeira Mendes"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1889%E2%80%931960).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1889%E2%80%931960).svg" {
+    author "Raimundo Teixeira Mendes"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009440"

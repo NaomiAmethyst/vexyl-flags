@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Chukotka"
-  encoder "Fibonacci"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Chukotka.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Chukotka.svg" {
+    author "Fibonacci"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#0039a6"

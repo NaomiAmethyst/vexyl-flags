@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Grand Duchy of Baden (1855–1891)"
-  encoder "David Liuzzo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grand_Duchy_of_Baden_(1855%E2%80%931891).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Grand_Duchy_of_Baden_(1855%E2%80%931891).svg" {
+    author "David Liuzzo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e2001a"

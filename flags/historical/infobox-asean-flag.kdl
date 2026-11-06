@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Infobox ASEAN flag"
-  encoder "CentreLeftRight"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Infobox_ASEAN_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Infobox_ASEAN_flag.svg" {
+    author "CentreLeftRight"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0739a4"

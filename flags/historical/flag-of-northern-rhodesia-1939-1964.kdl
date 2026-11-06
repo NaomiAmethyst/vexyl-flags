@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Northern Rhodesia (1939-1964)"
-  encoder "Greentubing (en:WP talk)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Northern_Rhodesia_(1939%E2%80%931964).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Northern_Rhodesia_(1939%E2%80%931964).svg" {
+    author "Greentubing (en:WP talk)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00247d"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Republican Social Movement"
-  encoder "Haisollokopas"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republican_Social_Movement.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republican_Social_Movement.svg" {
+    author "Haisollokopas"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#fbfbfb"

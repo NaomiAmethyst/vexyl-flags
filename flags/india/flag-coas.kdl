@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag COAS"
-  encoder "Skjoldbro"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_COAS.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_COAS.svg" {
+    author "Skjoldbro"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#c62828"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Ensign of the South Carolina Navy"
-  encoder "Zscout370 at English Wikipedia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Ensign_of_the_South_Carolina_Navy.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Ensign_of_the_South_Carolina_Navy.svg" {
+    author "Zscout370 at English Wikipedia"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

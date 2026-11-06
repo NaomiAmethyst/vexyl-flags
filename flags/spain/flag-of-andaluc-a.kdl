@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Andalucía"
-  encoder "Miguillen This picture was made for the Taller de Heráldica y vexilología of Spanish Wikipedia."
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Andaluc%C3%ADa.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Andaluc%C3%ADa.svg" {
+    author "Miguillen This picture was made for the Taller de Heráldica y vexilología of Spanish Wikipedia."
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   green "#006633"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kenya (1921–1963)"
-  encoder "Oren neu dag"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya_(1921%E2%80%931963).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya_(1921%E2%80%931963).svg" {
+    author "Oren neu dag"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#00247d"

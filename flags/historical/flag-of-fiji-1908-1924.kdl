@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Fiji (1908–1924)"
-  encoder "Suzuki Auto"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji_(1908%E2%80%931924).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji_(1908%E2%80%931924).svg" {
+    author "Suzuki Auto"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#00267f"

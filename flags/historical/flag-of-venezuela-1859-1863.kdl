@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Venezuela (1859-1863)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela_(1859%E2%80%931863).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela_(1859%E2%80%931863).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#f7d117"

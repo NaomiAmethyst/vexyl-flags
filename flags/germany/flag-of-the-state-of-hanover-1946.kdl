@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the State of Hanover (1946)"
-  encoder "NsMn"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Hanover_(1946).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Hanover_(1946).svg" {
+    author "NsMn"
+    license "CC-BY-3.0"
+  }
 }
 palette {
   red "#dd0000"

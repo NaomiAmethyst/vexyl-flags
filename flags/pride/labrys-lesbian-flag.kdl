@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Labrys Lesbian Flag"
-  encoder "Thespoondragon"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Labrys_Lesbian_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Labrys_Lesbian_Flag.svg" {
+    author "Thespoondragon"
+    license "CC0-1.0"
+  }
 }
 palette {
   pink "#993399"

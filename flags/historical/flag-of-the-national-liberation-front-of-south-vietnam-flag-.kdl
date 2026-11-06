@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the National Liberation Front of South Vietnam, Flag of South Vietnam (1975–1976)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_National_Liberation_Front_of_South_Vietnam,_Flag_of_South_Vietnam_(1975%E2%80%931976).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_National_Liberation_Front_of_South_Vietnam,_Flag_of_South_Vietnam_(1975%E2%80%931976).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#da251d"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kyrgyzstan (1992–2023)"
-  encoder "Э. Айдарбеков, Б. Жайчыбеков, С. Иптаров, Ж. Матаев, М. Сыдыков"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan_(1992%E2%80%932023).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan_(1992%E2%80%932023).svg" {
+    author "Э. Айдарбеков, Б. Жайчыбеков, С. Иптаров, Ж. Матаев, М. Сыдыков"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of El Salvador (June 1865)"
-  encoder "Legislative Assembly of El Salvador"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador_(June_1865).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador_(June_1865).svg" {
+    author "Legislative Assembly of El Salvador"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0f47af"

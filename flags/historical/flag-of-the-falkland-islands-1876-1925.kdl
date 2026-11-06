@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Falkland Islands (1876–1925)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Falkland_Islands_(1876%E2%80%931925).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Falkland_Islands_(1876%E2%80%931925).svg" {
+    author "Sodacan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002b7f"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Banner of Baden (1^1)"
-  encoder "Sir Iain"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Banner_of_Baden_(1%5E1).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Banner_of_Baden_(1%5E1).svg" {
+    author "Sir Iain"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#ffdd00"

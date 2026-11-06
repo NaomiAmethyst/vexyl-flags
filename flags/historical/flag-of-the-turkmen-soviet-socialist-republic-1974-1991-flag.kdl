@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Turkmen Soviet Socialist Republic (1974–1991), Flag of Turkmenistan (1991–1992)"
-  encoder "Denelson83, Urmas, Nokka"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkmen_Soviet_Socialist_Republic_(1974%E2%80%931991),_Flag_of_Turkmenistan_(1991%E2%80%931992).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkmen_Soviet_Socialist_Republic_(1974%E2%80%931991),_Flag_of_Turkmenistan_(1991%E2%80%931992).svg" {
+    author "Denelson83, Urmas, Nokka"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cd0000"

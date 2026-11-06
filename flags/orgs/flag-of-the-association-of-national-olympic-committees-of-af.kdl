@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Association of National Olympic Committees of Africa"
-  encoder "Association of National Olympic Committees of Africa"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Association_of_National_Olympic_Committees_of_Africa.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Association_of_National_Olympic_Committees_of_Africa.svg" {
+    author "Association of National Olympic Committees of Africa"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

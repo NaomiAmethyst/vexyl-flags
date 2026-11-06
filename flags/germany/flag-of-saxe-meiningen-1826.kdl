@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Saxe-Meiningen (1826)"
-  encoder "Great Brightstar"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saxe-Meiningen_(1826).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Saxe-Meiningen_(1826).svg" {
+    author "Great Brightstar"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#328925"

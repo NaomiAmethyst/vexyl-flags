@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge der Deutsche Handels- und Plantagengesellschaft der Südseeinseln zu Hamburg"
-  encoder "Fornax"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_der_Deutsche_Handels-_und_Plantagengesellschaft_der_S%C3%BCdseeinseln_zu_Hamburg.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_der_Deutsche_Handels-_und_Plantagengesellschaft_der_S%C3%BCdseeinseln_zu_Hamburg.svg" {
+    author "Fornax"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#de0011"

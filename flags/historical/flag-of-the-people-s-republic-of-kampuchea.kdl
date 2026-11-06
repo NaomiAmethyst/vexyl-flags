@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the People's Republic of Kampuchea"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_Kampuchea.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_Kampuchea.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#da121a"

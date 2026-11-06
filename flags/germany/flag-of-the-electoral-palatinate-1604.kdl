@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of The Electoral Palatinate (1604)"
-  encoder "Sir Iain, inspiration from User:Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_The_Electoral_Palatinate_(1604).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_The_Electoral_Palatinate_(1604).svg" {
+    author "Sir Iain, inspiration from User:Sodacan"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#e9001a"

@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Gabon"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20260909144234id_/https://mjp.univ-perp.fr/constit/ga2024.htm"
   source "https://www.crwflags.com/fotw/flags/ga.html"
   note "The 2024 constitution's first article gives only green, yellow, blue, in three horizontal stripes of equal size."

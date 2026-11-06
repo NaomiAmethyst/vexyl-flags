@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Lima"
-  encoder "Huhsunqu"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Lima.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Lima.svg" {
+    author "Huhsunqu"
+    license "CC-BY-3.0"
+  }
 }
 palette {
   orange "#f8b109"

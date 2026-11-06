@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Brazilian Air Force Command"
-  encoder "Comando da Aeronáutica, Ministério da Defesa"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Brazilian_Air_Force_Command.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Brazilian_Air_Force_Command.svg" {
+    author "Comando da Aeronáutica, Ministério da Defesa"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#60bee4"

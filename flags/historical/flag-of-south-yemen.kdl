@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of South Yemen"
-  encoder "National Front - الجبهة القومية"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_South_Yemen.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_South_Yemen.svg" {
+    author "National Front - الجبهة القومية"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

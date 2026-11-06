@@ -57,11 +57,21 @@ leaves those columns blank.
 
 ## Rights
 
-Each file's `license` and `encoder` come from its Commons page, and its `source` links
-there. Where Commons credits the author only in a page's file history, the file has no
-`encoder`, and the page has the credit. Nobody has legally reviewed these fields.
+Each file states its own terms:
 
-They cover the drawings. Designs can have their own terms: some pride flags' designers set
+| Field | Covers |
+|---|---|
+| `license` | The file. Hand-written files are mostly CC BY-SA 4.0 |
+| `render-license` | Images rendered from it. CC0 1.0 where it's given, so those renders ask for nothing. Without it, renders fall under `license` |
+| `adapted-from` | A drawing the file is made from, with its author and license. Its material keeps that license |
+| `design-rights` | Rights in the design itself, only where a source supports a statement. Most are empty, which means unchecked and not public domain |
+| `restriction` | Rules about using a flag, apart from copyright |
+
+Imported files take their `license` from their Commons page. Where Commons credits the author
+only in a page's file history, the `adapted-from` has no `author`, and the page has the credit.
+Nobody has legally reviewed any of these fields, and copyright in generated files is unsettled.
+
+None of them covers a flag's design. Designs can have their own terms: some pride flags' designers set
 conditions for using them, and many countries legally restrict how their flags and emblems
 are used. Some organization flags here are logos, and may be trademarks. Check those before
 using a flag.

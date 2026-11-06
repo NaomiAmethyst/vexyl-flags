@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Hoshina Matsudaira Lords of Aizu in Mutsu Province (A)"
-  encoder "Barfodt"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Hoshina_Matsudaira_Lords_of_Aizu_in_Mutsu_Province_(A).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Hoshina_Matsudaira_Lords_of_Aizu_in_Mutsu_Province_(A).svg" {
+    author "Barfodt"
+    license "CC0-1.0"
+  }
 }
 palette {
   orange "#ffc01b"

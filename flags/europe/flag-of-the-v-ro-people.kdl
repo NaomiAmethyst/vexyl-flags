@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Võro People"
-  encoder "Blackcat"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_V%C3%B5ro_People.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_V%C3%B5ro_People.svg" {
+    author "Blackcat"
+    license "CC0-1.0"
+  }
 }
 palette {
   green "#1e4c0c"

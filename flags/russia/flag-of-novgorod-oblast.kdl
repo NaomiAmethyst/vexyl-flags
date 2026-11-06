@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Novgorod Oblast"
-  encoder "Loginname"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Novgorod_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Novgorod_Oblast.svg" {
+    author "Loginname"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#2f418c"

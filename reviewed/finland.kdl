@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Finland"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.finlex.fi/fi/laki/ajantasa/1978/19780380"
   source "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/1993/827"
   note "The cross and proportion are the 1978 act's. The CIE values and the NCS and PMS approximations are the 1993 decision's."

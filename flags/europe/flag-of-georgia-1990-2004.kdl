@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Georgia (1990-2004)"
-  encoder "Jon Harald Søby"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia_(1990%E2%80%932004).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia_(1990%E2%80%932004).svg" {
+    author "Jon Harald Søby"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#990000"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Matsudaira Lords of Fukui in Echizen Province (C)"
-  encoder "Barfodt"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Matsudaira_Lords_of_Fukui_in_Echizen_Province_(C).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Matsudaira_Lords_of_Fukui_in_Echizen_Province_(C).svg" {
+    author "Barfodt"
+    license "CC0-1.0"
+  }
 }
 palette {
   white "#ffffff"

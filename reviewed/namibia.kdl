@@ -11,7 +11,8 @@ vexyl 1
 meta {
   name "Namibia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.servat.unibe.ch/icl/wa01000_.html"
   source "https://www.lac.org.na/laws/2018/6807.pdf"
   source "https://www.crwflags.com/fotw/flags/na.html"

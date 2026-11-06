@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Duty Ship (Imperial Japanese Navy)"
-  encoder "njt, Mike Rohsopht"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Duty_Ship_(Imperial_Japanese_Navy).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Duty_Ship_(Imperial_Japanese_Navy).svg" {
+    author "njt, Mike Rohsopht"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#bc002d"

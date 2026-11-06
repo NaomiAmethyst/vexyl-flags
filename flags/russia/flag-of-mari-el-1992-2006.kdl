@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mari El (1992–2006)"
-  encoder "User:Urmas"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mari_El_(1992%E2%80%932006).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mari_El_(1992%E2%80%932006).svg" {
+    author "User:Urmas"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#327cea"

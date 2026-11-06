@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Iraq (2004–2008)"
-  encoder "CIA World Factbook. Users Vispec, Urmas, Kookaburra, Dbenbenn and Nightstallion have previously improved this image."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq_(2004%E2%80%932008).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq_(2004%E2%80%932008).svg" {
+    author "CIA World Factbook. Users Vispec, Urmas, Kookaburra, Dbenbenn and Nightstallion have previously improved this image."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

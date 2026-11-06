@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Sierra Leone (1916–1961)"
-  encoder "Pbroks13"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Sierra_Leone_(1916%E2%80%931961).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Sierra_Leone_(1916%E2%80%931961).svg" {
+    author "Pbroks13"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

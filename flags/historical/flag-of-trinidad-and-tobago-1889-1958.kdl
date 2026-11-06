@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Trinidad and Tobago (1889–1958)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Trinidad_and_Tobago_(1889%E2%80%931958).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Trinidad_and_Tobago_(1889%E2%80%931958).svg" {
+    author "Sodacan"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#00247d"

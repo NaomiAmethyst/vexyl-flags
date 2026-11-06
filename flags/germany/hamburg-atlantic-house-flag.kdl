@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Hamburg Atlantic house flag"
-  encoder "VileGecko"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Hamburg_Atlantic_house_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Hamburg_Atlantic_house_flag.svg" {
+    author "VileGecko"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#f63a00"

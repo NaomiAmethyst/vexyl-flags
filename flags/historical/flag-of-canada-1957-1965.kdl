@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Canada (1957–1965)"
-  encoder "Denelson83"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(1957%E2%80%931965).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(1957%E2%80%931965).svg" {
+    author "Denelson83"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

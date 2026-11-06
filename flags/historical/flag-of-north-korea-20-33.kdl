@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of North Korea (20-33)"
-  encoder "EuropeanV"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_North_Korea_(20-33).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_North_Korea_(20-33).svg" {
+    author "EuropeanV"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#034da2"

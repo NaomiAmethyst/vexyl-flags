@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kyoto Prefecture"
-  encoder "Emblem of Kyoto Prefecture.svg by Mike Rohsopht Flag of Kyoto Prefecture.png by Machina in the Deep-Blue Sea (based on a"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kyoto_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kyoto_Prefecture.svg" {
+    author "Emblem of Kyoto Prefecture.svg by Mike Rohsopht Flag of Kyoto Prefecture.png by Machina in the Deep-Blue Sea (based on a"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   pink "#942b9d"

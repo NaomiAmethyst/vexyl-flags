@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Azerbaijan 1918"
-  encoder "Trex2001"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_1918.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_1918.svg" {
+    author "Trex2001"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#0098c3"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of El Salvador (April 1865)"
-  encoder "El Constitucional – 4 May 1865 Publication. San Salvador: El Constitucional. Vol. 1. Iss. 82. p. 1 Bernal Ramírez, Luis "
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador_(April_1865).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador_(April_1865).svg" {
+    author "El Constitucional – 4 May 1865 Publication. San Salvador: El Constitucional. Vol. 1. Iss. 82. p. 1 Bernal Ramírez, Luis "
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0f47af"

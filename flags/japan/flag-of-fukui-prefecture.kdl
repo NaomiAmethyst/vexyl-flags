@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Fukui Prefecture"
-  encoder "This logo image consists only of simple geometric shapes or text. It does not meet the threshold of originality needed f"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Fukui_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Fukui_Prefecture.svg" {
+    author "This logo image consists only of simple geometric shapes or text. It does not meet the threshold of originality needed f"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00006b"

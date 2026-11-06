@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Ministry of Defence of India"
-  encoder "Bharata-indstar"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ministry_of_Defence_of_India.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ministry_of_Defence_of_India.svg" {
+    author "Bharata-indstar"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#ff0000"

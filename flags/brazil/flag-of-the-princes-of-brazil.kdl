@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Princes of Brazil"
-  encoder "Tonyjeff, based on ancient national symbolFile:Pavillon Blanc de Portugal (La connoissance des pavillons, Planche 60a, a"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Princes_of_Brazil.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Princes_of_Brazil.svg" {
+    author "Tonyjeff, based on ancient national symbolFile:Pavillon Blanc de Portugal (La connoissance des pavillons, Planche 60a, a"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

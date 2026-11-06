@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Dominica (1965–1978)"
-  encoder "vectored by FOX 52"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Dominica_(1965%E2%80%931978).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Dominica_(1965%E2%80%931978).svg" {
+    author "vectored by FOX 52"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#00247d"

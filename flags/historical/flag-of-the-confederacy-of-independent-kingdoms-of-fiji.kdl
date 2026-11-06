@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Confederacy of Independent Kingdoms of Fiji"
-  encoder "Jeromi Mikhael"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Confederacy_of_Independent_Kingdoms_of_Fiji.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Confederacy_of_Independent_Kingdoms_of_Fiji.svg" {
+    author "Jeromi Mikhael"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#0000cc"

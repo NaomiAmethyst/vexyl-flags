@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Pine Ridge Flag"
-  encoder "Oglala Sioux Tribe"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Pine_Ridge_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Pine_Ridge_Flag.svg" {
+    author "Oglala Sioux Tribe"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#a50021"

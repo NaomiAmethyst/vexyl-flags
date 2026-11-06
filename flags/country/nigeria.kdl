@@ -8,7 +8,8 @@ vexyl 1
 meta {
   name "Nigeria"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20020821212811id_/http://www.nigeria.gov.ng/aboutnigeria/nationalflag.htm"
   source "https://www.crwflags.com/fotw/flags/ng.html"
   source "https://www.crwflags.com/fotw/flags/mg.html"

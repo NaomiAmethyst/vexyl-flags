@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Großherzogtum Hessen ohne Wappen"
-  encoder "David Liuzzo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_Gro%C3%9Fherzogtum_Hessen_ohne_Wappen.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_Gro%C3%9Fherzogtum_Hessen_ohne_Wappen.svg" {
+    author "David Liuzzo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#e2001a"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Königsbanner 14Jh"
-  encoder "Own work, Ronald Preuss (eagle)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:K%C3%B6nigsbanner_14Jh.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:K%C3%B6nigsbanner_14Jh.svg" {
+    author "Own work, Ronald Preuss (eagle)"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   yellow "#ffce00"

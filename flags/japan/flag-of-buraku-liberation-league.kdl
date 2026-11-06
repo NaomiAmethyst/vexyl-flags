@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Buraku Liberation League"
-  encoder "Buraku Liberation League Vectorization: Mrmw"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Buraku_Liberation_League.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Buraku_Liberation_League.svg" {
+    author "Buraku Liberation League Vectorization: Mrmw"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#df0029"

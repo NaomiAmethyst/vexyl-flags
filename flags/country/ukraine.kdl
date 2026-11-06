@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Ukraine"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   date "1992-01-28"
   source "https://web.archive.org/web/20250102233930/https://zakon.rada.gov.ua/laws/show/2067-12"
   source "https://www.constituteproject.org/constitution/Ukraine_2019"

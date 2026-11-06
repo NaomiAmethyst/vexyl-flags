@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Proposed flag of Germany (Paul Wentzcke)"
-  encoder "Paul Wentzcke"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_Germany_(Paul_Wentzcke).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_Germany_(Paul_Wentzcke).svg" {
+    author "Paul Wentzcke"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   black "#000000"

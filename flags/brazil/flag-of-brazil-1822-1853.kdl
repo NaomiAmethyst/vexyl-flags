@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Brazil (1822-1853)"
-  encoder "This vector image includes elements that have been taken or adapted from this file:"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1822%E2%80%931853).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1822%E2%80%931853).svg" {
+    author "This vector image includes elements that have been taken or adapted from this file:"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#009440"

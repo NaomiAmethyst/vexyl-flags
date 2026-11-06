@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Demiromantic Pride Flag"
-  encoder "MarcoSnail"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Demiromantic_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Demiromantic_Pride_Flag.svg" {
+    author "MarcoSnail"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   white "#ffffff"

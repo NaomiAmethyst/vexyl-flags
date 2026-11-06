@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Partido Obrero de Unificación Marxista flag"
-  encoder "Sevgart"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Partido_Obrero_de_Unificaci%C3%B3n_Marxista_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Partido_Obrero_de_Unificaci%C3%B3n_Marxista_flag.svg" {
+    author "Sevgart"
+    license "CC-BY-3.0"
+  }
 }
 palette {
   red "#ee0000"

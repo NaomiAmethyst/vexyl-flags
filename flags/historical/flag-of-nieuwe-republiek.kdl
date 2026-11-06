@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nieuwe Republiek"
-  encoder "Himasaram"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nieuwe_Republiek.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nieuwe_Republiek.svg" {
+    author "Himasaram"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

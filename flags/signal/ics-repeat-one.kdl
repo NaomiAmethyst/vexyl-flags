@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "ICS Repeat One"
-  encoder "Created by Denelson83 iThe source code of the previous SVG was invalid due to 4 errors."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:ICS_Repeat_One.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:ICS_Repeat_One.svg" {
+    author "Created by Denelson83 iThe source code of the previous SVG was invalid due to 4 errors."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0000ff"

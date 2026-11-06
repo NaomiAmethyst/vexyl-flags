@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of DGF"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_DGF.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_DGF.svg" {
+    author "Germenfer"
+    license "CC0-1.0"
+  }
 }
 palette {
   black "#000000"

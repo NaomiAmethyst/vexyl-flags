@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "House flag of India General S N Company"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:House_flag_of_India_General_S_N_Company.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:House_flag_of_India_General_S_N_Company.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

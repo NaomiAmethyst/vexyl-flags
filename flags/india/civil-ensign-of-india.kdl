@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Civil Ensign of India"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Civil_Ensign_of_India.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Civil_Ensign_of_India.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cf142b"

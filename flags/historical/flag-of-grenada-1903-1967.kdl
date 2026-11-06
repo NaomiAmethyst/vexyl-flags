@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Grenada (1903–1967)"
-  encoder "Sodacan"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada_(1903%E2%80%931967).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada_(1903%E2%80%931967).svg" {
+    author "Sodacan"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#00247d"

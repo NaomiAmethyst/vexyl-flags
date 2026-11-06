@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "PCdoB flag"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:PCdoB_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:PCdoB_flag.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#da251c"

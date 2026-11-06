@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Belarus (1995-2012)"
-  encoder "Flag_of_Belarus.svg: Author: Zscout370 derivative work: Fry1989"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Belarus_(1995%E2%80%932012).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Belarus_(1995%E2%80%932012).svg" {
+    author "Flag_of_Belarus.svg: Author: Zscout370 derivative work: Fry1989"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cc0000"

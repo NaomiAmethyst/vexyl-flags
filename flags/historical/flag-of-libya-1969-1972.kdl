@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Libya (1969–1972)"
-  encoder "F l a n k e r"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Libya_(1969%E2%80%931972).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Libya_(1969%E2%80%931972).svg" {
+    author "F l a n k e r"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

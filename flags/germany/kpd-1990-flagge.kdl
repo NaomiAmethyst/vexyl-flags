@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "KPD (1990) Flagge"
-  encoder "Kommunistische Partei Deutschlands (1990)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:KPD_(1990)_Flagge.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:KPD_(1990)_Flagge.svg" {
+    author "Kommunistische Partei Deutschlands (1990)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#f00000"

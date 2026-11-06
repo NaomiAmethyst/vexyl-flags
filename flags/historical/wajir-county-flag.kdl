@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Wajir County Flag"
-  encoder "7bdIa9"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Wajir_County_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Wajir_County_Flag.svg" {
+    author "7bdIa9"
+    license "CC0-1.0"
+  }
 }
 palette {
   white "#ffffff"

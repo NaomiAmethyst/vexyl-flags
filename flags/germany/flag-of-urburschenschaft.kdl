@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Urburschenschaft"
-  encoder "Ericmetro"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Urburschenschaft.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Urburschenschaft.svg" {
+    author "Ericmetro"
+    license "CC0-1.0"
+  }
 }
 palette {
   red "#bd1220"

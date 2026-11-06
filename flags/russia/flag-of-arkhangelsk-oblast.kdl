@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Arkhangelsk Oblast"
-  encoder "Закон Архангельской области от 23 сентября 2009 г. N 56-5-ОЗ \"О флаге Архангельской области\""
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Arkhangelsk_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Arkhangelsk_Oblast.svg" {
+    author "Закон Архангельской области от 23 сентября 2009 г. N 56-5-ОЗ \"О флаге Архангельской области\""
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

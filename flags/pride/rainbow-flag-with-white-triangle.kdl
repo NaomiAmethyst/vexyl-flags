@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Rainbow Flag with white triangle"
-  encoder "Kautr"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Rainbow_Flag_with_white_triangle.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Rainbow_Flag_with_white_triangle.svg" {
+    author "Kautr"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#ff1008"

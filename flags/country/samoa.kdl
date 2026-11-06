@@ -11,7 +11,8 @@ vexyl 1
 meta {
   name "Samoa"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20231124120226/https://www.mjca.gov.ws/achasoso/2021/05/Official-Flag-and-National-Anthem-of-Samoa-Act-1994.pdf"
   source "https://www.crwflags.com/fotw/flags/ws.html"
   note "All of the geometry is from the Act's Schedule, read in the official version as at 3 March 2021. The stars' centers and radii are worked out from its measurements."

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Accra"
-  encoder "Misteal3478"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Accra.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Accra.svg" {
+    author "Misteal3478"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
 }

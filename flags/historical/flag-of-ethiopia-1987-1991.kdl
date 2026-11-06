@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Ethiopia (1987-1991)"
-  encoder "TRAJAN 117 This W3C-unspecified vector image was created with Inkscape ."
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia_(1987%E2%80%931991).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Ethiopia_(1987%E2%80%931991).svg" {
+    author "TRAJAN 117 This W3C-unspecified vector image was created with Inkscape ."
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   green "#078930"

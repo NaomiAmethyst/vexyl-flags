@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Crimean Tatar people"
-  encoder "Riwnodennyk"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Crimean_Tatar_people.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Crimean_Tatar_people.svg" {
+    author "Riwnodennyk"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00a3dd"

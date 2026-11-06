@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "First flag of the Mexican Empire"
-  encoder "TownDown"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:First_flag_of_the_Mexican_Empire.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:First_flag_of_the_Mexican_Empire.svg" {
+    author "TownDown"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce1126"

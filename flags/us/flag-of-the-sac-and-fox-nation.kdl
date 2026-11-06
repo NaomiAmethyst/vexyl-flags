@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Sac and Fox Nation"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Sac_and_Fox_Nation.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Sac_and_Fox_Nation.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#00923f"

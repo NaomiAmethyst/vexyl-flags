@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "EUROMARFOR Flag"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:EUROMARFOR_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:EUROMARFOR_Flag.svg" {
+    author "Germenfer"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#003399"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "House Flag of JCGodeffroy&Sohn"
-  encoder "This vector image includes elements that have been taken or adapted from this file:"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:House_Flag_of_JCGodeffroy%26Sohn.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:House_Flag_of_JCGodeffroy%26Sohn.svg" {
+    author "This vector image includes elements that have been taken or adapted from this file:"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

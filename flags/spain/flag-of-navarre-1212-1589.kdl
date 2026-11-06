@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Navarre (1212–1589)"
-  encoder "That Northern Irish Historian"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Navarre_(1212%E2%80%931589).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Navarre_(1212%E2%80%931589).svg" {
+    author "That Northern Irish Historian"
+    license "CC0-1.0"
+  }
 }
 palette {
   yellow "#e9c303"

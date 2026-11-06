@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Jammu and Kashmir (1952-2019)"
-  encoder "Created by Jammu and Kashmir National Conference"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Jammu_and_Kashmir_(1952-2019).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Jammu_and_Kashmir_(1952-2019).svg" {
+    author "Created by Jammu and Kashmir National Conference"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ff0000"

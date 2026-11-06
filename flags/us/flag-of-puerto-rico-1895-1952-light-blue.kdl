@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Puerto Rico (1895-1952, light blue)"
-  encoder "Original: Public Domain Vector: Tektonson"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico_(1895-1952,_light_blue).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico_(1895-1952,_light_blue).svg" {
+    author "Original: Public Domain Vector: Tektonson"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#ce0000"

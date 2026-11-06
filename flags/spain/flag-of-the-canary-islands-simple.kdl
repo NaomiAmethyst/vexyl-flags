@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Canary Islands (simple)"
-  encoder "No machine-readable author provided. Zirland assumed (based on copyright claims)."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Canary_Islands_(simple).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Canary_Islands_(simple).svg" {
+    author "No machine-readable author provided. Zirland assumed (based on copyright claims)."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

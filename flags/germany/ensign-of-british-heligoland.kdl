@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Ensign of British Heligoland"
-  encoder "Cypp0847"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Ensign_of_British_Heligoland.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Ensign_of_British_Heligoland.svg" {
+    author "Cypp0847"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#012169"

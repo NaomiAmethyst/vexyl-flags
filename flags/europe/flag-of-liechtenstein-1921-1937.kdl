@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Liechtenstein (1921–1937)"
-  encoder "arz"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein_(1921%E2%80%931937).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein_(1921%E2%80%931937).svg" {
+    author "arz"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002b7f"

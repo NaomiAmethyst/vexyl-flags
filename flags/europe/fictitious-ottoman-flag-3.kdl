@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Fictitious Ottoman flag 3"
-  encoder "Himasaram"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Fictitious_Ottoman_flag_3.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Fictitious_Ottoman_flag_3.svg" {
+    author "Himasaram"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cb2027"

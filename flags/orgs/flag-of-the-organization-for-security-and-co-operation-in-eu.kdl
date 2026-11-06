@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Organization for Security and Co-operation in Europe"
-  encoder "Organization for Security and Co-operation in Europe - security-oriented intergovernmental organization"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Organization_for_Security_and_Co-operation_in_Europe.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Organization_for_Security_and_Co-operation_in_Europe.svg" {
+    author "Organization for Security and Co-operation in Europe - security-oriented intergovernmental organization"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

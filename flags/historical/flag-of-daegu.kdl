@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Daegu"
-  encoder "Daegu Metropolitan Government. Replica (this file) made by User:D6283"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Daegu.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Daegu.svg" {
+    author "Daegu Metropolitan Government. Replica (this file) made by User:D6283"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#13a439"

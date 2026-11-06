@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "First Flag of I.R.Iran"
-  encoder "MrInfo2012"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:First_Flag_of_I.R.Iran.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:First_Flag_of_I.R.Iran.svg" {
+    author "MrInfo2012"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#239f40"

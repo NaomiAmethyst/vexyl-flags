@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Organization of Turkic States"
-  encoder "Organization of Turkic States - International organization to which Turkic sovereign states are members"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Organization_of_Turkic_States.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Organization_of_Turkic_States.svg" {
+    author "Organization of Turkic States - International organization to which Turkic sovereign states are members"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#00aac7"

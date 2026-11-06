@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Merchant flag of the Ryukyu Kingdom"
-  encoder "Samhanin"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_the_Ryukyu_Kingdom.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_the_Ryukyu_Kingdom.svg" {
+    author "Samhanin"
+    license "CC-BY-3.0"
+  }
 }
 palette {
   red "#e71006"

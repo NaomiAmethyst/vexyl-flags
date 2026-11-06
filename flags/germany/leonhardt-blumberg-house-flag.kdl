@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Leonhardt & Blumberg house flag"
-  encoder "Unknown (anonymous)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Leonhardt_%26_Blumberg_house_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Leonhardt_%26_Blumberg_house_flag.svg" {
+    author "Unknown (anonymous)"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

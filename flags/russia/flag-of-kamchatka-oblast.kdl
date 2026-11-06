@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kamchatka Oblast"
-  encoder "Хинт"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kamchatka_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kamchatka_Oblast.svg" {
+    author "Хинт"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0055d4"

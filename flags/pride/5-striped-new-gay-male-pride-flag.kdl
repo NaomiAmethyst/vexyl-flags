@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "5-striped New Gay Male Pride Flag"
-  encoder "User \"gayflagblog\" on tumblr"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:5-striped_New_Gay_Male_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:5-striped_New_Gay_Male_Pride_Flag.svg" {
+    author "User \"gayflagblog\" on tumblr"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   teal "#078d70"

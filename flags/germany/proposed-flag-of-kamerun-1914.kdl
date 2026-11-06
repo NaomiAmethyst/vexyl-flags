@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Proposed Flag of Kamerun (1914)"
-  encoder "Germenfer"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Proposed_Flag_of_Kamerun_(1914).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Proposed_Flag_of_Kamerun_(1914).svg" {
+    author "Germenfer"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#010101"

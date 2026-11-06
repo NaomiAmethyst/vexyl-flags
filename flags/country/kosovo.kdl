@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kosovo"
-  encoder "Cradel (current version), earlier version by Ningyou"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kosovo.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kosovo.svg" {
+    author "Cradel (current version), earlier version by Ningyou"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#244aa5"

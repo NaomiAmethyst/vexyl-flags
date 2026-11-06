@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Prussia (1466-1772) Lob"
-  encoder "Лобачев Владимир"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Prussia_(1466-1772)_Lob.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Prussia_(1466-1772)_Lob.svg" {
+    author "Лобачев Владимир"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
 }

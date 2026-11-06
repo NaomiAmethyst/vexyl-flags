@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Rainbow Gadsden flag"
-  encoder "Thespoondragon"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Rainbow_Gadsden_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Rainbow_Gadsden_flag.svg" {
+    author "Thespoondragon"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#e3000c"

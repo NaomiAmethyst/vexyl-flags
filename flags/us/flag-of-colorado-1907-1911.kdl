@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Colorado (1907–1911)"
-  encoder "This vector image was created by Ali Zifan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Colorado_(1907%E2%80%931911).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Colorado_(1907%E2%80%931911).svg" {
+    author "This vector image was created by Ali Zifan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00427b"

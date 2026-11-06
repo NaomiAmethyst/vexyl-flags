@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Forest Finns flag"
-  encoder "Original: Frédéric M. Lindboe, Bettina Gullhagen Vector: HapHaxion"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Forest_Finns_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Forest_Finns_flag.svg" {
+    author "Original: Frédéric M. Lindboe, Bettina Gullhagen Vector: HapHaxion"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#3a913f"

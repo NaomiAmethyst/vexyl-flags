@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Spain (1931–1939)"
-  encoder "SanchoPanzaXXI"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1931%E2%80%931939).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1931%E2%80%931939).svg" {
+    author "SanchoPanzaXXI"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   red "#da121a"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the French Southern and Antarctic Lands"
-  encoder "Académie de Grenoble"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_French_Southern_and_Antarctic_Lands.svg" {
+    author "Académie de Grenoble"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#214d9b"

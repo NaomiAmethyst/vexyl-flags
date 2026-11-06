@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mexico (1823-1864, 1867-1893)"
-  encoder "TownDown"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico_(1823-1864,_1867-1893).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico_(1823-1864,_1867-1893).svg" {
+    author "TownDown"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#076d4a"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nevada (1915–1929)"
-  encoder "SVG-image-maker"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nevada_(1915%E2%80%931929).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nevada_(1915%E2%80%931929).svg" {
+    author "SVG-image-maker"
+    license "CC-BY-4.0"
+  }
 }
 palette {
   blue "#002157"

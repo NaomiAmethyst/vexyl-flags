@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "The Gambia"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20240724210224id_/https://judiciary.gov.gm/sites/default/files/2021-07/Constitution%20of%20The%20Gambia.pdf"
   source "https://www.constituteproject.org/constitution/Gambia_2018"
   source "https://www.crwflags.com/fotw/flags/gm.html"

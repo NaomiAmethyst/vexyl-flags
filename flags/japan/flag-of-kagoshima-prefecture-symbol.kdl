@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kagoshima Prefecture (symbol)"
-  encoder "Chubu Corporation, Nardog"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kagoshima_Prefecture_(symbol).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kagoshima_Prefecture_(symbol).svg" {
+    author "Chubu Corporation, Nardog"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

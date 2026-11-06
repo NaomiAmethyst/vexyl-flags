@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of the Community of Madrid"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Community_of_Madrid.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Community_of_Madrid.svg" {
+    license "CC0-1.0"
+  }
 }
 palette {
   red "#c60b1e"

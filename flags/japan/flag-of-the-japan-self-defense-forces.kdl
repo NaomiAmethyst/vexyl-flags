@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Japan Self-Defense Forces"
-  encoder "Japanese Defense Agency/Ministry of Defense, vectorized by Brevam"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Japan_Self-Defense_Forces.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Japan_Self-Defense_Forces.svg" {
+    author "Japanese Defense Agency/Ministry of Defense, vectorized by Brevam"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   yellow "#c0a73f"

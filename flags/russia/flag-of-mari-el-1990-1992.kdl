@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Mari El (1990–1992)"
-  encoder "Kaim Amin"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Mari_El_(1990%E2%80%931992).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Mari_El_(1990%E2%80%931992).svg" {
+    author "Kaim Amin"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#0092fa"

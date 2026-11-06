@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Reederei Ludwig und Jakob Goetz"
-  encoder "Ludwig und Jakob Götz GmbH & Co. KG"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_Reederei_Ludwig_und_Jakob_Goetz.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_Reederei_Ludwig_und_Jakob_Goetz.svg" {
+    author "Ludwig und Jakob Götz GmbH & Co. KG"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#da121a"

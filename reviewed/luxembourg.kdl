@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Luxembourg"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://data.legilux.public.lu/filestore/eli/etat/leg/memorial/1972/a51/fr/pdf/eli-etat-leg-memorial-1972-a51-fr-pdf.pdf"
   source "https://data.legilux.public.lu/filestore/eli/etat/leg/memorial/1993/a73/fr/pdf/eli-etat-leg-memorial-1993-a73-fr-pdf.pdf"
   source "https://www.crwflags.com/fotw/flags/lu.html"
@@ -32,11 +33,7 @@ proportion hoist=3 fly=5
 
 bars red white blue
 
-adapt {
-  range 1.666667 2
-  wider extend
-}
-
 variant long {
-  ratio 2
+  proportion hoist=1 fly=2
+  bars red white blue
 }

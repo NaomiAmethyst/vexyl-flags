@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flagge Fürstentum Schaumburg-Lippe"
-  encoder "David Liuzzo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flagge_F%C3%BCrstentum_Schaumburg-Lippe.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flagge_F%C3%BCrstentum_Schaumburg-Lippe.svg" {
+    author "David Liuzzo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

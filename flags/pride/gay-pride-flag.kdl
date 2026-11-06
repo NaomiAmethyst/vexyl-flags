@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Gay Pride Flag"
-  encoder "Guanaco and subsequent editors"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Copyrighted-Free-Use"
-  source "https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg" {
+    author "Guanaco and subsequent editors"
+    license "LicenseRef-Copyrighted-Free-Use"
+  }
 }
 palette {
   red "#e50000"

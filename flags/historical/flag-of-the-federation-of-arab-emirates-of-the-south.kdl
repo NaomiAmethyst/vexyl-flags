@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Federation of Arab Emirates of the South"
-  encoder "Samhanin"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federation_of_Arab_Emirates_of_the_South.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Federation_of_Arab_Emirates_of_the_South.svg" {
+    author "Samhanin"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   black "#000000"

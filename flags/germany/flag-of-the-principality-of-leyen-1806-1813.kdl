@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Principality of Leyen (1806-1813)"
-  encoder "Sir Iain"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Principality_of_Leyen_(1806-1813).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Principality_of_Leyen_(1806-1813).svg" {
+    author "Sir Iain"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#017cc2"

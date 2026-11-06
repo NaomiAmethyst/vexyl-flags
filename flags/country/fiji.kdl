@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Fiji"
-  encoder "Tessa Mackenzie"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Fiji.svg" {
+    author "Tessa Mackenzie"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

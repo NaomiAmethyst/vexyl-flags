@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Naval ensign of New York (1775)"
-  encoder "BlinxTheKitty"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Naval_ensign_of_New_York_(1775).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Naval_ensign_of_New_York_(1775).svg" {
+    author "BlinxTheKitty"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
 }

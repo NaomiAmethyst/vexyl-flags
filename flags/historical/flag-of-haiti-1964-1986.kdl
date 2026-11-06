@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Haiti (1964–1986)"
-  encoder "B1mbo Coat of arms :Lokal_Profil and Myriam Thyes"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(1964%E2%80%931986).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Haiti_(1964%E2%80%931986).svg" {
+    author "B1mbo Coat of arms :Lokal_Profil and Myriam Thyes"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

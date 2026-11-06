@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Bubi tribal flag"
-  encoder "D. Richfield"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Bubi_tribal_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Bubi_tribal_flag.svg" {
+    author "D. Richfield"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

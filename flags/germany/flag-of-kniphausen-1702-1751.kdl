@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kniphausen (1702-1751)"
-  encoder "Hierakares"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kniphausen_(1702-1751).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kniphausen_(1702-1751).svg" {
+    author "Hierakares"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   blue "#00319a"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Sinoe County"
-  encoder "Original: Presidentially-appointed Sinoe County flag committee Vector: Fry1989"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Sinoe_County.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Sinoe_County.svg" {
+    author "Original: Presidentially-appointed Sinoe County flag committee Vector: Fry1989"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

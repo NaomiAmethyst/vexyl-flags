@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Ghana"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://www.crwflags.com/fotw/flags/gh.html"
   source "https://www.ghanamissionun.org/ghana-flag/"
   source "https://www.judy.legal/legislation/akn/gh/act/1959/61"

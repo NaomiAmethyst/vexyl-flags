@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Baringo County"
-  encoder "SVG-image-maker"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Baringo_County.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Baringo_County.svg" {
+    author "SVG-image-maker"
+    license "CC-BY-4.0"
+  }
 }
 palette {
   green "#00ae3f"

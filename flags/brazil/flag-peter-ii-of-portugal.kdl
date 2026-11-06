@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag Peter II of Portugal"
-  encoder "Tonyjeff, based on ancient national symbol."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_Peter_II_of_Portugal.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_Peter_II_of_Portugal.svg" {
+    author "Tonyjeff, based on ancient national symbol."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#00933d"

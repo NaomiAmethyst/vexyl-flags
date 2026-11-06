@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Nenets Autonomous District"
-  encoder "Original: Unknown Vector: Conscious"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Nenets_Autonomous_District.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Nenets_Autonomous_District.svg" {
+    author "Original: Unknown Vector: Conscious"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

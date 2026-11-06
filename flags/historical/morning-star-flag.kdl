@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Morning Star flag"
-  encoder "Pumbaa80"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Morning_Star_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Morning_Star_flag.svg" {
+    author "Pumbaa80"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#006699"

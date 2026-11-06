@@ -3,7 +3,8 @@ vexyl 1
 meta {
   name "Côte d'Ivoire"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20240617104912id_/https://mjp.univ-perp.fr/constit/ci2016.htm"
   source "https://www.crwflags.com/fotw/flags/ci.html"
   note "Article 48 gives only orange, white and green in vertical stripes of equal size. The order at the hoist is the order it lists them in, and FOTW's description agrees."

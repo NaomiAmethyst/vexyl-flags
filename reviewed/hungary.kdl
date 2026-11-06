@@ -4,7 +4,8 @@ vexyl 1
 meta {
   name "Hungary"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20250102094006/https://njt.hu/jogszabaly/2011-4301-02-00"
   source "https://web.archive.org/web/20250102230906/https://njt.hu/jogszabaly/2000-132-20-22"
   source "https://web.archive.org/web/20220320132741/http://www.mszt.hu/NFU/mszt_zaszlo_cik0821.pdf"

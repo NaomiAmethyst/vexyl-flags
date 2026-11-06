@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Pitcairn Islands"
-  encoder "User:Dbenbenn"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Pitcairn_Islands.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Pitcairn_Islands.svg" {
+    author "User:Dbenbenn"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

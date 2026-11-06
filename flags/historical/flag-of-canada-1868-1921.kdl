@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Canada (1868–1921)"
-  encoder "Greentubing~commonswiki"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(1868%E2%80%931921).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(1868%E2%80%931921).svg" {
+    author "Greentubing~commonswiki"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#012169"

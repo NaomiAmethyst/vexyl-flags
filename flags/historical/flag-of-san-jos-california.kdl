@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of San José, California"
-  encoder "Adam A. Smith"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_San_Jos%C3%A9,_California.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_San_Jos%C3%A9,_California.svg" {
+    author "Adam A. Smith"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Merchant flag of Germany (1946–1949)"
-  encoder "B1mbo"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_Germany_(1946%E2%80%931949).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Merchant_flag_of_Germany_(1946%E2%80%931949).svg" {
+    author "B1mbo"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003399"

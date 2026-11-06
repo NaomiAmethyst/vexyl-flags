@@ -7,7 +7,8 @@ vexyl 1
 meta {
   name "Iceland"
   encoder "Naomi Persephone Amethyst"
-  license "Apache-2.0"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
   source "https://web.archive.org/web/20261009181914id_/https://www.althingi.is/lagasafn/pdf/158a/1944034.pdf"
   source "https://www.stjornartidindi.is/Advert.aspx?RecordID=2eb0fa5c-7754-4816-ad41-2fe15fdb8e7b"
   source "https://www.government.is/topics/governance-and-national-symbols/icelandic-national-flag/"

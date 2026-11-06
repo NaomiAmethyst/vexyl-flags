@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Colonial ensigns of Antigua and Barbuda (1962-1967)"
-  encoder "FOX 52"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-4.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Antigua_and_Barbuda_(1962%E2%80%931967).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Antigua_and_Barbuda_(1962%E2%80%931967).svg" {
+    author "FOX 52"
+    license "CC-BY-SA-4.0"
+  }
 }
 palette {
   blue "#012169"

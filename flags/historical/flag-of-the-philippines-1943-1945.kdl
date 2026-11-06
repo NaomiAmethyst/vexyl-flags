@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Philippines (1943-1945)"
-  encoder "User 50"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines_(1943%E2%80%931945).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Philippines_(1943%E2%80%931945).svg" {
+    author "User 50"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#00468c"

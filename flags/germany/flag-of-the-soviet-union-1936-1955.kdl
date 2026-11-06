@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Soviet Union (1936 – 1955)"
-  encoder "created by rotemliss from Image:Flag of the Soviet Union.svg."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union_(1936_%E2%80%93_1955).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union_(1936_%E2%80%93_1955).svg" {
+    author "created by rotemliss from Image:Flag of the Soviet Union.svg."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bc0000"

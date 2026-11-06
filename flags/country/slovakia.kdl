@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Slovakia"
-  encoder "Original: Ladislav Čisárik and Ladislav Vrtel Vector: SKopp"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Slovakia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Slovakia.svg" {
+    author "Original: Ladislav Čisárik and Ladislav Vrtel Vector: SKopp"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

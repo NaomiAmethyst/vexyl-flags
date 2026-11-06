@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the United States (1959–1960)"
-  encoder "Flag design by the U.S. Government; SVG by Gunter Küchler / Berlin"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1959%E2%80%931960).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1959%E2%80%931960).svg" {
+    author "Flag design by the U.S. Government; SVG by Gunter Küchler / Berlin"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#bf0a30"

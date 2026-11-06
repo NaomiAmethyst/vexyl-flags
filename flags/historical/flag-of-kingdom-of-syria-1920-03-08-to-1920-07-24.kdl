@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Kingdom of Syria (1920-03-08 to 1920-07-24)"
-  encoder "Ch1902"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Syria_(1920-03-08_to_1920-07-24).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Syria_(1920-03-08_to_1920-07-24).svg" {
+    author "Ch1902"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

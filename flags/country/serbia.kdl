@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Serbia"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#c6363c"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Russian administered Zaporizhzhia Oblast"
-  encoder "Perksport"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_administered_Zaporizhzhia_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Russian_administered_Zaporizhzhia_Oblast.svg" {
+    author "Perksport"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#3daa5f"

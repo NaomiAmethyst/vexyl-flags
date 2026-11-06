@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Rhode Island (1877–1882)"
-  encoder "This vector image was created by Ali Zifan"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island_(1877%E2%80%931882).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island_(1877%E2%80%931882).svg" {
+    author "This vector image was created by Ali Zifan"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

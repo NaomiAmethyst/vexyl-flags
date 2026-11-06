@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Vanuatu"
-  encoder "Kalontas Mahlon"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Vanuatu.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Vanuatu.svg" {
+    author "Kalontas Mahlon"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#d21034"

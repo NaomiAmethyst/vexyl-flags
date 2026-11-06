@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Shimane Prefecture"
-  encoder "Guilherme Paula, Mike Rohsopht Insignia This image shows a flag, a coat of arms, a seal or some other official insignia."
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Shimane_Prefecture.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Shimane_Prefecture.svg" {
+    author "Guilherme Paula, Mike Rohsopht Insignia This image shows a flag, a coat of arms, a seal or some other official insignia."
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#950017"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Benito Juarez"
-  encoder "Addicted04"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Benito_Juarez.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Benito_Juarez.svg" {
+    author "Addicted04"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

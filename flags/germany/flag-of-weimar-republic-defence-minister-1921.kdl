@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Weimar Republic (defence minister 1921)"
-  encoder "This file depicts the flag of a German Körperschaft des öffentlichen Rechts (corporation governed by public law). Accord"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Weimar_Republic_(defence_minister_1921).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Weimar_Republic_(defence_minister_1921).svg" {
+    author "This file depicts the flag of a German Körperschaft des öffentlichen Rechts (corporation governed by public law). Accord"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   black "#000000"

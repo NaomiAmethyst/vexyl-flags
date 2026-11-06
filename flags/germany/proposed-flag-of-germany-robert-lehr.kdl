@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Proposed flag of Germany (Robert Lehr)"
-  encoder "Robert Lehr"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_Germany_(Robert_Lehr).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Proposed_flag_of_Germany_(Robert_Lehr).svg" {
+    author "Robert Lehr"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   red "#cc0000"

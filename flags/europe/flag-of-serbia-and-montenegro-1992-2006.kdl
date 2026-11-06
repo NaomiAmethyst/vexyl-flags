@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Flag of Serbia and Montenegro (1992–2006)"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro_(1992%E2%80%932006).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro_(1992%E2%80%932006).svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003893"

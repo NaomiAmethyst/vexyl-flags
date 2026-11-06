@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Tricolor Polyamory Pride Flag"
-  encoder "Red Howell"
+  encoder "Naomi Persephone Amethyst"
   license "CC0-1.0"
-  source "https://commons.wikimedia.org/wiki/File:Tricolor_Polyamory_Pride_Flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Tricolor_Polyamory_Pride_Flag.svg" {
+    author "Red Howell"
+    license "CC0-1.0"
+  }
 }
 palette {
   blue "#009fe3"

@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the European Parliament (1973-1983)"
-  encoder "Ssolbergj"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_European_Parliament_(1973-1983).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_European_Parliament_(1973-1983).svg" {
+    author "Ssolbergj"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#003399"

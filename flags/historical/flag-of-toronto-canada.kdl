@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Toronto, Canada"
-  encoder "Flag designed by Renato De Santis. The original uploader was a3r0 at Wikimedia Commons. Updated image provided by MapGri"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Toronto,_Canada.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Toronto,_Canada.svg" {
+    author "Flag designed by Renato De Santis. The original uploader was a3r0 at Wikimedia Commons. Updated image provided by MapGri"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#274490"

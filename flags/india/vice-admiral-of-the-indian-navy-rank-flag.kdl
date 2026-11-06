@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Vice Admiral of the Indian Navy rank flag"
-  encoder "User:Zscout370 (Return Fire)"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Vice_Admiral_of_the_Indian_Navy_rank_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Vice_Admiral_of_the_Indian_Navy_rank_flag.svg" {
+    author "User:Zscout370 (Return Fire)"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   white "#ffffff"

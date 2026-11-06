@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the Dominican Republic"
-  encoder "Juan Pablo Duarte"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg" {
+    author "Juan Pablo Duarte"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

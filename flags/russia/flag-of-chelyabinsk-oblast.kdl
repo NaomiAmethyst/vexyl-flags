@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Chelyabinsk Oblast"
-  encoder "Mysid"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Chelyabinsk_Oblast.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Chelyabinsk_Oblast.svg" {
+    author "Mysid"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   purple "#9000cc"

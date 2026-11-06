@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Arkansas (1923)"
-  encoder "Zscout370"
+  encoder "Naomi Persephone Amethyst"
   license "CC-BY-SA-3.0"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Arkansas_(1923).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Arkansas_(1923).svg" {
+    author "Zscout370"
+    license "CC-BY-SA-3.0"
+  }
 }
 palette {
   red "#bf0a30"

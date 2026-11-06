@@ -2,8 +2,11 @@
 vexyl 1
 meta {
   name "Scindia house flag"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Scindia_house_flag.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Scindia_house_flag.svg" {
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#001489"

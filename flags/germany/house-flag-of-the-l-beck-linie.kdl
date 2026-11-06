@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "House flag of the Lübeck Linie"
-  encoder "TilmannR"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:House_flag_of_the_L%C3%BCbeck_Linie.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:House_flag_of_the_L%C3%BCbeck_Linie.svg" {
+    author "TilmannR"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   white "#ffffff"

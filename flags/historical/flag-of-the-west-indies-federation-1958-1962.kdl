@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of the West Indies Federation (1958–1962)"
-  encoder "Stepshep"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_the_West_Indies_Federation_(1958%E2%80%931962).svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_the_West_Indies_Federation_(1958%E2%80%931962).svg" {
+    author "Stepshep"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   blue "#002d82"

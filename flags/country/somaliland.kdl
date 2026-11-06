@@ -2,9 +2,12 @@
 vexyl 1
 meta {
   name "Flag of Somaliland"
-  encoder "Government of Somaliland"
+  encoder "Naomi Persephone Amethyst"
   license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Somaliland.svg"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Somaliland.svg" {
+    author "Government of Somaliland"
+    license "LicenseRef-Public-Domain"
+  }
 }
 palette {
   green "#006d21"
