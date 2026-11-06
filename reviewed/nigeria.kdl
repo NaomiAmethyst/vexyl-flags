@@ -1,0 +1,33 @@
+// From the federal government's page, which describes the flag: three equal vertical parts,
+// green, white and green, with the length double the breadth. It gives the color standards
+// recorded as references below.
+// From elsewhere: the hex, Pantone and CMYK are the Album des Pavillons 2023's for Pantone
+// 348 C. FOTW reports them on its Madagascar page. It reports the Album's 2000 edition as
+// using 348 C for Nigeria.
+vexyl 1
+meta {
+  name "Nigeria"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20020821212811id_/http://www.nigeria.gov.ng/aboutnigeria/nationalflag.htm"
+  source "https://www.crwflags.com/fotw/flags/ng.html"
+  source "https://www.crwflags.com/fotw/flags/mg.html"
+  note "The text of the Flag and Coat-of-Arms Ordinance of 1960 wasn't read. The design and proportion come from the federal government's page of about 2002, which names the Ordinance, and whether it has since been changed wasn't confirmed."
+  note "The government's page gives its color standards as British Colour Council CC 104 to CC 105 and SILOR 193-173, emerald green. Neither could be converted here, so the screen color is the Album's. The Album 2023's values for this Pantone are reported by FOTW for Madagascar, not for Nigeria."
+  note "FOTW's contributor reports that the standard NIS 297 of 1987 sets the sleeve to match the outer panels. That standard wasn't read, and the sleeve is omitted."
+  law "Flag and Coat-of-Arms Ordinance, 1960"
+}
+palette {
+  green "#007e3a" {
+    pantone "348 C"
+    cmyk 87 24 97 10
+    reference "British Colour Council" "CC 104 to CC 105"
+    reference "SILOR International Colour Chart" "193-173, Emerald Green"
+  }
+  white "#ffffff"
+}
+proportion hoist=1 fly=2
+
+bars green white green {
+  along hoist
+}

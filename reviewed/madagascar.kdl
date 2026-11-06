@@ -1,0 +1,39 @@
+// From Article 4: three rectangular bands of equal dimensions, the first vertical and
+// white at the staff, the others horizontal, red above green.
+// Derived here: with a hoist of 2, the red and green are each 1 high. Bands of equal
+// dimensions make the white 1 wide by 2 high and each of the others 2 wide by 1 high,
+// so the fly is 3.
+vexyl 1
+meta {
+  name "Madagascar"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "http://www.hcc.gov.mg/wp-content/uploads/2015/09/CONSTITUTION-IV.pdf"
+  source "https://www.crwflags.com/fotw/flags/mg.html"
+  source "https://constitutionnet.org/news/madagascar-military-ousts-president-and-suspends-constitution"
+  note "The law states no proportion. The 2:3 is worked out from its bands of equal dimensions, and FOTW reports the same."
+  note "ConstitutionNet reports that the military leader declared the 2010 Constitution suspended in October 2025. No new text on the flag was found."
+  note "The law gives no shade. The hex, Pantone and CMYK are the Album des Pavillons 2023, as reported by FOTW. The Album itself wasn't read."
+  law "Constitution of the Fourth Republic of Madagascar, 2010, Article 4" {
+    source "http://www.hcc.gov.mg/wp-content/uploads/2015/09/CONSTITUTION-IV.pdf"
+  }
+}
+palette {
+  white "#ffffff"
+  red "#f9423a" {
+    pantone "Warm Red C"
+    cmyk 0 84 73 0
+  }
+  green "#007e3a" {
+    pantone "348 C"
+    cmyk 87 24 97 10
+  }
+}
+proportion hoist=2 fly=3
+
+bars red green
+panel {
+  side hoist
+  width 1
+  field white
+}

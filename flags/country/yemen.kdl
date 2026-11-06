@@ -1,12 +1,28 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Articles 1 and 2: red, white and black from top to bottom, width two
+// thirds of the length, in three rectangles of equal size along the flag's length.
 vexyl 1
 meta {
-  name "Flag of Yemen"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Yemen.svg"
+  name "Yemen"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  date "1990-05-22"
+  source "https://agoye.gov.ye/userimages/book/b-2-2-26.pdf"
+  source "https://www.crwflags.com/fotw/flags/ye.html"
+  source "https://al-bab.com/blog/2010/04/yemen-frets-about-its-flag"
+  note "The law names the colors only. The red's hex, Pantone and CMYK are the Album des Pavillons 2023's, as reported by FOTW. White and black are plain."
+  note "In 2010 the cabinet approved a draft flag law of 18 articles, reported by Al-Bab. Whether it was enacted wasn't established, and its text wasn't found."
+  law "Presidency Council Decision by Law No. 1 of 1990 on the National Flag" {
+    source "https://agoye.gov.ye/userimages/book/b-2-2-26.pdf"
+  }
+  restriction "Article 6: carrying, displaying or selling a flag that departs from the law's specifications, using it as a trademark or for advertising, or flying it torn or in an unfit state is punishable." {
+    source "https://agoye.gov.ye/userimages/book/b-2-2-26.pdf"
+  }
 }
 palette {
-  red "#ce1126"
+  red "#e62d23" {
+    pantone "032 C"
+    cmyk 0 92 89 0
+  }
   white "#ffffff"
   black "#000000"
 }

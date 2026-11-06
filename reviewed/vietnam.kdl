@@ -1,0 +1,40 @@
+// From the Constitution: width 2/3 of the length, red, with a five-pointed gold star in
+// the middle. From Guidance 3420, on a length of 15: the star's center on the diagonals,
+// center to point 1/5 of the length, so radius 3, one point straight up, and straight
+// lines from point to opposite point, which is the default star.
+vexyl 1
+meta {
+  name "Vietnam"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.constituteproject.org/constitution/Socialist_Republic_of_Vietnam_2013"
+  source "https://web.archive.org/web/20170423145213/http://bvhttdl.gov.vn/vn/vb-qly-nn/1/1195/index.html"
+  source "https://cdn.haiphong.gov.vn/gov-hpg/6803/tintuc/2025/8/2.-thong-bao-treo-co-tq-co-dang-trong-dip-cmt8-va-qk-2-9.signed638919712185874663.pdf"
+  source "https://vi.wikipedia.org/wiki/Qu%E1%BB%91c_k%E1%BB%B3_Vi%E1%BB%87t_Nam"
+  source "https://www.crwflags.com/fotw/flags/vn.html"
+  note "The star's size is from a ministry's guidance, which quotes Circular 68/VHTT-TT of 1993. That circular wasn't read, nor was Decision 578 of 1977, which FOTW's contributors name as the origin. A local government notice of 2025 repeats the same terms."
+  note "No standard shade was found. The hex, Pantone and CMYK values are what Vietnamese Wikipedia calls an approximation. The London 2012 manual, as FOTW reports it, gives Pantone 186 and 116."
+  law "Constitution of the Socialist Republic of Vietnam, 2013, Article 13" {
+    source "https://www.constituteproject.org/constitution/Socialist_Republic_of_Vietnam_2013"
+  }
+  law "Guidance No. 3420/HD-BVHTTDL of 2 October 2012 on using the national flag, emblem and anthem" {
+    source "https://web.archive.org/web/20170423145213/http://bvhttdl.gov.vn/vn/vb-qly-nn/1/1195/index.html"
+  }
+}
+palette {
+  red "#da251d" {
+    pantone "1788"
+    cmyk 0 83 87 15
+  }
+  yellow "#ffff00" {
+    pantone "Yellow"
+    cmyk 0 0 100 0
+  }
+}
+proportion hoist=10 fly=15
+
+field red
+charge star yellow {
+  radius 3
+  at center
+}

@@ -1,14 +1,38 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Resolution 2067-XII: two horizontal stripes of equal width, blue over
+// yellow, width to length 2:3. Clause 4.1 of DSTU 4512:2006 says the same.
 vexyl 1
 meta {
-  name "Flag of Ukraine"
-  encoder "Government of Ukraine"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg"
+  name "Ukraine"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  date "1992-01-28"
+  source "https://web.archive.org/web/20250102233930/https://zakon.rada.gov.ua/laws/show/2067-12"
+  source "https://www.constituteproject.org/constitution/Ukraine_2019"
+  source "https://uk.wikisource.org/wiki/%D0%94%D0%A1%D0%A2%D0%A3_4512:2006"
+  source "https://en.wikipedia.org/wiki/Flag_of_Ukraine"
+  note "The Resolution and the Constitution say only blue and yellow. The Pantone numbers and chromaticity limits are the national standard's, read on Wikisource. The hex and CMYK values are Wikipedia's for those Pantone numbers, not the standard's."
+  note "The standard also describes a pole pocket and a hem for the halyard, which this omits."
+  law "Resolution of the Verkhovna Rada No. 2067-XII on the State Flag of Ukraine, 28 January 1992" {
+    source "https://web.archive.org/web/20250102233930/https://zakon.rada.gov.ua/laws/show/2067-12"
+  }
+  law "Constitution of Ukraine, Article 20" {
+    source "https://www.constituteproject.org/constitution/Ukraine_2019"
+  }
+  law "DSTU 4512:2006, State Flag of Ukraine: General Technical Specifications" {
+    source "https://uk.wikisource.org/wiki/%D0%94%D0%A1%D0%A2%D0%A3_4512:2006"
+  }
 }
 palette {
-  blue "#0057b7"
-  yellow "#ffd700"
+  blue "#0057b7" {
+    pantone "2935 C"
+    cmyk 100 63 0 2
+    reference "DSTU 4512:2006 Table 1, chromaticity corners" "x 0.091 0.248 0.307 0.307 0.124; y 0.132 0.334 0.334 0.280 0.057; Y over 0.085"
+  }
+  yellow "#ffd700" {
+    pantone "012 C"
+    cmyk 0 2 98 0
+    reference "DSTU 4512:2006 Table 1, chromaticity corners" "x 0.575 0.539 0.507 0.512; y 0.424 0.410 0.450 0.486; Y over 0.70"
+  }
 }
 proportion hoist=2 fly=3
 

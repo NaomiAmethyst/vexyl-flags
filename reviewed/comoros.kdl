@@ -1,0 +1,59 @@
+// The crescent, stars and triangle's depth are measured from the Commons drawing, on its
+// own grid of 144 by 240:
+//   triangle from the hoist to half the length, 120
+//   crescent radius 34, cut radius 33, offset 13, at (41, 72)
+//   stars radius 7, centers 50 from the hoist, from 50 down in steps of 15
+vexyl 1
+meta {
+  name "Comoros"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://cdn.accf-francophonie.org/2019/03/comores-consitution-2018.pdf"
+  source "https://www.crwflags.com/fotw/flags/km.html"
+  source "https://beit-salam.km/symboles-de-letat/"
+  source "https://en.wikipedia.org/wiki/Flag_of_the_Comoros"
+  note "Article 9 of the 2018 constitution gives four equal stripes in order, a green isosceles triangle on the hoist, a white crescent, and four white stars aligned from one end of the crescent to the other. It gives no sizes, proportion or shades."
+  note "The 3:5 proportion isn't legal. It's what Wikipedia, the Commons drawing and FOTW's contributors give. FOTW also reports 2:3 from a flag chart, and the Presidency's page shows an image of about 9:5."
+  note "All sizes in the triangle, and its depth, are measured from the Commons drawing, the weakest source. The Presidency's image, a better source that states no figures, disagrees: its triangle is about 0.86 of the hoist and its emblem differs slightly. FOTW's contributors judge the triangle to reach the flag's center."
+  note "The law doesn't give the stars' orientation. Point up follows the Presidency's image and, per FOTW, the model supplied at adoption. FOTW also reports a flag with stars pointing to the fly."
+  note "The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW, which says the government documents no shades. White is plain white."
+  law "Constitution of the Union of the Comoros, 2018, Article 9" {
+    source "https://cdn.accf-francophonie.org/2019/03/comores-consitution-2018.pdf"
+  }
+}
+palette {
+  yellow "#fdd100" {
+    pantone "109 C"
+    cmyk 1 17 93 0
+  }
+  white "#ffffff"
+  red "#ef3340" {
+    pantone "32 C"
+    cmyk 0 89 68 0
+  }
+  blue "#0047b6" {
+    pantone "293 C"
+    cmyk 94 73 0 0
+  }
+  green "#009530" {
+    pantone "355 C"
+    cmyk 84 12 100 1
+  }
+}
+proportion hoist=144 fly=240
+
+bars yellow white red blue
+pile green {
+  depth 120
+}
+charge crescent white {
+  radius 34
+  inner 33
+  offset 13
+  at fly=41 hoist=72
+}
+charge star white {
+  radius 7
+  at fly=50 hoist=50
+  repeat line count=4 hoist=15
+}

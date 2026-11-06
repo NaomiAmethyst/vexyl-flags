@@ -1,0 +1,46 @@
+// From the law, Article 6: 2:3, three equal stripes, green, white and black, with three
+// red stars in the middle, within the white.
+// From elsewhere: the law gives the stars no size, spacing or number of points. These
+// are measured from the Commons drawing, on its 600 by 900 grid: radius 82.92, centers
+// at a quarter, a half and three quarters of the length, with each star's height centered
+// on the flag, so 225 + 82.92 = 307.92 down.
+vexyl 1
+meta {
+  name "Syria"
+  series "syria"
+  version "2025"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://upload.wikimedia.org/wikipedia/commons/3/34/Constitutional_Declaration_of_the_Syrian_Arab_Republic_(2025).pdf"
+  source "https://constitutionnet.org/sites/default/files/2025-03/2025.03.13%20-%20Constitutional%20declaration%20(English).pdf"
+  source "https://www.crwflags.com/fotw/flags/sy.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Syria"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(2025-).svg"
+  note "Article 6 literally says the flag's length is two thirds of its width, using length for the side at the pole. This reads it as 2:3, as FOTW does."
+  note "No law found gives the stars a size, spacing or number of points, so those are measured from the drawing on Commons and aren't legal. FOTW's contributors disagree on the size in use, and Wikipedia reports that the Presidency uses smaller stars and the foreign ministry a 3:5 version."
+  note "The law names no shades. The hex, CMYK and Pantone values are Wikipedia's."
+  law "Constitutional Declaration of the Syrian Arab Republic, 13 March 2025, Article 6" {
+    source "https://upload.wikimedia.org/wikipedia/commons/3/34/Constitutional_Declaration_of_the_Syrian_Arab_Republic_(2025).pdf"
+    source "https://constitutionnet.org/sites/default/files/2025-03/2025.03.13%20-%20Constitutional%20declaration%20(English).pdf"
+  }
+}
+palette {
+  green "#007a3d" {
+    cmyk 89 27 100 15
+  }
+  white "#ffffff"
+  black "#000000"
+  red "#ce1126" {
+    pantone "186 C"
+    cmyk 12 100 98 3
+  }
+}
+proportion hoist=600 fly=900
+
+bars green white black
+charge star red {
+  radius 82.92
+  at fly=225 hoist=307.92
+  at fly=450 hoist=307.92
+  at fly=675 hoist=307.92
+}

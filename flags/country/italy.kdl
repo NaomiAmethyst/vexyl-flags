@@ -1,14 +1,36 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// Three vertical bands of equal size: green, white and red.
 vexyl 1
 meta {
-  name "Flag of Italy"
-  license "LicenseRef-Public-Domain"
-  source "https://en.wikipedia.org/wiki/File:Flag_of_Italy.svg"
+  name "Italy"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20250116201857/https://www.senato.it/istituzione/la-costituzione/principi-fondamentali/articolo-12"
+  source "https://www.gazzettaufficiale.it/do/atto/serie_generale/caricaPdf?cdimg=06A0689600100010110001&dgu=2006-07-28&art.dataPubblicazioneGazzetta=2006-07-28&art.codiceRedazionale=06A06896&art.num=1&art.tiposerie=SG"
+  source "https://www.crwflags.com/fotw/flags/it.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Italy"
+  note "No law read gives a proportion. The 2:3 is Wikipedia's and a FOTW contributor's observation, and isn't a legal value."
+  note "The Pantone textile codes are Article 31 of the decree of 14 April 2006, read in the Gazzetta Ufficiale's page images. A later decree of 16 April 2008 on the same subject is reported, and it wasn't read."
+  note "The law sets the shades only as cloth references. The hex and CMYK are the Album des Pavillons 2023, as reported by FOTW. The Album itself wasn't read."
+  law "Constitution of the Italian Republic, Article 12" {
+    source "https://web.archive.org/web/20250116201857/https://www.senato.it/istituzione/la-costituzione/principi-fondamentali/articolo-12"
+  }
+  law "Decree of the President of the Council of Ministers of 14 April 2006, general provisions on ceremonial and precedence, Article 31" {
+    source "https://www.gazzettaufficiale.it/do/atto/serie_generale/caricaPdf?cdimg=06A0689600100010110001&dgu=2006-07-28&art.dataPubblicazioneGazzetta=2006-07-28&art.codiceRedazionale=06A06896&art.num=1&art.tiposerie=SG"
+  }
 }
 palette {
-  green "#009246"
-  white "#ffffff"
-  red "#ce2b37"
+  green "#008a36" {
+    pantone "17-6153 TPX"
+    cmyk 84 14 92 2
+  }
+  white "#f1f2f1" {
+    pantone "11-0601 TPX"
+    cmyk 7 4 6 0
+  }
+  red "#ce2b37" {
+    pantone "18-1662 TPX"
+    cmyk 12 93 75 3
+  }
 }
 proportion hoist=2 fly=3
 

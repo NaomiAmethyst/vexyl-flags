@@ -1,23 +1,46 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the decree's text, on a grid of 10 by 15, the stripes being 2, 1, 4, 1, 2:
+//   star radius equal to a green stripe, so 2, with one point up on the vertical median
+//   the top point is as far from the top of the red as the two lowest points are from
+//   its bottom, so the star's center is at 5 + 2(1 - cos 36)/2 = 5.19098 (derived here)
+// So the star's circle sits just below the flag's center. From elsewhere: hex, Pantone
+// and CMYK.
 vexyl 1
 meta {
-  name "Flag of Suriname"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Suriname.svg"
+  name "Suriname"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20190808201030/https://kennisbanksu.com/wp-content/uploads/2017/08/Vlag-Suriname-Kennisbanksu.pdf"
+  source "https://www.crwflags.com/fotw/flags/sr.html"
+  note "The sizes and paint mixes are from an extract of the decree on the Kennisbank Suriname site, which matches FOTW's translation of the decree's appendix. The decree's number and date are FOTW's, and the Government Gazette itself wasn't read."
+  note "The decree gives colors only as paint mixes. The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW."
+  law "Decree of the Governor of 25 November 1975, Government Gazette of Suriname 1975 No. 160" {
+    source "https://web.archive.org/web/20190808201030/https://kennisbanksu.com/wp-content/uploads/2017/08/Vlag-Suriname-Kennisbanksu.pdf"
+  }
 }
 palette {
-  green "#377e3f"
+  green "#007229" {
+    pantone "356 C"
+    cmyk 89 29 100 18
+    reference "Paint mix" "nine parts chromate green, one part white"
+  }
   white "#ffffff"
-  red "#b40a2d"
-  yellow "#ecc81d"
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+    reference "Paint mix" "four parts bright orange (vermilion), six parts carmine (geranium)"
+  }
+  yellow "#ffce00" {
+    pantone "116 C"
+    cmyk 0 19 93 0
+    reference "Paint mix" "twelve parts chromate yellow, one part white"
+  }
 }
-proportion hoist=2 fly=3
+proportion hoist=10 fly=15
 
 bars green white red white green {
   ratio 2 1 4 1 2
 }
-
 charge star yellow {
-  radius 0.4
-  at fly=1.5 hoist=1.0382
+  radius 2
+  at fly=7.5 hoist=5.19098
 }

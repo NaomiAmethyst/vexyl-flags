@@ -16,9 +16,21 @@ the Vexyl repo.
 | `flags/territories/`, `us/`, `russia/`, `germany/`, `japan/`, `india/`, `brazil/`, `mexico/`, `spain/`, `swiss/`, `europe/` | Regional flags, by the family they were found in |
 | `flags/historical/`, `ethnic/`, `orgs/`, `signal/` | Historical, ethnic and organization flags, and signal flags |
 
-`reviewed/` holds flags written by hand, where the importer's reading of a sovereign flag was
-poor, or copied from the Vexyl repo's own checked flags. They replace their imports in
-`flags/`, as `reviewed/map.tsv` records. Each was compared with its source too.
+`reviewed/` holds flags written by hand, or copied from the Vexyl repo's own checked flags.
+They replace their imports in `flags/`, as `reviewed/map.tsv` records. Each was compared with
+its source too, though a law can rightly disagree with a drawing.
+
+Flags written from their laws say in their notes where each value comes from, and
+`reviewed/evidence.tsv` gives each an evidence tier:
+
+| Tier | Meaning |
+|---|---|
+| `A` | A law was read, and it covers the flag's geometry |
+| `B` | A law was read, and gaps were filled from labeled secondary sources |
+| `C` | No law was read |
+
+Even in tier A, a flag's screen colors usually come from elsewhere, because few laws give them.
+None of this is legal advice, and a law read here could have changed since.
 
 ## How they were made
 

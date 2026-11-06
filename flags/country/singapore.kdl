@@ -1,31 +1,43 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the Act: equal red over white, 2:3, a crescent and five stars in the canton.
+// From a 1959 official diagram, as Christopher Southworth reports it on FOTW, in units of
+// 72 to a stripe:
+//   crescent circles of diameter 53 and 58, outer edge 19 from the hoist
+//   second center 41 from that edge, so centers at 45.5 and 60, offset 14.5
+//   a circle of diameter 30.4 about the second center, for the stars
+// Measured from the Act's drawing: stars of radius 6.9. FOTW reports circles of 12.8.
+//   emblem centered on the stripe, at 36
+// The drawing in the Act's schedule measures within about 1 unit of these on this grid.
 vexyl 1
 meta {
-  name "Flag of Singapore"
-  encoder "Original: Government of Singapore Vector: Zscout370"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Singapore.svg"
+  name "Singapore"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://sso.agc.gov.sg/Acts-Supp/29-2022/Published/20221005?DocDate=20221005&ViewType=Pdf&_=20230801025130"
+  source "https://www.crwflags.com/fotw/flags/sg.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Singapore"
+  note "The sections, proportion and the emblem's elements are from the Act's First Schedule, with a drawing and no measurements. The emblem's measurements are a 1959 official diagram as reported on FOTW. That diagram wasn't read. The stars follow the Act's drawing, which measures a radius of about 6.9 on this grid, not the 6.4 implied by FOTW's report of the diagram."
+  note "The Act gives no shade. Pantone 032 for the red is the government's National Symbols Kit, reported by FOTW, and the hex is Wikipedia's. White is plain white."
+  law "National Symbols Act 2022, section 3 and First Schedule, Part 1" {
+    source "https://sso.agc.gov.sg/Acts-Supp/29-2022/Published/20221005?DocDate=20221005&ViewType=Pdf&_=20230801025130"
+  }
 }
 palette {
-  red "#ed2939"
+  red "#ee2536" {
+    pantone "032"
+  }
   white "#ffffff"
 }
-proportion hoist=2 fly=3
+proportion hoist=144 fly=216
 
 bars red white
-
-charge disc white {
-  radius 0.3681
-  at fly=0.6336 hoist=0.5
+charge crescent white {
+  radius 26.5
+  inner 29
+  offset 14.5
+  at fly=45.5 hoist=36
 }
-
-charge disc red {
-  radius 0.4028
-  at fly=0.835 hoist=0.5
-}
-
 charge star white {
-  radius 0.0958
-  at fly=0.835 hoist=0.5
-  repeat ring count=5 radius=0.2111
+  radius 6.9
+  at fly=60 hoist=36
+  repeat ring count=5 radius=15.2
 }

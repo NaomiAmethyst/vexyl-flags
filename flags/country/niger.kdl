@@ -1,21 +1,40 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law: Article 4 of the Charter of 2025, three equal horizontal bands of orange,
+// white and green, with an orange disc in the middle of the white.
+// From elsewhere: the law gives no proportion, disc size or shade. 2:3 is FOTW's. The disc
+// is measured from FOTW's drawing, at 56 pixels on a hoist of 216, which is 14 on this grid
+// of 54. The colors are the Album des Pavillons 2023's, as FOTW reports it.
 vexyl 1
 meta {
-  name "Flag of Niger"
-  encoder "Made by: Philippe Verdy User:verdy_p, see also fr:Utilisateur:verdy_p."
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Niger.svg"
+  name "Niger"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20260718183047id_/https://www.refworld.org/sites/default/files/2025-05/charte-refondation-26mars2025.pdf"
+  source "https://www.crwflags.com/fotw/flags/ne.html"
+  source "https://www.crwflags.com/fotw/images/n/ne.gif"
+  note "No law read gives a proportion. The 2:3 is what FOTW's contributors recommend, from the government's website and from flags in use. 6:7 is widely printed, but FOTW's contributors found no legal basis for it."
+  note "No law read gives the disc's size, so it's measured from FOTW's drawing and isn't a legal value."
+  note "The law gives no shades. The orange and green hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. White is plain white."
+  note "Act 59-1 of 23 November 1959 is known here only from FOTW, whose contributor reports that it gives neither a ratio nor a disc size. Its text wasn't read."
+  law "Charter of the Refoundation, promulgated by Decree No. 2025-160/P/CNSP of 26 March 2025, Article 4" {
+    source "https://web.archive.org/web/20260718183047id_/https://www.refworld.org/sites/default/files/2025-05/charte-refondation-26mars2025.pdf"
+  }
+  law "Act 59-1 of 23 November 1959"
 }
 palette {
-  orange "#e05206"
+  orange "#e55300" {
+    pantone "166 C"
+    cmyk 3 78 100 0
+  }
   white "#ffffff"
-  green "#0db02b"
+  green "#12ad2b" {
+    pantone "361 C"
+    cmyk 78 0 100 0
+  }
 }
-proportion hoist=6 fly=7
+proportion hoist=54 fly=81
 
 bars orange white green
-
 charge disc orange {
-  radius 0.85
+  radius 7
   at center
 }

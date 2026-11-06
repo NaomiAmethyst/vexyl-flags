@@ -1,58 +1,56 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the construction sheet, on its grid of 28 by 14 units, with stripes of 1:
+//   canton 14 by 8
+//   along the fly, 2 3/4 to the crescent, 3 to its center, 3 to the star's center,
+//     2 1/2 to the star's edge, and 2 3/4 to the canton's edge
+//   crescent's outer diameter 6, and its greatest width 1
+//   star's outer diameter 5 and inner diameter 2, with point 1 straight up
+// Measured here: the sheet doesn't label the crescent's inner circle. A fit to its
+// image gives a radius of about 2.62 to 2.67, taken as 2.65, and the width of 1 then
+// makes the offset 0.65.
 vexyl 1
 meta {
-  name "Flag of Malaysia"
-  encoder "MapGrid (old version SKopp, Zscout370 and Ranking Update)"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg"
+  name "Malaysia"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.asean.org/wp-content/uploads/2012/05/NATIONAL-FLAG-OF-MALAYSIA.pdf"
+  source "https://dbook.penerangan.gov.my/dbook/dmdocuments/bendera_kita_jalur_gemilang_2017/files/basic-html/page12.html"
+  source "https://www.crwflags.com/fotw/flags/my'.html"
+  note "No law defining the flag was found. The geometry and the 1:2 are the construction sheet in a document on the ASEAN Secretariat's site, which isn't law."
+  note "That document's color list swaps two names, giving blue as Pantone 199 and red as 2768. They're recorded here against the colors that they are, as FOTW also reads them. The Department of Information's booklet Bendera Kita Jalur Gemilang (2017) gives the same three numbers."
+  note "The hex values are those of the color drawing in the same document, and no source states them as values."
+  note "The crescent's inner circle is measured from the sheet's image, because the sheet doesn't label it."
 }
 palette {
+  red "#cc0001" {
+    pantone "199"
+  }
   white "#ffffff"
-  red "#cc0000"
-  blue "#000066"
-  yellow "#ffcc00"
+  blue "#010066" {
+    pantone "2768"
+  }
+  yellow "#ffcc00" {
+    pantone "108"
+  }
 }
-proportion hoist=28 fly=56
+proportion hoist=14 fly=28
 
-field white
-
-panel {
-  corner upper-fly
-  fly 54
-  hoist 2
-  field red
+bars red white {
+  count 14
 }
-
-charge rect red {
-  fly 54
-  hoist 2
-  at fly=29 hoist=5
-  repeat line count=3 hoist=4
-}
-
 canton {
-  fly 28
-  hoist 17
+  fly 14
+  hoist 8
   field blue
-}
-
-charge rect red {
-  fly 56
-  hoist 2
-  at fly=28 hoist=17
-  repeat line count=3 hoist=4
-}
-
-charge crescent yellow {
-  radius 6
-  inner 5.3333
-  offset 1.3333
-  at fly=11.5 hoist=8
-}
-
-charge star yellow {
-  radius 5
-  inner 2
-  points 14
-  at fly=17.5 hoist=8
+  charge crescent yellow {
+    radius 3
+    inner 2.65
+    offset 0.65
+    at fly=5.75 hoist=4
+  }
+  charge star yellow {
+    radius 2.5
+    inner 1
+    points 14
+    at fly=8.75 hoist=4
+  }
 }

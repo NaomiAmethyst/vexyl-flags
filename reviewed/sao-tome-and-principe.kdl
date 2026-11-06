@@ -1,0 +1,46 @@
+// From the Constitution: green bars of equal width, the middle yellow bar 1.5 times as wide,
+// and a triangle on the hoist with height half its base. So bars 4:6:4, a triangle 7 deep.
+// From the Album 2000's construction details, as FOTW shows them: 14 by 7 + 7 + 7 + 7,
+// so the stars are centered 14 and 21 along, on circles of diameter 4.
+vexyl 1
+meta {
+  name "São Tomé and Príncipe"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20241113155533/https://stj.st/index.php/constituicao-da-republica?download=2:constituicao-da-republica"
+  source "https://www.crwflags.com/fotw/flags/st.html"
+  note "The bars and triangle are from Article 14. The Constitution gives no proportion, no star size or position, and no shades."
+  note "The 1:2 proportion and the stars are from the Album des Pavillons 2000's construction, as reported by FOTW. Flagmaster 96, also on FOTW, reads the stars differently, placing them on thirds of the whole length, which FOTW treats as a mistake."
+  note "The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. Black is plain black."
+  law "Constitution of the Democratic Republic of São Tomé and Príncipe, Law No. 1/2003, Article 14" {
+    source "https://web.archive.org/web/20241113155533/https://stj.st/index.php/constituicao-da-republica?download=2:constituicao-da-republica"
+  }
+}
+palette {
+  green "#12ad2b" {
+    pantone "361 C"
+    cmyk 78 0 100 0
+  }
+  yellow "#ffce00" {
+    pantone "116 C"
+    cmyk 0 19 93 0
+  }
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+  }
+  black "#000000"
+}
+proportion hoist=14 fly=28
+
+bars green yellow green {
+  ratio 4 6 4
+}
+pile red {
+  depth 7
+}
+charge star black {
+  radius 2
+  at fly=14 hoist=7
+  at fly=21 hoist=7
+}

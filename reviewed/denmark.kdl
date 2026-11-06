@@ -1,0 +1,36 @@
+// Cross 1/7 of the height, the fields at the pole square, the outer fields 7/4 of their
+// length. On a height of 28: cross 4, square fields 12, outer fields 21, so 12:4:21 by
+// 12:4:12 and a length of 37.
+vexyl 1
+meta {
+  name "Denmark"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.retsinformation.dk/api/pdf/246718"
+  source "https://www.folketingstidende.dk/samling/20241/lovforslag/L21/20241_L21_som_fremsat.pdf"
+  source "https://www.crwflags.com/fotw/flags/dk.html"
+  source "https://snl.no/Danmarks_flagg_og_v%C3%A5pen"
+  source "https://en.wikipedia.org/wiki/Flag_of_Denmark"
+  note "The 2024 law says only that the national flag is Dannebrog. It gives no geometry."
+  note "The geometry is in the government's remarks on bill L 21 of 2024, under section 1, which aren't law. They give the cross as 1/7 of the height at the staff, square fields there, and outer fields 1 3/4 times the inner ones. FOTW and Store norske leksikon report the same 28:37."
+  note "FOTW reports the older figures too: a regulation of 1748 has outer fields of 6/4, or 14:17, and a statement of 1893 tolerated up to 7/4 without canceling it. The Defence Ministry's ceremonial book is reported with 14:17. None of these was read, and FOTW and Wikipedia date the 1748 regulation differently, to 11 July and 11 June."
+  note "Pantone 186 C is in the same remarks, and FOTW and Wikipedia report it from DS 359:2005, which wasn't read. The hex and CMYK values are the Album des Pavillons 2023's for that Pantone, as reported by FOTW. White is plain white."
+  note "This is the rectangular stutflag, not the state's swallow-tailed splitflag."
+  law "Act No. 1449 of 10 December 2024 on flying flags, section 1" {
+    source "https://www.retsinformation.dk/api/pdf/246718"
+  }
+}
+palette {
+  red "#c8102e" {
+    pantone "186 C"
+    cmyk 14 100 79 4
+  }
+  white "#ffffff"
+}
+proportion hoist=28 fly=37
+
+field red
+cross white {
+  fly 12 4 21
+  hoist 12 4 12
+}

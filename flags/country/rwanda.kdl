@@ -1,32 +1,56 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// Article 4, the 195 by 130 cm flag: blue 65, yellow and green 32.5 each.
+//   sun diameter 13, rays across 42, rays 13 from the top and 14 from the fly edge
+//   so the center is 195 - 14 - 21 = 160 along and 13 + 21 = 34 down
+// The 30 by 20 and 225 by 150 flags in Article 4 scale to about the same.
+// The annex's table has D = 0.125 Y, which would be 24.4, but its B = D/3 only reaches
+// the text's 14 with D = 42, and its drawing shows the larger sun. This follows the text.
+// The ring's inner radius is scaled from the annex's drawing.
 vexyl 1
 meta {
-  name "Flag of Rwanda"
-  encoder "Original: Unknown Vector: Zscout370"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Rwanda.svg"
+  name "Rwanda"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.rlrc.gov.rw/index.php?eID=dumpFile&t=f&f=74762&token=cb41274d1a4b2d1626672542e40024a521270e26"
+  source "https://www.ecoi.net/en/file/local/2050279/60872f7d4.pdf"
+  source "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Publications/National_Symbols/National_Flag/Rwanda_Flag.jpg"
+  source "https://www.crwflags.com/fotw/flags/rw.html"
+  note "The stripes, proportion, sun, rays and color codes are from Law 34/2008. It gives no ring width, so that is scaled from its annex's drawing, and the 24 rays are counted from it."
+  note "The annex's D = 0.125 Y conflicts with the law's own measurements, and this follows the measurements, as the same annex's B = D/3 does. FOTW's Zoltan Horvath reads the figure as a misprint of 0.215."
+  note "The law's codes aren't screen colors. The hex values are sampled from the government's flag JPEG, which isn't a conversion of those codes and whose drawing doesn't follow the law's proportion or ray shapes. The sampled yellow is much paler than RAL 1023. The Album des Pavillons 2023, as reported by FOTW, gives other Pantones again."
+  law "Law No. 34/2008 of 08/08/2008 on characteristics, description, ceremonial and respect of the national flag, Articles 2, 4 and 6, and annex" {
+    source "https://www.rlrc.gov.rw/index.php?eID=dumpFile&t=f&f=74762&token=cb41274d1a4b2d1626672542e40024a521270e26"
+  }
+  law "Law No. 42/2018 of 13/08/2018 modifying Law No. 34/2008" {
+    source "https://www.ecoi.net/en/file/local/2050279/60872f7d4.pdf"
+  }
 }
 palette {
-  blue "#00a3e0"
-  yellow "#fad201"
-  green "#20603d"
-  dark-yellow "#e5be01"
+  blue "#008bcc" {
+    pantone "299 C 2x"
+  }
+  yellow "#eae950" {
+    ral "1023"
+  }
+  green "#109351" {
+    ral "6029"
+  }
+  gold "#fad644" {
+    ral "1003"
+  }
 }
-proportion hoist=2 fly=3
+proportion hoist=130 fly=195
 
 bars blue yellow green {
   ratio 2 1 1
 }
-
-charge star dark-yellow {
-  radius 0.3231
-  inner 0.1
+charge star gold {
+  radius 21
+  inner 6.5
   points 24
-  at fly=2.4615 hoist=0.5231
+  at fly=160 hoist=34
 }
-
 charge ring blue {
-  radius 0.1
-  inner 0.0885
-  at fly=2.4615 hoist=0.5231
+  radius 6.5
+  inner 5.75
+  at fly=160 hoist=34
 }

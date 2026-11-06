@@ -1,38 +1,48 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From Christopher Southworth's measurements of an undated Prime Minister's Office
+// sheet, as FOTW reports them, on a flag of 100 by 150:
+//   stripe 30, each fimbriation 6, stars in circles of diameter 28
+//   star centers 48 from the hoist and 45 from the fly, which is 105 along
+//   on the diagonal, height = 100 - along * 100/150, so 68 and 30 (derived here)
+//   rotation atan(100/150) = 33.6901 degrees, two points parallel to the stripe
 vexyl 1
 meta {
-  name "Flag of Saint Kitts and Nevis"
-  encoder "Edrice Lewis"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Kitts_and_Nevis.svg"
+  name "Saint Kitts and Nevis"
+  designer "Edrice Lewis"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.crwflags.com/fotw/flags/kn.html"
+  note "No flag law was found, so nothing here is legal. The proportion is the Album des Pavillons 2000's, the construction is FOTW contributors' reading of a Prime Minister's Office sheet, and the colors are the Album des Pavillons 2023's, all as reported by FOTW. Neither the sheet nor the Album was read."
+  note "The stars' rotation is Željko Heimer's and Christopher Southworth's reading. Southworth first gave them one point straight down, about 2 degrees different, then corrected this from the sheet."
 }
 palette {
-  green "#009739"
-  red "#c8102e"
-  yellow "#ffcd00"
+  green "#009530" {
+    pantone "355 C"
+    cmyk 84 12 100 1
+  }
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+  }
+  yellow "#ffce00" {
+    pantone "116 C"
+    cmyk 0 19 93 0
+  }
   black "#000000"
   white "#ffffff"
 }
-proportion hoist=10 fly=15
+proportion hoist=100 fly=150
 
-pile green {
-  tip 0 15
+bars green red {
+  along bend-sinister
 }
-
-pile red {
-  from fly
-  tip 10 15
-}
-
 band black {
   along bend-sinister
-  width 3
-  fimbriate yellow 0.6
+  width 30
+  fimbriate yellow 6
 }
-
 charge star white {
-  radius 1.4
-  rotate -33.6896
-  at fly=4.6875 hoist=7.0343
-  at fly=10.4588 hoist=3.1875
+  radius 14
+  rotate -33.6901
+  at fly=48 hoist=68
+  at fly=105 hoist=30
 }

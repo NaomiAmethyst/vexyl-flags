@@ -1,15 +1,38 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// Three horizontal stripes of equal width, red, white and green from the top.
+// Each size in the decree's annex (100x200, 150x300, 200x400 cm) reduces to 1:2.
 vexyl 1
 meta {
-  name "Flag of Hungary"
-  encoder "SKopp"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg"
+  name "Hungary"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20250102094006/https://njt.hu/jogszabaly/2011-4301-02-00"
+  source "https://web.archive.org/web/20250102230906/https://njt.hu/jogszabaly/2000-132-20-22"
+  source "https://web.archive.org/web/20220320132741/http://www.mszt.hu/NFU/mszt_zaszlo_cik0821.pdf"
+  source "https://web.archive.org/web/20150812130850/http://www.tmte.hu/11kiadvanyok/111matete/111_2009_05_pdf/203_Zaszlo.pdf"
+  source "https://jogkodex.hu/jsz/1957_51_korm_rendelet_9978927"
+  source "https://www.crwflags.com/fotw/flags/hu.html"
+  source "https://en.wikipedia.org/wiki/Flag_of_Hungary"
+  note "The Fundamental Law gives the stripes and colors but no proportion. The 1:2 comes from the annex of Decree 132/2000, which sets the sizes of flags on public buildings only, so it isn't a general rule."
+  note "Decree 51/1957 set 2:3 for sea-going merchant ships. Jogkodex shows it in force only until 30 April 2004, although FOTW and Wikipedia still treat it as current. This file doesn't include that form."
+  note "The Pantone and CIELAB values are from two articles about the standard MSZ 1361:2009. The standard itself wasn't read. The articles give the CIELAB values in discussing the withdrawn 1988 standard and say they should still be required. The decree still names the 1988 standard."
+  note "The hex values are Wikipedia's for those Pantone textile colors, and aren't legal values."
+  law "Fundamental Law of Hungary, Article I(2)" {
+    source "https://web.archive.org/web/20250102094006/https://njt.hu/jogszabaly/2011-4301-02-00"
+  }
+  law "Government Decree 132/2000 (VII. 14.) on the flagging of public buildings" {
+    source "https://web.archive.org/web/20250102230906/https://njt.hu/jogszabaly/2000-132-20-22"
+  }
 }
 palette {
-  red "#ce2939"
+  red "#ce2939" {
+    pantone "18-1660 TCX"
+    reference "CIELAB L* C*ab hab" "44.0 60.0 32.0"
+  }
   white "#ffffff"
-  green "#477050"
+  green "#477050" {
+    pantone "18-6320 TCX"
+    reference "CIELAB L* C*ab hab" "37.5 26.0 144.0"
+  }
 }
 proportion hoist=1 fly=2
 

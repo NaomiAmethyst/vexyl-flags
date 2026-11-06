@@ -1,22 +1,42 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// Stripes of 2 on a grid of 6 by 9. The star's height equals the middle stripe, so
+// R (1 + cos 36) = 2 gives R = 1.10557, and its center is 2 + R = 3.10557 down (derived).
 vexyl 1
 meta {
-  name "Flag of Ghana"
-  encoder "Theodosia Okoh"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Ghana.svg"
+  name "Ghana"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.crwflags.com/fotw/flags/gh.html"
+  source "https://www.ghanamissionun.org/ghana-flag/"
+  source "https://www.judy.legal/legislation/akn/gh/act/1959/61"
+  note "No law defining the design was found, and FOTW's editors report the same, and that the constitution doesn't mention the flag. The red, gold and green stripes and the black star in the gold are from the Permanent Mission to the UN."
+  note "The 2:3 proportion, and the star touching the other two stripes, are the Album des Pavillons 2000's, as reported by FOTW. The star's size is derived from that, and isn't stated."
+  note "The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. Its printed yellow CMYK, 0-1-93-0, looks like a typo for the 0-21-93-0 it gives the same Pantone elsewhere, which is used here. Black is plain black."
+  law "Flag and Arms Protection Act, 1959 (Act 61)" {
+    source "https://www.judy.legal/legislation/akn/gh/act/1959/61"
+  }
+  restriction "Section 1: the design of the flag may not be used without the Minister's licence, except by display on a public holiday or a day proclaimed as a festive occasion." {
+    source "https://www.judy.legal/legislation/akn/gh/act/1959/61"
+  }
 }
 palette {
-  red "#ce1126"
-  yellow "#fcd116"
-  green "#006b3f"
+  red "#da291c" {
+    pantone "485 C"
+    cmyk 6 94 96 0
+  }
+  yellow "#ffcc00" {
+    pantone "116 C"
+    cmyk 0 21 93 0
+  }
+  green "#006233" {
+    pantone "3425 C"
+    cmyk 91 34 95 29
+  }
   black "#000000"
 }
-proportion hoist=2 fly=3
+proportion hoist=6 fly=9
 
 bars red yellow green
-
 charge star black {
-  radius 0.3685
-  at fly=1.5 hoist=1.0352
+  radius 1.10557
+  at fly=4.5 hoist=3.10557
 }

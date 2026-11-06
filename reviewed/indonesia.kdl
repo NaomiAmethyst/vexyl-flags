@@ -1,0 +1,20 @@
+// From Article 4(1): breadth 2/3 of the length, red above and white below, in equal parts.
+vexyl 1
+meta {
+  name "Indonesia"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://id.wikisource.org/wiki/Undang-Undang_Republik_Indonesia_Nomor_24_Tahun_2009"
+  note "The law's text was read as reproduced on Wikisource, because the government's database refused the download."
+  note "The geometry is Article 4(1). The RGB values are in the official elucidation of that article, not in the article itself."
+  law "Law No. 24 of 2009 on the National Flag, Language and Emblem and the National Anthem" {
+    source "https://id.wikisource.org/wiki/Undang-Undang_Republik_Indonesia_Nomor_24_Tahun_2009"
+  }
+}
+palette {
+  red "#ff0000"
+  white "#ffffff"
+}
+proportion hoist=2 fly=3
+
+bars red white

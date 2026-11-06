@@ -1,0 +1,31 @@
+// The Royal Decree of 1937 says red, white and blue. The Defence Ministry's manual gives
+// three equal bands and 2:3 in its chapter 3, and CIE values in its Annex H.
+vexyl 1
+meta {
+  name "Netherlands"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.crwflags.com/fotw/flags/nl.html"
+  source "https://web.archive.org/web/20250619144358id_/https://puc.overheid.nl/mp-bundels/doc/PUC_200100000000_10/1/"
+  source "https://en.wikipedia.org/wiki/Flag_of_the_Netherlands"
+  note "Equal bands and 2:3 are from the Defence Ministry's ceremonial manual, chapter 3, and the CIE values from its Annex H on Navy flags. It binds the armed forces, and it prefers at least 2:3 on angled poles and at least 3:5 on horizontal ones. The Royal Decree gives only the colors' names."
+  note "The hex values are Wikipedia's conversions of the manual's CIE values, so they aren't legal values. The manual's Y = 100 for an ideal white defines its scale only, so white is plain white."
+  note "The Royal Decree was read as FOTW reproduces it. The ministerial order of 16 August 1949, which the manual cites for the shades, and the standard NEN 3055 of 1958, weren't read."
+  note "The manual also gives the flag a white linen hoist band, which this omits."
+  law "Royal Decree of 19 February 1937, No. 93" {
+    source "https://www.crwflags.com/fotw/flags/nl.html"
+  }
+  law "Order of the Minister of the Navy of 16 August 1949, No. 182503/142779"
+}
+palette {
+  red "#ad1d25" {
+    reference "CIE XYZ, illuminant C, 45 degrees" "X 18.3, Y 10.0, Z 3.0; x 0.5847, y 0.3195"
+  }
+  white "#ffffff"
+  blue "#1e4785" {
+    reference "CIE XYZ, illuminant C, 45 degrees" "X 7.5, Y 6.6, Z 25.3; x 0.1904, y 0.1675"
+  }
+}
+proportion hoist=2 fly=3
+
+bars red white blue

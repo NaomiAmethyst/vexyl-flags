@@ -1,0 +1,34 @@
+// As quoted on FOTW from the 1970 Act: width half the length, three equal horizontal
+// rectangles, and on the staff side a triangle with its base the flag's width and its height
+// one third of the length. So 3 by 6, with a triangle 2 deep.
+vexyl 1
+meta {
+  name "Sudan"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.crwflags.com/fotw/flags/sd.html"
+  source "https://www.wipo.int/wipolex/en/legislation/details/10877"
+  note "No law's text was read. The geometry and colors are Article 3 of the 1970 Act as Christopher Southworth quotes it on FOTW, and the Album des Pavillons 2000's construction agrees, as FOTW reports."
+  note "WIPO Lex lists a National Flag Act of 1993, which appears to be the current law, but its Arabic text couldn't be downloaded, so it isn't confirmed that it keeps these terms."
+  note "The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. White and black are plain."
+  law "National Flag and Foreign States Flags (Amendment) Act, in force 20 May 1970"
+  law "National Flag Act, 1993"
+}
+palette {
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+  }
+  white "#ffffff"
+  black "#000000"
+  green "#007229" {
+    pantone "356 C"
+    cmyk 89 29 100 18
+  }
+}
+proportion hoist=3 fly=6
+
+bars red white black
+pile green {
+  depth 2
+}

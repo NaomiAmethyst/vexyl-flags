@@ -1,0 +1,44 @@
+// From the law, Supreme Decree 241, Articles 5 and 8: three horizontal stripes of equal
+// size, red, yellow and green, height 7.5 C with each stripe 2.5 C, width 11 C.
+// Article 9 then sets official sizes of 300 by 200 cm and 30 by 20 cm, which are 2:3.
+vexyl 1
+meta {
+  name "Bolivia"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.lexivox.org/norms/BO-DS-N241.xhtml"
+  source "https://www.crwflags.com/fotw/flags/bo.html"
+  note "The decree was read on LexiVox, which isn't the official gazette. Its Article 7 color table is an image that couldn't be retrieved. The Pantone numbers here are from Article 23, for the flags on the arms, and FOTW says Article 7 keeps the 2004 decree's 485, Process Yellow and 356."
+  note "The decree gives Pantone only. The red and green hex and CMYK are the Album des Pavillons 2023's, as reported by FOTW. The yellow's hex is Wikipedia's for Process Yellow, as reported by FOTW, and its CMYK is the Album 2000's, because the Album 2023 uses a different yellow, Pantone 116 C."
+  note "The decree's state flags add the arms to the yellow stripe. This is the plain flag."
+  law "Supreme Decree No. 241 of 5 August 2009 on the symbols of the Plurinational State of Bolivia" {
+    source "https://www.lexivox.org/norms/BO-DS-N241.xhtml"
+  }
+}
+palette {
+  red "#da291c" {
+    pantone "485 CVU"
+    cmyk 6 94 96 0
+  }
+  yellow "#f4e400" {
+    pantone "Process Yellow CVU"
+    cmyk 0 0 100 0
+  }
+  green "#007a33" {
+    pantone "356 CVU"
+    cmyk 88 26 100 12
+  }
+}
+proportion hoist=7.5 fly=11
+
+bars red yellow green
+
+adapt {
+  range 1.4666 1.5
+  wider scale
+}
+
+// Article 9: the official sizes are 300 by 200 cm and 30 by 20 cm.
+variant official-size {
+  ratio 1.5
+}

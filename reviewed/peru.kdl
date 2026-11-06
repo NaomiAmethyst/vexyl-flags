@@ -1,0 +1,32 @@
+// From the law, Article 4 of Law No. 32251 of 2025: three vertical stripes, red, white and
+// red, without arms, three in length to two in height. Article 4 doesn't say the stripes
+// are equal, and the law's graphic annex wasn't found, so equal is from FOTW and elsewhere.
+// From elsewhere: the law gives no shade. The red is the Album des Pavillons 2023's, as
+// FOTW reports it, and white is plain white.
+vexyl 1
+meta {
+  name "Peru"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://busquedas.elperuano.pe/dispositivo/NL/2363369-4"
+  source "https://www.crwflags.com/fotw/flags/pe.html"
+  source "https://img.lpderecho.pe/wp-content/uploads/2025/07/REGLAMENTO-DE-LA-LEY-No-32251-LP-derecho.pdf"
+  source "https://simbolospatrios.pe/wp-content/uploads/2021/06/DS-FORMULA-LEGAL-SP-VF-28.05.2021-2.pdf"
+  note "The law's Article 4 says three vertical stripes without saying they are equal. Equal widths are as FOTW describes the flag, and as the draft regulation of 2025 states for the state flag, which has the same stripes, and as a draft of 2021 states for this flag. The law's graphic annex wasn't read."
+  note "The law gives no shade. The red's hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. A draft regulation of 2021 proposed Pantone 1795 C, and wasn't confirmed as adopted. Neither draft is law."
+  law "Law No. 32251, unifying and harmonizing the regulation of the symbols of the homeland, symbols of the State and national emblems, 2025, Article 4" {
+    source "https://busquedas.elperuano.pe/dispositivo/NL/2363369-4"
+  }
+}
+palette {
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+  }
+  white "#ffffff"
+}
+proportion hoist=2 fly=3
+
+bars red white red {
+  along hoist
+}

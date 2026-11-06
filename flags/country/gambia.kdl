@@ -1,18 +1,36 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// Schedule 1: 27 units across and 18 down. Stripes 6:1:4:1:6, reading out the words
+// "one third" in the printed text, the only way its figures sum to 18.
 vexyl 1
 meta {
-  name "Flag of The Gambia"
-  encoder "Vzb83 iThe source code of the previous SVG was invalid due to 39 errors."
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_The_Gambia.svg"
+  name "The Gambia"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20240724210224id_/https://judiciary.gov.gm/sites/default/files/2021-07/Constitution%20of%20The%20Gambia.pdf"
+  source "https://www.constituteproject.org/constitution/Gambia_2018"
+  source "https://www.crwflags.com/fotw/flags/gm.html"
+  note "Both copies read print the red, blue and green as six units one third, four units one third, and six units one third. Taken literally, the stripes total 19 units, against the 18 the same schedule states. This file uses 6:1:4:1:6, as FOTW does. That reading of the text is an inference."
+  note "The schedule names the colors with no shades. The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. White is plain white."
+  law "Constitution of the Republic of The Gambia, 1997, section 3 and Schedule 1" {
+    source "https://web.archive.org/web/20240724210224id_/https://judiciary.gov.gm/sites/default/files/2021-07/Constitution%20of%20The%20Gambia.pdf"
+    source "https://www.constituteproject.org/constitution/Gambia_2018"
+  }
 }
 palette {
-  red "#ce1126"
+  red "#c8102e" {
+    pantone "186 C"
+    cmyk 14 100 79 4
+  }
   white "#ffffff"
-  blue "#0c1c8c"
-  green "#3a7728"
+  blue "#0047b6" {
+    pantone "293 C"
+    cmyk 94 73 0 0
+  }
+  green "#12ad2b" {
+    pantone "361 C"
+    cmyk 78 0 100 0
+  }
 }
-proportion hoist=2 fly=3
+proportion hoist=18 fly=27
 
 bars red white blue white green {
   ratio 6 1 4 1 6

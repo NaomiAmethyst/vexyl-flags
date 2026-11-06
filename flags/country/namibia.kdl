@@ -1,44 +1,71 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Schedule 6 of the Constitution, with the width as 60:
+//   length to width 3:2; tierced per bend reversed, blue, white, green
+//   white bend 1/3 of the width (20), charged with red 1/4 of the width (15)
+//   sun diameter 1/3 of the width, so radius 10; rays 2/5 of the radius, so they start at 6
+//   blue ring 1/10 of the radius, so it runs from 5 to 6, leaving a gold disc of radius 5
+//   sun's axis 1/5 of the length from the hoist (18)
+// Derived here: the sun is equidistant from the top edge and the bend, which puts its
+// center down at y = (144/sqrt 13 - 10) / (1 + 3/sqrt 13) = 16.34148.
+// Pantone and Coates are the 2018 Act's. The hex and CMYK are the Album's, by way of FOTW.
 vexyl 1
 meta {
-  name "Flag of Namibia"
-  encoder "SVG by Vzb83~commonswiki et al."
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Namibia.svg"
+  name "Namibia"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.servat.unibe.ch/icl/wa01000_.html"
+  source "https://www.lac.org.na/laws/2018/6807.pdf"
+  source "https://www.crwflags.com/fotw/flags/na.html"
+  note "The Act gives the flag's colors as Pantone and Coates codes, in its schedule on the Presidential Standard, not screen colors. The hex and CMYK values are the Album des Pavillons 2023's for those same Pantones, as reported by FOTW."
+  note "The sun's vertical position isn't stated as a number in the Constitution. It is worked out here from the Constitution's rule, and follows the same construction as FOTW's sheet."
+  note "The Constitution was read in the University of Bern's copy, not an official printing."
+  law "Constitution of the Republic of Namibia, Article 2(1) and Schedule 6" {
+    source "https://www.servat.unibe.ch/icl/wa01000_.html"
+  }
+  law "National Symbols of the Republic of Namibia Act, 2018, Act No. 17 of 2018" {
+    source "https://www.lac.org.na/laws/2018/6807.pdf"
+  }
 }
 palette {
-  blue "#002f6c"
-  green "#009a44"
+  blue "#003580" {
+    pantone "294 C"
+    cmyk 100 84 26 6
+    reference "Coates SP" "5 809"
+  }
+  gold "#ffce00" {
+    pantone "116 C"
+    cmyk 0 19 93 0
+    reference "Coates SP" "1 802"
+  }
+  green "#009543" {
+    pantone "347 C"
+    cmyk 84 12 94 1
+    reference "Coates SP" "65"
+  }
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+    reference "Coates SP" "35"
+  }
   white "#ffffff"
-  red "#c8102e"
-  yellow "#ffcd00"
 }
-proportion hoist=4 fly=6
+proportion hoist=60 fly=90
 
-pile blue {
-  tip 0 6
+bars blue green {
+  along bend-sinister
 }
-
-pile green {
-  from fly
-  tip 4 6
-}
-
 band red {
   along bend-sinister
-  width 1
-  fimbriate white 0.1667
+  width 15
+  fimbriate white 2.5
 }
-
-charge star yellow {
-  radius 0.6667
-  inner 0.4
+charge star gold {
+  radius 10
+  inner 6
   points 12
-  at fly=1.2 hoist=1.0894
+  at fly=18 hoist=16.34148
 }
-
 charge ring blue {
-  radius 0.4
-  inner 0.3333
-  at fly=1.2 hoist=1.0894
+  radius 6
+  inner 5
+  at fly=18 hoist=16.34148
 }

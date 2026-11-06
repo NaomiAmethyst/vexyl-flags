@@ -1,0 +1,33 @@
+// Three vertical stripes of equal size, orange at the hoist, on a 2:3 grid.
+vexyl 1
+meta {
+  name "Côte d'Ivoire"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20240617104912id_/https://mjp.univ-perp.fr/constit/ci2016.htm"
+  source "https://www.crwflags.com/fotw/flags/ci.html"
+  note "Article 48 gives only orange, white and green in vertical stripes of equal size. The order at the hoist is the order it lists them in, and FOTW's description agrees."
+  note "The 2:3 proportion isn't in the constitution. It's the Album des Pavillons's, as reported by FOTW."
+  note "Law No. 240 of 3 December 1959, which first prescribed the flag, wasn't read. It's known here only through FOTW."
+  note "The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. White is plain white."
+  law "Constitution of the Republic of Côte d'Ivoire, 8 November 2016, Article 48" {
+    source "https://web.archive.org/web/20240617104912id_/https://mjp.univ-perp.fr/constit/ci2016.htm"
+  }
+  law "Law No. 240 of 3 December 1959"
+}
+palette {
+  orange "#f77f00" {
+    pantone "151 C"
+    cmyk 0 59 96 0
+  }
+  white "#ffffff"
+  green "#169b62" {
+    pantone "347 C"
+    cmyk 81 12 76 1
+  }
+}
+proportion hoist=2 fly=3
+
+bars orange white green {
+  along hoist
+}

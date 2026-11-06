@@ -1,0 +1,61 @@
+// Regulation, point 2, with H the flag's width, on a grid of H = 60:
+//   three equal stripes of 20; width to length 1:2
+//   emblem box 3:4 with a diagonal of H/2 = 30, so 18 by 24 (3-4-5 triangle, derived)
+//   large circle diameter = the box's width, 18, so radius 9
+//   small circle diameter H/4, so radius 7.5, centered H/60 = 1 left of the flag's center: 59
+//   star outer diameter H/6, radius 5; inner diameter H/12, radius 2.5
+// Inferred, not stated: the box is centered, 48 to 72, with the large circle and the
+// star touching its short sides. So the large circle's center is 48 + 9 = 57, which
+// makes the offset 59 - 57 = 2, and the star's center is 72 - 5 = 67.
+vexyl 1
+meta {
+  name "Azerbaijan"
+  series "azerbaijan"
+  version "1991"
+  date "1991-02-05"
+  until "2018-11-16"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "http://web.archive.org/web/20100202080019/http://www.elibrary.az/docs/remz/pdf/remz_bayraq.pdf"
+  source "https://www.crwflags.com/fotw/flags/az.html"
+  source "https://web.archive.org/web/20221130170508/https://e-qanun.az/framework/40675"
+  source "https://meclis.gov.az/documents/legislation/1674-VQD%2008.10.2019.pdf"
+  note "Replaced by Constitutional Law 1331-VKQ of 2 November 2018, in force 16 November 2018, which set new emblem sizes. Law 1674-VQD of 8 October 2019 then repealed parts 1 and 2 of the 1991 law, which had approved this description and the Regulation."
+  note "The stripes, the 1:2 proportion, the box and the circle sizes are the Regulation's, read in the Presidential Library's book, p. 33, which prints it as amended by Law 683-IIQD of 8 June 2004. That amendment repealed points 3, 4, 6 and 7, but the 1991 wording of point 2 wasn't seen separately."
+  note "The Regulation doesn't locate the box or the large circle. Its text says only that the emblem is in the middle of the red stripe. That the box is centered, and that the large circle and star touch its sides, is an inference. The Regulation's diagram shows them touching, with the box about H/90 toward the fly of center."
+  note "The diagram conflicts with the text on the H/60: it draws the small circle's center almost on the flag's center and appears to set the 1/60 h dimension against the large circle's center, about H/26 away. Point 5 makes the diagram binding too, so this is a choice between two legal sources. This file follows the text, and the offset of 2 is derived from it. The star's rotation is the diagram's."
+  note "The Regulation names the colors without shades. The Pantones are those FOTW reports from Article 9.2 of the 2004 law on using the flag, repealed in 2019, whose text wasn't read. The hex and CMYK values are the Album des Pavillons 2023's for those Pantones, as FOTW reports it. White is plain white."
+  law "Law No. 17-XII on the State Flag of the Republic of Azerbaijan, 5 February 1991, approving the Regulation on the State Flag" {
+    source "http://web.archive.org/web/20100202080019/http://www.elibrary.az/docs/remz/pdf/remz_bayraq.pdf"
+  }
+}
+palette {
+  blue "#0092bc" {
+    pantone "313 C"
+    cmyk 79 25 15 2
+  }
+  red "#e4002b" {
+    pantone "185 C"
+    cmyk 0 100 81 0
+  }
+  green "#00af66" {
+    pantone "3405 C"
+    cmyk 77 0 75 0
+  }
+  white "#ffffff"
+}
+proportion hoist=60 fly=120
+
+bars blue red green
+charge crescent white {
+  radius 9
+  inner 7.5
+  offset 2
+  at fly=57 hoist=30
+}
+charge star white {
+  radius 5
+  inner 2.5
+  points 8
+  at fly=67 hoist=30
+}

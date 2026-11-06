@@ -1,0 +1,32 @@
+// From the law: Article 7 of the Constitution and Article 2 of the Ordinance of 1881, two
+// equal horizontal bands, red above and white below.
+// From elsewhere: 4:5 is the annexed model as FOTW's contributors report it. The red is
+// the Album des Pavillons 2023's, as FOTW reports it.
+vexyl 1
+meta {
+  name "Monaco"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://crteducazione.org/wp-content/uploads/2025/03/MCO_Constitution_1962_FR.pdf"
+  source "https://legimonaco.mc/tnc/ordonnance/1881/04-04-L000701@1881.04.05/"
+  source "https://www.crwflags.com/fotw/flags/mc.html"
+  note "Article 3 of the Ordinance requires the flag to follow an annexed model, but the annex wasn't found. The 4:5 is what FOTW's contributors report from it, so it isn't read from the law. FOTW also reports that flags are usually made at 2:3, without any rule for that."
+  note "The texts give no shade. The red's hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. White is plain white."
+  note "The Constitution was read in a copy on a third-party site, which is headed as the text of 1962 and carries the wording FOTW quotes for the text as amended in 2002."
+  law "Constitution of the Principality of Monaco, 17 December 1962, Article 7" {
+    source "https://crteducazione.org/wp-content/uploads/2025/03/MCO_Constitution_1962_FR.pdf"
+  }
+  law "Sovereign Ordinance of 4 April 1881 on the princely flag and the national flag" {
+    source "https://legimonaco.mc/tnc/ordonnance/1881/04-04-L000701@1881.04.05/"
+  }
+}
+palette {
+  red "#d21034" {
+    pantone "186 C"
+    cmyk 10 100 74 2
+  }
+  white "#ffffff"
+}
+proportion hoist=4 fly=5
+
+bars red white

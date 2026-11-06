@@ -1,0 +1,34 @@
+// Article 4: two horizontal parallel stripes of the same width, white over red.
+// Annex 3: width to length 5:8. Article 4(2): placed vertically, white is on the left.
+vexyl 1
+meta {
+  name "Poland"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19800070018/U/D19800018Lj.pdf"
+  source "https://www.crwflags.com/fotw/flags/pl.html"
+  note "The stripes, the 5:8 proportion and the CIE values are from the Act, read in the Sejm's consolidated text (Dz. U. 2025 item 299)."
+  note "The Act gives color only as CIE coordinates, with no screen value. The red hex, Pantone and CMYK are the Album des Pavillons 2023's, as reported by FOTW, and aren't a conversion of the CIE values. White is plain white."
+  note "Article 6(2) makes the flag with the coat of arms in the white stripe a state flag too. It's artwork, so it isn't encoded here."
+  law "Act of 31 January 1980 on the coat of arms, colors and anthem of the Republic of Poland and on state seals, Articles 4 and 6, Annexes 2 and 3" {
+    source "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19800070018/U/D19800018Lj.pdf"
+  }
+}
+palette {
+  white "#ffffff" {
+    reference "CIE 1976 L*u*v*, illuminant C, d/0: x y Y, tolerance" "0.315 0.320 82.0, delta E 4.0"
+  }
+  red "#d51f2a" {
+    pantone "1795 C"
+    cmyk 7 97 84 1
+    reference "CIE 1976 L*u*v*, illuminant C, d/0: x y Y, tolerance" "0.570 0.305 16.0, delta E 8.0"
+  }
+}
+proportion hoist=5 fly=8
+
+bars white red
+
+// Article 4(2): placed vertically, white is on the left seen from the front.
+variant hanging {
+  from transpose
+}

@@ -1,0 +1,30 @@
+// From Article 6 and Schedule One (A): a light blue rectangle with a white five-pointed star
+// at its center. The schedule's drawing measures 1.498 to 1, with a star of radius 0.1945 of
+// the hoist, which is 39 on this grid.
+vexyl 1
+meta {
+  name "Somalia"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://faolex.fao.org/docs/pdf/som127387.pdf"
+  source "https://www.crwflags.com/fotw/flags/so.html"
+  note "The design is Article 6 of the 2012 Provisional Constitution. The proportion and star size have no written measurement, so they are measured from the drawing in Schedule One (A), which is part of the law."
+  note "Chapters 1 to 4 were amended in March 2024. That text wasn't read, so it isn't confirmed that Article 6 is unchanged."
+  note "The Constitution says only light blue. The hex and Pantone are the Album des Pavillons 2023's, as reported by FOTW. The schedule's drawing shows about #5295ca."
+  law "Provisional Constitution of the Federal Republic of Somalia, 2012, Article 6 and Schedule One (A)" {
+    source "https://faolex.fao.org/docs/pdf/som127387.pdf"
+  }
+}
+palette {
+  blue "#00a0e2" {
+    pantone "299 C"
+  }
+  white "#ffffff"
+}
+proportion hoist=200 fly=300
+
+field blue
+charge star white {
+  radius 39
+  at center
+}

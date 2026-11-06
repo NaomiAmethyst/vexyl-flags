@@ -1,0 +1,35 @@
+// Three equal horizontal stripes. Each stripe's length is 4 times the height of the
+// first, so 3:4.
+vexyl 1
+meta {
+  name "Gabon"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20260909144234id_/https://mjp.univ-perp.fr/constit/ga2024.htm"
+  source "https://www.crwflags.com/fotw/flags/ga.html"
+  note "The 2024 constitution's first article gives only green, yellow, blue, in three horizontal stripes of equal size."
+  note "The 3:4 proportion is Law No. 54/60's, which wasn't read. FOTW's contributors report its wording, and one says he holds a copy. FOTW also reports flags in use at 2:3, 3:5 and 7:10."
+  note "FOTW reports the law's colors as light Irish green, golden yellow and royal blue."
+  note "The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. FOTW lists two blues under the Album, and Pantone 072 C looks like a stray line, since it also appears under Ghana, which has no blue. 660 C is used here."
+  law "Constitution of the Gabonese Republic, 19 December 2024, Article 1" {
+    source "https://web.archive.org/web/20260909144234id_/https://mjp.univ-perp.fr/constit/ga2024.htm"
+  }
+  law "Law No. 54/60 of 9 August 1960"
+}
+palette {
+  green "#009460" {
+    pantone "340 C"
+    cmyk 83 15 76 2
+  }
+  yellow "#fcd116" {
+    pantone "115 C"
+    cmyk 2 17 91 0
+  }
+  blue "#3a75c4" {
+    pantone "660 C"
+    cmyk 79 50 0 0
+  }
+}
+proportion hoist=3 fly=4
+
+bars green yellow blue

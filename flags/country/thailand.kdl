@@ -1,18 +1,39 @@
-// Drawn from its source by tools/svg2vexyl.py, and not checked against an official construction.
+// From the law, Section 5(1): 6 parts wide and 9 long, in five stripes across the length,
+// a deep blue middle stripe of 2 parts, a white stripe of 1 on each side of it, and a red
+// stripe of 1 on each side of those.
 vexyl 1
 meta {
-  name "Flag of Thailand"
-  encoder "Zscout370"
-  license "LicenseRef-Public-Domain"
-  source "https://commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg"
+  name "Thailand"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://web.archive.org/web/20170305003537/http://www.krisdika.go.th/wps/wcm/connect/d9e7ff804ba1c19498d99a8b4221fda7/FLAG+ACT,+B.E.+2522+(1979).pdf?MOD=AJPERES&CACHEID=d9e7ff804ba1c19498d99a8b4221fda7"
+  source "https://web.archive.org/web/20171004191426/http://www.ratchakitcha.soc.go.th/DATA/PDF/2560/E/245/1.PDF"
+  source "https://web.archive.org/web/20180211202549/https://www.nstda.or.th/th/nstda-knowledge/11557-thaiflag-color"
+  note "The Act's text was read in the Office of the Council of State's unofficial English translation. The Prime Minister's Office announcement of 2017 repeats the 6:9 and its drawing shows the stripes."
+  note "The CIELAB values in the announcement are recommended values for cloth flags used by state agencies. The hex and CMYK values are the National Science and Technology Development Agency's conversions, not part of the announcement."
+  law "Flag Act, B.E. 2522 (1979), Section 5(1)" {
+    source "https://web.archive.org/web/20170305003537/http://www.krisdika.go.th/wps/wcm/connect/d9e7ff804ba1c19498d99a8b4221fda7/FLAG+ACT,+B.E.+2522+(1979).pdf?MOD=AJPERES&CACHEID=d9e7ff804ba1c19498d99a8b4221fda7"
+  }
+  law "Announcement of the Office of the Prime Minister on the National Flag under the Flag Act B.E. 2522, 30 September 2017" {
+    source "https://web.archive.org/web/20171004191426/http://www.ratchakitcha.soc.go.th/DATA/PDF/2560/E/245/1.PDF"
+  }
 }
 palette {
-  red "#a51931"
-  blue "#f4f5f8"
-  dark-blue "#2d2a4a"
+  red "#a51931" {
+    cmyk 24 100 83 18
+    reference "CIELAB D65" "L* 36.4 a* 55.47 b* 25.42, delta E at most 1.5"
+  }
+  white "#f4f5f8" {
+    cmyk 3 2 1 0
+    reference "CIELAB D65" "L* 96.61 a* -0.15 b* -1.48, delta E at most 1.5"
+  }
+  blue "#2d2a4a" {
+    cmyk 87 85 42 43
+    reference "CIELAB D65" "L* 18.63 a* 7.89 b* -19.45, delta E at most 1.5"
+  }
 }
-proportion hoist=2 fly=3
+proportion hoist=6 fly=9
 
-bars red blue dark-blue blue red {
+bars red white blue white red {
   ratio 1 1 2 1 1
 }

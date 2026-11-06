@@ -1,0 +1,33 @@
+// Article 1: five stripes, the middle red twice as wide as the others, so 1:1:2:1:1.
+// Article 2: 2 m long by 1.2 m wide, so 3:5, on a grid of 6 by 10.
+vexyl 1
+meta {
+  name "Costa Rica"
+  encoder "Naomi Persephone Amethyst"
+  license "Apache-2.0"
+  source "https://www.tse.go.cr/pdf/normativa/Ley-10178-Ley_que_regula_uso_Pabellon-Bandera-Escudo-Nac.pdf"
+  source "https://www.crwflags.com/fotw/flags/cr.html"
+  note "The stripes, proportion and Pantones are the law's. Article 23 repeals the earlier flag laws of 1906, 1934, 1964 and 1976."
+  note "The law gives Pantone only. The hex and CMYK values are the Album des Pavillons 2023's for the same Pantones, as reported by FOTW. White is plain white."
+  note "This is the flag without arms. The law's form with the arms is a separate design."
+  law "Law No. 10178 regulating the use of the National Ensign, Flag and Arms, La Gaceta No. 86, 11 May 2022, Articles 1 and 2" {
+    source "https://www.tse.go.cr/pdf/normativa/Ley-10178-Ley_que_regula_uso_Pabellon-Bandera-Escudo-Nac.pdf"
+  }
+}
+palette {
+  blue "#001489" {
+    pantone "Reflex Blue"
+    reference "Album des Pavillons 2023, as reported by FOTW" "Pantone Reflex Blue C"
+    cmyk 100 91 24 7
+  }
+  white "#ffffff"
+  red "#da291c" {
+    pantone "485 C"
+    cmyk 6 94 96 0
+  }
+}
+proportion hoist=6 fly=10
+
+bars blue white red white blue {
+  ratio 1 1 2 1 1
+}
