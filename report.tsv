@@ -40,7 +40,7 @@ brazil/flag-order-of-christ	polygon	4	0	0.492	CC-BY-SA-3.0
 brazil/flag-peter-ii-of-portugal	artwork	6	1	0.0	LicenseRef-Public-Domain
 brazil/house-flag-of-lloyd-brasileiro	path	27	0	0.377	CC0-1.0
 brazil/pcdob-flag	path	3	0	0.688	LicenseRef-Public-Domain
-country/afghanistan-2013-2021	path	4	0	0.249	LicenseRef-Public-Domain
+country/afghanistan-2013-2021	reviewed: path				LicenseRef-Public-Domain
 country/albania	reviewed: path				LicenseRef-Public-Domain
 country/algeria	reviewed: named				CC-BY-SA-4.0
 country/andorra	reviewed: artwork				LicenseRef-Public-Domain
@@ -1494,6 +1494,7 @@ orgs/flag-of-the-organization-of-american-states	artwork	1	1	0.0	LicenseRef-Publ
 orgs/flag-of-the-secretariat-of-the-union-for-the-mediterranean	path	8	0	0.152	CC0-1.0
 orgs/flag-of-the-western-union	artwork	10	1	2.56	CC-BY-SA-3.0
 orgs/flag-of-unesco	path	2	0	0.15	LicenseRef-Public-Domain
+orgs/nail-and-gear	reviewed: path				LicenseRef-Public-Domain
 orgs/olympic-flag	path	9	0	0.561	LicenseRef-Public-Domain
 orgs/osce-flag	path	6	0	0.286	LicenseRef-Public-Domain
 orgs/paralympic-flag-2019	path	4	0	0.003	LicenseRef-Public-Domain
@@ -1974,7 +1975,6 @@ us/flag-of-minnesota-1957-1983	artwork	1	1	0.33	LicenseRef-Public-Domain
 us/flag-of-minnesota-1983-2024	artwork	1	1	0.327	LicenseRef-Public-Domain
 us/flag-of-minnesota-2023-redesign	polygon	3	0	0.001	LicenseRef-Public-Domain
 us/flag-of-mississippi	path	9	0	0.182	LicenseRef-Copyrighted-Free-Use
-us/flag-of-mississippi-1996-2020	polygon	20	0	0.254	LicenseRef-Public-Domain
 us/flag-of-missouri	artwork	4	1	0.01	LicenseRef-Public-Domain
 us/flag-of-montana	artwork	2	1	0.001	LicenseRef-Public-Domain
 us/flag-of-montana-1905-1981	artwork	2	1	0.36	LicenseRef-Public-Domain
@@ -2042,9 +2042,6 @@ us/flag-of-the-state-of-georgia-1879-1902	named	2	0	0.0	LicenseRef-Public-Domain
 us/flag-of-the-state-of-georgia-1902-1906	artwork	2	1	0.508	LicenseRef-Public-Domain
 us/flag-of-the-state-of-georgia-1906-1920	artwork	6	1	0.429	LicenseRef-Public-Domain
 us/flag-of-the-state-of-georgia-1920-1956	artwork	2	1	0.0	LicenseRef-Public-Domain
-us/flag-of-the-state-of-georgia-1956-2001	artwork	20	1	0.07	LicenseRef-Public-Domain
-us/flag-of-the-state-of-georgia-2001-2003	artwork	7	1	0.0	LicenseRef-Public-Domain
-us/flag-of-the-state-of-mississippi-1894-1906	artwork	17	1	0.068	LicenseRef-Public-Domain
 us/flag-of-the-trust-territory-of-the-pacific-islands	named	7	0	0.408	CC0-1.0
 us/flag-of-the-united-states-1896-1908	named	53	0	1.595	LicenseRef-Public-Domain
 us/flag-of-the-viejas-band-of-kumeyaay-indians	artwork	2	1	0.327	LicenseRef-Public-Domain

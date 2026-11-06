@@ -11,7 +11,7 @@ meta {
   source "https://styleguide.bundesregierung.de/sg-de/basiselemente/farben"
   source "https://www.crwflags.com/fotw/flags/de_color.html"
   note "The geometry is from the 1996 order. The law names the colors only."
-  note "Hex, CMYK and Pantone are the national colors in the federal government's style guide, which isn't a law and covers its branding. Its pure red hex doesn't resemble its own Pantone 485. FOTW reports no Album des Pavillons values to use in its place, so the guide's are kept. FOTW reports RAL 3020 and 1028 from a 1998 letter from the interior ministry."
+  note "Hex, CMYK and Pantone are the national colors in the federal government's style guide, which isn't a law and covers its branding. Its pure red #ff0000 doesn't resemble its own Pantone 485, so the red drawn here is the Commons drawing's #dd0000, which isn't legal or the style guide's. FOTW reports no Album des Pavillons values to use in its place, so the guide's are kept. FOTW reports RAL 3020 and 1028 from a 1998 letter from the interior ministry."
   note "The banner's transposed shape only records the stripes' direction, because the order fixes no proportion for it. The federal service flag, with the arms, is a separate flag."
   law "Basic Law for the Federal Republic of Germany, Article 22(2)" {
     source "https://www.gesetze-im-internet.de/gg/art_22.html"
@@ -26,8 +26,9 @@ palette {
     cmyk 0 0 0 100
     ral "9017"
   }
-  red "#ff0000" {
+  red "#dd0000" {
     pantone "485"
+    reference "Federal government style guide" "#ff0000"
     cmyk 0 100 100 0
     ral "3020"
   }
