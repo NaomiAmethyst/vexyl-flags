@@ -8,10 +8,14 @@ meta {
   license "CC-BY-SA-4.0"
   render-license "CC0-1.0"
   source "https://faolex.fao.org/docs/pdf/som127387.pdf"
+  source "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/118275/WAX-KA_BEDDELKA_CUTUBYADA_JAAD_2AAD3AAD_IYO_4AAD_EE_DASTUURKA.pdf"
   source "https://www.crwflags.com/fotw/flags/so.html"
   note "The design is Article 6 of the 2012 Provisional Constitution. The proportion and star size have no written measurement, so they are measured from the drawing in Schedule One (A), which is part of the law."
-  note "Chapters 1 to 4 were amended in March 2024. That text wasn't read, so it isn't confirmed that Article 6 is unchanged."
+  note "Chapters 1 to 4 were amended by Law No. 24 of 31 March 2024, published in the Official Bulletin of April 2024, and that text was read too. Its Article 6(1) keeps the design: a light blue field with a white five-pointed star of equal points at its center, as shown in part (A) of the First Schedule. The amendment doesn't reprint the schedules, so the 2012 drawing stands."
   note "The Constitution says only light blue. The hex and Pantone are the Album des Pavillons 2023's, as reported by FOTW. The schedule's drawing shows about #5295ca."
+  law "Amendment of Chapters 1 to 4 of the Constitution, Law No. 24 of 31 March 2024, Article 6(1)" {
+    source "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/118275/WAX-KA_BEDDELKA_CUTUBYADA_JAAD_2AAD3AAD_IYO_4AAD_EE_DASTUURKA.pdf"
+  }
   law "Provisional Constitution of the Federal Republic of Somalia, 2012, Article 6 and Schedule One (A)" {
     source "https://faolex.fao.org/docs/pdf/som127387.pdf"
   }

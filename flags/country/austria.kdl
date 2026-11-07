@@ -14,16 +14,18 @@ meta {
   render-license "CC0-1.0"
   source "https://www.jusline.at/gesetz/b-vg/paragraf/artikel8a"
   source "https://web.archive.org/web/20241218114910/https://www.ris.bka.gv.at/Dokumente/BgblPdf/1984_159_0/1984_159_0.pdf"
+  source "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12010861/NOR12010861.pdf"
   source "https://www.bmlv.gv.at/abzeichen/pdf/flaggenordnung.pdf"
   source "https://www.crwflags.com/fotw/flags/at.html"
   note "No law that was read fixes the national flag's proportion. 2:3 is the service flag's legal ratio and the common format."
   note "The law says only red. Pantone 186 C comes from a 2018 Defence Ministry decree for the armed forces, and the hex from the Album des Pavillons 2023, as reported by FOTW."
-  note "The Wappengesetz was read as published in 1984. Its current consolidated text wasn't reachable, so a later change to the proportion can't be ruled out."
+  note "The Wappengesetz's current consolidated section 3 (RIS, Bundesrecht konsolidiert, last updated 17 November 2022) was read too, and is unchanged since 1984: it gives 2:3 only for the service flag, and leaves the flag at sea to the Seeschiffahrtsgesetz."
   law "Federal Constitutional Law (B-VG), Article 8a" {
     source "https://www.jusline.at/gesetz/b-vg/paragraf/artikel8a"
   }
   law "Wappengesetz, BGBl. 159/1984, section 3" {
     source "https://web.archive.org/web/20241218114910/https://www.ris.bka.gv.at/Dokumente/BgblPdf/1984_159_0/1984_159_0.pdf"
+    source "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12010861/NOR12010861.pdf"
   }
 }
 palette {
