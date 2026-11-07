@@ -1,0 +1,44 @@
+// 5:3, three equal bars. The flower is the Commons drawing's, centered on the flag and 288.9 by 298.5 of 1600 by 960,
+// which is 0.9028 by 0.9328 of the 5 by 3.
+vexyl 1
+meta {
+  name "Sapphic Flag, Simplified Violets"
+  designer "lesbeux-moved"
+  designer "lesbeux-moved"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Sapphic_Flag_alternate_with_violet.svg" {
+    author "Opensofias (an autotrace of the Pride-Flags DeviantArt image; Commons credits Cayla / lexbeux-moved)"
+    license "LicenseRef-Public-Domain"
+    part "the violet"
+  }
+  date "2016-09"
+  series "sapphic"
+  version "simplified-violet"
+  source "https://web.archive.org/web/20210329002721/https://www.deviantart.com/pride-flags/art/Sapphic-2-629060222"
+  source "https://web.archive.org/web/20181217213955/https://pride-color-schemes.tumblr.com/post/162230388064/sapphic"
+  source "https://web.archive.org/web/20250606032425/https://lesbeux-moved.tumblr.com/post/126717498095/sapphic-wlw-sga-women-flag-pink-love-violets"
+  source "https://commons.wikimedia.org/wiki/File:Sapphic_Flag_alternate_with_violet.svg"
+  note "The original flag was posted on 14 August 2015 by the Tumblr user lesbeux-moved (Wayback Machine, 6 June 2025). It has pink, very light lavender and pink stripes with an illustration of two violets. Its post says pink is for love and the violets, and the lavender-ish color, recall women giving violets to women they were wooing. The post's image is 296 by 166 pixels with colors #ff88a9 and #fbf2ff."
+  note "The simplification is attributed to Mod Hermy of the Tumblr blog pride-color-schemes, which couldn't be confirmed."
+  note "Commons marks the violet's copyright status as disputed, and as a simple shape not eligible for copyright. Its license here follows Commons, and should be checked before relying on it."
+  note "This file is the simplified version. Its earliest publication read is 'Sapphic (2)' by Pride-Flags on DeviantArt, published 11 September 2016 (Wayback Machine, 29 March 2021): 'Designed by: lesbeux-moved', and a note that it simplifies the earlier design because the poster couldn't redraw its detailed flower. An undated edit there says its colors were changed to be more like the other sapphic flags. Its 5000 by 3000 pixel image has stripes of 1000, colors #fd8ba8 and #fbf2ff, and the flower centered, 0.90 by 0.93 of the 3-unit height. A post of 25 June 2017 on the Tumblr blog pride-color-schemes, credited to lesbeux-moved with the simplification by Mod Hermy, shows three equal stripes and a simplified five-petaled violet with a small pink and yellow center. Its image is 500 by 300 pixels with colors #fd8ba8 and #fbf2ff, which match the Commons drawing. The original's two-violet illustration is a raster picture, and isn't encoded."
+  note "The violet's drawing is from Commons, used unchanged. Its history says Opensofias autotraced it in 2020 from the DeviantArt image, which it names as its source, and it matches that image's flower. Its petals are #c76bc5, its ring #f996c9 and its center #fff71e. The post's image shows a violet, and doesn't give these values."
+  note "No post states a proportion. The 5:3 proportion and the equal stripes are the DeviantArt image's and the 2017 image's (500 by 300 pixels, stripes of 100). The date is the DeviantArt post's month; the colors here may date from its later, undated edit, and are those of the 2017 post. Whether Mod Hermy is the Pride-Flags poster isn't shown by either source."
+}
+palette {
+  pink "#fd8ba8"
+  lavender "#fbf2ff"
+}
+proportion hoist=3 fly=5
+
+bars pink lavender pink
+
+charge svg {
+  at center
+  fly 0.9028
+  hoist 0.9328
+  markup #"""
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="656.2 330.6 288.9 298.5"><path fill="#c76bc5" d="m 856.40048,629.09862 c -8.11414,-0.78461 -15.88646,-3.62855 -22.96048,-8.40148 -3.85315,-2.59977 -11.24781,-9.99328 -13.70003,-13.69788 -8.77043,-13.2497 -14.36986,-38.28647 -16.52269,-73.87821 l -0.28067,-4.64 2.6904,-2.62515 c 4.91987,-4.80058 9.60934,-8.20455 15.59008,-11.31645 l 3.45709,-1.79879 3.42291,0.92506 c 14.3136,3.86838 31.37606,9.76 42.5983,14.70906 13.26282,5.84892 23.04605,12.13859 27.77411,17.85596 2.24906,2.71965 5.436,9.18957 7.25588,14.73031 5.34598,16.27625 5.18227,32.91977 -0.44586,45.33238 -2.3577,5.19978 -6.88826,10.57808 -11.53933,13.69863 -4.5728,3.06803 -14.31222,6.8136 -21.14614,8.13232 -6.22685,1.2016 -10.92131,1.48403 -16.19357,0.97424 z"/><path fill="#c76bc5" d="m 702.72,515.5049 c -12.31085,-0.58644 -22.75331,-2.51332 -27.688,-5.10909 -8.1273,-4.2752 -14.6592,-13.99347 -17.22019,-25.62039 -1.26077,-5.72396 -1.60547,-9.23904 -1.58237,-16.13542 0.0341,-10.18157 1.57306,-20.23046 4.45952,-29.12 3.39718,-10.4625 12.15005,-19.02643 22.51104,-22.02515 4.16003,-1.20403 7.38573,-1.60829 12.64,-1.5841 17.67536,0.0814 35.74637,8.58528 54.4,25.59962 8.84307,8.06595 19.11626,19.8896 25.52752,29.38022 2.06442,3.056 2.1687,3.30317 2.49341,5.90848 0.75667,6.07165 -0.91303,14.0553 -4.5176,21.60093 -2.07408,4.34179 -3.77802,6.87526 -5.30122,7.88214 -7.37881,4.87757 -24.22518,8.18548 -47.00211,9.22919 -7.69779,0.35273 -11.20493,0.35152 -18.72,-0.006 z"/><path fill="#c76bc5" d="m 877.75213,515.518 c -25.2745,-1.20887 -44.6409,-5.76784 -48.34173,-11.37997 -5.38429,-8.16496 -8.62432,-19.72208 -7.66778,-27.35069 0.37988,-3.02963 0.84567,-3.86445 6.06333,-10.86739 12.57111,-16.87245 27.64288,-31.01344 42.34723,-39.73197 17.6122,-10.44266 36.65549,-13.21552 50.44909,-7.34579 8.44058,3.59177 15.68336,11.55654 18.68922,20.55216 4.43533,13.27369 5.78646,31.68736 3.23414,44.07651 -1.40265,6.80874 -4.24499,13.45373 -7.7775,18.18266 -3.26848,4.37548 -7.61309,7.97248 -11.57306,9.58156 -2.40393,0.9768 -7.23891,2.20039 -11.17507,2.82807 -8.38326,1.33683 -23.38816,1.97424 -34.24787,1.45485 z"/><circle fill="#f996c9" cx="800.14044" cy="495.73035" r="21.451553"/><path fill="#fff71e" d="m 797.95018,508.46795 c -6.64791,-1.14 -11.64989,-8.09648 -10.45792,-14.54435 1.61609,-8.74228 10.57779,-13.32986 18.46134,-9.45056 4.77613,2.35024 7.6991,7.98595 6.85626,13.21942 -1.15088,7.14634 -7.82026,11.98262 -14.85968,10.77549 z"/><path fill="#c76bc5" d="m 795.84,466.87341 c -1.848,-0.1225 -3.97674,-0.32858 -4.73053,-0.45795 -3.19197,-0.54794 -11.66163,-7.24999 -21.02947,-16.64064 -18.05168,-18.09565 -30.84189,-37.9978 -35.20355,-54.77824 -2.04967,-7.88567 -2.4672,-16.12493 -1.14106,-22.51658 2.31991,-11.18134 9.07683,-20.4431 20.52669,-28.136 10.34666,-6.95168 21.45642,-11.15968 34.37792,-13.02115 4.93021,-0.71027 16.48826,-0.68928 22.08,0.0401 17.06378,2.22573 34.05059,10.16403 44.45741,20.77597 5.89453,6.01069 9.86566,13.55885 11.28822,21.45616 0.69248,3.84438 0.67907,11.1911 -0.0278,15.20496 -1.68429,9.56403 -5.63283,19.57898 -11.74653,29.7935 -9.89734,16.53607 -28.15856,36.60464 -41.33552,45.42666 -3.21881,2.15501 -4.12524,2.45805 -8.08195,2.70182 -1.58061,0.0974 -3.59382,0.22141 -4.47382,0.27562 -0.88,0.0542 -3.112,-0.003 -4.96,-0.12419 z"/></svg>
+    """#
+}

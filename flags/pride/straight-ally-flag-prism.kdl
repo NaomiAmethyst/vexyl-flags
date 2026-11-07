@@ -1,0 +1,76 @@
+// 4 by 6 grid: the rays meet at the center (fly 3, hoist 2) and the six rainbow wedges
+// are 1 wide each along the top edge.
+vexyl 1
+meta {
+  name "Straight Ally Flag (Prism)"
+  designer "Femfem5"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2024-04-05"
+  source "https://commons.wikimedia.org/wiki/File:Straight_Ally_Flag_(Prism).svg"
+  note "No source outside Commons was found. The Commons file, dated 2024-04-05 and credited to the Wikimedia user Femfem5, describes the design as light shining through a prism and revealing the whole spectrum, so that a straight person can encourage others to look through the prism. Commons gives it as CC0. The Wikimedia user is the only designer attribution available."
+  note "Everything here is the Commons drawing's (viewBox 1500 by 1000): black triangles on the hoist and the fly, a white triangle on the bottom edge, all three meeting at the center, and a top triangle split into six equal wedges from the center to the top edge, in rainbow order from the hoist. The colors are the Pride rainbow's red #e40303, orange #ff8c00, yellow #ffed00, green #008026, blue #004dff and violet #750787, as in the drawing."
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  violet "#750787"
+}
+proportion hoist=4 fly=6
+
+pile black {
+  from hoist
+  depth 3
+}
+
+pile black {
+  from fly
+  depth 3
+}
+
+pile white {
+  from bottom
+  depth 2
+}
+
+charge polygon red {
+  point fly=3 hoist=2
+  point fly=0 hoist=0
+  point fly=1 hoist=0
+}
+
+charge polygon orange {
+  point fly=3 hoist=2
+  point fly=1 hoist=0
+  point fly=2 hoist=0
+}
+
+charge polygon yellow {
+  point fly=3 hoist=2
+  point fly=2 hoist=0
+  point fly=3 hoist=0
+}
+
+charge polygon green {
+  point fly=3 hoist=2
+  point fly=3 hoist=0
+  point fly=4 hoist=0
+}
+
+charge polygon blue {
+  point fly=3 hoist=2
+  point fly=4 hoist=0
+  point fly=5 hoist=0
+}
+
+charge polygon violet {
+  point fly=3 hoist=2
+  point fly=5 hoist=0
+  point fly=6 hoist=0
+}

@@ -1,0 +1,28 @@
+// Five equal bars, 5:3 (the designer's posted image is 1280 by 768 pixels).
+vexyl 1
+meta {
+  name "Aroace Flag"
+  designer "Aroaes"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-12-11"
+  series "aroace"
+  version "revised-2018"
+  source "https://web.archive.org/web/20200616234513/https://aroaesflags.tumblr.com/post/181034758671/revised-aroace-flag-after-some-conversation-among"
+  source "https://commons.wikimedia.org/wiki/File:Aroace_flag.svg"
+  design-rights "The designer's post says there is no need to credit them and that the flag is meant as a community symbol, and that their edits are free to use with credit. This file's license covers the encoding, not the design."
+  note "Designer's own post, read from the Wayback snapshot above: a revised aroace flag dated Dec 11 2018 on the Tumblr blog aroaesflags. It replaces an earlier, different flag by the same designer that the post links to and does not describe. Commons credits the designer as Jace Aroaes; the post itself shows only the handle."
+  note "The post names the colors and meanings (two blues for the aroace spectrum, white for wholeness, yellow for love outside amatonormative ideas, orange for community) but gives no hex values or proportion."
+  note "The colors were sampled from the designer's image (1280 by 768 PNG in the post) in the middle of each bar: #e28c00, #eccd00, #ffffff, #62aedc, #203856. They equal the Commons drawing's values. The bars are equal, as in the image; the proportion is the image's, which the post does not state."
+}
+palette {
+  orange "#e28c00"
+  yellow "#eccd00"
+  white "#ffffff"
+  light-blue "#62aedc"
+  dark-blue "#203856"
+}
+proportion hoist=3 fly=5
+
+bars orange yellow white light-blue dark-blue

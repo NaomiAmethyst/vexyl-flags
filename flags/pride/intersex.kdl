@@ -1,0 +1,33 @@
+// The designer's SVG is 900 by 600 with the ring centered, its stroke centerline radius 147 and
+// stroke width 53.625. Outer radius 173.8125, inner 120.1875. On this 2 by 3 grid one unit is 300,
+// so the radii are 173.8125 / 300 = 0.579375 and 120.1875 / 300 = 0.400625.
+vexyl 1
+meta {
+  name "Intersex flag"
+  designer "Morgan Carpenter"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "CC0-1.0: the IHRA post and the designer's page say the intersex flag image was formally licensed under CC0 1.0 on 18 December 2013"
+  date "2013-07-04"
+  source "https://ihra.org.au/22773/an-intersex-flag/"
+  source "https://morgancarpenter.com/intersex-flag/"
+  source "https://ihra.org.au/wp-content/uploads/2013/07/intersex-flag.svg"
+  source "https://commons.wikimedia.org/wiki/File:Intersex_Pride_Flag.svg"
+  note "Defining sources, both by the designer and read: the IHRA post of 5 July 2013 (a golden yellow field with an unbroken, unornamented purple circle for wholeness) and the designer's own page, which says the flag was first shared online on 4 July 2013 and gives the official colors, field #FFD800 and emblem #7902AA."
+  note "Proportion and construction are from the designer's own SVG on the IHRA site: 900 by 600 (2:3), a circle at the center of radius 147 with stroke 53.625. The ring radii on this grid are my arithmetic from those numbers. The current Commons file draws the stroke as 50, which is a slightly thinner ring."
+  note "The image is CC0 by its owners' statement, and the IHRA post offers the flag to anyone who wishes to use it in a human rights affirming community context; this file's own license covers only the encoding."
+}
+palette {
+  yellow "#ffd800"
+  purple "#7902aa"
+}
+proportion hoist=2 fly=3
+
+field yellow
+
+charge ring purple {
+  radius 0.579375
+  inner 0.400625
+  at center
+}

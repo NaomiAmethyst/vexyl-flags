@@ -1,0 +1,34 @@
+// On 30 by 60, as the national flag is drawn here: each diagonal 6 wide in total, white 3,
+// red 2, white 1, with its center line on the flag's corners; a cross 6 wide with a white edge of 2.
+vexyl 1
+meta {
+  name "Pink Jack"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Gay_Pride_flag_of_the_United_Kingdom.svg"
+  source "https://www.flaginstitute.org/wp/uk-flags/union-flag-specification/"
+  source "https://web.archive.org/web/20110712184904/http://gayflags.biz/flags_gay/gay_flags_national.html"
+  note "No defining source was found. Commons calls this the Pink Jack, an LGBT variant of the Union Flag, dated 20 April 2013 and drawn by the uploader. The 2011 snapshot of the gayflags.biz list of national gay flags has a United Kingdom entry marked as Greg Gomes's design, but its picture could not be fetched, so it is not known whether it is this one. No designer is named here."
+  note "The geometry is the Union Flag's, as in this project's file for the United Kingdom (the Flag Institute's recommended specification, which is not law, with the Royal Proclamation of 1801 for the design in words). Only the colors are changed: the blue field is pink. The pink and the red are the Commons drawing's, #fa87d2 and #e00034, not the national flag's #d21034."
+}
+palette {
+  pink "#fa87d2"
+  white "#ffffff"
+  red "#e00034"
+}
+proportion hoist=30 fly=60
+
+field pink
+saltire white {
+  width 6
+}
+saltire red {
+  width 2
+  counterchange
+}
+cross red {
+  fly 27 6 27
+  hoist 12 6 12
+  fimbriate white 2
+}

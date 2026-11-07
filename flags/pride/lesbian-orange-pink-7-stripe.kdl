@@ -1,0 +1,33 @@
+// Seven equal bars, 5:3: the designer's flag image is 685 by 414 pixels, bars of about 59.
+vexyl 1
+meta {
+  name "Lesbian Pride Flag, Orange-Pink, Seven Stripes"
+  designer "Emily Gwen"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-06"
+  series "orange-pink-lesbian"
+  version "7-stripe"
+  source "https://web.archive.org/web/20190509162304/https://sadlesbeandisaster.tumblr.com/post/174618152601/can-people-please-acknowledge-this-version-of-the"
+  source "https://web.archive.org/web/2019/https://sadlesbeandisaster.tumblr.com/post/174514713156/honestly-my-ideal-lesbian-pride-flag-would-be-the"
+  source "https://web.archive.org/web/20190509231929/https://official-lesbian-flag.tumblr.com/post/176505133364/official-lesbian-flag-been-doing-some-research"
+  source "https://en.wikipedia.org/wiki/Lesbian_flags"
+  source "https://commons.wikimedia.org/wiki/File:Lesbian_pride_flag_2018.svg"
+  note "Emily (sadlesbeandisaster on Tumblr, whose posts give her payment handle as emilygwen) posted the idea on 3 June 2018, as a text post proposing the pink flag and the orange butch flag flowing into each other. Her post of 6 June 2018 shows the seven-stripe flag with each stripe labeled, and lists the meanings. This is the earliest dated post read that shows the flag, so the date is the month. Wikipedia credits Emily Gwen and notes a similar inverted flag by 'shapeshifter-of-constellation' in 2017, which wasn't read."
+  note "The meanings in the 6 June post, from top to bottom: gender non-conformity, independence, community, unique relationships to womanhood, serenity and peace, love and sex, femininity. The post calls them ideas not set in stone."
+  note "The colors are read from the 6 June post's second image, a 685 by 414 pixel unlabeled flag, at the center of each stripe: #d52d00, #ef7627, #ff9a56, #ffffff, #d162a4, #b55690 and #a30262. They match the Commons drawing exactly. The posts give no hex values or proportion."
+  note "The bars are seven equal ones, each about 59 pixels of 414. The 5:3 proportion is the common one: the image's own is 685:414, 1.655, and the Commons drawing uses 3:2."
+}
+palette {
+  red "#d52d00"
+  orange "#ef7627"
+  light-orange "#ff9a56"
+  white "#ffffff"
+  pink "#d162a4"
+  dusty-pink "#b55690"
+  rose "#a30262"
+}
+proportion hoist=3 fly=5
+
+bars red orange light-orange white pink dusty-pink rose

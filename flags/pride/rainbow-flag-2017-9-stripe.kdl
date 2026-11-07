@@ -1,0 +1,32 @@
+// Nine equal stripes, each 1/9 of the hoist, on 3:5.
+vexyl 1
+meta {
+  name "Rainbow flag, nine stripes"
+  series "rainbow-flag"
+  version "2017-9-stripe"
+  date "2017"
+  designer "Gilbert Baker"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://gilbertbaker.com/flags/"
+  source "https://gilbertbaker.com/wp-content/uploads/2018/04/2017ad-gilbert-baker-9-color-ltd-series-1.jpg"
+  source "https://commons.wikimedia.org/wiki/File:2017_rainbow_flag.svg"
+  note "Baker's own site lists the 2017 39th Anniversary 9 Color Diversity Flag, and its photograph is captioned: new 9 color rainbow flags, Gilbert Baker Ltd Series 2017, 39th anniversary, cotton, hand sewn, signed and numbered. The photograph shows nine stripes of about equal width, from the top lavender, hot pink, red, orange, yellow, green, turquoise, indigo and violet."
+  note "The page gives no values. The colors are the Commons drawing's. In the photograph the indigo and violet at the bottom look darker than Commons draws them."
+  note "The month, the meaning of the lavender stripe, and the reason for the flag are in secondary accounts only, and are not stated here. 3:5 is the common format, as in Commons."
+}
+palette {
+  lavender "#cd66ff"
+  hot-pink "#ff6599"
+  red "#ff0000"
+  orange "#ff9900"
+  yellow "#ffff01"
+  green "#009a00"
+  turquoise "#0099cb"
+  indigo "#340099"
+  violet "#990099"
+}
+proportion hoist=3 fly=5
+
+bars lavender hot-pink red orange yellow green turquoise indigo violet

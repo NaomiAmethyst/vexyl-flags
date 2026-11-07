@@ -1,0 +1,21 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Transmasculine pride flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://lgbtqidentity.wikitide.org/wiki/Transmasculine"
+  source "https://commons.wikimedia.org/wiki/File:Transmasc_Flag.svg"
+  note "No designer or first publication was found. A community wiki says the most common transmasculine flag was made by an unknown person and has no known meaning. The Commons drawing was uploaded by Rowan Ackerman in May 2024, who is not shown to be the designer."
+  note "All values follow that Commons drawing and are not from a designer: seven equal bars, pink, three blues running darker to the center, and back, with colors #ff8abd, #cdf5fe, #9aebff, #74dfff, at 3:5."
+}
+palette {
+  pink "#ff8abd"
+  pale-blue "#cdf5fe"
+  light-blue "#9aebff"
+  blue "#74dfff"
+}
+proportion hoist=3 fly=5
+
+bars pink pale-blue light-blue blue light-blue pale-blue pink

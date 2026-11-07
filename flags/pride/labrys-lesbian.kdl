@@ -1,0 +1,46 @@
+// 5:3. The triangle is an equilateral one with its top edge at 18.52 of 158.8 and side 140.27,
+// both from the Commons drawing: hoist 18.52/158.8 * 3 = 0.3499 and side/sqrt(3) * 3/158.8 = 1.5301 radius.
+vexyl 1
+meta {
+  name "Labrys Lesbian Pride Flag"
+  designer "Sean Campbell"
+  encoder "Naomi Persephone Amethyst"
+  license "CC0-1.0"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Labrys_Lesbian_Flag.svg" {
+    author "Thespoondragon"
+    license "CC0-1.0"
+    part "the labrys"
+  }
+  source "https://web.archive.org/web/20201124025601/http://queerstoryfiles.blogspot.com/2012/06/putting-out-sean-campbells-flags.html"
+  source "https://web.archive.org/web/20150909150736/https://www.afterellen.com/people/452039-dont-lesbians-pride-flag"
+  source "https://en.wikipedia.org/wiki/Lesbian_flags"
+  source "https://web.archive.org/web/20230816211624/https://www.horniman.ac.uk/story/a-horniman-lesbian-flag/"
+  source "https://commons.wikimedia.org/wiki/File:Labrys_Lesbian_Flag.svg"
+  note "Tony Scupham-Bilton's Queerstory Files post of 21 June 2012 says Sean Campbell designed the flag for a special Pride edition of the Palm Springs Gay and Lesbian Times, which it dates 'June 200', a typo. AfterEllen of 8 September 2015, citing that blog, says Campbell created it in 1999; Wikipedia gives 1999 for the design and June 2000 for the issue. Campbell's own first publication, the magazine issue, wasn't found or read, and the sources don't agree on a date, so no date is given."
+  note "The Queerstory Files post describes a lavender field, a black inverted triangle and a white labrys (double-headed axe) on top of the triangle. It gives no color values. The lavender here, #b56cb3, is the commonest pixel color of the flag image on that post, which is 367 by 220 pixels."
+  note "The Commons drawing uses #993399 for the field instead. This file uses the Queerstory Files image's color, because that image is the older source of the two. The 5:3 proportion, and the triangle's size and position, are the Commons drawing's, whose proportion matches that image's 367:220 within 0.2%. The triangle in that image is somewhat larger, with its top edge at about 0.08 of the height and its width about 0.57 of the length, against 0.12 and 0.53 in the Commons drawing."
+  note "The labrys is Commons artwork used unchanged. It was drawn by Thespoondragon, who is also credited for the flag image on the Horniman Museum's page of 26 February 2020 (Wayback Machine, 16 August 2023). The Commons file says it is based mostly on the flag image from the Queerstory Files post."
+}
+palette {
+  lavender "#b56cb3"
+  black "#000000"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+field lavender
+
+charge triangle black {
+  radius 1.5301
+  rotate 180
+  at fly=2.5 hoist=1.1149
+}
+
+charge svg white {
+  at center
+  fly 5
+  hoist 3
+  markup #"""
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264.6 158.8"><g fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path fill-rule="evenodd" stroke-width="3.7783" d="m490.18 201.76-6.4219 257.68c-.00004 4.929 32.492 4.929 32.492 0l-6.0449-257.68z" transform="matrix(.26636 0 0 .26488 -.92950633 .13464)"/><path stroke-width="5" d="M417.25 89.424s-23.809 30.567-25.373 76.195c1.5644 45.628 25.373 76.195 25.373 76.195s35.114-84.994 72.922-40.051h20.025c37.808-44.944 72.922 40.051 72.922 40.051s23.809-30.567 25.373-76.195c-1.5644-45.628-25.373-76.195-25.373-76.195s-35.114 84.994-72.922 40.051c-4.6268-6.686-15.399-6.686-20.025 0-37.808 44.944-72.922-40.051-72.922-40.051z" transform="matrix(.26636 0 0 .26488 -.92950633 .13464)"/></g></svg>
+    """#
+}

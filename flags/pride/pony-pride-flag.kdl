@@ -1,0 +1,50 @@
+// Bars 53:8:16:8:53 from the Commons drawing (derived); discs are radii 1.1377 and 1.0652 on a 3 by 5 grid.
+vexyl 1
+meta {
+  name "Pony Pride Flag"
+  designer "Carrie (MysticStorm)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-3.0"
+  date "2007"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Pony_Pride_Flag.svg" {
+    author "Carrie (MysticStorm) and Tanos"
+    license "CC-BY-3.0"
+    part "the two horseshoes"
+  }
+  source "https://web.archive.org/web/20120423233947/http://sites.google.com/site/2008ipt/flag"
+  source "https://plkstables.org/index.php/home/pony-pride-flag-history-meaning"
+  design-rights "The designer's page is marked copyright 2007 Carrie P (Mystic Storm) and, on PLK Stables, invites others to use the flag to show their pony pride. The Commons SVG is licensed CC-BY-3.0 by its maker with the designer's permission. This file's license is that one."
+  note "Designer's own page for the 2008 International Pony and Trainer contest team, read from the Wayback snapshot above (copyright 2007 Carrie P). It says Carrie brought the idea to fruition in 2007 and gives the meanings: black for the link to the leather community, white for the pure inner spirit of each pony, blue for ponies who strive to excel and for denim, green for nature and running free, and horseshoes for the pony in its natural environment and a symbol to unify ponies. The PLK Stables page adds that the flag first appeared at the opening ceremonies of Florida Fetish Weekend in November 2007."
+  note "Neither page gives hex values or a construction. Proportions and colors come from the Commons SVG by Tanos (2012), rendered with the designer's permission. As a check, a screenshot of the flag on PLK Stables (922 by 558 pixels) shows bars of about 205, 31, 62, 31 and 207 pixels, which is 53:8:16:8:53 to within a pixel, blue #0054a5 and green #006f3a. The disc radii look right against the screenshot by eye; they were not measured."
+  note "The two horseshoes are real artwork and are the Commons drawing's, unchanged, as inline SVG."
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  blue "#0054a5"
+  green "#006f3a"
+}
+proportion hoist=3 fly=5
+
+bars black white blue white black {
+  ratio 53 8 16 8 53
+}
+
+charge disc white {
+  radius 1.1377
+  at center
+}
+
+charge disc green {
+  radius 1.0652
+  at center
+}
+
+charge svg {
+  at center
+  fly 5
+  hoist 3
+  markup #"""
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 414"><path d="M360 118            a4 4 -7.5 1 0 -23.8 3.1          a52 75 -7.5 1 1 -64.4 8.5          a4 4 -7.5 1 0 -23.8 3.1          a72 95 -7.5 1 0 112 -14.7          Z" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M360 118 m-111  51.9 l-0.3 8.0" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M360 118 m-109  77 l1.7 7.8" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M360 118 m-103 100 l3.4 7.3" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M360 118 m-93  121 l5.1 6.1" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M360 118 m8 36 l3.1 7.4" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M360 118 m14 61 l0.6 8.0" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M360 118 m14 86 l-1.4 7.9" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M360 118 m8 110 l-3.4 7.3" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157            a4 4 -7.5 1 0 -23.8 3.1          a52 75 -7.5 1 1 -64.4 8.5          a4 4 -7.5 1 0 -23.8 3.1          a72 95 -7.5 1 0 112 -14.7          Z" fill="#ffffff" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157 m-111  51.9 l-0.3 8.0" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157 m-109  77 l1.7 7.8" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157 m-103 100 l3.4 7.3" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157 m-93  121 l5.1 6.1" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157 m8 36 l3.1 7.4" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157 m14 61 l0.6 8.0" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157 m14 86 l-1.4 7.9" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/><path d="M421 157 m8 110 l-3.4 7.3" stroke="#000000" stroke-linecap="round" stroke-width="6" transform="matrix(1 0 0 1 0 0)"/></svg>
+"""#
+}

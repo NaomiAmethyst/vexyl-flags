@@ -1,0 +1,26 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Bigender pride flag"
+  designer "no-bucks-for-this-doe (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2014-07"
+  source "https://web.archive.org/web/20220531074105/https://pridearchive.tumblr.com/post/93315678776/bigender-pride"
+  source "https://web.archive.org/web/20250124113555/https://nonbinary.wiki/wiki/Bigender"
+  source "https://commons.wikimedia.org/wiki/File:Bigender_Flag.svg"
+  note "The Pride Archive post of 30 July 2014 credits the flag to Tumblr user no-bucks-for-this-doe and gives two versions, the middle stripe plain white or white fading to gray. This file is the plain-white one. Pinks mean femininity, blues masculinity, purple nonbinary, white agender and neutral genders. The date is that of the earliest source I read, not necessarily the designer's own first post."
+  note "The post's image (a 492 by 296 JPEG, read) has seven equal stripes. The post gives no hex or proportion. The colors are the Commons drawing's; the post's image samples within JPEG error of them (#c479a0, #eca6cb, #d5c7e8, #ffffff, #9ac7e8, #6c83cf). The 3:5 proportion is the common format, near the image's 1.66."
+}
+palette {
+  pink "#c479a2"
+  light-pink "#eda5cd"
+  lavender "#d5c7e8"
+  white "#ffffff"
+  light-blue "#9ac7e8"
+  blue "#6d82d1"
+}
+proportion hoist=3 fly=5
+
+bars pink light-pink lavender white lavender light-blue blue

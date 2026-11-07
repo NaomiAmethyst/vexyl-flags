@@ -1,0 +1,103 @@
+// Polygons are the Commons drawing's shapes on a 3 by 5 grid, with repeated points removed.
+vexyl 1
+meta {
+  name "Rubber Pride Flag"
+  designer "Peter Tolos"
+  designer "Scott Moats"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-3.0"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Rubber_Fetish_Pride_Flag.svg" {
+    author "RayneVanDunem"
+    license "CC-BY-SA-3.0"
+    part "the zigzag bands"
+  }
+  source "https://en.wikipedia.org/wiki/Rubber_and_PVC_fetishism"
+  source "https://crwflags.com/fotw/flags/qq-rubr.html"
+  note "The designers' own publication was not found. Wikipedia credits Scott Moats and Peter Tolos with the flag in 1995 (an infobox on a related page says 1994) and quotes their color meanings through a Marie Claire article: black for lust for the look and feel of shiny black rubber, red for blood passion for rubber and rubbermen, yellow for drive for intense rubber play and fantasies. No date is given here because the sources disagree."
+  note "FOTW describes the flag as a black field with a wide gold zigzag stripe outlined in red about a third of the way from the top, and a thin red stripe following a parallel path about a quarter of that width below. It also gives the Commons colors as #d32011 red and #fcc800 yellow and says real flags often use lighter shades, which is unverified."
+  note "All geometry and the three colors (black, #fcc800, #d32011) are the Commons drawing's, which its author calls a personal rendition of a public-domain flag by the two designers. The stripes are kinked bands with no name in the format, so they are written as the drawing's polygons: a yellow band, a black cut that leaves it outlined, and red outlines. The 3:5 proportion is the drawing's."
+}
+palette {
+  black "#000000"
+  yellow "#fcc800"
+  red "#d32011"
+}
+proportion hoist=3 fly=5
+
+field black
+
+charge polygon yellow {
+  point fly=3.3896 hoist=2.1624
+  point fly=2.9477 hoist=2.3876
+  point fly=2.6622 hoist=1.9798
+  point fly=2.1073 hoist=1.1875
+  point fly=0 hoist=1.1875
+  point fly=0 hoist=0.6124
+  point fly=2.4067 hoist=0.6124
+  point fly=3.1332 hoist=1.65
+  point fly=5 hoist=0.6988
+  point fly=5 hoist=1.3439
+  point fly=3.3942 hoist=2.162
+}
+
+charge polygon black {
+  point fly=3.3896 hoist=2.1749
+  point fly=2.9477 hoist=2.4
+  point fly=2.6622 hoist=1.9924
+  point fly=2.1073 hoist=1.2
+  point fly=0 hoist=1.2
+  point fly=0 hoist=1.775
+  point fly=1.808 hoist=1.775
+  point fly=2.4767 hoist=2.7299
+  point fly=2.6658 hoist=3
+  point fly=3.0369 hoist=3
+  point fly=3.2087 hoist=2.9124
+  point fly=5 hoist=2
+  point fly=5 hoist=1.3564
+  point fly=3.3942 hoist=2.1746
+  point fly=5 hoist=1.376
+  point fly=5 hoist=1.3564
+}
+
+charge polygon red {
+  point fly=0 hoist=1.1322
+  point fly=2.142 hoist=1.1322
+  point fly=2.969 hoist=2.3125
+  point fly=4.9987 hoist=1.2791
+  point fly=5 hoist=1.428
+  point fly=2.9263 hoist=2.4846
+  point fly=2.0726 hoist=1.2655
+  point fly=0 hoist=1.2655
+  point fly=0 hoist=1.1322
+  point fly=0 hoist=1.2655
+}
+
+charge polygon red {
+  point fly=5 hoist=2.0746
+  point fly=3.1825 hoist=3
+  point fly=2.89 hoist=2.9988
+  point fly=5 hoist=1.9237
+}
+
+charge polygon red {
+  point fly=1.7733 hoist=1.8405
+  point fly=0 hoist=1.8405
+  point fly=0 hoist=1.7072
+  point fly=1.8427 hoist=1.7072
+  point fly=2.7472 hoist=2.9988
+  point fly=2.5844 hoist=2.9988
+}
+
+charge polygon red {
+  point fly=2.4468 hoist=0.5573
+  point fly=0 hoist=0.5573
+  point fly=0 hoist=0.6906
+  point fly=2.3774 hoist=0.6906
+  point fly=3.1158 hoist=1.7452
+  point fly=5 hoist=0.7852
+  point fly=5 hoist=0.6356
+  point fly=3.1586 hoist=1.5738
+  point fly=2.4468 hoist=0.5573
+  point fly=0 hoist=0.5573
+  point fly=0 hoist=0.6906
+}

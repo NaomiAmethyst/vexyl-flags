@@ -1,0 +1,43 @@
+// 3:2, three equal bars of 2/3. The pi is centered at 145.35 and 94.9 of the Commons drawing's 288 by 192,
+// which is 1.5141 and 0.9885 of 3 by 2, and is 48.5 wide, 0.5052.
+vexyl 1
+meta {
+  name "Polyamory Pride Flag"
+  designer "Jim Evans"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Copyrighted-Free-Use"
+  design-rights "Public domain, according to the designer's own page; credit to Jim Evans is requested but not required"
+  note "The pi's outline is a glyph of the EB Garamond typeface, which is under the SIL Open Font License 1.1."
+  adapted-from "https://commons.wikimedia.org/wiki/File:Polyamory_Pride_Flag.svg" {
+    author "Keymap9 (the pi, from the EB Garamond typeface), revising Ratatosk's drawing"
+    license "LicenseRef-Copyrighted-Free-Use"
+    part "the pi"
+  }
+  date "1995"
+  source "https://web.archive.org/web/20120213104012/http://www.isomedia.com/homes/jene/flag.html"
+  source "https://web.archive.org/web/20120203232201im_/http://www.isomedia.com/homes/jene/poly_xs.gif"
+  source "https://crwflags.com/FOTW/FLAGS/qq-polam.html"
+  source "https://commons.wikimedia.org/wiki/File:Polyamory_Pride_Flag.svg"
+  note "Jim Evans's own page, as the Wayback Machine held it on 13 February 2012, describes three equal horizontal stripes with a symbol in the center. From top to bottom they are blue, red and black. The symbol is a gold lowercase Greek letter pi. The page says the design is in the public domain."
+  note "The page gives no color values, so the colors are those of its flag image, poly_xs.gif (90 by 60 pixels, 3:2): #0000ff, #ff0000 and #000000, with the pi #ffff00. They match the Commons drawing. The 3:2 proportion is that image's. The equal stripes are the page's text; the small image draws them 17, 20 and 23 pixels high."
+  note "The year 1995 is from Flags of the World and Wikipedia, which cite later articles. The page read has no date."
+  note "Evans's image draws the pi in pixels, centered at 1.55 and 0.92 of 3 by 2 and 0.5 wide. The pi here is the Commons drawing's smooth one, used unchanged, at the Commons position. The file's history says Ratatosk drew the file in 2006 and Keymap9 replaced the pi in 2018 with one taken from the EB Garamond typeface (github.com/octaviopardo/EBGaramond12); Commons labels the file copyrighted free use, after Evans's public-domain statement."
+}
+palette {
+  blue "#0000ff"
+  red "#ff0000"
+  black "#000000"
+  yellow "#ffff00"
+}
+proportion hoist=2 fly=3
+
+bars blue red black
+
+charge svg yellow {
+  at fly=1.5141 hoist=0.9885
+  fly 0.5052
+  hoist 0.4458
+  markup #"""
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="121.1 73.5 48.5 42.8"><path fill="currentColor" d="M130.2 112.8c0-2.6.8-4.8 1.5-7.5l6-21c.5-1.8.3-2.7-1.9-2.7-6.6 0-9.9 1.8-12.3 9-.2.5-.2 1.4-1 1.4s-1.4-1.3-1.4-3.8c0-5.3 3.8-12.9 16.3-12.9 4.4 0 9.1.3 13.5.6 3.4.2 6.5.4 9.3.4 2.7 0 4.6-.9 6-1.6 1.1-.7 1.7-1.2 2.2-1.2 1 0 1.2.8 1.2 3 0 2.8-2.1 6.4-3.6 6.4-2.6 0-5.7-.4-7-.4-2.1 0-2.9.3-3.3 3-.4 2.8-2.3 14.5-2.3 18.4 0 2.4 1.7 3.4 3.6 3.5 1.1.1 2.3-.1 3.3-.5.8-.3 1.3-.6 1.5-.6.9 0 1 .5 1 1.5 0 3.3-2.2 8.3-7 8.3-3.3 0-6.2-3.2-6.2-9.6 0-4.8 2.5-18.6 2.5-21.7 0-1.2-.6-2.4-1.5-2.4l-7.5-.3c-1.3-.1-2 .5-2.4 2-3 11.3-3.8 18.5-4 23.2-.1 3.2.2 5.2.4 6.4.3 1.7.4 2.6-1 2.6-1.3 0-5.9-2-5.9-3.5z"/></svg>
+    """#
+}

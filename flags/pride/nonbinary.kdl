@@ -1,0 +1,27 @@
+// Four equal bars on a 2:3 field.
+vexyl 1
+meta {
+  name "Nonbinary pride flag"
+  designer "Kye Rowan"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "CC-BY-4.0, as the designer states on the flag FAQ"
+  date "2014-02"
+  source "https://web.archive.org/web/20230526102227/https://thejasmineelf-blog.tumblr.com/flagfaq"
+  source "https://web.archive.org/web/20180624214236/http://thejasmineelf.tumblr.com/post/77007286542/after-counting-up-all-the-votes-for-each"
+  source "https://web.archive.org/web/20220927074804/https://majesticmess.com/encyclopedia/nonbinary-flag/"
+  source "https://commons.wikimedia.org/wiki/File:Nonbinary_flag.svg"
+  note "Defining sources, both by the designer and read: the designer's flag FAQ, whose hex table gives yellow #FFF433, purple #9B59D0, black #2D2D2D and white, and the final-design post, which gives the meanings. Majestic Mess dates the flag 17 February 2014; Commons and FOTW say February 2014."
+  note "The FAQ says the white was originally unmodified white and is now #FFF8E7 (cosmic latte). This file keeps the original, pure white; the later white is a change by the designer and is not written. Her pages state no proportion; 2:3 and equal bars follow the Commons drawing."
+  note "This file's license covers the encoding, not the design. The FAQ says the flag is licensed CC BY 4.0 and asks that nobody claim to have designed it."
+}
+palette {
+  yellow "#fff433"
+  white "#ffffff"
+  purple "#9b59d0"
+  black "#2d2d2d"
+}
+proportion hoist=2 fly=3
+
+bars yellow white purple black

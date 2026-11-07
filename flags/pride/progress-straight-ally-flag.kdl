@@ -1,0 +1,122 @@
+// 6 by 9 grid, one unit being a black or white bar. Every triangle edge slopes 0.75 across to 1 down
+// (the Commons drawing's 54 to 72).
+vexyl 1
+meta {
+  name "Progress Straight Ally Flag"
+  designer "FireDragonValo"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2025-06-10"
+  source "https://commons.wikimedia.org/wiki/File:Progress_Straight_Ally_Flag.svg"
+  source "https://en.wikipedia.org/wiki/Progress_flag"
+  design-rights "The chevron borrows the layout of Daniel Quasar's Progress Pride Flag, whose designer sets terms for its use; see the Progress Pride Flag file in flags/pride for what is known. The terms were not checked for this derivative. This file's license covers the encoding, not the design."
+  note "No source outside Commons was found. The Commons file, dated 2025-06-10 and credited to the Wikimedia user FireDragonValo, calls it a variation of the straight ally flag representing supportive straight people. Commons gives it as CC0. The Wikimedia user is the only designer attribution available."
+  note "This is the straight ally flag's bars (black and white, six in all, black on top) with the Progress flag's chevron laid over them, apex up: six rainbow bands, then nested chevrons in black, brown, light blue, pink and white. The straight ally flag's own origin was not researched."
+  note "Everything is the Commons drawing's (viewBox 648 by 432, so 3:2): six bars of 72, and bands and chevrons with edges sloping 54 across to 72 down. The bands are written as the drawing's polygons because each has a point on top. Colors are the drawing's: rainbow #e40303 #ff8c00 #ffed00 #008026 #004dff #750787, brown #613915, light blue #74d7ee, pink #ffafc8."
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  violet "#750787"
+  brown "#613915"
+  light-blue "#74d7ee"
+  pink "#ffafc8"
+}
+proportion hoist=6 fly=9
+
+bars black white {
+  count 6
+}
+
+charge polygon violet {
+  point fly=0.75 hoist=5
+  point fly=3.75 hoist=2
+  point fly=3.75 hoist=5
+  point fly=3 hoist=6
+  point fly=0 hoist=6
+}
+
+charge polygon violet {
+  point fly=8.25 hoist=5
+  point fly=5.25 hoist=2
+  point fly=5.25 hoist=5
+  point fly=6 hoist=6
+  point fly=9 hoist=6
+}
+
+charge polygon blue {
+  point fly=1.5 hoist=4
+  point fly=4.5 hoist=3
+  point fly=7.5 hoist=4
+  point fly=8.25 hoist=5
+  point fly=5.25 hoist=5
+  point fly=4.5 hoist=4
+  point fly=3.75 hoist=5
+  point fly=0.75 hoist=5
+}
+
+charge polygon green {
+  point fly=2.25 hoist=3
+  point fly=4.5 hoist=2
+  point fly=6.75 hoist=3
+  point fly=7.5 hoist=4
+  point fly=1.5 hoist=4
+}
+
+charge polygon yellow {
+  point fly=3 hoist=2
+  point fly=4.5 hoist=1
+  point fly=6 hoist=2
+  point fly=6.75 hoist=3
+  point fly=2.25 hoist=3
+}
+
+charge polygon orange {
+  point fly=3.75 hoist=1
+  point fly=4.5 hoist=0.5
+  point fly=5.25 hoist=1
+  point fly=6 hoist=2
+  point fly=3 hoist=2
+}
+
+charge polygon red {
+  point fly=3.75 hoist=1
+  point fly=4.5 hoist=0
+  point fly=5.25 hoist=1
+}
+
+pile black {
+  from bottom
+  base 1.5 7.5
+  depth 4
+}
+
+pile brown {
+  from bottom
+  base 1.875 7.125
+  depth 3.5
+}
+
+pile light-blue {
+  from bottom
+  base 2.25 6.75
+  depth 3
+}
+
+pile pink {
+  from bottom
+  base 2.625 6.375
+  depth 2.5
+}
+
+pile white {
+  from bottom
+  base 3 6
+  depth 2
+}

@@ -1,0 +1,27 @@
+// Seven equal stripes, each 2 of 14. The grid is Commons' 23:14.
+vexyl 1
+meta {
+  name "Rainbow flag, seven stripes"
+  series "rainbow-flag"
+  version "1978-7-stripe"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://cdn.fotw.info/flags/qq-rb_h.html"
+  source "https://commons.wikimedia.org/wiki/File:Gay_flag_7.svg"
+  note "No designer is named. FOTW says that after the November 1978 killings of Moscone and Milk, Paramount Flag Co. of San Francisco began selling seven-stripe flags, surplus stock made for another organization, and that when Baker later asked for the 1979 parade flags Paramount had no hot pink. The date is left out for that reason: it is when the sales began, not a verified date of a design."
+  note "FOTW lists the stock stripes as red, orange, yellow, green, blue, indigo and violet. The colors and the 23:14 proportion are the Commons drawing's, which is the eight-stripe flag with hot pink removed and so keeps turquoise. They are not from a maker's document."
+  note "No primary source was found for this version. It is the weakest file in its series."
+}
+palette {
+  red "#ff0000"
+  orange "#ff8e00"
+  yellow "#ffff00"
+  green "#008e00"
+  turquoise "#00c0c0"
+  indigo "#400098"
+  violet "#8e008e"
+}
+proportion hoist=14 fly=23
+
+bars red orange yellow green turquoise indigo violet

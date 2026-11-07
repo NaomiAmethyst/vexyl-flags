@@ -1,0 +1,24 @@
+// Three equal bars, 5:3: the designer's hex-code image is 500 by 300 pixels with each bar 100 high.
+vexyl 1
+meta {
+  name "Pansexual Pride Flag"
+  designer "Jasper"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2010"
+  source "https://web.archive.org/web/20110824012318/http://pansexualflag.tumblr.com/post/1265215452/hex-color-codes-you-dont-have-to-use-these-exact"
+  source "https://web.archive.org/web/20200711054836/https://justjasper.tumblr.com/post/42971325095/confession-time"
+  source "https://en.wikipedia.org/wiki/Pansexual_pride_flag"
+  note "The designer's pansexualflag Tumblr post of 8 October 2010 gives the colors as an image labeled #FF218C, #FFD800 and #21B1FF, from top to bottom. The post says they needn't be used exactly, but are given for uniformity."
+  note "The designer's own post of 13 February 2013 (as justjasper) says the designer made the flag in 2010 and doesn't claim copyright. It gives only the first name Jasper. Wikipedia gives 'Jasper V.' from a self-published source, which this file doesn't use."
+  note "The bars are equal, as in the hex-code image, which is 500 by 300 pixels. The 5:3 proportion is that image's, and the designer's posts don't state a proportion for the flag."
+}
+palette {
+  magenta "#ff218c"
+  yellow "#ffd800"
+  cyan "#21b1ff"
+}
+proportion hoist=3 fly=5
+
+bars magenta yellow cyan

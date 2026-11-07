@@ -21,15 +21,17 @@ Both are sorted by family:
 | `territories/`, `us/`, `russia/`, `germany/`, `japan/`, `india/`, `brazil/`, `mexico/`, `spain/`, `swiss/`, `europe/` | Regional flags, by the family they belong to |
 | `historical/`, `ethnic/`, `orgs/`, `signal/` | Historical, ethnic and organization flags, and signal flags |
 
-[`evidence.tsv`](evidence.tsv) gives each hand-written flag written from a law an evidence tier:
+[`evidence.tsv`](evidence.tsv) gives each hand-written flag an evidence tier, by what defines
+it. For a national or civic flag that's its law. For a pride flag it's usually its designer's
+own first publication, or the publication of a body that adopted it.
 
 | Tier | Meaning |
 |---|---|
-| `A` | A law was read, and it covers the flag's geometry |
-| `B` | A law was read, and gaps were filled from labeled secondary sources |
-| `C` | No law was read |
+| `A` | The defining source was read, and it covers the flag's geometry, proportion included |
+| `B` | The defining source was read, and gaps were filled from labeled secondary sources |
+| `C` | The defining source wasn't read |
 
-Even in tier A, a flag's screen colors usually come from elsewhere, because few laws give them.
+Even in tier A, a flag's screen colors often come from elsewhere, because few laws give them.
 None of this is legal advice, and a law read here could have changed since.
 
 ## How they were made

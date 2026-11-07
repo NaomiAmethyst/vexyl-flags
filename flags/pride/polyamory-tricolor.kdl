@@ -1,0 +1,50 @@
+// 5:3, three equal bars of 1. The white chevron's apex is 2 from the hoist and 1 from the top, with
+// 45-degree arms: the Commons file has them as 370.39 and 185.2 of 555.59, which is 2/3 and 1/3.
+vexyl 1
+meta {
+  name "Tricolor Polyamory Pride Flag"
+  designer "Red Howell"
+  encoder "Naomi Persephone Amethyst"
+  license "CC0-1.0"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Tricolor_Polyamory_Pride_Flag.svg" {
+    author "Red Howell"
+    license "CC0-1.0"
+    part "the heart"
+  }
+  design-rights "Belongs to the public, according to PolyamProud's flag page"
+  date "2022"
+  source "https://web.archive.org/web/20221123085003/https://www.polyamproud.com/flag"
+  source "https://web.archive.org/web/20221123085004/https://www.polyamproud.com/about"
+  source "https://static.wixstatic.com/media/dde73f_ee6b3708ac2243e2a3306880981a2a91~mv2.png"
+  source "https://en.wikipedia.org/wiki/Polyamory"
+  source "https://commons.wikimedia.org/wiki/File:Tricolor_Polyamory_Pride_Flag.svg"
+  note "The PolyamProud 'New Tricolor Polyamory Pride Flag' page, as the Wayback Machine held it on 23 November 2022, says the design was created by Red Howell and was chosen by 30,479 votes. Wikipedia places the choice in 2022. The vote's own date wasn't read, so the date is the year."
+  note "That page lists the colors with hex values: white #FFFFFF, gold #FCBF00, blue #009FE3, magenta #E50051 and violet #340C46. This file uses them. The page names the bars' colors only by saying red stands for love and attraction and blue for openness and honesty, and it calls the other flag's red color 'red' where this one has magenta."
+  note "The page describes a white chevron that flows outward and sits asymmetrically, and a heart. It gives no proportion or measurements. The bars, chevron and heart are placed as in the Commons file, which Keinstman uploaded in November 2022 as a work by Red Howell from that page. The file's ratio is 924.09:555.59, 1.6633, and this file rounds it to 5:3. Checked against the page's own flag image (2773 by 1668 pixels, 1.6625): its bars are 556, 554 and 556 pixels, the white reaches the top edge at 1 and the bottom edge at 0 of the 3-unit height, with its point at 2 and 1, and its heart matches this one's place and size to within about 0.02."
+  note "The heart is the Commons file's path, used unchanged and scaled with the flag."
+}
+palette {
+  blue "#009fe3"
+  magenta "#e50051"
+  violet "#340c46"
+  white "#ffffff"
+  gold "#fcbf00"
+}
+proportion hoist=3 fly=5
+
+bars blue magenta violet
+
+chevrons white {
+  depth 2
+  angle 45
+  apex 1
+}
+
+charge svg gold {
+  at fly=0.8985 hoist=1
+  fly 1.0896
+  hoist 1.2351
+  markup #"""
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="65.48 70.82 201.81 228.74"><path fill="currentColor" d="M89.62,94.72h0c-23.89,23.89-23.89,62.64,0,86.53l3.82,3.82h0s-4.07,4.07-4.07,4.07c-23.89,23.89-23.89,62.64,0,86.53h0c23.89,23.89,62.64,23.89,86.53,0l4.07-4.07,86.53-86.53,.79-.79-87.09-85.52-.23-.23-3.82-3.82c-23.89-23.89-62.64-23.89-86.53,0Z"/></svg>
+    """#
+}

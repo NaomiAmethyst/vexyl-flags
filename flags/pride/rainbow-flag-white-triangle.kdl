@@ -1,0 +1,30 @@
+// As drawn on 3:5: six equal stripes and a white triangle at the hoist, its point 1.9062 from it.
+vexyl 1
+meta {
+  name "Rainbow flag with white triangle"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://cdn.fotw.info/flags/qq-rb_v3.html"
+  source "https://commons.wikimedia.org/wiki/File:Rainbow_Flag_with_white_triangle.svg"
+  note "No designer or first publication was found. FOTW (page last modified 2024-01-13) says flags like this were photographed at the first Pride in Osaka in October 2006, and seen at the Sapporo Rainbow March in 2008 and in 2018 and 2019: a rainbow flag with a white triangle at the hoist, the bottom stripe purple, with the shades not easy to judge. It does not give a designer or a meaning."
+  note "Commons' description says this is a Sapporo flag and that Hironori Nishizawa made several designs, one with a white triangle, citing the Sapporo Rainbow Pride site's goods page. That page, as fetched, held no text about it, so the claim is not confirmed and no designer is named here. The white's meaning of mourning is Commons' account, from the same page."
+  note "The proportion, the six colors and the triangle's depth are the Commons drawing's, by Kautr, 22 April 2021. Its colors (#ff1008 and the like) are not from the designer. Nothing read gives the triangle's size."
+}
+palette {
+  red "#ff1008"
+  orange "#ff9f10"
+  yellow "#fffc10"
+  green "#20af40"
+  blue "#1040e7"
+  purple "#9f10bf"
+  white "#ffffff"
+}
+
+proportion hoist=3 fly=5
+
+bars red orange yellow green blue purple
+
+chevrons white {
+  depth 1.9062
+}

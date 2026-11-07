@@ -1,0 +1,29 @@
+// Bars 5:2:5; triangle depth 1.9125 of 3 is 306 of 480 in the Commons drawing (derived).
+vexyl 1
+meta {
+  name "Demisexual Pride Flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Demisexual_Pride_Flag.svg"
+  source "https://aceweek.org/stories/ace-flag-history"
+  source "https://en.wikipedia.org/wiki/Demisexuality"
+  note "No designer or first publication was found. Ace Week says the exact origins of the demisexual flag are unknown and that it may have been proposed like the gray-asexual flag, by an upload to Wikipedia. Searches found conflicting unsupported claims (an AVEN user in 2010, a 2006 Tumblr user), and none was verified. This file is written from the Commons drawing, which credits Vimopu with the original image in 2013 and calls it a claimed flag."
+  note "Meanings, per Wikipedia citing Old Dominion University: black triangle for asexuality, gray for gray asexuality, white for sexuality, purple for community."
+  note "Bars 5:2:5, the triangle's depth, the 3:5 proportion and all four colors (#ffffff, #6e0070, #d2d2d2, #000000) are the Commons drawing's (viewBox 800 by 480; stripes 200, 80, 200; triangle apex at x=306). No other source states them."
+}
+palette {
+  white "#ffffff"
+  purple "#6e0070"
+  grey "#d2d2d2"
+  black "#000000"
+}
+proportion hoist=3 fly=5
+
+bars white purple grey {
+  ratio 5 2 5
+}
+
+chevrons black {
+  depth 1.9125
+}

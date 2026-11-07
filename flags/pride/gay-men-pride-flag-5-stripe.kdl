@@ -1,0 +1,26 @@
+// Five equal stripes, each 1/5 of the hoist, on 3:5 (the designer's 500 by 300 image).
+vexyl 1
+meta {
+  name "Gay men's pride flag, five stripes"
+  series "gay-men-pride-flag"
+  version "5-stripe"
+  designer "gayflagblog"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "The designer's post says all of the flags are free to use commercially and personally, with a credit or link to the post. This file's license covers the encoding, not the design."
+  source "https://web.archive.org/web/20201113190641/https://gayflagblog.tumblr.com/post/186181118619/"
+  source "https://commons.wikimedia.org/wiki/File:5-striped_New_Gay_Male_Pride_Flag.svg"
+  note "The post read is the Wayback Machine's snapshot of 13 November 2020, edited 30 June 2020. It says there are many variants and shows them in one image; this is the five-stripe one, which drops light teal and indigo from the seven. No earlier copy could be reached, so the date of the first post is not verified. Commons says the five-stripe flag is a simplified version made on 10 July 2019."
+  note "The colors were sampled from the post's image of this variant, at the middle of each stripe: #078d70, #98e8c1, #ffffff, #7bade2, #3d1a78. The stripes there are equal. Commons draws the same values. The proportion, 3:5, is the post's own image's, 500 by 300, which Commons' drawing also has."
+}
+palette {
+  teal "#078d70"
+  green "#98e8c1"
+  white "#ffffff"
+  blue "#7bade2"
+  purple "#3d1a78"
+}
+proportion hoist=3 fly=5
+
+bars teal green white blue purple

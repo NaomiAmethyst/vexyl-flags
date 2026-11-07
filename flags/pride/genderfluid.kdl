@@ -1,0 +1,27 @@
+// Five equal bars on a 2:3 field.
+vexyl 1
+meta {
+  name "Genderfluid pride flag"
+  designer "JJ Poole"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2012-08-03"
+  source "https://web.archive.org/web/20220622041413/https://genderfluidity.tumblr.com/post/28614422659/so-i-couldnt-find-a-flag-that"
+  source "https://web.archive.org/web/20220927075257/https://majesticmess.com/2018/12/20/interview-creator-of-the-genderfluid-flag/"
+  source "https://web.archive.org/web/20220927083636/https://majesticmess.com/encyclopedia/genderfluid-flag/"
+  source "https://commons.wikimedia.org/wiki/File:Genderfluidity_Pride-Flag.svg"
+  note "Defining source: the post of 3 August 2012 on genderfluidity.tumblr.com (read at the snapshot above), credited there to lostinthoughtspaceandfantasies, whom the Majestic Mess interview and Commons name as JJ Poole. It gives the meanings: pink femininity, blue masculinity, purple both, black the lack of gender, white all genders. It gives no hex."
+  note "Colors are sampled from the post's flag PNG (298 by 199), five stripes of 41, 40, 39, 40 and 39 pixels: #ff75a2, #f5f5f5, #be18d6, #2c2c2c, #333ebd. They equal the hex on Majestic Mess's style guide and the Commons drawing."
+  note "The 2:3 proportion is that of the posted image (298 by 199), which is a resized copy and not a stated proportion. Commons draws it 3:5. Stripes are equal."
+}
+palette {
+  pink "#ff75a2"
+  white "#f5f5f5"
+  purple "#be18d6"
+  black "#2c2c2c"
+  blue "#333ebd"
+}
+proportion hoist=2 fly=3
+
+bars pink white purple black blue

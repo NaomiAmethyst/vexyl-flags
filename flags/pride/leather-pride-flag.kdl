@@ -1,0 +1,34 @@
+// Nine equal bars, 18 by 27 so each is 2. Heart radius 2.253 is 116 wide / 3.414 in the Commons drawing.
+vexyl 1
+meta {
+  name "Leather Pride Flag"
+  designer "Tony DeBlase"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "1989-05-28"
+  source "https://web.archive.org/web/20180216143846/https://www.leatherarchives.org/pride.html"
+  source "https://commons.wikimedia.org/wiki/File:Leather,_Latex,_and_BDSM_pride.svg"
+  source "https://commons.wikimedia.org/wiki/File:Leather,_Latex,_and_BDSM_pride_-_Light.svg"
+  design-rights "The designer's editorial, reproduced by the Leather Archives & Museum, says Desmodus Inc. has a copyright on the design, that purely commercial use needs its written approval, and that use by the leather and SM community for free or at-cost items or for not-for-profit fundraising needs no permission. This file's license covers the encoding, not the design."
+  note "Designer's own editorial, as reproduced by the Leather Archives & Museum in the Wayback snapshot above. DeBlase presented it as a proposed design idea at International Mr. Leather in Chicago on 28 May 1989. He writes: nine horizontal stripes of equal width; from the top and bottom the stripes alternate black and royal blue; the central stripe is white; in the upper left quadrant is a large red heart."
+  note "He also writes that he originally made the central stripe red, and changed it to white because the heart's tip bleeding into a red stripe would not read. He gave no meanings for the colors or the heart."
+  note "No proportion, shade or heart geometry is given in the text. The 3:2 proportion, the shades black, blue #18186b, white and red #e70039, and the heart's size, position and tilt come from the Commons drawing titled Leather, Latex, and BDSM pride (heart radius, position and a tilt of 38 degrees counterclockwise measured from its transform). The tilt agrees with Wikipedia's description of a tilted heart, and the Archive's photograph of the original flag shows a tilted heart."
+  note "The heart is drawn with the classic heart shape (two discs and a right-angled tip). The Commons heart has the same width to height as that shape (116 to 106) but is hand-drawn, with a thin black outline that is omitted here. The Commons heart is a little narrower, with a deeper notch and a rounder tip, so about 1 percent of the pixels differ."
+  note "The second Commons import, Leather, Latex, and BDSM pride - Light, is the same design with the blue #2a2a7f and the heart a little further right and up. This file replaces both; royal blue has no fixed value, and #18186b was chosen only because it is the drawing Wikipedia uses."
+}
+palette {
+  black "#000000"
+  blue "#18186b"
+  white "#ffffff"
+  red "#e70039"
+}
+proportion hoist=18 fly=27
+
+bars black blue black blue white blue black blue black
+
+charge heart red {
+  radius 2.253
+  at fly=5.64 hoist=3.5
+  rotate -38
+}

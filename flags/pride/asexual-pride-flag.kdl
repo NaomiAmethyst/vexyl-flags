@@ -1,0 +1,28 @@
+// Four equal bars, 5:3.
+vexyl 1
+meta {
+  name "Asexual Pride Flag"
+  designer "standup"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2010-06-30"
+  source "https://www.asexuality.org/en/topic/51646-asexual-flag-thread/"
+  source "https://www.asexuality.org/en/topic/53435-asexual-flag-and-the-winner-is/"
+  source "https://web.archive.org/web/20120422144544/http://www.asexuality.org/wiki/index.php?title=Asexual_flag"
+  source "https://web.archive.org/web/20210917010329/https://www.asexualityarchive.com/the-asexuality-flag/"
+  source "https://crwflags.com/fotw/flags/qq-asex.html"
+  note "Designed by the AVEN member standup, who posted the example flag in the AVEN Asexual Flag Thread on 30 June 2010, per the Asexuality Archive. The AVEN thread was read, but its flag images were not retrieved. The 'And the winner is' thread (11 August 2010) announces that flag A1 won the vote. Its text, as read, does not describe A1's stripes, so the match of A1 to the black, grey, white and purple bars rests on the AVEN wiki and the Asexuality Archive."
+  note "The AVEN wiki snapshot above (April 2012) states four equal horizontal stripes and meanings: black asexuality, grey grey-asexuality and demisexuality, white sexuality, purple community."
+  note "No shade was standardized. The winner thread says 'now all we have to do is standardise the colours' and later replies say no formal shade was set. The colors here are those AVENwiki drew its flag with in the snapshot: #000000, #AAAAAA, #FFFFFF, #800080. The Commons drawing uses #a3a3a3 for the grey."
+  note "No proportion was set. A reply in the winner thread (August 2010) describes the winning image as 640 by 361 pixels and says it used the web colors silver and purple; that member's description of the original grey was not used, since AVENwiki's later values are those written here. FOTW says the common ratios are 3:5 and 2:3. 3:5 is used here."
+}
+palette {
+  black "#000000"
+  grey "#aaaaaa"
+  white "#ffffff"
+  purple "#800080"
+}
+proportion hoist=3 fly=5
+
+bars black grey white purple

@@ -1,0 +1,25 @@
+// Five equal bars, 5:3.
+vexyl 1
+meta {
+  name "Gray Asexuality Flag"
+  designer "Milith Rusignuolo"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2013-06-21"
+  source "http://web.archive.org/web/20180210192310/https://avia-viridis.neocities.org/flags.html"
+  source "https://crwflags.com/fotw/flags/qq-asex.html"
+  source "https://aceweek.org/stories/ace-flag-history"
+  source "https://commons.wikimedia.org/wiki/File:Grey_asexuality_flag.svg"
+  note "Designer's own page, read from the Wayback snapshot above. The designer says they created the flag and uploaded it to Wikimedia Commons on June 21, 2013 as Grey-A flag proposal, that it was deleted, and that it spread through Pride Flags For Us on Tumblr. The page names purple for asexuality, gray for the transition between asexuality and allosexuality, and white for allosexuality."
+  note "The page's flag image could not be fetched from the Wayback Machine (it returned an HTML page), so the stripe count, colors and proportion were not read from the designer. Five equal stripes of purple, gray, white, gray, purple come from FOTW and Wikipedia, which describe them. FOTW says 3:5 is the usual real-life ratio."
+  note "The colors are the Commons drawing's (Kautr, 2021): #740195, #b2b2b2, #ffffff. FOTW remarks that real shades often look lighter than the asexual flag's."
+}
+palette {
+  purple "#740195"
+  grey "#b2b2b2"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars purple grey white grey purple

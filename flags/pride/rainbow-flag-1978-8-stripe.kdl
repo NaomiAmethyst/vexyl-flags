@@ -1,0 +1,49 @@
+// Eight equal stripes, each 1/8 of the hoist. The grid is 30 ft by 60 ft, 1:2.
+vexyl 1
+meta {
+  name "Rainbow flag, eight stripes"
+  series "rainbow-flag"
+  version "1978-8-stripe"
+  date "1978-06-25"
+  designer "Gilbert Baker"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://gilbertbaker.com/rainbow-flag-color-meanings/"
+  source "https://glbthistory.org/rainbow-flag"
+  source "https://cdn.fotw.info/flags/qq-rb_h.html"
+  note "Order, meanings and colors: the Gilbert Baker Foundation's page on the original eight-color flag, from top to bottom: hot pink for sex, red for life, orange for healing, yellow for sunlight, green for nature, turquoise for magic and art, indigo for serenity, violet for spirit. It says Baker used Pantone to define the colors, and gives each one's Pantone number and a hex value. The hex values here are the page's HEX column."
+  note "On that page two rows disagree with themselves: hot pink's RGB 223 25 149 is #DF1995, not its HEX #D6006E, and yellow's RGB 255 255 0 is not its HEX #FFCD00. The HEX column is used throughout."
+  note "Date and size: the GLBT Historical Society says two flags, 30 feet high by 60 feet wide, were first flown on 25 June 1978 at San Francisco's Gay Freedom Day, hand dyed and stitched, with eight stripes and the pink one at the top. So the grid is 1:2."
+  note "The stripes' equal widths are not stated in the text read. They are taken from the photographs of the flag and its fragment and from Commons."
+  note "Baker dropped hot pink in 1979, for lack of fabric, and turquoise too, which left the six-stripe flag."
+}
+palette {
+  hot-pink "#d6006e" {
+    pantone "225 C"
+  }
+  red "#e4002b" {
+    pantone "185 C"
+  }
+  orange "#fe5000" {
+    pantone "021 C"
+  }
+  yellow "#ffcd00" {
+    pantone "122 C"
+  }
+  green "#00843d" {
+    pantone "348 C"
+  }
+  turquoise "#009aa6" {
+    pantone "3135 C"
+  }
+  indigo "#003da5" {
+    pantone "293 C"
+  }
+  violet "#a634b2" {
+    pantone "2593 C"
+  }
+}
+proportion hoist=1 fly=2
+
+bars hot-pink red orange yellow green turquoise indigo violet

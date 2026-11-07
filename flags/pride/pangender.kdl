@@ -1,0 +1,25 @@
+// Seven equal bars on a 7:10 field.
+vexyl 1
+meta {
+  name "Pangender pride flag"
+  designer "Cari Rez Lobo (Tumblr: pangendering)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-01-28"
+  source "https://web.archive.org/web/20170429032251/http://pangendering.tumblr.com/post/109400686126/possible-pangender-pride-flags"
+  source "https://web.archive.org/web/20211201152032/https://gender.fandom.com/wiki/Pangender"
+  source "https://commons.wikimedia.org/wiki/File:Pangender_flag.svg"
+  note "Defining source: the post 'Possible pangender pride flags' of 28 January 2015 on pangendering.tumblr.com (read at the snapshot above), which offers two flags based on the agender flag. This file is the second, yellow on the outside and white in the middle. The first has white outer stripes and yellow in the middle and is not written. The post is a proposal and gives no text on colors."
+  note "Colors are sampled from the designer's posted PNG (500 by 347): #fff798, #ffddcd, #ffebfb, #ffffff. They match the Gender Wiki, which gives the same three with Cari Rez Lobo as proposer and these meanings: yellow genders outside the female and male binary, light red the transition to genders related to female and male, light violet-pink their combination, white the blend of all. Commons has #feddcc and #ffebfc."
+  note "The 7:10 proportion is rounded from the designer's posted image (500 by 347, 1.44), which states no proportion; Commons draws 3:5. Stripes are equal, within a few pixels in the image."
+}
+palette {
+  yellow "#fff798"
+  light-red "#ffddcd"
+  light-violet "#ffebfb"
+  white "#ffffff"
+}
+proportion hoist=7 fly=10
+
+bars yellow light-red light-violet white light-violet light-red yellow

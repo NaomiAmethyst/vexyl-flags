@@ -1,0 +1,29 @@
+// Eight equal stripes, each 1/8 of the hoist, on 3:5.
+vexyl 1
+meta {
+  name "Philadelphia Pride flag"
+  date "2017-06-08"
+  designer "Tierney"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.phila.gov/press-releases/mayor/city-and-office-of-lgbt-affairs-kick-off-pride-month/"
+  source "https://web.archive.org/web/20180110113836/https://morecolormorepride.com/"
+  source "https://commons.wikimedia.org/wiki/File:Philadelphia_Pride_Flag.svg"
+  note "The City of Philadelphia's press release of 8 June 2017 says its Office of LGBT Affairs and the Philadelphia agency Tierney launched the #MoreColorMorePride campaign, and that the agency designed the flag by adding black and brown to the rainbow flag. It was unveiled at City Hall that day."
+  note "The release gives no order, proportion or colors. The campaign site's photograph of its pin shows, from the top, black, brown, red, orange, yellow, green, blue and violet, in equal stripes. The colors and 3:5 are the Commons drawing's, not the agency's. Commons draws 777:480."
+  note "The agency is the designer by the city's own words. Gilbert Baker's six-stripe flag is the one it added to."
+}
+palette {
+  black "#000000"
+  brown "#784f17"
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  violet "#750787"
+}
+proportion hoist=3 fly=5
+
+bars black brown red orange yellow green blue violet

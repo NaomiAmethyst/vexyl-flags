@@ -1,0 +1,23 @@
+// Five equal bars, 5:3: the posted image is 500 by 300 pixels with bars of 60.
+vexyl 1
+meta {
+  name "Abrosexual Pride Flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20181217215514/https://pride-color-schemes.tumblr.com/post/144021162525/abro"
+  source "https://web.archive.org/web/20181217215514im_/https://66.media.tumblr.com/16961fe2b06784f5973fceda7264cdad/tumblr_inline_o6u6p3MtF51re2bou_500.png"
+  source "https://commons.wikimedia.org/wiki/File:Abrosexual_flag.svg"
+  note "No defining source was found. The only account read is a 7 May 2016 post on the Tumblr blog pride-color-schemes, which describes five stripes (green, light green, white, light pink, dark pink) and credits the design to 'Anonymous + @pride-flags-for-us'. It gives no color values, and says the color meanings are unknown. The designer is therefore not named in this file."
+  note "The colors are that post's flag image's pixels (500 by 300, five equal bars of 60), read from the Wayback Machine's copy: #75ca92, #b4e4c9, #ffffff, #e795b6 and #d9446e. The post gives no values itself. The Commons drawing has #65c286, #b4e4cc and #e796b7 for three of them. The stripe order and color names are the post's, and the 5:3 proportion and equal bars are its image's."
+}
+palette {
+  green "#75ca92"
+  light-green "#b4e4c9"
+  white "#ffffff"
+  pink "#e795b6"
+  dark-pink "#d9446e"
+}
+proportion hoist=3 fly=5
+
+bars green light-green white pink dark-pink

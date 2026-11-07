@@ -1,0 +1,58 @@
+// As drawn on 2:3, which is the national flag's proportion. The white strips are 1/15 of the
+// hoist, as the national flag's white edges are. Nothing else is from the national flag's law.
+vexyl 1
+meta {
+  name "Gay flag of South Africa"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Gay_Flag_of_South_Africa.svg" {
+    author "Htonl"
+    license "LicenseRef-Public-Domain"
+    part "the geometry of the white strips and the black chevron"
+  }
+  source "https://web.archive.org/web/20110727183557/http://gayflagofsouthafrica.co.za/"
+  source "https://web.archive.org/web/20110712184904/http://gayflags.biz/flags_gay/gay_flags_national.html"
+  note "The defining source is not known. Commons draws it from the site gayflagofsouthafrica.co.za, whose 2011 snapshot sells a GLBT flag of South Africa and says nothing about its design: no stripes, colors or geometry, and no picture could be seen. The gayflags.biz list of national gay flags, 2011 snapshot, also has a South Africa flag, marked as Greg Gomes's design, and its picture was not reachable. Whether the two are the same design is not known."
+  note "Everything drawn is therefore Commons'. It takes the South African national flag, 2:3 (Schedule 1 of the Constitution), keeps its white edges and a black chevron, and puts the rainbow where the green band and the gold edge were. The colors are Commons', the 2017-era set also used by the Progress flag."
+}
+palette {
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  violet "#750787"
+  white "#ffffff"
+  black "#000000"
+}
+
+proportion hoist=2 fly=3
+
+bars red orange yellow green blue violet
+
+charge polygon white {
+  point fly=0.6009 hoist=0
+  point fly=1.6009 hoist=0.6667
+  point fly=3 hoist=0.6667
+  point fly=3 hoist=0.8
+  point fly=1.5606 hoist=0.8
+  point fly=0.3606 hoist=0
+}
+
+charge polygon white {
+  point fly=0.6009 hoist=2
+  point fly=1.6009 hoist=1.3333
+  point fly=3 hoist=1.3333
+  point fly=3 hoist=1.2
+  point fly=1.5606 hoist=1.2
+  point fly=0.3606 hoist=2
+}
+
+charge polygon black {
+  point fly=0 hoist=0.2404
+  point fly=1.1394 hoist=1
+  point fly=0 hoist=1.7596
+  point fly=0 hoist=1.5994
+  point fly=0.8991 hoist=1
+  point fly=0 hoist=0.4006
+}

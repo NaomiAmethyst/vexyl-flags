@@ -1,0 +1,46 @@
+// From the proclamation: 32 x 64, a white square the width of the flag in the center
+// with the leaf; the stripes are the red bars' places, 16 each side, 32/6 each.
+vexyl 1
+meta {
+  name "Canada pride flag"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Public-Domain"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg" {
+    author "MapGrid"
+    author "Illegitimate Barrister"
+    license "LicenseRef-Public-Domain"
+    part "the maple leaf's outline"
+  }
+  source "https://commons.wikimedia.org/wiki/File:Canada_Pride_flag.svg"
+  source "https://people.stfx.ca/lstanley/stanley/flagbook/AppendixA.htm"
+  source "https://web.archive.org/web/20110712184904/http://gayflags.biz/flags_gay/gay_flags_national.html"
+  note "No designer found. Commons says its drawing, by Keepscases, 23 January 2010, is a remake of the Canada entry on the National Gay Flags of the World page, gayflags.biz. That page's 2011 snapshot does not mark Canada as Greg Gomes's design, and its picture could not be fetched."
+  note "The construction is the national flag's, from the proclamation of 28 January 1965, 2:1 with a white square the flag's width in the center, as in this project's file for Canada, and the leaf's outline is the same Commons path of the national flag, copied without change. Commons draws its pride flag on 3:2, with a white rectangle: this file follows the proclamation instead. The red bars' places show six equal stripes."
+  note "The stripe colors and the leaf's pure red #ff0000 are the Commons pride drawing's, not the national flag's #da291c."
+}
+palette {
+  red "#e50000"
+  orange "#ff8d00"
+  yellow "#ffee00"
+  green "#028121"
+  blue "#004cff"
+  violet "#770088"
+  white "#ffffff"
+  leaf-red "#ff0000"
+}
+proportion hoist=32 fly=64
+
+define leaf {
+  path "M4890 4430l-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z" box="0 0 9600 4800"
+}
+
+bars red orange yellow green blue violet
+charge rect white {
+  fly 32
+  hoist 32
+  at center
+}
+charge leaf leaf-red {
+  fly 64
+  hoist 32
+}

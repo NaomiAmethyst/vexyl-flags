@@ -1,0 +1,24 @@
+// Seven equal bars on a 7:10 field: 7 bars over hoist 7 is one unit each.
+vexyl 1
+meta {
+  name "Agender pride flag"
+  designer "Salem X"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2014-02-18"
+  source "https://web.archive.org/web/20220927082258/https://majesticmess.com/2018/12/16/interview-creator-of-the-agender-flag/"
+  source "https://crwflags.com/FOTW/flags/qq-agndr.html"
+  source "https://commons.wikimedia.org/wiki/File:Agender_pride_flag.svg"
+  note "Designer and meaning: Salem's own account in the Majestic Mess interview (read at the Wayback snapshot above): seven stripes, black, gray, white, green, white, gray, black, with the trans flag's symmetry as the model. The interviewer gives the release date as 18 February 2014; Salem's original Tumblr post (archive.fo/dSe5Z) could not be reached. Commons credits the designer as Salem Fontana."
+  note "Colors and proportion are not stated by the designer in anything I could read. They follow the Commons drawing (#000000, #b9b9b9, #ffffff, #b8f483; 7:10). The green matches the designer's Tumblr image as reproduced in the interview and in a 2015 Pangendering post, where it samples as exactly #b8f483; the grays and white in those images sample as #bcc4c6 and #e8edee, which differ from Commons."
+}
+palette {
+  black "#000000"
+  gray "#b9b9b9"
+  white "#ffffff"
+  green "#b8f483"
+}
+proportion hoist=7 fly=10
+
+bars black gray white green white gray black

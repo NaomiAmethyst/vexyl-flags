@@ -1,0 +1,20 @@
+// Three equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Neutrois pride flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://crwflags.com/FOTW/flags/qq-neutr.html"
+  source "https://commons.wikimedia.org/wiki/File:Neutrois_Flag.svg"
+  note "No designer or first publication was found. The Commons description says the colors come from an image on the nonbinary.org wiki, which I could not reach, and quotes its meanings: white neutral or unidentified gender, dark chartreuse green the inverse of lavender and nonbinary gender that is neither female nor male, black agender. FOTW describes a white, green, black horizontal tricolor."
+  note "The hex values (#ffffff, #1f9f00, #000000), the equal bars and the 3:5 proportion follow the Commons drawing and are not from a designer."
+}
+palette {
+  white "#ffffff"
+  green "#1f9f00"
+  black "#000000"
+}
+proportion hoist=3 fly=5
+
+bars white green black

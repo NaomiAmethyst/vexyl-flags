@@ -1,0 +1,59 @@
+// Grid 6000 by 3810, the Commons drawing's own. Six bars of 635. Chevron apexes are at 1874, 2241,
+// 2608, 2973 and 3341 from the hoist, so depth is 3341 and the ratio 1874 367 367 365 368.
+// The arms run 1764 across for 1905 up, so the angle is atan(1905 / 1764) = 47.19 degrees.
+// The yellow triangle stands on the hoist from 278 to 3532 and reaches 1507. The ring is centered
+// at fly 556, hoist 1905, with centerline radius 404 and stroke 95, so 451.5 out and 356.5 in.
+vexyl 1
+meta {
+  name "Intersex-inclusive pride flag"
+  designer "Valentino Vecchietti"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "Graphic shared freely with everyone, with image files on request; no license stated. From Intersex Equality Rights UK's Instagram caption as quoted by The Advocate, 8 June 2021. Its chevrons follow Daniel Quasar's Progress Pride flag, whose own terms apply; see that flag's file."
+  date "2021"
+  source "https://www.advocate.com/pride/2021/6/08/pride-flag-gets-redesign-include-intersex-folks"
+  source "https://www.thepinknews.com/2021/06/07/progress-pride-flag-intersex-flag/"
+  source "https://www.papermag.com/intersex-pride-flag"
+  source "https://commons.wikimedia.org/wiki/File:Intersex-inclusive_pride_flag.svg"
+  note "Vecchietti, of Intersex Equality Rights UK, adapted the Progress flag of Daniel Quasar to include the intersex flag of Morgan Carpenter, in 2021. PinkNews of 7 June 2021 and The Advocate of 8 June 2021 report it from the group's Instagram post, which I could not open; I read only those reports. Neither gives colors or measurements."
+  note "Terms: The Advocate quotes the group's caption as 'We are sharing the graphic freely with everyone. Please message us on instagram to request a jgep or a high resolution image file which you can get made into a flag'. PAPER reports it as freely available on request. No license is named, and the design builds on Quasar's Progress flag, which has terms of its own. This file's license covers the encoding, not the design."
+  note "Every value here follows the Commons drawing by Nikki (6000 by 3810, CC0), which is not the designer's: its colors, its chevron and ring measurements, and its proportion. Its colors differ from the official intersex flag's #ffd800 and #7902aa, and from the saturated colors in the press photographs."
+}
+palette {
+  red "#e22016"
+  orange "#f28917"
+  yellow "#efe524"
+  green "#78b82a"
+  blue "#2c58a4"
+  purple "#6d2380"
+  black "#000000"
+  brown "#945516"
+  light-blue "#7bcce5"
+  pink "#f4aec8"
+  white "#ffffff"
+  gold "#fdd817"
+  ring "#66338b"
+}
+proportion hoist=3810 fly=6000
+
+bars red orange yellow green blue purple
+
+chevrons white pink light-blue brown black {
+  from hoist
+  depth 3341
+  ratio 1874 367 367 365 368
+  angle 47.1846
+}
+
+pile gold {
+  from hoist
+  base 278 3532
+  depth 1507
+}
+
+charge ring ring {
+  radius 451.5
+  inner 356.5
+  at fly=556 hoist=1905
+}

@@ -1,0 +1,32 @@
+// Measured from the designer's image, 500 by 317 pixels: hoist 12 and fly 19 are
+// that image's proportion rounded (derived). Bars 5:2:5 and triangle depth 7 of 12 (derived).
+vexyl 1
+meta {
+  name "Demiromantic Pride Flag"
+  designer "Queer As Cat (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-03-08"
+  source "https://web.archive.org/web/20160825145647/http://queerascat.tumblr.com/post/113028340901/demiromantic-and-gray-aromantic-flags-after"
+  source "https://crwflags.com/FoTW/FLAGS/qq-arom.html"
+  source "https://commons.wikimedia.org/wiki/File:Demiromantic_Pride_Flag.svg"
+  note "Designer's own Tumblr post, read from the Wayback snapshot above (Tumblr metadata dates it 2015-03-08). The blogger proposes recoloring the demisexual flag's purple to aromantic green for demiromantic, and the post's image is the flag. The post implies that a demiromantic flag with the demisexual purple was already in use, and the blogger writes that they are probably not the first to think of the change; FOTW credits Queer As Cat with this green flag, citing this post. The post gives no hex values, proportion or construction."
+  note "Everything numeric was measured from the post's flag image (500 by 317 PNG, fetched from Tumblr's media server). Colors: white #ffffff, green #339933, grey #d2d2d2, black triangle #000000. Bars: 132.5, 52 and 132.5 pixels of 317, which is 5:2:5 to within a pixel. The triangle's apex is 184.5 pixels from the hoist, 0.582 of the height; 7 of 12 is 0.583."
+  note "The Commons drawing (MarcoSnail, 2019) copies the demisexual drawing's 5:2:5 bars and 3:5 shape, with a triangle depth of 0.6375 of the height, and uses green #338a37. The designer's image differs from it in green, triangle depth and proportion."
+}
+palette {
+  white "#ffffff"
+  green "#339933"
+  grey "#d2d2d2"
+  black "#000000"
+}
+proportion hoist=12 fly=19
+
+bars white green grey {
+  ratio 5 2 5
+}
+
+chevrons black {
+  depth 7
+}

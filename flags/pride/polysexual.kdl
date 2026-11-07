@@ -1,0 +1,24 @@
+// Three equal bars, 5:3, as in the Commons drawing.
+vexyl 1
+meta {
+  name "Polysexual Pride Flag"
+  designer "Samlin"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2012-07-11"
+  source "https://crwflags.com/FOTW/FLAGS/qq-poly.html"
+  source "https://en.wikipedia.org/wiki/Polysexuality"
+  source "https://commons.wikimedia.org/wiki/File:Polysexuality_Pride_Flag.svg"
+  note "Designer and date are from Flags of the World (crwflags.com), which says the flag was designed by the Tumblr user Samlin and introduced on 11 July 2012. Wikipedia agrees on the designer and year. The original Tumblr post could not be found, so this is not from the designer's own publication."
+  note "Flags of the World describes a pink, green and blue tricolor: pink for women, blue for men and green for non-binary people, modeled on the bisexual and pansexual flags. It gives no color values, no proportion and no bar ratio."
+  note "The three bars' equal height, the 5:3 proportion and all three colors follow the Commons drawing, because no source gives them."
+}
+palette {
+  pink "#f61cb9"
+  green "#07d569"
+  blue "#1c92f6"
+}
+proportion hoist=3 fly=5
+
+bars pink green blue

@@ -1,0 +1,29 @@
+// Six stripes in the ratio 1 1 5 1 1 1, the yellow one half the hoist, on the common 2:3.
+vexyl 1
+meta {
+  name "Tel Aviv LGBTQ+ Pride and Solidarity flag, 2024"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2024"
+  source "https://archive.israel21c.org/tel-aviv-combines-annual-pride-event-with-hostage-solidarity/"
+  source "https://archive.israel21c.org/wp-content/uploads/2024/06/COVER_COMBO-1520x855.jpg"
+  source "https://aardvarkisrael.com/pride-month-2024/"
+  source "https://aardvarkisrael-media.nyc3.digitaloceanspaces.com/pride.jpg"
+  note "The Tel Aviv-Yafo municipality's Pride events of 2024, as ISRAEL21c (6 June 2024) and Aardvark Israel report them, flew a rainbow flag with its yellow widened for the hostages taken on 7 October 2023. Neither report describes it in words, and the municipality's own page wasn't read."
+  note "The stripes are those of the pictures: ISRAEL21c's cover picture, credited to the municipality, and the flag image Aardvark Israel published (200 by 200 pixels), whose stripes are 20, 20, 100, 20, 20 and 20 pixels. Neither shows a chevron, so the Commons drawing's Progress chevrons aren't followed."
+  note "The colors are sampled from Aardvark Israel's image, as the median of each stripe. No source gives a proportion, so 2:3, the rainbow flag's common format, is used."
+}
+palette {
+  red "#e61d25"
+  orange "#f78c1b"
+  yellow "#fdf015"
+  green "#01843e"
+  blue "#485fad"
+  violet "#762c85"
+}
+proportion hoist=10 fly=15
+
+bars red orange yellow green blue violet {
+  ratio 1 1 5 1 1 1
+}

@@ -1,0 +1,29 @@
+// Five equal bars, 5:3: the image is 1094 by 660 pixels, bars of 132.
+vexyl 1
+meta {
+  name "Lesbian Pride Flag, Orange-Pink, Five Stripes"
+  designer "taqwomen"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "orange-pink-lesbian"
+  version "5-stripe"
+  source "https://web.archive.org/web/20190509231929/https://official-lesbian-flag.tumblr.com/post/176505133364/official-lesbian-flag-been-doing-some-research"
+  source "https://en.wikipedia.org/wiki/Lesbian_flags"
+  source "https://commons.wikimedia.org/wiki/File:Lesbian_Pride_Flag_2019.svg"
+  note "The Tumblr blog official-lesbian-flag posted 'the search for the official lesbian flag' on 31 July 2018 (Wayback Machine, 9 May 2019). An 'update' added to its text, undated, says the Tumblr user @taqwomen made a simplified flag from the seven-stripe flag, bringing it down to five stripes, and that the blog would use it from then on. The update is in the snapshot of 9 May 2019, so the five-stripe flag existed by then; when it was added isn't shown. Wikipedia says taqwomen derived it 'soon' after the seven-stripe flag."
+  note "No date is given: taqwomen's own post wasn't read, and neither 2018 nor the 2019 of the Commons file's name 'Lesbian Pride Flag 2019' is verified. Wikipedia says the stripes omitted are the second and sixth of Emily Gwen's flag."
+  note "The colors are read from the post's five-stripe image, 1094 by 660 pixels with stripes of 132, at the center of each stripe: #d52d00, #ff9a56, #ffffff, #d362a4 and #a30262. They match the Commons drawing. The pink #d362a4 differs slightly from the seven-stripe flag's #d162a4. The post gives no hex values."
+  note "The 5:3 proportion follows the image's, 1094:660, 1.658. The Commons drawing uses 16:9."
+  note "The seven-stripe flag it comes from is lesbian-orange-pink-7-stripe, by Emily Gwen."
+}
+palette {
+  red "#d52d00"
+  light-orange "#ff9a56"
+  white "#ffffff"
+  pink "#d362a4"
+  rose "#a30262"
+}
+proportion hoist=3 fly=5
+
+bars red light-orange white pink rose

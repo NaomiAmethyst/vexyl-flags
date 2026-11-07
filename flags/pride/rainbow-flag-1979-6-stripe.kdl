@@ -1,0 +1,29 @@
+// Six equal stripes, each 1/6 of the hoist, on 3:5.
+vexyl 1
+meta {
+  name "Rainbow flag, six stripes"
+  series "rainbow-flag"
+  version "1979-6-stripe"
+  date "1979"
+  designer "Gilbert Baker"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://glbthistory.org/rainbow-flag"
+  source "https://cdn.fotw.info/flags/qq-rb_h.html"
+  source "https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg"
+  note "The GLBT Historical Society says that in 1979 the hot pink stripe was dropped for lack of fabric, and turquoise too, so that there would be an even number of stripes either side of the Market Street lamp posts. That gives the six stripes: red, orange, yellow, green, blue, violet. FOTW (Steve Kramer, 1998) says Baker and Paramount Flag Co.'s vice president agreed to drop hot pink and turquoise and replace indigo with royal blue."
+  note "The colors are the Commons drawing's. No source from Baker gives colors for the six-stripe flag, and the Foundation's page gives only the eight-color one. The same six shades were widely copied, so they are not evidence of the 1979 dyes."
+  note "3:5 is the common format. No designer's proportion was found. Commons draws 777:480."
+}
+palette {
+  red "#e50000"
+  orange "#ff8d00"
+  yellow "#ffee00"
+  green "#028121"
+  blue "#004cff"
+  violet "#770088"
+}
+proportion hoist=3 fly=5
+
+bars red orange yellow green blue violet

@@ -1,0 +1,23 @@
+// Three equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Maverique flag"
+  designer "Vesper H. (Queer As Cat on Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2014-06-15"
+  source "https://web.archive.org/web/20230419055418/https://queerascat.tumblr.com/post/88853893401/this-is-the-flag-that-ive-designed-for-maverique"
+  source "https://web.archive.org/web/20230424181007/https://maveriques.tumblr.com/flag"
+  source "https://commons.wikimedia.org/wiki/File:Maverique_flag.svg"
+  note "Defining source: the designer's post on Queer As Cat (read at the snapshot above), dated 2014-06-15 on the page. Yellow is a primary, nonbinary gender, white autonomy and independence, orange inner conviction. It gives no proportion; the 3:5 and equal bars are the common format and Commons. The posted image is 500 by 281."
+  note "Yellow is #fff433, which is the pixel value of the designer's posted image and the value on the later flag page of maveriques.tumblr.com, a blog about the gender whose author I did not confirm. The original post's text says #fff344, which Commons follows; I take that as a transposition. White #ffffff and orange #f49622 agree everywhere."
+}
+palette {
+  yellow "#fff433"
+  white "#ffffff"
+  orange "#f49622"
+}
+proportion hoist=3 fly=5
+
+bars yellow white orange

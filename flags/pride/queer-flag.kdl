@@ -1,0 +1,26 @@
+// Nine equal bars, 5:3.
+vexyl 1
+meta {
+  name "Queer Flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Queer_Flag.svg"
+  source "https://www.deviantart.com/pride-flags/art/Queer-2-553625141"
+  note "No designer or defining publication was found. Commons credits pastelmemer and gives as its source the DeviantArt post Queer(2) by Pride-Flags, dated 2015-08-17, which is an aggregator account. The post's description gives meanings (pinks and blues for same-gender attraction, orange and green for nonbinary, black and white for the ace, aro and agender spectrums) and, under 'Flag source', links the DeviantArt user pastelmemer. pastelmemer's own post was not found, so pastelmemer is not named here as designer. The description states no proportion or colors."
+  note "Nine equal bars in the order black, light blue, blue, green, white, yellow, red, pink, black. The DeviantArt image (1154 by 692 JPEG, 5:3) shows nine bars of about 77 pixels each in that order. Its sampled colors (#9ad9e8, #0ea1d7, #b3e61f, #fbffff, #fdc70d, #f3636c, #f6adca) are close to the Commons values."
+  note "The colors are the Commons drawing's: #99d9ea, #00a2e8, #b5e61d, #ffffff, #ffc90e, #fd6666, #ffaec9, black. The JPEG is too lossy to settle the exact shades."
+}
+palette {
+  black "#000000"
+  light-blue "#99d9ea"
+  blue "#00a2e8"
+  green "#b5e61d"
+  white "#ffffff"
+  yellow "#ffc90e"
+  red "#fd6666"
+  pink "#ffaec9"
+}
+proportion hoist=3 fly=5
+
+bars black light-blue blue green white yellow red pink black

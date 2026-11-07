@@ -1,0 +1,102 @@
+// 6 by 9 grid, one unit being a rainbow bar. Every triangle edge slopes 0.75 across to 1 down
+// (the Commons drawing's 12 to 16).
+vexyl 1
+meta {
+  name "Queer Ally Flag"
+  designer "TheNewEMCee"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2025-06-10"
+  source "https://commons.wikimedia.org/wiki/File:Queer_Ally_Flag.svg"
+  source "https://en.wikipedia.org/wiki/Progress_flag"
+  design-rights "The chevron borrows the layout of Daniel Quasar's Progress Pride Flag, whose designer sets terms for its use; see the Progress Pride Flag file in flags/pride for what is known. The terms were not checked for this derivative. This file's license covers the encoding, not the design."
+  note "No source outside Commons was found. The Commons file, dated 2025-06-10 and credited to the Wikimedia user TheNewEMCee, calls it a variation of the straight ally flag representing supportive straight people. Commons gives it as CC0. The Wikimedia user is the only designer attribution available."
+  note "The design combines the Pride rainbow bars with the straight ally flag's black and white chevron stripes, then the Progress flag's black, brown, light blue, pink and white chevrons, and a gold triangle with a purple ring in the point, which resembles the intersex-inclusive Progress flag's. That resemblance is the encoder's observation and was not sourced."
+  note "Everything is the Commons drawing's (viewBox 144 by 96): a 3:2 proportion, six bars of 16 each, a white triangle over them with black stripes crossing it at the red, yellow and blue bars, and nested triangles, each narrower by 6 on both sides and 8 lower at the point than the one before. The ring is 6 radius, stroked 1 wide, drawn here as a ring of 0.40625 outer and 0.34375 inner. Colors are the drawing's: rainbow #e40303 #ff8c00 #ffed00 #008026 #004dff #750787, brown #613915, light blue #74d7ee, pink #ffafc8, gold #ffd800, ring #7902aa."
+}
+palette {
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  violet "#750787"
+  white "#ffffff"
+  black "#000000"
+  brown "#613915"
+  light-blue "#74d7ee"
+  pink "#ffafc8"
+  gold "#ffd800"
+  ring "#7902aa"
+}
+proportion hoist=6 fly=9
+
+bars red orange yellow green blue violet
+
+pile white {
+  from bottom
+  depth 6
+}
+
+charge polygon black {
+  point fly=3.75 hoist=1
+  point fly=4.5 hoist=0
+  point fly=5.25 hoist=1
+}
+
+charge polygon black {
+  point fly=2.25 hoist=3
+  point fly=3 hoist=2
+  point fly=6 hoist=2
+  point fly=6.75 hoist=3
+}
+
+charge polygon black {
+  point fly=0.75 hoist=5
+  point fly=1.5 hoist=4
+  point fly=7.5 hoist=4
+  point fly=8.25 hoist=5
+}
+
+pile black {
+  from bottom
+  base 1.5 7.5
+  depth 4
+}
+
+pile brown {
+  from bottom
+  base 1.875 7.125
+  depth 3.5
+}
+
+pile light-blue {
+  from bottom
+  base 2.25 6.75
+  depth 3
+}
+
+pile pink {
+  from bottom
+  base 2.625 6.375
+  depth 2.5
+}
+
+pile white {
+  from bottom
+  base 3 6
+  depth 2
+}
+
+pile gold {
+  from bottom
+  base 3.375 5.625
+  depth 1.5
+}
+
+charge ring ring {
+  radius 0.40625
+  inner 0.34375
+  at fly=4.5 hoist=5.5
+}

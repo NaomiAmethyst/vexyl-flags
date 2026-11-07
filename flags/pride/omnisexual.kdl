@@ -1,0 +1,26 @@
+// Five equal bars, 5:3: the posted image is 500 by 300 pixels.
+vexyl 1
+meta {
+  name "Omnisexual Pride Flag"
+  designer "pastelmemer"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20181217214802/https://pride-color-schemes.tumblr.com/post/146921708530/omni"
+  source "https://en.wikipedia.org/wiki/Omnisexuality"
+  source "https://commons.wikimedia.org/wiki/File:Omnisexuality_flag.svg"
+  note "The designer's own first post could not be found. The earliest source read is a 4 July 2016 post on the Tumblr blog pride-color-schemes, which credits the design to @pastelmemer. Wikipedia gives the year 2015, from sources not read here, so the date is unverified."
+  note "The pride-color-schemes post describes five stripes: light pink, pink, black, blue, light blue. Its posted flag image is 500 by 300 pixels with equal stripes, and the colors here are that image's pixels at the center of each stripe, read as #ff9bcd, #ff53be, #260046, #665eff and #8ca6ff. The post gives no color values itself."
+  note "The Commons drawing's values differ from the sampled ones by at most 2 in any channel (#250046, #675fff, #8ca5ff in the last three). The sampled ones are used as the nearest thing to the design's source."
+  note "The post's color meanings, as Wikipedia states them: the pinks and blues for attraction to femininity and masculinity, and the dark middle stripe for attraction to other genders."
+}
+palette {
+  light-pink "#ff9bcd"
+  pink "#ff53be"
+  deep-violet "#260046"
+  blue "#665eff"
+  light-blue "#8ca6ff"
+}
+proportion hoist=3 fly=5
+
+bars light-pink pink deep-violet blue light-blue

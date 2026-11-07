@@ -1,0 +1,29 @@
+// 5:3, seven equal bars, as in lipstick-lesbian without the kiss.
+vexyl 1
+meta {
+  name "Pink Lesbian Pride Flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "lipstick-lesbian"
+  version "no-kiss"
+  source "https://en.wikipedia.org/wiki/Lesbian_flags"
+  source "https://web.archive.org/web/20230816211624/https://www.horniman.ac.uk/story/a-horniman-lesbian-flag/"
+  source "https://web.archive.org/web/20161011120237/https://thislesbianlife.files.wordpress.com/2010/07/llflag1.jpg"
+  source "https://commons.wikimedia.org/wiki/File:Lesbian_Pride_pink_flag.svg"
+  note "Wikipedia says the lipstick flag was quickly supplanted by a variant with the same seven colors and no kiss mark, which it calls the pink lesbian flag, and that the designer of this variant isn't credited. It cites San Diego Gay and Lesbian News (12 July 2019), not read, and the Horniman Museum (26 February 2020), read as the Wayback Machine's copy of 16 August 2023, which says only that the lipstick flag evolved into variants of its colors and the removal of the lips. Neither names a modifier or a date, so none is given."
+  note "The bars and colors are those of Natalie McCray's own 2010 image (see lipstick-lesbian), read from its JPEG. All seven match the Commons drawing of this variant exactly. Nothing read says who removed the kiss."
+  note "The 5:3 proportion and the equal bars follow the Commons drawing."
+}
+palette {
+  magenta "#a40061"
+  rose "#b75592"
+  pink "#d063a6"
+  white "#ededeb"
+  pale-pink "#e4accf"
+  salmon "#c54e54"
+  brick "#8a1e04"
+}
+proportion hoist=3 fly=5
+
+bars magenta rose pink white pale-pink salmon brick

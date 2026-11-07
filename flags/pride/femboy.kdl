@@ -1,0 +1,22 @@
+// Seven equal bars on a 2:3 field.
+vexyl 1
+meta {
+  name "Femboy flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-04-28"
+  source "https://web.archive.org/web/20210202031706/https://aminoapps.com/c/lesbiansunite/page/blog/femboy-and-tomboy-flags/o3Jo_rzeidu7442G3aqX4Pdbkn0dNQpzalm"
+  source "https://commons.wikimedia.org/wiki/File:Femboy_flag.svg"
+  note "The earliest source found is a Lesbians Unite Amino post by Jay, dated 28 April 2017, that shows flags made by an unnamed friend and gives his meanings: light blue from the trans flag for assigned male, white for passing and nonbinary people, light pink for feminine behavior and pink for a feminine appearance, with pinks outermost. The designer is not named, and the post is a proposal."
+  note "Colors are from Commons (#d460a7, #e4adcd, #ffffff, #57cef8). The post's JPEG samples within two levels of them. The 2:3 proportion is that of the post's image (512 by 341) and Commons draws it 3:5. Stripes are equal."
+}
+palette {
+  pink "#d460a7"
+  light-pink "#e4adcd"
+  white "#ffffff"
+  blue "#57cef8"
+}
+proportion hoist=2 fly=3
+
+bars pink light-pink white blue white light-pink pink

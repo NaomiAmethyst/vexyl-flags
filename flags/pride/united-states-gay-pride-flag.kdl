@@ -1,0 +1,39 @@
+// On the national flag's 10:19 (Executive Order 10834's 1:1.9), six stripes of 10/6 each. The
+// canton is 0.76 of the hoist wide as the order has it, 7.6, and half the hoist high, 5, which
+// is three stripes. The order's 7/13 would end inside a stripe. Stars are 9 rows by 11 columns
+// as the order has them; their radius is the order's 0.0308 of the hoist, 0.308, scaled by 5 over
+// 5.385 to the shorter canton, 0.286.
+vexyl 1
+meta {
+  name "United States gay pride flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:United_States_Gay_Pride_flag.svg"
+  source "https://www.law.cornell.edu/uscode/text/4/1"
+  note "No defining source was found. Commons draws it, by Sarang, 28 October 2013, from its gay flag and the flag of the USA. The gayflags.biz list of national gay flags does not mark its United States entry as Greg Gomes's design, and its picture could not be fetched."
+  note "The canton and the stars follow this project's file for the United States, from the table attached to Executive Order 10834 (the 50-star flag), with the canton cut to three stripes' height: that cut, the six stripes in place of the thirteen, and the stars' scaled radius are this file's, derived. Commons draws 732 by 420, 1:1.743, and its stars by hand; this file uses the order's proportion and its star grid, so it departs from Commons."
+  note "The stripe colors are the Commons drawing's 2017-era set. The canton blue, #282d73, is Commons' and not the order's Old Glory Blue."
+}
+palette {
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  violet "#750787"
+  blue-canton "#282d73"
+  white "#ffffff"
+}
+proportion hoist=10 fly=19
+
+bars red orange yellow green blue violet
+canton {
+  fly 7.6
+  hoist 5
+  field blue-canton
+  charge star white {
+    radius 0.286
+    repeat grid rows=9 columns=11 stagger=#true
+  }
+}

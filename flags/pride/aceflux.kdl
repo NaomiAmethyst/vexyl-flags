@@ -1,0 +1,24 @@
+// Five equal bars, 5:3.
+vexyl 1
+meta {
+  name "Aceflux Flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://commons.wikimedia.org/wiki/File:Acefluxflag.svg"
+  source "https://www.deviantart.com/pride-flags/art/Aceflux-1-544377703"
+  source "https://web.archive.org/web/20240803062004/https://aromanticaardvark.tumblr.com/post/92742126325/mogai-archive-aceflux-similar-to-genderflux-in"
+  note "The flag's designer and first publication were not found, so this is written from secondary drawings. The Tumblr post above, dated 24 July 2014, credits the term aceflux to ngc2068 and shows no flag. The earliest flag image found is the DeviantArt post by Pride-Flags, dated 2015-07-05, which is an aggregator and not shown to be the designer."
+  note "The five equal bars and the 5:3 proportion are what both the Commons drawing and the DeviantArt image show (the image is 1154 by 692 pixels). No source states a proportion."
+  note "The colors are the Commons drawing's. The DeviantArt JPEG, sampled mid-bar, agrees within a few units per channel (#c62255, #c22679, #c0279a, #aa28ac, #8d26b3), which is JPEG noise, so Commons's values are kept."
+}
+palette {
+  red "#c81d51"
+  rose "#c12779"
+  magenta "#c0279a"
+  orchid "#a828ac"
+  purple "#8c26af"
+}
+proportion hoist=3 fly=5
+
+bars red rose magenta orchid purple

@@ -1,0 +1,53 @@
+// 5:3, 600 by 360. Six bars of 60. The canton is 240 by 180, which is 2/5 of the fly and half the hoist.
+// Each ring is 40 in radius with a 10.5 stroke: outer 45.25, inner 34.75. Each stem is 10.5 by 48, and each bar 43 by 10.5.
+vexyl 1
+meta {
+  name "Lesbian Pride Flag, Double-Venus Canton Rainbow"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20240625090826/https://www.crwflags.com/fotw/flags/qq-rb_v2.html"
+  source "https://en.wikipedia.org/wiki/Lesbian_flags"
+  source "https://commons.wikimedia.org/wiki/File:Lesbian_Pride_double-Venus_canton_rainbow_flag.svg"
+  note "This is a rainbow flag with a canton added, not a flag with a designer. Flags of the World (page of 21 September 2023, Wayback Machine 25 June 2024) says flags with a white double-Venus symbol on a blue canton, much darker than the blue stripe, were seen in Zurich on 6 June 2009, in Santa Fe in February 2010, in London on 3 July 2010 and in Nottingham on 31 July 2010, with the two Venus symbols conjoined. Wikipedia says lesbians were using such flags by 2009."
+  note "No source read names a designer, a date of origin or a construction, or gives color values. The six bars (red, orange, yellow, green, blue, violet) are the rainbow flag with six stripes. The bar colors, the canton's #291c6c, its size and the symbol's measurements all follow the Commons drawing."
+  note "The Commons drawing's bar colors are its own: #e40303, #ff8c00, #ffed00, #008026, #2f93da and #750787. Its blue differs from the indigo of other six-stripe rainbow drawings, such as the Progress flag's #004dff, and no source read says which is right."
+  note "The double-Venus symbol is two rings with a stem and a crossbar under each, drawn here with rings and rectangles from the Commons drawing's circles and lines, because it is a geometric figure. The Unicode symbol is U+26A2."
+}
+palette {
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#2f93da"
+  violet "#750787"
+  navy "#291c6c"
+  white "#ffffff"
+}
+proportion hoist=360 fly=600
+
+bars red orange yellow green blue violet
+
+canton {
+  fly 240
+  hoist 180
+  field navy
+  charge ring white {
+    radius 45.25
+    inner 34.75
+    at fly=91 hoist=71
+    at fly=149 hoist=71
+  }
+  charge rect white {
+    fly 10.5
+    hoist 48
+    at fly=91 hoist=135
+    at fly=149 hoist=135
+  }
+  charge rect white {
+    fly 43
+    hoist 10.5
+    at fly=91 hoist=137.5
+    at fly=149 hoist=137.5
+  }
+}

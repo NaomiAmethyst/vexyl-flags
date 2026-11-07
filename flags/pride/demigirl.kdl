@@ -1,0 +1,25 @@
+// Seven equal bars on a 7:10 field.
+vexyl 1
+meta {
+  name "Demigirl flag"
+  designer "Salem X (Tumblr: transrants)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2014"
+  source "https://web.archive.org/web/20150503223851/http://batty.co.vu/post/77071883543/demigirl-demiguy-flag-proposals"
+  source "https://web.archive.org/web/20220927082258/https://majesticmess.com/2018/12/16/interview-creator-of-the-agender-flag/"
+  source "https://commons.wikimedia.org/wiki/File:Demigirl_Flag.svg"
+  note "The flag is the one in the Tumblr post 'demigirl & demiguy flag proposals' on transrants, which I read as a 2015 Wayback copy of the blog (then at batty.co.vu). Salem's interview says the agender, demiboy and demigirl flags were made in 2014, and the Wayback copy dates the post to the year before May 2015. The exact day is not known."
+  note "Colors are sampled from the post's demigirl PNG (477 by 336): #7f7f7f, #c3c3c3, #ffaec9, #ffffff. This is my own sampling, not hex the designer gave. Commons has #c4c4c4 for the light gray. The image's stripes are slightly uneven, 53, 49, 42, 47, 45, 46, 54 pixels, which I take as drawing error; the file uses equal stripes. The 7:10 proportion is the Commons drawing's, near the image's 1.42."
+  note "Meaning from Nonbinary Wiki's account of the designer's flag: pink is female, white agender or nonbinary, gray partial."
+}
+palette {
+  gray "#7f7f7f"
+  light-gray "#c3c3c3"
+  pink "#ffaec9"
+  white "#ffffff"
+}
+proportion hoist=7 fly=10
+
+bars gray light-gray pink white pink light-gray gray
