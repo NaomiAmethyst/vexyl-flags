@@ -1,0 +1,60 @@
+// From the 2026 constitution, Article 166: height to length 1:1.65 (20:33), so 720 by 1188.
+// From Appendix I of the National Flag Law, as amended to 2012:
+//   blue 1/6 of the height each, so 120; the other 4/6 (480) in 24ths: white 1/24 each
+//   (20) and red 22/24 (440). Stripes 6:1:22:1:6.
+//   disc and star centered on the horizontal midline, 1/3 of the length from the hoist,
+//   so 1188 / 3 = 396
+//   disc diameter 2/3 of red plus white (480), so 320, radius 160
+//   star's circle diameter is the disc's less half a white stripe, 320 - 10, radius 155
+// Applying the 2012 appendix to the 2026 proportion is this file's reading, not a text's.
+vexyl 1
+meta {
+  name "North Korea"
+  series "north-korea"
+  version "2026"
+  date "2026-03"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20260517234929id_/https://www.jajusibo.com/newnews/print.php%3Fuid%3D70111"
+  source "https://web.archive.org/web/20211231173846/https://www.lawandnorthkorea.com/laws/national-flag-law-2012"
+  source "https://www.dailynk.com/20261002-5/"
+  source "https://www.crwflags.com/fotw/flags/kp.html"
+  source "https://www.crwflags.com/fotw/flags/kp'.html"
+  note "The proportion is the 2026 constitution's, read in the text that South Korea's Ministry of Unification released on 6 May 2026, as reproduced by Jajusibo. The constitution names the stripes, disc and star but gives no sizes. Jajusibo says it was revised at the Supreme People's Assembly session of March 2026, which gives this file's date; the day wasn't verified."
+  note "The internal geometry is Appendix I of the National Flag Law as amended on 3 April 2012, read in Daye Gang's English translation for Law and North Korea, not in the Korean original. The law has since been amended in 2022, 2023 and 2025, per DailyNK, which read the 2025 text; it reports changes to sizes and use, not to Appendix I. DailyNK says the 2022 text is public, but it wasn't found or read here. No version made after the 2026 constitution was found, so whether Appendix I still applies at 1:1.65 is unconfirmed."
+  note "Other stripe ratios reported: 3:1:12:1:3 with a disc of half the height, a FOTW contributor's estimate from 2026 photographs, made, its author says, without any official construction data; 4:1:15:1:4 with the disc's center at 17/50 of the length, the Album des Pavillons 2000 as reported by FOTW; 6:2:17:2:6, Crampton (1985) as quoted by FOTW."
+  note "The law sets color as the middle of the red and the blue of sunlight through a prism. The hex, Pantone and CMYK values are the Album des Pavillons 2023's, as reported by FOTW. White is plain white."
+  law "Constitution of the Democratic People's Republic of Korea (2026), Article 166" {
+    source "https://web.archive.org/web/20260517234929id_/https://www.jajusibo.com/newnews/print.php%3Fuid%3D70111"
+  }
+  law "National Flag Law of the Democratic People's Republic of Korea, Article 5 and Appendix I (as amended to 3 April 2012)" {
+    source "https://web.archive.org/web/20211231173846/https://www.lawandnorthkorea.com/laws/national-flag-law-2012"
+  }
+}
+palette {
+  blue "#034ea2" {
+    pantone "2145 C"
+    cmyk 97 71 0 0
+    reference "National Flag Law, Article 5(3)" "the middle of the blue of sunlight through a prism"
+  }
+  white "#ffffff"
+  red "#ee1c25" {
+    pantone "1788 C"
+    cmyk 0 95 85 0
+    reference "National Flag Law, Article 5(3)" "the middle of the red of sunlight through a prism"
+  }
+}
+proportion hoist=720 fly=1188
+
+bars blue white red white blue {
+  ratio 6 1 22 1 6
+}
+charge disc white {
+  radius 160
+  at fly=396 hoist=360
+}
+charge star red {
+  radius 155
+  at fly=396 hoist=360
+}

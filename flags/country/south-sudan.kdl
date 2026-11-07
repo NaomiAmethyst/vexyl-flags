@@ -1,0 +1,43 @@
+// On a hoist of 54 and a fly of 108, the stripes are 16:3:16:3:16, so 16, 3, 16, 3 and 16.
+// The triangle reaches 0.751 of the hoist from the hoist edge: 40.5. The star's center is
+// 0.303 of the hoist in (16.4), on the middle, with a radius of 0.126 of the hoist (6.8).
+vexyl 1
+meta {
+  name "South Sudan"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.constituteproject.org/constitution/South_Sudan_2013.pdf"
+  source "https://www.facebook.com/www.motps.goss.org/posts/pfbid025pULB8KBPtbfJTJiRSpKYsRE4bzt3rxmzPr9D6x62Ecpu8HFjkBhswyUYckNkyLEl"
+  source "https://op.gov.ss/south-sudan/national-symbols"
+  source "https://www.crwflags.com/fotw/flags/ss.html"
+  source "https://eyeradio.org/media-authority-warns-against-use-of-wrong-national-flag/"
+  note "Article 7 of the Transitional Constitution leaves the flag to law. The National Flag Act, 2011, is named by the Office of the President and by a 2012 protocol document reported by FOTW, but its text wasn't found or read."
+  note "Not legal: the geometry and colors. They are measured from the model flag in the South Sudan Media Authority's memo of 25 August 2023 on the correct national flag, as posted by the Ministry of Information, Communication Technology and Postal Services on Facebook. The model measures 999 x 523 pixels, about 1:1.91, and the memo's scanned \"correct version\" about 1:1.86; the usual 1:2 is kept. On the model, the stripes are 155, 29, 155, 29 and 154 pixels (16:3:16:3:16), the triangle's apex is 0.751 of the hoist from the hoist edge, and the star's box is 125 x 122 pixels, centered 0.303 of the hoist in."
+  note "Derived: the star's radius, 6.8, from the box's width (the width of a five-pointed star is 1.902 times its radius), and its place on the middle, which the box's height allows. The colors are the model image's, sampled from its flat areas, so they're only as exact as the image."
+  note "The memo sets the light blue triangle and an upright star, as Eye Radio and FOTW report. The Album des Pavillons 2023 gives Pantone 186 C, 356 C and 109 C for the red, green and yellow, per FOTW, and Pantone 286 C for the blue, the navy the memo rejects; none of those are used here."
+  law "Transitional Constitution of the Republic of South Sudan, 2011, Article 7" {
+    source "https://www.constituteproject.org/constitution/South_Sudan_2013.pdf"
+  }
+  law "National Flag Act, 2011"
+}
+palette {
+  black "#191919"
+  white "#ffffff"
+  red "#da3436"
+  green "#09a55b"
+  blue "#75c8da"
+  yellow "#fae639"
+}
+proportion hoist=54 fly=108
+
+bars black white red white green {
+  ratio 16 3 16 3 16
+}
+chevrons blue {
+  depth 40.5
+}
+charge star yellow {
+  radius 6.8
+  at fly=16.4 hoist=27
+}

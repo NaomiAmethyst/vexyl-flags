@@ -2,6 +2,7 @@
 vexyl 1
 meta {
   name "Afghanistan (2013 to 2021)"
+  series "afghanistan"
   version "2013"
   until "2021"
   encoder "Naomi Persephone Amethyst"
@@ -9,7 +10,7 @@ meta {
   adapted-from "https://commons.wikimedia.org/wiki/File:Flag_of_Afghanistan_(2013%E2%80%932021).svg" {
     license "LicenseRef-Public-Domain"
   }
-  note "This was the flag of the Islamic Republic of Afghanistan, and isn't the current one. FOTW treats a white flag with the shahada as the flag since August 2021, reporting a decree of 20 March 2022 only through a news wire. That decree's text couldn't be read, so the current flag isn't written here."
+  note "This was the flag of the Islamic Republic of Afghanistan, and isn't the current one. FOTW treats a white flag with the shahada as the flag since August 2021, reporting a decree of 20 March 2022 only through a news wire. That decree's text couldn't be read; the current flag is written in afghanistan.kdl from the 1997 law."
 }
 palette {
   black "#000000"

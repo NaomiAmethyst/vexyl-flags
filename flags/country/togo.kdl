@@ -1,0 +1,45 @@
+// Five equal stripes on a hoist of 10, so 2 each, at 2:3, so a fly of 15.
+// The red square spans three stripes, 6 by 6, with the star at its center.
+// The star's radius, 1.88, is 0.188 of the hoist, measured on FOTW's main image by its
+// area and height, corrected by measuring this file's render the same way.
+vexyl 1
+meta {
+  name "Togo"
+  designer "Paul Ahyi"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.lqdd.org/wp-content/uploads/2026/03/constitution_togo_2024_accf.pdf"
+  source "https://web.archive.org/web/20210607200759/https://mjp.univ-perp.fr/constit/tg2019.htm"
+  source "https://www.crwflags.com/fotw/flags/tg.html"
+  source "https://www.crwflags.com/fotw/images/t/tg.gif"
+  source "https://atop.tg/le-drapeau-togolais-symbole-national-et-responsabilite-citoyenne/"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Togo.svg"
+  note "No instrument in force defining the flag was found. The 2024 constitution, Article 3, leaves the national emblem to the domain of law, and no such law was found. ATOP, the state press agency, wrote in May 2026 of the constitution and the Penal Code only."
+  note "The design is the last legal description read: the 1992 constitution as revised in 2019, Article 3, replaced in 2024. It gives five alternating green and yellow horizontal stripes and a white five-pointed star on a red square in the upper left corner, with no sizes."
+  note "Not legal: the proportion. 2:3 is the Album des Pavillons 1990 (corr. 26) and Znamierowski, as reported by FOTW. Other values: about 3:5 (Smith 1982, per FOTW; FOTW's current image is labeled 3:5~ but is drawn at about 1:1.62), and 1:1.618, the golden ratio Paul Ahyi intended, per a text FOTW reproduces. Commons uses 1:1.618."
+  note "Not legal: the square spanning three stripes and the star's size, from FOTW's image. FOTW reports star sizes from about 1.5 to over 2 stripe widths. Commons has a radius of 0.190 of the hoist."
+  note "No source here gives colors: FOTW's contributor found no color legislation, and FOTW reports no Album values for Togo. The hex values are those of the Commons drawing, which is the last source to use, and they're not legal."
+  law "Constitution of the Togolese Republic, Law No. 2024-005 of 6 May 2024, Article 3" {
+    source "https://www.lqdd.org/wp-content/uploads/2026/03/constitution_togo_2024_accf.pdf"
+  }
+}
+palette {
+  green "#006a4e"
+  yellow "#ffce00"
+  red "#d21034"
+  white "#ffffff"
+}
+proportion hoist=10 fly=15
+
+bars green yellow {
+  count 5
+}
+canton {
+  fly 6
+  hoist 6
+  field red
+  charge star white {
+    radius 1.88
+  }
+}

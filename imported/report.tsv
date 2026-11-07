@@ -56,7 +56,6 @@ country/lithuania-state	path	5	0	1.947	LicenseRef-Public-Domain
 country/monaco-state	artwork	1	1	0.0	CC-BY-SA-3.0
 country/nigeria-state	artwork	1	1	0.093	CC0-1.0
 country/niue	polygon	9	0	0.0	LicenseRef-Public-Domain
-country/north-korea	named	3	0	0.002	LicenseRef-Public-Domain
 country/paraguay-reverse	artwork	1	1	0.0	LicenseRef-Public-Domain
 country/people-s-republic-of-china	named	6	0	0.0	LicenseRef-Public-Domain
 country/peru-state-2025	artwork	1	1	0.0	LicenseRef-Public-Domain
@@ -67,10 +66,7 @@ country/sahrawi-arab-democratic-republic	polygon	5	0	0.0	LicenseRef-Public-Domai
 country/san-marino-civil	named	1	0	0.0	LicenseRef-Public-Domain
 country/somaliland	artwork	2	1	0.042	LicenseRef-Public-Domain
 country/south-ossetia	named	1	0	0.0	LicenseRef-Public-Domain
-country/south-sudan	named	3	0	0.0	LicenseRef-Public-Domain
 country/spain-civil	named	1	0	0.0	LicenseRef-Public-Domain
-country/taliban	path	2	0	1.89	LicenseRef-Public-Domain
-country/togo	named	4	0	0.343	LicenseRef-Public-Domain
 country/transnistria-state	path	4	0	0.009	LicenseRef-Public-Domain
 country/treinta-y-tres	path	2	0	0.758	LicenseRef-Public-Domain
 country/turkish-republic-of-northern-cyprus	named	6	0	0.0	LicenseRef-Public-Domain
