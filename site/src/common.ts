@@ -71,6 +71,41 @@ export function pathParam(path: string): string {
 	return encodeURIComponent(path).replaceAll("%2F", "/");
 }
 
+// --- Addresses
+//
+// Everything is in the hash, so the site works from one file on any host: `#/` is the browse view,
+// with its filters as a query, `#/?family=swiss`, and `#/flags/country/chile` is a flag, with the
+// filters it was reached from kept after it, `#/flags/country/chile?family=country`. An empty hash
+// is the browse view.
+
+/** What the address asks for: a flag's path, or null for the browse view, and the filters. */
+export function readAddress(hash: string = location.hash): { path: string | null; query: URLSearchParams } {
+	const rest = hash.replace(/^#\/?/, "");
+	const mark = rest.indexOf("?");
+	const path = mark < 0 ? rest : rest.slice(0, mark);
+	let decoded: string;
+	try {
+		decoded = decodeURIComponent(path);
+	} catch {
+		decoded = path;
+	}
+	return { path: decoded === "" ? null : decoded, query: new URLSearchParams(mark < 0 ? "" : rest.slice(mark + 1)) };
+}
+
+/** The address of the browse view with these filters. */
+export function browseHref(query: string): string {
+	return "#/" + (query ? "?" + query : "");
+}
+
+/** The address of a flag, keeping the browse view's filters. */
+export function flagHref(path: string, query: string): string {
+	return "#/" + pathParam(path) + (query ? "?" + query : "");
+}
+
+/** The hash the views were last shown for, so that a popstate and the hashchange that comes with
+ * it show the view once. */
+export const shownFor = { hash: "" };
+
 /** A file's text, fetched once and kept. A fetch that fails is forgotten, so it can be tried again. */
 const texts = new Map<string, Promise<string>>();
 

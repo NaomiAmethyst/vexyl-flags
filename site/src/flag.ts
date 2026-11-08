@@ -4,7 +4,7 @@
 
 import { locate, model, parse, shareEncode, svg, type Flag } from "vexyl";
 import {
-	editorUrl, el, type Entry, esc, fileText, githubFile, imageOf, label, pathParam, ratioText, repo, repoUrl, release, save,
+	browseHref, editorUrl, el, type Entry, esc, fileText, flagHref, githubFile, imageOf, label, ratioText, repo, repoUrl, release, save,
 	svgSize, svgUrl,
 } from "./common.js";
 import { zip } from "./zip.js";
@@ -248,10 +248,10 @@ function html(entry: Entry, text: string, m: Plain, views: View[], variants: { n
 	const family = label(entry.family);
 	const kindQuery = entry.kind === "hand" ? "hand" : "imported";
 	const p = m.proportion;
-	const back = browse ? "?" + browse : "./";
+	const back = browseHref(browse);
 	let out = `<nav class="crumbs" aria-label="Breadcrumb">
     <a href="${esc(back)}" data-nav>Flags</a> <span aria-hidden="true">›</span>
-    <a href="?kind=${kindQuery}&amp;family=${esc(entry.family)}" data-nav>${esc(family)}</a> <span aria-hidden="true">›</span>
+    <a href="${esc(browseHref((kindQuery === "hand" ? "" : `kind=${kindQuery}&`) + `family=${encodeURIComponent(entry.family)}`))}" data-nav>${esc(family)}</a> <span aria-hidden="true">›</span>
     <span aria-current="page">${esc(name)}</span>
   </nav>`;
 	const tierText = tier === undefined ? "" : tier === "-" ? "Not graded" : "Tier " + tier;
@@ -372,7 +372,7 @@ function html(entry: Entry, text: string, m: Plain, views: View[], variants: { n
 	}
 	if (meta.series) {
 		const others = series.filter((o) => o.path !== entry.path);
-		const items = others.map((o) => `<li><a href="?f=${esc(pathParam(o.path))}${browse ? "&amp;" + esc(browse) : ""}" data-nav>${esc(o.name)}</a>${o.when ? ` <span class="quiet">(${esc(o.when)})</span>` : ""}</li>`).join("");
+		const items = others.map((o) => `<li><a href="${esc(flagHref(o.path, browse))}" data-nav>${esc(o.name)}</a>${o.when ? ` <span class="quiet">(${esc(o.when)})</span>` : ""}</li>`).join("");
 		details.push(["Series", esc(meta.series) + (items ? `<ul>${items}</ul>` : ` <span class="quiet">(no other versions here)</span>`)]);
 	}
 	details.push(["License", meta.license ? spdxLink(meta.license) : "None given"]);
@@ -439,7 +439,7 @@ function failure(text: string): HTMLElement {
 
 /** Shows a message in place of a flag, with a way back. */
 function problem(message: string, extra = ""): void {
-	el("flag-view").innerHTML = `<div class="hero"><span class="nx-label">Vexyl flags</span><h1 id="flag-h" tabindex="-1">${esc(message)}</h1>${extra}<p><a href="./" data-nav>Back to the flags</a></p></div>`;
+	el("flag-view").innerHTML = `<div class="hero"><span class="nx-label">Vexyl flags</span><h1 id="flag-h" tabindex="-1">${esc(message)}</h1>${extra}<p><a href="#/" data-nav>Back to the flags</a></p></div>`;
 }
 
 /**

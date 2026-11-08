@@ -1,10 +1,11 @@
-// The site is one page with two views, chosen by the address's query: with `f`, one flag, and
-// otherwise the browse view, whose filters stay in the query beside `f` so the way back keeps them.
-// Links between the views change the address without loading a page, and Back returns to the
-// browse view as it was, scrolled where it was.
+// The site is one page with two views, chosen by the address's hash: `#/flags/country/chile` is one
+// flag, and `#/` the browse view, whose filters stay in the hash after a flag's path so the way back
+// keeps them (common.ts has the forms). Links between the views change the address without loading
+// a page, and Back returns to the browse view as it was, scrolled where it was. The real query
+// string isn't used.
 
 import { browseQuery, setUpBrowse, showBrowse } from "./browse.js";
-import { el, type Entry, esc, type Manifest, release, repoUrl, setUpTheme, useManifest } from "./common.js";
+import { el, type Entry, esc, type Manifest, readAddress, release, repoUrl, setUpTheme, shownFor, useManifest } from "./common.js";
 import { showFlag } from "./flag.js";
 
 let flags: Entry[] = [];
@@ -16,8 +17,8 @@ const browseDescription = description.getAttribute("content")!;
 
 /** Shows the view the address asks for. `moved` is false only for the page's first view. */
 async function route(moved: boolean): Promise<void> {
-	const q = new URLSearchParams(location.search);
-	const path = q.get("f");
+	shownFor.hash = location.hash;
+	const { path, query: q } = readAddress();
 	if (path === null) {
 		const was = view;
 		view = "browse";
@@ -36,7 +37,6 @@ async function route(moved: boolean): Promise<void> {
 		return;
 	}
 	view = "flag";
-	q.delete("f");
 	el("browse-view").hidden = true;
 	el("flag-view").hidden = false;
 	el("nav-flags").removeAttribute("aria-current");
@@ -49,7 +49,7 @@ async function route(moved: boolean): Promise<void> {
 		el("flag-h").focus({ preventScroll: true });
 	}
 	const name = await shown;
-	if (name !== null && view === "flag" && new URLSearchParams(location.search).get("f") === path) {
+	if (name !== null && view === "flag" && readAddress().path === path) {
 		document.title = `${name}, in Vexyl flags`;
 		if (moved) {
 			el("flag-h").focus({ preventScroll: true });
@@ -112,7 +112,15 @@ async function start(): Promise<void> {
 		e.preventDefault();
 		go(a.getAttribute("href")!);
 	});
-	addEventListener("popstate", () => void route(true));
+	// Going Back or Forward, or editing the hash by hand, gives a popstate and then a hashchange,
+	// or only one of them, so the view is shown for whichever comes first.
+	const moved = (): void => {
+		if (location.hash !== shownFor.hash) {
+			void route(true);
+		}
+	};
+	addEventListener("popstate", moved);
+	addEventListener("hashchange", moved);
 	await route(false);
 }
 

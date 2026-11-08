@@ -1,9 +1,9 @@
 // The browse view: filters, search and sort over the manifest, cards in pages of 48, and each
 // card's picture drawn from its file once the card is on or near the screen. The filters live in
-// the address's query, so a filtered view can be linked, and Back steps through them.
+// the address's hash, so a filtered view can be linked, and Back steps through them.
 
 import { parse, svg } from "vexyl";
-import { el, type Entry, fileText, fmt, fold, imageOf, label, pathParam, svgUrl } from "./common.js";
+import { browseHref, el, type Entry, fileText, flagHref, fmt, fold, imageOf, label, shownFor, svgUrl } from "./common.js";
 
 const page = 48;
 const fetchesAtOnce = 6;
@@ -32,7 +32,7 @@ let state: State = { ...defaults };
 
 // --- The address
 
-/** The browse view's state, from an address's query. */
+/** The browse view's state, from the query in an address's hash. */
 export function readState(q: URLSearchParams): State {
 	const s = { ...defaults };
 	for (const key of ["kind", "family", "tier", "q", "sort"] as const) {
@@ -69,11 +69,11 @@ export function browseQuery(s: State = state): string {
 /** Changes the view. A change of filter is a step Back can undo; typing and Show more aren't. */
 function change(next: Partial<State>, how: "push" | "replace" = "push"): void {
 	state = { ...state, ...next };
-	const query = browseQuery(state);
-	const url = location.pathname + (query ? "?" + query : "");
-	if (url !== location.pathname + location.search) {
-		history[how === "push" ? "pushState" : "replaceState"](history.state, "", url);
+	const hash = browseHref(browseQuery(state));
+	if (hash !== (location.hash || "#/")) {
+		history[how === "push" ? "pushState" : "replaceState"](history.state, "", location.pathname + hash);
 	}
+	shownFor.hash = location.hash;
 	render();
 }
 
@@ -165,8 +165,7 @@ function card(f: Entry): HTMLLIElement {
 	const li = document.createElement("li");
 	const a = document.createElement("a");
 	a.className = "card-link";
-	const rest = browseQuery();
-	a.href = "?f=" + pathParam(f.path) + (rest ? "&" + rest : "");
+	a.href = flagHref(f.path, browseQuery());
 	a.dataset.nav = "";
 	const pic = document.createElement("div");
 	pic.className = "check card-pic";
@@ -320,7 +319,7 @@ export function setUpBrowse(list: Entry[]): void {
 	});
 }
 
-/** Shows the browse view as the address's query says. */
+/** Shows the browse view as the address's filters say. */
 export function showBrowse(q: URLSearchParams): void {
 	state = readState(q);
 	render();
