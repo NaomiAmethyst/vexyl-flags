@@ -106,3 +106,27 @@ Every push and pull request is checked by [`.github/workflows/check.yml`](.githu
 To run them locally, build the CLI from the Vexyl repo's `go/` folder with
 `go build -o vexyl ./cmd/vexyl`, then run `vexyl check` on the files and
 `python3 tools/check_repo.py`.
+
+## Website
+
+The collection's website follows `main`. It's one page, built by [`site/build.mjs`](site/build.mjs)
+with Vexyl's TypeScript library, the one Vexyl web uses, and a `manifest.json` listing every flag's
+name, family, tier and proportion. Nothing is drawn in advance: the page fetches each flag's file
+from `raw.githubusercontent.com`, pinned to the commit it was built from, and reads and draws it in
+the browser, so the site stays under a megabyte however many flags there are. Setting the
+repository variable `KDL_BASE_URL` fetches the files from elsewhere, and `EDITOR_URL`, Vexyl web's
+address, adds a link opening each flag there.
+
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) builds it:
+
+- **Every push to `main`** moves the `edge` prerelease to that commit, attaches the build's
+  `manifest.json` and `vexyl-flags-site.zip` to it, and deploys the build to Pages.
+- **A release** whose tag starts with `v`, made by tagging a commit and publishing a GitHub
+  release from it, gets the same two files attached, without deploying. Running the workflow by
+  hand with a tag deploys that one instead, to roll back.
+- **A pull request** builds the site as an artifact of its run, to look at.
+
+To build it locally, install the Vexyl repo's dependencies with `npm ci` in its `ts/` and `web/`
+folders, then run `node site/build.mjs path/to/vexyl-repo --dev` and serve `_site/`, with
+`python3 -m http.server -d _site` for example. `--dev` links this repo's own files into the site
+as `_site/_repo/` and reads them from there.

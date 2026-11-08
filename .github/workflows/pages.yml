@@ -1,0 +1,192 @@
+name: site
+
+# The website follows main: every push builds it, moves the rolling `edge` prerelease to that
+# commit with the build attached, and deploys it to Pages. Publishing a release tagged v-something
+# attaches that release's build to it without deploying. Running this by hand deploys a chosen tag,
+# to roll back. A pull request just builds the site, as an artifact to look at.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: The tag to build and deploy, such as v1 or edge. Empty means the latest release.
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+env:
+  # The Vexyl version whose library reads and draws the flags. Pin it to a tag or commit once the
+  # format is frozen and released.
+  VEXYL_REPO: NaomiAmethyst/vexyl
+  VEXYL_REF: main
+
+jobs:
+  build:
+    # A release builds only for a v-something tag that isn't a prerelease, so edge never builds itself.
+    if: github.event_name != 'release' || (startsWith(github.event.release.tag_name, 'v') && !github.event.release.prerelease)
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.what.outputs.tag }}
+      commit: ${{ steps.commit.outputs.commit }}
+    steps:
+      - name: Work out what to build
+        id: what
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+          INPUT_TAG: ${{ inputs.tag }}
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          case "$EVENT" in
+            push) echo "tag=edge" >> "$GITHUB_OUTPUT"; echo "ref=$GITHUB_SHA" >> "$GITHUB_OUTPUT" ;;
+            pull_request) echo "tag=" >> "$GITHUB_OUTPUT"; echo "ref=$PR_HEAD" >> "$GITHUB_OUTPUT" ;;
+            release) echo "tag=$RELEASE_TAG" >> "$GITHUB_OUTPUT"; echo "ref=refs/tags/$RELEASE_TAG" >> "$GITHUB_OUTPUT" ;;
+            workflow_dispatch)
+              tag="$INPUT_TAG"
+              if [ -z "$tag" ]; then
+                tag=$(gh release view --repo "$GITHUB_REPOSITORY" --json tagName --jq .tagName)
+              fi
+              echo "tag=$tag" >> "$GITHUB_OUTPUT"; echo "ref=refs/tags/$tag" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.what.outputs.ref }}
+
+      - name: Find the commit
+        id: commit
+        run: echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.VEXYL_REPO }}
+          ref: ${{ env.VEXYL_REF }}
+          path: .vexyl
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The library's own dependencies, and esbuild and the fonts from Vexyl web's, all as the
+      # Vexyl repo's lock files pin them.
+      - name: Install the Vexyl library's dependencies
+        run: |
+          npm ci --prefix .vexyl/ts
+          npm ci --prefix .vexyl/web
+
+      # The page fetches each flag's file from raw.githubusercontent.com at this commit, unless the
+      # KDL_BASE_URL repository variable says somewhere else.
+      - name: Build the site
+        env:
+          RELEASE_TAG: ${{ steps.what.outputs.tag }}
+          GITHUB_SHA: ${{ steps.commit.outputs.commit }}
+          EDITOR_URL: ${{ vars.EDITOR_URL }}
+          KDL_BASE_URL: ${{ vars.KDL_BASE_URL }}
+        run: |
+          node site/build.mjs .vexyl _site
+          cp _site/manifest.json manifest.json
+          (cd _site && zip -q -r -X ../vexyl-flags-site.zip .)
+
+      - name: Keep the site to look at
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
+          retention-days: 7
+
+      - name: Keep the release files
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-files
+          path: |
+            manifest.json
+            vexyl-flags-site.zip
+          retention-days: 7
+
+      - name: Keep the site for Pages
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  edge:
+    if: github.event_name == 'push'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    # Two pushes can't move edge at once.
+    concurrency:
+      group: edge
+      cancel-in-progress: false
+    env:
+      GH_TOKEN: ${{ github.token }}
+      COMMIT: ${{ needs.build.outputs.commit }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.build.outputs.commit }}
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-files
+
+      - name: Move edge to this commit, and attach its build
+        run: |
+          git tag -f edge "$COMMIT"
+          git push -f origin refs/tags/edge
+          notes="The collection as it is at $COMMIT, rebuilt on every push to main."
+          if gh release view edge > /dev/null 2>&1; then
+            gh release edit edge --prerelease --title edge --notes "$notes"
+          else
+            gh release create edge --prerelease --title edge --notes "$notes" --verify-tag
+          fi
+          gh release upload edge manifest.json vexyl-flags-site.zip --clobber
+
+  release:
+    if: github.event_name == 'release' || github.event_name == 'workflow_dispatch'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ needs.build.outputs.tag }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-files
+
+      - name: Attach the build to its release
+        run: gh release upload "$TAG" manifest.json vexyl-flags-site.zip --clobber --repo "$GITHUB_REPOSITORY"
+
+  deploy:
+    # After edge has moved, for a push. A hand-run deploy skips edge, which mustn't stop this, so
+    # always() lets it run then, and the checks keep it from running after a failure.
+    if: >-
+      always() && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+      && needs.build.result == 'success' && (needs.edge.result == 'success' || needs.edge.result == 'skipped')
+    needs: [build, edge]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

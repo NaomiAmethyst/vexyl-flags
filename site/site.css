@@ -1,0 +1,1194 @@
+/* The website's look: the Portal Nocturne palette and the few pieces of its kit that the pages use
+   (.nx-seg, .nx-btn, .nx-ghost, .nx-input, .nx-label). Dark is the default, the device's light
+   setting is followed when nobody has chosen, and the theme button sets data-theme on <html>. */
+
+:root {
+  --font-sans: "Geist", system-ui, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --radius-card: 16px;
+  --radius-input: 10px;
+}
+
+/* muted2 is a little lighter in dark and darker in light than the kit's, so that it reaches 4.5:1
+   on the page and on the cards. */
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #09080c;
+  --glass: rgba(255, 255, 255, 0.035);
+  --well: rgba(0, 0, 0, 0.3);
+  --raised: #131119;
+  --line: rgba(255, 255, 255, 0.08);
+  --line2: rgba(255, 255, 255, 0.13);
+  --ink: #f0eef5;
+  --ink2: #cdc9d8;
+  --muted: #9a95a8;
+  --muted2: #86819a;
+  --accent: #b69cff;
+  --fill: #7a5cf0;
+  --good: #8fd6a8;
+  --warn: #e8c07a;
+  --link: #b69cff;
+  --link-hover: #d3c4ff;
+  --check-a: #17151e;
+  --check-b: #201d29;
+  --ink-rgb: 255, 255, 255;
+  --acc-rgb: 182, 156, 255;
+  --fill-rgb: 122, 92, 240;
+  --glow: 0.28;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --bg: #f6f4fa;
+    --glass: rgba(255, 255, 255, 0.72);
+    --well: rgba(255, 255, 255, 0.95);
+    --raised: #ffffff;
+    --line: rgba(40, 20, 90, 0.09);
+    --line2: rgba(40, 20, 90, 0.16);
+    --ink: #17131f;
+    --ink2: #3b3547;
+    --muted: #655e72;
+    --muted2: #6e6780;
+    --accent: #6546d6;
+    --fill: #6a4bdc;
+    --good: #2c8455;
+    --warn: #9a6a17;
+    --link: #6546d6;
+    --link-hover: #4a2fb8;
+    --check-a: #ece9f3;
+    --check-b: #ffffff;
+    --ink-rgb: 40, 20, 90;
+    --acc-rgb: 106, 75, 220;
+    --fill-rgb: 122, 92, 240;
+    --glow: 0.28;
+  }
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f6f4fa;
+  --glass: rgba(255, 255, 255, 0.72);
+  --well: rgba(255, 255, 255, 0.95);
+  --raised: #ffffff;
+  --line: rgba(40, 20, 90, 0.09);
+  --line2: rgba(40, 20, 90, 0.16);
+  --ink: #17131f;
+  --ink2: #3b3547;
+  --muted: #655e72;
+  --muted2: #6e6780;
+  --accent: #6546d6;
+  --fill: #6a4bdc;
+  --good: #2c8455;
+  --warn: #9a6a17;
+  --link: #6546d6;
+  --link-hover: #4a2fb8;
+  --check-a: #ece9f3;
+  --check-b: #ffffff;
+  --ink-rgb: 40, 20, 90;
+  --acc-rgb: 106, 75, 220;
+  --fill-rgb: 122, 92, 240;
+  --glow: 0.28;
+}
+
+/* --- Base */
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 0.84375rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: rgba(var(--acc-rgb), 0.3);
+}
+
+select option {
+  background-color: var(--raised);
+  color: var(--ink);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+pre:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Classes that lay things out mustn't undo the hidden attribute. */
+[hidden] {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+/* --- The kit */
+
+.nx-label {
+  font-family: var(--font-mono);
+  font-size: 0.65625rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+
+.nx-btn,
+.nx-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font: inherit;
+  font-size: 0.78125rem;
+  line-height: 1.5;
+  border-radius: 100px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.nx-btn:disabled,
+.nx-ghost:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.nx-btn {
+  padding: 7px 16px;
+  border: none;
+  background: var(--fill);
+  color: #fff;
+}
+
+.nx-btn:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--fill) 88%, #fff);
+  color: #fff;
+}
+
+.nx-ghost {
+  padding: 6px 15px;
+  border: 1px solid var(--line2);
+  background: transparent;
+  color: var(--ink2);
+}
+
+.nx-ghost:hover:not(:disabled) {
+  background: rgba(var(--ink-rgb), 0.05);
+  color: var(--ink);
+}
+
+.nx-seg {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 3px;
+  border-radius: 100px;
+  background: rgba(var(--ink-rgb), 0.04);
+  border: 1px solid var(--line);
+}
+
+.nx-seg button {
+  font: inherit;
+  font-size: 0.78125rem;
+  padding: 5px 13px;
+  border-radius: 100px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nx-seg button.active {
+  background: var(--fill);
+  color: #fff;
+}
+
+.nx-seg button:focus-visible {
+  outline-offset: 1px;
+}
+
+@media (max-width: 37.5rem) {
+  .nx-seg {
+    border-radius: 18px;
+  }
+}
+
+.nx-input {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--well);
+  border: 1px solid var(--line2);
+  border-radius: var(--radius-input);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 0.84375rem;
+  padding: 9px 12px;
+  outline: none;
+}
+
+.nx-input:focus {
+  border-color: rgba(var(--acc-rgb), 0.6);
+}
+
+/* --- The frame of every page */
+
+.page {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.glow {
+  position: absolute;
+  inset: -240px 0 auto 0;
+  height: 560px;
+  background: radial-gradient(ellipse 60% 55% at 50% 0%, rgba(var(--fill-rgb), var(--glow)), transparent 70%);
+  pointer-events: none;
+}
+
+.top {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 32px;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.brand:hover {
+  color: var(--ink);
+}
+
+.brand .mark {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: var(--fill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand .mark span {
+  width: 7px;
+  height: 7px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.brand .sub {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.site-nav {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  padding: 6px 13px;
+  border-radius: 100px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  background: rgba(var(--ink-rgb), 0.05);
+  color: var(--ink);
+}
+
+.site-nav a.here {
+  background: rgba(var(--ink-rgb), 0.07);
+  color: var(--ink);
+}
+
+.spacer {
+  flex: 1 1 8px;
+}
+
+.theme-btn {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.theme-btn:hover {
+  background: rgba(var(--ink-rgb), 0.05);
+  color: var(--ink);
+}
+
+.theme-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* The sun shows in the dark theme, offering light, and the moon in the light one. */
+.theme-btn .moon,
+:root[data-theme="light"] .theme-btn .sun {
+  display: none;
+}
+
+:root[data-theme="light"] .theme-btn .moon {
+  display: inline;
+}
+
+main {
+  position: relative;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 40px 32px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+main.flag-page {
+  padding-top: 28px;
+  gap: 22px;
+}
+
+.foot {
+  position: relative;
+  border-top: 1px solid var(--line);
+  padding: 22px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  color: var(--muted);
+  font-size: 0.78125rem;
+}
+
+@media (max-width: 40rem) {
+  .top,
+  .foot {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  main {
+    padding: 28px 16px 48px;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+}
+
+.check {
+  background-color: var(--check-b);
+  background-image: linear-gradient(45deg, var(--check-a) 25%, transparent 25%, transparent 75%, var(--check-a) 75%),
+    linear-gradient(45deg, var(--check-a) 25%, transparent 25%, transparent 75%, var(--check-a) 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 8px 8px;
+}
+
+.dot {
+  display: inline-block;
+  flex: none;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--muted2);
+}
+
+.dot.A {
+  background: var(--good);
+}
+
+.dot.B {
+  background: var(--accent);
+}
+
+.dot.C {
+  background: var(--warn);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--muted2);
+}
+
+.quiet {
+  color: var(--muted);
+}
+
+.empty {
+  margin: 24px 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--muted2);
+  font-size: 1.125rem;
+}
+
+/* What shows in place of a picture before it's drawn, or if it can't be. */
+.no-picture {
+  color: var(--muted);
+  font-size: 0.78125rem;
+  text-align: center;
+  padding: 0 8px;
+}
+
+/* --- The browse page */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 760px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2.25rem;
+  line-height: 1.15;
+}
+
+.accent-word {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--accent);
+  font-weight: 400;
+}
+
+.hero p {
+  margin: 0;
+  color: var(--ink2);
+  font-size: 0.9375rem;
+}
+
+.finder {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--line);
+  background: var(--glass);
+}
+
+.finder-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+  flex: 1 1 260px;
+  min-width: 0;
+  display: flex;
+}
+
+.search svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+}
+
+.search input {
+  padding-left: 36px;
+}
+
+.sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+}
+
+.sort select {
+  width: auto;
+}
+
+.seg-n {
+  font-family: var(--font-mono);
+  font-size: 0.71875rem;
+}
+
+.chip-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chips button {
+  font: inherit;
+  font-size: 0.78125rem;
+  padding: 5px 12px;
+  border-radius: 100px;
+  border: 1px solid var(--line2);
+  background: transparent;
+  color: var(--ink2);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.chips button:hover {
+  background: rgba(var(--ink-rgb), 0.05);
+}
+
+.chips button.on {
+  background: rgba(var(--acc-rgb), 0.16);
+  border-color: rgba(var(--acc-rgb), 0.45);
+  color: var(--ink);
+}
+
+.chips .dot {
+  margin-right: 6px;
+}
+
+.chips .n {
+  color: var(--muted2);
+  margin-left: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.71875rem;
+}
+
+.chips button.on .n {
+  color: var(--ink2);
+}
+
+.tier-help {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78125rem;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.results-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.results-head h2 {
+  margin: 0;
+  font-size: 1.0625rem;
+}
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 30rem) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.grid li {
+  display: flex;
+  min-width: 0;
+}
+
+.card-link {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--line);
+  background: var(--glass);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.card-link:hover {
+  background: rgba(var(--ink-rgb), 0.05);
+  border-color: var(--line2);
+  color: var(--ink);
+}
+
+.card-pic {
+  height: 132px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+.card-pic img,
+.stage img,
+.thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.card-pic img {
+  box-shadow: 0 0 0 1px var(--line);
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.card-name {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.78125rem;
+  min-width: 0;
+}
+
+.card-meta .tier {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.card-meta .fam {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.card-meta .mono {
+  margin-left: auto;
+  font-size: 0.71875rem;
+  white-space: nowrap;
+}
+
+.more-row {
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+}
+
+.plain-list {
+  columns: 16rem;
+  margin: 0;
+  padding-left: 18px;
+}
+
+/* --- A flag's page */
+
+.crumbs {
+  font-size: 0.78125rem;
+  color: var(--muted);
+}
+
+.crumbs a {
+  color: var(--muted);
+}
+
+.crumbs [aria-current] {
+  color: var(--ink2);
+}
+
+.title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px 20px;
+}
+
+.title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.title-block h1 {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  color: var(--muted);
+}
+
+.facts .tier {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink2);
+}
+
+.facts .mono {
+  overflow-wrap: anywhere;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.col-main {
+  flex: 999 1 560px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.col-side {
+  flex: 1 1 320px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: var(--glass);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+
+.card p {
+  margin: 0;
+}
+
+.stage {
+  height: 420px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  box-sizing: border-box;
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.stage img {
+  box-shadow: 0 0 0 1px var(--line), 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 40rem) {
+  .stage {
+    height: 260px;
+    padding: 16px;
+  }
+}
+
+.stage-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+}
+
+.caption {
+  color: var(--ink2);
+}
+
+.dl-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.field input {
+  width: 120px;
+}
+
+.dl-row .mono {
+  padding-bottom: 9px;
+}
+
+.small {
+  color: var(--muted);
+  font-size: 0.78125rem;
+}
+
+.tabs-row {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.tabs-row button {
+  font: inherit;
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.tabs-row button[aria-selected="true"] {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+/* Without the script both panels show, one after the other. */
+.tabs-row {
+  display: none;
+}
+
+.js .tabs-row {
+  display: flex;
+}
+
+.js [role="tabpanel"][hidden] {
+  display: none;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.block p,
+.notes {
+  color: var(--ink2);
+}
+
+.notes {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.src-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+pre.src {
+  margin: 0;
+  padding: 16px;
+  border-radius: 10px;
+  background: var(--well);
+  border: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--ink2);
+  overflow: auto;
+  max-height: 520px;
+  white-space: pre;
+}
+
+.badge-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background: rgba(var(--ink-rgb), 0.06);
+  border: 1px solid var(--muted2);
+  color: var(--ink);
+}
+
+.badge.A {
+  border-color: var(--good);
+}
+
+.badge.B {
+  border-color: var(--accent);
+}
+
+.badge.C {
+  border-color: var(--warn);
+}
+
+dl.kv {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 8px 16px;
+  margin: 0;
+}
+
+dl.kv dt {
+  color: var(--muted);
+}
+
+dl.kv dd {
+  margin: 0;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+dl.kv dd ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list > li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.list.ruled > li + li {
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.list a {
+  font-size: 0.78125rem;
+}
+
+.colors > li {
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.swatch {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px var(--line2);
+}
+
+.color-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.thumb {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  color: var(--ink2);
+  font-size: 0.78125rem;
+  min-width: 0;
+  text-align: center;
+}
+
+.thumb:hover {
+  background: rgba(var(--ink-rgb), 0.05);
+}
+
+.thumb:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.thumb[aria-pressed="true"] {
+  border-color: rgba(var(--acc-rgb), 0.55);
+  background: rgba(var(--acc-rgb), 0.12);
+  color: var(--ink);
+}
+
+.thumb .check {
+  width: 100%;
+  height: 72px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.correction {
+  font-size: 0.78125rem;
+  color: var(--muted);
+}
+
+.status {
+  min-height: 1em;
+}
+
+/* Without the script the theme can't change, so the button isn't offered. */
+html:not(.js) .theme-btn {
+  display: none;
+}
+
+/* A sentence in place of what couldn't be shown. */
+.notice {
+  margin: 0;
+  padding: 16px 18px;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--line);
+  background: var(--glass);
+  color: var(--ink2);
+}

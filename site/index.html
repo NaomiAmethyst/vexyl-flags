@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vexyl flags</title>
+<meta name="description" content="Flags written in Vexyl, a plain-text flag design format, from their laws, designers and drawings.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="site.css">
+<script>
+// The theme someone chose, or else the device's, set before anything is drawn.
+(function () {
+  var theme = null;
+  try { theme = localStorage.getItem("vexyl-flags-theme"); } catch (e) {}
+  if (theme !== "light" && theme !== "dark") {
+    theme = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+  }
+  document.documentElement.dataset.theme = theme;
+  document.documentElement.classList.add("js");
+})();
+</script>
+</head>
+<body>
+<!-- site/build.mjs fills in {{repo-url}} and {{editor-url}}, and drops each part marked for one
+     that isn't set. -->
+<div class="page">
+<div class="glow" aria-hidden="true"></div>
+<header class="top">
+  <a class="brand" href="./" data-nav><span class="mark" aria-hidden="true"><span></span></span><span>vexyl <span class="sub">flags</span></span></a>
+  <nav class="site-nav" aria-label="Site">
+    <a class="here" href="./" data-nav aria-current="page" id="nav-flags">Flags</a>
+    <a href="https://github.com/NaomiAmethyst/vexyl">The format</a>
+    <!--if repo--><a href="{{repo-url}}">Source</a><!--end-->
+  </nav>
+  <span class="spacer"></span>
+  <!--if editor--><a class="nx-ghost hide-sm" href="{{editor-url}}">Make a flag in Vexyl web</a><!--end-->
+  <button type="button" class="theme-btn" id="theme" aria-label="Use the light theme">
+    <svg class="sun" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+    <svg class="moon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"></path></svg>
+  </button>
+</header>
+
+<main id="browse-view">
+  <section class="hero" aria-labelledby="hero-h">
+    <span class="nx-label">The Vexyl flag collection</span>
+    <h1 id="hero-h" tabindex="-1">Flags, written <span class="accent-word">from their sources</span></h1>
+    <p id="hero-text">Each flag here is a Vexyl file: a plain-text design you can read, check and render. Some are written by hand from laws, decrees and designers’ own words, and say where every value comes from. More are imported from Wikimedia Commons drawings.</p>
+  </section>
+
+  <noscript><p class="notice">Finding flags and drawing them needs JavaScript.<!--if repo--> Every flag’s file is in <a href="{{repo-url}}">the collection’s repository on GitHub</a>.<!--end--></p></noscript>
+  <p class="notice" id="problem" hidden></p>
+
+  <section class="finder" aria-label="Find a flag" id="finder" hidden>
+    <div class="finder-row">
+      <label class="search">
+        <span class="visually-hidden">Search flags</span>
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+        <input class="nx-input" id="query" type="search" placeholder="Search by name, such as Chile or bisexual" autocomplete="off">
+      </label>
+      <div class="nx-seg" role="group" aria-label="Which flags" id="kinds"></div>
+      <label class="sort">Sort
+        <select class="nx-input" id="sort">
+          <option value="name">Name</option>
+          <option value="family">Family</option>
+          <option value="ratio">Proportion</option>
+        </select>
+      </label>
+    </div>
+    <div class="chip-group">
+      <span class="nx-label" id="family-h">Family</span>
+      <div class="chips" role="group" aria-labelledby="family-h" id="families"></div>
+    </div>
+    <div class="chip-group" id="tier-group">
+      <span class="nx-label" id="tier-h">Evidence</span>
+      <div class="chips" role="group" aria-labelledby="tier-h" id="tiers"></div>
+      <p class="tier-help">A: the defining source was read, and covers the geometry. B: it was read, and gaps were filled from labeled secondary sources. C: it wasn’t read.</p>
+    </div>
+  </section>
+
+  <section class="results" aria-labelledby="results-h" id="results" hidden>
+    <div class="results-head">
+      <h2 id="results-h"></h2>
+      <span class="mono" id="shown"></span>
+    </div>
+    <ul class="grid" id="grid"></ul>
+    <p class="empty" id="none" hidden>No flags match.</p>
+    <div class="more-row"><button type="button" class="nx-ghost" id="more" hidden>Show more</button></div>
+  </section>
+</main>
+
+<main class="flag-page" id="flag-view" hidden></main>
+
+<footer class="foot">
+  <span>Each flag states its own license, and many designs have terms of their own. Check a flag’s page before using it.</span>
+  <span class="spacer"></span>
+  <span id="build"></span>
+  <a href="https://github.com/NaomiAmethyst/vexyl">The Vexyl format</a>
+  <!--if repo--><a href="{{repo-url}}">This collection on GitHub</a><!--end-->
+</footer>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
