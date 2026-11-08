@@ -114,8 +114,8 @@ with Vexyl's TypeScript library, the one Vexyl web uses, and a `manifest.json` l
 name, family, tier and proportion. Nothing is drawn in advance: the page fetches each flag's file
 from `raw.githubusercontent.com`, pinned to the commit it was built from, and reads and draws it in
 the browser, so the site stays under a megabyte however many flags there are. Setting the
-repository variable `KDL_BASE_URL` fetches the files from elsewhere, and `EDITOR_URL`, Vexyl web's
-address, adds a link opening each flag there.
+repository variable `KDL_BASE_URL` fetches the files from elsewhere. Each flag links to Vexyl web at
+`https://vexyl.amethyst.name/`, and the variable `EDITOR_URL` points those links somewhere else.
 
 [`.github/workflows/pages.yml`](.github/workflows/pages.yml) builds it:
 

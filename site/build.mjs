@@ -11,7 +11,8 @@
 //   GITHUB_REPOSITORY  This repo, as owner/name, for links to GitHub and fetching its files.
 //   RELEASE_TAG        The release the site is built for, such as edge or v1, shown in its footer.
 //   GITHUB_SHA         The commit that files are fetched at, or else this checkout's HEAD.
-//   EDITOR_URL         Vexyl web's address, for links that open each flag there.
+//   EDITOR_URL         Vexyl web's address, for links that open each flag there. Empty or unset
+//                      means https://vexyl.amethyst.name/.
 //   KDL_BASE_URL       Where files are fetched from instead of raw.githubusercontent.com.
 //
 // --dev is for trying the site locally: it links this repo's flags/ and imported/ into OUT as _repo/
@@ -42,7 +43,7 @@ const env = process.env;
 const repo = env.GITHUB_REPOSITORY ?? "";
 const tag = env.RELEASE_TAG ?? "";
 const commit = env.GITHUB_SHA || execFileSync("git", ["rev-parse", "HEAD"], { cwd: root, encoding: "utf8" }).trim();
-const editorUrl = env.EDITOR_URL ?? "";
+const editorUrl = env.EDITOR_URL || "https://vexyl.amethyst.name/";
 const kdlBase = env.KDL_BASE_URL || (dev ? "_repo/" : "");
 
 rmSync(out, { recursive: true, force: true });
