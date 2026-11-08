@@ -438,6 +438,23 @@ main.flag-page {
     padding-right: 16px;
   }
 
+  /* The links don't fit beside the brand on a phone, so they take a row of their own below it,
+     and the theme button stays up beside the brand rather than wrapping on its own. */
+  .top {
+    row-gap: 8px;
+  }
+
+  .top .spacer,
+  .top .theme-btn {
+    order: 1;
+  }
+
+  .site-nav {
+    order: 2;
+    flex-basis: 100%;
+    margin-left: -13px;
+  }
+
   main {
     padding: 28px 16px 48px;
   }
