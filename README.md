@@ -92,3 +92,17 @@ using a flag.
   which can't be reproduced faithfully in a self-contained file.
 
 [`imported/left-out.tsv`](imported/left-out.tsv) lists each one, with why.
+
+## Checks
+
+Every push and pull request is checked by [`.github/workflows/check.yml`](.github/workflows/check.yml):
+
+- every `.kdl` file must pass `vexyl check`, built from the Vexyl repo, with each problem shown on
+  its line;
+- [`tools/check_repo.py`](tools/check_repo.py) checks the bookkeeping: each hand-written flag has
+  one evidence tier, `map.tsv` names real flags, and an import that a hand-written flag replaces
+  has been removed.
+
+To run them locally, build the CLI from the Vexyl repo's `go/` folder with
+`go build -o vexyl ./cmd/vexyl`, then run `vexyl check` on the files and
+`python3 tools/check_repo.py`.

@@ -1,0 +1,44 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  # The Vexyl version whose rules the flags are checked against. Pin it to a tag or commit once
+  # the format is frozen and released.
+  VEXYL_REPO: NaomiAmethyst/vexyl
+  VEXYL_REF: main
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.VEXYL_REPO }}
+          ref: ${{ env.VEXYL_REF }}
+          path: .vexyl
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: .vexyl/go/go.mod
+          cache-dependency-path: .vexyl/go/go.sum
+
+      - name: Build the vexyl CLI
+        working-directory: .vexyl/go
+        run: go build -o "$RUNNER_TEMP/vexyl" ./cmd/vexyl
+
+      - name: Check every flag
+        run: |
+          set -o pipefail
+          find flags imported -name '*.kdl' -print0 | sort -z | xargs -0 "$RUNNER_TEMP/vexyl" check 2>&1 \
+            | sed -E 's/^([^:]+\.kdl):([0-9]+):([0-9]+): (.*)$/::error file=\1,line=\2,col=\3::\4/'
+
+      - name: Check the evidence tiers and map
+        run: python3 tools/check_repo.py
