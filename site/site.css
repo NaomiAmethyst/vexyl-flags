@@ -1209,3 +1209,110 @@ html:not(.js) .theme-btn {
   background: var(--glass);
   color: var(--ink2);
 }
+
+/* A flag's two views, the flag and its construction sheet, as tabs that are links. */
+.view-tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--line);
+}
+
+.view-tabs a {
+  padding: 8px 12px;
+  color: var(--muted);
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  text-decoration: none;
+}
+
+.view-tabs a:hover {
+  color: var(--ink);
+}
+
+.view-tabs a[aria-current="page"] {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+/* A note about a picture that's smaller than asked. */
+.warn {
+  color: var(--warn);
+}
+
+/* The construction view: its options beside the sheet, which comes first on a narrow screen. */
+.sheet-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.sheet-options {
+  flex: 1 1 260px;
+  max-width: 340px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sheet-options h2 {
+  margin: 0;
+}
+
+.sheet-view {
+  flex: 999 1 560px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sheet-frame {
+  width: 100%;
+  aspect-ratio: 297 / 210;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--line2);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sheet-frame img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media (max-width: 40rem) {
+  .sheet-options {
+    max-width: none;
+  }
+
+  .sheet-view {
+    order: -1;
+  }
+}
+
+/* Printing the construction view prints only its sheet, on paper the sheet's size. */
+@media print {
+  body:has(.print-sheet) * {
+    visibility: hidden;
+  }
+
+  body:has(.print-sheet) {
+    background: none;
+  }
+
+  body:has(.print-sheet) .print-sheet {
+    visibility: visible;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+  }
+}

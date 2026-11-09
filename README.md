@@ -116,6 +116,8 @@ from `raw.githubusercontent.com`, pinned to the commit it was built from, and re
 the browser, so the site stays under a megabyte however many flags there are. Setting the
 repository variable `KDL_BASE_URL` fetches the files from elsewhere. Each flag links to Vexyl web at
 `https://vexyl.amethyst.name/`, and the variable `EDITOR_URL` points those links somewhere else.
+Each flag's page saves any of its views, or all of them in a zip, as SVG or as PNG, and has its
+construction sheet, drawn by the library, to save as SVG or PNG or to print.
 
 [`.github/workflows/pages.yml`](.github/workflows/pages.yml) builds it:
 
@@ -126,7 +128,8 @@ repository variable `KDL_BASE_URL` fetches the files from elsewhere. Each flag l
   hand with a tag deploys that one instead, to roll back.
 - **A pull request** builds the site as an artifact of its run, to look at.
 
-To build it locally, install the Vexyl repo's dependencies with `npm ci` in its `ts/` and `web/`
+The site needs Vexyl 1.1.0 or later, for construction sheets, and its build stops with an error
+against anything older. To build it locally, install the Vexyl repo's dependencies with `npm ci` in its `ts/` and `web/`
 folders, then run `node site/build.mjs path/to/vexyl-repo --dev` and serve `_site/`, with
 `python3 -m http.server -d _site` for example. `--dev` links this repo's own files into the site
 as `_site/_repo/` and reads them from there.

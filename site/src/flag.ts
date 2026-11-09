@@ -1,12 +1,14 @@
 // The flag view: everything about one flag, read from its file with Vexyl's library. It draws the
-// flag with its variants and sides, and saves what's asked for, one view as SVG or every view as a
-// zip, or the file itself.
+// flag with its variants and sides, and saves what's asked for, one view as SVG or PNG or every view
+// as a zip, or the file itself. Its other view is the flag's construction sheet, in sheet.ts.
 
 import { locate, model, parse, shareEncode, svg, type Flag } from "vexyl";
 import {
 	browseHref, editorUrl, el, type Entry, esc, fileText, flagHref, githubFile, imageOf, label, ratioText, repo, repoUrl, release, save,
 	svgSize, svgUrl,
 } from "./common.js";
+import { cappedNote, pngForHeight, svgOwnSize, svgToPng } from "./png.js";
+import { leaveSheet, sheetHtml, wireSheet } from "./sheet.js";
 import { zip } from "./zip.js";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -22,6 +24,20 @@ const tierMeaning: Record<string, string> = {
 	C: "The defining source wasn’t read.",
 	"-": "Written before evidence tiers, and not graded yet.",
 };
+
+/** Which of a flag's two views is shown: the flag, or its construction sheet. */
+export type Mode = "flag" | "construction";
+
+/** Whether pictures download as SVG or PNG, which is remembered for every flag. */
+const formatKey = "vexyl-flags-format";
+
+function savedFormat(): "svg" | "png" {
+	try {
+		return localStorage.getItem(formatKey) === "png" ? "png" : "svg";
+	} catch {
+		return "svg";
+	}
+}
 
 interface View {
 	variant: string | null;
@@ -241,7 +257,7 @@ function viewsOf(m: Plain, variants: { name: string; notes: string[] }[]): View[
 	return views;
 }
 
-function html(entry: Entry, text: string, m: Plain, views: View[], variants: { name: string }[], comment: string[], colors: string[], series: Entry[], browse: string): string {
+function html(entry: Entry, text: string, m: Plain, views: View[], variants: { name: string }[], comment: string[], colors: string[], series: Entry[], browse: string, mode: Mode): string {
 	const meta = m.meta;
 	const name: string = meta.name;
 	const tier = entry.tier;
@@ -272,6 +288,16 @@ function html(entry: Entry, text: string, m: Plain, views: View[], variants: { n
     <div class="actions">${actions.join("")}</div>
   </div>`;
 
+	// The flag, or its construction sheet, each with an address of its own.
+	const tab = (to: Mode, text: string): string => {
+		const href = flagHref(entry.path, to === "flag" ? browse : browse ? `view=construction&${browse}` : "view=construction");
+		return `<a href="${esc(href)}" data-nav${to === mode ? ' aria-current="page"' : ""}>${text}</a>`;
+	};
+	out += `<nav class="view-tabs" aria-label="Views of this flag">${tab("flag", "Flag")}${tab("construction", "Construction sheet")}</nav>`;
+	if (mode === "construction") {
+		return out + sheetHtml(name);
+	}
+
 	// The stage, its switches and the caption.
 	const variantSeg = variants.length === 0 ? "" : `<div class="nx-seg" role="group" aria-label="Variant" id="variants"><button type="button" data-variant="" class="active" aria-pressed="true">Flag</button>`
 		+ variants.map((v) => `<button type="button" data-variant="${esc(v.name)}" aria-pressed="false">${esc(label(v.name))}</button>`).join("") + "</div>";
@@ -294,6 +320,10 @@ function html(entry: Entry, text: string, m: Plain, views: View[], variants: { n
           <div class="field">
             <span id="dl-what">What</span>
             <div class="nx-seg" role="group" aria-labelledby="dl-what" id="scopes"><button type="button" data-scope="view" class="active" aria-pressed="true">This view</button><button type="button" data-scope="all" aria-pressed="false">Every view</button></div>
+          </div>
+          <div class="field">
+            <span id="dl-format">Format</span>
+            <div class="nx-seg" role="group" aria-labelledby="dl-format" id="formats"><button type="button" data-format="svg" aria-pressed="false">SVG</button><button type="button" data-format="png" aria-pressed="false">PNG</button></div>
           </div>
           <label class="field">Height in pixels
             <input class="nx-input" id="height" type="number" min="16" max="8000" step="1" value="600" inputmode="numeric">
@@ -446,8 +476,9 @@ function problem(message: string, extra = ""): void {
  * Shows one flag. `entry` is its line in the manifest, or undefined if there's no such flag, and
  * `browse` is the browse view's query, which links back keep. Gives the flag's name once it's read.
  */
-export async function showFlag(path: string, entry: Entry | undefined, flags: Entry[], browse: string): Promise<string | null> {
+export async function showFlag(path: string, entry: Entry | undefined, flags: Entry[], browse: string, mode: Mode = "flag"): Promise<string | null> {
 	const me = ++shown;
+	leaveSheet();
 	for (const u of urls) {
 		URL.revokeObjectURL(u);
 	}
@@ -489,7 +520,11 @@ export async function showFlag(path: string, entry: Entry | undefined, flags: En
 	const colors = Object.keys(m.palette).sort((a, b) => at("palette/" + a) - at("palette/" + b) || a.localeCompare(b));
 	const series = m.meta.series ? flags.filter((f) => f.series === m.meta.series) : [];
 	const views = viewsOf(m, variants);
-	el("flag-view").innerHTML = html(entry, text, m, views, variants, leadingComment(lines), colors, series, browse);
+	el("flag-view").innerHTML = html(entry, text, m, views, variants, leadingComment(lines), colors, series, browse, mode);
+	if (mode === "construction") {
+		wireSheet(flag, entry.path, entry.tier, m.meta.name, entry.path.split("/").at(-1)!, () => me === shown, (u) => urls.push(u));
+		return m.meta.name;
+	}
 	el("source").textContent = text;
 	wire(flag, text, views, entry, me);
 	return m.meta.name;
@@ -501,6 +536,7 @@ function wire(flag: Flag, text: string, views: View[], entry: Entry, me: number)
 	const name: string = entry.name;
 	let current = views[0]!;
 	let scope = "view";
+	let format = savedFormat();
 	const drawn = new Map<string, { svg?: string; url?: string; error?: string }>();
 	const key = (v: View): string => (v.variant ?? "") + "/" + v.side;
 
@@ -530,11 +566,34 @@ function wire(flag: Flag, text: string, views: View[], entry: Entry, me: number)
 		const h = Math.round(Number((el("height") as HTMLInputElement).value));
 		return Number.isFinite(h) && h >= 16 && h <= 8000 ? h : null;
 	};
+	/** The size a view will be at a height, as a PNG, which a browser may draw smaller. */
+	const pngOf = (view: View, h: number) => {
+		const got = pageSvg(view);
+		const d = got.svg ? svgSize(got.svg) : null;
+		return d ? pngForHeight(d.width, d.height, h) : null;
+	};
 	const sizeNote = (): void => {
 		const h = height();
 		const got = pageSvg(current);
 		const d = got.svg ? svgSize(got.svg) : null;
-		el("size-note").textContent = h === null ? "16 to 8,000" : scope === "all" ? `${views.length} files, zipped` : d ? `${Math.round((h * d.width) / d.height)} × ${h} px` : "";
+		const note = el("size-note");
+		let capped = false;
+		if (h === null) {
+			note.textContent = "16 to 8,000";
+		} else if (scope === "all") {
+			capped = format === "png" && views.some((v) => pngOf(v, h)?.capped === true);
+			note.textContent = `${views.length} ${format === "png" ? "PNGs" : "files"}, zipped` + (capped ? ", some smaller than asked, as a browser draws no more" : "");
+		} else if (d) {
+			const size = format === "png" ? pngOf(current, h) : null;
+			capped = size?.capped === true;
+			note.textContent = capped ? cappedNote(size!) : `${Math.round((h * d.width) / d.height)} × ${h} px`;
+		} else {
+			note.textContent = "";
+		}
+		note.classList.toggle("warn", capped);
+	};
+	const labelDownload = (): void => {
+		el("download-label").textContent = scope === "view" ? `Download ${format.toUpperCase()}` : "Download every view";
 	};
 	const showView = (view: View): void => {
 		current = view;
@@ -555,18 +614,44 @@ function wire(flag: Flag, text: string, views: View[], entry: Entry, me: number)
 			showView(view);
 		}
 	};
-	const fileName = (view: View): string => stem + (view.variant !== null ? "-" + view.variant : "") + (view.side === "reverse" ? "-back" : "") + ".svg";
+	const fileName = (view: View): string => stem + (view.variant !== null ? "-" + view.variant : "") + (view.side === "reverse" ? "-back" : "") + "." + format;
 
 	el("sides").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => pick(current.variant ?? "", b.dataset.side!)));
 	document.getElementById("variants")?.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => pick(b.dataset.variant!, current.side)));
 	el("scopes").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
 		scope = b.dataset.scope!;
 		el("scopes").querySelectorAll("button").forEach((o) => press(o, o === b));
-		el("download-label").textContent = scope === "view" ? "Download SVG" : "Download every view";
+		labelDownload();
 		sizeNote();
 	}));
+	const showFormat = (): void => el("formats").querySelectorAll("button").forEach((b) => press(b, b.dataset.format === format));
+	el("formats").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+		format = b.dataset.format === "png" ? "png" : "svg";
+		try {
+			localStorage.setItem(formatKey, format);
+		} catch {
+			// Storage can be off or full. The choice still holds for this visit.
+		}
+		showFormat();
+		labelDownload();
+		sizeNote();
+	}));
+	showFormat();
+	labelDownload();
 	el("height").addEventListener("input", sizeNote);
-	el("download").addEventListener("click", () => {
+	/** A view as a file in the chosen format, at a height. */
+	const fileOf = async (view: View, h: number): Promise<Blob> => {
+		const svgText = draw(view, h);
+		if (format === "svg") {
+			return new Blob([svgText], { type: "image/svg+xml" });
+		}
+		const own = svgOwnSize(svgText);
+		if (own === null) {
+			throw new Error("it has no size");
+		}
+		return svgToPng(svgText, pngForHeight(own.width, own.height, h));
+	};
+	el("download").addEventListener("click", async () => {
 		const h = height();
 		if (h === null) {
 			el("height").focus();
@@ -574,13 +659,13 @@ function wire(flag: Flag, text: string, views: View[], entry: Entry, me: number)
 		}
 		try {
 			if (scope === "view") {
-				save(fileName(current), new Blob([draw(current, h)], { type: "image/svg+xml" }));
+				save(fileName(current), await fileOf(current, h));
 				return;
 			}
 			const files: { name: string; data: Uint8Array<ArrayBuffer> }[] = [];
 			for (const view of views) {
 				try {
-					files.push({ name: fileName(view), data: new TextEncoder().encode(draw(view, h)) });
+					files.push({ name: fileName(view), data: new Uint8Array(await (await fileOf(view, h)).arrayBuffer()) });
 				} catch {
 					// A view that can't be drawn is left out of the zip, as it's left blank on the page.
 				}

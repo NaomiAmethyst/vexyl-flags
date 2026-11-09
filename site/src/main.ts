@@ -1,5 +1,5 @@
 // The site is one page with two views, chosen by the address's hash: `#/flags/country/chile` is one
-// flag, and `#/` the browse view, whose filters stay in the hash after a flag's path so the way back
+// flag (`?view=construction` after it is its construction sheet), and `#/` the browse view, whose filters stay in the hash after a flag's path so the way back
 // keeps them (common.ts has the forms). Links between the views change the address without loading
 // a page, and Back returns to the browse view as it was, scrolled where it was. The real query
 // string isn't used.
@@ -41,16 +41,18 @@ async function route(moved: boolean): Promise<void> {
 	el("flag-view").hidden = false;
 	el("nav-flags").removeAttribute("aria-current");
 	const entry = byPath.get(path);
-	document.title = `${entry?.name ?? "No such flag"}, in Vexyl flags`;
+	const sheet = q.get("view") === "construction" ? ": construction sheet" : "";
+	document.title = `${entry?.name ?? "No such flag"}${entry ? sheet : ""}, in Vexyl flags`;
 	description.setAttribute("content", entry ? `The flag of ${entry.name}, as a Vexyl file: its construction, sources, colors and source.` : browseDescription);
-	const shown = showFlag(path, entry, flags, browseQuery(readBrowse(q)));
+	const mode = q.get("view") === "construction" ? "construction" : "flag";
+	const shown = showFlag(path, entry, flags, browseQuery(readBrowse(q)), mode);
 	if (moved) {
 		scrollTo(0, 0);
 		el("flag-h").focus({ preventScroll: true });
 	}
 	const name = await shown;
 	if (name !== null && view === "flag" && readAddress().path === path) {
-		document.title = `${name}, in Vexyl flags`;
+		document.title = `${name}${sheet}, in Vexyl flags`;
 		if (moved) {
 			el("flag-h").focus({ preventScroll: true });
 		}

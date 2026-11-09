@@ -4,9 +4,9 @@
 //
 //   node site/build.mjs VEXYL [OUT] [--dev]
 //
-// VEXYL is a checkout of the Vexyl repo with `npm ci` run in its ts/ and web/ folders, whose
-// esbuild, library and fonts this uses. OUT is where the site goes, by default _site/. These come
-// from the environment:
+// VEXYL is a checkout of the Vexyl repo, 1.1.0 or later, with `npm ci` run in its ts/ and web/
+// folders, whose esbuild, library and fonts this uses. OUT is where the site goes, by default
+// _site/. These come from the environment:
 //
 //   GITHUB_REPOSITORY  This repo, as owner/name, for links to GitHub and fetching its files.
 //   RELEASE_TAG        The release the site is built for, such as edge or v1, shown in its footer.
@@ -37,6 +37,14 @@ if (args.length < 1) {
 }
 const vexyl = resolve(args[0]);
 const out = resolve(args[1] ?? join(root, "_site"));
+
+// The construction view needs construction sheets and their fonts option, which came after Vexyl
+// 1.0.0. A library without them would build a view that fails, so the build stops instead.
+const library = readFileSync(join(vexyl, "ts", "src", "index.ts"), "utf8");
+if (!/\bconstructionSvg\b/.test(library) || !/\bsheetFaces\b/.test(library)) {
+	console.error(`site/build.mjs: the Vexyl library at ${vexyl} has no constructionSvg with fonts, which the construction view needs. Build against Vexyl 1.1.0 or later.`);
+	process.exit(1);
+}
 const { build } = createRequire(join(vexyl, "web", "package.json"))("esbuild");
 
 const env = process.env;

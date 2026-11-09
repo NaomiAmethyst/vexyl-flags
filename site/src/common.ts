@@ -75,7 +75,8 @@ export function pathParam(path: string): string {
 //
 // Everything is in the hash, so the site works from one file on any host: `#/` is the browse view,
 // with its filters as a query, `#/?family=swiss`, and `#/flags/country/chile` is a flag, with the
-// filters it was reached from kept after it, `#/flags/country/chile?family=country`. An empty hash
+// filters it was reached from kept after it, `#/flags/country/chile?family=country`. Its construction
+// sheet is `#/flags/country/chile?view=construction`, with the filters after that. An empty hash
 // is the browse view.
 
 /** What the address asks for: a flag's path, or null for the browse view, and the filters. */
@@ -193,6 +194,7 @@ export function setUpTheme(): void {
 			// Storage can be off or full. The theme still changes for this visit.
 		}
 		show();
+		document.dispatchEvent(new Event("vexyl-theme"));
 	});
 	show();
 }
