@@ -128,7 +128,7 @@ construction sheet, drawn by the library, to save as SVG or PNG or to print.
   hand with a tag deploys that one instead, to roll back.
 - **A pull request** builds the site as an artifact of its run, to look at.
 
-The site needs Vexyl 1.1.0 or later, for construction sheets, and its build stops with an error
+The site needs Vexyl 1.2.0 or later, for construction sheets, and its build stops with an error
 against anything older. To build it locally, install the Vexyl repo's dependencies with `npm ci` in its `ts/` and `web/`
 folders, then run `node site/build.mjs path/to/vexyl-repo --dev` and serve `_site/`, with
 `python3 -m http.server -d _site` for example. `--dev` links this repo's own files into the site

@@ -25,7 +25,7 @@ env:
   # The Vexyl release whose library reads and draws the flags. Move it to a newer release tag
   # to take that release's changes.
   VEXYL_REPO: NaomiAmethyst/vexyl
-  VEXYL_REF: v1.1.0
+  VEXYL_REF: v1.2.0
 
 jobs:
   build:
