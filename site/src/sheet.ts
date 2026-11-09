@@ -1,7 +1,7 @@
 // The construction view: a flag's construction sheet, drawn by Vexyl's library with every size
 // worked out from the file, with how it's drawn, and saved as SVG or PNG, or printed.
 
-import { constructionSvg, type ConstructionOptions, type Flag, type SheetFont } from "vexyl";
+import { constructionSvg, type ConstructionOptions, type Flag, type SheetFont, type SheetForm } from "vexyl";
 import { el, esc, save } from "./common.js";
 import { cappedNote, pngForPaper, svgToPng } from "./png.js";
 
@@ -12,6 +12,8 @@ interface SheetPrefs {
 	theme: "paper" | "dark" | null;
 	paper: "a4" | "letter" | "fit";
 	dpi: 150 | 300 | 600;
+	/** "flag", "reverse", or "variant:" and a variant's name. One a flag doesn't have draws the flag itself. */
+	form: string;
 }
 
 const prefsKey = "vexyl-flags-sheet";
@@ -34,6 +36,7 @@ function readPrefs(): SheetPrefs {
 		theme: one(v.theme, ["paper", "dark", null] as const, null),
 		paper: one(v.paper, ["a4", "letter", "fit"] as const, "a4"),
 		dpi: one(v.dpi, [150, 300, 600] as const, 300),
+		form: typeof v.form === "string" && v.form.length <= 300 && /^(flag|reverse|variant:.+)$/s.test(v.form) ? v.form : "flag",
 	};
 }
 
@@ -54,10 +57,27 @@ const unitHelp = {
 const seg = (id: string, label: string, options: [string, string][]): string =>
 	`<div class="nx-seg" role="group" aria-label="${esc(label)}" id="${id}">${options.map(([v, text]) => `<button type="button" data-value="${esc(v)}" aria-pressed="false">${esc(text)}</button>`).join("")}</div>`;
 
+/** The forms a sheet can be drawn for: the flag, its reverse, and each of its variants. */
+const formsOf = (variants: readonly string[]): [string, string][] => [["flag", "Flag"], ["reverse", "Reverse"], ...variants.map((v): [string, string] => [`variant:${v}`, v.charAt(0).toUpperCase() + v.slice(1)])];
+
+/** A form as the library's options name it, or the flag itself for one this flag doesn't have. */
+function formOf(flag: Flag, id: string): SheetForm {
+	if (id === "reverse") {
+		return { side: "reverse" };
+	}
+	const name = id.startsWith("variant:") ? id.slice("variant:".length) : null;
+	return name !== null && Object.hasOwn(flag.variants, name) ? { variant: name } : {};
+}
+
 /** The view's HTML, which `wireSheet` then fills in. */
-export function sheetHtml(name: string): string {
+export function sheetHtml(name: string, variants: readonly string[]): string {
 	return `<div class="sheet-layout">
     <aside class="sheet-options" aria-label="Sheet options">
+      <section class="card" aria-labelledby="sh-form-h">
+        <h2 id="sh-form-h" class="nx-label">Form</h2>
+        ${seg("sh-form", "Form", formsOf(variants))}
+        <p class="small" id="sh-form-help"></p>
+      </section>
       <section class="card" aria-labelledby="sh-units-h">
         <h2 id="sh-units-h" class="nx-label">Sizes in</h2>
         ${seg("sh-units", "Sizes in", [["grid", "Grid"], ["hoist", "Hoist"], ["mm", "mm"]])}
@@ -138,6 +158,10 @@ export function wireSheet(flag: Flag, path: string, tier: string | undefined, na
 	const theme = (): "paper" | "dark" => prefs.theme ?? (document.documentElement.dataset.theme === "light" ? "paper" : "dark");
 	const options = (): ConstructionOptions => {
 		const o: ConstructionOptions = { units: prefs.units, theme: theme(), paper: prefs.paper, path: `${path}.kdl` };
+		const form = formOf(flag, prefs.form);
+		if (form.variant !== undefined || form.side !== undefined) {
+			o.form = form;
+		}
 		if (prefs.units === "mm") {
 			o.hoistMm = prefs.hoistMm;
 		}
@@ -167,6 +191,9 @@ export function wireSheet(flag: Flag, path: string, tier: string | undefined, na
 		note.classList.toggle("warn", size.capped);
 	};
 	const controls = (): void => {
+		const form = formsOf(Object.keys(flag.variants)).some(([id]) => id === prefs.form) ? prefs.form : "flag";
+		pressed("sh-form", form);
+		el("sh-form-help").textContent = form === "reverse" ? "The back, as someone behind the flag sees it." : form === "flag" ? "The flag as its file draws it." : "This variant, turned as it turns, and measured as the flag is.";
 		pressed("sh-units", prefs.units);
 		pressed("sh-theme", theme());
 		pressed("sh-paper", prefs.paper);
@@ -211,6 +238,7 @@ export function wireSheet(flag: Flag, path: string, tier: string | undefined, na
 			draw();
 		}));
 	};
+	choose("sh-form", (v) => (prefs.form = v));
 	choose("sh-units", (v) => (prefs.units = v as SheetPrefs["units"]));
 	choose("sh-theme", (v) => (prefs.theme = v as "paper" | "dark"));
 	choose("sh-paper", (v) => (prefs.paper = v as SheetPrefs["paper"]));
@@ -228,9 +256,15 @@ export function wireSheet(flag: Flag, path: string, tier: string | undefined, na
 			draw();
 		}
 	});
+	/** The file's name for the form shown: the flag's own, or with the form after it. */
+	const named = (): string => {
+		const form = formOf(flag, prefs.form);
+		const tail = form.variant !== undefined ? `-${form.variant}${form.side === "reverse" ? "-reverse" : ""}` : form.side === "reverse" ? "-reverse" : "";
+		return `${stem}${tail.toLowerCase().replace(/[^a-z0-9-]+/g, "-")}`;
+	};
 	el("sh-svg").addEventListener("click", () => {
 		if (shown !== null) {
-			save(`${stem}-construction.svg`, new Blob([shown.svg], { type: "image/svg+xml" }));
+			save(`${named()}-construction.svg`, new Blob([shown.svg], { type: "image/svg+xml" }));
 			status("Downloaded the sheet as SVG.");
 		}
 	});
@@ -242,7 +276,7 @@ export function wireSheet(flag: Flag, path: string, tier: string | undefined, na
 		status("Drawing the PNG…");
 		try {
 			const svg = constructionSvg(flag, { ...options(), fonts: await sheetFonts() });
-			save(`${stem}-construction.png`, await svgToPng(svg, size));
+			save(`${named()}-construction.png`, await svgToPng(svg, size));
 			status(size.capped ? `Downloaded the PNG, at ${size.width} × ${size.height}, the most a browser can draw.` : "Downloaded the sheet as PNG.");
 		} catch (e) {
 			status(`The PNG couldn’t be made: ${(e as Error).message}.`);

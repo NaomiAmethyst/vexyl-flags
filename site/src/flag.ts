@@ -295,7 +295,7 @@ function html(entry: Entry, text: string, m: Plain, views: View[], variants: { n
 	};
 	out += `<nav class="view-tabs" aria-label="Views of this flag">${tab("flag", "Flag")}${tab("construction", "Construction sheet")}</nav>`;
 	if (mode === "construction") {
-		return out + sheetHtml(name);
+		return out + sheetHtml(name, variants.map((v) => v.name));
 	}
 
 	// The stage, its switches and the caption.
