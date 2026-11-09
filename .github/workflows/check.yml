@@ -11,7 +11,7 @@ env:
   # The Vexyl release whose rules the flags are checked against. Move it to a newer release tag
   # to take that release's changes.
   VEXYL_REPO: NaomiAmethyst/vexyl
-  VEXYL_REF: v1.0.0
+  VEXYL_REF: v1.1.0
 
 jobs:
   check:
