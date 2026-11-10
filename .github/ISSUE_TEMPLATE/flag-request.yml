@@ -1,0 +1,28 @@
+name: Flag to write by hand
+description: A flag that's missing, or only imported, and should be written from its source
+title: "Write "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hand-written flags are written from the source that defines them, so a request is most
+        useful with that source. See CONTRIBUTING.md.
+  - type: input
+    id: flag
+    attributes:
+      label: Which flag
+      placeholder: The name of the flag
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Its defining source
+      description: >-
+        A link to the law, decree, standard or designer's own publication, if you know one. Leave
+        it empty if you don't, and say what you do know.
+      placeholder: https://
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else

@@ -12,6 +12,8 @@ There are two kinds of flag here:
 Start with `flags/`. Where a flag is in both, the hand-written one replaces its import, as
 [`map.tsv`](map.tsv) records, so `imported/` keeps only the rest.
 
+Corrections are welcome, above all a flag's defining source: see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 Both are sorted by family:
 
 | Family | Holds |
@@ -75,6 +77,9 @@ None of them covers a flag's design. Designs can have their own terms: some prid
 conditions for using them, and many countries legally restrict how their flags and emblems
 are used. Some organization flags here are logos, and may be trademarks. Check those before
 using a flag.
+
+The code here, the website in `site/` and the checks in `tools/`, is under the Apache License 2.0.
+[LICENSE.md](LICENSE.md) sums up what's under what.
 
 ## What's left out
 

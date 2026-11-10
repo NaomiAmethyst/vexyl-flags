@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // The site is one page with two views, chosen by the address's hash: `#/flags/country/chile` is one
 // flag (`?view=construction` after it is its construction sheet), and `#/` the browse view, whose filters stay in the hash after a flag's path so the way back
 // keeps them (common.ts has the forms). Links between the views change the address without loading

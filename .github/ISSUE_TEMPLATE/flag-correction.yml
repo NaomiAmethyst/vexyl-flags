@@ -1,0 +1,40 @@
+name: Flag correction
+description: Something about a flag here is wrong, or its source can be better
+title: "Correction to "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. You don't need to know the format: a link and a sentence is plenty. See
+        CONTRIBUTING.md for what makes a good source.
+  - type: input
+    id: flag
+    attributes:
+      label: Which flag
+      description: Its file, as its page on the website shows it, or just its name.
+      placeholder: flags/country/chile.kdl
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong
+      description: Which part, such as a size, a color, a date or a source, and what it should be.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Where that comes from
+      description: >-
+        A link to the law, decree, standard or designer's own publication is best. A news report,
+        Flags of the World or an article's references help too. A Wikimedia Commons drawing isn't a
+        source on its own.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: Page or article numbers, a translation, or a picture of the official drawing.

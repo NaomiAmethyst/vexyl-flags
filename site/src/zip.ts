@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // A zip, stored without compression, which is all a few SVG files need.
 
 const crcTable = Array.from({ length: 256 }, (_, n) => {

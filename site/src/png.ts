@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // Pictures as PNG, drawn by the browser from the library's SVG. Whatever isn't painted stays
 // transparent, as a shaped flag's corners are. A copy of Vexyl web's own helper, kept short.
 

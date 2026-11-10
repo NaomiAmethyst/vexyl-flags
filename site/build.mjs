@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // Builds the collection's website into one folder: the page, its script with Vexyl's TypeScript
 // library bundled in, its styles and fonts, and manifest.json, which lists every flag. Nothing is
 // drawn here and no flag's file is copied in: the page fetches each file when it's needed.

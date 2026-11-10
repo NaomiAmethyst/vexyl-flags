@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // The construction view: a flag's construction sheet, drawn by Vexyl's library with every size
 // worked out from the file, with how it's drawn, and saved as SVG or PNG, or printed.
 

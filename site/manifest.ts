@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // Writes manifest.json, which the site loads to list the flags: each flag's path, name, family,
 // kind, tier and proportion, and its series where it has one, sorted by path, with the release it
 // was made for. It reads every file with Vexyl's own library, spread over worker threads.

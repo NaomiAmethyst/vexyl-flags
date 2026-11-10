@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // The flag view: everything about one flag, read from its file with Vexyl's library. It draws the
 // flag with its variants and sides, and saves what's asked for, one view as SVG or PNG or every view
 // as a zip, or the file itself. Its other view is the flag's construction sheet, in sheet.ts.
@@ -446,9 +449,10 @@ function html(entry: Entry, text: string, m: Plain, views: View[], variants: { n
 
 	out += `<section class="card" aria-labelledby="views-h"><h2 id="views-h" class="nx-label">Every view</h2><div class="thumbs" id="thumbs"></div></section>`;
 	if (repoUrl !== "") {
+		// The repo's correction form, with which flag it is already filled in.
 		const title = encodeURIComponent(`Correction to ${name}`);
-		const body = encodeURIComponent(`About ${entry.path}.kdl:\n\n`);
-		out += `<a class="correction" href="${esc(repoUrl)}/issues/new?title=${title}&amp;body=${body}">Suggest a correction</a>`;
+		const flag = encodeURIComponent(`${entry.path}.kdl`);
+		out += `<a class="correction" href="${esc(repoUrl)}/issues/new?template=flag-correction.yml&amp;title=${title}&amp;flag=${flag}">Suggest a correction</a>`;
 	}
 	out += "</aside></div>";
 	return out;

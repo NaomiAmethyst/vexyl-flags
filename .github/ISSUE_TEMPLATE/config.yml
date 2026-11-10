@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: The editor or the format
+    url: https://github.com/NaomiAmethyst/vexyl/issues
+    about: Problems with Vexyl web, the libraries, the command or the specification belong in the Vexyl repo.

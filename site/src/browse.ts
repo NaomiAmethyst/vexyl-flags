@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // The browse view: filters, search and sort over the manifest, cards in pages of 48, and each
 // card's picture drawn from its file once the card is on or near the screen. The filters live in
 // the address's hash, so a filtered view can be linked, and Back steps through them.

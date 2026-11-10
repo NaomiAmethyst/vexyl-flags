@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
+
 // What both views share: the build's settings, the manifest's shape, fetching files, and small
 // helpers for text and pictures.
 

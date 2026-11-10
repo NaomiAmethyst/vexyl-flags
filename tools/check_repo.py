@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# Copyright 2026 Naomi Persephone Amethyst <naomi@amethyst.name>
 # Checks the repo's bookkeeping, which the format's own check can't see: every hand-written flag
 # has one evidence tier, map.tsv names real flags, and an import that a hand-written flag replaces
 # is gone. Problems are printed as GitHub annotations, and any problem fails the run.
