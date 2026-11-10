@@ -24,3 +24,9 @@ trademarks. Nobody has legally reviewed any of this, so check before relying on 
 
 The website in [`site/`](site), the checks in [`tools/`](tools) and the workflows in
 [`.github/`](.github) are under the [Apache License 2.0](LICENSE-APACHE).
+
+## The bookkeeping
+
+[`evidence.tsv`](evidence.tsv), [`map.tsv`](map.tsv) and the reports in [`imported/`](imported)
+(`report.tsv` and `left-out.tsv`) are under
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).

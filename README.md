@@ -79,6 +79,7 @@ are used. Some organization flags here are logos, and may be trademarks. Check t
 using a flag.
 
 The code here, the website in `site/` and the checks in `tools/`, is under the Apache License 2.0.
+The bookkeeping, `evidence.tsv`, `map.tsv` and the import reports, is under CC0 1.0.
 [LICENSE.md](LICENSE.md) sums up what's under what.
 
 ## What's left out
