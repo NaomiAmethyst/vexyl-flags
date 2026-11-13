@@ -57,7 +57,7 @@ jobs:
               echo "tag=$tag" >> "$GITHUB_OUTPUT"; echo "ref=refs/tags/$tag" >> "$GITHUB_OUTPUT" ;;
           esac
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ steps.what.outputs.ref }}
 
@@ -65,13 +65,13 @@ jobs:
         id: commit
         run: echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: ${{ env.VEXYL_REPO }}
           ref: ${{ env.VEXYL_REF }}
           path: .vexyl
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
 
@@ -97,7 +97,7 @@ jobs:
 
       - name: Keep the site to look at
         if: github.event_name == 'pull_request'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: site
           path: _site
@@ -105,7 +105,7 @@ jobs:
 
       - name: Keep the release files
         if: github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release-files
           path: |
@@ -115,7 +115,7 @@ jobs:
 
       - name: Keep the site for Pages
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
@@ -133,11 +133,11 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       COMMIT: ${{ needs.build.outputs.commit }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.build.outputs.commit }}
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: release-files
 
@@ -163,7 +163,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       TAG: ${{ needs.build.outputs.tag }}
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: release-files
 
@@ -189,4 +189,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
