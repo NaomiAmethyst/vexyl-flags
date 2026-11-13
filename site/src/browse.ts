@@ -213,8 +213,12 @@ function render(): void {
 	const found = sorted(matching(s), s.sort);
 	const shown = found.slice(0, s.show);
 	const kindWord = ({ hand: "hand-written ", imported: "imported ", all: "" } as Record<string, string>)[s.kind];
-	const familyTotal = s.family === "all" ? total : flags.filter((f) => inKind(f, s.kind) && f.family === s.family).length;
-	el("results-h").textContent = (s.family === "all" ? "" : label(s.family) + ": ") + fmt(familyTotal) + " " + kindWord + "flags";
+	// The heading counts what the chips choose, family and tier, and leaves the search to "shown".
+	const byTier = s.kind === "hand" && s.tier !== "any";
+	const heading = s.family === "all" && !byTier ? total : flags.filter((f) =>
+		inKind(f, s.kind) && (s.family === "all" || f.family === s.family) && (!byTier || f.tier === s.tier)).length;
+	const tierWord = !byTier ? "" : s.tier === "-" ? "ungraded " : "tier " + s.tier + " ";
+	el("results-h").textContent = (s.family === "all" ? "" : label(s.family) + ": ") + fmt(heading) + " " + tierWord + kindWord + "flags";
 	el("shown").textContent = shown.length < found.length ? `${fmt(shown.length)} of ${fmt(found.length)} shown` : `${fmt(found.length)} shown`;
 	wanted.clear();
 	observer.disconnect();
