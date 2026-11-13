@@ -20,6 +20,7 @@ Both are sorted by family:
 |---|---|
 | `country/` | Sovereign states and some others |
 | `pride/` | Pride flags |
+| `languages/` | Flags of languages, such as constructed languages |
 | `territories/`, `us/`, `russia/`, `germany/`, `japan/`, `india/`, `brazil/`, `mexico/`, `spain/`, `swiss/`, `europe/` | Regional flags, by the family they belong to |
 | `historical/`, `ethnic/`, `orgs/`, `signal/` | Historical, ethnic and organization flags, and signal flags |
 

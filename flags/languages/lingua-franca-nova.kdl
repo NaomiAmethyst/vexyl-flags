@@ -1,0 +1,42 @@
+// From George Boeree's description, as FOTW reports it (26 May 2008): 2:1, with five rays
+// meeting at the lower hoist corner. At the top, blue 2/5, green 2/5 and yellow 1/5 of the
+// length; at the fly, yellow 1/5, orange 2/5 and red 2/5 of the height, from the top.
+// On a hoist of 5 and a fly of 10 the top is 4 4 2 and the fly 1 2 2. Walking the far edges
+// clockwise from the upper hoist corner, yellow takes the top's last 2 and the fly's first 1,
+// so the rays take 4 4 3 2 2 of the 15.
+vexyl 1
+meta {
+  name "Lingua Franca Nova"
+  designer "Stefan Fisahn"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "The 2005 Commons upload of the flag by the account CGBoeree, which credits the design to Stefan Fisahn and George Boeree, says 'No copyright or trademark.' and marks the image public domain. This file's license covers the encoding, not the design."
+  source "https://www.crwflags.com/fotw/flags/qy-lfn.html"
+  source "https://web.archive.org/web/20040803022011id_/http://www.ship.edu/~cgboeree/lfn.html"
+  source "https://web.archive.org/web/20040916074653id_/http://www.ship.edu/~cgboeree/lfn.html"
+  source "https://web.archive.org/web/20051220133652id_/http://www.lingua-franca-nova.net:80/lfn_creol2.gif"
+  source "https://web.archive.org/web/20071023192215id_/http://lingua-franca-nova.net/banderas/lfn_bandera1000.jpg"
+  source "https://commons.wikimedia.org/wiki/File:Lfnbandera.gif"
+  source "https://commons.wikimedia.org/wiki/File:Flag_of_Lingua_Franca_Nova.svg"
+  source "https://en.wikipedia.org/wiki/Lingua_Franca_Nova"
+  source "https://lfn.wikipedia.org/wiki/Bandera_de_lingua_franca_nova"
+  note "The flag was presented to the language's community in 2004. FOTW quotes the presenting message, reported by Carlos Thompson on 12 September 2004, which says the flag uses rainbow colors, takes its shape from the flag of Seychelles, where a creole is official, and suggests a sunrise, but gives no measurements. The official site, lingua-franca-nova.net, then redirected to Boeree's page at ship.edu. In the Wayback Machine, that page's capture of 3 August 2004 heads it with an image named europijon.GIF, and its capture of 16 September 2004 with a 120 by 60 image named lfn_creol2.gif, the name of the flag image captured on the site from 2005. The 2004 image itself wasn't captured. No exact date of adoption was found, so none is given."
+  note "The proportion and divisions are George Boeree's description as FOTW reports it, dated 26 May 2008; Boeree is the language's creator. The official site's own images agree with it only roughly: its 120 by 60 header image (captured from 20 December 2005) puts the top divisions at 3/8 and 3/4 of the length and the fly's at about 16 and 37 of 60 from the top, and its 1000 by 501 image (captured 23 October 2007) at about 0.43 and 0.80 of the length and 0.24 and 0.62 of the height. Neither image gives numbers, so this file follows the description."
+  note "FOTW, quoting Carlos Thompson in 2004, names Stefan Fisahn as the flag's author, and the Lingua Franca Nova Wikipedia says it was created by him. The 2005 Commons upload by the account CGBoeree credits Stefan Fisahn and George Boeree, and the English Wikipedia credits Stefan Fisahn and Beate Hornung, citing FOTW, which doesn't name her. Only Fisahn, on whom they all agree, is named as designer here. The Lingua Franca Nova Wikipedia dates the flag to 2010, which the 2004 captures contradict."
+  note "The hex values are the pixels of the official site's header image, lfn_creol2.gif, as captured from 20 December 2005. The 2005 Commons GIF uploaded by CGBoeree and the Commons SVG have the same five values. No source read gives Pantone, CMYK or named shades, so none are given."
+}
+palette {
+  blue "#004d93"
+  green "#8bb629"
+  yellow "#fff001"
+  orange "#fe9900"
+  red "#e70431"
+}
+proportion hoist=5 fly=10
+
+rays blue green yellow orange red {
+  from lower-hoist
+  measure edge
+  ratio 4 4 3 2 2
+}
