@@ -1,0 +1,39 @@
+// Nine equal bars, 9 by 15 so each is 1. Heart fitted on the 1160 by 697 NLA-Dallas drawing:
+// radius 80.3 / 77.4 = 1.037, at 207.8 / 77.3 = 2.687 and 169.1 / 77.4 = 2.183, tilted 44.6 degrees.
+vexyl 1
+meta {
+  name "Leather Girl Pride Flag"
+  series "leather-girl-pride-flag"
+  version "level"
+  designer "sheryl dee"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://queerstoryfiles.blogspot.com/2013/02/flags-out-again-for-mr-leather.html"
+  source "https://web.archive.org/web/20210121052514/https://www.themontroseforge.com/products/leather-girl-pride-flag"
+  source "https://www.nladallas.org/community-flags-leather-girl-pride/"
+  source "https://web.archive.org/web/20041225014009/http://www.americanbrotherhood.com/family/2003/woman.htm"
+  source "https://web.archive.org/web/20041103003029/http://www.americanbrotherhood.com/info/judges/sdee.htm"
+  source "https://web.archive.org/web/20031221101510/http://groups.yahoo.com:80/group/Leather_Girl_Network/"
+  note "The designer's own publication was not found. She founded the Leather Girl Network, a Yahoo group started on 8 July 2003, whose message archive was for members only and was not archived; its December 2003 snapshot above shows only the group's description. Her American Brotherhood Weekend profiles from 2003 and 2004, above, confirm she was Ms San Diego Leather 2003, American Leatherwoman 2003 and the network's founder, but do not mention a flag. She writes her name in lower case there, as it is here."
+  note "Secondary accounts: the Queerstory Files blog (25 February 2013) says the blue of the Leather Pride flag is replaced with pink to represent female leather-lovers, and that sheryl dee designed it for the Ms San Diego Leather contest in November 2003. The Lilith's Way shop page (snapshot above) says the flag was created by Sheryl D., first unveiled at the Ms San Diego Leather contest in November 2003 and shown again at American Brotherhood Weekend in April 2004. No date is given here because neither the designer nor the contest has been read on it."
+  note "The construction is the Leather Pride flag's with pink for blue, as those accounts say: nine equal stripes, black and pink alternating from the top and bottom, a white center stripe, and a red heart in the upper hoist. NLA-Dallas, citing Las Vegas Pride, gives the meanings: black for leather and permanence, pink for female leather, white for purity and innocence, and the red heart for the love of leather women."
+  note "No source gives a proportion, shades or the heart's geometry. The 3:5 proportion, the colors (pink #c881b6, white #f8f5f6, red #ec1b23, measured as the most common pixel values) and the heart's size, position and tilt all come from the drawing on the NLA-Dallas page (Leather-Woman-flag.png, 1160 by 697, captioned Leather Girl Pride Flag). The flags sold by Lilith's Way and Gays & Gadgets (90 by 150 cm) show the same drawing, with the same pink and red to within one or two in each channel."
+  note "The heart is the classic heart shape fitted to the drawing's red fill, which it matches to about 4 percent of the heart's area, since the drawing's heart is hand-drawn. The drawing's thick black outline round the heart is left out, as in this project's Leather Pride flag."
+  note "Another version, with the same colors in diagonal stripes and written in this series, appears in the Queerstory Files post's picture, and NLA-Dallas says the flag sometimes appears with diagonal stripes but is more often seen like the Leather Pride flag. A different flag, the Leather Woman Pride flag by Tori Jones, uses purple instead of pink."
+}
+palette {
+  black "#000000"
+  pink "#c881b6"
+  white "#f8f5f6"
+  red "#ec1b23"
+}
+proportion hoist=9 fly=15
+
+bars black pink black pink white pink black pink black
+
+charge heart red {
+  radius 1.037
+  at fly=2.687 hoist=2.183
+  rotate -44.6
+}

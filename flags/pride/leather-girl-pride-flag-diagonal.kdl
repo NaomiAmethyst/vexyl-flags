@@ -1,0 +1,39 @@
+// Measured from a manufactured flag, 36 by 60 inches, so the grid is in inches. Nine equal
+// stripes run from the lower hoist corner to the upper fly corner. The heart's box, by tape: 6.4
+// to 16 inches from the hoist and 2.4 to 13.6 from the top, fitted with a heart of radius 3.5
+// turned 45 degrees, as the version with level stripes is, centered at fly 11 and hoist 8. A
+// tilt from 45 to 50 degrees fits the tape as well, so the round one is taken.
+vexyl 1
+meta {
+  name "Leather Girl Pride Flag, diagonal stripes"
+  series "leather-girl-pride-flag"
+  version "diagonal"
+  designer "sheryl dee"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://queerstoryfiles.blogspot.com/2013/02/flags-out-again-for-mr-leather.html"
+  source "https://www.nladallas.org/community-flags-leather-girl-pride/"
+  source "https://web.archive.org/web/20210121052514/https://www.themontroseforge.com/products/leather-girl-pride-flag"
+  note "This is the flag's version with diagonal stripes. NLA-Dallas says the flag sometimes appears with its stripes diagonal, and the Queerstory Files post (25 February 2013), which credits the design to sheryl dee for the Ms San Diego Leather contest in November 2003, pictures it with diagonal stripes. The designer's own publication was not found, as the version with level stripes explains, so it isn't known which version she drew."
+  note "The construction is measured from a manufactured flag of this version, 36 by 60 inches, in the encoder's possession: its proportion, its nine equal stripes, pink at both ends and white in the middle, running from corner to corner, and the heart's size, place and tilt, measured by tape to about half an inch. Queerstory's small picture draws the stripes a little steeper than corner to corner, and the heart larger."
+  note "No source gives shades. The colors are those of the drawing on the NLA-Dallas page (Leather-Woman-flag.png, captioned Leather Girl Pride Flag), as in the version with level stripes: pink #c881b6, white #f8f5f6 and red #ec1b23, with black."
+  note "NLA-Dallas, citing Las Vegas Pride, gives the meanings: black for leather and permanence, pink for female leather, white for purity and innocence, and the red heart for the love of leather women."
+}
+palette {
+  black "#000000"
+  pink "#c881b6"
+  white "#f8f5f6"
+  red "#ec1b23"
+}
+proportion hoist=36 fly=60
+
+bars pink black pink black white black pink black pink {
+  along bend-sinister
+}
+
+charge heart red {
+  radius 3.5
+  at fly=11 hoist=8
+  rotate -45
+}
