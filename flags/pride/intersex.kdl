@@ -10,6 +10,8 @@ meta {
   render-license "CC0-1.0"
   design-rights "CC0-1.0: the IHRA post and the designer's page say the intersex flag image was formally licensed under CC0 1.0 on 18 December 2013"
   date "2013-07-04"
+  series "intersex-flag"
+  version "carpenter-2013"
   source "https://ihra.org.au/22773/an-intersex-flag/"
   source "https://morgancarpenter.com/intersex-flag/"
   source "https://ihra.org.au/wp-content/uploads/2013/07/intersex-flag.svg"
