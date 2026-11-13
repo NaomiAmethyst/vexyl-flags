@@ -11,11 +11,15 @@ meta {
     license "LicenseRef-Public-Domain"
     part "the emblem"
   }
+  source "https://web.archive.org/web/20160105161904/http://www.hellointernet.fm/flagvote/"
+  source "https://web.archive.org/web/20160806022921/https://static1.squarespace.com/static/52d66949e4b0a8cec3bcdd46/t/5627a394e4b0a834a45d1645/1445438359257/?format=2500w"
   source "https://www.bradyharanblog.com/flags/nail-and-gear-flag-pro"
-  note "Commons tags the drawing public domain, and nobody has reviewed that. Its 3:2 is the drawing's. The flag sold on Brady Haran's site is 2:1, with no stated construction, so the extended field at wider proportions is this file's own rule."
+  note "Hello Internet's own publication: the 2015 Hello Internet Podcast Flag Referendum page, read in the Wayback Machine's copy of 5 January 2016, which shows Nail & Gear among its five candidates. That it won the vote, in December 2015, is from secondary accounts only. Its image, uploaded on 21 October 2015, is 3130 by 2092 pixels, so about 3:2, and read at 2500 by 1671."
+  note "The emblem's drawing is the Commons file's, and isn't the podcast's. Rendered over the referendum image at the same height, it's within 0.5% of the hoist of the image's emblem in size and place, and about 1% of the area differs. The grey, #737373, is the image's flat field. The Commons drawing has #555555."
+  note "Commons tags the drawing public domain, and nobody has reviewed that. The flag sold on Brady Haran's site is 2:1, with no stated construction, so the extended field at wider proportions is this file's own rule."
 }
 palette {
-  grey "#555555"
+  grey "#737373"
   white "#ffffff"
 }
 proportion hoist=626 fly=939
