@@ -11,13 +11,6 @@ import sys
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 problems = 0
 
-# Written before evidence tiers, and not graded yet. Remove each as it gets a tier.
-ungraded = {
-    "afghanistan-2013-2021", "norway-state", "wiphala", "european-union", "nail-and-gear",
-    "bisexual", "progress-pride", "transgender", "ics-alfa", "ics-november", "ics-zulu",
-    "colorado",
-}
-
 
 def problem(path, line, message):
     global problems
@@ -67,11 +60,8 @@ for n, row in rows("evidence.tsv"):
     tiers.setdefault(name, n)
 
 for name, families in hand.items():
-    if name not in tiers and name not in ungraded:
+    if name not in tiers:
         problem(f"flags/{families[0]}/{name}.kdl", 1, "needs an evidence tier in evidence.tsv")
-for name in sorted(ungraded):
-    if name in tiers or name not in hand:
-        problem("tools/check_repo.py", 1, f"{name} is listed as ungraded, but it {'has a tier' if name in tiers else 'is gone'}")
 
 for n, row in rows("map.tsv"):
     if len(row) != 3:
