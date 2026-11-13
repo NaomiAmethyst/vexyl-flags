@@ -1,0 +1,23 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Transfeminine flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "transfeminine-flag"
+  version "blue-and-pink"
+  source "https://www.deviantart.com/pride-flags/art/Trans-Woman-Transfeminine-%281%29-543925985"
+  source "https://lgbtqia.fandom.com/wiki/Transfeminine"
+  note "The designer and first publication were not found. The earliest copy read is 'Trans Woman / Transfeminine (1)' by Pride-Flags on DeviantArt, published 2015-07-04 UTC (3 July, Pacific time), which credits no one and gives no meanings. The LGBTQIA+ Wiki (Fandom) says its creator and meanings are unknown. It is the counterpart of the transmasculine flag, posted by the same account the same evening; an all-pink alternative, 'Trans Woman / Transfeminine (3)' of 14 June 2016, is not written here."
+  note "Construction and colors are read from that post's image (5000 by 3000 PNG), which is not shown to be the designer's: seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, #73deff, #ffe0ed, #ffb5d5, #ff8cbe, #ffb5d5, #ffe0ed, #73deff. The 3:5 proportion is the image's."
+}
+palette {
+  blue "#73deff"
+  pale-pink "#ffe0ed"
+  light-pink "#ffb5d5"
+  pink "#ff8cbe"
+}
+proportion hoist=3 fly=5
+
+bars blue pale-pink light-pink pink light-pink pale-pink blue

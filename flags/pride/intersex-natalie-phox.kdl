@@ -1,0 +1,35 @@
+// Five bars, 1:1:2:1:1, on a 3:4 field. The double bar is a gradient down the hoist that holds
+// blue for its first 0.4, blends to pink by 0.6 and holds pink after: pixels 105 and 120 of the
+// band from 75 to 150 in the 225-pixel image.
+vexyl 1
+meta {
+  name "Intersex flag, Natalie Phox's design"
+  designer "Natalie Phox"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "The designer uploaded the image to Wikimedia Commons as her own work under CC-BY-SA-3.0. This file's license covers the encoding, not the design."
+  date "2009-10-09"
+  series "intersex-flag"
+  version "phox-2009"
+  source "https://commons.wikimedia.org/wiki/File:Intersex_pride.png"
+  source "https://web.archive.org/web/20220927073400/https://majesticmess.com/encyclopedia/intersex-flag-natalie-phox/"
+  source "https://www.deviantart.com/pride-flags/art/Intersex-1-543925713"
+  note "Defining source: the designer's own upload to Wikimedia Commons by the account NittrusFox on 9 October 2009, first named Bigender pride.png and since renamed Intersex pride.png. Its first description, read in the file page's history, says the flag 'was created by Natalie Phox in 2009' as a bigendered pride flag; the page's history records that she later edited the description to call it an intersex flag, and the file was renamed in 2022 on that ground. The present description gives the meanings: the gradient for the range of sexes between male and female, the lavender for a combination of male and female traits. Majestic Mess dates the flag 11 August 2010, which conflicts with the upload; the upload's date is used."
+  note "Construction and colors are read from the file's image (300 by 225 PNG, 4:3), which is the designer's upload as re-saved by McZusatz on 10 December 2012 (comment 'png'); her original revision is hidden. Bars at 0, 37.5, 75, 150 and 187.5 pixels; lavender #f1a7fe, white, a band of blue #a0ceef then pink #f4b8de with a blend between pixels 105 and 120. Majestic Mess gives the same three hex values. The 3:4 proportion is the image's."
+  note "This is the earlier intersex flag. Morgan Carpenter's yellow flag with a purple ring, of 2013, is a separate file in this series."
+}
+palette {
+  lavender "#f1a7fe"
+  white "#ffffff"
+  blue "#a0ceef"
+  pink "#f4b8de"
+  blue-to-pink gradient blue pink along=hoist {
+    stops 0.4 0.6
+  }
+}
+proportion hoist=3 fly=4
+
+bars lavender white blue-to-pink white lavender {
+  ratio 1 1 2 1 1
+}

@@ -1,0 +1,24 @@
+// Eight equal bars, 5:3, from a 1154 by 692 copy.
+vexyl 1
+meta {
+  name "Aroace flag, combined aromantic and asexual design"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "aroace"
+  version "combined-2016"
+  source "https://www.deviantart.com/pride-flags/art/Aroace-646132640"
+  note "The DeviantArt post above, 'Aroace' by Pride-Flags and dated 2016-12-06, describes the flag only as 'a combo of the asexual and aromantic pride designs'. The gallery makes combinations on request, but the post does not say who designed this one, and no earlier publication was found. It predates the December 2018 aroace flag (aroace-flag) in the same series."
+  note "The bars, read from the post's preview image (1154 by 692, taken as PNG from DeviantArt's image server), are the aromantic flag's green, light green, white, grey and black followed by grey, white and purple from the asexual flag, all equal: #3da542, #a8d379, #ffffff, #a9a9a9, #000000, #a9a9a9, #ffffff, #660066. The proportion 5:3 is the image's."
+}
+palette {
+  green "#3da542"
+  light-green "#a8d379"
+  white "#ffffff"
+  grey "#a9a9a9"
+  black "#000000"
+  purple "#660066"
+}
+proportion hoist=3 fly=5
+
+bars green light-green white grey black grey white purple

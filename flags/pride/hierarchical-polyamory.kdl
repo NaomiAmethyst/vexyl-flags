@@ -1,0 +1,42 @@
+// 5:3 on a grid of 15 by 9: three columns 5 wide. The image's bar edges are 110 and 220 pixels down in
+// the hoist column, 115 and 225 in the middle and 120 and 230 at the fly, of 330, so the middle
+// column's bars are 23:22:21 and the fly column's 12:11:10.
+vexyl 1
+meta {
+  name "Hierarchical Polyamory Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-12-30"
+  source "https://web.archive.org/web/20220127032708/https://www.deviantart.com/nonmonoprideflags/art/Hierarchical-Polyamory-Pride-Flag-581139230"
+  source "https://web.archive.org/web/20120213104012/http://www.isomedia.com/homes/jene/flag.html"
+  note "NonMonoPrideFlags's DeviantArt post 'Hierarchical Polyamory Pride Flag', as the Wayback Machine held it on 27 January 2022, says: 'This is my pride flag design for Hierarchical Polyamory, or Primary/Secondary Polyamory', and: 'The design is a more unstructured version of the polyamory flag, showing the difference in power between the primary and secondary partners in a hierarchical polyamorous relationship.' The post is dated 30 December 2015 (UTC)."
+  note "What is taken from Jim Evans's polyamory flag (polyamory-pi in this collection) is its three colors, blue, red and black, and its three bars, which the hoist column keeps in Evans's order. The pi isn't used, and the colors are the designer's own shades, not Evans's."
+  note "The post's image, the original file, is a JPEG of 541 by 330 pixels, 1.64:1, as are all this designer's flags of that month, so no deliberate proportion is clear. This file uses the common 5:3. The image is three equal columns, 180 pixels each. The hoist column has blue, red and black bars; the middle red, black and red; the fly black, red and blue. Each column's bars are 5 pixels lower than the one before, as measured above, and that stepping is kept."
+  note "The colors are read from the image's pixels, which are flat: blue #3f47cc, red #ed1b24 and black #000000."
+}
+palette {
+  blue "#3f47cc"
+  red "#ed1b24"
+  black "#000000"
+}
+proportion hoist=9 fly=15
+
+bars blue red black
+
+panel {
+  fly 5
+  hoist 9
+  bars red black red {
+    ratio 23 22 21
+  }
+}
+
+panel {
+  side fly
+  width 5
+  bars black red blue {
+    ratio 12 11 10
+  }
+}

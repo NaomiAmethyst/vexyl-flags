@@ -1,0 +1,26 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Genderflor flag"
+  designer "Admin Kyle (uncommongenders, Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20220320040133/https://beyond-mogai-pride-flags.tumblr.com/post/173441979870/genderflor-a-fluid-gender-that-never-encompasses"
+  source "https://64.media.tumblr.com/9ad31bdb3831cdeb28d36eb60179f990/tumblr_inline_p7r5jl8D5L1vn0uqv_500.png"
+  source "https://www.deviantart.com/pride-flags/art/Genderflor-748394066"
+  note "Defining source: a reblog chain on Beyond MOGAI Pride Flags, posted 30 April 2018 (read at the snapshot above). An anonymous ask defines genderflor as a fluid gender that never encompasses male or female genders; Beyond MOGAI made a first flag from the genderqueer and genderfluid colors; uncommongenders then replied 'not a huge fan of the flag so I made a version based off the genderfaun and genderfae flags! -Admin Kyle', with this image. That reply was read only as quoted in the reblog; its own date is not known, beyond being on or before 30 April 2018, so no date is given. The first, genderqueer-based flag is not written."
+  note "Construction and colors are read from Admin Kyle's image (500 by 300 PNG, read): seven bars of 43 or 42 pixels, so equal, #96c3a4, #c2deae, #f9face, #ffffff, #faf9cd, #fff09b, #fcc688. This is my sampling, not hex the designer gave. The top three are the genderfae flag's greens and cream, and the bottom three the genderfaun flag's cream, yellow and orange, within a unit. The 3:5 proportion is the image's."
+}
+palette {
+  green "#96c3a4"
+  light-green "#c2deae"
+  cream "#f9face"
+  white "#ffffff"
+  ivory "#faf9cd"
+  yellow "#fff09b"
+  orange "#fcc688"
+}
+proportion hoist=3 fly=5
+
+bars green light-green cream white ivory yellow orange

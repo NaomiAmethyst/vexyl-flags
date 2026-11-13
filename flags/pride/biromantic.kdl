@@ -1,0 +1,36 @@
+// 2:1:2 bars on 3:5, lightened outside a heart. Heart: radius 0.986, default spread, at fly 2.5 hoist 0.99.
+vexyl 1
+meta {
+  name "Biromantic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Biromantic-607943792"
+  source "https://web.archive.org/web/20181217215137/https://pride-color-schemes.tumblr.com/post/146744545385/bi"
+  note "No designer's publication was found, and no source names a designer. The earliest publication read is 'Biromantic' by Pride-Flags on DeviantArt, published 9 May 2016 at 21:37 Pacific time (10 May UTC), one of a set of heart versions of orientation flags that account uploaded that night. Its page gives only a definition of bi-. The Tumblr blog pride-color-schemes, run by the same people, lists it on 1 July 2016 under the bisexual flag (Michael Page, 1998), as 'a heart is overlaid on the flag. Outside the heart, the stripes are slightly lighter', with no designer."
+  note "Everything here is read from the Pride-Flags upload's own 5000 by 3000 pixel image: the 3:5 proportion, the bars of 1200, 600 and 1200 pixels (2:1:2), and the colors. Inside the heart the bars are #d70170, #734f95 and #0038a7; outside it they are lighter, #e55aa2, #a48cba and #597dc6. These inner colors are not the bisexual flag's as this collection draws it (#d60270, #9b4f96, #0038a8): the purple in particular is darker."
+  note "The heart is the format's heart shape, an approximation of the image's: it fits the image's heart to within about 2 percent of the flag's area. The image's heart is the same size and place in each flag of the set, centered across the flag, its lobes touching the top edge and its tip the bottom edge. Its radius, 0.986 of a hoist of 3, and its center, 0.99 below the top, were fitted to the image."
+}
+palette {
+  pink "#d70170"
+  purple "#734f95"
+  blue "#0038a7"
+  light-pink "#e55aa2"
+  light-purple "#a48cba"
+  light-blue "#597dc6"
+}
+proportion hoist=3 fly=5
+
+bars light-pink light-purple light-blue {
+  ratio 2 1 2
+}
+
+bars pink purple blue {
+  ratio 2 1 2
+  clip {
+    heart {
+      radius 0.986
+      at fly=2.5 hoist=0.99
+    }
+  }
+}

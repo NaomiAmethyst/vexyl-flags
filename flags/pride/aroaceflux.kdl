@@ -1,0 +1,24 @@
+// Five equal bars, 5:3, from the designer's image (2042 by 1225 pixels).
+vexyl 1
+meta {
+  name "Aroaceflux flag"
+  designer "astraldomination (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-02-29"
+  source "https://web.archive.org/web/20220120153656/https://astraldomination.tumblr.com/post/611326365790322688/an-aroaceflux-design-based-on-toothcitys-aroflux"
+  note "Designer's own Tumblr post, read from the Wayback snapshot above; the page's metadata dates it 2020-02-29. Its whole text is 'an aroaceflux design based on toothcity's aroflux and aceflux redesigns', so it gives no meanings, hex values or proportion, and toothcity's redesigns were not read."
+  note "The colors were read from the post's flag image (the 500 by 300 copy Tumblr serves of a 2042 by 1225 original, fetched from Tumblr's media server): #f8575d, #fe7c85, #ffcde5, #6b8fd5, #3b3f94, in five equal bars of 60 pixels. They equal the values the LGBTQIA Fandom wiki's file page is reported to list (not read here). The proportion 5:3 is the image's."
+  note "Other aroaceflux designs exist, among them one by aroaesflags (December 2018); this file is only astraldomination's."
+}
+palette {
+  red "#f8575d"
+  pink "#fe7c85"
+  light-pink "#ffcde5"
+  blue "#6b8fd5"
+  dark-blue "#3b3f94"
+}
+proportion hoist=3 fly=5
+
+bars red pink light-pink blue dark-blue

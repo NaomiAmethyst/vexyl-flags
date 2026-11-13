@@ -1,0 +1,24 @@
+// Five equal bars on a 2:3 field.
+vexyl 1
+meta {
+  name "Aporagender flag"
+  designer "Lex (mod of Pride Flags For Us, Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2014-06-13"
+  source "https://web.archive.org/web/20160310054400/http://aporagender.tumblr.com/post/88675303724/pride-flags-for-us-a-flag-proposal-for"
+  source "https://web.archive.org/web/2016id_/http://40.media.tumblr.com/38a986dc2efbe94cf442dca76128478b/tumblr_n73uucIKvT1ttq5l9o1_400.png"
+  source "https://www.deviantart.com/pride-flags/art/Aporagender-553625224"
+  note "Defining source: the pride-flags-for-us post 'A flag proposal for Aporagender', signed '-Mod Lex', which I read as quoted in full in aporagender.tumblr.com's reblog dated 13 June 2014 (snapshot above). It gives the meanings: blue and pink at the ends because the gender is 'away' from the stereotyped masculine and feminine, purple for feeling between male and female, yellow for a gender nothing like female, male or both, and for being nonbinary. The original pride-flags-for-us post was not read itself. Pride-Flags on DeviantArt (2015-08-14) credits Lex with the same text."
+  note "Colors are sampled from the post's image (359 by 240 PNG, read): five equal bars of 48 pixels, #f37cca, #e1bdf0, #fff982, #e1bdf0, #7bbbdd. This is my sampling, not hex the designer gave; the Pride-Flags upload has the same values. The 2:3 proportion is the image's (1.50); Pride-Flags draws 3:5."
+}
+palette {
+  pink "#f37cca"
+  lavender "#e1bdf0"
+  yellow "#fff982"
+  blue "#7bbbdd"
+}
+proportion hoist=2 fly=3
+
+bars pink lavender yellow lavender blue

@@ -1,0 +1,24 @@
+// Four equal bars, 5:3, from the designer's 1280 by 768 image.
+vexyl 1
+meta {
+  name "Alloace flag"
+  designer "varioriented-pride (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2019-03-01"
+  source "https://web.archive.org/web/2019/https://varioriented-pride.tumblr.com/post/183138935225/alloromantic-asexual-pride-flag"
+  source "https://web.archive.org/web/2019/https://varioriented-pride.tumblr.com/tagged/alloace"
+  source "https://www.deviantart.com/pride-flags/art/Alloace-1-870194356"
+  note "Designer's own Tumblr post, 'Alloromantic Asexual Pride Flag', read from a 2019 Wayback snapshot of the address above; the page's metadata dates it 2019-03-01. It says the designer based it on arotaro's aroallo flag (alloaro). An edit gives the meanings: purple from the asexual flag, for no sexual attraction and the asexual community; the reds for romance, as opposed to the aromantic greens; white for allo allies, and also relationships and love. It gives no hex values or proportion. Later answers on the blog say there is no official alloace flag, but this was the first and most used one, and that people are welcome to use it."
+  note "The colors were read from the post's image (1280 by 768 PNG, fetched from Tumblr's media server): red #c40000, light red #f96c6c, white #ffffff, purple #800080, four equal bars of 192 pixels. The proportion 5:3 is the image's. The 2021 DeviantArt reupload above has #d50000 and #f85858 for the reds."
+}
+palette {
+  red "#c40000"
+  light-red "#f96c6c"
+  white "#ffffff"
+  purple "#800080"
+}
+proportion hoist=3 fly=5
+
+bars red light-red white purple

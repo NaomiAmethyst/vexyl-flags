@@ -1,0 +1,25 @@
+// Five equal bars on 5:8, the proportion of the designer's 800 by 500 pixel image.
+vexyl 1
+meta {
+  name "Endogenic flag"
+  designer "the anarchy system (aethersys, later anarchysys, on Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20230517183931/https://anarchysys.tumblr.com/post/712894648658673664/aethersys-i-dont-know-if-anyones-ever-made-one"
+  source "https://64.media.tumblr.com/ec7248c4a758e3e7bbf632e42359eb27/tumblr_prvjaxFbkB1xithyso1_1280.png"
+  source "https://web.archive.org/web/20251225092315/https://pluralpedia.org/w/Endogenic"
+  note "The flag was first posted by the Tumblr user aethersys ('i don't know if anyone's ever made one of these before so! here's an endogenic system pride flag!', post 185046423884), which isn't archived. The same system, under its new name anarchysys, reblogged that post to itself on 26 March 2023, per the page's data (Wayback Machine, 17 May 2023), saying it had seen the flag used elsewhere and had deleted its previous name, signed by lysandre. That reblog quotes the original post in full. The original's date isn't known, so no date is given."
+  note "The meanings, from the quoted post: white, understanding, spirituality, removing prejudice; yellow, mind, optimism, criticism; orange, social communication, enthusiasm, determination, endurance; blue, trust, peace, integrity, and a vow that endogenics won't insert themselves into DID/OSDD-exclusive spaces; black, mystery, seriousness, confidence, in recognition of quoigenic systems. The post says the colors were chosen for their meanings rather than their looks."
+  note "The colors are read from the post's first image, 800 by 500 pixels with five stripes of exactly 100: #ffffff, #fffa38, #f9ad59, #5c85ff and #1c1c1c. The 5:8 proportion is the image's. The post gives no hex values. Its second image, the pastel version the post mentions, isn't encoded."
+}
+palette {
+  white "#ffffff"
+  yellow "#fffa38"
+  orange "#f9ad59"
+  blue "#5c85ff"
+  black "#1c1c1c"
+}
+proportion hoist=5 fly=8
+
+bars white yellow orange blue black

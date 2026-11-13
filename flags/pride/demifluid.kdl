@@ -1,0 +1,27 @@
+// Seven equal bars on a 7:10 field; the third and fifth are a gradient across the fly.
+vexyl 1
+meta {
+  name "Demifluid flag"
+  designer "pbjkid (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-02-18"
+  source "https://web.archive.org/web/20150520162452/http://pride-flags-for-us.tumblr.com/post/111369359919/demigenderfluid-or-demifluid-gender-changes"
+  source "https://64.media.tumblr.com/a3bb591216df556a7e1bd0dbcd1913a0/tumblr_njyqtc8knr1u5udwoo1_500.png"
+  note "Defining source: the submission 'demigenderfluid or demifluid - gender changes between demigenders' on pride-flags-for-us, posted 18 February 2015 (read at the snapshot above). Its notes say pbjkid submitted it; that blog was later deactivated. The post gives no meanings, hex or proportion. It has two images: this one, whose pink, yellow and blue bars blend into each other, and a second with the three colors in separate blocks, which is not written."
+  note "Construction and colors are read from the first image (477 by 334 PNG, read). It is the demigender pattern: grey #7f7f7f, light grey #c3c3c3, a gradient, white #ffffff, the gradient again, light grey, grey. The gradient runs #ffa9d0 at the hoist, #fff1a6 at the middle and #a0d9fd at the fly, and is a straight blend between them within 2 units per channel. This is my sampling, not hex the designer gave. The bars are 53, 47, 44, 46, 46, 46 and 52 pixels, which I take as drawing error; they are equal here."
+  note "The 7:10 proportion is rounded from the image (1.43), the same base as Salem's demigirl and demiboy proposals; Pride-Flags draws 3:5."
+}
+palette {
+  grey "#7f7f7f"
+  light-grey "#c3c3c3"
+  white "#ffffff"
+  pink "#ffa9d0"
+  yellow "#fff1a6"
+  blue "#a0d9fd"
+  fluid gradient pink yellow blue
+}
+proportion hoist=7 fly=10
+
+bars grey light-grey fluid white fluid light-grey grey

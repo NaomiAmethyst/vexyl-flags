@@ -1,0 +1,22 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Transmasculine flag, all-blue alternative"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "transmasculine-flag"
+  version "all-blue"
+  source "https://www.deviantart.com/pride-flags/art/Trans-Man-Transmasculine-3-615222579"
+  source "https://lgbtqia.fandom.com/wiki/Transmasculine"
+  note "The designer and first publication were not found. The earliest copy read is 'Trans Man / Transmasculine (3)' by Pride-Flags on DeviantArt, published 2016-06-14 UTC (13 June, Pacific time), which credits no one and gives no meanings. The LGBTQIA+ Wiki (Fandom) shows it as an alternative to the pink-and-blue transmasculine flag."
+  note "Construction and colors are read from that post's image (5000 by 3000 PNG), which is not shown to be the designer's: five bars of 601, 600, 598, 600 and 601 pixels, taken as equal, #00a2e8, #1c0697, #c0f4fe, #1c0697, #00a2e8. The 3:5 proportion is the image's."
+}
+palette {
+  blue "#00a2e8"
+  navy "#1c0697"
+  pale-blue "#c0f4fe"
+}
+proportion hoist=3 fly=5
+
+bars blue navy pale-blue navy blue

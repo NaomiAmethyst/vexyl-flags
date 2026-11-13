@@ -1,0 +1,74 @@
+// The symbol's outer ring has radius 1211 pixels on the 3000-pixel hoist of the image measured,
+// so its drawing (outer radius 388 in a 944.882 box) is set at 3 * 2422 / 776 * 944.882 / 3000
+// = 2.9491 square, centered on a 3:5 field.
+vexyl 1
+meta {
+  name "MOGAI flag"
+  designer "fancyblogurl (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  adapted-from "https://commons.wikimedia.org/wiki/File:MOGAI_Spectrum_Symbol.svg" {
+    author "Kautr"
+    author "Puck04"
+    license "CC-BY-SA-4.0"
+    part "the symbol"
+  }
+  source "https://www.deviantart.com/pride-flags/art/MOGAI-MOGII-564733675"
+  source "https://lgbtqia.fandom.com/wiki/MOGAI"
+  note "The designer's own post was not found. The earliest source read is 'MOGAI / MOGII' by Pride-Flags on DeviantArt, published 2015-10-07 UTC (6 October, Pacific time), which calls it 'the proposed design for everyone that fits under the MOGAI (Marginalized Orientations Genders And Intersex) / MOGII (Marginalized Orientations Gender Identities and Intersex) umbrella' and credits it to a fancyblogurl Tumblr post, number 94306152466. That post is deleted and was not found archived."
+  note "The flag is a white field with a ring of twelve rainbow segments around a ring of twelve grey segments. The proportion and the symbol's size and place are measured from the DeviantArt post's image (5000 by 3000 PNG, not the designer's): the symbol is centered, its outer radius 1211 pixels and its rings' edges at 1211, 909 and 606 pixels from the center, 4:3:2."
+  note "The symbol is the Commons drawing by Kautr and Puck04, with its colors, used unchanged except that its repeated wedge, drawn by reference with use, is written out as a path at each place, since this format doesn't allow use. Its colors agree with the DeviantArt image's to within a few steps, for example #fba23e and #494949 in both."
+}
+palette {
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+field white
+
+charge svg {
+  fly 2.9491
+  hoist 2.9491
+  at center
+  markup #"""
+    <svg version="1.1" width="700" height="700" viewBox="0 0 944.88202 944.88202" xmlns="http://www.w3.org/2000/svg">
+      <clipPath id="m1">
+        <path d="m0-388c-214.29 0-388 173.71-388 388s173.71 388 388 388c214.29 0 388-173.71 388-388s-173.71-388-388-388zm0 679c-160.72 0-291-130.28-291-291s130.28-291 291-291 291 130.28 291 291-130.28 291-291 291z"/>
+      </clipPath>
+      <clipPath id="m2">
+        <path d="m0-291c-160.72 0-291 130.28-291 291 0 160.72 130.28 291 291 291s291-130.28 291-291-130.28-291-291-291zm0 485c-107.14 0-194-86.857-194-194 0-107.14 86.856-194 194-194s194 86.857 194 194c0 107.14-86.856 194-194 194z"/>
+      </clipPath>
+      <g transform="translate(472.44101 472.44101)">
+        <g id="col" clip-path="url(#m1)">
+          <path d="m0,0v-400h230.942z" fill="#BC57B4"/>
+          <path d="m0,0v-400h230.942z" fill="#754EFB" transform="rotate(30)"/>
+          <path d="m0,0v-400h230.942z" fill="#5680E7" transform="rotate(60)"/>
+          <path d="m0,0v-400h230.942z" fill="#30DDEF" transform="rotate(90)"/>
+          <path d="m0,0v-400h230.942z" fill="#58D9BA" transform="rotate(120)"/>
+          <path d="m0,0v-400h230.942z" fill="#3CFE57" transform="rotate(150)"/>
+          <path d="m0,0v-400h230.942z" fill="#9FEE43" transform="rotate(180)"/>
+          <path d="m0,0v-400h230.942z" fill="#FFF729" transform="rotate(210)"/>
+          <path d="m0,0v-400h230.942z" fill="#FECE33" transform="rotate(240)"/>
+          <path d="m0,0v-400h230.942z" fill="#FBA23E" transform="rotate(270)"/>
+          <path d="m0,0v-400h230.942z" fill="#F87B4A" transform="rotate(300)"/>
+          <path d="m0,0v-400h230.942z" fill="#F65156" transform="rotate(330)"/>
+        </g>
+        <g id="gry" clip-path="url(#m2)">
+          <path d="m0,0v-400h230.942z" fill="#242424"/>
+          <path d="m0,0v-400h230.942z" fill="#494949" transform="rotate(30)"/>
+          <path d="m0,0v-400h230.942z" fill="#6E6E6E" transform="rotate(60)"/>
+          <path d="m0,0v-400h230.942z" fill="#929292" transform="rotate(90)"/>
+          <path d="m0,0v-400h230.942z" fill="#B6B6B6" transform="rotate(120)"/>
+          <path d="m0,0v-400h230.942z" fill="#DBDBDB" transform="rotate(150)"/>
+          <path d="m0,0v-400h230.942z" fill="#B6B6B6" transform="rotate(180)"/>
+          <path d="m0,0v-400h230.942z" fill="#929292" transform="rotate(210)"/>
+          <path d="m0,0v-400h230.942z" fill="#6E6E6E" transform="rotate(240)"/>
+          <path d="m0,0v-400h230.942z" fill="#494949" transform="rotate(270)"/>
+          <path d="m0,0v-400h230.942z" fill="#242424" transform="rotate(300)"/>
+          <path d="m0,0v-400h230.942z" fill="#000000" transform="rotate(330)"/>
+        </g>
+      </g>
+    </svg>
+
+    """#
+}

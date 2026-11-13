@@ -1,0 +1,36 @@
+// Grid 8 by 12 on the designer's 853 by 1280 pixel image, 2:3; one unit is 106.6 pixels.
+// Bars 3:2:3. The ring is centered, outer radius 3.03 and inner 2.31: the drawn ring's outer
+// radii are 326.5 across and 319.5 up, its inner 248.5 and 243.5, averaged and divided by 106.6.
+vexyl 1
+meta {
+  name "Intergender flag"
+  designer "interpunked (Tumblr)"
+  designer "cripdeaf (Cey, Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-01-17"
+  series "intergender-flag"
+  version "2020"
+  source "https://web.archive.org/web/20220127050834/https://interpunked.tumblr.com/post/190315338222/intergender-flag-updated-design-117-this-flag-was"
+  source "https://lgbtqia.fandom.com/wiki/Intergender"
+  note "Defining source: the post 'Intergender flag updated design 1/17' by interpunked, dated 17 January 2020, read at the Wayback Machine snapshot above. It says the flag 'was designed primarily by me and @cripdeaf (Cey)', that the colors were tweaked to be stronger and bolder for this version, which the poster drew from scratch, and that home flag makers may use whatever colors they have. It says the colors are the intersex flag's, 'Royal gold & purple', with a white circle for 'our wholeness as ourselves, without intrinsic need for modification', and that only intersex people should use it."
+  note "Construction and colors are read from the post's image (1280 by 853 PNG, about 3:2): bars of 320, 213 and 320 pixels, which is 3:2:3, purple #900dc2 and yellow #ffe54f, and a white ring. The drawn ring sits about 13 pixels toward the fly and is slightly wider than tall; it is drawn here centered and round, with the average of its measured radii. This is my sampling, not hex the designer gave. The LGBTQIA+ Wiki (Fandom) gives the purple as #910DC1."
+  note "Earlier intergender flags are not written: two pastel seven-stripe flags made by mod D of the Tumblr blog actuallyintersex on 20 November 2014, after Natalie Phox's intersex flag, and the earlier version of this design that the 2020 post updates, which was not found."
+}
+palette {
+  purple "#900dc2"
+  yellow "#ffe54f"
+  white "#ffffff"
+}
+proportion hoist=8 fly=12
+
+bars purple yellow purple {
+  ratio 3 2 3
+}
+
+charge ring white {
+  radius 3.03
+  inner 2.31
+  at center
+}

@@ -1,0 +1,23 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Demigender flag"
+  designer "Salem X (Tumblr: transrants)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Deminonbinary-1-543925428"
+  source "https://web.archive.org/web/20220927082258/https://majesticmess.com/2018/12/16/interview-creator-of-the-agender-flag/"
+  source "https://web.archive.org/web/20160617061852/http://batty.co.vu/tagged/demigender"
+  note "Also called the deminonbinary flag. The designer's own post was not found. The Majestic Mess interview with Salem (read) asks what led them to create 'the agender, demiboy, demigirl ... and deminonbinary flags' in 2014, and Salem answers without disputing it. The earliest copy found is 'Deminonbinary (1)' by Pride-Flags on DeviantArt, published 2015-07-04, which says 'Flag designed by transrants' but links the demigirl and demiguy post, which does not show this flag. Salem's blog's demigender and nonbinary-flag tags, as archived in June 2016, do not show it either. No date is given, because none was verified."
+  note "Everything here is read from the Pride-Flags reupload (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, grey #7f7f7f, light grey #c3c3c3, yellow #fbff74, white #ffffff, yellow, light grey, grey. The greys equal those of Salem's demigirl and demiboy images. The 3:5 proportion is the image's. None of these values is confirmed as the designer's."
+}
+palette {
+  grey "#7f7f7f"
+  light-grey "#c3c3c3"
+  yellow "#fbff74"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars grey light-grey yellow white yellow light-grey grey

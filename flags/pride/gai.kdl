@@ -1,0 +1,27 @@
+// Seven equal bars, 3:5.
+vexyl 1
+meta {
+  name "Gai flag"
+  designer "opalescentorbisian (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-12"
+  source "https://web.archive.org/web/20220120152930/https://nblw-nonsense.tumblr.com/post/168894169724/opalescentorbisian-i-designed-a-gai-pride-flag"
+  source "https://64.media.tumblr.com/8881943c412fe2128982f7e6af491e1d/tumblr_p1h3mjCnuv1wvizgho2_1280.png"
+  source "https://lgbtqia.wiki/wiki/Gai"
+  note "The designer's post, 'I designed a gai pride flag!', survives in a reblog on the Tumblr blog nblw-nonsense, published 24 December 2017 per the page's data (Wayback Machine, 20 January 2022). The designer's blog is deactivated, so the flag was published by that date. The post says it is for any non-binary person who feels their attraction is gay in a non-binary way, not straight but not same-gender attraction. Its meanings: orange, solarian non-binary people; yellow, non-binary people in general; green, stellarian non-binary people; blue, multi-attracted non-binary people who feel gai towards more than one gender; purple, lunarian non-binary people. The flag has seven stripes, and the post doesn't say which stripes the five colors name."
+  note "The colors are read from the post's image, a 328 by 176 pixel PNG, the size Tumblr's media server gives, at the middle of each stripe: #f9c448, #ffdf80, #fff19f, #a4ffb1, #81c9d2, #8196ff and #a266ad. Its stripes are 23 to 26 pixels, so this file draws seven equal ones. The image's 328:176, 1.86, isn't a common proportion, so this file uses the common 3:5."
+}
+palette {
+  orange "#f9c448"
+  light-orange "#ffdf80"
+  yellow "#fff19f"
+  green "#a4ffb1"
+  teal "#81c9d2"
+  blue "#8196ff"
+  purple "#a266ad"
+}
+proportion hoist=3 fly=5
+
+bars orange light-orange yellow green teal blue purple

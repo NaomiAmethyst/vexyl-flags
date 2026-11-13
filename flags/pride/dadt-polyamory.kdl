@@ -1,0 +1,35 @@
+// 5:3, three equal bars of 1. The hoist and fly quarters of a diagonal division are white, and the
+// saltire is 7.5 pixels of the image's 330-pixel height, 0.068.
+vexyl 1
+meta {
+  name "DADT Polyamory Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-12-30"
+  source "https://web.archive.org/web/20230714103912/https://www.deviantart.com/nonmonoprideflags/art/DADT-Polyamory-Pride-Flag-581141708"
+  source "https://web.archive.org/web/20120213104012/http://www.isomedia.com/homes/jene/flag.html"
+  note "NonMonoPrideFlags's DeviantArt post 'DADT Polyamory Pride Flag', as the Wayback Machine held it on 14 July 2023, says: 'This is my pride flag design for Don't Ask, Don't Tell Polyamory', in which a partnered person may have other relationships on condition that their partner knows nothing about them and meets none of those people. It gives no color meanings, measurements or color values. The post is dated 30 December 2015 (UTC)."
+  note "The top and bottom quarters show the three colors of Jim Evans's polyamory flag (polyamory-pi in this collection), blue, red and black, as his three equal bars, in the designer's own shades. The post doesn't say so. The pi isn't used."
+  note "The post's image, the original file, is a JPEG of 541 by 330 pixels, 1.64:1, as are all this designer's flags of that month, so no deliberate proportion is clear. This file uses the common 5:3. In the image the bars are 109 or 110 pixels each, the white meets them along the diagonals, and the yellow saltire runs corner to corner on those lines, about 7.5 pixels wide."
+  note "The colors are read from the image's pixels, which are flat in the bars and the white: blue #3f47cc, red #ed1b24, black #000000 and white #ffffff. The saltire's is the median of its pixels, #fdf103."
+}
+palette {
+  blue "#3f47cc"
+  red "#ed1b24"
+  black "#000000"
+  white "#ffffff"
+  yellow "#fdf103"
+}
+proportion hoist=3 fly=5
+
+bars blue red black
+
+quarters none white none white {
+  diagonal
+}
+
+saltire yellow {
+  width 0.068
+}

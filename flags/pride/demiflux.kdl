@@ -1,0 +1,21 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Demiflux flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Demiflux-553624930"
+  note "No designer or first publication was found. The earliest copy found is 'Demiflux' by Pride-Flags on DeviantArt, published 2015-08-22, an aggregator account. Its only credit link points to the pride-flags-for-us demifluid post of February 2015, which shows a different flag, so it is not this flag's source."
+  note "Everything here is read from that reupload (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, grey #7f7f7f, light grey #dadada, pink #ffb5b7, yellow #f3f691, blue #99d9ea, light grey, grey. The 3:5 proportion is the image's. None of these values is the designer's."
+}
+palette {
+  grey "#7f7f7f"
+  light-grey "#dadada"
+  pink "#ffb5b7"
+  yellow "#f3f691"
+  blue "#99d9ea"
+}
+proportion hoist=3 fly=5
+
+bars grey light-grey pink yellow blue light-grey grey

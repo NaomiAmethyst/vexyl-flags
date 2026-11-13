@@ -1,0 +1,28 @@
+// Five equal bars, 3:2, from the designer's 360 by 240 image.
+vexyl 1
+meta {
+  name "Aromantic flag, yellow-stripe version"
+  designer "Cameron Whimsy"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2014-02"
+  until "2014-11"
+  series "aromantic"
+  version "yellow-stripe-2014"
+  source "https://web.archive.org/web/20150303203937/http://cameronwhimsy.tumblr.com/post/75868343112/ive-been-reading-up-on-a-lot-of-the-discussion"
+  source "https://crwflags.com/fotw/flags/qq-arom.html"
+  note "Designer's own Tumblr post, read from the Wayback snapshot above (March 2015, where it shows as 'Posted 1 year ago'). The designer offers a flag option that includes grey, demi, lith and wtfromantics as well as the spectrum, credits the community for the green and yellow scheme, and later added that 'the more accepted flag is now my redesign with the white stripe'. FOTW dates the post 7 February 2014; the page itself shows no date, so only the month is given. The redesign, of November 2014, is aromantic-pride-flag."
+  note "The post has two images. The second labels the bars: aromantic, the aro spectrum, lithromantic, grey-aro and demiromantic, wtfromantic. The colors here are read from the first, the flag itself (360 by 240 PNG, fetched from Tumblr's media server): #3da642, #a8d379, #fffc78, #a9a9a9, #000000, five equal bars of 48 pixels. Its file name marks it as a replacement of the image first posted, and when it was replaced is not known. The labeled image uses #339933, #99cc66, #ffff66, #999999 and #000000 instead."
+  note "The proportion 3:2 is the image's, as for the redesign. FOTW also records an older four-bar green, yellow, orange and black aromantic flag of unknown origin, not written here."
+}
+palette {
+  green "#3da642"
+  light-green "#a8d379"
+  yellow "#fffc78"
+  grey "#a9a9a9"
+  black "#000000"
+}
+proportion hoist=10 fly=15
+
+bars green light-green yellow grey black

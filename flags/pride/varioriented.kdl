@@ -1,0 +1,31 @@
+// Bars 1:2:1, 5:3, from a 1154 by 692 copy (28.83 pixels to a unit). A black disc of
+// radius 13 centered 4.5 from the hoist on the middle line, fitted to the copy's edge
+// (center 129.5 pixels in, radius 374.7; derived).
+vexyl 1
+meta {
+  name "Varioriented flag"
+  designer "Fy, beyond-mogai-pride-flags (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-01-28"
+  source "https://www.deviantart.com/pride-flags/art/Varioriented-869556678"
+  note "The flag's first publication was not read. The DeviantArt reupload above, by Pride-Flags (2021-02-14), says that Fy via the Tumblr blog beyond-mogai-pride-flags posted the flag on January 28, 2018, and that there is no known meaning for the flag. That blog's perioriented flag, posted the same day, has the same layout and was read (perioriented); a 2019 reblog on the blog also credits it with the varioriented flag. The varioriented post itself was not found on the Wayback Machine."
+  note "A different varioriented flag, in blue, yellow and green, is credited by wikis to another Tumblr user; it is not this file."
+  note "Everything numeric was read from the DeviantArt post's preview image (1154 by 692, taken as PNG from DeviantArt's image server): purple #880066 bars of 173 pixels around a light-purple #d8a7d8 bar of 346, and a black #000000 segment of a disc at the hoist. A circle fitted to 18 points on its edge has its center 129.5 pixels from the hoist on the middle line and a radius of 374.7 pixels, within half a pixel at every point. The proportion 5:3 is the image's."
+}
+palette {
+  purple "#880066"
+  light-purple "#d8a7d8"
+  black "#000000"
+}
+proportion hoist=24 fly=40
+
+bars purple light-purple purple {
+  ratio 1 2 1
+}
+
+charge disc black {
+  at fly=4.5 hoist=12
+  radius 13
+}

@@ -1,0 +1,21 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Trigender flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Trigender-1-543983082"
+  source "https://web.archive.org/web/20260102084908/https://pride-color-schemes.tumblr.com/post/148276773510/trigender"
+  source "https://lgbtqia.fandom.com/wiki/Trigender"
+  note "The designer and first publication were not found. The earliest copy read is 'Trigender (1)' by Pride-Flags on DeviantArt, published 2015-07-04, which credits no one. The same account's Tumblr, pride-color-schemes, reposted it on 1 August 2016 UTC (31 July, by the blog's date), describing it as pink, purple, green, purple, pink; that post's credit 'Designed by: Anonymous' may refer to it or to a second, three-stripe design below it. Neither post gives meanings, and the LGBTQIA+ Wiki (Fandom) calls them unknown."
+  note "Construction and colors are read from the DeviantArt post's image (5000 by 3000 PNG), which is not shown to be the designer's: five bars of 601, 600, 598, 600 and 601 pixels, taken as equal, #ff95c5, #9581ff, #67d966, #9581ff, #ff95c5. The 3:5 proportion is the image's."
+}
+palette {
+  pink "#ff95c5"
+  purple "#9581ff"
+  green "#67d966"
+}
+proportion hoist=3 fly=5
+
+bars pink purple green purple pink

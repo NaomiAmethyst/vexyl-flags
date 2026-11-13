@@ -1,0 +1,30 @@
+// Five equal vertical bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Median system flag"
+  designer "extranth (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "The designer's post says: 'Feel free to use or edit these however you'd like to, so long as you credit me!'"
+  date "2021-04-15"
+  series "median-system-flag"
+  version "vertical"
+  source "https://web.archive.org/web/20220505023813/https://extranth.tumblr.com/post/648534878091116545/median-system-flag-i-wanted-to-make-a-median"
+  source "https://pluralpedia.org/w/Median"
+  note "Defining source: the post 'Median system flag' by extranth, dated 15 April 2021, read at the Wayback Machine snapshot above. It shows several versions 'with varying levels of complexity'; this is the first and simplest, with vertical stripes. It gives the meanings: blue for solidarity and support for other members of the plural community, purple for systems with both plural and median aspects, orange for median systems that come from a condition or disorder, yellow for the median spectrum, green for self-love and respect for one's own experiences."
+  note "Construction and colors are read from the post's first image (1280 by 768 PNG, 5:3), archived on 12 October 2021: five vertical bars of 267, 252, 246, 257 and 250 pixels, taken as equal, #5145a3, #ad77c6, #f6c289, #ffebb9, #5f977e from the hoist. This is my sampling, not hex the designer gave."
+  note "The post's other versions are not written here: the same stripes horizontal, and three with the plural spiral, the vertical and horizontal flags with it at the center and a vertical one with blue, purple, orange, purple, blue and the spiral on a yellow disc."
+}
+palette {
+  blue "#5145a3"
+  purple "#ad77c6"
+  orange "#f6c289"
+  yellow "#ffebb9"
+  green "#5f977e"
+}
+proportion hoist=3 fly=5
+
+bars blue purple orange yellow green {
+  along hoist
+}

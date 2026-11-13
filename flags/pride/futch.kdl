@@ -1,0 +1,28 @@
+// Seven equal bars, 3:5.
+vexyl 1
+meta {
+  name "Futch flag"
+  designer "spencerhastings (Tumblr, later wellick)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-11-30"
+  source "https://web.archive.org/web/20230221223835/https://wellick.tumblr.com/post/168028860186/noodle-an-idea-for-a-femme-flag-i-saw-some"
+  source "https://64.media.tumblr.com/367211a1f275766703ec0248804da8ef/tumblr_inline_p07jcoSHmJ1u54di3_500.png"
+  source "https://lgbtqia.wiki/wiki/Futch"
+  note "The Tumblr user spencerhastings (later wellick) reblogged noodle's femme flag post, adding 'i overlayed the two of them to make a futch flag as well! feel free to use!' and the flag image. The reblog was published on 30 November 2017 at 01:41 UTC per the page's data (Wayback Machine, 21 February 2023). The two flags are the butch flag and the femme flag."
+  note "The colors are read from the reblog's image, a 500 by 276 pixel PNG from Tumblr's media server, at the middle of each stripe: #b62a58, #ca6770, #e29096, #fffdf6, #f3c6b7, #e79064 and #a14e4a. They are the blend the designer's overlay produced, not values the designer stated."
+  note "The image is 500 by 276 pixels, 1.81, which isn't a common flag proportion, so this file uses the common 3:5. Its seven stripes are close to equal, about 35 to 42 pixels each."
+}
+palette {
+  raspberry "#b62a58"
+  rose "#ca6770"
+  pink "#e29096"
+  white "#fffdf6"
+  peach "#f3c6b7"
+  orange "#e79064"
+  brown "#a14e4a"
+}
+proportion hoist=3 fly=5
+
+bars raspberry rose pink white peach orange brown

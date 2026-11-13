@@ -1,0 +1,33 @@
+// 5:3 on a grid of 20 by 12: three equal bars of 4, and a middle column 6 wide of two equal bars of 6.
+// The image's column runs from 448 to 832 pixels of 1280, which is 7 and 13 of 20.
+vexyl 1
+meta {
+  name "Polyamorish Pride Flag"
+  designer "beyond-mogai-pride-flags (Tumblr), signed 'Ap'"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2019-07-26"
+  source "https://web.archive.org/web/20220120235502/https://beyond-mogai-pride-flags.tumblr.com/post/186569055295/polyamorish-pride-flag"
+  source "https://web.archive.org/web/20210630202110/https://www.deviantart.com/nonmonoprideflags/art/Monogamish-Pride-Flag-575041387"
+  note "The beyond-mogai-pride-flags Tumblr post 'Polyamorish Pride Flag', as the Wayback Machine held it on 20 January 2022, posted on 26 July 2019 and signed '~ Ap', defines 'Polygamish (polyamourish or polygamorish): a partnership that is mostly polyamorous, but with occasional exceptions', and says 'Based on monogamish flag'. It gives no color meanings, measurements or color values."
+  note "It turns NonMonoPrideFlags's monogamish flag inside out: that flag has grey over white with a middle column of blue, red and black; this has blue, black and red bars with a middle column of grey over white. Its colors and column width are its own, not the monogamish flag's, and its bars aren't in the polyamory flag's order."
+  note "The post's image is a PNG of 1280 by 768 pixels, 5:3, which this file uses. It draws three equal bars of 256 pixels, and a middle column 384 pixels wide of two equal bars of 384."
+  note "The colors are the image's exact pixel values: blue #4848c2, black #1e1e1e, red #c14a4a, grey #7f7f7f and white #ffffff. The image is Tumblr's copy at its largest size, which may have been resized from the upload."
+}
+palette {
+  blue "#4848c2"
+  black "#1e1e1e"
+  red "#c14a4a"
+  grey "#7f7f7f"
+  white "#ffffff"
+}
+proportion hoist=12 fly=20
+
+bars blue black red
+
+panel {
+  fly 6
+  hoist 12
+  bars grey white
+}

@@ -1,0 +1,27 @@
+// Six equal bars, 2:3.
+vexyl 1
+meta {
+  name "Waria flag"
+  designer "WiiFyneLM"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2021-06-12"
+  design-rights "The designer's Pixilart page marks the image 'creative commons: CC0'. This file's license covers the encoding."
+  source "https://web.archive.org/web/20220622235538/https://www.pixilart.com/art/waria-pride-flag-d75858035d6d8a4"
+  source "https://art.pixilart.com/d75858035d6d8a4.png"
+  source "https://lgbtqia.fandom.com/wiki/Waria"
+  note "The designer, WiiFyneLM, published 'Waria Pride Flag' on Pixilart on 12 June 2021, per the page's data, saying that waria, one of the many genders in their culture, didn't have a pride flag. The meanings are from that page's description (Wayback Machine, 22 June 2022): red, blood and courage, as on the Indonesian flag; black, lives lost to STIs after waria were thrown onto the street and abandoned by their families; pink, femininity; gold, preciousness, and its use in Indonesian jewelry; brown, how long the gender has been part of Indonesian culture, before colonization and Islamization; white, purity and spirit, as on the Indonesian flag."
+  note "The colors are read from the designer's image, a 2000 by 1320 pixel PNG with six stripes of exactly 220 pixels: #ce1127, #000000, #fdafc5, #fbc02d, #613813 and #ffffff. The page gives no hex values. The image's 2000:1320, 1.515, isn't a common proportion; this file uses the nearest common one, 2:3."
+}
+palette {
+  red "#ce1127"
+  black "#000000"
+  pink "#fdafc5"
+  gold "#fbc02d"
+  brown "#613813"
+  white "#ffffff"
+}
+proportion hoist=2 fly=3
+
+bars red black pink gold brown white

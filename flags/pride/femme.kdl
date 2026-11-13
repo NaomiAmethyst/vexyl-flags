@@ -1,0 +1,30 @@
+// Seven equal bars on 2:3, the proportion of the designer's 1200 by 800 pixel image.
+vexyl 1
+meta {
+  name "Femme flag"
+  designer "noodle (Tumblr, later noodlemoved)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-11"
+  source "https://web.archive.org/web/20220622041323/https://noodlemoved.tumblr.com/post/168070202366/an-idea-for-a-femme-flag-i-saw-some-discussions"
+  source "https://web.archive.org/web/20230221223835/https://wellick.tumblr.com/post/168028860186/noodle-an-idea-for-a-femme-flag-i-saw-some"
+  source "https://64.media.tumblr.com/594519eb2c45c3fd9da8dc57ef4fc4dd/tumblr_p07j8lTzny1s0jmqwo1_1280.png"
+  source "https://lgbtqia.fandom.com/wiki/Femme"
+  note "The Tumblr user noodle posted 'An idea for a femme flag', saying purple was chosen to match the vibrant orange of the butch flag, so that together they are like a sunset, and that the flag is not for transmisogynists, transphobes or TERFs. The original post on noodle.tumblr.com (post 168028780536) isn't archived. Its text and images survive in two reblogs: wellick's (then spencerhastings), published 30 November 2017 at 01:41 UTC per the page's data, and noodlemoved's, dated 1 December 2017, which adds that purple is also one color off from the pinks and red of the original lesbian flag. The flag was published by 30 November 2017 UTC, so the date is the month."
+  note "The colors are read from the post's flag image, a 1200 by 800 pixel PNG (tumblr_p07j8lTzny1s0jmqwo1_1280.png, from Tumblr's media server), at the middle of each stripe: #8d25ac, #a359bb, #c384d7, #ffffff, #e7bfe8, #cf72c2 and #a12b96. The post gives no hex values or meanings."
+  note "The 2:3 proportion is the image's. Its stripes measure about 115, 115, 115, 112, 115, 120 and 106 pixels at the middle column; this file draws seven equal ones."
+  note "The post's second image shows this flag beside the butch flag (butch). The futch flag combines the two."
+}
+palette {
+  purple "#8d25ac"
+  orchid "#a359bb"
+  lilac "#c384d7"
+  white "#ffffff"
+  pale-lilac "#e7bfe8"
+  pink "#cf72c2"
+  magenta "#a12b96"
+}
+proportion hoist=2 fly=3
+
+bars purple orchid lilac white pale-lilac pink magenta

@@ -1,0 +1,30 @@
+// Seven equal bars, 3:5.
+vexyl 1
+meta {
+  name "Butch flag"
+  designer "Mod Q of the Tumblr blog butch positivity (butchspace)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-06-27"
+  source "https://web.archive.org/web/20190607105836/https://butchspace.tumblr.com/post/162316889795/a-new-butch-flag"
+  source "https://web.archive.org/web/20211017075347/https://butchspace.tumblr.com/post/162452543535/based-off-of-princechaotics-suggestions-and-my"
+  source "https://lgbtqia.fandom.com/wiki/Butch"
+  note "The designer's post 'A new butch flag' on the Tumblr blog butch positivity (butchspace), tagged 'mod q' and dated 27 June 2017 in the page's data (Wayback Machine, 7 June 2019), shows the flag. It says the mod made their own flag after drama with the creator of an earlier green butch flag, and that it matches the blog's theme and is 'warm and nice like butches'."
+  note "The meanings are in the blog's post of 30 June 2017 (Wayback Machine, 17 October 2021), written from @princechaotic's suggestions, top to bottom: red, passion and sexuality; red orange, courage; light orange, joy; white, renewal; beige, chivalry; orange, warmth; brown, honesty. Neither post gives hex values or a proportion."
+  note "The colors are read from the first post's image, a 613 by 345 pixel PNG (tumblr_os7h2dUeAb1w4ekomo1_640.png, raw copy from the Wayback Machine), at the middle of each stripe: #d62c00, #f07528, #ff9b57, #fffcee, #ffcd88, #ffad09 and #a16f00. The 'white' is a warm off-white."
+  note "The image's stripes, at its middle column, are 42, 50.5, 49, 50, 49, 52 and 52.5 pixels: the top one is short, which suggests the image was cropped, so neither its proportion, 613:345, nor its unequal stripes look deliberate. This file draws seven equal stripes on the common 3:5."
+  note "The femme and futch flags were made to pair with this one."
+}
+palette {
+  red "#d62c00"
+  red-orange "#f07528"
+  light-orange "#ff9b57"
+  white "#fffcee"
+  beige "#ffcd88"
+  orange "#ffad09"
+  brown "#a16f00"
+}
+proportion hoist=3 fly=5
+
+bars red red-orange light-orange white beige orange brown

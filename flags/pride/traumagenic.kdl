@@ -1,0 +1,32 @@
+// Seven equal bars on 1:2, the proportion of the designer's 2800 by 1400 pixel image.
+// The middle bar is a gradient along the fly, from the edge color at both ends to the center color.
+vexyl 1
+meta {
+  name "Traumagenic flag"
+  designer "Selenelion Aberration"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "traumagenic-flag"
+  version "normal"
+  source "https://selenated.com/flags/traumagenic"
+  source "https://cdn.selenated.com/img/f831.png"
+  source "https://web.archive.org/web/20251227023828/https://pluralpedia.org/w/Traumagenic"
+  note "The designer's own flag page, on The Aberration's site selenated.com, read on 13 November 2026, defines traumagenic as a system that formed due to trauma, not exclusive to systems with DID or OSDD. It gives the meanings: gold, the pursuit of recovery and health; middle yellow, recognition of traumagenic systems without DID or OSDD; light yellow, acceptance of traumagenics in general; middle stripe, the diversity of the traumagenic experience and community; light blue, acceptance that we are more than what made us; middle blue, recognition of our systemmates as people; blue, the pursuit of cooperation between all members. Pluralpedia credits the flag to Selenelion Aberration. The page isn't dated, and no date is given."
+  note "The page describes this 'normal' version as seven stripes, three shades of yellow darkening toward the top and three of blue darkening toward the bottom, with a middle stripe that is 'a center-meeting gradient of blue and yellow'. The colors are read from its image, 2800 by 1400 pixels with stripes of exactly 200: #ffdc64, #ffee83, #ffff9b, then the gradient, then #b2c2ff, #8a95ff and #6d68ff. The gradient changes only along the fly, from #d3d3fd at both edges to #f8f8c6 at the center, evenly, with slight dithering. The page gives no hex values."
+  note "The page also has a simplified version, five stripes with white in the middle, which isn't encoded here."
+}
+palette {
+  gold "#ffdc64"
+  middle-yellow "#ffee83"
+  light-yellow "#ffff9b"
+  edge "#d3d3fd"
+  center "#f8f8c6"
+  light-blue "#b2c2ff"
+  middle-blue "#8a95ff"
+  blue "#6d68ff"
+  middle gradient edge center edge
+}
+proportion hoist=1 fly=2
+
+bars gold middle-yellow light-yellow middle light-blue middle-blue blue

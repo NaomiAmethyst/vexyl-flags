@@ -1,0 +1,37 @@
+// 5:3, five equal bars of 0.6. The image is 330 pixels high, so a unit is 110 pixels, and the T is
+// placed from the image's center (270.5, 165 pixels), which is 2.5 and 1.5 here. The strokes are 0.04.
+vexyl 1
+meta {
+  name "T Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-12-27"
+  source "https://web.archive.org/web/20220813051805/https://www.deviantart.com/nonmonoprideflags/art/T-Pride-Flag-580461015"
+  note "NonMonoPrideFlags's DeviantArt post 'T Pride Flag', as the Wayback Machine held it on 13 August 2022, says: 'This is my pride flag design for T relationships', three people where the third person's involvement requires the other two to date. It gives the colors' meanings, red for passion, grey for stability and purple for sensuality, the same as the designer's V flag, and no measurements or color values. The post is dated 27 December 2015 (UTC)."
+  note "The post's image, the original file, is a JPEG of 541 by 330 pixels, 1.64:1, as are all this designer's flags of that month, so no deliberate proportion is clear. This file uses the common 5:3. The image draws five equal bars, of 62 to 66 pixels each."
+  note "The colors are read from the image's pixels, which are flat in the bars: purple #c071c0, red #ef444c and grey #acacac. The T is a thin line, which the JPEG blurs, so its color is the median of its pixels, #9cd8e8."
+  note "The T is an approximation of the designer's hand-drawn letter, built from two straight strokes. The crossbar runs from 181 to 343 pixels across at 94 down, and the stem from there to 242 down, at 264.5 across, as the image has them. The image's strokes are 4 and 5 pixels, here both 0.04 (4.4 pixels). The designer's crossbar tilts very slightly and its stem's foot is rounded."
+}
+palette {
+  purple "#c071c0"
+  red "#ef444c"
+  grey "#acacac"
+  blue "#9cd8e8"
+}
+proportion hoist=3 fly=5
+
+bars purple red grey purple red
+
+charge rect blue {
+  at fly=2.423 hoist=0.855
+  fly 1.473
+  hoist 0.04
+}
+
+charge rect blue {
+  at fly=2.445 hoist=1.53
+  fly 0.04
+  hoist 1.35
+}

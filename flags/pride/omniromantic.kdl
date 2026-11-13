@@ -1,0 +1,37 @@
+// Five equal bars on 3:5, lightened outside a heart. Heart: radius 0.986, default spread, at fly 2.5 hoist 0.99.
+vexyl 1
+meta {
+  name "Omniromantic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Omniromantic-1-607944160"
+  source "https://web.archive.org/web/20181217214802/https://pride-color-schemes.tumblr.com/tagged/omniromantic"
+  note "No designer's publication was found, and no source names a designer of the heart version. The earliest publication read is 'Omniromantic (1)' by Pride-Flags on DeviantArt, published 9 May 2016 at 19:27 Pacific time, one of a set of heart versions of orientation flags that account uploaded that night; its page gives only a definition of omni-. The Tumblr blog pride-color-schemes, run by the same people, shows it on 4 July 2016 under the omnisexual flag, credited there to @pastelmemer, as 'a large heart is overlaid on the flag. Outside the heart, the colors are slightly lighter'."
+  note "Everything here is read from the upload's own 5000 by 3000 pixel image: the 3:5 proportion, five equal bars of 600 pixels, and the colors. Inside the heart the bars are #ff9bcd, #ff53be, #260046, #665eff and #8ca6ff, the omnisexual flag's colors exactly as this collection draws them. Outside it they are lighter: #ffc8e4, #ffa1db, #887399, #aba7ff and #c0ceff."
+  note "The heart is the format's heart shape, an approximation of the image's drawing, which has slightly curved sides and a deeper notch. Its radius, 0.986 of a hoist of 3, and its center, 0.99 below the top, were fitted to the hearts in this set of images, which are all the same size and place: centered across the flag, the lobes touching the top edge and the tip the bottom edge."
+}
+palette {
+  light-pink "#ff9bcd"
+  pink "#ff53be"
+  deep-violet "#260046"
+  blue "#665eff"
+  light-blue "#8ca6ff"
+  pale-light-pink "#ffc8e4"
+  pale-pink "#ffa1db"
+  pale-violet "#887399"
+  pale-blue "#aba7ff"
+  pale-light-blue "#c0ceff"
+}
+proportion hoist=3 fly=5
+
+bars pale-light-pink pale-pink pale-violet pale-blue pale-light-blue
+
+bars light-pink pink deep-violet blue light-blue {
+  clip {
+    heart {
+      radius 0.986
+      at fly=2.5 hoist=0.99
+    }
+  }
+}

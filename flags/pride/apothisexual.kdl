@@ -1,0 +1,40 @@
+// Five bars 7:5:5:5:7, 5:3, measured from a 1154 by 692 copy (166, 120, 119, 120 and
+// 167 pixels; derived). 23.08 pixels to a unit. Each stroke of the X is a bar 4.6 units
+// wide and 38.8 long, turned 41.35 degrees from upright, centered 15 pixels from the
+// middle of the flag on either side, as measured (derived).
+vexyl 1
+meta {
+  name "Apothisexual flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Apothisexual-1-555350885"
+  note "The flag's designer and first publication were not found, so this is written from a secondary copy. The DeviantArt post above, by the aggregator Pride-Flags and dated 2015-08-21, describes apothi- as an orientation defined by repulsion and says 'Coined by: ?' and 'Designed by: ?'. It gives no meanings for the colors and no values."
+  note "Everything numeric was read from that post's preview image, 1154 by 692 pixels, taken as PNG from DeviantArt's image server: purple #660066, white #ffffff, black #000000 and dark red #9c2524, in bars measured as 7:5:5:5:7. The proportion 5:3 is the image's, 1154:692."
+  note "The black X is drawn as two straight bars, an approximation of the copy's drawing. In the copy the strokes cross 18 pixels above the center, their ends are cut at a slight slant, and they stop short of the top and bottom edges; the bars here keep the measured width, length, angle and centers."
+}
+palette {
+  purple "#660066"
+  white "#ffffff"
+  black "#000000"
+  dark-red "#9c2524"
+}
+proportion hoist=30 fly=50
+
+bars purple white black white dark-red {
+  ratio 7 5 5 5 7
+}
+
+charge rect black {
+  at fly=25.6 hoist=14.95
+  rotate -41.35
+  fly 4.6
+  hoist 38.8
+}
+
+charge rect black {
+  at fly=24.35 hoist=14.95
+  rotate 41.35
+  fly 4.6
+  hoist 38.8
+}

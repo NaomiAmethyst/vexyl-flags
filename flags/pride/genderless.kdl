@@ -1,0 +1,27 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Genderless flag"
+  designer "Felted Flying Fox (feltedflyingfox on Twitter and Instagram)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "Free to use, commercially too, by the designer's statement in the thread cited"
+  date "2021-10-09"
+  source "https://web.archive.org/web/20211009173313/https://twitter.com/feltedflyingfox/status/1446887060695130119"
+  source "https://web.archive.org/web/20211009173315/https://pbs.twimg.com/media/FBRf8ZeWUAQ2GUo.jpg"
+  source "https://web.archive.org/web/2021id_/https://pbs.twimg.com/media/FBRgve9X0AQB8q5.jpg"
+  note "Defining source: the designer's Twitter thread of 9 October 2021 (read at the snapshot above, with all seven of its images): 'I made a genderless flag with help from my followers on instagram!' Black and white are the spectrum of ways people feel genderless, from a void where gender should be to no such space; pastel purple is genderless people who are partially male, female or both; yellow is the genderless community; pastel green is genderless people partially of a gender neither male nor female, the inverse of the purple in hue. A genderless symbol may optionally be added in the outer stripes' color; it is not drawn here."
+  note "The hex values are the designer's, from the thread's last image: #2a2a2a, #c49ce3, #ffffff, #ffee8c, #ffffff, #a9dc9d, #2a2a2a. The thread gives no proportion; the flag image is 1200 by 720 (3:5) with seven bars of about 103 pixels, so equal."
+  note "This is a different flag from the older genderless flag by psyfirecracker on DeviantArt (2016), which is not written. This file's license covers the encoding, not the design."
+}
+palette {
+  black "#2a2a2a"
+  purple "#c49ce3"
+  white "#ffffff"
+  yellow "#ffee8c"
+  green "#a9dc9d"
+}
+proportion hoist=3 fly=5
+
+bars black purple white yellow white green black

@@ -1,0 +1,25 @@
+// Five equal bars, 5:3.
+vexyl 1
+meta {
+  name "Polyamalterous Flag"
+  designer "bloodswapkankri"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20220127051711/https://www.deviantart.com/pride-flags/art/Polyamorous-alterous-Polyamalterous-555351016"
+  source "https://web.archive.org/web/20220120235545/https://pride-color-schemes.tumblr.com/post/147080746790/polyamalterous-polyamsensual-polyplatonic"
+  source "https://web.archive.org/web/20120213104012/http://www.isomedia.com/homes/jene/flag.html"
+  note "The designer's own post wasn't read. Pride-Flags's DeviantArt reupload 'Polyamorous-alterous / Polyamalterous', as the Wayback Machine held it on 27 January 2022 and dated 22 August 2015 (UTC), defines the term and gives its 'Design source' as a pride-flags-for-us Tumblr post (125479695934), whose only Wayback capture is a 2024 'not found' page. The same aggregator's Tumblr post of 8 July 2016, pride-color-schemes, says 'Flag designed by: bloodswapkankri', with the term coined by hunddeskrieges, and that 'the 3 inside stripes are taken from the polyamory flag', with the outer blue for alterous attraction."
+  note "Taken from Jim Evans's polyamory flag (polyamory-pi in this collection), by that account, are the three middle bars. The reupload's image draws them red, blue and black, not in Evans's blue, red and black order, and in its own shades, with a light blue in place of his blue. The pi isn't used."
+  note "The reupload's image is a PNG of 5000 by 3000 pixels, 5:3, which this file uses. It draws five equal bars of 600 pixels, give or take one. Its colors are the image's exact pixel values, and they may not be the designer's: pale blue #c6dfff, red #ff0000, blue #84cbff and black #000000."
+  note "No date is given, because the first publication wasn't seen. The reupload is dated 22 August 2015."
+}
+palette {
+  pale "#c6dfff"
+  red "#ff0000"
+  blue "#84cbff"
+  black "#000000"
+}
+proportion hoist=3 fly=5
+
+bars pale red blue black pale

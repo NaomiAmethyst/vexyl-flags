@@ -1,0 +1,38 @@
+// 12 by 20: six equal bars, with a vertical stripe 3 wide down the middle (fly 8.5 to 11.5) holding six more.
+vexyl 1
+meta {
+  name "Homoflexible flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Homoflexible-1-543925667"
+  source "https://lgbtqia.wiki/wiki/Homoflexible"
+  note "No designer's publication was found, and no source names a designer. The earliest publication read is 'Homoflexible (1)' by Pride-Flags on DeviantArt, published 3 July 2015, whose page, later edited, defines the term and names heteroflexible as its counterpart, but says nothing of the design. lgbtqia.wiki shows several later homoflexible flags and names no designer for this one."
+  note "The design is the six-stripe rainbow, with a vertical stripe of six bars from black to white down the middle. The heteroflexible flag, uploaded the same night, swaps the two. Everything here is read from the upload's own 5000 by 3000 pixel image: the 3:5 proportion, the six equal bars, the stripe's width of 750 pixels, 3/20 of the fly, centered, and the colors. The rainbow is #e40303, #ff8c00, #ffed00, #008026, #004dff and #750787, each within 7 units in any channel of this collection's six-stripe rainbow. The greys are #000000, #464646, #7d7d7d, #acacac, #d7d7d7 and #ffffff."
+}
+palette {
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  violet "#750787"
+  black "#000000"
+  dark-grey "#464646"
+  grey "#7d7d7d"
+  light-grey "#acacac"
+  pale-grey "#d7d7d7"
+  white "#ffffff"
+}
+proportion hoist=12 fly=20
+
+bars red orange yellow green blue violet
+
+bars black dark-grey grey light-grey pale-grey white {
+  clip {
+    rect {
+      fly 3
+      hoist 12
+    }
+  }
+}

@@ -1,0 +1,24 @@
+// Six equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Genderflux flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20160319005351/http://pride-flags-for-us.tumblr.com/post/104296018909/heres-a-genderflux-flag-i-made-at-my-friends"
+  source "https://64.media.tumblr.com/58b557dc5a8e55ec7fb46c6287f35dc7/tumblr_ng1f8sXEt61ttq5l9o1_1280.png"
+  source "https://www.deviantart.com/pride-flags/art/Genderflux-1-543925589"
+  note "Defining source: the designer's submission to pride-flags-for-us, 'Here's a genderflux flag I made at my friend's suggestion' (read at the snapshot above). It gives the meanings: pink and blue for female and male, the pale pink and blue for demigirl and demiboy, grey for agender or gender neutral, yellow for identities outside the binary. The archived page names neither the submitter nor the day; it was posted in late 2014, by its place among the blog's posts and the 'one year ago' shown in March 2016, so no date is given. Pride-Flags reposted it on DeviantArt on 2015-07-03 as 'Genderflux (1)', crediting pride-flags-for-us."
+  note "Construction and colors are read from the post's image (800 by 480 PNG, read): six equal bars of 80 pixels, #f47694, #f2a2b9, #cecece, #7ce0f7, #3ecdf9, #fff48d. This is my sampling, not hex the designer gave; the Pride-Flags repost has the same values. The 3:5 proportion is the image's."
+}
+palette {
+  pink "#f47694"
+  light-pink "#f2a2b9"
+  grey "#cecece"
+  light-blue "#7ce0f7"
+  blue "#3ecdf9"
+  yellow "#fff48d"
+}
+proportion hoist=3 fly=5
+
+bars pink light-pink grey light-blue blue yellow

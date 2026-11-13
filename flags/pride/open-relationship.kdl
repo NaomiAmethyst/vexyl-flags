@@ -1,0 +1,39 @@
+// 5:3, three equal bars of 1. The image is 330 pixels high, so a unit is 110 pixels. The designer's
+// heart fills 220 to 308 pixels across and 122 to 197 down, 0.8 by 0.682 centered at 2.441 and 1.45.
+vexyl 1
+meta {
+  name "Open Relationship Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC0-1.0"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Polyamory_flag_with_infinity_heart.svg" {
+    author "Opensofias"
+    license "CC0-1.0"
+    part "the infinity heart"
+  }
+  date "2015-12-04"
+  source "https://web.archive.org/web/20200822031406/https://www.deviantart.com/nonmonoprideflags/art/Open-Relationship-Pride-Flag-576024163"
+  source "https://commons.wikimedia.org/wiki/File:Polyamory_flag_with_infinity_heart.svg"
+  note "NonMonoPrideFlags's DeviantArt post 'Open Relationship Pride Flag', as the Wayback Machine held it on 22 August 2020, says: 'This is my pride flag design for open relationships or open marriages; can also be called non-exclusive monogamy.' It gives the colors' meanings: green for the balance between multiple relationships, grey for the shade of grey that society sees in them, and orange for the openness between partners, and says: 'Also included is a red infinity heart'. The post is dated 4 December 2015 (UTC)."
+  note "The post's image, the original file, is a JPEG of 541 by 330 pixels, 1.64:1, as are all this designer's flags of that month, so no deliberate proportion is clear. This file uses the common 5:3. The image draws three equal bars, of 108 or 109 pixels each."
+  note "The colors are read from the image's pixels, which are flat in the bars: green #b5e51d, grey #c3c3c3 and orange #ffa346. The heart is a thin line, which the JPEG blurs, so its color is the median of its pixels, #db0f0f."
+  note "The designer's heart is a freehand drawing, a thin ribbon tilted toward the fly, with an infinity loop on its hoist side. It isn't drawn here by hand. In its place is the infinity heart of the Commons file named above, which Opensofias drew in 2019 and released under CC0: the file's two stroked paths, used unchanged except that their color is the palette's red, without that file's bars, and framed to the heart's outer edge. It's placed and sized to fill the box the designer's heart fills, and it is upright and symmetrical where the designer's is not."
+}
+palette {
+  green "#b5e51d"
+  grey "#c3c3c3"
+  orange "#ffa346"
+  red "#db0f0f"
+}
+proportion hoist=3 fly=5
+
+bars green grey orange
+
+charge svg red {
+  at fly=2.441 hoist=1.45
+  fly 0.8
+  hoist 0.682
+  markup #"""
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="88 46.9 208 172.4"><path d="M192 128c128 128 128-128 0 0s-128-128 0 0z" fill="none" stroke="currentColor" stroke-width="16"/><path d="M192 80c64-64 128 0 0 128C64 80 128 16 192 80z" fill="none" stroke="currentColor" stroke-width="16"/></svg>
+    """#
+}

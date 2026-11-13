@@ -1,0 +1,37 @@
+// Five equal bars on 3:5, lightened outside a heart. Heart: radius 0.986, default spread, at fly 2.5 hoist 0.99.
+vexyl 1
+meta {
+  name "Abroromantic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Abroromantic-636454480"
+  source "https://web.archive.org/web/20181217221130/https://pride-color-schemes.tumblr.com/tagged/abroromantic"
+  note "No designer's publication was found. The earliest publication read is 'Abroromantic' by Pride-Flags on DeviantArt, published 25 September 2016, whose page says 'Coined by: Unknown', 'Designed by: Unknown'. It is the abrosexual flag with a heart, in the style of the heart versions that account uploaded on 9 May 2016. The abrosexual flag itself is credited to 'Anonymous + @pride-flags-for-us' by the Tumblr blog pride-color-schemes (7 May 2016), which tags that post abroromantic but shows no heart version."
+  note "Everything here is read from the upload's own 5000 by 3000 pixel image: the 3:5 proportion, five equal bars of 600 pixels, and the colors. Inside the heart the bars are #75ca92, #b4e4c9, #f7f7f7, #e795b6 and #d9446e, the abrosexual flag's colors as this collection draws them except the white, which is #f7f7f7 here. Outside it they are lighter: #bae5c9, #daf2e4, #fbfbfb, #f3cadb and #eca2b7."
+  note "The heart is the format's heart shape, an approximation of the image's drawing, which has slightly curved sides and a deeper notch. Its radius, 0.986 of a hoist of 3, and its center, 0.99 below the top, were fitted to the hearts in this set of images, which are all the same size and place: centered across the flag, the lobes touching the top edge and the tip the bottom edge."
+}
+palette {
+  green "#75ca92"
+  light-green "#b4e4c9"
+  white "#f7f7f7"
+  pink "#e795b6"
+  dark-pink "#d9446e"
+  pale-green "#bae5c9"
+  pale-light-green "#daf2e4"
+  pale-white "#fbfbfb"
+  pale-pink "#f3cadb"
+  pale-dark-pink "#eca2b7"
+}
+proportion hoist=3 fly=5
+
+bars pale-green pale-light-green pale-white pale-pink pale-dark-pink
+
+bars green light-green white pink dark-pink {
+  clip {
+    heart {
+      radius 0.986
+      at fly=2.5 hoist=0.99
+    }
+  }
+}

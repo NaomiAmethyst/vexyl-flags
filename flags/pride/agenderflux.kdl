@@ -1,0 +1,22 @@
+// Seven equal bars on a 3:5 field; the middle bar is a gradient across the fly.
+vexyl 1
+meta {
+  name "Agenderflux flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Librafluid-Agenderflux-1-543983133"
+  note "No designer or first publication was found. The earliest image found is 'Librafluid / Agenderflux (1)' by Pride-Flags on DeviantArt, published 2015-07-04, an aggregator account; its description defines libragender and librafluid and credits no designer. The agenderflux flags that pride-flags-for-us pointed to in 2015 are different designs (overlapping circles)."
+  note "Everything here is read from that reupload (5000 by 3000 PNG): seven bars, black #000000, grey #a3a3a3, white #ffffff, a teal-to-pink gradient, white, grey, black. The bars are 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal. The gradient runs from #56c4c5 at the hoist to #c55690 at the fly; a straight two-color blend matches the image within 7 units per channel. The 3:5 proportion is the image's. None of these values is the designer's."
+}
+palette {
+  black "#000000"
+  grey "#a3a3a3"
+  white "#ffffff"
+  teal "#56c4c5"
+  pink "#c55690"
+  flux gradient teal pink
+}
+proportion hoist=3 fly=5
+
+bars black grey white flux white grey black

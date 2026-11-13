@@ -1,0 +1,20 @@
+// Three equal bars, 3:5.
+vexyl 1
+meta {
+  name "Androsexual flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Masc-1-604307340"
+  source "https://lgbtqia.wiki/wiki/Androsexual"
+  note "No designer's publication was found, and the designer is unknown. The earliest publication read is 'Masc- (1)' by Pride-Flags on DeviantArt, published 22 April 2016, for attraction to men or masculine genders (also called andro-). Its page says 'Coined by: Unknown', 'Designed by: Unknown'. lgbtqia.wiki says the flag was a submission to the Tumblr blog pride-flags-for-us, with blue taken from the transgender flag for attraction to men regardless of sex, brown for stability and support, and purple from the genderqueer flag for attraction to masculinity regardless of gender identity. That post wasn't found, and the blue here isn't the transgender flag's as this collection draws it (#5bcefa)."
+  note "The 3:5 proportion, the three equal bars and the colors, #00ccff, #603524 and #b899df, are read from the upload's own 5000 by 3000 pixel image."
+}
+palette {
+  blue "#00ccff"
+  brown "#603524"
+  purple "#b899df"
+}
+proportion hoist=3 fly=5
+
+bars blue brown purple

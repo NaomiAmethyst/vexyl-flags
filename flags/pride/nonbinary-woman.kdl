@@ -1,0 +1,25 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Non-binary woman flag"
+  designer "Pride-Flags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-01-18"
+  series "nonbinary-woman-flag"
+  version "alternate-2017"
+  source "https://www.deviantart.com/pride-flags/art/Nonbinary-Girl-2-657962485"
+  source "https://lgbtqia.fandom.com/wiki/Non-binary"
+  note "Defining source: 'Nonbinary Girl (2)' by Pride-Flags on DeviantArt, published 2017-01-18 UTC (17 January, Pacific time; read). It says 'This is an alternate version proposed because the originals look confusingly like demigender flags', and 'Designed by: Me, from my scraps folder and chosen by anonymous'. It gives no color meanings, hex values or proportion. The earlier flags it replaces are not written here. Its counterpart is the non-binary man flag posted the same minute."
+  note "Construction and colors are read from the post's image (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, #e64967, #f57d58, #f3d95c, #ffffff, #f3d95c, #f57d58, #e64967. This is my sampling, not hex the designer gave. The 3:5 proportion is the image's."
+}
+palette {
+  red "#e64967"
+  orange "#f57d58"
+  yellow "#f3d95c"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars red orange yellow white yellow orange red

@@ -1,0 +1,21 @@
+// Four equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Unlabeled flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20220217001658/https://twitter.com/okumura_eijii/status/1337426136658219008"
+  source "https://lgbtqia.fandom.com/wiki/Unlabeled"
+  note "The designer and first publication were not found. The earliest source read is a tweet of 11 December 2020 (Wayback Machine, 17 February 2022), whose author doesn't claim the design: 'hey. hi. this is the unlabelled pride flag. it's not very well known but it exists'. Its image labels the stripes freedom, understanding, acceptance and flexibility, the meanings the LGBTQIA+ Wiki (Fandom) also gives."
+  note "Colors are the medians of each stripe's unlettered part in that tweet's image (1200 by 641 JPEG), which is not the designer's: #dcfde0, #fdfef6, #d8f0fa, #fee0bc. The image is lossy, so these are approximate. Its stripes are uneven, about 146, 168, 170 and 157 pixels, and are taken as equal. The 3:5 proportion is the common one, not from a source."
+}
+palette {
+  green "#dcfde0"
+  white "#fdfef6"
+  blue "#d8f0fa"
+  orange "#fee0bc"
+}
+proportion hoist=3 fly=5
+
+bars green white blue orange

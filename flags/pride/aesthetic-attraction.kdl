@@ -1,0 +1,22 @@
+// Four equal bars, 3:5.
+vexyl 1
+meta {
+  name "Aesthetic attraction flag"
+  designer "m1rr0r (Reddit)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Aesthetic-Attraction-3-874982346"
+  source "https://lgbtqia.wiki/wiki/Aesthetic_Attraction"
+  note "The designer's post wasn't read. 'Aesthetic Attraction (3)' by Pride-Flags on DeviantArt, published 4 April 2021, says 'Flag by /u/m1rr0r' and links a post in Reddit's r/QueerVexillology titled 'Aesthetic attraction flag: CMYK but in pan order' (gltm8u), which neither Reddit nor the Wayback Machine would serve. lgbtqia.wiki records an aesthetic attraction flag by the Reddit user 'u/MIRROR 11' from 17 May 2020, citing an archive.today copy that couldn't be reached; it is probably this one, but that isn't confirmed. The wiki's main aesthetic attraction flag is a different design, made by Ruthie of Cryptocrew on 6 December 2020."
+  note "The design is the four printing colors, magenta, yellow, cyan and black, in the pansexual flag's order. The proportion, equal bars and colors are read from the Pride-Flags upload's own 5000 by 3000 pixel image: #ff00ff, #ffff01, #01ffff and #000000. The yellow and cyan are one unit from pure, as the upload has them."
+}
+palette {
+  magenta "#ff00ff"
+  yellow "#ffff01"
+  cyan "#01ffff"
+  black "#000000"
+}
+proportion hoist=3 fly=5
+
+bars magenta yellow cyan black

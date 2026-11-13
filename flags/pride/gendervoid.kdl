@@ -1,0 +1,20 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Gendervoid flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Gendervoid-Voidgender-543925612"
+  source "https://lgbtqia.wiki/wiki/Gendervoid"
+  note "No defining publication by a named designer was found. The earliest copy found is 'Gendervoid / Voidgender' by Pride-Flags on DeviantArt, published 2015-07-04 (read), an aggregator account; its description defines the term and links a therainbowgorilla post about it, but credits no designer. The LGBTQIA+ Wiki says Pride-Flags made the original flag that day, with no symbolism beyond black, grey and dark blue for the void, citing an archive.today copy I could not reach. Pride-Flags is not named as designer here, since its post does not claim the design."
+  note "Everything here is read from the Pride-Flags image (5000 by 3000 PNG): five equal bars of about 600 pixels, navy #08114a, grey #4a484b, black #000000, grey, navy. The 3:5 proportion is the image's. None of these values is confirmed as a designer's."
+}
+palette {
+  navy "#08114a"
+  grey "#4a484b"
+  black "#000000"
+}
+proportion hoist=3 fly=5
+
+bars navy grey black grey navy

@@ -1,0 +1,20 @@
+// Three equal bars, 3:5.
+vexyl 1
+meta {
+  name "Gynesexual flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Fem-1-604307359"
+  source "https://lgbtqia.wiki/wiki/Gynesexual"
+  note "No designer's publication was found, and the designer is unknown. The earliest publication read is 'Fem- (1)' by Pride-Flags on DeviantArt, published 22 April 2016, for attraction to women or feminine genders (also called gyne-). Its page says 'Coined by: Unknown', 'Designed by: Unknown'. lgbtqia.wiki says the flag was a submission to the Tumblr blog pride-flags-for-us, with pink taken from the transgender flag for attraction to women regardless of sex, brown for stability and support, made more saturated than the androsexual flag's, and green from the genderqueer flag for attraction to femininity regardless of gender identity. That post wasn't found. The pink here is the transgender flag's exactly as this collection draws it."
+  note "The 3:5 proportion, the three equal bars and the colors, #f5a9b8, #8f3f2b and #5b943a, are read from the upload's own 5000 by 3000 pixel image."
+}
+palette {
+  pink "#f5a9b8"
+  brown "#8f3f2b"
+  green "#5b943a"
+}
+proportion hoist=3 fly=5
+
+bars pink brown green

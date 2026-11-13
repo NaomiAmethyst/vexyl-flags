@@ -1,0 +1,46 @@
+// Five equal bars on 3:5, lightened outside a heart (radius 0.986, default spread, at fly 2.5 hoist 0.99).
+// The outline is the same heart shrunk by half its 0.045 width (radius 0.9635, spread 1.3944), so its outer edge is the heart's.
+vexyl 1
+meta {
+  name "Ceteroromantic flag"
+  designer "Pride-Flags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Ceteroromantic-2-607943801"
+  source "https://web.archive.org/web/20181217215130/https://pride-color-schemes.tumblr.com/tagged/ceteroromantic"
+  note "Designer's own publication: 'Ceteroromantic (2)' by Pride-Flags on DeviantArt, published 9 May 2016 at 21:35 Pacific time (10 May UTC). Its page defines cetero- (formerly skolio-) as attraction to non-binary people, and says 'Cetero- design by me, based on the original by' SavvyRed, linking SavvyRed's DeviantArt and a post on the Tumblr blog savvysweet (118695661933, 'skoliosexual'), which wasn't read. The Tumblr blog pride-color-schemes, run by the same people, shows the five-stripe ceterosexual flag on 1 July 2016 as yellow, green, pink, white and black, 'Designed by: Me', with a 'Ceteroromantic only version with a transparent heart with pink outline', which is this flag. Neither post gives meanings for the pink stripe; SavvyRed's 2013 flag gives the other four colors' meanings."
+  note "Everything here is read from the designer's own 5000 by 3000 pixel image: the 3:5 proportion, five equal bars of 600 pixels, and the colors. Inside the heart the bars are #fffc01, #218d03, #f556e9, #ffffff and #000000; the yellow, green, white and black are exactly those of SavvyRed's 2013 image. Outside the heart they are lighter: #fffe80, #90c681, #faabf4, #ffffff and #808080. The outline is #f656ea, one unit from the pink stripe, and 45 pixels wide, inside the heart's edge."
+  note "The heart is the format's heart shape, an approximation of the image's drawing, which has slightly curved sides and a deeper notch. It is the same size and place as the hearts of the other heart flags Pride-Flags uploaded that night, whose radius, 0.986 of a hoist of 3, and center, 0.99 below the top, were fitted to those images: centered across the flag, the lobes touching the top edge and the tip the bottom edge."
+}
+palette {
+  yellow "#fffc01"
+  green "#218d03"
+  pink "#f556e9"
+  white "#ffffff"
+  black "#000000"
+  pale-yellow "#fffe80"
+  pale-green "#90c681"
+  pale-pink "#faabf4"
+  grey "#808080"
+  outline-pink "#f656ea"
+}
+proportion hoist=3 fly=5
+
+bars pale-yellow pale-green pale-pink white grey
+
+bars yellow green pink white black {
+  clip {
+    heart {
+      radius 0.986
+      at fly=2.5 hoist=0.99
+    }
+  }
+}
+
+charge heart outline-pink {
+  radius 0.9635
+  spread 1.3944
+  at fly=2.5 hoist=0.99
+  hollow 0.045
+}

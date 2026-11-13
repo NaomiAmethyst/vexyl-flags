@@ -1,0 +1,21 @@
+// Four equal bars, 3:5.
+vexyl 1
+meta {
+  name "Platonic attraction flag (alternative)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Platonic-Attraction-870197012"
+  source "https://lgbtqia.wiki/wiki/Platonic_Attraction"
+  note "This is the alternative platonic attraction flag, not the main one. The main flag, pink with a yellow flower, was made by Weniviere of Cryptocrew on 25 November 2020, according to lgbtqia.wiki, and isn't written here. 'Platonic Attraction' by Pride-Flags on DeviantArt, published 14 February 2021, shows this design and quotes the wiki: 'The alternative platonic attraction flag was made by an anonymous Reddit user on January 23th, 2021. The orange stands for joy, the pink for tenderness, the yellow for friendship, and the white for unity.' The wiki marks that 'citation needed', and the Reddit post wasn't found."
+  note "The proportion, equal bars and colors are read from the Pride-Flags upload's own 5000 by 3000 pixel image, not the designer's: #ffb669, #ffb3ef, #ffef93 and #ffffff."
+}
+palette {
+  orange "#ffb669"
+  pink "#ffb3ef"
+  yellow "#ffef93"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars orange pink yellow white

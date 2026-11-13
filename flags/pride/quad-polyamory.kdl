@@ -1,0 +1,33 @@
+// 5:3, four equal bars of 0.75. The image is 330 pixels high, so a unit is 110 pixels. The rectangle's
+// center line is 230.5 by 134.5 pixels, 2.095 by 1.223, centered at (272.5, 166.5), 2.518 and 1.514.
+vexyl 1
+meta {
+  name "Quad Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-12-27"
+  source "https://web.archive.org/web/20220828055023/https://www.deviantart.com/nonmonoprideflags/art/Quad-Pride-Flag-580490876"
+  note "NonMonoPrideFlags's DeviantArt post 'Quad Pride Flag', as the Wayback Machine held it on 28 August 2022, says: 'This is my pride flag design for Quad relationships. Also can be known as cross-couples', four people, each of whom may or may not be involved with all the others. It gives no color meanings, measurements or color values. The post is dated 27 December 2015 (UTC)."
+  note "The post's image, the original file, is a JPEG of 541 by 330 pixels, 1.64:1, as are all this designer's flags of that month, so no deliberate proportion is clear. This file uses the common 5:3. The image draws four equal bars, of 80 to 83 pixels each."
+  note "The colors are read from the image's pixels, which are flat in the bars: navy #010080, turquoise #01c6bf, salmon #ff9571 and red #f72d15. The rectangle's color is the median of its pixels, #fef102. They are the same colors as the designer's N flag, in another order."
+  note "The yellow rectangle outline is built as a hollow rectangle, an approximation of the designer's drawing. Its outer edge runs from 155 to 389 pixels across and 97 to 235 down, and its line is about 4.5 pixels, 0.04 here, as the image has them."
+}
+palette {
+  navy "#010080"
+  turquoise "#01c6bf"
+  salmon "#ff9571"
+  red "#f72d15"
+  yellow "#fef102"
+}
+proportion hoist=3 fly=5
+
+bars navy turquoise salmon red
+
+charge rect yellow {
+  at fly=2.518 hoist=1.514
+  fly 2.095
+  hoist 1.223
+  hollow 0.04
+}

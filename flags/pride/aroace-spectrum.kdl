@@ -1,0 +1,25 @@
+// Four equal bars, 5:3, from the designer's image (1188 by 713 pixels).
+vexyl 1
+meta {
+  name "Aroace spectrum flag"
+  designer "theflagarchive (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-08-08"
+  series "aroace-spectrum-flag"
+  version "four-stripe-2020"
+  source "https://web.archive.org/web/2021/https://theflagarchive.tumblr.com/post/625841657548587008/aroace-spectrum-flag-a-flag-for-anybody-who-has-a"
+  note "Designer's own post on the Tumblr blog Flag Archive (theflagarchive), read from a 2021 Wayback snapshot of the address above; the page's metadata dates it 2020-08-08 (01:11 in UTC-4, so 7 August in some time zones). It calls it 'a flag for anybody who has a lack of romantic and sexual attraction, or differing experiences with romantic and sexual attraction to where they would consider themselves aspec'."
+  note "The post has two images, the flag and the flag with each bar's meaning written on it: green, lack of or different experiences with romantic attraction; pale cyan, diversity in experiences and attraction; purple, lack of or different experiences with sexual attraction; dark blue, the community, solidarity and history. The colors were read from the plain image (1188 by 713 PNG, fetched from Tumblr's media server): #79c49b, #eafdfb, #635a9f, #11263e. The bars are equal, and the proportion 5:3 is the image's, 1188:713."
+  note "This is a different flag from the aroace flag (aroace-flag) and the a-spec flag. Other designs have also been called aroace-spec or ay-spec flags; a ten-stripe one is aroace-spectrum-striped in the same series. The same post also appears on the author's other blog, potionflags (post 634633836865683456, November 2020), which the LGBTA Fandom wiki cited in a March 2021 Wayback snapshot."
+}
+palette {
+  green "#79c49b"
+  pale-cyan "#eafdfb"
+  purple "#635a9f"
+  dark-blue "#11263e"
+}
+proportion hoist=3 fly=5
+
+bars green pale-cyan purple dark-blue

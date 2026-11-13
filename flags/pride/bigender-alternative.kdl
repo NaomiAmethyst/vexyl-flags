@@ -1,0 +1,23 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Alternative bigender flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "bigender-flag"
+  version "alternative"
+  source "https://www.deviantart.com/pride-flags/art/Bigender-2-555613271"
+  note "No designer or first publication was found. The earliest copy found is 'Bigender (2)' by Pride-Flags on DeviantArt, published 2015-08-22, an aggregator account; its description defines bigender and credits no designer. It is an alternative to the 2014 bigender flag (bigender), with which it shares a series."
+  note "Everything here is read from that reupload (5000 by 3000 PNG): five equal bars of about 600 pixels, pink #ed78aa, yellow #fdf44d, white #ffffff, purple #ae6dbe, blue #719ee3. The 3:5 proportion is the image's. None of these values is the designer's."
+}
+palette {
+  pink "#ed78aa"
+  yellow "#fdf44d"
+  white "#ffffff"
+  purple "#ae6dbe"
+  blue "#719ee3"
+}
+proportion hoist=3 fly=5
+
+bars pink yellow white purple blue

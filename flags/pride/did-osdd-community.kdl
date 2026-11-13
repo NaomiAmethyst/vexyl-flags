@@ -1,0 +1,24 @@
+// Four equal bars on 2:3, the proportion of the designer's 1280 by 853 pixel image.
+vexyl 1
+meta {
+  name "DID/OSDD community flag"
+  designer "Dissociative Ocean (dissocean on Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2021-02-08"
+  source "https://web.archive.org/web/20230508213948/https://dissocean.tumblr.com/post/642579285266366464/a-new-proposed-didosdd-flag-made-by-uswhite"
+  source "https://64.media.tumblr.com/ddd2bbd79cc35f3b48075b7e57573377/3723a81933f1a3c8-6a/s1280x1920/5ae6d70c00a1de886c9ef079109336b5f9c0b340.png"
+  source "https://web.archive.org/web/20260104213042/https://pluralpedia.org/w/Other_Specified_Dissociative_Disorder"
+  note "The designers, the system Dissociative Ocean (@dissocean), posted 'A new proposed DID/OSDD flag made by us!' on 8 February 2021, per the page (Wayback Machine, 8 May 2023); the post's address was first 'we-made-a-didosdd-community-flag'. It gives the meanings: white, teamwork, acceptance and hope; purple, OSDD-1 systems; teal, PTSD and dissociation; black, newly discovered or questioning systems and hardships."
+  note "The colors are read from the post's unlabeled flag image, 1280 by 853 pixels, at the middle of each stripe: #ffffff, #d2a7e2, #3d969c and #454545, so the 'black' is a dark grey. The stripes are 210, 212, 211 and 218 pixels, drawn here as four equal ones. The 2:3 proportion is the image's, 1280:853. The post gives no hex values. Its other image is the same flag with each stripe labeled."
+}
+palette {
+  white "#ffffff"
+  purple "#d2a7e2"
+  teal "#3d969c"
+  dark-grey "#454545"
+}
+proportion hoist=2 fly=3
+
+bars white purple teal dark-grey

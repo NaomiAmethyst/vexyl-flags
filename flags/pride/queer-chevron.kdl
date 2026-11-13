@@ -1,0 +1,35 @@
+// 5:3 on the designer's own 450 by 270 pixel image. Two chevrons pointing down, measured down the center line from the top:
+// field to 107.5, lavender 46, field 27, purple 46, so the outer apex is at 226.5. At the edges each arm is 83 higher,
+// so each arm makes atan(225/83) = 69.7 degrees with the center line.
+vexyl 1
+meta {
+  name "Queer flag, chevrons"
+  designer "el (bizexuals on Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2016-10-05"
+  design-rights "The designer's post says the flags 'are free to use/modify as you see fit', including their colors, weights and number of chevrons, and may be used as icons or headers. This file's license covers the encoding, not the design."
+  source "https://web.archive.org/web/20230510225415/https://bizexuals.tumblr.com/post/151393077637/alright-so-thanks-to-the-suggestions-of"
+  source "https://64.media.tumblr.com/00c70ea4760e5cafa40fecd162186c49/tumblr_oelaxeEQZW1rob0hbo2_1280.png"
+  source "https://lgbtqia.fandom.com/wiki/Queer"
+  source "https://commons.wikimedia.org/wiki/File:Queer_Pride_flag_chevron_design.svg"
+  note "The designer's post on the Tumblr blog bizexuals, published 5 October 2016 per the page's data (Wayback Machine, 10 May 2023), shows five chevron flags: transgender, queer, pansexual, bisexual and asexual. It says the single-chevron version was updated to include an off-white color, following a suggestion from @istudyhumanhope. This file is the post's second image, the queer flag. lgbtqia.fandom says the off-white field was chosen for sensory reasons; the post read doesn't say why."
+  note "The colors and the geometry are read from that image, a 450 by 270 pixel PNG from Tumblr's media server: off-white #fcf5eb, lavender #ba7ec6 and purple #744d77. Each chevron is 46 pixels thick measured vertically, with 27 of field between them (25 to 27 at different columns), the lavender's top edge 24.5 pixels from the top at the edges and 107.5 at the center. The post gives no values. It is a different design from the nine-bar queer flag (queer-flag)."
+  note "The Commons drawing differs: it is 3:2, its colors are #fcf5ec, #bb7fc7 and #68436a, and its chevrons are set lower and steeper."
+}
+palette {
+  off-white "#fcf5eb"
+  lavender "#ba7ec6"
+  purple "#744d77"
+}
+proportion hoist=270 fly=450
+
+field off-white
+
+chevrons none lavender none purple {
+  from top
+  depth 226.5
+  angle 69.7
+  ratio 107.5 46 27 46
+}

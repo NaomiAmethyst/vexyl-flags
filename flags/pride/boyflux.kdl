@@ -1,0 +1,22 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Boyflux flag"
+  designer "Mod Hermy (Pride-Flags, DeviantArt), edited by nbandproud (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-02-08"
+  source "https://www.deviantart.com/pride-flags/art/Boyflux-Manflux-2-662414406"
+  note "Defining source: 'Boyflux / Manflux (2)' by Pride-Flags on DeviantArt, published 2017-02-08 (read). Its description says the flag was designed by Mod Hermy, one of the account's mods, 'chosen from my flag scraps folder by anonymous and edited by nbandproud.tumblr.com', and that the term was coined by kitsuneshay-blog. nbandproud's edit, if posted separately, was not found. The post gives no meanings, hex or proportion."
+  note "Construction and colors are read from the post's image (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, #d6e9f9, #6fabf5, #02366f, #9fedaa, #02366f, #6fabf5, #d6e9f9. This is my sampling, not hex the designer gave. The 3:5 proportion is the image's."
+}
+palette {
+  pale-blue "#d6e9f9"
+  light-blue "#6fabf5"
+  navy "#02366f"
+  green "#9fedaa"
+}
+proportion hoist=3 fly=5
+
+bars pale-blue light-blue navy green navy light-blue pale-blue

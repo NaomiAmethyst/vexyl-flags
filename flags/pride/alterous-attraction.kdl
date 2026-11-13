@@ -1,0 +1,24 @@
+// Four equal bars, 3:5.
+vexyl 1
+meta {
+  name "Alterous attraction flag"
+  designer "alterous-albatross (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2016-01-27"
+  source "https://web.archive.org/web/20250918000445/https://alterous-albatross.tumblr.com/post/138190598795/i-noticed-that-there-is-so-far-not-a-flag-for-the"
+  source "https://64.media.tumblr.com/8cfd7c96ab1603ba495d2453fe236411/tumblr_o1n7gzBUXd1v6c567o1_1280.png"
+  source "https://lgbtqia.wiki/wiki/Alterous_Attraction"
+  note "Designer's own post, on the Tumblr blog alterous-albatross, dated 27 January 2016 (Wayback Machine, 18 September 2025): 'I noticed that there is so far not a flag for the alterous community as a whole. I propose this flag. The yellow stands for platonic. The gray stands for the gray area between romantic and platonic attraction. Pink represents affection. Red represents romantic. As you can see, the red and yellow are muted.' Alterous attraction is a wish for emotional closeness that is neither wholly platonic nor wholly romantic."
+  note "The colors are the post's image's, 1000 by 564 pixels with four equal stripes of 141: #ffff80, #c3c3c3, #ffaec9 and #ff4f4f. Pride-Flags' 2016 upload has the same values. The image's proportion, 1.77, isn't a common one, so this file uses the common 3:5."
+}
+palette {
+  yellow "#ffff80"
+  grey "#c3c3c3"
+  pink "#ffaec9"
+  red "#ff4f4f"
+}
+proportion hoist=3 fly=5
+
+bars yellow grey pink red

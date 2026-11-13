@@ -1,0 +1,39 @@
+// Three equal bars, 5:3. The symbol is the Commons drawing's, whose 800 by 480 view box is the whole flag.
+vexyl 1
+meta {
+  name "Twink flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC0-1.0"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Twink_Pride_Flag_(proposed).svg" {
+    author "Keymap9, vectorizing kaisuteknon's image, with the male symbol from the Symbola font"
+    license "CC0-1.0"
+    part "the double male symbol"
+  }
+  date "2009-06-05"
+  source "https://commons.wikimedia.org/wiki/File:Twinkprideflag.jpg"
+  source "https://upload.wikimedia.org/wikipedia/commons/archive/4/4d/20140817182431%21Twinkprideflag.jpg"
+  source "https://upload.wikimedia.org/wikipedia/commons/4/4d/Twinkprideflag.jpg"
+  source "https://commons.wikimedia.org/wiki/File:Twink_Pride_Flag_(proposed).svg"
+  source "https://lgbtqia.fandom.com/wiki/Twink"
+  note "The earliest copy found is an image the English Wikipedia user kaisuteknon uploaded on 5 June 2009 as 'A twink pride flag', saying 'I created this work entirely by myself'. It was moved to Commons in 2014 with its upload log. No other source names a designer or an earlier publication, so whether kaisuteknon designed the flag, or only drew the image, isn't known, and no designer is given."
+  note "kaisuteknon uploaded two versions that day, both 794 by 476 pixels. The first, at 13:13, has a red double male symbol at the top left of the pink stripe. The second, at 13:21, 'Better design, cleaned up', has a black symbol at the center. This file is the second, the one in use."
+  note "The colors are read from the images' pixels, the same in both: #ffb0ff pink, #ffffff white and #ffff80 yellow. The three stripes are equal thirds, 160, 160 and 156 pixels, and the image's 794:476, 1.668, is 5:3 within 0.1%."
+  note "The double male symbol is two interlocked male signs, which is artwork rather than a geometric figure. It is the Commons drawing's, used unchanged. That drawing (Keymap9, 9 April 2018, CC0) reproduces kaisuteknon's second image, taking the male sign from the Symbola font, and its stripes and colors match the image."
+}
+palette {
+  pink "#ffb0ff"
+  white "#ffffff"
+  yellow "#ffff80"
+}
+proportion hoist=3 fly=5
+
+bars pink white yellow
+
+charge svg {
+  at center
+  fly 5
+  hoist 3
+  markup #"""
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480"><path d="M417.3 214.1H410V189l-20.5 20.5c5.9 7.1 8.8 15.3 8.8 24.6 0 10.7-3.8 19.8-11.2 27.3-7.5 7.5-16.6 11.3-27.3 11.3s-19.8-3.8-27.3-11.2c-7.5-7.5-11.2-16.6-11.2-27.3s3.7-19.8 11.2-27.3c7.5-7.5 16.6-11.2 27.3-11.2 9.3 0 17.5 2.9 24.6 8.8l20.4-20.4h-25v-7.4h33.8l3.8 3.8v33.6zm-26.4 20.1c0-8.7-3-16-9.1-22.1-6.1-6.1-13.4-9.1-22.1-9.1s-16 3-22.1 9.1c-6.1 6.1-9.1 13.4-9.1 22.1s3 16 9.1 22.1c6.1 6.1 13.4 9.1 22.1 9.1s16-3 22.1-9.1c6.1-6.1 9.1-13.5 9.1-22.1z"/><path d="M457.3 244.1H450V219l-20.5 20.5c5.9 7.1 8.8 15.3 8.8 24.6 0 10.7-3.8 19.8-11.2 27.3-7.5 7.5-16.6 11.3-27.3 11.3s-19.8-3.8-27.3-11.2c-7.5-7.5-11.2-16.6-11.2-27.3s3.7-19.8 11.2-27.3c7.5-7.5 16.6-11.2 27.3-11.2 9.3 0 17.5 2.9 24.6 8.8l20.4-20.4h-25v-7.4h33.8l3.8 3.8v33.6zm-26.4 20.1c0-8.7-3-16-9.1-22.1-6.1-6.1-13.4-9.1-22.1-9.1s-16 3-22.1 9.1c-6.1 6.1-9.1 13.4-9.1 22.1s3 16 9.1 22.1c6.1 6.1 13.4 9.1 22.1 9.1s16-3 22.1-9.1c6.1-6.1 9.1-13.5 9.1-22.1z"/></svg>
+    """#
+}

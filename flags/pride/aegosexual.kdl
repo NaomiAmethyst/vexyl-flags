@@ -1,0 +1,34 @@
+// Four equal bars, 16:9, from the designer's 640 by 360 image (40 pixels to a unit).
+// An inverted triangle on the top edge, apex at the bottom center, holds the same
+// bars in reverse order.
+vexyl 1
+meta {
+  name "Aegosexual flag"
+  designer "hunterinabrowncoat (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2014-07-23"
+  source "https://web.archive.org/web/20150706034943/http://hunterinabrowncoat.tumblr.com/post/92665703641/id-like-to-humbly-put-forward-this-flag-as-a"
+  note "Designer's own Tumblr post, read from the Wayback snapshot above and dated 23rd Jul '14 on the page. It puts the flag forward as a suggestion for the autochorissexual orientation, the older name for what is now called aegosexual, and explains the term, but says nothing of the flag's colors or construction beyond the image. The post's tags say the designer 'looked up the meanings of the colours on the flag'."
+  note "Everything numeric was read from the post's flag image (640 by 360 PNG, fetched through the Wayback Machine): four bars of 90 pixels, black #000000, grey #a3a3a3, white #ffffff and purple #800080, the asexual flag's order. The triangle's base is the top edge and its apex is at the bottom center, to within two pixels; inside it the bars run purple, white, grey, black. The 16:9 proportion is the image's."
+}
+palette {
+  black "#000000"
+  grey "#a3a3a3"
+  white "#ffffff"
+  purple "#800080"
+}
+proportion hoist=9 fly=16
+
+bars black grey white purple
+
+bars purple white grey black {
+  clip {
+    polygon {
+      point fly=0 hoist=0
+      point fly=16 hoist=0
+      point fly=8 hoist=9
+    }
+  }
+}

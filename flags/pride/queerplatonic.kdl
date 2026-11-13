@@ -1,0 +1,29 @@
+// Seven equal bars on 3:5, and a heart: radius 0.448, spread 0.849, at fly 2.5 hoist 1.242.
+vexyl 1
+meta {
+  name "Queerplatonic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Queerplatonic-Quasiplatonic-Quirkyplatonic-1-555351036"
+  source "https://lgbtqia.wiki/wiki/Queerplatonic_Relationship"
+  note "No designer's publication was found. The earliest publication read is 'Queerplatonic / Quasiplatonic / Quirkyplatonic (1)' by Pride-Flags on DeviantArt, published 21 August 2015, whose page, later edited, says 'Flag by anonymous'. lgbtqia.wiki says at least four flags have been proposed for queerplatonic relationships, citing a 2018 Tumblr post that wasn't read, and that most use yellow and pink. The Fandom wiki credits a queerplatonic flag to the Tumblr users thechaoshat and mrglitchstep; that page couldn't be reached, and whether it means this design isn't known."
+  note "This is the seven-stripe design with a yellow heart. Everything here is read from the Pride-Flags upload's own 5000 by 3000 pixel image: the 3:5 proportion, seven equal bars, and the colors #ff93c9, #2a2a2a, #7f7f7f and #ffffff, and #fff200 for the heart. No meanings are given there."
+  note "The heart is the format's heart shape with a wider spread than its default, fitted to the image's heart to within 0.6 percent of the flag's area."
+}
+palette {
+  pink "#ff93c9"
+  dark-grey "#2a2a2a"
+  grey "#7f7f7f"
+  white "#ffffff"
+  yellow "#fff200"
+}
+proportion hoist=3 fly=5
+
+bars pink dark-grey grey white grey dark-grey pink
+
+charge heart yellow {
+  radius 0.448
+  spread 0.849
+  at fly=2.5 hoist=1.242
+}

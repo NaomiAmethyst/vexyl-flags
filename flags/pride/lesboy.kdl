@@ -1,0 +1,25 @@
+// Six equal bars, 5:3, the proportion of the 500 by 300 pixel image.
+vexyl 1
+meta {
+  name "Lesboy flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-12"
+  source "https://web.archive.org/web/20210722080847/https://beyond-mogai-pride-flags.tumblr.com/post/638068368080076800/lesboy-pride-flag"
+  source "https://64.media.tumblr.com/08361e61720ed10ca86e941b0ced183f/6e2864f90c68578c-51/s500x750/8977268a5d4345707688949757e360ef8218fee3.png"
+  source "https://lgbtqia.wiki/wiki/Lesboy"
+  note "The earliest publication found is 'Lesboy Pride Flag' on the Tumblr blog Beyond MOGAI Pride Flags, signed by its mod AP and dated Sunday 20 December 2020 on the page (21 December 2020, 00:10 UTC-5, in its data), read in the Wayback Machine's snapshot of 22 July 2021. It defines a lesboy as a boy who is gay for women, including cusper, cross-aligned, multigender and sapphogender boys, and says lesboys aren't all men. It doesn't say who made the flag, and lgbtqia.wiki says only that the blog may have created it, so no designer is given."
+  note "The post's image description lists six stripes: dark violet, reddish pink, pastel orange, light cyan, soft blue and darker blue. The colors are read from its image, a 500 by 300 pixel PNG with six stripes of exactly 50 pixels: #4f0d8a, #dd316d, #ea9d6f, #c7f0f8, #9181e9 and #253981. The 5:3 proportion is the image's. The post gives no hex values or meanings."
+}
+palette {
+  violet "#4f0d8a"
+  pink "#dd316d"
+  orange "#ea9d6f"
+  cyan "#c7f0f8"
+  blue "#9181e9"
+  dark-blue "#253981"
+}
+proportion hoist=3 fly=5
+
+bars violet pink orange cyan blue dark-blue

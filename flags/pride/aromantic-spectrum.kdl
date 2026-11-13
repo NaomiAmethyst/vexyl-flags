@@ -1,0 +1,24 @@
+// Five equal bars. 5:3 is the common proportion; the designer's image is 1153 by 713.
+vexyl 1
+meta {
+  name "Aromantic spectrum flag"
+  designer "theflagarchive (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-08-06"
+  source "https://web.archive.org/web/20210601225121/https://theflagarchive.tumblr.com/post/625679778293350400/aromantic-spectrum-flag-as-requested-and-as-ive"
+  note "Designer's own post on the Tumblr blog Flag Archive (theflagarchive), read from the Wayback snapshot above; the page's metadata dates it 2020-08-06. It calls the flag an aromantic flag remake made to pair with the blog's asexual flag, and gives the meanings: dark green, aromanticism in all forms; light green, diversity in attraction and experiences; light yellow, the aromantic community and its history; teal, pride, acceptance and solidarity; dark teal, recognition as a separate identity. It gives no hex values or proportion. Wiki pages are reported to name the blog's author Potion, which the post does not show."
+  note "The colors were read near the hoist edge of the post's flag image, which has each bar's meaning written across it (the 500 by 309 copy Tumblr serves of a 1153 by 713 original, fetched from Tumblr's media server): #3f9f52, #97cf7c, #f2fccf, #186264, #052127. The bars are equal."
+  note "The image's 1153:713 is not a usual flag proportion and doesn't look deliberate, so the common 5:3 is used here."
+}
+palette {
+  dark-green "#3f9f52"
+  light-green "#97cf7c"
+  light-yellow "#f2fccf"
+  teal "#186264"
+  dark-teal "#052127"
+}
+proportion hoist=3 fly=5
+
+bars dark-green light-green light-yellow teal dark-teal

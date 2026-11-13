@@ -1,0 +1,26 @@
+// Nine equal bars, 5:3, from a 1154 by 692 copy.
+vexyl 1
+meta {
+  name "Bellusromantic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Bellusromantic-2-553625230"
+  note "The flag's designer and first publication were not found, so this is written from a secondary copy. The earliest copy found is the DeviantArt post above, 'Bellusromantic (2)' by the aggregator Pride-Flags, dated 2015-08-14. It defines bellusromantic as 'having interest in stereotypically romantic activities, but not desiring a relationship', and credits no designer; it gives no meanings for the colors and no values."
+  note "The colors were read mid-bar from that post's preview image (1154 by 692, taken as PNG from DeviantArt's image server): #9d5aae, #d48ce5, #e8b5f6, #f9e0ff, #ffffff, #fed8f1, #fec3e7, #f7a9d9, #e685c1, in nine equal bars. The proportion 5:3 is the image's."
+  note "A wiki dates a pride-color-schemes post of this flag to 2016-06-26, later than the DeviantArt copy. A simplified version made in 2020 is not written here."
+}
+palette {
+  purple "#9d5aae"
+  lilac "#d48ce5"
+  light-lilac "#e8b5f6"
+  pale-lilac "#f9e0ff"
+  white "#ffffff"
+  pale-pink "#fed8f1"
+  light-pink "#fec3e7"
+  pink "#f7a9d9"
+  deep-pink "#e685c1"
+}
+proportion hoist=3 fly=5
+
+bars purple lilac light-lilac pale-lilac white pale-pink light-pink pink deep-pink

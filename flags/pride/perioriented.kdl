@@ -1,0 +1,33 @@
+// Bars 1:2:1, as measured from the designer's 1280 by 759 image (191, 382 and 184
+// pixels; derived). 5:3 is the common proportion. 31.6 pixels to a unit. A black disc of
+// radius 12.1 centered 6.1 from the hoist on the middle line, through the drawing's
+// tip 576 pixels out and its edge 235 pixels out at the top (derived).
+vexyl 1
+meta {
+  name "Perioriented flag"
+  designer "Fy, beyond-mogai-pride-flags (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-01-28"
+  source "https://web.archive.org/web/2018/https://beyond-mogai-pride-flags.tumblr.com/post/170234792500/perioriented-pride-flag"
+  source "https://www.deviantart.com/pride-flags/art/Perioriented-869557315"
+  note "Posted as 'Perioriented Pride Flag' on the Tumblr blog beyond-mogai-pride-flags on Sunday, 28 January 2018, signed '-Fy', read from a 2018 Wayback snapshot of the address above. The post defines perioriented as a person whose romantic and sexual orientations match, and gives no meanings, hex values or proportion. It does not say in words that Fy designed the flag; the DeviantArt reupload above says the flag was 'presumably created' on that blog that day."
+  note "The colors were read from the post's image (1280 by 759 PNG, fetched from Tumblr's media server): orange #e34d04, light orange #fdb08c, black #000000. They equal those of the DeviantArt redraw."
+  note "The black shape at the hoist is drawn by hand in the designer's image, a D flatter than a circle with slightly uneven edges. It is approximated here by a disc through its tip and its top corners. The DeviantArt redraw makes it a true circle, centered 4.5 of 24 units from the hoist with a radius of 13. The image's 1280:759 doesn't look deliberate, so the common 5:3 is used here."
+}
+palette {
+  orange "#e34d04"
+  light-orange "#fdb08c"
+  black "#000000"
+}
+proportion hoist=24 fly=40
+
+bars orange light-orange orange {
+  ratio 1 2 1
+}
+
+charge disc black {
+  at fly=6.1 hoist=12
+  radius 12.1
+}

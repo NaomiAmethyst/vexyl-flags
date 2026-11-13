@@ -1,0 +1,21 @@
+// 5:3, divided per bend sinister: two bars along the diagonal from the bottom of the hoist to the top of the fly.
+vexyl 1
+meta {
+  name "Queer anarchy flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Queer-Anarchy-Anarcha-queer-624861115"
+  source "https://commons.wikimedia.org/wiki/File:Queer_anarchism_flag.svg"
+  note "No designer or defining publication was found. It has the form of the anarchist flags divided diagonally between black and another color. The earliest copy found is a Wikimedia Commons drawing uploaded by Liftarn on 24 February 2006, 215 by 130 pixels, with pink #ff42ff in the triangle at the upper hoist and black below; its first upload summary called it 'The Anarcha-Feminist Flag', and its page now calls it the flag of queer anarchism. A 2023 edit there changed the pink to #ff00ff."
+  note "The colors are those of the Pride-Flags DeviantArt image 'Queer Anarchy / Anarcha-queer', published 29 July 2016, which is an aggregator's drawing, not a designer's: its 5000 by 3000 pixel PNG has #fe44ff above the diagonal and #000000 below. Its description defines queer anarchism and names no designer. The 5:3 proportion is that image's; the 2006 drawing's 215:130 is close to it."
+}
+palette {
+  pink "#fe44ff"
+  black "#000000"
+}
+proportion hoist=3 fly=5
+
+bars pink black {
+  along bend-sinister
+}

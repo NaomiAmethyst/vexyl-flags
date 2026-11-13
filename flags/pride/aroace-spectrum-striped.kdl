@@ -1,0 +1,26 @@
+// Ten equal bars, 5:3, from a 1154 by 692 copy.
+vexyl 1
+meta {
+  name "Aroace spectrum flag, ten-stripe design"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "aroace-spectrum-flag"
+  version "ten-stripe"
+  source "https://www.deviantart.com/pride-flags/art/Aroace-Spectrum-2-870952958"
+  note "The flag's designer and first publication were not found, so this is written from a secondary copy. The earliest copy found is the DeviantArt post above, 'Aroace Spectrum (2)' by the aggregator Pride-Flags, dated 2021-02-22. Its text is copied from the LGBTA wiki and describes a different flag, theflagarchive's four-bar aroace spectrum flag of August 2020 (aroace-spectrum), so it credits no one for this design and gives no meanings."
+  note "It is not the aroace-spec flag that LGBTQIA+ Wiki credits to an anonymous wiki user on 8 April 2021, which has nine bars of the theflagarchive ace-spec and aro-spec colors, nor neopronouns' ay-spec flag of November 2020, which has seven bars; both wiki images were checked."
+  note "Everything numeric was read from the DeviantArt post's preview image (1154 by 692, taken as PNG from DeviantArt's image server): ten equal bars of dark grey #545454, light grey #e7e7e7, white #fefefe, pink #f6ccf2, purple #bd50bb, green #93ec98, pale green #dffede, white, light grey, dark grey. The white is #fefefe in the copy and is kept so. The greys and whites mirror, but the middle four do not: pink and purple above, green and pale green below. The proportion 5:3 is the image's."
+}
+palette {
+  dark-grey "#545454"
+  light-grey "#e7e7e7"
+  white "#fefefe"
+  pink "#f6ccf2"
+  purple "#bd50bb"
+  green "#93ec98"
+  pale-green "#dffede"
+}
+proportion hoist=3 fly=5
+
+bars dark-grey light-grey white pink purple green pale-green white light-grey dark-grey

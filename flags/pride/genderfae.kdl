@@ -1,0 +1,26 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Genderfae flag"
+  designer "Pride-Flags (DeviantArt)"
+  designer "superpopcorn101 (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-01-09"
+  source "https://www.deviantart.com/pride-flags/art/Genderfae-656301909"
+  note "Defining source: 'Genderfae' by Pride-Flags on DeviantArt, published 2017-01-09 (read). Its description says 'Designed by: me and superpopcorn101', so the posting mod of the account and the DeviantArt user superpopcorn101; the mod is not named. The colors are a range without blue, for a fluid gender that never feels masculine, and pastel 'to give it a more fae feeling'. It gives no hex or proportion."
+  note "Construction and colors are read from the post's image (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, #97c3a5, #c3deae, #f9facd, #ffffff, #fca2c4, #db8ae4, #a97edd. This is my sampling, not hex the designers gave. The 3:5 proportion is the image's."
+}
+palette {
+  green "#97c3a5"
+  light-green "#c3deae"
+  cream "#f9facd"
+  white "#ffffff"
+  pink "#fca2c4"
+  orchid "#db8ae4"
+  purple "#a97edd"
+}
+proportion hoist=3 fly=5
+
+bars green light-green cream white pink orchid purple

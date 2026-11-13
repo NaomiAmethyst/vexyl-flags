@@ -1,0 +1,26 @@
+// Six equal bars, 3:5 (the designer's 1280 by 768 image).
+vexyl 1
+meta {
+  name "Neptunic flag"
+  designer "socialjusticeichigo (Tumblr, later loud-and-queer)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-09-17"
+  source "https://web.archive.org/web/20171008205832/http://socialjusticeichigo.tumblr.com/post/165451319627/i-tried-my-hand-at-making-some-flags-for-neptunic"
+  source "https://64.media.tumblr.com/189eba883f67be1924ff717582f1b7dc/tumblr_owfwzzNgw61qjbb2vo2_1280.png"
+  source "https://www.deviantart.com/pride-flags/art/Neptunic-725137639"
+  note "Designer's own post on the Tumblr blog socialjusticeichigo, published 17 September 2017 per the page's data (Wayback Machine, 8 October 2017): 'I tried my hand at making some flags for Neptunic and Uranic.' It defines neptunic as 'Attraction to women, agender people, and all nbs who are not male-aligned or masculine. Synonymous with nomasexual/romantic.' The same post is at loud-and-queer.tumblr.com under the same number, the blog's later name. Pride-Flags' upload of January 2018 credits socialjusticeichigo and gives the meaning as 'Neptune colors'."
+  note "The post is a photoset of two unlabeled images, Neptunic's and Uranic's named in that order in its text, and this is the first image, the one Pride-Flags labels Neptunic. The proportion, equal stripes and colors are read from it, 1280 by 768 pixels (3:5): #049bba, #3ad5c7, #73e9d3, #a1e7ef, #9ab0ea and #9698ee. Pride-Flags' 5000 by 3000 upload has the same values."
+}
+palette {
+  teal "#049bba"
+  turquoise "#3ad5c7"
+  light-turquoise "#73e9d3"
+  pale-blue "#a1e7ef"
+  periwinkle "#9ab0ea"
+  lavender "#9698ee"
+}
+proportion hoist=3 fly=5
+
+bars teal turquoise light-turquoise pale-blue periwinkle lavender

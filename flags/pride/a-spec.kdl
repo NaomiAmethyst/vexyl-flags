@@ -1,0 +1,33 @@
+// Quarters, 5:3, from the designer's 1280 by 768 image (64 pixels to a unit).
+// Four-pointed star at the center: points 320 pixels out (5 units), inner corners
+// 66 pixels out on each axis, so 93.3 pixels or 1.46 units out on the diagonals (derived).
+vexyl 1
+meta {
+  name "A-spec flag"
+  designer "the-moon-is-aroace (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2019-03-25"
+  source "https://web.archive.org/web/20190514231517/https://the-moon-is-aroace.tumblr.com/post/183702972387/a-new-flag-for-the-aspec-community-just-an-idea-i"
+  design-rights "The designer's post asks for credit when the flag is used ('I ask that you simply give me credit. No need to tag me') and gives permission to use it in pride merch without asking. This file's license covers the encoding, not the design."
+  note "Designer's own Tumblr post, 'A new flag for the aspec community', dated Mar 25th, 2019, read from the Wayback snapshot above. It says this is the first time the flag has gone public. The compass rose stands for the different ways people experience attraction; green and purple sit in opposite quarters to show aromanticism and asexuality as separate identities, with black (aroace) and grey (grey aspec) connecting them. The post gives no hex values or proportion."
+  note "Everything numeric was read from the post's flag image (1280 by 768 PNG, fetched from the same snapshot): black #000000, green #3da542, purple #800080, grey #999999, white #ffffff. The quarters meet at the image's center. The proportion 5:3 is the image's."
+  note "The compass rose is drawn as the format's four-pointed star. Its outer points are measured at 320 pixels from the center, and its inner corners at 66 pixels across and 66 down; it is an approximation of the designer's drawing to within a pixel or two."
+}
+palette {
+  black "#000000"
+  green "#3da542"
+  purple "#800080"
+  grey "#999999"
+  white "#ffffff"
+}
+proportion hoist=12 fly=20
+
+quarters black green purple grey
+
+charge star white {
+  points 4
+  radius 5
+  inner 1.46
+}

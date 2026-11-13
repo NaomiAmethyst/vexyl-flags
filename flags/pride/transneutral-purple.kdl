@@ -1,0 +1,25 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Transneutral flag, purple"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "transneutral-flag"
+  version "purple-2016"
+  source "https://www.deviantart.com/pride-flags/art/Transneutral-%282%29-638170649"
+  source "https://www.deviantart.com/pride-flags/art/Transneutral-1-638170653"
+  source "https://web.archive.org/web/20250415153059/https://pride-color-schemes.tumblr.com/post/156481940995/transneutral"
+  source "https://lgbtqia.wiki/wiki/Transneutral"
+  note "The designer and first publication were not found. The earliest copy read is 'Transneutral (2)' by Pride-Flags on DeviantArt, published 2016-10-05 UTC, which credits no one. Its sibling 'Transneutral (1)', posted a second later, is the same design in greens. The same account's Tumblr, pride-color-schemes, reposted all three colorings, green, purple and yellow, on 28 January 2017 with 'Designed by: Unknown', and said green, purple and yellow are common nonbinary colors because they are not blue or pink, or are a mix of them. lgbtqia.wiki likewise says the three were designed by an unknown person on or before 5 October 2016."
+  note "Construction and colors are read from the DeviantArt post's image (5000 by 3000 PNG), which is not shown to be the designer's: five bars of 601, 600, 598, 600 and 601 pixels, taken as equal, #c09eff, #9436f5, #dac6ff, #9436f5, #c09eff. The 3:5 proportion is the image's."
+  note "This is an earlier and different design from arco-pluris's 2018 BTX/BTNB flag, the other file in this series, which has the transgender flag's blue and pink. The green and yellow colorings are not written here."
+}
+palette {
+  lavender "#c09eff"
+  purple "#9436f5"
+  pale-lavender "#dac6ff"
+}
+proportion hoist=3 fly=5
+
+bars lavender purple pale-lavender purple lavender

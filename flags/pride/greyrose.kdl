@@ -1,0 +1,23 @@
+// Five equal bars. 5:3 is the common proportion; the designer's image is 998 by 998.
+vexyl 1
+meta {
+  name "Grey aroace flag"
+  designer "aroaesflags (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-12-26"
+  source "https://web.archive.org/web/20251120005308/https://aroaesflags.tumblr.com/post/181441023411/i-was-thinking-that-i-liked-the-idea-of-aroaces"
+  design-rights "The blog's description says its edits are free to use with credit, and asks not to repost them. This file's license covers the encoding, not the design."
+  note "Designer's own Tumblr post on aroaesflags, the blog that made the aroace flag (aroace-flag), read from the Wayback snapshot above and dated Dec 26 2018 on the page. It says the designer liked aroaces being represented by blue, taken from the oriented aroace flag and their own aroace flag, and applied it to demi-aroace, grey-aroace and aroaceflux flags. It gives no meanings for each bar, hex values or proportion. The grey-aroace identity is also called greyrose."
+  note "The colors were read from the post's grey-aroace image (998 by 998 PNG, fetched from Tumblr's media server): dark blue #205474, grey #b0b2af, white #ffffff, grey, dark blue, in five bars of about 200 pixels, taken as equal. The image is square, which does not look like a deliberate proportion, so the common 5:3 is used here."
+  note "Other grey aroace flags exist, among them a yellow, grey, white, grey and light blue design that a 2021 DeviantArt reupload (Pride-Flags, 'Gray Aroace (4)') links to a 2020 Tumblr thread; it is not this file."
+}
+palette {
+  dark-blue "#205474"
+  grey "#b0b2af"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars dark-blue grey white grey dark-blue

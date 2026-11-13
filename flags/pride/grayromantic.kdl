@@ -1,0 +1,20 @@
+// Five equal bars, 5:3.
+vexyl 1
+meta {
+  name "Grayromantic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://crwflags.com/fotw/flags/qq-arom.html"
+  source "https://web.archive.org/web/2017/http://queerascat.com/2017/08/queerascat-pride-flags-queerascat/"
+  note "The designer's own post was not reached, so this is written from secondary sources. FOTW says the flag was introduced on Tumblr in 2014 as the gray asexuality flag (grey-asexuality-flag) with its purple replaced by aromantic green, citing a reblog of 20 October 2014 whose address names the blog lesbiangamora; wikis credit that blog (later lesbiandoe), and that reblog and an earlier one of 22 September 2014 could not be read from the Wayback Machine. The blogger Queer As Cat, who made the same green recoloring in March 2015 (the source of demiromantic-pride-flag), wrote in August 2017 that someone had had the same idea in 2014, read from a 2017 Wayback snapshot of the address above."
+  note "Five equal bars of green, gray, white, gray and green follow FOTW's description and drawing. The colors are FOTW's drawing's (its 360 by 216 GIF, by Tomislav Todorović), #339933 and #b3b3b3, not the designer's; the proportion 5:3 is that drawing's and the common one."
+}
+palette {
+  green "#339933"
+  gray "#b3b3b3"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars green gray white gray green

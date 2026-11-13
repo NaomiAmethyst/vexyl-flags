@@ -1,0 +1,43 @@
+// Bars 1:2:1, 5:3, from a 1154 by 692 copy (173, 346 and 173 pixels).
+// Three triangles on the bottom of the white bar, each a third of the fly wide at its
+// base, with its apex on the top of the white bar (18 of 36 units high).
+vexyl 1
+meta {
+  name "Arospike flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/2017/http://pride-color-schemes.tumblr.com/post/146492080643/arospike"
+  source "https://www.deviantart.com/pride-flags/art/Arospike-1-554424597"
+  note "The flag's designer and first publication were not found, so this is written from secondary copies. The DeviantArt post above, by the aggregator Pride-Flags and dated 2015-08-17, credits the design to a pride-flags-for-us Tumblr post (125897379189), which the Wayback Machine does not have. The Tumblr blog pride-color-schemes reposted it on 26 June 2016 (read from a 2017 Wayback snapshot of the address above) with 'Term coined by: Unknown' and 'Designed by: Anonymous'. Its image description says the black bars are half the width of the middle bar and the three triangles on it are equilateral and point upward."
+  note "Everything numeric was read from the DeviantArt post's preview image (1154 by 692, taken as PNG from DeviantArt's image server): black #000000 bars of 173 pixels around a white #ffffff bar of 346, and three triangles, grey #a3a3a3, green #3da542 and grey, whose bases meet along the bottom of the white bar and fill the fly. The proportion 5:3 is the image's."
+}
+palette {
+  black "#000000"
+  white "#ffffff"
+  grey "#a3a3a3"
+  green "#3da542"
+}
+proportion hoist=36 fly=60
+
+bars black white black {
+  ratio 1 2 1
+}
+
+charge polygon grey {
+  point fly=0 hoist=27
+  point fly=20 hoist=27
+  point fly=10 hoist=9
+}
+
+charge polygon green {
+  point fly=20 hoist=27
+  point fly=40 hoist=27
+  point fly=30 hoist=9
+}
+
+charge polygon grey {
+  point fly=40 hoist=27
+  point fly=60 hoist=27
+  point fly=50 hoist=9
+}

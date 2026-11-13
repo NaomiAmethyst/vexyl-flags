@@ -1,0 +1,31 @@
+// 4:1:11:1:4 bars on 3:5 (the image's 571, 143, 1571, 143 and 571 of 3000 pixels), and a heart:
+// radius 0.295, spread 0.537, at fly 2.5 hoist 1.336.
+vexyl 1
+meta {
+  name "Polyromantic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Polyromantic-557108724"
+  source "https://web.archive.org/web/20181217220517/https://pride-color-schemes.tumblr.com/post/146931834176/poly"
+  source "https://lgbtqia.wiki/wiki/Polyromantic"
+  note "The designer's post wasn't read. The earliest publication read is 'Polyromantic' by Pride-Flags on DeviantArt, published 29 August 2015, whose 'Flag source' link is a post on the Tumblr blog pride-flags-for-us (127899540459, 'Hi, I couldn't find any polyromantic flag and...'), apparently a reader's submission. That post isn't in the Wayback Machine. The Tumblr blog pride-color-schemes (5 July 2016) describes this flag as five stripes, the center three times as wide as the outer ones and the second and fourth very narrow, pink, yellow, green, yellow and blue, with a yellow heart centered, and gives its designer as '[Deactivated]'. So the designer isn't named here."
+  note "Everything here is read from the Pride-Flags upload's 5000 by 3000 pixel image, not the designer's: the 3:5 proportion, the bars of 571, 143, 1571, 143 and 571 pixels, which are 4:1:11:1:4 of 21, and the colors #ff8cf5, #ffe169, #3aa657 and #558ff2, the heart being the same yellow as the narrow stripes. The heart is the format's heart shape with a wider spread than its default, fitted to the image's heart to within 0.3 percent of the flag's area. The image's heart is 1.09 wide and 0.93 high, on a hoist of 3, and this one is 1.13 by 0.98, its lobes a little rounder."
+}
+palette {
+  pink "#ff8cf5"
+  yellow "#ffe169"
+  green "#3aa657"
+  blue "#558ff2"
+}
+proportion hoist=3 fly=5
+
+bars pink yellow green yellow blue {
+  ratio 4 1 11 1 4
+}
+
+charge heart yellow {
+  radius 0.295
+  spread 0.537
+  at fly=2.5 hoist=1.336
+}

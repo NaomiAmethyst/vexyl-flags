@@ -1,0 +1,25 @@
+// Five bars on a 3:5 field: three wide and two narrow white, 4:1:4:1:4.
+vexyl 1
+meta {
+  name "Graygender flag"
+  designer "Pride-Flags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-08-24"
+  source "https://www.deviantart.com/pride-flags/art/Graygender-Gray-Agender-555820442"
+  source "https://lgbtqia.fandom.com/wiki/Graygender"
+  note "Defining source: 'Graygender / Gray Agender' by Pride-Flags on DeviantArt, published 2015-08-24 UTC (23 August, Pacific time; read). It gives the meanings: grey for the spectrum of experience the identity covers, blue for graygender as an identity, likened to deep ocean water, and white for the purity and validity of graygender people. The post itself names no designer; the LGBTQIA+ Wiki (Fandom) says the flag was designed by Pride-Flags on that date."
+  note "Construction and colors are read from the post's image (5000 by 3000 PNG): bars of 856, 215, 859, 214 and 856 pixels, which is 4:1:4:1:4 on a 3000-pixel hoist, colored #bfbebe, #ffffff, #082384, #ffffff, #515151. This is my sampling, not hex the designer gave. The 3:5 proportion is the image's."
+}
+palette {
+  light-grey "#bfbebe"
+  white "#ffffff"
+  blue "#082384"
+  dark-grey "#515151"
+}
+proportion hoist=3 fly=5
+
+bars light-grey white blue white dark-grey {
+  ratio 4 1 4 1 4
+}

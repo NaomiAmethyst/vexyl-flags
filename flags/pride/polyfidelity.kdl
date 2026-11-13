@@ -1,0 +1,22 @@
+// Three equal bars, 5:3.
+vexyl 1
+meta {
+  name "Polyfidelitous Pride Flag"
+  designer "beyond-mogai-pride-flags (Tumblr), signed 'ap'"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-08-16"
+  source "https://web.archive.org/web/20220120213810/https://beyond-mogai-pride-flags.tumblr.com/post/177069544265/polyfidelity-pride-flag"
+  note "The beyond-mogai-pride-flags Tumblr post 'Polyfidelitous Pride Flag', as the Wayback Machine held it on 20 January 2022, posted on 16 August 2018 and signed '~ ap', defines polyfidelity: an intimate polyamorous structure where all members are considered equal partners and agree to restrict sexual and affectional activity to the group. It gives no color meanings, measurements or color values, and names no designer but the blog."
+  note "The post's image is a PNG of 1280 by 768 pixels, 5:3, which this file uses. It draws three equal bars of 256 pixels."
+  note "The colors are the image's exact pixel values: yellow #e3e359, tan #c79461 and purple #9630da. The image is Tumblr's copy at its largest size, which may have been resized from the upload."
+}
+palette {
+  yellow "#e3e359"
+  tan "#c79461"
+  purple "#9630da"
+}
+proportion hoist=3 fly=5
+
+bars yellow tan purple

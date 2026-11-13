@@ -1,0 +1,23 @@
+// Four equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Gender neutral flag"
+  designer "enbygsrd (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2016-09-16"
+  source "https://www.deviantart.com/enbygsrd/art/Gender-Neutral-Pride-Flag-proposal-634785329"
+  source "https://www.deviantart.com/pride-flags/art/Gender-Neutral-2-672617979"
+  note "Defining source: 'Gender Neutral Pride Flag (proposal)' by enbygsrd on DeviantArt, published 2016-09-16 (read, with its full-size image). The description says only that the gallery's designs are free to use for anything pride-related; it gives no meanings, hex or proportion. Pride-Flags reposted it on 2017-04-02 with credit to enbygsrd."
+  note "Construction and colors are read from the designer's image (5000 by 3000 PNG): four equal bars of 750 pixels, yellow #fff433, white #ffffff, light green #c0f68e, green #21b14c. This is my sampling, not hex the designer gave. The 3:5 proportion is the image's."
+}
+palette {
+  yellow "#fff433"
+  white "#ffffff"
+  light-green "#c0f68e"
+  green "#21b14c"
+}
+proportion hoist=3 fly=5
+
+bars yellow white light-green green

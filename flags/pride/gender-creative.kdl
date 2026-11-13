@@ -1,0 +1,27 @@
+// Three bars in the ratio 2:1:2 on a 9:5 field: the white is one fifth of the hoist.
+vexyl 1
+meta {
+  name "Gender creative pride flag"
+  designer "Leslie Krause"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  design-rights "CC0-1.0, as the designer's page states"
+  date "2015-07-19"
+  source "https://web.archive.org/web/20221004071308/https://www.freedressing.org/pride_flag.html"
+  source "https://web.archive.org/web/20190822222157/http://www.freedressing.org/pride_flag.html"
+  source "https://web.archive.org/web/2019id_/http://www.freedressing.org/images/gcpride_preview.png"
+  source "https://commons.wikimedia.org/wiki/File:Gendercreative_pride_flag.svg"
+  note "Defining source: the Freedressing Campaign's 'Gender Creative Pride Flag' page (read at both snapshots above), which credits the design to Leslie Krause (2015) and calls it the gender nonconforming pride flag. It says the flag is two exterior lavender fields, a composite of the transgender flag's pink and blue, with an interior white field one-fifth the proportion to the height; lavender is the blurring of conventional ideals of masculinity and femininity, white is freedom of gender expression, or freedressing. The 2022 snapshot adds that the flag was released into the public domain (CC0) on 19 July 2015, which is the date here."
+  note "The page gives no hex or proportion. The lavender is sampled from the page's own preview image (400 by 283 PNG, read; the archive served a 2024 capture of it) as #8b16b3; the Commons vector the page links to uses #8b17b3. In the preview the flag measures 332 by 174 pixels, bars of 69, 36 and 69, which agrees with 2:1:2. The 9:5 proportion is that of the Commons vector the page points to, drawn by a Commons user from the campaign's Facebook post; the preview is nearer 1.9."
+  note "This file's license covers the encoding, not the design."
+}
+palette {
+  lavender "#8b16b3"
+  white "#ffffff"
+}
+proportion hoist=5 fly=9
+
+bars lavender white lavender {
+  ratio 2 1 2
+}

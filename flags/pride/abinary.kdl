@@ -1,0 +1,24 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Abinary flag"
+  designer "Beyond MOGAI Pride Flags (Tumblr), post signed Kau"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-05-15"
+  source "https://web.archive.org/web/20210610022555/https://beyond-mogai-pride-flags.tumblr.com/post/173942640780/abinary-pride-flag"
+  source "https://64.media.tumblr.com/cdfeff8b47471b253d4f155513b4e0bc/122dd099d1659a39-7e/s500x750/7251dc6778a3ba3030331b7fc228251b3ff56e32.png"
+  source "https://www.deviantart.com/pride-flags/art/Abinary-748394484"
+  note "Defining source: the post 'Abinary Pride Flag' on Beyond MOGAI Pride Flags, posted on Tuesday 15 May 2018 (read at the snapshot above). It defines abinary as anyone whose gender is completely unrelated to the gender binary and is signed '-Kau', one of the blog's mods. It gives no meanings, hex or proportion. The Pride-Flags upload on DeviantArt (5 June 2018) credits 'beyond-mogai-pride-flags.tumblr.com'."
+  note "Construction and colors are read from the post's image (500 by 300 PNG, read): five equal bars of 60 pixels, #ffd900, #fff975, #ffffff, #fff975, #ffd900. This is my sampling, not hex given by the designer. The 3:5 proportion is the image's."
+  note "The Pride-Flags upload has paler yellows (#fee737 and #fef492); this file follows the designer's own image."
+}
+palette {
+  yellow "#ffd900"
+  light-yellow "#fff975"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars yellow light-yellow white light-yellow yellow

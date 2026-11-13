@@ -1,0 +1,22 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Demineutrois flag"
+  designer "Mod Hermy (Pride-Flags, DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-01-10"
+  source "https://www.deviantart.com/pride-flags/art/Demineutrois-2-724827277"
+  note "Defining source: 'Demineutrois (2)' by Pride-Flags on DeviantArt, published 2018-01-10 (read). Its description says 'Designed by: Mod Hermy (by request)', a mod of the account, and gives as the only meaning 'A combination of the demigender and neutrois flags'. It gives no hex or proportion."
+  note "Construction and colors are read from the post's image (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, grey #7f7f7f, light grey #c3c3c3, green #2f9c1d, white #ffffff, green, light grey, grey. This is my sampling, not hex the designer gave. The 3:5 proportion is the image's."
+}
+palette {
+  grey "#7f7f7f"
+  light-grey "#c3c3c3"
+  green "#2f9c1d"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars grey light-grey green white green light-grey grey

@@ -1,0 +1,26 @@
+// Four equal bars, 3:5.
+vexyl 1
+meta {
+  name "Sappho-inspired lesbian flag"
+  designer "Lydia (kispesan on Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-06-26"
+  design-rights "The designer's post says anyone is free to use the flag, even commercially, and asks only that anyone who asks where it came from be directed to the post. This file's license covers the encoding, not the design."
+  source "https://web.archive.org/web/20210718032443/https://kispesan.tumblr.com/post/175281520234/the-sapphic-flag-this-flag-was-originally-a"
+  source "https://lgbtqia.fandom.com/wiki/Lesbian#Sappho-inspired_flag"
+  note "The designer's post 'The Sapphic Flag' by Lydia (@kispesan), published 26 June 2018 per the page's data, was read in the Wayback Machine's snapshot of 18 July 2021. That snapshot's text has been updated since 2018: it mentions later events, such as the official-lesbian-flag poll, and says the flag, first a lesbian flag proposal, became known as 'the sapphic flag'. It is a different design from the violet sapphic flag (sapphic)."
+  note "The post's chart image gives each color's name, meaning and value: Sapphic Love #663399 (violet, for the violets lesbians gave each other), Fragility #FF6699 (pink, for Sappho's rosebuds), Strength #FFCC33 (yellow, for crocuses) and Healing #66CC33 (green, for dill), from Sappho's poem as translated by Mary Barnard. The designer says they are web-safe colors. Its 1280 by 823 pixel flag image has the same four colors in four equal stripes of 205 pixels."
+  note "The post says the designer's first order was purple, yellow, green, pink, and that Maya Kern suggested the order used here, purple, pink, yellow, green. That earlier order isn't encoded."
+  note "No proportion is given, and the flag image's 1280:823, 1.555, isn't a common one, so this file uses the common 3:5."
+}
+palette {
+  violet "#663399"
+  pink "#ff6699"
+  yellow "#ffcc33"
+  green "#66cc33"
+}
+proportion hoist=3 fly=5
+
+bars violet pink yellow green

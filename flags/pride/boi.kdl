@@ -1,0 +1,24 @@
+// Five equal bars, 5:3, the proportion of each flag in the post's 1280 by 384 pixel image.
+vexyl 1
+meta {
+  name "Boi flag"
+  designer "BoiQirl, a group of Black qirls and bois, from a scrap design by Hermy of Pride-Flags"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-02-20"
+  source "https://web.archive.org/web/20190411062524/https://ask-pride-color-schemes.tumblr.com/post/157464592584/so-i-guess-just-to-make-sure-you-know-im-black"
+  source "https://64.media.tumblr.com/d8a93cf17750f0876c8c6629e84d6613/tumblr_olnfd0ri0a1vzpsmto1_1280.png"
+  source "https://lgbtqia.wiki/wiki/Boi"
+  note "Boi here is a gender, as coined, for Black people only, related to boy but separate from it; the older uses of the word in lesbian and gay culture are different. The flag was submitted by BoiQirl to the Tumblr blog ask-pride-color-schemes and posted there on 20 February 2017, per the page's data (Wayback Machine, 11 April 2019). The submitter says they are Black and identify as qirl, and that they and friends who are qirl or boi adapted two of the blog's scrap designs, 68 and 69. Hermy of the blog answered that the scraps are free to change, and that the edited flags had been added to the Pride-Flags gallery."
+  note "The submission says the green of scrap 68 was made more blue-teal, still ambiguous between blue and green, so that boi stays separate from boy and the Western binary, and asks that the middle stripes of the qirl and boi flags differ, so they aren't read as opposites. Its image description reads: bright teal or seafoam green, gray with a hint of green, dark blueish green, gray with a hint of green, bright teal or seafoam green."
+  note "The colors are read from the post's image, 1280 by 384 pixels, with the qirl flag on the left and the boi flag on the right, each 640 by 384, 5:3: #00ffcd, #d2d8d2 and #255252, in five stripes of about 77 pixels. The paired qirl flag isn't encoded."
+}
+palette {
+  seafoam "#00ffcd"
+  grey-green "#d2d8d2"
+  dark-teal "#255252"
+}
+proportion hoist=3 fly=5
+
+bars seafoam grey-green dark-teal grey-green seafoam

@@ -1,0 +1,31 @@
+// Grid 10 by 6, the designer's 500 by 300 pixel image in units of 50. Quarters split at the
+// center. The white pile stands on the top edge from 1 to 9 and reaches the bottom edge, 6.
+vexyl 1
+meta {
+  name "Transsex flag"
+  designer "beyond-mogai-pride-flags (Tumblr), mod a-p"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-02-14"
+  source "https://web.archive.org/web/20241207085605/https://beyond-mogai-pride-flags.tumblr.com/post/190825906610/transex-pride-flag"
+  source "https://lgbtqia.wiki/wiki/Transsex"
+  note "Defining source: the post 'Transex Pride Flag' by beyond-mogai-pride-flags, posted by the blog on Friday 14 February 2020 and signed by mod a-p, read at the Wayback Machine snapshot above. It defines transex (transsex, transexed or transsexed) as a sex label, close to transsexual and transgender but not the same, and an umbrella for labels such as transgenital and transgonadal. It gives no color meanings or values."
+  note "Construction and colors are read from the post's image (500 by 300 PNG, 5:3): quartered blue and pink, blue in the upper hoist and lower fly, with a white triangle standing on the top edge from 50 to 450 pixels and its point at the middle of the bottom edge. Colors: blue #00a2e8, white #ffffff, and two pinks, #ffa8be in the upper fly and #ffaec9 in the lower hoist. The two pinks are kept as drawn, though the difference may not be intended. This is my sampling, not hex the designer gave."
+  note "Pride-Flags' DeviantArt 'Transsexual (1)' of 22 August 2015 is a different, older flag: seven pink and blue stripes parted by white, with a lavender male-and-female symbol near the hoist, after Johnathan Andrew's 1999 transgender flag. It is not this flag."
+}
+palette {
+  blue "#00a2e8"
+  pink "#ffa8be"
+  light-pink "#ffaec9"
+  white "#ffffff"
+}
+proportion hoist=6 fly=10
+
+quarters blue pink light-pink blue
+
+pile white {
+  from top
+  base 1 9
+  depth 6
+}

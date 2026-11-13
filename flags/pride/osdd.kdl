@@ -1,0 +1,30 @@
+// Six equal bars, 5:3, the proportion of the designer's 1000 by 600 pixel image.
+vexyl 1
+meta {
+  name "OSDD flag"
+  designer "dexter (neopronouns on Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-10-22"
+  series "osdd-flag"
+  version "original"
+  design-rights "The designer's blog header says all of its edits are free to use, preferably with credit. This file's license covers the encoding, not the design."
+  source "https://web.archive.org/web/20220730124418/https://neopronouns.tumblr.com/post/632692357828050944/a-general-osdd-flag-can-be-used-to-represent-any"
+  source "https://64.media.tumblr.com/37d30683683fbf836cc6d7c95e82d039/b74ca6e3959213ad-f6/s1280x1920/8232267d8954a2feb24d16e2801eb2ae77b79cc8.png"
+  source "https://web.archive.org/web/20260104213042/https://pluralpedia.org/w/Other_Specified_Dissociative_Disorder"
+  note "The designer, dexter of the Tumblr blog neopronouns, posted 'a general osdd flag! can be used to represent any of the subsets/types of osdd or osdd in general', inspired by three linked flags, on 22 October 2020 (Wayback Machine, 30 July 2022). The post gives no meanings or hex values."
+  note "The colors are read from the post's flag image, 1000 by 600 pixels with six stripes of exactly 100: #fab067, #c2835a, #bdbdbd, #8462b8, #5d4f72 and #41005f. The 5:3 proportion is the image's. The post's second image is a banner, not a flag."
+  note "Pluralpedia's main OSDD flag is a slightly tweaked version of this one by comet-queer, whose post (633514644342013952) couldn't be read. That version isn't encoded."
+}
+palette {
+  orange "#fab067"
+  brown "#c2835a"
+  grey "#bdbdbd"
+  purple "#8462b8"
+  grey-purple "#5d4f72"
+  dark-purple "#41005f"
+}
+proportion hoist=3 fly=5
+
+bars orange brown grey purple grey-purple dark-purple

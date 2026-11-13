@@ -1,0 +1,25 @@
+// Three equal vertical bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Androgyne flag"
+  designer "saveferris (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2011-03-29"
+  source "https://web.archive.org/web/20210725183243/https://saveferris-blog.tumblr.com/post/4197413679"
+  source "https://64.media.tumblr.com/tumblr_liuifuhVcr1qap28oo1_1280.jpg"
+  note "Defining source: the post 'Voilà. Androgynous flag.' on saveferris-blog.tumblr.com (read at the snapshot above), dated Mar 29 on the page. The year 2011 is from the post's notes, whose loader carries a timestamp of 30 March 2011. The post has only that line and the image, so it gives no meanings, hex or proportion. Meanings found elsewhere come from later reposts, not from the designer."
+  note "Construction and colors are read from the post's image (1024 by 651 JPEG, read): three equal vertical bars, pink, purple and blue from the hoist, with median values #fe007f, #9832ff and #00b8e7. This is my sampling of a JPEG, not hex the designer gave."
+  note "The image's proportion, 1.57, is not a clear ratio, so the common 3:5 is used."
+}
+palette {
+  pink "#fe007f"
+  purple "#9832ff"
+  blue "#00b8e7"
+}
+proportion hoist=3 fly=5
+
+bars pink purple blue {
+  along hoist
+}

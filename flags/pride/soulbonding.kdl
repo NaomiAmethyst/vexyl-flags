@@ -1,0 +1,47 @@
+// 5:3 on the designer's 1280 by 768 pixel image, five equal bars of 153.6.
+// Two discs, each a light disc of radius 111.5 inside a disc of its bar's color of radius 152,
+// centered on the second bar 392.5 from the fly and on the fourth bar 392.5 from the hoist.
+vexyl 1
+meta {
+  name "Soulbonding flag"
+  designer "vesiamor (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-10-29"
+  source "https://web.archive.org/web/20260210100826/https://vesiamor.tumblr.com/post/633347566421016576/hi-there-so-weve-been-really-nervous-about"
+  source "https://64.media.tumblr.com/c3ffd33e4fae15b77b9c9dae42cb2fd9/1ab0e1f5e216c25f-58/s1280x1920/86d7c091b9b2da56fa8ad1b85edd04dd13c32aac.png"
+  source "https://web.archive.org/web/20251229220711/https://pluralpedia.org/w/Soulbonding"
+  note "The designers, the system vesiamor, posted 'our take on a soulbond/soulbonding flag' on 29 October 2020, per the page (Wayback Machine, 10 February 2026). The post first limited the flag to the metaphysical definition of soulbonding, then was edited to say it can be used for any definition. It credits the flag template to @neopronouns. The meanings, top to bottom: red, the energy used to summon a soulbond; orange, the spectrum of relationships a soulbond and soulbonder can have; beige, unity between soulbond and soulbonder, and variance in soulbonding experiences; purple, the forces that bring them together, spirituality or the metaphysical; dark blue, the travel across timespace that brings a soulbond to their soulbonder. The post doesn't explain the two discs."
+  note "The colors and geometry are read from the post's flag image, 1280 by 768 pixels: bars #da3c2c, #e5702f, #ffcc99, #a838e7 and #000135, about 153.6 pixels each; on the orange bar, a #f1a874 disc of radius 111.5 inside an orange disc of radius 152.5, centered 887.5 from the hoist and 229.5 down; on the purple bar, a #ed91f7 disc of radius 111 inside a purple disc of radius 151.5, centered 393 from the hoist and 536.5 down. The two are placed symmetrically about the flag's center, so this file uses one size for both and centers them on their bars' middles. The discs are simple circles drawn with the format's own shape. The 5:3 proportion is the image's. The post gives no hex values."
+  note "The same post's other image shows the flag with labels. Separate soulbonder and soulbond flags were posted the same day, and aren't encoded."
+}
+palette {
+  red "#da3c2c"
+  orange "#e5702f"
+  beige "#ffcc99"
+  purple "#a838e7"
+  dark-blue "#000135"
+  peach "#f1a874"
+  pink "#ed91f7"
+}
+proportion hoist=768 fly=1280
+
+bars red orange beige purple dark-blue
+
+charge disc orange {
+  radius 152
+  at fly=887.5 hoist=230.4
+}
+charge disc peach {
+  radius 111.5
+  at fly=887.5 hoist=230.4
+}
+charge disc purple {
+  radius 152
+  at fly=392.5 hoist=537.6
+}
+charge disc pink {
+  radius 111.5
+  at fly=392.5 hoist=537.6
+}

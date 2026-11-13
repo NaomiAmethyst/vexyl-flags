@@ -1,0 +1,23 @@
+// Four equal bars, 3:2, from the designer's image (1440 by 960 pixels).
+vexyl 1
+meta {
+  name "Asexual spectrum flag"
+  designer "theflagarchive (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2020-07-25"
+  source "https://web.archive.org/web/20210814095909/https://theflagarchive.tumblr.com/post/624655680467599360/asexual-spectrum-flag-while-i-like-the-asexual"
+  note "Designer's own post on the Tumblr blog Flag Archive (theflagarchive), read from the Wayback snapshot above; the page's metadata dates it 2020-07-25. It says any ace-spec person can use the flag and gives the meanings: dark blue, the community, its history and solidarity; purple, asexuality of all kinds; 'red' (the third bar, drawn pink), self determination and pride; cream, diversity in experiences and types of attraction. It gives no hex values or proportion. Wiki pages are reported to name the blog's author Potion, which the post does not show."
+  note "The colors were read near the hoist edge of the post's flag image, which has text across its bars (the 500 by 333 copy Tumblr serves of a 1440 by 960 original, fetched from Tumblr's media server): #151847, #7657ae, #da92b4, #ffeced. The bars are equal, and the proportion 3:2 is the image's."
+  note "The Fandom wiki's file page is reported to credit a kyanitedragon post (624812264044789760) instead; it was not reached. The theflagarchive post is two days older. The same blog's aromantic spectrum flag was made as its pair."
+}
+palette {
+  dark-blue "#151847"
+  purple "#7657ae"
+  pink "#da92b4"
+  cream "#ffeced"
+}
+proportion hoist=2 fly=3
+
+bars dark-blue purple pink cream

@@ -1,0 +1,22 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Polygender flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Polygender-%281%29-543925900"
+  source "https://lgbtqia.fandom.com/wiki/Polygender"
+  note "The designer and first publication were not found. The earliest copy read is 'Polygender (1)' by Pride-Flags on DeviantArt, published 2015-07-04 UTC (3 July, Pacific time), which says 'Flag by Unknown'. It gives the meanings: pink and blue for femininity and masculinity and those who feel partially female or male, yellow for genders outside the binary, black for those who feel partially agender, grey for those whose genders change or fluctuate."
+  note "Construction and colors are read from that post's image (5000 by 3000 PNG), which is not shown to be the designer's: five bars of 601, 600, 598, 600 and 601 pixels, taken as equal, #000000, #939393, #ed94c5, #f5ed81, #64bbe6. The 3:5 proportion is the image's."
+}
+palette {
+  black "#000000"
+  grey "#939393"
+  pink "#ed94c5"
+  yellow "#f5ed81"
+  blue "#64bbe6"
+}
+proportion hoist=3 fly=5
+
+bars black grey pink yellow blue

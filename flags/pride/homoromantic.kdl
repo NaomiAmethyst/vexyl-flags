@@ -1,0 +1,40 @@
+// Six equal bars on 3:5, lightened outside a heart. Heart: radius 0.986, default spread, at fly 2.5 hoist 0.99.
+vexyl 1
+meta {
+  name "Homoromantic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Homoromantic-1-605329786"
+  source "https://web.archive.org/web/20181217214046/https://pride-color-schemes.tumblr.com/tagged/homoromantic"
+  source "https://lgbtqia.wiki/wiki/Homoromantic"
+  note "No designer's publication was found. The earliest publication read is 'Homoromantic (1)' by Pride-Flags on DeviantArt, published 25 April 2016 at 23:33 Pacific time. Its page names no designer and gives the six-stripe rainbow flag's meanings: red life, orange healing, yellow sunlight, green nature, blue serenity and harmony, purple spirit. lgbtqia.wiki says the flag was made by Pride-Flags on 26 April 2016, which this file doesn't treat as verified. The Tumblr blog pride-color-schemes, run by the same people, shows it on 5 July 2016 as the rainbow flag with 'a large heart is overlaid on the flag. Outside the heart, the colors are slightly lighter', and credits the rainbow flag to Gilbert Baker."
+  note "This is the six-stripe rainbow flag (rainbow-flag-1979-6-stripe in this collection) with a heart, not a version of it. Everything here is read from the upload's own 5000 by 3000 pixel image: the 3:5 proportion, six equal bars, and the colors. Inside the heart the bars are #e40303, #ff8c00, #ffed00, #008026, #004dff and #750787, each within 7 units in any channel of this collection's six-stripe rainbow (#e50000, #ff8d00, #ffee00, #028121, #004cff, #770088). Outside it they are lighter: #f28181, #ffc680, #fff680, #80c093, #80a6ff and #ba83c3, each halfway to white."
+  note "The heart is the format's heart shape, an approximation of the image's drawing, which has slightly curved sides and a deeper notch. Its radius, 0.986 of a hoist of 3, and its center, 0.99 below the top, were fitted to the hearts in this set of images, which are all the same size and place: centered across the flag, the lobes touching the top edge and the tip the bottom edge."
+}
+palette {
+  red "#e40303"
+  orange "#ff8c00"
+  yellow "#ffed00"
+  green "#008026"
+  blue "#004dff"
+  violet "#750787"
+  pale-red "#f28181"
+  pale-orange "#ffc680"
+  pale-yellow "#fff680"
+  pale-green "#80c093"
+  pale-blue "#80a6ff"
+  pale-violet "#ba83c3"
+}
+proportion hoist=3 fly=5
+
+bars pale-red pale-orange pale-yellow pale-green pale-blue pale-violet
+
+bars red orange yellow green blue violet {
+  clip {
+    heart {
+      radius 0.986
+      at fly=2.5 hoist=0.99
+    }
+  }
+}

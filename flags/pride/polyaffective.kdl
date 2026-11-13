@@ -1,0 +1,22 @@
+// 5:3, five equal bars of 0.6.
+vexyl 1
+meta {
+  name "Polyaffective Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-09-25"
+  source "https://web.archive.org/web/20200822053508/https://www.deviantart.com/nonmonoprideflags/art/Polyaffective-Pride-Flag-562382949"
+  note "NonMonoPrideFlags's DeviantArt post 'Polyaffective Pride Flag', as the Wayback Machine held it on 22 August 2020, says: 'This is my design for a Polyaffective Pride Flag. These relationships can also be called one's \"metamours\"', emotionally intimate, non-sexual connections among people connected by a polyamorous relationship. It gives no color meanings, measurements or color values. The post is dated 25 September 2015 (UTC)."
+  note "The post's image, the original file, is a JPEG of 541 by 330 pixels, 1.64:1, the size of the designer's later flags too, so no deliberate proportion is clear. This file uses the common 5:3. The image draws five equal bars, of 64 to 66 pixels each."
+  note "The colors are read from the image's pixels, which are flat in the bars: green #008040, blue #7092bf and orange #ff7f26."
+}
+palette {
+  green "#008040"
+  blue "#7092bf"
+  orange "#ff7f26"
+}
+proportion hoist=3 fly=5
+
+bars green blue orange blue green

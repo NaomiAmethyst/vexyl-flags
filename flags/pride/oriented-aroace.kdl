@@ -1,0 +1,23 @@
+// Four equal bars. 5:3 is the common proportion; the designer's image is 1493 by 879.
+vexyl 1
+meta {
+  name "Oriented aroace flag"
+  designer "biaroace (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-07-11"
+  source "https://web.archive.org/web/2019/https://biaroace.tumblr.com/post/175789820577/oriented-aroace-flag-this-flag-is-meant-to"
+  note "Designer's own Tumblr post on biaroace, read from a 2019 Wayback snapshot of the address above and dated July 11th, 2018 on the page. It says the flag represents the wider oriented aroace community, and that it may represent specific identities with a heart placed in its center; that form is not written here."
+  note "The post gives the meanings and hex codes in order: dark blue #161639, shared aroace-ness; grey #7ea2b6, tinted with a blue between ace purple and aro green, affiliation with the wider ace and aro communities; white #FFFFFF, the orientations within the community; teal green #36aea0, non-romantic and non-sexual attraction. The post's image (1280 by 754 copy of a 1493 by 879 original, fetched from Tumblr's media server) has the same values in four equal bars."
+  note "The image's 1493:879 is not a usual flag proportion and doesn't look deliberate, so the common 5:3 is used here."
+}
+palette {
+  dark-blue "#161639"
+  grey "#7ea2b6"
+  white "#ffffff"
+  teal-green "#36aea0"
+}
+proportion hoist=3 fly=5
+
+bars dark-blue grey white teal-green

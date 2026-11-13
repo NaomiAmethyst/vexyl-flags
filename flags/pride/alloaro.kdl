@@ -1,0 +1,24 @@
+// Five equal bars, 3:2, from the designer's 500 by 333 image.
+vexyl 1
+meta {
+  name "Alloaro flag"
+  designer "arotaro (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-12-27"
+  source "https://web.archive.org/web/20190217140718/https://arotaro.tumblr.com/post/181471420831"
+  note "Designer's own Tumblr post, read from the Wayback snapshot above (February 2019): 'I tried my hand at making an allosexual aromantic flag', after it was well received on the Arocalypse forum. The page dates it 12/27 without a year; the snapshot's date makes that 27 December 2018. Its tags say 'feel free to use this if you want'."
+  note "The post names the bars and meanings: green for the aromantic community and light green for lack of attraction, both kept the same as the aromantic flag's; white for diversity of sexuality; light gold for relationships; gold for inherent wholeness and worth. It gives no hex values or proportion."
+  note "Colors were read from the post's flag image (the 500 by 333 PNG Tumblr served, fetched through the Wayback Machine): #3da542, #a8d379, #ffffff, #fae34b, #e8ba00, with five equal bars of 66 or 67 pixels. The greens are within one step of those in aromantic-pride-flag. The proportion 3:2 is the image's."
+}
+palette {
+  green "#3da542"
+  light-green "#a8d379"
+  white "#ffffff"
+  light-gold "#fae34b"
+  gold "#e8ba00"
+}
+proportion hoist=2 fly=3
+
+bars green light-green white light-gold gold

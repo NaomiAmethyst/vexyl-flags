@@ -1,0 +1,23 @@
+// Four equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Inersgender flag"
+  designer "Lyric (Pride Archive, Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2014-07-15"
+  source "https://web.archive.org/web/20210701213814/https://pridearchive.tumblr.com/post/91902434946/inersgender-pride"
+  source "https://www.deviantart.com/pride-flags/art/Inersgender-Apagender-Anvisgender-556657427"
+  note "Defining source: the post 'Inersgender Pride' on the Tumblr blog Pride Archive, dated Tuesday 15 July 2014, read at the Wayback Machine snapshot above. It says 'Pride Flag Credit to me'; the blog names its mod Lyric. It credits the term to stellette and stelllarts and gives the meanings: brown for apathy and laziness, light blue for sloth, white for lack of gender, grey for confusion about one's gender. It offers anvisgender as a name without the negative sense of iners, 'lazy'; apagender is another name in use."
+  note "Colors are read from the post's flag image as archived (500 by 314 PNG, four equal bars of about 78 pixels): #7e4e1e, #b5b9f9, #ffffff, #4b4b4b. This is my sampling, not hex the designer gave. Pride-Flags' DeviantArt copy of 28 August 2015 has the same four colors in a 5000 by 3000 image. The post's image is about 5:8; the 3:5 here is the common proportion and the DeviantArt copy's, not the designer's."
+}
+palette {
+  brown "#7e4e1e"
+  light-blue "#b5b9f9"
+  white "#ffffff"
+  grey "#4b4b4b"
+}
+proportion hoist=3 fly=5
+
+bars brown light-blue white grey

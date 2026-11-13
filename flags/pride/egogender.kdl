@@ -1,0 +1,22 @@
+// Four equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Egogender flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Egogender-Charagender-1-555595107"
+  source "https://www.deviantart.com/helkie-three/art/Egogender-flag-492577656"
+  note "No defining publication was found. The earliest copy found of this design is 'Egogender / Charagender (1)' by Pride-Flags on DeviantArt, published 2015-08-22, an aggregator account, whose description says 'Flag design by' and links the DeviantArt user pastelmemer. pastelmemer's own post was not found in their gallery, so pastelmemer is not named here as designer. The description gives no meanings, hex or proportion."
+  note "An earlier, different egogender flag by Helkie-three (2014-11-04, read) has three bars, purple, cyan and blue; Pride-Flags reposted it as 'Egogender / Charagender (2)'. It is not written here."
+  note "Everything here is read from the Pride-Flags image (5000 by 3000 PNG): four equal bars of 750 pixels, black #000000, yellow #f8ff71, white #ffffff, gold #fbde3c. The 3:5 proportion is the image's. None of these values is confirmed as the designer's."
+}
+palette {
+  black "#000000"
+  yellow "#f8ff71"
+  white "#ffffff"
+  gold "#fbde3c"
+}
+proportion hoist=3 fly=5
+
+bars black yellow white gold

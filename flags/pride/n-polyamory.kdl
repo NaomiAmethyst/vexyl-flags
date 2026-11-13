@@ -1,0 +1,37 @@
+// 5:3, four equal bars of 0.75. The image is 330 pixels high, so a unit is 110 pixels, and the N is
+// placed from the image's center (270.5, 165 pixels), which is 2.5 and 1.5 here. The stroke is 0.04.
+vexyl 1
+meta {
+  name "N Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-12-27"
+  source "https://web.archive.org/web/20230714103925/https://www.deviantart.com/nonmonoprideflags/art/N-Pride-Flag-580490567"
+  note "NonMonoPrideFlags's DeviantArt post 'N Pride Flag', as the Wayback Machine held it on 14 July 2023, says: 'This is my pride flag design for N relationships', four people, generally two couples, where one member of each couple is also involved with one of the other. It gives no color meanings, measurements or color values. The post is dated 27 December 2015 (UTC)."
+  note "The post's image is a JPEG of 541 by 330 pixels, 1.64:1, as are all this designer's flags of that month, so no deliberate proportion is clear. This file uses the common 5:3. The image draws four equal bars, of 79 to 82 pixels each."
+  note "The colors are read from the image's pixels, which are flat in the bars: salmon #ff9571, red #f92d15, navy #010080 and turquoise #01c6bf. The N is a thin line, which the JPEG blurs, so its color is the median of its pixels, #fcec0d."
+  note "The N is an approximation of the designer's hand-drawn letter, built from three straight strokes with mitred joins. Its ends and joins are where the image has them, and its stroke is about 4.4 pixels, as the image's is. The designer's line has rounded ends and joins."
+}
+palette {
+  salmon "#ff9571"
+  red "#f92d15"
+  navy "#010080"
+  turquoise "#01c6bf"
+  yellow "#fcec0d"
+}
+proportion hoist=3 fly=5
+
+bars salmon red navy turquoise
+
+charge polygon yellow {
+  point fly=1.690 hoist=2.162
+  point fly=2.114 hoist=1.023
+  point fly=2.559 hoist=2.124
+  point fly=3.023 hoist=0.930
+  point fly=2.986 hoist=0.915
+  point fly=2.559 hoist=2.016
+  point fly=2.112 hoist=0.913
+  point fly=1.652 hoist=2.148
+}

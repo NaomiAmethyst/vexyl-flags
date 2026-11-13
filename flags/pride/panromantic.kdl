@@ -1,0 +1,33 @@
+// Three equal bars on 3:5, lightened outside a heart. Heart: radius 0.986, default spread, at fly 2.5 hoist 0.99.
+vexyl 1
+meta {
+  name "Panromantic flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Panromantic-5-607943608"
+  source "https://web.archive.org/web/20181217220243/https://pride-color-schemes.tumblr.com/post/146922337607/pan"
+  note "No designer's publication was found. The earliest publication read is 'Panromantic (5)' by Pride-Flags on DeviantArt, published 9 May 2016 at 22:16 Pacific time, one of a set of heart versions of orientation flags that account uploaded that night; its page gives only a definition of pan-. The Tumblr blog pride-color-schemes, run by the same people, lists it on 4 July 2016 as a 'Panromantic version with a transparent heart overlayed over it', followed by a pastel version and 'Designed by @nova-pride-flags'. Which of the links that credit covers is not clear, so no designer is named here."
+  note "Everything here is read from the upload's own 5000 by 3000 pixel image: the 3:5 proportion, three equal bars, and the colors. Inside the heart the bars are #ff218c, #ffd800 and #21b1ff, the pansexual flag's colors as its designer gave them. Outside it they are lighter: #ff90c6, #ffec80 and #90d8ff."
+  note "The heart is the format's heart shape, an approximation of the image's drawing, which has slightly curved sides and a deeper notch. Its radius, 0.986 of a hoist of 3, and its center, 0.99 below the top, were fitted to the hearts in this set of images, which are all the same size and place: centered across the flag, the lobes touching the top edge and the tip the bottom edge."
+}
+palette {
+  magenta "#ff218c"
+  yellow "#ffd800"
+  cyan "#21b1ff"
+  pale-magenta "#ff90c6"
+  pale-yellow "#ffec80"
+  pale-cyan "#90d8ff"
+}
+proportion hoist=3 fly=5
+
+bars pale-magenta pale-yellow pale-cyan
+
+bars magenta yellow cyan {
+  clip {
+    heart {
+      radius 0.986
+      at fly=2.5 hoist=0.99
+    }
+  }
+}

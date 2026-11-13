@@ -1,0 +1,26 @@
+// Five equal bars, 3:5 (the designer's 1280 by 768 image).
+vexyl 1
+meta {
+  name "Queerhet flag"
+  designer "kaestral (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2021-03-18"
+  design-rights "The designer's post says 'Please use as you wish, no need to credit me!' This file's license covers the encoding, not the design."
+  source "https://web.archive.org/web/20220903052522/https://kaestral.tumblr.com/post/646026078455037952/queerhet-flag"
+  source "https://64.media.tumblr.com/2dc73f54373933f180736fd6b7b42243/32503dc30ddcd6c2-68/s1280x1920/a2ec57793c7595ad1bffb46dfe78bd8d12b1b284.png"
+  note "Designer's own post, 'Queerhet Flag' on the Tumblr blog kaestral, dated 18 March 2021 (Wayback Machine, 3 September 2022): 'Made a queerhet flag! Queerhet - Any straight person that also exists within the LGBT community. This would include straight: Trans, Nonbinary, Intersex, Aspec, Split Attraction.' It gives no color meanings. Its first image, titled 'Flag Itself', is the flag; the others are emoji and templates made from it."
+  note "Other, different flags exist for straight queer people, also called heteroqueer, such as a seven-stripe heteroqueer flag that Pride-Flags uploaded on 10 April 2021 with 'Flag by Gayer9000'. They aren't versions of this one, and aren't written here."
+  note "The proportion, equal stripes and colors are read from the post's image, 1280 by 768 pixels (3:5): #5c8f9d, #7ecfa2, #7d8979, #dbcc91 and #bc766d."
+}
+palette {
+  teal "#5c8f9d"
+  green "#7ecfa2"
+  grey-green "#7d8979"
+  sand "#dbcc91"
+  rose "#bc766d"
+}
+proportion hoist=3 fly=5
+
+bars teal green grey-green sand rose

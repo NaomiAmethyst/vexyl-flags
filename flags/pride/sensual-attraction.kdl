@@ -1,0 +1,28 @@
+// Six bars, 2:2:1:1:1:1, on 3:5 (the 540 by 324 image's 81, 81 and four of 40.5).
+vexyl 1
+meta {
+  name "Sensual attraction flag"
+  designer "arya-fae (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20181217220146/https://pride-color-schemes.tumblr.com/post/147083424165/sensual"
+  source "https://web.archive.org/web/20181218214121/https://66.media.tumblr.com/4042957137262feaf06672fffa12e651/tumblr_inline_o9zgxo0ogK1re2bou_540.png"
+  source "https://www.deviantart.com/pride-flags/art/Sensual-Ace-Aro-557589529"
+  source "https://lgbtqia.wiki/wiki/Sensual_Attraction"
+  note "The designer's post wasn't read. 'Sensual (Ace/Aro)' by Pride-Flags on DeviantArt, published 2 September 2015, links as its source a post on the Tumblr blog pride-flags-for-us (128002409274, 'proposal for sensual flag'), which the Wayback Machine doesn't serve. The Tumblr blog pride-color-schemes, run by the same people as Pride-Flags, gives on 8 July 2016: 'a flag with six stripes. the top two stripes are each twice as wide as one of the bottom four. from top to bottom they are: black, grey, white, pink, pink-purple, purple', 'Flag designed by : arya-fae', and the meaning: 'Based on asexual flag but in the bottom it has to strips expressing different elements of sensual attraction: sight, touch, caress, hugs, kisses'."
+  note "The proportion, the 2:2:1:1:1:1 bars and the colors are read from the pride-color-schemes post's image, 540 by 324 pixels (3:5): #000000, #a3a3a3, #ffffff, #f9abff, #c17bff and #9777ff. The Pride-Flags upload's 5000 by 3000 image has the same values and bars."
+}
+palette {
+  black "#000000"
+  grey "#a3a3a3"
+  white "#ffffff"
+  pink "#f9abff"
+  pink-purple "#c17bff"
+  purple "#9777ff"
+}
+proportion hoist=3 fly=5
+
+bars black grey white pink pink-purple purple {
+  ratio 2 2 1 1 1 1
+}

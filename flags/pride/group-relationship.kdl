@@ -1,0 +1,25 @@
+// 5:3, six equal bars of 0.5.
+vexyl 1
+meta {
+  name "Group Relationship Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-12-27"
+  source "https://web.archive.org/web/20200822040833/https://www.deviantart.com/nonmonoprideflags/art/Group-Relationship-Pride-Flag-580464513"
+  note "NonMonoPrideFlags's DeviantArt post 'Group Relationship Pride Flag', as the Wayback Machine held it on 22 August 2020, says: 'This is my pride flag design for group relationships or marriages', several people forming a single unit, all considered in a relationship or married to one another, and separate from polyamory because some members may not consider themselves partnered with all the others. It lists related terms (cellular family, cluster marriage, corporate marriage, multilateral marriage, omnigamy) and gives no color meanings, measurements or color values. The post is dated 27 December 2015 (UTC)."
+  note "The post's image, the original file, is a JPEG of 541 by 330 pixels, 1.64:1, as are all this designer's flags of that month, so no deliberate proportion is clear. This file uses the common 5:3. The image draws six equal bars, of 53 to 57 pixels each."
+  note "The colors are read from the image's pixels, which are flat in the bars: periwinkle #adaeff, lavender #c7bfe6, pink #feaec9, sky #9ad9ea, cream #efe3af and lemon #ffffa5."
+}
+palette {
+  periwinkle "#adaeff"
+  lavender "#c7bfe6"
+  pink "#feaec9"
+  sky "#9ad9ea"
+  cream "#efe3af"
+  lemon "#ffffa5"
+}
+proportion hoist=3 fly=5
+
+bars periwinkle lavender pink sky cream lemon

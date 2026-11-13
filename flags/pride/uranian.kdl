@@ -1,0 +1,28 @@
+// Seven equal bars, 5:3, the proportion of the designer's 5001 by 3001 pixel image.
+vexyl 1
+meta {
+  name "Uranian flag"
+  designer "Valentin Belyaev"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-10"
+  series "uranian-flag"
+  version "plain"
+  source "https://commons.wikimedia.org/wiki/File:Uranian_pride_flag_(Gay_men_pride_flag).png"
+  source "https://commons.wikimedia.org/wiki/File:Uranian_pride_flag_with_the_sign_of_uranianism_(Gay_men_pride_flag).png"
+  source "https://lgbtqia.wiki/wiki/Uranian"
+  note "The designer, Valentin Belyaev (Валя Беляев), uploaded the flag to Wikimedia Commons himself as his own work, in two versions: one with a double male symbol in a canton, dated 8 October 2018, and this plain one, dated 9 October 2018. These are the earliest publications found, so the date is the month. lgbtqia.wiki also cites his Twitter account @gay_men_flag, which wasn't read."
+  note "His description says the flag is of mirrored shades of blue, symbolizing men's attraction to each other and the diversity of the uranian community, with blue chosen because it is used to symbolize men and uranians. It gives no hex values."
+  note "The colors are read from the plain image, 5001 by 3001 pixels, at the middle of each stripe: #083371, #1583cc, #7bade2, #f1efff, #7bade2, #1583cc and #083371. The stripes are equal, 427 or 428 pixels each. The white and the light blue are the same as the white and blue of the seven-stripe gay men's flag (gay-men-pride-flag). The image is licensed CC BY-SA 4.0 by its author."
+  note "The version with the double male symbol isn't encoded: the symbol is artwork, and its only drawing is the designer's raster image."
+}
+palette {
+  navy "#083371"
+  blue "#1583cc"
+  light-blue "#7bade2"
+  white "#f1efff"
+}
+proportion hoist=3 fly=5
+
+bars navy blue light-blue white light-blue blue navy

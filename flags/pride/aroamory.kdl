@@ -1,0 +1,25 @@
+// Six equal bars. 5:3 is the common proportion; the designer's image is 541 by 330.
+vexyl 1
+meta {
+  name "Aroamory flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2016-07-07"
+  source "https://www.deviantart.com/nonmonoprideflags/art/Aroamory-Pride-Flag-620278659"
+  note "Designer's own DeviantArt post, 'Aroamory Pride Flag', read live: 'This is my design for a Aroamory Pride Flag', with aroamory defined as a lack of romantic attraction while also not desiring any sort of romantic relationship. DeviantArt's page dates it 2016-07-07. The post gives no meanings, hex values or proportion."
+  note "The colors were read from the post's image (541 by 330 pixels as DeviantArt serves it, taken as PNG; the bar edges show JPEG ringing, so values were read mid-bar): red #ed1b24, green #3da542, light green #a8d379, white #ffffff, grey #a9a9a9, black #000000, in six equal bars of 55 pixels. Below the red, these are the aromantic flag's bars."
+  note "The image's 541:330 is not a usual flag proportion and doesn't look deliberate, so the common 5:3 is used here."
+}
+palette {
+  red "#ed1b24"
+  green "#3da542"
+  light-green "#a8d379"
+  white "#ffffff"
+  grey "#a9a9a9"
+  black "#000000"
+}
+proportion hoist=3 fly=5
+
+bars red green light-green white grey black

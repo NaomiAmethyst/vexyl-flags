@@ -1,0 +1,22 @@
+// Seven equal bars, 3:5 (the designer's 540 by 324 image).
+vexyl 1
+meta {
+  name "Pomosexual flag"
+  designer "pride-color-schemes (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20181217214044/https://pride-color-schemes.tumblr.com/post/146935072870/pomo"
+  source "https://web.archive.org/web/20181219000748/https://66.media.tumblr.com/1b0af1ec6788d21f85fa0a98573323bf/tumblr_inline_obdm3ovUpE1re2bou_540.png"
+  note "Designer's own post: 'Pomo-' on the Tumblr blog pride-color-schemes, dated 5 July 2016 and posted by its account kiloueka (Wayback Machine, 17 December 2018). It defines pomo- as an orientation where one denies or doesn't fit any labels for a kind of attraction, or 'not straight' without a more precise label. It shows two earlier designs by @pastelmemer and @lgbtrainbowdolls, then 'Pomosexual: a flag with seven stripes. from top to bottom they are: pink, light pink, white, purple, white, light pink, pink', 'Designed by : Me'. It gives no color meanings for this design. The post may have been edited after its date, so no date is given here."
+  note "The proportion, equal stripes and colors are read from the post's image, 540 by 324 pixels (3:5) with stripes of about 46: #ffaec9, #ffc6de, #ffffff, #e8cdff, #ffffff, #ffc6de and #ffaec9. The post calls the middle stripe purple; it is a pale lavender."
+}
+palette {
+  pink "#ffaec9"
+  light-pink "#ffc6de"
+  white "#ffffff"
+  lavender "#e8cdff"
+}
+proportion hoist=3 fly=5
+
+bars pink light-pink white lavender white light-pink pink

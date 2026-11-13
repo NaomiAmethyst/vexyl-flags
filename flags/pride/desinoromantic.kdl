@@ -1,0 +1,20 @@
+// Three equal bars, 5:3, from a 1153 by 692 copy.
+vexyl 1
+meta {
+  name "Desinoromantic flag"
+  designer "pastelmemer (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/2017/http://pride-color-schemes.tumblr.com/post/146776374952/desinoromantic"
+  note "The designer's own post was not found, so this is written from a secondary copy. The Tumblr blog pride-color-schemes posted the flag on 1 July 2016 (read from a 2017 Wayback snapshot of the address above), defining desinoromantic as 'liking' someone instead of 'loving' them romantically, with 'Term coined by: @pastelmemer' and 'Designed by: @pastelmemer'. Its image description reads 'a flag with three stripes. from top to bottom they are: pink, grey, green'. It gives no meanings or values."
+  note "The colors are the medians of each bar in that post's image (a 1153 by 692 JPEG, fetched from Tumblr's media server): pink #ff93ff, grey #4b4b4b, green #94ffa1. The bars are equal and the proportion 5:3 is the image's."
+}
+palette {
+  pink "#ff93ff"
+  grey "#4b4b4b"
+  green "#94ffa1"
+}
+proportion hoist=3 fly=5
+
+bars pink grey green

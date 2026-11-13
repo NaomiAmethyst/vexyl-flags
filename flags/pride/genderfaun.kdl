@@ -1,0 +1,23 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Genderfaun flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Genderfaun-683808171"
+  note "The designer is not known. The earliest copy found is 'Genderfaun' by Pride-Flags on DeviantArt, published 2017-05-31 (read), whose description says 'Designed by anonymous' and that the term was coined by Shadowofthedude. It gives the meaning: a complement to the genderfae flag, purposely avoiding pinks and reds to show the lack of femininity. It gives no hex or proportion. Whether this post was the design's first publication is not known."
+  note "Everything here is read from that image (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, #fdc689, #fff09b, #faf9cd, #ffffff, #8eded9, #8cacde, #9782ec. The 3:5 proportion is the image's. None of these values is confirmed as the designer's."
+}
+palette {
+  orange "#fdc689"
+  yellow "#fff09b"
+  cream "#faf9cd"
+  white "#ffffff"
+  aqua "#8eded9"
+  blue "#8cacde"
+  violet "#9782ec"
+}
+proportion hoist=3 fly=5
+
+bars orange yellow cream white aqua blue violet

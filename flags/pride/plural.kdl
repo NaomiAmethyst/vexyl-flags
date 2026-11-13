@@ -1,0 +1,28 @@
+// Five equal bars, 5:3, the proportion of the designer's 1280 by 768 pixel image.
+vexyl 1
+meta {
+  name "Plural flag"
+  designer "kenochoric-moved (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2022-11-21"
+  series "plural-flag"
+  version "touch-up-5-stripe"
+  source "https://web.archive.org/web/20231127145335/https://kenochoric-moved.tumblr.com/post/701557508882464768/plural-flag-touch-up"
+  source "https://64.media.tumblr.com/14b55ae50f1c98d686ac12d3d13c4f28/e8f6750e0e8fdbf4-14/s1280x1920/4c1446c62c4a5886b8efb8be418fcdfd0274423d.png"
+  source "https://web.archive.org/web/20251225074600/https://pluralpedia.org/w/Plurality"
+  note "The post 'Plural Flag touch-up' by kenochoric-moved, published 21 November 2022 (Wayback Machine, 27 November 2023), says 'this plural flag is a pretty popular one now' and that the poster touched it up: the five-stripe flags are color corrected to be brighter and more saturated than the old, greyer one, and the six-stripe flags add an orange stripe at the bottom for solidarity and plural history, the 'foundation' of the plural community. The post is tagged 'my flags', and Pluralpedia credits the flags to kenochoric-moved, but the post doesn't say who made the earlier flag, which wasn't found. This file is the touched-up five-stripe flag, the post's first image, and the date is the post's."
+  note "The post's image description: very dark pink, dark purple, lighter blue, very light green, very light yellow. The colors are read from its first image, 1280 by 768 pixels with stripes of about 153.6: #2c0624, #553476, #7675c3, #89c7b0 and #f3edbd. The 5:3 proportion is the image's. The post gives no meanings for the five colors and no hex values."
+  note "The post's other images aren't encoded: the same flag with the treblesand symbol (a treble clef combined with an ampersand) in the middle, and six-stripe versions, with and without the symbol, that add #b27d72 at the bottom."
+}
+palette {
+  dark-pink "#2c0624"
+  purple "#553476"
+  blue "#7675c3"
+  green "#89c7b0"
+  yellow "#f3edbd"
+}
+proportion hoist=3 fly=5
+
+bars dark-pink purple blue green yellow

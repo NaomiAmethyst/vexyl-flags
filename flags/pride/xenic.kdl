@@ -1,0 +1,88 @@
+// Grid 1149 by 692, the designer's full-size image in pixels. Five rectangles nest on a common
+// vertical center line at fly 574.5, each 93 in from the last at the sides; under each one but
+// the innermost runs a strip 61 high. Edges across: 93, 186, 279, 372, 465, 684, 777, 870, 963,
+// 1056. Edges down: 61, 120, 172, 231, 285, 387, 448, 509, 570, 631.
+vexyl 1
+meta {
+  name "Xenic flag"
+  designer "Hatch (abandonedabandoned, Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-11-29"
+  source "https://web.archive.org/web/20260211222146/https://abandonedabandoned.tumblr.com/post/167995310867"
+  source "https://www.deviantart.com/pride-flags/art/Xeno-aligned-Xenic-726552347"
+  source "https://lgbtqia.wiki/wiki/Xenic"
+  note "Defining source: the post 'Xenic/Xeno-Aligned' by abandonedabandoned, published 2017-11-29 UTC, read at the Wayback Machine snapshot above, in which the poster, who signs as Hatch, coins the term and shows this flag. It gives no color meanings; Pride-Flags' DeviantArt copy of 22 January 2018 quotes the designer as 'man i aint got color meanings it just Looks right', credits a later blog name, fathermartinarchimbaud, and has the same image. lgbtqia.wiki captions this design 'The xenic flag by abandonedabandoned'."
+  note "Construction and colors are read from the post's full-size image (1149 by 692 PNG, about 5:3), whose edges fall on whole pixels as listed in the header. Colors: navy #373a5e, plum #502c50 (the bottom strip), green #419462, dark green #2c502c, cyan #84c9d0, pink #d183b4, cream #fefad8, crimson #ae0046. This is my sampling, not hex the designer gave. The proportion is the image's."
+  note "An alternate xenic flag with diagonal stripes and a ringed-planet symbol, credited to schizcrow and also attributed to HuntressXD (2021), is not written here."
+}
+palette {
+  navy "#373a5e"
+  plum "#502c50"
+  green "#419462"
+  dark-green "#2c502c"
+  cyan "#84c9d0"
+  pink "#d183b4"
+  cream "#fefad8"
+  crimson "#ae0046"
+}
+proportion hoist=692 fly=1149
+
+bars navy plum {
+  ratio 631 61
+}
+
+charge rect green {
+  fly 963
+  hoist 509
+  at fly=574.5 hoist=315.5
+}
+
+charge rect dark-green {
+  fly 963
+  hoist 61
+  at fly=574.5 hoist=600.5
+}
+
+charge rect cyan {
+  fly 777
+  hoist 389
+  at fly=574.5 hoist=314.5
+}
+
+charge rect navy {
+  fly 777
+  hoist 61
+  at fly=574.5 hoist=539.5
+}
+
+charge rect pink {
+  fly 591
+  hoist 276
+  at fly=574.5 hoist=310
+}
+
+charge rect green {
+  fly 591
+  hoist 61
+  at fly=574.5 hoist=478.5
+}
+
+charge rect cream {
+  fly 405
+  hoist 156
+  at fly=574.5 hoist=309
+}
+
+charge rect cyan {
+  fly 405
+  hoist 61
+  at fly=574.5 hoist=417.5
+}
+
+charge rect crimson {
+  fly 219
+  hoist 102
+  at fly=574.5 hoist=336
+}

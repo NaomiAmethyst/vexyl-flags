@@ -1,0 +1,27 @@
+// Five bars in the ratio 3:3:3:3:4, measured from the designer's 768 by 768 image
+// (143, 146, 142, 146 and 190 pixels; derived). 5:3 is the common proportion, not the designer's.
+vexyl 1
+meta {
+  name "Angled aroace flag"
+  designer "black-aros (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2019-03-24"
+  source "https://web.archive.org/web/20200205185005/https://black-aros.tumblr.com/post/183675847932/angled-flag-if-you-read-the-tags-in-the-post-i"
+  note "Designer's own Tumblr post, 'Angled Flag', read from the Wayback snapshot above; the page's metadata dates it 2019-03-24. The blog later pointed to a second blog, official-angledaroace. The post says the yellows oppose the blue of the oriented aroace flag and echo the aroace flag's yellow and orange, the light brown stands for the grey of the aro and ace flags, and the dark brown replaces black. Its photo description lists the bars from the top: an orange-y yellow, a lighter orange-y yellow, a pastel yellow, a very light de-saturated brown and a dark brown."
+  note "The colors were read from the post's flag image (768 by 768 PNG, the file the post embeds, fetched from Tumblr's media server; the Wayback copy at 500 by 500 has the same values): #ffdb4d, #fef297, #faffb8, #eae2cc, #2d1700. The post gives no hex values."
+  note "The designer's image is square, with a deeper bottom bar; the bars are kept in its ratio, rounded to 3:3:3:3:4. The square canvas does not look like a deliberate proportion, so the common 5:3 is used here. Wiki redraws show five equal bars at 5:3."
+}
+palette {
+  yellow "#ffdb4d"
+  light-yellow "#fef297"
+  pastel-yellow "#faffb8"
+  light-brown "#eae2cc"
+  dark-brown "#2d1700"
+}
+proportion hoist=3 fly=5
+
+bars yellow light-yellow pastel-yellow light-brown dark-brown {
+  ratio 3 3 3 3 4
+}

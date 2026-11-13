@@ -1,0 +1,45 @@
+// 5:3 on a grid of 25 by 15, 200 pixels of the image to a unit: bars of 3, 1, 3, 1, 3, 1 and 3. The
+// designer's pi, with its outline, fills 2080 to 2850 pixels across and 1159 to 1839 down: 3.85 by 3.4
+// units, centered at 12.325 and 7.495. The Commons pi's box (48.5 by 42.8) is widened by 1 on each side
+// for its outline, 1.3 wide (0.1 unit, the image's 20 pixels), which makes it 3.909 by 3.467.
+vexyl 1
+meta {
+  name "Polyaffectionate Flag"
+  designer "aromanticpolyamory (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "LicenseRef-Copyrighted-Free-Use"
+  adapted-from "https://commons.wikimedia.org/wiki/File:Polyamory_Pride_Flag.svg" {
+    author "Keymap9 (the pi, from the EB Garamond typeface), revising Ratatosk's drawing"
+    license "LicenseRef-Copyrighted-Free-Use"
+    part "the pi"
+  }
+  note "The pi's outline is a glyph of the EB Garamond typeface, which is under the SIL Open Font License 1.1."
+  source "https://web.archive.org/web/20190629191126/https://www.deviantart.com/pride-flags/art/Polyaffectionate-724818194"
+  source "https://commons.wikimedia.org/wiki/File:Polyamory_Pride_Flag.svg"
+  source "https://web.archive.org/web/20120213104012/http://www.isomedia.com/homes/jene/flag.html"
+  note "The designer's own post wasn't read: lgbtqia.wiki cites an archive.ph copy (archive.ph/1lZWr), which couldn't be reached. This is written from Pride-Flags's DeviantArt reupload 'Polyaffectionate', as the Wayback Machine held it on 29 June 2019, which credits 'aromanticpolyamory' and quotes the designer: 'Since there's a polyamorous flag and a queerplatonic flag, I incorporated elements from those flags and the aromantic flag(s) to make this one! For poly aros (whether you identify as polyaffectionate or polyamorous)!' It gives no measurements or color values, and no date for the design."
+  note "From Jim Evans's polyamory flag (polyamory-pi in this collection) the design takes the pi in the middle. The pink, the white and the blue are not his colors."
+  note "The reupload's image is a PNG of 5000 by 3000 pixels, 5:3, which this file uses. It draws green, pink, blue and grey bars of 600 pixels with white bars of 200 between them, so 3:1:3:1:3:1:3. Its colors are the image's exact pixel values, and they may not be the designer's: green #a2ffa2, white #ffffff, pink #ffaec9, blue #00a2e8 and grey #7f7f7f, with the pi white outlined in black #000000."
+  note "The image's pi is a heavy upright pi, white with a black outline about 20 pixels wide, over the pink, white and blue bars. It isn't drawn here by hand. In its place is the pi of the Commons drawing of the polyamory flag, the same as polyamory-pi's, its path unchanged, in white, with a black stroke added to stand for the outline and its frame widened to hold it. It fills the box the image's pi fills, and its strokes are thinner than the image's."
+}
+palette {
+  green "#a2ffa2"
+  white "#ffffff"
+  pink "#ffaec9"
+  blue "#00a2e8"
+  grey "#7f7f7f"
+}
+proportion hoist=15 fly=25
+
+bars green white pink white blue white grey {
+  ratio 3 1 3 1 3 1 3
+}
+
+charge svg white {
+  at fly=12.325 hoist=7.495
+  fly 3.909
+  hoist 3.467
+  markup #"""
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="120.1 72.5 50.5 44.8"><path fill="currentColor" stroke="#000000" stroke-width="1.3" stroke-linejoin="round" d="M130.2 112.8c0-2.6.8-4.8 1.5-7.5l6-21c.5-1.8.3-2.7-1.9-2.7-6.6 0-9.9 1.8-12.3 9-.2.5-.2 1.4-1 1.4s-1.4-1.3-1.4-3.8c0-5.3 3.8-12.9 16.3-12.9 4.4 0 9.1.3 13.5.6 3.4.2 6.5.4 9.3.4 2.7 0 4.6-.9 6-1.6 1.1-.7 1.7-1.2 2.2-1.2 1 0 1.2.8 1.2 3 0 2.8-2.1 6.4-3.6 6.4-2.6 0-5.7-.4-7-.4-2.1 0-2.9.3-3.3 3-.4 2.8-2.3 14.5-2.3 18.4 0 2.4 1.7 3.4 3.6 3.5 1.1.1 2.3-.1 3.3-.5.8-.3 1.3-.6 1.5-.6.9 0 1 .5 1 1.5 0 3.3-2.2 8.3-7 8.3-3.3 0-6.2-3.2-6.2-9.6 0-4.8 2.5-18.6 2.5-21.7 0-1.2-.6-2.4-1.5-2.4l-7.5-.3c-1.3-.1-2 .5-2.4 2-3 11.3-3.8 18.5-4 23.2-.1 3.2.2 5.2.4 6.4.3 1.7.4 2.6-1 2.6-1.3 0-5.9-2-5.9-3.5z"/></svg>
+    """#
+}

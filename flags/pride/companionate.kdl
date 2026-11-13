@@ -1,0 +1,25 @@
+// Five equal bars, 5:3.
+vexyl 1
+meta {
+  name "Companionate Flag"
+  designer "Pride-Flags (DeviantArt)"
+  designer "An anonymous co-designer"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2016-09-11"
+  source "https://web.archive.org/web/20251028214153/https://www.deviantart.com/pride-flags/art/Companionate-633813765"
+  note "Pride-Flags's DeviantArt post 'Companionate', as the Wayback Machine held it on 28 October 2025, is the designer's own: it says 'Designed by: Anonymous and me', and credits the term to thethinkingasexual.wordpress.com. Companionate love is for people on the ace spectrum with very deep platonic relationships, as an alternative to 'queerplatonic' for those uncomfortable with 'queer'. The post is dated 11 September 2016 (UTC)."
+  note "The post gives the colors' meanings: pink and yellow at the top and bottom, the colors associated with queerplatonic relationships, and white and black for a connection with the aro and ace spectrum. It notes that the first design had yellow, pink, white and black stripes, changed because it looked too close to the 'polar-' designs. This file is the changed design the post shows: yellow, white, black, white, pink."
+  note "The post's image is a PNG of 5000 by 3000 pixels, 5:3, which this file uses. It draws five equal bars of 600 pixels, give or take one."
+  note "The colors are the image's exact pixel values: yellow #fff97d, white #ffffff, black #0f0f0f and pink #ffaedd."
+}
+palette {
+  yellow "#fff97d"
+  white "#ffffff"
+  black "#0f0f0f"
+  pink "#ffaedd"
+}
+proportion hoist=3 fly=5
+
+bars yellow white black white pink

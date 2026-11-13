@@ -1,0 +1,32 @@
+// 5:3 on a grid of 15 by 9: two equal bars of 4.5, and a middle column 5 wide of three equal bars of 3.
+vexyl 1
+meta {
+  name "Monogamish Pride Flag"
+  designer "NonMonoPrideFlags (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2015-11-28"
+  source "https://web.archive.org/web/20210630202110/https://www.deviantart.com/nonmonoprideflags/art/Monogamish-Pride-Flag-575041387"
+  source "https://web.archive.org/web/20120213104012/http://www.isomedia.com/homes/jene/flag.html"
+  note "NonMonoPrideFlags's DeviantArt post 'Monogamish Pride Flag', as the Wayback Machine held it on 30 June 2021, says: 'This is my pride flag design for monogamish relationships', a couple in a committed, socially pair-bonded partnership who agree that partners can have some outside sexual activity. It gives no color meanings, measurements or color values. The post is dated 28 November 2015 (UTC)."
+  note "The middle column has the three colors of Jim Evans's polyamory flag (polyamory-pi in this collection), blue, red and black, in his order, in the designer's own shades. The post doesn't say so, or what the grey and white stand for. The pi isn't used."
+  note "The post's image, the original file, is a JPEG of 541 by 330 pixels, 1.64:1, as are all this designer's flags of that month, so no deliberate proportion is clear. This file uses the common 5:3. The image is grey over white, 165 pixels each, with a middle column from 181 to 360 pixels of 541, a third, of three equal bars of 108 to 109 pixels."
+  note "The colors are read from the image's pixels, which are flat: grey #7f7f7f, white #ffffff, blue #3f47cc, red #ed1b24 and black #000000."
+}
+palette {
+  grey "#7f7f7f"
+  white "#ffffff"
+  blue "#3f47cc"
+  red "#ed1b24"
+  black "#000000"
+}
+proportion hoist=9 fly=15
+
+bars grey white
+
+panel {
+  fly 5
+  hoist 9
+  bars blue red black
+}

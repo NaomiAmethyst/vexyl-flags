@@ -1,0 +1,25 @@
+// Five equal bars, 5:3.
+vexyl 1
+meta {
+  name "Polyamsensual Flag"
+  designer "1nklash (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20220127040852/https://www.deviantart.com/pride-flags/art/Polyamourous-Sensual-Polyamsensual-620267111"
+  source "https://web.archive.org/web/20220120235545/https://pride-color-schemes.tumblr.com/post/147080746790/polyamalterous-polyamsensual-polyplatonic"
+  source "https://web.archive.org/web/20120213104012/http://www.isomedia.com/homes/jene/flag.html"
+  note "The designer's own post wasn't found. Pride-Flags's DeviantArt reupload 'Polyamourous Sensual / Polyamsensual', as the Wayback Machine held it on 27 January 2022 and dated 8 July 2016 (UTC), defines the term and gives the design source as 1nklash, 'based on' the polyamalterous flag. The same aggregator's Tumblr post of the same day, pride-color-schemes, says 'Flag designed by: 1nklash, based on bloodswapkankri's above design', that the three inside stripes are taken from the polyamory flag, and that the orange is for sensual attraction."
+  note "Taken from Jim Evans's polyamory flag (polyamory-pi in this collection), by that account, are the three middle bars. The reupload's image draws them red, blue and dark grey, not in Evans's blue, red and black order, and in its own shades. The pi isn't used. The layout is the polyamalterous flag's, with orange for its pale blue."
+  note "The reupload's image is a PNG of 5000 by 3000 pixels, 5:3, which this file uses. It draws five equal bars of 600 pixels, give or take one. Its colors are the image's exact pixel values, and they may not be the designer's: orange #ffc988, red #ff3535, blue #9dd6ff and grey #353535."
+  note "No date is given, because the first publication wasn't seen. The reupload is dated 8 July 2016."
+}
+palette {
+  orange "#ffc988"
+  red "#ff3535"
+  blue "#9dd6ff"
+  grey "#353535"
+}
+proportion hoist=3 fly=5
+
+bars orange red blue grey orange

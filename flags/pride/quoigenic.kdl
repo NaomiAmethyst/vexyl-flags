@@ -1,0 +1,32 @@
+// Seven equal bars on 1:2, the proportion of the designer's 2800 by 1400 pixel image.
+// The middle bar is a gradient along the fly, from the edge color at both ends to the center color.
+vexyl 1
+meta {
+  name "Quoigenic flag"
+  designer "Selenelion Aberration"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "quoigenic-flag"
+  version "normal"
+  source "https://selenated.com/flags/quoigenic"
+  source "https://cdn.selenated.com/img/a065.png"
+  source "https://web.archive.org/web/20260107142744/https://pluralpedia.org/w/Quoigenic"
+  note "The designer's own flag page, on The Aberration's site selenated.com, read on 13 November 2026, defines quoigenic as often meaning that a system doesn't know, doesn't care or is mixed in terms of origin. It gives the meanings: orange, recognition of quoigenic systems; middle orange, support for quoigenic systems in general; light orange, understanding that quoigenic doesn't just mean mixed origins; middle stripe, the diversity of the system experience and of the meanings of quoigenic; light teal, understanding that quoigenic systems can technically fall into endogenic or traumagenic categories but prefer this label; middle teal, support for quoigenic systems influenced by or created due to trauma; teal, recognition of quoigenics who haven't been through trauma or became systems for other reasons. Pluralpedia credits the flag to Selenelion Aberration. The page isn't dated, and no date is given."
+  note "The page describes this 'normal' version as seven stripes, three shades of orange darkening toward the top and three of teal darkening toward the bottom, with a middle stripe that is 'a center-meeting gradient of orange and teal'. The colors are read from its image, 2800 by 1400 pixels with stripes of exactly 200: #ffb354, #ffcc61, #ffde98, then the gradient, then #79b3b7, #579dab and #397d93. The gradient changes only along the fly, from #faddac at both edges to #b3ddd7 at the center, evenly, with slight dithering. The page gives no hex values."
+  note "The page also has a simplified version, five stripes with white in the middle, which isn't encoded here. The designer's traumagenic flag (traumagenic) has the same construction."
+}
+palette {
+  orange "#ffb354"
+  middle-orange "#ffcc61"
+  light-orange "#ffde98"
+  edge "#faddac"
+  center "#b3ddd7"
+  light-teal "#79b3b7"
+  middle-teal "#579dab"
+  teal "#397d93"
+  middle gradient edge center edge
+}
+proportion hoist=1 fly=2
+
+bars orange middle-orange light-orange middle light-teal middle-teal teal

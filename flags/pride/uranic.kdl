@@ -1,0 +1,26 @@
+// Six equal bars, 3:5 (the designer's 1280 by 768 image).
+vexyl 1
+meta {
+  name "Uranic flag"
+  designer "socialjusticeichigo (Tumblr, later loud-and-queer)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-09-17"
+  source "https://web.archive.org/web/20171008205832/http://socialjusticeichigo.tumblr.com/post/165451319627/i-tried-my-hand-at-making-some-flags-for-neptunic"
+  source "https://64.media.tumblr.com/b701f1b5c7359e7077ffed806fb05c60/tumblr_owfwzzNgw61qjbb2vo1_1280.png"
+  source "https://www.deviantart.com/pride-flags/art/Uranic-725137648"
+  note "Designer's own post on the Tumblr blog socialjusticeichigo, published 17 September 2017 per the page's data (Wayback Machine, 8 October 2017): 'I tried my hand at making some flags for Neptunic and Uranic.' It defines uranic as 'Attraction to men, agender people, and all nbs who are not female-aligned or feminine. Synonymous with nofemsexual/romantic.' The same post is at loud-and-queer.tumblr.com under the same number, the blog's later name. Pride-Flags' upload of January 2018 credits socialjusticeichigo and gives the meaning as 'Uranus colors'."
+  note "The post is a photoset of two unlabeled images, Neptunic's and Uranic's named in that order in its text, and this is the second image, the one Pride-Flags labels Uranic. The proportion, equal stripes and colors are read from it, 1280 by 768 pixels (3:5): #3b7bd6, #4fa1f0, #69c9fb, #9aebfc, #fffbde and #fff2c6. Pride-Flags' 5000 by 3000 upload has the same values."
+}
+palette {
+  blue "#3b7bd6"
+  sky-blue "#4fa1f0"
+  light-blue "#69c9fb"
+  pale-blue "#9aebfc"
+  cream "#fffbde"
+  pale-yellow "#fff2c6"
+}
+proportion hoist=3 fly=5
+
+bars blue sky-blue light-blue pale-blue cream pale-yellow

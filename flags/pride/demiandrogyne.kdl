@@ -1,0 +1,24 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Demiandrogyne flag"
+  designer "enbygsrd (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2016-09-19"
+  source "https://www.deviantart.com/enbygsrd/art/Demiandrogyne-Pride-Flag-proposal-635390157"
+  source "https://www.deviantart.com/pride-flags/art/Demiandrogyne-672617945"
+  note "Defining source: 'Demiandrogyne Pride Flag (proposal)' by enbygsrd on DeviantArt, published 2016-09-19 (read). The description says only that the gallery's designs are free to use for anything pride-related; it gives no meanings, hex or proportion. Pride-Flags reposted it on 2017-04-02 with credit to enbygsrd."
+  note "The designer's post offers only a 1024 by 615 JPEG preview, which I read: seven equal bars, grey, light grey, magenta, violet, cyan, light grey, grey. The hex values are sampled from the lossless 5000 by 3000 PNG of the Pride-Flags repost, #7f7f7f, #c3c3c3, #f9058e, #5520a9, #09c4ed, which agree with the designer's JPEG within one unit per channel (#fa058e, #5420a9, #09c4ed). They are my sampling, not hex the designer gave. The 3:5 proportion is that of both images."
+}
+palette {
+  grey "#7f7f7f"
+  light-grey "#c3c3c3"
+  magenta "#f9058e"
+  violet "#5520a9"
+  cyan "#09c4ed"
+}
+proportion hoist=3 fly=5
+
+bars grey light-grey magenta violet cyan light-grey grey

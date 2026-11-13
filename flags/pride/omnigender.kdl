@@ -1,0 +1,23 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Omnigender flag"
+  designer "hyaenahart (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://web.archive.org/web/20250123085636/https://pridearchive.tumblr.com/post/91385188201/omnisexual-omniromantic-and-omnigender-pride"
+  source "https://www.deviantart.com/pride-flags/art/Omni--Omnigender-556862309"
+  note "The designer's own post was not found. The earliest source read is 'Omnisexual, Omniromantic and Omnigender Pride' on the Tumblr blog Pride Archive, dated Thursday 10 July 2014, read at the Wayback Machine snapshot above. It credits the flag to hyaenahart and the term to victimofrebellion, quotes the coiner that omni is both a gender ('many but not all') and an orientation, and says the colors 'represent the gender binary and all genders in between'. The one flag serves the gender and the orientations; Pride-Flags' DeviantArt copy of 29 August 2015, 'Omni- / Omnigender', is the same flag, not a separate prefix flag."
+  note "Colors are read from the Pride Archive post's image as archived (415 by 288 PNG): #ffaec9, #c8bfe7, #a349a4, #7092be, #99d9ea. This is my sampling of a copy, not hex the designer gave. Its bars are 58, 53, 61, 60 and 56 pixels, taken as equal, as they are in the DeviantArt copy's 5000 by 3000 image with the same colors. Neither image is the designer's, and the 3:5 proportion is the DeviantArt copy's."
+}
+palette {
+  pink "#ffaec9"
+  lavender "#c8bfe7"
+  purple "#a349a4"
+  blue "#7092be"
+  light-blue "#99d9ea"
+}
+proportion hoist=3 fly=5
+
+bars pink lavender purple blue light-blue

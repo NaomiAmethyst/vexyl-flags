@@ -1,0 +1,27 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Transneutral flag"
+  designer "arco-pluris (Tumblr)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2018-04-27"
+  series "transneutral-flag"
+  version "btx-btnb-yellow"
+  source "https://web.archive.org/web/20220120150530/https://arco-pluris.tumblr.com/post/173358850477/btxbtnb-pride-flags"
+  source "https://lgbtqia.wiki/wiki/Transneutral"
+  note "Defining source: the post 'BTX/BTNB Pride Flags' by arco-pluris, dated 27 April 2018, read at the Wayback Machine snapshot above. It defines BTX/BTNB (binary to non-binary) as 'a transneutral or otherwise non-binary individual who considers emself as transitioning from binary to non-binary', is tagged transneutral and transsex, and shows two flags. This is the yellow one; the other has purples in its place and is not written here. lgbtqia.wiki calls this 'the most common transneutral flag', created by arco-pluris on that date, and says it uses the transgender flag's pink and blue, with yellow for non-binary or neutral identities. The post itself gives no meanings."
+  note "Construction and colors are read from the post's image (540 by 324 PNG, 5:3): seven bars of 47, 45, 47, 46, 47, 45 and 47 pixels, taken as equal, #74dfff, #fffdb3, #fffc75, #fff200, #fffc75, #fffdb3, #fe8cbf. This is my sampling, not hex the designer gave."
+  note "Pride-Flags' DeviantArt 'Transneutral (1)' and '(2)' of 5 October 2016 are earlier, different designs, in yellows, purples and greens without the pink and blue, by an unknown person."
+}
+palette {
+  blue "#74dfff"
+  pale-yellow "#fffdb3"
+  light-yellow "#fffc75"
+  yellow "#fff200"
+  pink "#fe8cbf"
+}
+proportion hoist=3 fly=5
+
+bars blue pale-yellow light-yellow yellow light-yellow pale-yellow pink

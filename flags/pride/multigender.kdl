@@ -1,0 +1,20 @@
+// Five equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Multigender flag"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  source "https://www.deviantart.com/pride-flags/art/Multigender-2-584880803"
+  source "https://lgbtqia.fandom.com/wiki/Multigender"
+  note "The designer and first publication were not found. The earliest copy read is 'Multigender (2)' by Pride-Flags on DeviantArt, published 2016-01-17 UTC (16 January, Pacific time), whose credit reads 'Designed by: [Deactivated]', so the designer's account no longer exists. The post gives no meanings; the LGBTQIA+ Wiki (Fandom) says the creator and meanings are unknown and the design was in use by 16 January 2016."
+  note "Construction and colors are read from that post's image (5000 by 3000 PNG), which is not shown to be the designer's: five bars of 601, 600, 598, 600 and 601 pixels, taken as equal, #3f47cc, #00a3e8, #fb7f27, #00a3e8, #3f47cc. The 3:5 proportion is the image's."
+}
+palette {
+  indigo "#3f47cc"
+  blue "#00a3e8"
+  orange "#fb7f27"
+}
+proportion hoist=3 fly=5
+
+bars indigo blue orange blue indigo

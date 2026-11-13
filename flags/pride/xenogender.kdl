@@ -1,0 +1,81 @@
+// Seven equal bars on a 3:5 field, measured here in thousandths of the image's 3000-pixel hoist.
+// The symbol: four half-ellipses centered at fly 2.49 on the base line, hoist 2.016, cut off below
+// it, with mid-line sizes (fly by hoist) 2.6435 by 2.176, 2.35 by 1.863, 2.06 by 1.58 and 1.734
+// by 1.334 and strokes 0.086, 0.0775, 0.0755 and 0.077; a base bar 2.742 by 0.092 below the line;
+// a five-pointed star turned point-down at fly 2.492, hoist 1.71, radius 0.311, inner 0.158.
+vexyl 1
+meta {
+  name "Xenogender flag"
+  designer "pastelmemer"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  series "xenogender-flag"
+  version "white-symbol"
+  source "https://www.deviantart.com/pride-flags/art/Xenogender-1-656548427"
+  source "https://www.deviantart.com/pride-flags/art/Xenogender-2-656548421"
+  source "https://lgbtqia.fandom.com/wiki/Xenogender"
+  note "The designer's own post was not found. The earliest source read is 'Xenogender (1)' by Pride-Flags on DeviantArt, published 2017-01-15 UTC, which credits the design to the DeviantArt user pastelmemer. It says the central symbol is the astronomical sign of the asteroid Iris, named for the goddess of the rainbow, that the colors are common shades of iris flowers, and that the middle stripe is yellow for genders unrelated to the binary. 'Xenogender (2)', posted two seconds later, is the same flag with the symbol in dark grey and is not written here."
+  note "Bars and colors are read from that post's image (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, #ff6691, #ff9997, #ffb782, #fbffa6, #84bbff, #9c84ff, #a317ff, and the symbol white. This is my sampling of a copy, not hex the designer gave. The 3:5 proportion is the image's."
+  note "The symbol is an approximation built from the format's shapes and measured from that image: four rainbow arcs as hollow half-ellipses on a base bar, and a point-down star whose points are 0.311 from its center and whose notches are 0.158. In the image the arcs are circles stretched about 1.18 times across, so their strokes are thicker at the sides than at the top; here each has one stroke, the mean of the two. The designer's drawing is not reproduced exactly."
+}
+palette {
+  red "#ff6691"
+  salmon "#ff9997"
+  orange "#ffb782"
+  yellow "#fbffa6"
+  blue "#84bbff"
+  violet "#9c84ff"
+  purple "#a317ff"
+  white "#ffffff"
+}
+proportion hoist=3 fly=5
+
+bars red salmon orange yellow blue violet purple
+
+group {
+  cut {
+    rect {
+      fly 5
+      hoist 1
+      at fly=2.5 hoist=2.516
+    }
+  }
+  charge ellipse white {
+    fly 2.6435
+    hoist 2.176
+    hollow 0.086
+    at fly=2.49 hoist=2.016
+  }
+  charge ellipse white {
+    fly 2.35
+    hoist 1.863
+    hollow 0.0775
+    at fly=2.49 hoist=2.016
+  }
+  charge ellipse white {
+    fly 2.06
+    hoist 1.58
+    hollow 0.0755
+    at fly=2.49 hoist=2.016
+  }
+  charge ellipse white {
+    fly 1.734
+    hoist 1.334
+    hollow 0.077
+    at fly=2.49 hoist=2.016
+  }
+}
+
+charge rect white {
+  fly 2.742
+  hoist 0.092
+  at fly=2.488 hoist=2.062
+}
+
+charge star white {
+  radius 0.311
+  inner 0.158
+  rotate 180
+  at fly=2.492 hoist=1.71
+}

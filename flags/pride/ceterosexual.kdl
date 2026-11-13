@@ -1,0 +1,33 @@
+// Four equal bars on 2:3, and a heart outline: radius 0.373, spread 0.581, at fly 2.25 hoist 1.071, hollow 0.149.
+vexyl 1
+meta {
+  name "Ceterosexual flag"
+  designer "SavvyRed (DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2013-10-14"
+  source "https://www.deviantart.com/savvyred/art/Proposed-Skoliosexual-Flag-407351410"
+  source "https://web.archive.org/web/20181217215130/https://pride-color-schemes.tumblr.com/tagged/ceteroromantic"
+  note "Designer's own post: 'Proposed Skoliosexual Flag' by SavvyRed on DeviantArt, published 14 October 2013. Skoliosexual was the earlier word for ceterosexual, attraction to non-binary people, and is now generally avoided, so this file uses the later name. The designer writes that they couldn't find a skoliosexual flag and made one, basing it on the meanings of colors in other pride flags: 'Yellow represents being non-binary or attracted to non-binary people. Green represents bigender, third gender, genderqueer, or other genders. White and black represent neutral genderlessness, agender, questioning gender identity, etc. The outline of the lavender heart represents love outside the gender norms.' A later edit credits the word to another user. The Tumblr blog pride-color-schemes (1 July 2016) shows this design credited to SavvyRed."
+  note "This is the original design, with the heart. A version without the heart is more often used now; its date and designer aren't known, and it isn't written here."
+  note "The colors are the designer's image's: #fffc01, #218d03, #ffffff and #000000 for the four equal bars, and #f656ea for the heart, which the post calls lavender. The image is a 438 by 300 pixel JPEG, read at the most common value in each area. Its proportion, 1.46, isn't a common one, so this file uses the nearest common proportion, 2:3, and keeps the heart's size and height in units of the hoist, centered across the flag as it is in the image."
+  note "The heart is the format's heart shape drawn as an outline, an approximation of the designer's drawing, fitted to it: radius 0.373, centers 0.581 apart, 1.071 below the top of a hoist of 3, and an outline 0.149 wide. The designer's heart has rounder, slightly curved sides, so the two outlines differ in about two fifths of their area, mostly along the edges."
+}
+palette {
+  yellow "#fffc01"
+  green "#218d03"
+  white "#ffffff"
+  black "#000000"
+  pink "#f656ea"
+}
+proportion hoist=3 fly=4.5
+
+bars yellow green white black
+
+charge heart pink {
+  radius 0.373
+  spread 0.581
+  at fly=2.25 hoist=1.071
+  hollow 0.149
+}

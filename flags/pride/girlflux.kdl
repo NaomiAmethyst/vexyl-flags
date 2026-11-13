@@ -1,0 +1,23 @@
+// Seven equal bars on a 3:5 field.
+vexyl 1
+meta {
+  name "Girlflux flag"
+  designer "Mod Hermy (Pride-Flags, DeviantArt)"
+  encoder "Naomi Persephone Amethyst"
+  license "CC-BY-SA-4.0"
+  render-license "CC0-1.0"
+  date "2017-01-19"
+  source "https://www.deviantart.com/pride-flags/art/Girlflux-Womanflux-3-658394567"
+  source "https://lgbtqia.fandom.com/wiki/Genderflux"
+  note "Defining source: 'Girlflux / Womanflux (3)' by Pride-Flags on DeviantArt, published 2017-01-19 (read). Its description says the flag was 'Designed by Mod Hermy (chosen from my flag scraps folder by anonymous)' and that the term was coined by kitsuneshay-blog. The post gives no color meanings, hex values or proportion. The boyflux flag of 8 February 2017 is its counterpart."
+  note "Construction and colors are read from the post's image (5000 by 3000 PNG): seven bars of 429, 426, 433, 424, 433, 426 and 429 pixels, taken as equal, #f9e6d6, #f3526c, #c00310, #e9c587, #c00310, #f3526c, #f9e6d6. This is my sampling, not hex the designer gave. The 3:5 proportion is the image's."
+}
+palette {
+  cream "#f9e6d6"
+  pink "#f3526c"
+  red "#c00310"
+  gold "#e9c587"
+}
+proportion hoist=3 fly=5
+
+bars cream pink red gold red pink cream
